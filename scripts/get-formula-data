@@ -19,7 +19,7 @@ for tap in "${taps[@]}"; do
     for i in $(comm -23 <(ls $formula_path | sed -E 's#[.]rb$##g' | sort) <(ls $target | sed -E 's#[.]json$##g' | sort)); do
         pkg=$i
         echo "Constructing entry for '$pkg'..."
-        create_date=$(git -C $formula_path log --diff-filter=A --oneline --format='.date_added="%ci"' --date=iso -- $pkg.rb)
+        create_date=$(git -C $formula_path log --diff-filter=A --oneline --format='.date_added="%cI"' --date=iso -- $pkg.rb)
         echo $create_date
         brew info $pkg --json | jq ".[] | $create_date" >$target/$pkg.json
     done
