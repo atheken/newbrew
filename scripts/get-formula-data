@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
+
+pushd $workdir
+brew update
+
+taps=('homebrew/core')
+
+for tap in "${taps[@]}"; do
+    echo making $tap dir.
+    target=./data/$tap
+    # make the target directory if it does not exist, but ignore if it already exists (|| true)
+    mkdir -p $target || true
+
+    formula_path=$(brew --repo $tap)/Formula
+
+    for i in $(comm -23 <(ls $formula_path | sed -E 's#[.]rb$##g' | sort) <(ls $target | sed -E 's#[.]json$##g' | sort)); do
+        pkg=$i
+        echo "Constructing entry for '$pkg'..."
+        create_date=$(git -C $formula_path log --diff-filter=A --oneline --format='.date_added="%ci"' --date=iso -- $pkg.rb)
+        echo $create_date
+        brew info $pkg --json | jq ".[] | $create_date" >$target/$pkg.json
+    done
+
+done
+
+popd
