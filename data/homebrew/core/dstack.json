@@ -1,0 +1,116 @@
+{
+  "name": "dstack",
+  "full_name": "dstack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ML workflow orchestration system designed for reproducibility and collaboration",
+  "license": "MPL-2.0",
+  "homepage": "https://docs.dstack.ai/",
+  "versions": {
+    "stable": "0.10.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/bb/a8/7c6816c1934df51323af6cc509ed3b3d5460e428039d423daa09e99f50f7/dstack-0.10.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "10dc0c0bd629738558c6497cabf1c28e574cc45bece6e9eab6ade623c87a6ac0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:71829e96c07950696d0de19fcb28f582771f7619b67f9208fb80453d9b0353ae",
+          "sha256": "71829e96c07950696d0de19fcb28f582771f7619b67f9208fb80453d9b0353ae"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:84c347f4f95df6d5ecae1d0a20da2e05b0481b66fa0496be83e8273c3bab8fcd",
+          "sha256": "84c347f4f95df6d5ecae1d0a20da2e05b0481b66fa0496be83e8273c3bab8fcd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:b5572e753065ddaf81e102a8b739b61d438fcf4aa93cd37573cb144e79fd23b0",
+          "sha256": "b5572e753065ddaf81e102a8b739b61d438fcf4aa93cd37573cb144e79fd23b0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:d6aee7ca7193866ef9c50d993e69d444881ce3463e422b0fbe07693913e0f2cc",
+          "sha256": "d6aee7ca7193866ef9c50d993e69d444881ce3463e422b0fbe07693913e0f2cc"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:11674c588702642096aca27364bf7f8e32f885b6ec1ba89a3dc697487768b16d",
+          "sha256": "11674c588702642096aca27364bf7f8e32f885b6ec1ba89a3dc697487768b16d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:ec45a93fe6eea38d4c2596b5ee3469dc48b2ca347913f07f5411d5d1bfac5a15",
+          "sha256": "ec45a93fe6eea38d4c2596b5ee3469dc48b2ca347913f07f5411d5d1bfac5a15"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dstack/blobs/sha256:8e0012bba6cb9b1cca0834efe3e69153dcacf9481943e804d53de45693f6d8eb",
+          "sha256": "8e0012bba6cb9b1cca0834efe3e69153dcacf9481943e804d53de45693f6d8eb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "protobuf",
+    "pycparser",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dstack.rb",
+  "ruby_source_checksum": {
+    "sha256": "6856992eb1b5e10421ae457caa4bc24f2b357d6b3e31c4a203e9f071f88f02e7"
+  },
+  "date_added": "2023-01-19T06:28:44+00:00"
+}

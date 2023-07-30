@@ -1,0 +1,103 @@
+{
+  "name": "abcmidi",
+  "full_name": "abcmidi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Converts abc music notation files to MIDI files",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://ifdo.ca/~seymour/runabc/top.html",
+  "versions": {
+    "stable": "2023.06.25",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ifdo.ca/~seymour/runabc/abcMIDI-2023.06.25.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "0521cb35472a08c2af21de080488e763faf4ecd1dc4adf1a3b017c5011f88b57"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:911a0800ff4a550ea40ff6204f2963ea77a7707385088ad2f4400ff0e9cbf394",
+          "sha256": "911a0800ff4a550ea40ff6204f2963ea77a7707385088ad2f4400ff0e9cbf394"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:946ee3a669030bf5f46df950790867fe8fbc13b97ad68058b2262af130284cea",
+          "sha256": "946ee3a669030bf5f46df950790867fe8fbc13b97ad68058b2262af130284cea"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:9d8a01c9ff102954eae279ef4079f8912b49eaf123c7b7e5bf422a0bb3e5c1ec",
+          "sha256": "9d8a01c9ff102954eae279ef4079f8912b49eaf123c7b7e5bf422a0bb3e5c1ec"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:132480a8ded6de38e48217e0e205b15ef37cefe920ead4903081c56a1f8925cf",
+          "sha256": "132480a8ded6de38e48217e0e205b15ef37cefe920ead4903081c56a1f8925cf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:0f1ac43fd05d8328af23275576f1346561ae8f2f3dcab789a40ee49b4641074a",
+          "sha256": "0f1ac43fd05d8328af23275576f1346561ae8f2f3dcab789a40ee49b4641074a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:7769ab9f252e77886ab2a93a88e3aea60bfe39c9c13a2a23fab6144c1846e2c2",
+          "sha256": "7769ab9f252e77886ab2a93a88e3aea60bfe39c9c13a2a23fab6144c1846e2c2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abcmidi/blobs/sha256:a66244ad5578c92747ed60ae5fa0b7bf3a342d01f9fef794e5ca82f6284efa0d",
+          "sha256": "a66244ad5578c92747ed60ae5fa0b7bf3a342d01f9fef794e5ca82f6284efa0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/abcmidi.rb",
+  "ruby_source_checksum": {
+    "sha256": "22ff4273b6b34b59d019bcfa906a49c271ba473b90666fb00b52516289ce6600"
+  },
+  "date_added": "2012-08-29T10:57:30-07:00"
+}

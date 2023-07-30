@@ -1,0 +1,111 @@
+{
+  "name": "autorestic",
+  "full_name": "autorestic",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High level CLI utility for restic",
+  "license": "Apache-2.0",
+  "homepage": "https://autorestic.vercel.app/",
+  "versions": {
+    "stable": "1.7.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cupcakearmy/autorestic/archive/v1.7.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f2c38729882e7d0529347ab115e7ce068f6062677a63c92eb4bd0efc1ae67cbb"
+    },
+    "head": {
+      "url": "https://github.com/cupcakearmy/autorestic.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b",
+          "sha256": "038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b",
+          "sha256": "038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b",
+          "sha256": "038a4cc1f761cdb7487b3f23344229c8ded9cf9fdb40a2e9aaa4b5854b76962b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f",
+          "sha256": "00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f",
+          "sha256": "00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f",
+          "sha256": "00491c3ed12f5f38a3622879a06d3d754a5b666967b0fc96955cc014ba9afd8f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorestic/blobs/sha256:6c7e82dbdcbb94061ec566cfea21785bfeec10c4ae3fbb096bba12b407cecbaf",
+          "sha256": "6c7e82dbdcbb94061ec566cfea21785bfeec10c4ae3fbb096bba12b407cecbaf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "restic"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/autorestic.rb",
+  "ruby_source_checksum": {
+    "sha256": "48598047ab9389760b43cb774a622dcada3cf55436e6f0c0e9d4c92e3f29a0e5"
+  },
+  "date_added": "2021-04-29T13:09:50+00:00"
+}

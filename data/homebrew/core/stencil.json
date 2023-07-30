@@ -1,0 +1,109 @@
+{
+  "name": "stencil",
+  "full_name": "stencil",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Smart templating engine for service development",
+  "license": "Apache-2.0",
+  "homepage": "https://engineering.outreach.io/stencil/",
+  "versions": {
+    "stable": "1.36.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/getoutreach/stencil/archive/refs/tags/v1.36.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a89556d78ea38d2284520b43b3de7e999f11722fccde7996fd02d2f65bb23ce8"
+    },
+    "head": {
+      "url": "https://github.com/getoutreach/stencil.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba",
+          "sha256": "d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba",
+          "sha256": "d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba",
+          "sha256": "d768371f799b16ac19cabf5c5853dba3fe1b226d1a75187ba0c706bb4a7bd4ba"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b",
+          "sha256": "8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b",
+          "sha256": "8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b",
+          "sha256": "8a850ec7f204eb992b644b4ca453334437bd61d56418a134936623d489b9e32b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stencil/blobs/sha256:45feae1ca215171adecfbf6574d590e4aed2fd1cabd50e78bbc92fe0b923d881",
+          "sha256": "45feae1ca215171adecfbf6574d590e4aed2fd1cabd50e78bbc92fe0b923d881"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stencil.rb",
+  "ruby_source_checksum": {
+    "sha256": "d8cf7649aa94178cb9c3e636627dcabc1c60277860da7135c3f174b189adcf9a"
+  },
+  "date_added": "2022-06-03T15:16:15+00:00"
+}

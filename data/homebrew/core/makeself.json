@@ -1,0 +1,77 @@
+{
+  "name": "makeself",
+  "full_name": "makeself",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Generates a self-extracting compressed tar archive",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://makeself.io/",
+  "versions": {
+    "stable": "2.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/megastep/makeself/archive/release-2.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "705d0376db9109a8ef1d4f3876c9997ee6bed454a23619e1dbc03d25033e46ea"
+    },
+    "head": {
+      "url": "https://github.com/megastep/makeself.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makeself/blobs/sha256:b3a72be9c86fc9bab224745ea276baf2ab23742c3e57cabe4fa22e76b1d6d43c",
+          "sha256": "b3a72be9c86fc9bab224745ea276baf2ab23742c3e57cabe4fa22e76b1d6d43c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/makeself.rb",
+  "ruby_source_checksum": {
+    "sha256": "0207a62b6afdd0be1bc77f28f0619e154f71a558f6da873f5c069d5b96f63b42"
+  },
+  "date_added": "2014-09-02T15:19:45+01:00"
+}

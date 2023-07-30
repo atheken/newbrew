@@ -1,0 +1,120 @@
+{
+  "name": "surfraw",
+  "full_name": "surfraw",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Shell Users' Revolutionary Front Rage Against the Web",
+  "license": "Public Domain",
+  "homepage": "https://gitlab.com/surfraw/Surfraw",
+  "versions": {
+    "stable": "2.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.openbsd.org/pub/OpenBSD/distfiles/surfraw-2.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ad0420583c8cdd84a31437e59536f8070f15ba4585598d82638b950e5c5c3625"
+    },
+    "head": {
+      "url": "https://gitlab.com/surfraw/Surfraw.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:eafd188589a5aaa870da8aa6e44a6e970dfed59dac958b3abc426414f670061d",
+          "sha256": "eafd188589a5aaa870da8aa6e44a6e970dfed59dac958b3abc426414f670061d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:eafd188589a5aaa870da8aa6e44a6e970dfed59dac958b3abc426414f670061d",
+          "sha256": "eafd188589a5aaa870da8aa6e44a6e970dfed59dac958b3abc426414f670061d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:004471f242a93bd3cfeee2fe7ab6e06b4fecc83e0df9f2bc28a1048fea431eaa",
+          "sha256": "004471f242a93bd3cfeee2fe7ab6e06b4fecc83e0df9f2bc28a1048fea431eaa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:4cab376ccfaadef6faed89f0f7fcb8cb2a160dfe1219c8138a2debe3dedd0ae2",
+          "sha256": "4cab376ccfaadef6faed89f0f7fcb8cb2a160dfe1219c8138a2debe3dedd0ae2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:4cab376ccfaadef6faed89f0f7fcb8cb2a160dfe1219c8138a2debe3dedd0ae2",
+          "sha256": "4cab376ccfaadef6faed89f0f7fcb8cb2a160dfe1219c8138a2debe3dedd0ae2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:b24dbd4f8a768ca2192578897e2285490687a9e5e6d5b92558e3f6d83e92919d",
+          "sha256": "b24dbd4f8a768ca2192578897e2285490687a9e5e6d5b92558e3f6d83e92919d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/surfraw/blobs/sha256:8b1b358e902cb7ca1a8477e5fe4953ed7b0dcea29717e9f14328ff6fe60e922a",
+          "sha256": "8b1b358e902cb7ca1a8477e5fe4953ed7b0dcea29717e9f14328ff6fe60e922a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/surfraw.rb",
+  "ruby_source_checksum": {
+    "sha256": "17e15bec5ace0f2305be0dc7df5b96022abe7d42987c50c346d1f73c9c38df99"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-05-12T08:59:29-07:00"
+}

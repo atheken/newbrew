@@ -1,0 +1,126 @@
+{
+  "name": "certbot",
+  "full_name": "certbot",
+  "tap": "homebrew/core",
+  "oldname": "letsencrypt",
+  "oldnames": [
+    "letsencrypt"
+  ],
+  "aliases": [
+    "letsencrypt"
+  ],
+  "versioned_formulae": [],
+  "desc": "Tool to obtain certs from Let's Encrypt and autoenable HTTPS",
+  "license": "Apache-2.0",
+  "homepage": "https://certbot.eff.org/",
+  "versions": {
+    "stable": "2.6.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/0e/fd/192cb7d79f798432b1b2e7a9998b2f12dd589c50ff88e31553d95143b01c/certbot-2.6.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c4de6bb0d092729650ed90a5bdb513932bdc47ec5f7f98049180ab8e4a835dab"
+    },
+    "head": {
+      "url": "https://github.com/certbot/certbot.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:52f4907a930492ef5ec011ce675a6b8dcb1a4be3a002c355449e7b3caf11ffa6",
+          "sha256": "52f4907a930492ef5ec011ce675a6b8dcb1a4be3a002c355449e7b3caf11ffa6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:8cdc515cbe9fbcb044cd7c3bf97b61b099de31df289d2180ba0953d11d910444",
+          "sha256": "8cdc515cbe9fbcb044cd7c3bf97b61b099de31df289d2180ba0953d11d910444"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:39e140677fa4d8d8be6c3bcf30105b9efec991c47e8abeff96c922329c39bc49",
+          "sha256": "39e140677fa4d8d8be6c3bcf30105b9efec991c47e8abeff96c922329c39bc49"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:a4b3c12ac11922c0874abf735b4c356228260d8f118cd158550c16cacb1617d2",
+          "sha256": "a4b3c12ac11922c0874abf735b4c356228260d8f118cd158550c16cacb1617d2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:3660f7d83ba3c77d7fb75eddb1c8690f559b90eda062da6d3247593880a15c66",
+          "sha256": "3660f7d83ba3c77d7fb75eddb1c8690f559b90eda062da6d3247593880a15c66"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:4410e9560c354890494d2e3171fb7ba055e29730660c99a0896f2a4f98a177b7",
+          "sha256": "4410e9560c354890494d2e3171fb7ba055e29730660c99a0896f2a4f98a177b7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/certbot/blobs/sha256:b1ceb02d4086d6754418d9f0a66611d0f9630248702f19ff7c63849619d48384",
+          "sha256": "b1ceb02d4086d6754418d9f0a66611d0f9630248702f19ff7c63849619d48384"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "augeas",
+    "cffi",
+    "dialog",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/certbot.rb",
+  "ruby_source_checksum": {
+    "sha256": "f97f2c89af994f13fd8fabf92afe99d20888efddb58c8ccef7ea016ccafae8d3"
+  },
+  "date_added": "2016-05-07T23:03:35-07:00"
+}

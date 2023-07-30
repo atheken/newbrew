@@ -1,0 +1,123 @@
+{
+  "name": "ijq",
+  "full_name": "ijq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Interactive jq",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://sr.ht/~gpanders/ijq/",
+  "versions": {
+    "stable": "0.4.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.sr.ht/~gpanders/ijq",
+      "tag": "v0.4.1",
+      "revision": "22034bea72c80db75cb8aa9fdd5808940bd45fd4",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://git.sr.ht/~gpanders/ijq",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:564d6d6f157700d1d0869d3340186bbf6bf8325314954804d8d9dbea45d9fe63",
+          "sha256": "564d6d6f157700d1d0869d3340186bbf6bf8325314954804d8d9dbea45d9fe63"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:9a7ea5d89f9eb6e575d2b4f3a5667364d03fccb1373207e6f6f226544f23a3d0",
+          "sha256": "9a7ea5d89f9eb6e575d2b4f3a5667364d03fccb1373207e6f6f226544f23a3d0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:f215c334ffea9e2ddf51319ac5b80a9b0ecab7e1d652ac8b72eb22534a8dae05",
+          "sha256": "f215c334ffea9e2ddf51319ac5b80a9b0ecab7e1d652ac8b72eb22534a8dae05"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:db72d1ed855f451cfb0e8e4f5ef6565e89b273e26d22635186aeb7a764eca033",
+          "sha256": "db72d1ed855f451cfb0e8e4f5ef6565e89b273e26d22635186aeb7a764eca033"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:47a030fd33f08d4888a73b3ac03135fb8493bfabeaeea13231143393cfb42be3",
+          "sha256": "47a030fd33f08d4888a73b3ac03135fb8493bfabeaeea13231143393cfb42be3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:16b7b6a8c95d9a8ba5b2f5610438c70b0b139e279910f88e823bb1239e53ed7d",
+          "sha256": "16b7b6a8c95d9a8ba5b2f5610438c70b0b139e279910f88e823bb1239e53ed7d"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:022500c720f8926ae3e758f20c3290d60e0bdd4393ed118dc0c38c140d59cedf",
+          "sha256": "022500c720f8926ae3e758f20c3290d60e0bdd4393ed118dc0c38c140d59cedf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ijq/blobs/sha256:d748a577f085a1c6a7a1ee841c95b4805604f8e42b6531ada40ee82907e89cd0",
+          "sha256": "d748a577f085a1c6a7a1ee841c95b4805604f8e42b6531ada40ee82907e89cd0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "scdoc"
+  ],
+  "dependencies": [
+    "jq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ijq.rb",
+  "ruby_source_checksum": {
+    "sha256": "68ba397c48cad425fcb3a5b89db8ce548d445572eeb56d28b1ad64a36834e4dd"
+  },
+  "date_added": "2022-07-01T20:30:27+00:00"
+}

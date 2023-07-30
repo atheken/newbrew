@@ -1,0 +1,111 @@
+{
+  "name": "libmatio",
+  "full_name": "libmatio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for reading and writing MATLAB MAT files",
+  "license": "BSD-2-Clause",
+  "homepage": "https://matio.sourceforge.io/",
+  "versions": {
+    "stable": "1.5.23",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/matio/matio/1.5.23/matio-1.5.23.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9f91eae661df46ea53c311a1b2dcff72051095b023c612d7cbfc09406c9f4d6e"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:692ff91102a1882368444eaffb2b4134f25550f2792698d1fd36337f318e8465",
+          "sha256": "692ff91102a1882368444eaffb2b4134f25550f2792698d1fd36337f318e8465"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:779a488063e24d4d9ab188be23f94f53155d5014a478d55500ef27c26fb2911b",
+          "sha256": "779a488063e24d4d9ab188be23f94f53155d5014a478d55500ef27c26fb2911b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:0a0c9260534dfe974fa4bd9ca28c26e321db5b2e36c53494c1e56a6f79c00ee4",
+          "sha256": "0a0c9260534dfe974fa4bd9ca28c26e321db5b2e36c53494c1e56a6f79c00ee4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:7b6ded7eaa0c7e18c0e4a3835a0bcfde53878416ac82d816adba21a622911d61",
+          "sha256": "7b6ded7eaa0c7e18c0e4a3835a0bcfde53878416ac82d816adba21a622911d61"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:e93c4b9479da91da21e25673bd9ca8f6d752cafd65c302fa37477e1ed6743465",
+          "sha256": "e93c4b9479da91da21e25673bd9ca8f6d752cafd65c302fa37477e1ed6743465"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:b0d10fef3792de609e10b14720f5c632e4c179273de51de3da07a13d2ae7ae3d",
+          "sha256": "b0d10fef3792de609e10b14720f5c632e4c179273de51de3da07a13d2ae7ae3d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libmatio/blobs/sha256:93c7c6f5e6fff8637b9e7fd5467057e1662546e7e44a00db08743f12eab6b838",
+          "sha256": "93c7c6f5e6fff8637b9e7fd5467057e1662546e7e44a00db08743f12eab6b838"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "hdf5"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libmatio.rb",
+  "ruby_source_checksum": {
+    "sha256": "0088693a8fdbc771ae3bce9c8dbc893fb259d67671665d4755e01bf7fe66510a"
+  },
+  "date_added": "2012-09-07T09:20:13-07:00"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "embree",
+  "full_name": "embree",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance ray tracing kernels",
+  "license": "Apache-2.0",
+  "homepage": "https://embree.github.io/",
+  "versions": {
+    "stable": "4.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/embree/embree/archive/v4.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "117efd87d6dddbf7b164edd94b0bc057da69d6422a25366283cded57ed94738b"
+    },
+    "head": {
+      "url": "https://github.com/embree/embree.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:2261fe69114ce6a0956c40606781a566063486c28f9f5a2553c6cdbd96d69f33",
+          "sha256": "2261fe69114ce6a0956c40606781a566063486c28f9f5a2553c6cdbd96d69f33"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:44dbb124c76006ca031901d771cc3ef486f5b9a5a28c9c184f188f24977483ec",
+          "sha256": "44dbb124c76006ca031901d771cc3ef486f5b9a5a28c9c184f188f24977483ec"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:b3272667d14223536df68132129e28b4fa6eadc1e8d1029f3c690f1687200548",
+          "sha256": "b3272667d14223536df68132129e28b4fa6eadc1e8d1029f3c690f1687200548"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:d71a66af2cf6fbad76a0d23d87d74608daa146d00b119e469ab97a168c3006f0",
+          "sha256": "d71a66af2cf6fbad76a0d23d87d74608daa146d00b119e469ab97a168c3006f0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:ebcc7f2a4b73e3aeffd23aa0dd9d161de07fcf449272e42ab1268e4d14fbb713",
+          "sha256": "ebcc7f2a4b73e3aeffd23aa0dd9d161de07fcf449272e42ab1268e4d14fbb713"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:e2e1ea492dbaf6710a82953d792a8b5f7721cbb74faf07e014aea9a234a89606",
+          "sha256": "e2e1ea492dbaf6710a82953d792a8b5f7721cbb74faf07e014aea9a234a89606"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/embree/blobs/sha256:3e2c4848faffce311d57a3e2b2423ed3221c3a5b145f02881fa795c63171fd38",
+          "sha256": "3e2c4848faffce311d57a3e2b2423ed3221c3a5b145f02881fa795c63171fd38"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "ispc"
+  ],
+  "dependencies": [
+    "tbb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/embree.rb",
+  "ruby_source_checksum": {
+    "sha256": "5258af67e125b3188df64204c9dbdd37a7fc8fc502af8c77d31b81c47b25bc07"
+  },
+  "date_added": "2019-04-04T09:04:26+02:00"
+}

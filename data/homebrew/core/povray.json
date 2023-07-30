@@ -1,0 +1,117 @@
+{
+  "name": "povray",
+  "full_name": "povray",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Persistence Of Vision RAYtracer (POVRAY)",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://www.povray.org/",
+  "versions": {
+    "stable": "3.7.0.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/POV-Ray/povray/archive/v3.7.0.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7bee83d9296b98b7956eb94210cf30aa5c1bbeada8ef6b93bb52228bbc83abff"
+    },
+    "head": {
+      "url": "https://github.com/POV-Ray/povray.git",
+      "branch": "master"
+    }
+  },
+  "revision": 7,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:92ce02da2ae0eea57acb586fc919264b4918f7696405a7c6a8b66c4d920a0c7d",
+          "sha256": "92ce02da2ae0eea57acb586fc919264b4918f7696405a7c6a8b66c4d920a0c7d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:aace1bf57f9bba4f26b714a494d388c6b98efd8970130f72774bb658616760ac",
+          "sha256": "aace1bf57f9bba4f26b714a494d388c6b98efd8970130f72774bb658616760ac"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:3869e58d10d1caa2c94dcfd31c45e01e4b7ea71f99bba45992edd56904732c66",
+          "sha256": "3869e58d10d1caa2c94dcfd31c45e01e4b7ea71f99bba45992edd56904732c66"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:09afcc0eea5c0093285c6c50b5bc24353d20e2835f9f762df69f6d34d66c2d06",
+          "sha256": "09afcc0eea5c0093285c6c50b5bc24353d20e2835f9f762df69f6d34d66c2d06"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:bb416493be670f03c49257472d316dc361822fada5826b932a02778d6072d0e2",
+          "sha256": "bb416493be670f03c49257472d316dc361822fada5826b932a02778d6072d0e2"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:017544d66e4526704f389e2d264fa05681e33a0b4a9091dd0d6b6e6d195516a0",
+          "sha256": "017544d66e4526704f389e2d264fa05681e33a0b4a9091dd0d6b6e6d195516a0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/povray/blobs/sha256:d35eb08021e4827ebba4d68c8d64107e90c32103fe32445de6bb0fa8b0de9b17",
+          "sha256": "d35eb08021e4827ebba4d68c8d64107e90c32103fe32445de6bb0fa8b0de9b17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [
+    "boost",
+    "imath",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "openexr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/povray.rb",
+  "ruby_source_checksum": {
+    "sha256": "738fb05deaeb56e7d7fbf33ecd14ebcf897dbe12b07dd0fd783e613ae8958adc"
+  },
+  "date_added": "2010-02-05T16:07:44+01:00"
+}

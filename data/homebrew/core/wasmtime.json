@@ -1,0 +1,109 @@
+{
+  "name": "wasmtime",
+  "full_name": "wasmtime",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+  "license": "Apache-2.0 with LLVM-exception",
+  "homepage": "https://wasmtime.dev/",
+  "versions": {
+    "stable": "11.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/bytecodealliance/wasmtime.git",
+      "tag": "v11.0.1",
+      "revision": "acd0a9e7446710f67f4fd15da20a1870936ed0ed",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/bytecodealliance/wasmtime.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:4ef9e44e30eb89cab43b2c52ab7dbf231f4ca455637d95303edd5e6e0644b6d4",
+          "sha256": "4ef9e44e30eb89cab43b2c52ab7dbf231f4ca455637d95303edd5e6e0644b6d4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:9da419c5a7df72173c6bd1831bfec1dee4ded3e1f1ae3f591b8fb1a18415f371",
+          "sha256": "9da419c5a7df72173c6bd1831bfec1dee4ded3e1f1ae3f591b8fb1a18415f371"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:21b62a68165bee2e81fcc33ff81f5eb491affb9022f27cbcfa6a8f7b51396e73",
+          "sha256": "21b62a68165bee2e81fcc33ff81f5eb491affb9022f27cbcfa6a8f7b51396e73"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:b34f08dfd634cb752700683ec6edd1df3b451f1a706135a95bff4482a8e993a4",
+          "sha256": "b34f08dfd634cb752700683ec6edd1df3b451f1a706135a95bff4482a8e993a4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:50267885a832699a2b1e4f0354843ad9af54e69adbbd9d59555cfc424bb4a22e",
+          "sha256": "50267885a832699a2b1e4f0354843ad9af54e69adbbd9d59555cfc424bb4a22e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:5dc1fbecfee8c917dee48a1b04833142dd2f913bc08512b96bd4a0a14d3f5e66",
+          "sha256": "5dc1fbecfee8c917dee48a1b04833142dd2f913bc08512b96bd4a0a14d3f5e66"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasmtime/blobs/sha256:ac902db833ca0355cd78f15e9fd926316c3a673944fa81c4546a887fc9f7d859",
+          "sha256": "ac902db833ca0355cd78f15e9fd926316c3a673944fa81c4546a887fc9f7d859"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wasmtime.rb",
+  "ruby_source_checksum": {
+    "sha256": "6ead9e51029968b26f6ba97e96307b6ec0d08b9c60c5ad5589d775c036c6111d"
+  },
+  "date_added": "2021-06-23T22:53:01+00:00"
+}

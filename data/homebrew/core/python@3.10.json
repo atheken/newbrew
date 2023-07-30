@@ -1,0 +1,134 @@
+{
+  "name": "python@3.10",
+  "full_name": "python@3.10",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "python@3.11",
+    "python@3.9",
+    "python@3.8",
+    "python@3.7"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.10.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a43cd383f3999a6f4a7db2062b2fc9594fefa73e175b3aedafa295a51a7bb65c"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:6216eae8dd6d350750c7c0b9ee4ec65669fe3c27134ee76b03152b6c308ba726",
+          "sha256": "6216eae8dd6d350750c7c0b9ee4ec65669fe3c27134ee76b03152b6c308ba726"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:3a7d1c6de5f9a9d1929fa7781c5bd089a5c1d6e6cf0e735b9160985cdb37cb1d",
+          "sha256": "3a7d1c6de5f9a9d1929fa7781c5bd089a5c1d6e6cf0e735b9160985cdb37cb1d"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:0a3ec3ec972b3b2aaa05c4867df8d7eb13d08f0fa4b65257babe82a9206de152",
+          "sha256": "0a3ec3ec972b3b2aaa05c4867df8d7eb13d08f0fa4b65257babe82a9206de152"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:14efaf053c14b41a0d5991f7ae97be3f3e63e7025791dcac9680f0d93b80e2a4",
+          "sha256": "14efaf053c14b41a0d5991f7ae97be3f3e63e7025791dcac9680f0d93b80e2a4"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:17ac211cd24ab5cc72d86bbd6be10a82054619503f7129f058b00118e0a0f815",
+          "sha256": "17ac211cd24ab5cc72d86bbd6be10a82054619503f7129f058b00118e0a0f815"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:27679a6dab4dfde23f6a552b2a21534adae92a3c25ca04ee66825fd0e454ffea",
+          "sha256": "27679a6dab4dfde23f6a552b2a21534adae92a3c25ca04ee66825fd0e454ffea"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:7c2155d34bf4c48014012461daad6656b79ee3cd8c616e96b8aef98d0dd053e7",
+          "sha256": "7c2155d34bf4c48014012461daad6656b79ee3cd8c616e96b8aef98d0dd053e7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdbm",
+    "mpdecimal",
+    "openssl@3",
+    "readline",
+    "sqlite",
+    "xz",
+    "libnsl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "libffi",
+    "libxcrypt",
+    "ncurses",
+    "unzip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.10\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.10`, `python3.10-config`, `pip3.10` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.10/libexec/bin\n\nYou can install Python packages with\n  pip3.10 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.10/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.10\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/python@3.10.rb",
+  "ruby_source_checksum": {
+    "sha256": "a52d26e7f45df1213e54431586a880e44fba47e0e5e5b1542dad3bba246c8b84"
+  },
+  "date_added": "2021-10-05T03:31:29+00:00"
+}

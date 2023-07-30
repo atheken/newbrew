@@ -1,0 +1,107 @@
+{
+  "name": "neatvi",
+  "full_name": "neatvi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Clone of ex/vi for editing bidirectional utf-8 text",
+  "license": "ISC",
+  "homepage": "https://repo.or.cz/neatvi.git",
+  "versions": {
+    "stable": "11",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://repo.or.cz/neatvi.git",
+      "tag": "11",
+      "revision": "c4d323dc210ae5dcd828b0222b3748c3e1de2abc",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://repo.or.cz/neatvi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:2e7fdbac653c245add71a34e2e6b0b9233a7bcef81950f4bf623ff1f35f97a2e",
+          "sha256": "2e7fdbac653c245add71a34e2e6b0b9233a7bcef81950f4bf623ff1f35f97a2e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:883714f144e2c79eda69d2b71fae84815e02c628f9c86367d4f5ff43ccb39b68",
+          "sha256": "883714f144e2c79eda69d2b71fae84815e02c628f9c86367d4f5ff43ccb39b68"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:6d4d7ff1f32113f9f33451d6eeccf6d3be561db29330c7c9a25000b7e555bb28",
+          "sha256": "6d4d7ff1f32113f9f33451d6eeccf6d3be561db29330c7c9a25000b7e555bb28"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:b90a75d82578f361df69fd0a25be7a522c1096ada34428d39da2af1a616a103a",
+          "sha256": "b90a75d82578f361df69fd0a25be7a522c1096ada34428d39da2af1a616a103a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:1c34a015946a3eded43b703df0ca43561d22c2d73f0d1fed6de80363cd88f740",
+          "sha256": "1c34a015946a3eded43b703df0ca43561d22c2d73f0d1fed6de80363cd88f740"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:f7d4bf914826b2faa593d07493d7fa4e0179119a7aa80f821627b3f397111f00",
+          "sha256": "f7d4bf914826b2faa593d07493d7fa4e0179119a7aa80f821627b3f397111f00"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neatvi/blobs/sha256:57ff9d1f12cefb418f24e61797c076c954a3596694ee4bf7868cc57743cf90be",
+          "sha256": "57ff9d1f12cefb418f24e61797c076c954a3596694ee4bf7868cc57743cf90be"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/neatvi.rb",
+  "ruby_source_checksum": {
+    "sha256": "bd5700f5e7dfa8c4e21abc3e0b9f532c8489fd67094fbc86137a1258287f6f2f"
+  },
+  "date_added": "2016-10-29T22:17:01+02:00"
+}

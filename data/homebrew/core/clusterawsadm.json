@@ -1,0 +1,109 @@
+{
+  "name": "clusterawsadm",
+  "full_name": "clusterawsadm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Home for bootstrapping, AMI, EKS, and other helpers in Cluster API Provider AWS",
+  "license": "Apache-2.0",
+  "homepage": "https://cluster-api-aws.sigs.k8s.io/clusterawsadm/clusterawsadm.html",
+  "versions": {
+    "stable": "2.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes-sigs/cluster-api-provider-aws.git",
+      "tag": "v2.2.1",
+      "revision": "4ca19b5a26051b87a2859ccdcf7feb370dd46403",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/kubernetes-sigs/cluster-api-provider-aws.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:ccfe02a5f50a1a2ad8a91c459bbb643c3f72271cc48051df28c8ee93fc30dfd7",
+          "sha256": "ccfe02a5f50a1a2ad8a91c459bbb643c3f72271cc48051df28c8ee93fc30dfd7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:ac02aacad22b052e3ec4e8f34bf1ffd794249362bbc02c6e531a0493d5b83121",
+          "sha256": "ac02aacad22b052e3ec4e8f34bf1ffd794249362bbc02c6e531a0493d5b83121"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:38b01a1d4a8e0a969c8d425858f070b28e301830b35ce1dbc69bd0eaeee5edcb",
+          "sha256": "38b01a1d4a8e0a969c8d425858f070b28e301830b35ce1dbc69bd0eaeee5edcb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:dc4b442961d6f082e98ba4242721b378183dbf323c3e6bf970657eccd46a95ec",
+          "sha256": "dc4b442961d6f082e98ba4242721b378183dbf323c3e6bf970657eccd46a95ec"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:5f5c253d6654b8970f5dc5f09d93b35250302b3fc76f9526d3629de008f6f148",
+          "sha256": "5f5c253d6654b8970f5dc5f09d93b35250302b3fc76f9526d3629de008f6f148"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:9db8348fd892e51ade4f31fa8b6cd9f4ac80b574064ad38a28b7ba0dd5813f86",
+          "sha256": "9db8348fd892e51ade4f31fa8b6cd9f4ac80b574064ad38a28b7ba0dd5813f86"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clusterawsadm/blobs/sha256:8e110b47604c544553272608617ac4096eb6324243b96d12042b74352d7db08e",
+          "sha256": "8e110b47604c544553272608617ac4096eb6324243b96d12042b74352d7db08e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/clusterawsadm.rb",
+  "ruby_source_checksum": {
+    "sha256": "add56e82498f74839b916f16d86787c618e4c621dafd0d9bf26d188895296122"
+  },
+  "date_added": "2022-12-09T19:06:44+00:00"
+}

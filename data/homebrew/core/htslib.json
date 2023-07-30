@@ -1,0 +1,114 @@
+{
+  "name": "htslib",
+  "full_name": "htslib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for high-throughput sequencing data formats",
+  "license": "MIT",
+  "homepage": "https://www.htslib.org/",
+  "versions": {
+    "stable": "1.18",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/samtools/htslib/releases/download/1.18/htslib-1.18.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "f1ab53a593a2320a1bfadf4ef915dae784006c5b5c922c8a8174d7530a9af18f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:91a1f7a53a4abbeb29c62182ee75ce6bb5fcbdc57f04a36831e482c82ffa8826",
+          "sha256": "91a1f7a53a4abbeb29c62182ee75ce6bb5fcbdc57f04a36831e482c82ffa8826"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:b3b38e38ae0e95509243d7f12b68cfba0ebbfc27ecacabe8d0f80f941ecedcb6",
+          "sha256": "b3b38e38ae0e95509243d7f12b68cfba0ebbfc27ecacabe8d0f80f941ecedcb6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:2c23c15552d3b1b6d283b9ed2c3985759cde5cd051fa06251859b0c46a305f78",
+          "sha256": "2c23c15552d3b1b6d283b9ed2c3985759cde5cd051fa06251859b0c46a305f78"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:c1ded4ddaa43bf6bf33346a02291e37a4658915733d7efcdc06cf7beb46794e3",
+          "sha256": "c1ded4ddaa43bf6bf33346a02291e37a4658915733d7efcdc06cf7beb46794e3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:c7b62fc25f7ba87ba05b03ed4e2956ec452d7d581de22fb7725bbee454aa750f",
+          "sha256": "c7b62fc25f7ba87ba05b03ed4e2956ec452d7d581de22fb7725bbee454aa750f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:b23cec30df6a656cd3f12afc92eb7aa11cce3d3c20f735482bced92a5e6a1eca",
+          "sha256": "b23cec30df6a656cd3f12afc92eb7aa11cce3d3c20f735482bced92a5e6a1eca"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/htslib/blobs/sha256:a500e3984c38cf9e2b48d5b4c7c8ef85e234ab2d384bdabd449acac501d4f1f7",
+          "sha256": "a500e3984c38cf9e2b48d5b4c7c8ef85e234ab2d384bdabd449acac501d4f1f7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "xz",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "curl",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/htslib.rb",
+  "ruby_source_checksum": {
+    "sha256": "f1477be3838ebd823bc4623d1dfa5d8d92d467e7ee06bbbb17eacce1e6c35d9f"
+  },
+  "date_added": "2017-10-31T10:26:34-04:00"
+}

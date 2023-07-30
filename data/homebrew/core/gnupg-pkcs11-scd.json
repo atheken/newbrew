@@ -1,0 +1,114 @@
+{
+  "name": "gnupg-pkcs11-scd",
+  "full_name": "gnupg-pkcs11-scd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Enable the use of PKCS#11 tokens with GnuPG",
+  "license": "BSD-3-Clause",
+  "homepage": "https://gnupg-pkcs11.sourceforge.io",
+  "versions": {
+    "stable": "0.10.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/alonbl/gnupg-pkcs11-scd/releases/download/gnupg-pkcs11-scd-0.10.0/gnupg-pkcs11-scd-0.10.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "29bf29e7780f921c6d3a11f608e2b0483c1bb510c5afa8473090249dd57c5249"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:637d2da5209f612c115bfebe4cf6d3e5d1941c4498c077461091672ade772b45",
+          "sha256": "637d2da5209f612c115bfebe4cf6d3e5d1941c4498c077461091672ade772b45"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:3c669ce77d7e6e31b830b1eaaab48b00ffda6d0c95151acf532b8f73407e9e04",
+          "sha256": "3c669ce77d7e6e31b830b1eaaab48b00ffda6d0c95151acf532b8f73407e9e04"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:32861ea6eb6c72179d05684171a4ca32ce177d62deb4e1abeb7f47f7656fb54f",
+          "sha256": "32861ea6eb6c72179d05684171a4ca32ce177d62deb4e1abeb7f47f7656fb54f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:7883e6d5438dfecc6ec1e3d10b7afd8927f15cf8bad9760105cb2f2ec8606047",
+          "sha256": "7883e6d5438dfecc6ec1e3d10b7afd8927f15cf8bad9760105cb2f2ec8606047"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:47c89528a70ed380c30748379e4a996e3081371e3140ae694ab98ac679e66a1f",
+          "sha256": "47c89528a70ed380c30748379e4a996e3081371e3140ae694ab98ac679e66a1f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:51530e19934fdb181f1f21f9c453cf234381bcaad2ea0626a77a5865ac68878c",
+          "sha256": "51530e19934fdb181f1f21f9c453cf234381bcaad2ea0626a77a5865ac68878c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnupg-pkcs11-scd/blobs/sha256:5e1426c349e8f781f2ef03b2cc965e2ff9a12784c5416e3fcc34ab50902afb14",
+          "sha256": "5e1426c349e8f781f2ef03b2cc965e2ff9a12784c5416e3fcc34ab50902afb14"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libassuan",
+    "libgcrypt",
+    "libgpg-error",
+    "openssl@3",
+    "pkcs11-helper"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gnupg-pkcs11-scd.rb",
+  "ruby_source_checksum": {
+    "sha256": "c435807ae20de533d559f81c2e03cf842eb72133a3c3967bb5211bddece17f2a"
+  },
+  "date_added": "2013-03-14T14:21:57-05:00"
+}

@@ -1,0 +1,137 @@
+{
+  "name": "imagemagick",
+  "full_name": "imagemagick",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "imagemagick@7"
+  ],
+  "versioned_formulae": [
+    "imagemagick@6"
+  ],
+  "desc": "Tools and libraries to manipulate images in many formats",
+  "license": "ImageMagick",
+  "homepage": "https://imagemagick.org/index.php",
+  "versions": {
+    "stable": "7.1.1-14",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-14.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4df33acf38eb4c6cfe4aef484f616f7c6133a80d2cb36403ddeae5b89fd97c85"
+    },
+    "head": {
+      "url": "https://github.com/ImageMagick/ImageMagick.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:48d9cdde0d8f00344aaa018c38dc5c6e82beb2e65d674aae339242dfc2e7e326",
+          "sha256": "48d9cdde0d8f00344aaa018c38dc5c6e82beb2e65d674aae339242dfc2e7e326"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:6446dc4d9804152f82cd80e850c78752855ef22a7771e620895fd28225c79a63",
+          "sha256": "6446dc4d9804152f82cd80e850c78752855ef22a7771e620895fd28225c79a63"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:986204ec63aab340e04c21fce8bd895691d0ca8a4bcd478c0725efa817abaa3d",
+          "sha256": "986204ec63aab340e04c21fce8bd895691d0ca8a4bcd478c0725efa817abaa3d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:5e072078ccaa1ebddd01d343521c90b6d2064ee51d1610b6b9c10f42c0fa4f43",
+          "sha256": "5e072078ccaa1ebddd01d343521c90b6d2064ee51d1610b6b9c10f42c0fa4f43"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:c28656118dbf90a6dc508e2c4a57f105cbbdea8d4f560343ef34b341e9c152bb",
+          "sha256": "c28656118dbf90a6dc508e2c4a57f105cbbdea8d4f560343ef34b341e9c152bb"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:f9a56fd45dc67c73a9c04c8c0eeeaaa19b16456b8a6217fee82037359b2fc867",
+          "sha256": "f9a56fd45dc67c73a9c04c8c0eeeaaa19b16456b8a6217fee82037359b2fc867"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/imagemagick/blobs/sha256:b44a4e907096929a7bf5cf36e35ea7d6a0c73778e291ff7732bc6b1abe8e778b",
+          "sha256": "b44a4e907096929a7bf5cf36e35ea7d6a0c73778e291ff7732bc6b1abe8e778b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "freetype",
+    "ghostscript",
+    "jpeg-turbo",
+    "libheif",
+    "liblqr",
+    "libpng",
+    "libraw",
+    "libtiff",
+    "libtool",
+    "little-cms2",
+    "openexr",
+    "openjpeg",
+    "webp",
+    "xz",
+    "libx11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/imagemagick.rb",
+  "ruby_source_checksum": {
+    "sha256": "640ca6de9aaf08dedf8c5e0d6b024779ce30d2e44b4ef6e52d1395c0567fd5ec"
+  },
+  "date_added": "2009-06-28T16:56:15+01:00"
+}

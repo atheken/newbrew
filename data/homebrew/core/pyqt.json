@@ -1,0 +1,108 @@
+{
+  "name": "pyqt",
+  "full_name": "pyqt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "pyqt@6"
+  ],
+  "versioned_formulae": [
+    "pyqt@5"
+  ],
+  "desc": "Python bindings for v6 of Qt",
+  "license": "GPL-3.0-only",
+  "homepage": "https://www.riverbankcomputing.com/software/pyqt/intro",
+  "versions": {
+    "stable": "6.5.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/34/da/e03b7264b1e88cd553ff62a71c0c19f55690e08928130f4aae613723e535/PyQt6-6.5.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1487ee7350f9ffb66d60ab4176519252c2b371762cbe8f8340fd951f63801280"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:d6235340f5b8bed96fcf1fc329b8469420dbf603cb708f177dccf412686aecbb",
+          "sha256": "d6235340f5b8bed96fcf1fc329b8469420dbf603cb708f177dccf412686aecbb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:fb4b5563e49b887444c8d0c9d9ad7456e79956664dc81092245025075a10cadc",
+          "sha256": "fb4b5563e49b887444c8d0c9d9ad7456e79956664dc81092245025075a10cadc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:5136004db0464984b6a2cc37b4668f8558743a6a9df6b93fd5397ff44c3774f1",
+          "sha256": "5136004db0464984b6a2cc37b4668f8558743a6a9df6b93fd5397ff44c3774f1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:399b7e53bcfd275b0ea3699197e57f47cc6e4a435070358316effccccc61533b",
+          "sha256": "399b7e53bcfd275b0ea3699197e57f47cc6e4a435070358316effccccc61533b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:d761013b21ed972fdda44e2fc010801a6776bc7e25800bdaba96c8b92f368953",
+          "sha256": "d761013b21ed972fdda44e2fc010801a6776bc7e25800bdaba96c8b92f368953"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyqt/blobs/sha256:47d34d958146dedb529f4ecca90f8b9a63dabafa16378ae6cd406bbe4503bb90",
+          "sha256": "47d34d958146dedb529f4ecca90f8b9a63dabafa16378ae6cd406bbe4503bb90"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pyqt-builder",
+    "sip"
+  ],
+  "dependencies": [
+    "python@3.11",
+    "qt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pyqt.rb",
+  "ruby_source_checksum": {
+    "sha256": "35b67a3c11e9a88f9b5d6a4f41e115dcbd905d763aa001cff3fe1cefcfc5ce00"
+  },
+  "date_added": "2009-11-07T18:22:34+00:00"
+}

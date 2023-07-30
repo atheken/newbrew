@@ -1,0 +1,110 @@
+{
+  "name": "texmath",
+  "full_name": "texmath",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Haskell library for converting LaTeX math to MathML",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://johnmacfarlane.net/texmath.html",
+  "versions": {
+    "stable": "0.12.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://hackage.haskell.org/package/texmath-0.12.8/texmath-0.12.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "034ff00671d9b8ac4c983df59ccfb4f39fc7d8c2d19f1f39cc00ac5d3f8625c4"
+    },
+    "head": {
+      "url": "https://github.com/jgm/texmath.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:302844d08569c6532ed827efabc376a39d4179199ca2f0789cf2fad6f108da1a",
+          "sha256": "302844d08569c6532ed827efabc376a39d4179199ca2f0789cf2fad6f108da1a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:4cacc39f4ab15a39a104e3b8d87bde61ff83e7ead099f7037565b7fc16e401de",
+          "sha256": "4cacc39f4ab15a39a104e3b8d87bde61ff83e7ead099f7037565b7fc16e401de"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:77b9133fe460fc5607ecaa0a06ba1657f1e8a133ae21b18a717b209e27e00397",
+          "sha256": "77b9133fe460fc5607ecaa0a06ba1657f1e8a133ae21b18a717b209e27e00397"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:539f7a65c74e358da9bd055a529b0322c14506aa0787657321709b84a665e878",
+          "sha256": "539f7a65c74e358da9bd055a529b0322c14506aa0787657321709b84a665e878"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:2c6c832e0dfa18b2037804448b54049be05069af91becda57295675d76efece8",
+          "sha256": "2c6c832e0dfa18b2037804448b54049be05069af91becda57295675d76efece8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:c31689b4ffd4ed3d7caba6152b4f807fa0feb169017d9db0d831ac2d31fa6843",
+          "sha256": "c31689b4ffd4ed3d7caba6152b4f807fa0feb169017d9db0d831ac2d31fa6843"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/texmath/blobs/sha256:57a286826485c6e805e44dcccaaa4dd23ccef6eae189dd596d3e9a21b200a898",
+          "sha256": "57a286826485c6e805e44dcccaaa4dd23ccef6eae189dd596d3e9a21b200a898"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/texmath.rb",
+  "ruby_source_checksum": {
+    "sha256": "bea040a5819095acd5c71969a47340df68eb57b10feae29a6e7bc6d73253c327"
+  },
+  "date_added": "2015-04-01T08:30:09+01:00"
+}

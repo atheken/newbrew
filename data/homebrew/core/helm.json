@@ -1,0 +1,115 @@
+{
+  "name": "helm",
+  "full_name": "helm",
+  "tap": "homebrew/core",
+  "oldname": "kubernetes-helm",
+  "oldnames": [
+    "kubernetes-helm"
+  ],
+  "aliases": [
+    "helm@3"
+  ],
+  "versioned_formulae": [
+    "helm@2"
+  ],
+  "desc": "Kubernetes package manager",
+  "license": "Apache-2.0",
+  "homepage": "https://helm.sh/",
+  "versions": {
+    "stable": "3.12.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/helm/helm.git",
+      "tag": "v3.12.2",
+      "revision": "1e210a2c8cc5117d1055bfaa5d40f51bbc2e345e",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/helm/helm.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:a29353a4fe1db28a4fa6e59e27f9e8341ca5fb9d945f045aed2f533a4d5b1e9d",
+          "sha256": "a29353a4fe1db28a4fa6e59e27f9e8341ca5fb9d945f045aed2f533a4d5b1e9d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:aec37584a990f22aac9dddfd0e8226769135618c2600d3e88f837cafd3761ee4",
+          "sha256": "aec37584a990f22aac9dddfd0e8226769135618c2600d3e88f837cafd3761ee4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:6048befc9c16a155c15b7f8984907654838cfb367d746e129cf206def46c6aa5",
+          "sha256": "6048befc9c16a155c15b7f8984907654838cfb367d746e129cf206def46c6aa5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:e270032a0cfb27547f3bbe2c1980857357bf6059c7666bff2e4348ede10bbae4",
+          "sha256": "e270032a0cfb27547f3bbe2c1980857357bf6059c7666bff2e4348ede10bbae4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:2f60e78d0890480707cb9b1acf6e758443a27a47ddd4e21f42b3a42d4a2f03e7",
+          "sha256": "2f60e78d0890480707cb9b1acf6e758443a27a47ddd4e21f42b3a42d4a2f03e7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:482ce8228a070ebfbc02686e89689a59ec63b85ada3d64a609370020922855d1",
+          "sha256": "482ce8228a070ebfbc02686e89689a59ec63b85ada3d64a609370020922855d1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/helm/blobs/sha256:c47330fffebf847ae9d66f081ed7279f33bc9005c884ff659090347fadccb3fd",
+          "sha256": "c47330fffebf847ae9d66f081ed7279f33bc9005c884ff659090347fadccb3fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/helm.rb",
+  "ruby_source_checksum": {
+    "sha256": "80f2f851a111768dd06c7d26d244dc35348937a1a39d7d85f63fc72170751203"
+  },
+  "date_added": "2019-11-16T10:50:11+01:00"
+}

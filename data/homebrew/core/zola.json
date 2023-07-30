@@ -1,0 +1,111 @@
+{
+  "name": "zola",
+  "full_name": "zola",
+  "tap": "homebrew/core",
+  "oldname": "gutenberg",
+  "oldnames": [
+    "gutenberg"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast static site generator in a single binary with everything built-in",
+  "license": "MIT",
+  "homepage": "https://www.getzola.org/",
+  "versions": {
+    "stable": "0.17.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/getzola/zola/archive/v0.17.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "471238f38076803cb2af1c53cf418280ae51694fbcc2e547da3f6715a718c750"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:d36813c40954ed985cef2520dca95e49becc41f880b9b642b2326a0da5b5c13f",
+          "sha256": "d36813c40954ed985cef2520dca95e49becc41f880b9b642b2326a0da5b5c13f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:c876116273dc900bb62e9b3486763f84d5e5b4fafa22b66b20a069318a16ec5c",
+          "sha256": "c876116273dc900bb62e9b3486763f84d5e5b4fafa22b66b20a069318a16ec5c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:294724582d39eb38875e0f987b047fa16135e69f75ad244f4efc1f23d437031f",
+          "sha256": "294724582d39eb38875e0f987b047fa16135e69f75ad244f4efc1f23d437031f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:07cc0ec3d3357148a56719b37c6d64fe643b6bbfc5318b78b44251f2af1bf642",
+          "sha256": "07cc0ec3d3357148a56719b37c6d64fe643b6bbfc5318b78b44251f2af1bf642"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:0e86e27b20b41535612d1852e76f8d735576f3ebc2a094976058b7e315407775",
+          "sha256": "0e86e27b20b41535612d1852e76f8d735576f3ebc2a094976058b7e315407775"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:f9ac7a148debb0a5c7acf87a3e704f53c33264a3db2e99f265b7353b129c61ed",
+          "sha256": "f9ac7a148debb0a5c7acf87a3e704f53c33264a3db2e99f265b7353b129c61ed"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:d1466739a0d057299b0bc40304936762cd802d47fc255d99ab03391cd9fc28cf",
+          "sha256": "d1466739a0d057299b0bc40304936762cd802d47fc255d99ab03391cd9fc28cf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "oniguruma",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zola.rb",
+  "ruby_source_checksum": {
+    "sha256": "7f77210e35f3a6ae10730643c9dde6e89f67292be630a49fe6195cb10ea485be"
+  },
+  "date_added": "2018-11-25T10:29:49+01:00"
+}

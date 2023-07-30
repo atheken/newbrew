@@ -1,0 +1,105 @@
+{
+  "name": "pgrok",
+  "full_name": "pgrok",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Poor man's ngrok, multi-tenant HTTP/TCP reverse tunnel solution",
+  "license": "MIT",
+  "homepage": "https://github.com/pgrok/pgrok",
+  "versions": {
+    "stable": "1.3.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pgrok/pgrok/archive/refs/tags/v1.3.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2da14eeae3d9678bffd27ca5cf3900bf2c041628cbccae939137d73f0522d747"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd",
+          "sha256": "66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd",
+          "sha256": "66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd",
+          "sha256": "66564038a342b958d0e2cc33f782143adc32bf66e6f477e557bb44f3e74247fd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01",
+          "sha256": "25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01",
+          "sha256": "25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01",
+          "sha256": "25451b9a83eead335118ccae92df6d61756ae4bae062adbe32761b32b63d8c01"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgrok/blobs/sha256:dcad13368725d8de10094f7dc9ac73231447095d2aa6e0412ef11bd1b8f30677",
+          "sha256": "dcad13368725d8de10094f7dc9ac73231447095d2aa6e0412ef11bd1b8f30677"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pgrok.rb",
+  "ruby_source_checksum": {
+    "sha256": "856d5e51f8c20ddf68d07ad992ec4bb6bff645b2c6ea1294463838b5e8c26585"
+  },
+  "date_added": "2023-07-18T19:03:21-04:00"
+}

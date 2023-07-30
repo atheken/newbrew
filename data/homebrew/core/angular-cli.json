@@ -1,0 +1,105 @@
+{
+  "name": "angular-cli",
+  "full_name": "angular-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool for Angular",
+  "license": "MIT",
+  "homepage": "https://cli.angular.io/",
+  "versions": {
+    "stable": "16.1.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/@angular/cli/-/cli-16.1.6.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9d4ed1b98bc94102da782b3b8ad0290fd63fe80fe5043ab10f287b2820b562aa"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a",
+          "sha256": "fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a",
+          "sha256": "fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a",
+          "sha256": "fd6b4e60468967eda39cab1446a79f1078bfef9c69f612d647782520750d076a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f",
+          "sha256": "5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f",
+          "sha256": "5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f",
+          "sha256": "5a9dbb5e8378da6c330a0db48bc51a8d3baaf5b2a26b6ab597776c30340e134f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/angular-cli/blobs/sha256:5702bd22f7790631a714df10c42cd404d6c785c9c4df87b3b4c7cc2d6f87f7c3",
+          "sha256": "5702bd22f7790631a714df10c42cd404d6c785c9c4df87b3b4c7cc2d6f87f7c3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/angular-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "14803654a190d02d0a00b7359ec9e255e5124da63f4694d39b9816d592d3e7c6"
+  },
+  "date_added": "2017-05-22T20:09:39-07:00"
+}

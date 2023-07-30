@@ -1,0 +1,81 @@
+{
+  "name": "elixir-build",
+  "full_name": "elixir-build",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Elixir version of ruby-build",
+  "license": "MIT",
+  "homepage": "https://github.com/mururu/elixir-build",
+  "versions": {
+    "stable": "20141001",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mururu/elixir-build/archive/v20141001.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "825637780a580b7ebe8c5265a43d37ceff9f3876e771aa2f824079e504ad7347"
+    },
+    "head": {
+      "url": "https://github.com/mururu/elixir-build.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/elixir-build/blobs/sha256:0f434ba340b50a81c737a8de0b167293c1ce596972fa15a9f57abc81c6f69499",
+          "sha256": "0f434ba340b50a81c737a8de0b167293c1ce596972fa15a9f57abc81c6f69499"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "narwhal"
+  ],
+  "conflicts_with_reasons": [
+    "both install `json` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-06-19",
+  "disable_reason": "repo_archived",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/elixir-build.rb",
+  "ruby_source_checksum": {
+    "sha256": "406b95c4d092fb96f3952a37a34325f90b42e9d12649b87199a5faa734b9d2bc"
+  },
+  "date_added": "2014-06-29T09:43:45-07:00"
+}

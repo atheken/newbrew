@@ -1,0 +1,123 @@
+{
+  "name": "hdf5",
+  "full_name": "hdf5",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "hdf5@1.14"
+  ],
+  "versioned_formulae": [
+    "hdf5@1.10",
+    "hdf5@1.8"
+  ],
+  "desc": "File format designed to store large amounts of data",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.hdfgroup.org/HDF5",
+  "versions": {
+    "stable": "1.14.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.14/hdf5-1.14.1/src/hdf5-1.14.1-2.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "06ca141d1a3c312b5d7cc4826a12737293ae131031748861689f6a2ec8219dbd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:7c35ff76ffa9e03f4d15d425b36dedcbc170bed76ca0c952c0c7417905e74d3e",
+          "sha256": "7c35ff76ffa9e03f4d15d425b36dedcbc170bed76ca0c952c0c7417905e74d3e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:0837642c582c884d599e431a54753a30a3677b8593db7ef3839c17c9aa81a7d3",
+          "sha256": "0837642c582c884d599e431a54753a30a3677b8593db7ef3839c17c9aa81a7d3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:b73d496f32da12d8f040ba9f411e87a0199bd84fa9a7330a803fba8bdf6beda9",
+          "sha256": "b73d496f32da12d8f040ba9f411e87a0199bd84fa9a7330a803fba8bdf6beda9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:2b9e98f21f33db5b7faa4fdf0697d1a1346c63bbcb60f4f73fc1788be2b16408",
+          "sha256": "2b9e98f21f33db5b7faa4fdf0697d1a1346c63bbcb60f4f73fc1788be2b16408"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:cf923612b266c346a32d4034cbebaed3de947fa8aae9519754dd0e9e4e3e9c7a",
+          "sha256": "cf923612b266c346a32d4034cbebaed3de947fa8aae9519754dd0e9e4e3e9c7a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:936cfbf0a008863e9fc75381954bdc15e6fb64bca06d6456344716125d5f2c34",
+          "sha256": "936cfbf0a008863e9fc75381954bdc15e6fb64bca06d6456344716125d5f2c34"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/blobs/sha256:ef4c0eb89d59d77e5d9aae54c6e583c1466f7da8fc0e39987f454dd0190f0b73",
+          "sha256": "ef4c0eb89d59d77e5d9aae54c6e583c1466f7da8fc0e39987f454dd0190f0b73"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "gcc",
+    "libaec"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "hdf5-mpi"
+  ],
+  "conflicts_with_reasons": [
+    "hdf5-mpi is a variant of hdf5, one can only use one or the other"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hdf5.rb",
+  "ruby_source_checksum": {
+    "sha256": "18b994adaa8f9bb0581846e35637f5bd486825ea2c12eaa8e05e11d5df0331f4"
+  },
+  "date_added": "2010-02-11T10:01:59-08:00"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "libxtst",
+  "full_name": "libxtst",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: Client API for the XTEST & RECORD extensions",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "1.2.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/archive/individual/lib/libXtst-1.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "01366506aeb033f6dffca5326af85f670746b0cabbfd092aabefb046cf48c445"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:64703f879e6130e99a850a56567fc1a9de0024a0ed276a6eefa5768852c9870e",
+          "sha256": "64703f879e6130e99a850a56567fc1a9de0024a0ed276a6eefa5768852c9870e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:3b8d22abd476602cb2892a68c31054a696e760aae1912dee00c08abaff710922",
+          "sha256": "3b8d22abd476602cb2892a68c31054a696e760aae1912dee00c08abaff710922"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:41a2b4709a78d3b00dec19b298dc5551fe1eb2c530556c8daa75ef2f74527ed6",
+          "sha256": "41a2b4709a78d3b00dec19b298dc5551fe1eb2c530556c8daa75ef2f74527ed6"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:e9aa2923a5647444b5557ae761abdc05730c5c0bd836103853921ef9df38d4dc",
+          "sha256": "e9aa2923a5647444b5557ae761abdc05730c5c0bd836103853921ef9df38d4dc"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:4ff71b57fb57f02df2b01623684174c826203969bbbf49d9ac77c6f94b60f23c",
+          "sha256": "4ff71b57fb57f02df2b01623684174c826203969bbbf49d9ac77c6f94b60f23c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:761a44edff4b064f0019e663d8cdd58753ad40910a6bd4fcea6c5e8f946ab3bf",
+          "sha256": "761a44edff4b064f0019e663d8cdd58753ad40910a6bd4fcea6c5e8f946ab3bf"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:4b7e04a2af86298d776f8a06da28a466a38f22aa4e24299b357ef7d0e11ec53a",
+          "sha256": "4b7e04a2af86298d776f8a06da28a466a38f22aa4e24299b357ef7d0e11ec53a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libxtst/blobs/sha256:9ed487372cd98ae495904e2c0c9b2fcc96cc6d080f0a13be344a37d99849af35",
+          "sha256": "9ed487372cd98ae495904e2c0c9b2fcc96cc6d080f0a13be344a37d99849af35"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "util-macros"
+  ],
+  "dependencies": [
+    "libxi",
+    "xorgproto"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libxtst.rb",
+  "ruby_source_checksum": {
+    "sha256": "fcdff76b9c5a0842b7f510511f15ef73c78d75b5db1cb0d41b010e4666c59865"
+  },
+  "date_added": "2020-10-04T19:17:40+00:00"
+}

@@ -1,0 +1,130 @@
+{
+  "name": "ejabberd",
+  "full_name": "ejabberd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "XMPP application server",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.ejabberd.im",
+  "versions": {
+    "stable": "23.04",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/processone/ejabberd/archive/refs/tags/23.04.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6ff1d41a1ff6261a0c846193647d8ec143e82142859bf1cfdc62299022ceb2ad"
+    },
+    "head": {
+      "url": "https://github.com/processone/ejabberd.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:036f0e2d4def5984d21c0f88383cad4bbac2788aaac7297eece2c5439bcec510",
+          "sha256": "036f0e2d4def5984d21c0f88383cad4bbac2788aaac7297eece2c5439bcec510"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:21f63aa97ffaffdacbdf41bd0a5dc13ab2f1295f5b1c6ab0a74619da0f49fe6a",
+          "sha256": "21f63aa97ffaffdacbdf41bd0a5dc13ab2f1295f5b1c6ab0a74619da0f49fe6a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:d1d6f94b9fb6e4288512e769410a9e94bb094e8badf4854e0f3ea63d63621ef5",
+          "sha256": "d1d6f94b9fb6e4288512e769410a9e94bb094e8badf4854e0f3ea63d63621ef5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:7107a594996d7113a855607f0411002a456692cbf29b688b3438a7f9efe6e503",
+          "sha256": "7107a594996d7113a855607f0411002a456692cbf29b688b3438a7f9efe6e503"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:281a28e55f2d028ebc1c448acd8bb033e76615cd0e5c88efd31fabdec73b9ad6",
+          "sha256": "281a28e55f2d028ebc1c448acd8bb033e76615cd0e5c88efd31fabdec73b9ad6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:7223e13c94f09c133ba7af5ac2151101443d1a1a2437ba20e73df89ce4d96a9d",
+          "sha256": "7223e13c94f09c133ba7af5ac2151101443d1a1a2437ba20e73df89ce4d96a9d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ejabberd/blobs/sha256:b01c59f4459ec7a85894e30d0519d532ec65f9657129fabb5f4e2499cf7403a4",
+          "sha256": "b01c59f4459ec7a85894e30d0519d532ec65f9657129fabb5f4e2499cf7403a4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [
+    "erlang",
+    "gd",
+    "libyaml",
+    "openssl@3",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "couchdb"
+  ],
+  "conflicts_with_reasons": [
+    "both install `jiffy` lib"
+  ],
+  "link_overwrite": [],
+  "caveats": "If you face nodedown problems, concat your machine name to:\n  /private/etc/hosts\nafter 'localhost'.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/ejabberd/sbin/ejabberdctl",
+      "start"
+    ],
+    "run_type": "immediate",
+    "environment_variables": {
+      "HOME": "/home/linuxbrew/.linuxbrew/var/lib/ejabberd"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var/lib/ejabberd"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ejabberd.rb",
+  "ruby_source_checksum": {
+    "sha256": "851b7bc18928e4841dae5dabf5114ea2dff5246c69e68240392f146481fce04c"
+  },
+  "date_added": "2010-03-30T13:31:17-07:00"
+}

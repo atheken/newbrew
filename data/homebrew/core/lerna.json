@@ -1,0 +1,105 @@
+{
+  "name": "lerna",
+  "full_name": "lerna",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for managing JavaScript projects with multiple packages",
+  "license": "MIT",
+  "homepage": "https://lerna.js.org",
+  "versions": {
+    "stable": "7.1.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/lerna/-/lerna-7.1.4.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b04cf0e38b3a4eedf7a708fa2a2261e293ef9dae90194fe925ae99ff7687429"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:860e158dffdd51a4f14e2f045e6fc4061ff1b558060bce8f7ff3ef9ecc515ef3",
+          "sha256": "860e158dffdd51a4f14e2f045e6fc4061ff1b558060bce8f7ff3ef9ecc515ef3"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:e4e28275ee5f6f5a0e53798f4084b160525e6a5128f4b8c6da7802afd4fa4f5f",
+          "sha256": "e4e28275ee5f6f5a0e53798f4084b160525e6a5128f4b8c6da7802afd4fa4f5f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:b1ed6304848194e82230e613bd7c435d9c04f8405582d817c51c085ec3769db8",
+          "sha256": "b1ed6304848194e82230e613bd7c435d9c04f8405582d817c51c085ec3769db8"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:a79ceb6636126d6b178aaa9c6d0efda5782678f482d2127fe4a8f16a41a72f9f",
+          "sha256": "a79ceb6636126d6b178aaa9c6d0efda5782678f482d2127fe4a8f16a41a72f9f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:ce3c33979683e0722407780bb98f5a7b41380804b2d1ad1fbea0ebb351b0c63a",
+          "sha256": "ce3c33979683e0722407780bb98f5a7b41380804b2d1ad1fbea0ebb351b0c63a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:989c37fbd56af6bb80070f15e6caea8cc9eb1fd0728da3a089188a657ffaa198",
+          "sha256": "989c37fbd56af6bb80070f15e6caea8cc9eb1fd0728da3a089188a657ffaa198"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lerna/blobs/sha256:2d17c10a7b1edd020b8608c30dcf83be29843ea8b11609c1423e67ff7239dc71",
+          "sha256": "2d17c10a7b1edd020b8608c30dcf83be29843ea8b11609c1423e67ff7239dc71"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lerna.rb",
+  "ruby_source_checksum": {
+    "sha256": "cda1d2a8fd9221046fe15908ec199e49459adc823cbc86ba27c11d1dbfe93575"
+  },
+  "date_added": "2019-08-08T21:03:21+02:00"
+}

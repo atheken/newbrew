@@ -1,0 +1,136 @@
+{
+  "name": "transmission-cli",
+  "full_name": "transmission-cli",
+  "tap": "homebrew/core",
+  "oldname": "transmission",
+  "oldnames": [
+    "transmission"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight BitTorrent client",
+  "license": "GPL-2.0-only or GPL-3.0-only",
+  "homepage": "https://www.transmissionbt.com/",
+  "versions": {
+    "stable": "4.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/transmission/transmission/releases/download/4.0.3/transmission-4.0.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b6b01fd58e42bb14f7aba0253db932ced050fcd2bba5d9f8469d77ddd8ad545a"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:8f00b6d3a0b7823ed90dece482d139221b3708e6342a5091d4aba579fd5c607d",
+          "sha256": "8f00b6d3a0b7823ed90dece482d139221b3708e6342a5091d4aba579fd5c607d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:387124cbfc9e7be99a56af09d6fea73d8b50bf65cb43eec8c9d431f5baf47343",
+          "sha256": "387124cbfc9e7be99a56af09d6fea73d8b50bf65cb43eec8c9d431f5baf47343"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:79cc4c6812b55afeb60080090543512960f5c871f99522230cac172df0a2054d",
+          "sha256": "79cc4c6812b55afeb60080090543512960f5c871f99522230cac172df0a2054d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:f1a2ff5ce58fe4f8014f6b5adf3b28db638ce5324ebf1a9e04f59b5c4e921b03",
+          "sha256": "f1a2ff5ce58fe4f8014f6b5adf3b28db638ce5324ebf1a9e04f59b5c4e921b03"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:43ed6b1befc09da93f0263e2cb704d1988a040ef0866850f63386a0b2d5310b2",
+          "sha256": "43ed6b1befc09da93f0263e2cb704d1988a040ef0866850f63386a0b2d5310b2"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:1ce80c38dea2fb6e02cd58ff0e7283bcf87a4a8eb456aae20107b484a01b3d04",
+          "sha256": "1ce80c38dea2fb6e02cd58ff0e7283bcf87a4a8eb456aae20107b484a01b3d04"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/transmission-cli/blobs/sha256:11c6a5a7b5399edb5d1cd175b6c57fde40baf5f2a366d76b994afc97ece0e781",
+          "sha256": "11c6a5a7b5399edb5d1cd175b6c57fde40baf5f2a366d76b994afc97ece0e781"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gettext",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    },
+    "curl",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "This formula only installs the command line utilities.\n\nTransmission.app can be downloaded directly from the website:\n  https://www.transmissionbt.com/\n\nAlternatively, install with Homebrew Cask:\n  brew install --cask transmission\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/transmission-cli/bin/transmission-daemon",
+      "--foreground",
+      "--config-dir",
+      "/home/linuxbrew/.linuxbrew/var/transmission/",
+      "--log-info",
+      "--logfile",
+      "/home/linuxbrew/.linuxbrew/var/transmission/transmission-daemon.log"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    }
+  },
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/transmission-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "4374cac77f62159e41d4d131eb730343ee734d73af84eb22767bf962856bb9cc"
+  },
+  "date_added": "2019-08-12T17:05:07+02:00"
+}

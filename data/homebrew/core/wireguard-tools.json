@@ -1,0 +1,110 @@
+{
+  "name": "wireguard-tools",
+  "full_name": "wireguard-tools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for the WireGuard secure network tunnel",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.wireguard.com/",
+  "versions": {
+    "stable": "1.0.20210914",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.zx2c4.com/wireguard-tools/snapshot/wireguard-tools-1.0.20210914.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "97ff31489217bb265b7ae850d3d0f335ab07d2652ba1feec88b734bc96bd05ac"
+    },
+    "head": {
+      "url": "https://git.zx2c4.com/wireguard-tools.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:00c5b2ed459e7beae63c31d85c5be506b43dc2936439c5139bb92482a5df9b37",
+          "sha256": "00c5b2ed459e7beae63c31d85c5be506b43dc2936439c5139bb92482a5df9b37"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:25c8ed67136dcaa8d5292aae40793fd68fe6b803d57fc698a9bc7712bfc1c37f",
+          "sha256": "25c8ed67136dcaa8d5292aae40793fd68fe6b803d57fc698a9bc7712bfc1c37f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:b73274d92eb5cc895635e2f8baf8f3483dc373e6b6591cd101e2a3bc6ddbae8e",
+          "sha256": "b73274d92eb5cc895635e2f8baf8f3483dc373e6b6591cd101e2a3bc6ddbae8e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:ccfe3d35f1cdcb6df435e96fed4cff835274a9a34530c270e71660b65c667ff7",
+          "sha256": "ccfe3d35f1cdcb6df435e96fed4cff835274a9a34530c270e71660b65c667ff7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:61ae65bc95ae1ff7497a7d3f6128054f21fc0daafc089553c3f44a8f7b5b34b0",
+          "sha256": "61ae65bc95ae1ff7497a7d3f6128054f21fc0daafc089553c3f44a8f7b5b34b0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:7998a72195a995ee53e1360a42532bcb6fa42fda1002f16674c695ef5cea101e",
+          "sha256": "7998a72195a995ee53e1360a42532bcb6fa42fda1002f16674c695ef5cea101e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireguard-tools/blobs/sha256:b742a6fbc6894b5da2865387e48a7481d894ba90bc37eb5fd38081b2f3af1817",
+          "sha256": "b742a6fbc6894b5da2865387e48a7481d894ba90bc37eb5fd38081b2f3af1817"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "bash",
+    "wireguard-go"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wireguard-tools.rb",
+  "ruby_source_checksum": {
+    "sha256": "73546747ca922227fa647051e455df09a2b026ebcbc861f3bcbd284599b93517"
+  },
+  "date_added": "2016-07-26T01:36:43+01:00"
+}

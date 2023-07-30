@@ -1,0 +1,120 @@
+{
+  "name": "w3m",
+  "full_name": "w3m",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Pager/text based browser",
+  "license": "w3m",
+  "homepage": "https://w3m.sourceforge.io/",
+  "versions": {
+    "stable": "0.5.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://deb.debian.org/debian/pool/main/w/w3m/w3m_0.5.3.orig.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3"
+    },
+    "head": {
+      "url": "https://github.com/tats/w3m.git",
+      "branch": "master"
+    }
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:fc4a77c30411f61b24a69be7ac380d6f79d3e9617c47f18f9c26e9c7a5ae11ef",
+          "sha256": "fc4a77c30411f61b24a69be7ac380d6f79d3e9617c47f18f9c26e9c7a5ae11ef"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:f987092472928a6f55bc65930ca911de4415f312cf9c9b8f3662baf4058b4b05",
+          "sha256": "f987092472928a6f55bc65930ca911de4415f312cf9c9b8f3662baf4058b4b05"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:d777d1b1193a49785df6150d908e38db8b2de415432f4acc55a635be32e69f64",
+          "sha256": "d777d1b1193a49785df6150d908e38db8b2de415432f4acc55a635be32e69f64"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:9403514e48aabc3e5ed768524465eafa7bb5b5f1f67f3a128fe98a1fbae4aaa8",
+          "sha256": "9403514e48aabc3e5ed768524465eafa7bb5b5f1f67f3a128fe98a1fbae4aaa8"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:9e6a1fc7660ebab1bce04646cc625d107b43e0a5cba52c5b1f9868f56b4e4825",
+          "sha256": "9e6a1fc7660ebab1bce04646cc625d107b43e0a5cba52c5b1f9868f56b4e4825"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:3e32fcd2f971f88a8dcac24702147ff5847afb329d9c54cadd40e9c102bcb3c5",
+          "sha256": "3e32fcd2f971f88a8dcac24702147ff5847afb329d9c54cadd40e9c102bcb3c5"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/w3m/blobs/sha256:1835ec7faed90c796e7290a5b6271dda1ac6b2bdb15ce577367852ad92681c39",
+          "sha256": "1835ec7faed90c796e7290a5b6271dda1ac6b2bdb15ce577367852ad92681c39"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "bdw-gc",
+    "openssl@3",
+    "gettext",
+    "libbsd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/w3m.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec2b12d0c5c58c822ed660cc9fb7d5554029b2492f8cf9b5af9b7dc17cddee99"
+  },
+  "date_added": "2009-10-12T22:50:51+01:00"
+}

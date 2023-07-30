@@ -1,0 +1,107 @@
+{
+  "name": "freeipmi",
+  "full_name": "freeipmi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "In-band and out-of-band IPMI (v1.5/2.0) software",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/freeipmi/",
+  "versions": {
+    "stable": "1.6.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/freeipmi/freeipmi-1.6.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "65fbd6910fc010457748695414f27c5755b4e8d75734221221f3858c6230a897"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:8583260c6e5706eaf7c94372a1b03d8491fb52669b153ba60bd1a11df5edb61f",
+          "sha256": "8583260c6e5706eaf7c94372a1b03d8491fb52669b153ba60bd1a11df5edb61f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:fae01f9999f4cc95527066f13b8c4447a5d6e703bc986fbd512069ef3111ffb6",
+          "sha256": "fae01f9999f4cc95527066f13b8c4447a5d6e703bc986fbd512069ef3111ffb6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:8308830e5d4c33dc7d403285ec97545878cce100d122d6b4fa20aa7641eb839e",
+          "sha256": "8308830e5d4c33dc7d403285ec97545878cce100d122d6b4fa20aa7641eb839e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:09f1d39558a5b8e602cab29926918522d88724471892bcd190e57806e92ec377",
+          "sha256": "09f1d39558a5b8e602cab29926918522d88724471892bcd190e57806e92ec377"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:4001216e0fe3a051849feddbf0dc1ff908919fa240344794576988bbd0e3ebae",
+          "sha256": "4001216e0fe3a051849feddbf0dc1ff908919fa240344794576988bbd0e3ebae"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:eb31c3a6c89b3666c4eeee2e6fde67b9715febef14441fba601319c4b0f30b5f",
+          "sha256": "eb31c3a6c89b3666c4eeee2e6fde67b9715febef14441fba601319c4b0f30b5f"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeipmi/blobs/sha256:b5764abf88b9dcc6f4a2dd253d49ad46bb74c1065ae41e92b61bde93fa0e79ea",
+          "sha256": "b5764abf88b9dcc6f4a2dd253d49ad46bb74c1065ae41e92b61bde93fa0e79ea"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "texinfo"
+  ],
+  "dependencies": [
+    "libgcrypt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freeipmi.rb",
+  "ruby_source_checksum": {
+    "sha256": "35281da76e8b184fea947b7e159396bdb940b9a3fb9ac1ae70729d7fe690476d"
+  },
+  "date_added": "2014-03-04T08:36:09+00:00"
+}

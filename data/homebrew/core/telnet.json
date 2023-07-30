@@ -1,0 +1,125 @@
+{
+  "name": "telnet",
+  "full_name": "telnet",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "User interface to the TELNET protocol",
+  "license": "BSD-4-Clause-UC and APSL-1.0",
+  "homepage": "https://opensource.apple.com/",
+  "versions": {
+    "stable": "69",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/apple-oss-distributions/remote_cmds/archive/refs/tags/remote_cmds-69.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ce917122a88f8bee98686476abf83f1d442e387637a021eabe02f0fe88e02986"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:59e9f6c98b4a22c314d741d0b54ae3cfb083b9b7069c8a11e7f34ff32a4e5744",
+          "sha256": "59e9f6c98b4a22c314d741d0b54ae3cfb083b9b7069c8a11e7f34ff32a4e5744"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:c047ca7e8df187e638154fcc246a35555325b2e7078afa40808753446aa56009",
+          "sha256": "c047ca7e8df187e638154fcc246a35555325b2e7078afa40808753446aa56009"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:12076e9de5b1fba596e5f56151a4f6a50307c070ca0ae0d387fc4cd923476d87",
+          "sha256": "12076e9de5b1fba596e5f56151a4f6a50307c070ca0ae0d387fc4cd923476d87"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:b51c080ed44f4c8512eb4a46cf175e2c503b935a86623ee85bdb5679cdb26625",
+          "sha256": "b51c080ed44f4c8512eb4a46cf175e2c503b935a86623ee85bdb5679cdb26625"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:bcba419b9e7fc87a4a53f36d5ef7c71aa2a5f1de9f5372d05ae631da137ed444",
+          "sha256": "bcba419b9e7fc87a4a53f36d5ef7c71aa2a5f1de9f5372d05ae631da137ed444"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/telnet/blobs/sha256:79720536bf6b812009dec6eb258d80881ffc31c05359051088e11ee4a5a78539",
+          "sha256": "79720536bf6b812009dec6eb258d80881ffc31c05359051088e11ee4a5a78539"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    },
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [
+    "inetutils"
+  ],
+  "conflicts_with_reasons": [
+    "both install 'telnet' binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/telnet.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec261c4a5dab06a4d5254d93dd84c80b10573867ea3b5d93eb82b3ac4e3fb63d"
+  },
+  "date_added": "2017-08-22T12:37:17-07:00"
+}

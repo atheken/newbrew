@@ -1,0 +1,128 @@
+{
+  "name": "mftrace",
+  "full_name": "mftrace",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Trace TeX bitmap font to PFA, PFB, or TTF font",
+  "license": "GPL-2.0-only",
+  "homepage": "https://lilypond.org/mftrace/",
+  "versions": {
+    "stable": "1.2.20",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://lilypond.org/downloads/sources/mftrace/mftrace-1.2.20.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "626b7a9945a768c086195ba392632a68d6af5ea24ef525dcd0a4a8b199ea5f6f"
+    },
+    "head": {
+      "url": "https://github.com/hanwen/mftrace.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:fcc7091b7e3aab969e797cbb583d8d8349856433c9452c818c1cc338b53537d9",
+          "sha256": "fcc7091b7e3aab969e797cbb583d8d8349856433c9452c818c1cc338b53537d9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:c9b7d41129a1f83e1c9e84ad20e706ebd3d93e6c7b9801bd90e866d0e07d8234",
+          "sha256": "c9b7d41129a1f83e1c9e84ad20e706ebd3d93e6c7b9801bd90e866d0e07d8234"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:24bae79ec700220fea014de05a63df51c061ecf8817e737c24a00c1fd2b3f6ea",
+          "sha256": "24bae79ec700220fea014de05a63df51c061ecf8817e737c24a00c1fd2b3f6ea"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:dc53be3197cdb6ee63607d4d9d3e94220953e85ba05c5e698156087382d557de",
+          "sha256": "dc53be3197cdb6ee63607d4d9d3e94220953e85ba05c5e698156087382d557de"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:bae6d024e848e8f7c7a18f8b6d86359f652b7715daa1a11bcdcb6c4e03b5e0b7",
+          "sha256": "bae6d024e848e8f7c7a18f8b6d86359f652b7715daa1a11bcdcb6c4e03b5e0b7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:57483c84e1722e4ec6e606c24336a615bd8710c3735bbb1c32e3a3afa64b3b22",
+          "sha256": "57483c84e1722e4ec6e606c24336a615bd8710c3735bbb1c32e3a3afa64b3b22"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mftrace/blobs/sha256:45f198472e3e64f2ce72fc9425338c791110ac33f1cecde0c77f584b0373fd7e",
+          "sha256": "45f198472e3e64f2ce72fc9425338c791110ac33f1cecde0c77f584b0373fd7e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "fontforge",
+    "potrace",
+    "python@3.11",
+    "t1utils"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mftrace.rb",
+  "ruby_source_checksum": {
+    "sha256": "27562197d5fdc991c24029ba875c91d0476f9d95ba1f8d3d14b566aad2a12ce9"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf"
+    ],
+    "dependencies": [
+      "fontforge",
+      "potrace",
+      "python@3.11",
+      "t1utils"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-04-01T12:49:03-07:00"
+}

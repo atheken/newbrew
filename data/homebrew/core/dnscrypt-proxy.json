@@ -1,0 +1,120 @@
+{
+  "name": "dnscrypt-proxy",
+  "full_name": "dnscrypt-proxy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Secure communications between a client and a DNS resolver",
+  "license": "ISC",
+  "homepage": "https://dnscrypt.info",
+  "versions": {
+    "stable": "2.1.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/DNSCrypt/dnscrypt-proxy/archive/2.1.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "05f0a3e8c8f489caf95919e2a75a1ec4598edd3428d2b9dd357caba6adb2607d"
+    },
+    "head": {
+      "url": "https://github.com/DNSCrypt/dnscrypt-proxy.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:da74df355890ed829d55080348adc125bf5dfe0f70e0c04c286ce4e65e3b709d",
+          "sha256": "da74df355890ed829d55080348adc125bf5dfe0f70e0c04c286ce4e65e3b709d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:02aeddf862d70235a647e24bc64efb14b29d0c84931d7b2590fe142358bd5557",
+          "sha256": "02aeddf862d70235a647e24bc64efb14b29d0c84931d7b2590fe142358bd5557"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:93f345adfc058e7ead522d7b2e7a7bf0609475865bf37c9d2238c3fa2ccaf7f0",
+          "sha256": "93f345adfc058e7ead522d7b2e7a7bf0609475865bf37c9d2238c3fa2ccaf7f0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:a23dae15ae623b6fe438b911eae117ac87d8d2d866757e527948e5b0bc665b2e",
+          "sha256": "a23dae15ae623b6fe438b911eae117ac87d8d2d866757e527948e5b0bc665b2e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:8251312fe68d98ad53d4a5edc4c31a34d3d583e62ad5b9b4a6a5b5a63ca9b813",
+          "sha256": "8251312fe68d98ad53d4a5edc4c31a34d3d583e62ad5b9b4a6a5b5a63ca9b813"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:1d4b533f001583fdd3d627ed51b0809e33e5d5318ddb26a0ba0b1da6f6918bf0",
+          "sha256": "1d4b533f001583fdd3d627ed51b0809e33e5d5318ddb26a0ba0b1da6f6918bf0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscrypt-proxy/blobs/sha256:28702655cf286ac6850f31cafb4d365c12d8b65877d6ff1ace4c1da2795259ac",
+          "sha256": "28702655cf286ac6850f31cafb4d365c12d8b65877d6ff1ace4c1da2795259ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "After starting dnscrypt-proxy, you will need to point your\nlocal DNS server to 127.0.0.1. You can do this by going to\nSystem Preferences > \"Network\" and clicking the \"Advanced...\"\nbutton for your interface. You will see a \"DNS\" tab where you\ncan click \"+\" and enter 127.0.0.1 in the \"DNS Servers\" section.\n\nBy default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,\nbalancing traffic across a set of resolvers. If you would like to\nchange these settings, you will have to edit the configuration file:\n  $HOMEBREW_PREFIX/etc/dnscrypt-proxy.toml\n\nTo check that dnscrypt-proxy is working correctly, open Terminal and enter the\nfollowing command. Replace en1 with whatever network interface you're using:\n\n  sudo tcpdump -i en1 -vvv 'port 443'\n\nYou should see a line in the result that looks like this:\n\n resolver.dnscrypt.info\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/dnscrypt-proxy/sbin/dnscrypt-proxy",
+      "-config",
+      "/home/linuxbrew/.linuxbrew/etc/dnscrypt-proxy.toml"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "require_root": true
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dnscrypt-proxy.rb",
+  "ruby_source_checksum": {
+    "sha256": "90050bfccfcf2906c6500ca89665fe930259402d5018242aac34656c791afbeb"
+  },
+  "date_added": "2012-01-29T13:55:59-06:00"
+}

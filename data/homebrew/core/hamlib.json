@@ -1,0 +1,114 @@
+{
+  "name": "hamlib",
+  "full_name": "hamlib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ham radio control libraries",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "http://www.hamlib.org/",
+  "versions": {
+    "stable": "4.5.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Hamlib/Hamlib/releases/download/4.5.5/hamlib-4.5.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "601c89f32ed225e9527ade3d64d0d05d23202c05ae21ffa77e59d70ee4597fcd"
+    },
+    "head": {
+      "url": "https://github.com/hamlib/hamlib.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:273a45da72d9e209e76bd20c4b699207f6fea5b6483dfa2f3a6f5837ed596ce9",
+          "sha256": "273a45da72d9e209e76bd20c4b699207f6fea5b6483dfa2f3a6f5837ed596ce9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:2d2952caeac114ef9bb6794cd7e609fcd275508eef0cb6e536802a4741b74145",
+          "sha256": "2d2952caeac114ef9bb6794cd7e609fcd275508eef0cb6e536802a4741b74145"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:edcf3ece2ef4287a106e149b543b2e0202a1adf742710c266b786f9c94a04c35",
+          "sha256": "edcf3ece2ef4287a106e149b543b2e0202a1adf742710c266b786f9c94a04c35"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:877fdfa294a99eb9c676409bbb258d86fe02930620c9fc0cbf7de4f46adb6a6f",
+          "sha256": "877fdfa294a99eb9c676409bbb258d86fe02930620c9fc0cbf7de4f46adb6a6f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:8c00d183265b56c8569344db90d6fdd54f0008c2012b372f9b4935081de47f94",
+          "sha256": "8c00d183265b56c8569344db90d6fdd54f0008c2012b372f9b4935081de47f94"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:fd714ee0ad06f5d07f0a8eaabf0d4284033b86a12847936db320e2f2e4a2be93",
+          "sha256": "fd714ee0ad06f5d07f0a8eaabf0d4284033b86a12847936db320e2f2e4a2be93"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hamlib/blobs/sha256:6edfd57243916568cf5cbf5e0e6c755a8a4c0dafd5fbb5237374091500f99418",
+          "sha256": "6edfd57243916568cf5cbf5e0e6c755a8a4c0dafd5fbb5237374091500f99418"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libtool",
+    "libusb-compat"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hamlib.rb",
+  "ruby_source_checksum": {
+    "sha256": "b9bd37662181ec99f970df14af0684a401340bd972effcdfa9ad96117d0c2cf5"
+  },
+  "date_added": "2013-02-05T20:06:23-08:00"
+}

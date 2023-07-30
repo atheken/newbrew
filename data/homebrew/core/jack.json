@@ -1,0 +1,135 @@
+{
+  "name": "jack",
+  "full_name": "jack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Audio Connection Kit",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://jackaudio.org/",
+  "versions": {
+    "stable": "1.9.22",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jackaudio/jack2/archive/v1.9.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1e42b9fc4ad7db7befd414d45ab2f8a159c0b30fcd6eee452be662298766a849"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:de407106387c805a6117edb7e10646accf5cc25abed05b310475709b07d403c3",
+          "sha256": "de407106387c805a6117edb7e10646accf5cc25abed05b310475709b07d403c3"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:44c6dfc147a7e6f5677e6f5a94ce46fe4ec87db6953c2893eb5bdc6082623eca",
+          "sha256": "44c6dfc147a7e6f5677e6f5a94ce46fe4ec87db6953c2893eb5bdc6082623eca"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:5b71efa702af44215537e74f2f792a7f9a02253a10350a91a0043735de24d6ac",
+          "sha256": "5b71efa702af44215537e74f2f792a7f9a02253a10350a91a0043735de24d6ac"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:2f54c142f838c5ce1f248d44b5efb32cf52092c8e232b2848965c68a2c5a6066",
+          "sha256": "2f54c142f838c5ce1f248d44b5efb32cf52092c8e232b2848965c68a2c5a6066"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:59251197992e250453273d7cf62da7a4b11b730382686e3e5bb8349c9d7c8ce5",
+          "sha256": "59251197992e250453273d7cf62da7a4b11b730382686e3e5bb8349c9d7c8ce5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:df787dac8716e347bd2e336ac604042333e2ccff75cbe665412fb39fbb0f9cfc",
+          "sha256": "df787dac8716e347bd2e336ac604042333e2ccff75cbe665412fb39fbb0f9cfc"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jack/blobs/sha256:7e201f19d5920e21582995edffb59667edefa7ac50ee3016cbd4fc4d872b548e",
+          "sha256": "7e201f19d5920e21582995edffb59667edefa7ac50ee3016cbd4fc4d872b548e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "berkeley-db",
+    "libsamplerate",
+    "alsa-lib",
+    "systemd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/jack/bin/jackd",
+      "-X",
+      "coremidi",
+      "-d",
+      "coreaudio"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "environment_variables": {
+      "PATH": "/usr/bin:/bin:/usr/sbin:/sbin:/home/linuxbrew/.linuxbrew/bin"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/jack"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jack.rb",
+  "ruby_source_checksum": {
+    "sha256": "df9af9a72e6a3c1cb5112148083d04267da20d1b496d70799d026ad3959eaaf8"
+  },
+  "date_added": "2010-07-03T09:25:59-07:00"
+}

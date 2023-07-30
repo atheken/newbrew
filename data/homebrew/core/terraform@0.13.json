@@ -1,0 +1,96 @@
+{
+  "name": "terraform@0.13",
+  "full_name": "terraform@0.13",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "terraform@0.12",
+    "terraform@0.11"
+  ],
+  "desc": "Tool to build, change, and version infrastructure",
+  "license": "MPL-2.0",
+  "homepage": "https://www.terraform.io/",
+  "versions": {
+    "stable": "0.13.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hashicorp/terraform/archive/v0.13.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7395800a4523d4a1483f96d71636c2710a7e9de19c37cc0f03fdb51414a63cf0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terraform/0.13/blobs/sha256:a9071c87b749036c6b9b0287af782e80e0282e7428718355ae8a2cea2c70bdb6",
+          "sha256": "a9071c87b749036c6b9b0287af782e80e0282e7428718355ae8a2cea2c70bdb6"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terraform/0.13/blobs/sha256:59fb34b8e85bbfc049a2e2950539abab123904d101bf572c85cd963e901ed1a6",
+          "sha256": "59fb34b8e85bbfc049a2e2950539abab123904d101bf572c85cd963e901ed1a6"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terraform/0.13/blobs/sha256:ad5aad95ca700df4f9c61ec68734952e6a72b223a7cf2762eb7aa3b03b6c7b69",
+          "sha256": "ad5aad95ca700df4f9c61ec68734952e6a72b223a7cf2762eb7aa3b03b6c7b69"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terraform/0.13/blobs/sha256:4f7a689aa70f30e171b26de7bc1ef214f1ddb9c60950865c1530833f99e609a8",
+          "sha256": "4f7a689aa70f30e171b26de7bc1ef214f1ddb9c60950865c1530833f99e609a8"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "go@1.14"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-07-31",
+  "disable_reason": "unsupported",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/terraform@0.13.rb",
+  "ruby_source_checksum": {
+    "sha256": "dbb0d16f86e04ee69bd626a52a5eafe09c2d83da2e8c383a7aa930f45dcdefaa"
+  },
+  "date_added": "2020-12-03T19:32:02+00:00"
+}

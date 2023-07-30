@@ -1,0 +1,107 @@
+{
+  "name": "diffr",
+  "full_name": "diffr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "LCS based diff highlighting tool to ease code review from your terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/mookid/diffr",
+  "versions": {
+    "stable": "0.1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mookid/diffr/archive/v0.1.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6c5861e5b8f5d798e027fe69cc186452848dc4ae5641326b41b5c160d3e91654"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:234e4932d849bec1ee31bc0caa455070caf78aa3839836ee15cce08546c72995",
+          "sha256": "234e4932d849bec1ee31bc0caa455070caf78aa3839836ee15cce08546c72995"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:661cd6dd97c93e60266a8cf7a99240595b25dbf911efb143c4c5a60eb2c7d483",
+          "sha256": "661cd6dd97c93e60266a8cf7a99240595b25dbf911efb143c4c5a60eb2c7d483"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:d29fa319b7d851b24c147046018da33c98363de7439cee89b5eae6bfd13982c1",
+          "sha256": "d29fa319b7d851b24c147046018da33c98363de7439cee89b5eae6bfd13982c1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:6d3a1af07c576b6db1522a77560bbe540a567a7339838dc5c660e7781a2302bb",
+          "sha256": "6d3a1af07c576b6db1522a77560bbe540a567a7339838dc5c660e7781a2302bb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:d4d630b6e9973149bd9eb76134f9953ec0630274592ee4f5c1bce2d38de0b10e",
+          "sha256": "d4d630b6e9973149bd9eb76134f9953ec0630274592ee4f5c1bce2d38de0b10e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:de79ded7a7f2b81026d2c8d5c9148ddc19815a953c10120b52874e52af9d25b4",
+          "sha256": "de79ded7a7f2b81026d2c8d5c9148ddc19815a953c10120b52874e52af9d25b4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffr/blobs/sha256:6340e51e0dd0f436f0cf3450d125f3a16b652cadf4b7de0fe9127ea7d90007b1",
+          "sha256": "6340e51e0dd0f436f0cf3450d125f3a16b652cadf4b7de0fe9127ea7d90007b1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "diffutils"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/diffr.rb",
+  "ruby_source_checksum": {
+    "sha256": "b23066683ead617d146b2b89dec2fef6f8d625fbf314df3a22cb9d4037866253"
+  },
+  "date_added": "2019-10-04T14:32:39-04:00"
+}

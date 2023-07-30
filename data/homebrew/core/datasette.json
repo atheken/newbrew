@@ -1,0 +1,112 @@
+{
+  "name": "datasette",
+  "full_name": "datasette",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source multi-tool for exploring and publishing data",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.datasette.io/en/stable/",
+  "versions": {
+    "stable": "0.64.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/67/82/4fc39359d88abd0cf30d136078b58e9a36225ea2d97a92ddd26d30e0ea92/datasette-0.64.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "12ae15cd680d87f76a45ad30ff5b28a1fbf482e480dffdcfcea48be58b7a7c11"
+    },
+    "head": {
+      "url": "https://github.com/simonw/datasette.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:433829c0f0fc726b310b813b883eb1a7cec8c9ea3a32c8ac0a2a6ce13cfa50da",
+          "sha256": "433829c0f0fc726b310b813b883eb1a7cec8c9ea3a32c8ac0a2a6ce13cfa50da"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:b90d446b2319fb77b00c1aadfc5dcd7056fcd1ff89efeb9f49edcdac185d8e21",
+          "sha256": "b90d446b2319fb77b00c1aadfc5dcd7056fcd1ff89efeb9f49edcdac185d8e21"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:85300e157accc6923845a98adbe453221fb766d2b8a8e3c2fadbf3e42f663ba9",
+          "sha256": "85300e157accc6923845a98adbe453221fb766d2b8a8e3c2fadbf3e42f663ba9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:2b35acb2492e05ca68acac4a79853ce02b0b99e8ed98b48f0c42020d849799fb",
+          "sha256": "2b35acb2492e05ca68acac4a79853ce02b0b99e8ed98b48f0c42020d849799fb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:73b1da02b3ba48ce551786764a11f873a3a1bb121549ce98a74b12ad2537d0ca",
+          "sha256": "73b1da02b3ba48ce551786764a11f873a3a1bb121549ce98a74b12ad2537d0ca"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:9be1c891b2ef3ad633595b89ed58b9fb3166538ac9fc6e0589656a8b8c4310ae",
+          "sha256": "9be1c891b2ef3ad633595b89ed58b9fb3166538ac9fc6e0589656a8b8c4310ae"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datasette/blobs/sha256:70f022b8d8b297162daec2f4d9a4a3ef800333898f678d5201f83ca05b1cadd8",
+          "sha256": "70f022b8d8b297162daec2f4d9a4a3ef800333898f678d5201f83ca05b1cadd8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/datasette.rb",
+  "ruby_source_checksum": {
+    "sha256": "f0b2951f28ef65d926a38bf91a85aae6ab1c699e9413ae9adadb775c96e7b0c0"
+  },
+  "date_added": "2020-08-12T09:18:08+00:00"
+}

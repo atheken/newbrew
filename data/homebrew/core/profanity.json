@@ -1,0 +1,144 @@
+{
+  "name": "profanity",
+  "full_name": "profanity",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Console based XMPP client",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://profanity-im.github.io",
+  "versions": {
+    "stable": "0.13.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://profanity-im.github.io/tarballs/profanity-0.13.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2b5075272e7ec9d9c991542e592b1d474fff88c61c66e7e23096ad306ed2c84a"
+    },
+    "head": {
+      "url": "https://github.com/profanity-im/profanity.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:fcfcc39a0046f3dea14792a29b17c1f9975ae8ddf6e9e0aa6c290447c77f585b",
+          "sha256": "fcfcc39a0046f3dea14792a29b17c1f9975ae8ddf6e9e0aa6c290447c77f585b"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:056130e0175fe061171aa23c0aba2626987020a62162bd49c28d3b2ded79e6ad",
+          "sha256": "056130e0175fe061171aa23c0aba2626987020a62162bd49c28d3b2ded79e6ad"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:2d6420972cfb0ab56b968245d67d557e5f4b08a1378c2277979ff40ba9fde266",
+          "sha256": "2d6420972cfb0ab56b968245d67d557e5f4b08a1378c2277979ff40ba9fde266"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:b3ca86b0f0e3d8e457f9b1acc436da3ce6fdd036c25a64efd7c85d8c6c2013c5",
+          "sha256": "b3ca86b0f0e3d8e457f9b1acc436da3ce6fdd036c25a64efd7c85d8c6c2013c5"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:e942a19b775d15b1c160c5f3b0924f1e93249309fa1a54f8e96c2a6b0c750d86",
+          "sha256": "e942a19b775d15b1c160c5f3b0924f1e93249309fa1a54f8e96c2a6b0c750d86"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:2a12f1e8209b0078713bb71e54469a6a8a3f8bbffe37a59f06541f34cf08a800",
+          "sha256": "2a12f1e8209b0078713bb71e54469a6a8a3f8bbffe37a59f06541f34cf08a800"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/profanity/blobs/sha256:22412eee0a04d94e03ea8871df887ab99cbc1a93d7d6b10843fd96588bc6d741",
+          "sha256": "22412eee0a04d94e03ea8871df887ab99cbc1a93d7d6b10843fd96588bc6d741"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "curl",
+    "glib",
+    "gnutls",
+    "gpgme",
+    "libotr",
+    "libsignal-protocol-c",
+    "libstrophe",
+    "python@3.11",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/profanity.rb",
+  "ruby_source_checksum": {
+    "sha256": "de213553a3747ea802895c45722e04fc61e270ee7c042ccd13bb9c02ae680e18"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "autoconf-archive",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "curl",
+      "glib",
+      "gnutls",
+      "gpgme",
+      "libotr",
+      "libsignal-protocol-c",
+      "libstrophe",
+      "python@3.11",
+      "readline"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2014-08-08T19:42:04+01:00"
+}

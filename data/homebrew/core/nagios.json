@@ -1,0 +1,124 @@
+{
+  "name": "nagios",
+  "full_name": "nagios",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network monitoring and management system",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.nagios.org/",
+  "versions": {
+    "stable": "4.4.13",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/nagios/nagios-4.x/nagios-4.4.13/nagios-4.4.13.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c289488c7ba71e66aae9890113eee475b9cedfe92f663a899ac6f70764fc1727"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:d6a96a2e9b03010cdc0eefcc395cce7efff7726a6b167b89840489085c97dc1f",
+          "sha256": "d6a96a2e9b03010cdc0eefcc395cce7efff7726a6b167b89840489085c97dc1f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:e6583561477d29f57b65e5c064a0b7e2cce2523c8ef50230f3edd41873d8b5fb",
+          "sha256": "e6583561477d29f57b65e5c064a0b7e2cce2523c8ef50230f3edd41873d8b5fb"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:952f5e980df84edb781d3edd3382882289da986aba91a6b48d3532a77d981aa1",
+          "sha256": "952f5e980df84edb781d3edd3382882289da986aba91a6b48d3532a77d981aa1"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:0a64821eb737ba69852735ee1dc1d5303a0f071a9ba68e5deb828fe536435e60",
+          "sha256": "0a64821eb737ba69852735ee1dc1d5303a0f071a9ba68e5deb828fe536435e60"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:2618b63439e2cc5e909beeabf93bee6e055d1b69a523ed9141c9df50baf7def5",
+          "sha256": "2618b63439e2cc5e909beeabf93bee6e055d1b69a523ed9141c9df50baf7def5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:df7a95509c5372787ecd8bfc8dc94e505d34da8f5543b972e7e54a666b61b8f7",
+          "sha256": "df7a95509c5372787ecd8bfc8dc94e505d34da8f5543b972e7e54a666b61b8f7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nagios/blobs/sha256:09c36efc9f60302dac7b25a9d72f1c51ad449c28243a4965f18ad847c047f4c0",
+          "sha256": "09c36efc9f60302dac7b25a9d72f1c51ad449c28243a4965f18ad847c047f4c0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gd",
+    "libpng",
+    "nagios-plugins",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "unzip"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/nagios/bin/nagios",
+      "/home/linuxbrew/.linuxbrew/etc/nagios/nagios.cfg"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "require_root": true,
+    "log_path": "/dev/null",
+    "error_log_path": "/dev/null"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nagios.rb",
+  "ruby_source_checksum": {
+    "sha256": "5e8d7fd75b771db4fd1e55d69500bb67ca6ab4ab732041b30c4887b73aa62010"
+  },
+  "date_added": "2011-11-07T13:56:13-06:00"
+}

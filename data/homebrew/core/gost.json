@@ -1,0 +1,109 @@
+{
+  "name": "gost",
+  "full_name": "gost",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GO Simple Tunnel - a simple tunnel written in golang",
+  "license": "MIT",
+  "homepage": "https://github.com/ginuerzh/gost",
+  "versions": {
+    "stable": "2.11.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ginuerzh/gost/archive/v2.11.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dab48b785f4d2df6c2f5619a4b9a2ac6e8b708f667a4d89c7d08df67ad7c5ca7"
+    },
+    "head": {
+      "url": "https://github.com/ginuerzh/gost.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:a038791ff4264c47f939d8c23da79d7c2c6973908078a266a1c6e6b6b62bf554",
+          "sha256": "a038791ff4264c47f939d8c23da79d7c2c6973908078a266a1c6e6b6b62bf554"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:15980cd4a66cefb943da580fda1debf22ae133a7dfff87544ee6e99b44a0c45a",
+          "sha256": "15980cd4a66cefb943da580fda1debf22ae133a7dfff87544ee6e99b44a0c45a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:18fe7a2a916b7989b4c8d1ca8136001bb8eff011ceee2f6bd68721ab402fbab0",
+          "sha256": "18fe7a2a916b7989b4c8d1ca8136001bb8eff011ceee2f6bd68721ab402fbab0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:bb5575025c71775c7f6ab8110ec58a314271a75522b0fc419e0d339466b02619",
+          "sha256": "bb5575025c71775c7f6ab8110ec58a314271a75522b0fc419e0d339466b02619"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:7247575e8ddd0fb98d8894f33a0534e2254cadfeafd1216a8c211ebb61141e4f",
+          "sha256": "7247575e8ddd0fb98d8894f33a0534e2254cadfeafd1216a8c211ebb61141e4f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:cbf1914a54b4ca00a52ce37a1519856a49eaa35a50f8afd7d0ede9ac5de352f4",
+          "sha256": "cbf1914a54b4ca00a52ce37a1519856a49eaa35a50f8afd7d0ede9ac5de352f4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gost/blobs/sha256:19b99cc2fdc814773ed05924490b3896473889ad7a933b7ce1c80e53127fae5c",
+          "sha256": "19b99cc2fdc814773ed05924490b3896473889ad7a933b7ce1c80e53127fae5c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go@1.19"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gost.rb",
+  "ruby_source_checksum": {
+    "sha256": "6ba287f62ccddce84c2336729f512d01b3b4ca8064982ca6dbd8acb5f464e90d"
+  },
+  "date_added": "2015-06-20T20:50:35+01:00"
+}

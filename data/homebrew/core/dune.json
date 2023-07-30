@@ -1,0 +1,111 @@
+{
+  "name": "dune",
+  "full_name": "dune",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Composable build system for OCaml",
+  "license": "MIT",
+  "homepage": "https://dune.build/",
+  "versions": {
+    "stable": "3.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ocaml/dune/releases/download/3.9.2/dune-3.9.2.tbz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4f3acbd45d3dcdbbbda891372f43f056942b6b96ed977ec5281ba9a875134adf"
+    },
+    "head": {
+      "url": "https://github.com/ocaml/dune.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:02a3c08fe96671295644127ac2b27b9060084ed71d776be25377f61203c468cd",
+          "sha256": "02a3c08fe96671295644127ac2b27b9060084ed71d776be25377f61203c468cd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:87e0f68db840fc3ac58806ebe9555a48f8ae45239b9f7df7c316d8a169d66909",
+          "sha256": "87e0f68db840fc3ac58806ebe9555a48f8ae45239b9f7df7c316d8a169d66909"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:d3f9089fa4e58b88d8cf1c8f44fe6cfe069ab1ea8d0418d5066d6146137b1eac",
+          "sha256": "d3f9089fa4e58b88d8cf1c8f44fe6cfe069ab1ea8d0418d5066d6146137b1eac"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:e082b4567b393a651d9785e8c7824b7bedddda1144bc66ff2eb1ceb01cfa2c71",
+          "sha256": "e082b4567b393a651d9785e8c7824b7bedddda1144bc66ff2eb1ceb01cfa2c71"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:eafbfbfcc93003e7ae0ffd93348a65731b6a8eba1aa7e6cd857ef6ca27d43a60",
+          "sha256": "eafbfbfcc93003e7ae0ffd93348a65731b6a8eba1aa7e6cd857ef6ca27d43a60"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:fdfd0e113e5edcf4b29e50acdc8c392bfdf72af5c7082322cdb14c5533d39bf0",
+          "sha256": "fdfd0e113e5edcf4b29e50acdc8c392bfdf72af5c7082322cdb14c5533d39bf0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dune/blobs/sha256:d0708c22baf3c6eed5a7686bbd8c5da7ef4692b3e664ce9a13a514175a579054",
+          "sha256": "d0708c22baf3c6eed5a7686bbd8c5da7ef4692b3e664ce9a13a514175a579054"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "ocaml"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dune.rb",
+  "ruby_source_checksum": {
+    "sha256": "d4cc8a057066710828c4264a612423e9cf3ee475ecdfae35c4633bbf5bada763"
+  },
+  "date_added": "2019-12-01T14:51:06-05:00"
+}

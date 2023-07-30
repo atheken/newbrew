@@ -1,0 +1,146 @@
+{
+  "name": "postgresql@13",
+  "full_name": "postgresql@13",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "postgresql@15",
+    "postgresql@14",
+    "postgresql@12",
+    "postgresql@11",
+    "postgresql@10",
+    "postgresql@9.5",
+    "postgresql@9.4"
+  ],
+  "desc": "Object-relational database system",
+  "license": "PostgreSQL",
+  "homepage": "https://www.postgresql.org/",
+  "versions": {
+    "stable": "13.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.postgresql.org/pub/source/v13.11/postgresql-13.11.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "4992ff647203566b670d4e54dc5317499a26856c93576d0ea951bdf6bee50bfb"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:5734dbe0b54eae911dfdfc863162a903dbc60377aa58c51573edc3e3ed15155f",
+          "sha256": "5734dbe0b54eae911dfdfc863162a903dbc60377aa58c51573edc3e3ed15155f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:2e20526ca972aa143f8da81dabe4c4077d13fc9a97e89d0f3df339cbe47d44f4",
+          "sha256": "2e20526ca972aa143f8da81dabe4c4077d13fc9a97e89d0f3df339cbe47d44f4"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:8021201bd07d8b5837e2d730c2c26c2e3d4e85a0000a5c966009eaad58f8a590",
+          "sha256": "8021201bd07d8b5837e2d730c2c26c2e3d4e85a0000a5c966009eaad58f8a590"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:993cdd48d0cbc27f663dd0d8c82bb8e05048bc506194f29694e1c6b05e942955",
+          "sha256": "993cdd48d0cbc27f663dd0d8c82bb8e05048bc506194f29694e1c6b05e942955"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:190b401b2f0ae3357b46d792e0daba925e0bbea5175df13609ca19459691aaed",
+          "sha256": "190b401b2f0ae3357b46d792e0daba925e0bbea5175df13609ca19459691aaed"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:1f5ddb770cbe68cdd0166e2244f9f2d4f27615fc0e1b46e76f7d61478b33a77a",
+          "sha256": "1f5ddb770cbe68cdd0166e2244f9f2d4f27615fc0e1b46e76f7d61478b33a77a"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/postgresql/13/blobs/sha256:6d00626ec1af03aa04e16dc13794e057eed39d0508ffda60711a443752482761",
+          "sha256": "6d00626ec1af03aa04e16dc13794e057eed39d0508ffda60711a443752482761"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "icu4c",
+    "krb5",
+    "openssl@3",
+    "readline",
+    "linux-pam",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt",
+    "openldap",
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "This formula has created a default database cluster with:\n  initdb --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@13\nFor more details, read:\n  https://www.postgresql.org/docs/13/app-initdb.html\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": "2025-11-13",
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/postgresql@13/bin/postgres",
+      "-D",
+      "/home/linuxbrew/.linuxbrew/var/postgresql@13"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/postgresql@13.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/postgresql@13.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/postgresql@13.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ca3d9390b8dd45f21e3557ded8d851582951d63b1927e1fb3bfc665a218f53f"
+  },
+  "date_added": "2021-10-05T23:44:03+00:00"
+}

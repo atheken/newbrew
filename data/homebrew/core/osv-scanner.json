@@ -1,0 +1,109 @@
+{
+  "name": "osv-scanner",
+  "full_name": "osv-scanner",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vulnerability scanner which uses the OSV database",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/google/osv-scanner",
+  "versions": {
+    "stable": "1.3.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/osv-scanner/archive/refs/tags/v1.3.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cac90e2683079d2fbe7c5e387d6a5acb65c7d340153df06e91578f9212def50b"
+    },
+    "head": {
+      "url": "https://github.com/google/osv-scanner.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8",
+          "sha256": "792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8",
+          "sha256": "792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8",
+          "sha256": "792e7ce252cc396cd2138af129f0d76c2c0da557af085a6b4a522a8d257adbf8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d",
+          "sha256": "7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d",
+          "sha256": "7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d",
+          "sha256": "7b19d81f08a5f5e3557d038acecd2f5ae4095856ac1e5640bca39da67a63564d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osv-scanner/blobs/sha256:f7a87a7bbf5008320eb1eccba4dac980ede6fea533724818be03b76dbbd91ac2",
+          "sha256": "f7a87a7bbf5008320eb1eccba4dac980ede6fea533724818be03b76dbbd91ac2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/osv-scanner.rb",
+  "ruby_source_checksum": {
+    "sha256": "95a580bac08f72972b7628540afe413fc95f7a96ac3f5f53241ab842e626e36f"
+  },
+  "date_added": "2022-12-15T17:45:16+00:00"
+}

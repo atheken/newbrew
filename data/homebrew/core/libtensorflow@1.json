@@ -1,0 +1,89 @@
+{
+  "name": "libtensorflow@1",
+  "full_name": "libtensorflow@1",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C interface for Google's OS library for Machine Intelligence",
+  "license": "Apache-2.0",
+  "homepage": "https://www.tensorflow.org/",
+  "versions": {
+    "stable": "1.15.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tensorflow/tensorflow/archive/v1.15.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4c4d23e311093ded2d2e287b18d7c45b07b5984ab88a1d2f91f8f13c886123db"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/1/blobs/sha256:8f1c80ebe024b29fb7d6695fa41de75e84d21948535a6459f3dd11b8e5a2165f",
+          "sha256": "8f1c80ebe024b29fb7d6695fa41de75e84d21948535a6459f3dd11b8e5a2165f"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/1/blobs/sha256:28bac51bae550468948151ffa7fa62d38cce9eee19522f045b1f40b4885f9625",
+          "sha256": "28bac51bae550468948151ffa7fa62d38cce9eee19522f045b1f40b4885f9625"
+        },
+        "mojave": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/1/blobs/sha256:aefd6a0dbaae05e710a8372fa6ca3e6d731b9ee455ca99f898141d7f627303eb",
+          "sha256": "aefd6a0dbaae05e710a8372fa6ca3e6d731b9ee455ca99f898141d7f627303eb"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "bazel",
+    "python@3.9"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-07-31",
+  "disable_reason": "versioned_formula",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libtensorflow@1.rb",
+  "ruby_source_checksum": {
+    "sha256": "3ad3df637820424be6acb2ee93d973e2b2b8d9b0a2a73cf0acaaa7f1d7abcedb"
+  },
+  "date_added": "2019-10-02T22:23:09-04:00"
+}

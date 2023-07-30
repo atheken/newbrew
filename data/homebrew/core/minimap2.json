@@ -1,0 +1,107 @@
+{
+  "name": "minimap2",
+  "full_name": "minimap2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Versatile pairwise aligner for genomic and spliced nucleotide sequences",
+  "license": "MIT",
+  "homepage": "https://lh3.github.io/minimap2",
+  "versions": {
+    "stable": "2.26",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lh3/minimap2/archive/refs/tags/v2.26.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f4c8c3459c7b87e9de6cbed7de019b48d9337c2e46b87ba81b9f72d889420b3c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:2fac2191822f597856d08dc0ebe8140fead7b1ad69449b142318c8565a5783cf",
+          "sha256": "2fac2191822f597856d08dc0ebe8140fead7b1ad69449b142318c8565a5783cf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:b7d4c7d2de5060e2e2c6cad063589e0fe4b85a029f0f4059370d2343549f2b50",
+          "sha256": "b7d4c7d2de5060e2e2c6cad063589e0fe4b85a029f0f4059370d2343549f2b50"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:f33f5b2a19c70d088a2008b47bb8f310ee92340eebbb37458d84881a8d9f1068",
+          "sha256": "f33f5b2a19c70d088a2008b47bb8f310ee92340eebbb37458d84881a8d9f1068"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:e2aeff2e9f605b4310d03a8ac36791688537e19c712c640fe4b2065a87037c52",
+          "sha256": "e2aeff2e9f605b4310d03a8ac36791688537e19c712c640fe4b2065a87037c52"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:4371d29b25df3ebb4a44b93f7d6cc99581a533537f9a83566d935e4e53c770ff",
+          "sha256": "4371d29b25df3ebb4a44b93f7d6cc99581a533537f9a83566d935e4e53c770ff"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:d3b4a714519502f6336dbf7c1d40b17532f4ca00bc428065bcedabbfe08c3c5b",
+          "sha256": "d3b4a714519502f6336dbf7c1d40b17532f4ca00bc428065bcedabbfe08c3c5b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minimap2/blobs/sha256:64a3fd304a3250c54bd8be2037ba13565bd055c07f0adccc40b66a679b91f4af",
+          "sha256": "64a3fd304a3250c54bd8be2037ba13565bd055c07f0adccc40b66a679b91f4af"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/minimap2.rb",
+  "ruby_source_checksum": {
+    "sha256": "f1a102aff83958497f20851eac659bbb3db03f4f290a760f5fa14c930a34a3fc"
+  },
+  "date_added": "2022-05-04T10:31:54+00:00"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "conan",
+  "full_name": "conan",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "conan@2"
+  ],
+  "versioned_formulae": [
+    "conan@1"
+  ],
+  "desc": "Distributed, open source, package manager for C/C++",
+  "license": "MIT",
+  "homepage": "https://conan.io",
+  "versions": {
+    "stable": "2.0.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/9a/ec/325a14043fb447e16122b6595df88e4af72681388ba11516fa20712c8e66/conan-2.0.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c54fde1f0629c2eb51de8636c5272fc919f9e70994c579df04620bca0a479bb4"
+    },
+    "head": {
+      "url": "https://github.com/conan-io/conan.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:d7823dc624b7226753f06d7a92e27366872c1a65577c80b6eaffcb3fada414e6",
+          "sha256": "d7823dc624b7226753f06d7a92e27366872c1a65577c80b6eaffcb3fada414e6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:4a53e17c20111256a48deddb16ee5eeb3157e24f7859446e99fdbf1edd0f1b77",
+          "sha256": "4a53e17c20111256a48deddb16ee5eeb3157e24f7859446e99fdbf1edd0f1b77"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:aca339a0987ef41079d1b8199f4998fce3cda202592d63569c73c274b3b6568f",
+          "sha256": "aca339a0987ef41079d1b8199f4998fce3cda202592d63569c73c274b3b6568f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:2d2bb3caed3322d9ae3989eb8d4c328827d4ab23d6c892334c2f9d613686f478",
+          "sha256": "2d2bb3caed3322d9ae3989eb8d4c328827d4ab23d6c892334c2f9d613686f478"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:a739d7f55cc95d2130941d69cdd33a66258466dd4f011525cbe7bb23a93fb10d",
+          "sha256": "a739d7f55cc95d2130941d69cdd33a66258466dd4f011525cbe7bb23a93fb10d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:46d1b91390e16eda1416a6eb51210ddf8776cfa3e82c37790306fafbcb208ae4",
+          "sha256": "46d1b91390e16eda1416a6eb51210ddf8776cfa3e82c37790306fafbcb208ae4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/conan/blobs/sha256:5bfc23028419314a92da5db35b86696e2d673d493f6a708985f7a1768b86bd40",
+          "sha256": "5bfc23028419314a92da5db35b86696e2d673d493f6a708985f7a1768b86bd40"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "pygments",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/conan.rb",
+  "ruby_source_checksum": {
+    "sha256": "e092ac2642dff1ee0b06cb6b854c1f30d42eaa845c4639d00410631a647f300b"
+  },
+  "date_added": "2016-03-16T13:35:46+08:00"
+}

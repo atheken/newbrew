@@ -1,0 +1,110 @@
+{
+  "name": "libxcb",
+  "full_name": "libxcb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: Interface to the X Window System protocol",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "1.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://xcb.freedesktop.org/dist/libxcb-1.15.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1cb65df8543a69ec0555ac696123ee386321dfac1964a3da39976c9a05ad724d"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:cf7a5932142b247a4af6b7681ac44b74e16081806e651640e3ae460df08d71a7",
+          "sha256": "cf7a5932142b247a4af6b7681ac44b74e16081806e651640e3ae460df08d71a7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:8a0df37f2087ac271ae9780b2db056b4a75f2090a535ac7c9560944d295962db",
+          "sha256": "8a0df37f2087ac271ae9780b2db056b4a75f2090a535ac7c9560944d295962db"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:42b2a0a1eee03d44c137195a485153f4a185bac30f64c5fffe28576fc8bbc611",
+          "sha256": "42b2a0a1eee03d44c137195a485153f4a185bac30f64c5fffe28576fc8bbc611"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:9db0c9b29509ebae89d9592d3afe997f12949b3e96ea13661cf2080552aecf59",
+          "sha256": "9db0c9b29509ebae89d9592d3afe997f12949b3e96ea13661cf2080552aecf59"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:668eb7405f2bc6e32007e3c4ee40adb88c1e26db47c3389aa8719bd4b5c7f8f1",
+          "sha256": "668eb7405f2bc6e32007e3c4ee40adb88c1e26db47c3389aa8719bd4b5c7f8f1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:ba2af806eddb9db3f65ab2c462d749fbadd03dd30d1ee6c5493ee466855dcae2",
+          "sha256": "ba2af806eddb9db3f65ab2c462d749fbadd03dd30d1ee6c5493ee466855dcae2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:37069aebf6799c5799d31ea9b6a25549726260b583cc6657bc858f4cd32c2f55",
+          "sha256": "37069aebf6799c5799d31ea9b6a25549726260b583cc6657bc858f4cd32c2f55"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "python@3.11",
+    "xcb-proto"
+  ],
+  "dependencies": [
+    "libxau",
+    "libxdmcp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libxcb.rb",
+  "ruby_source_checksum": {
+    "sha256": "9caa39c8e7aeb66dae8ca238bb06e01c9224178228a85f0dbd53bd812cc4fe12"
+  },
+  "date_added": "2020-10-04T19:17:39+00:00"
+}

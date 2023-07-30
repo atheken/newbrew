@@ -1,0 +1,122 @@
+{
+  "name": "tor",
+  "full_name": "tor",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Anonymizing overlay network for TCP",
+  "license": "BSD-2-Clause and BSD-3-Clause and MIT and NCSA",
+  "homepage": "https://www.torproject.org/",
+  "versions": {
+    "stable": "0.4.7.14",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.torproject.org/dist/tor-0.4.7.14.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a5ac67f6466380fc05e8043d01c581e4e8a2b22fe09430013473e71065e65df8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:eecb3e82d97ae71ffaae574dc68dd81af96cf3e099c1df22c9edc7c9a29f7152",
+          "sha256": "eecb3e82d97ae71ffaae574dc68dd81af96cf3e099c1df22c9edc7c9a29f7152"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:3e49f41b47a1ee0e49f1cd0df77d41024e296c836cf0fbb87a3b839ffbda5744",
+          "sha256": "3e49f41b47a1ee0e49f1cd0df77d41024e296c836cf0fbb87a3b839ffbda5744"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:9e843727fc006d8d551e6ee39f2595843e33d44334dcd66838ff26c1c26c164c",
+          "sha256": "9e843727fc006d8d551e6ee39f2595843e33d44334dcd66838ff26c1c26c164c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:4127674d3e5c1330dfe5ea7a0bece305a02a5f17ea5c9485888b46c4a9c3b8bf",
+          "sha256": "4127674d3e5c1330dfe5ea7a0bece305a02a5f17ea5c9485888b46c4a9c3b8bf"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:f04a656da073f65e17642a134610b2e68eb25fe4a4c24f94532d1162f3917b2b",
+          "sha256": "f04a656da073f65e17642a134610b2e68eb25fe4a4c24f94532d1162f3917b2b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:07a92f3a4186943d70093b0eb46b8f7e8bee40cef5d7116f933c35af8052677e",
+          "sha256": "07a92f3a4186943d70093b0eb46b8f7e8bee40cef5d7116f933c35af8052677e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tor/blobs/sha256:90d989022f9a6d73c85dd67f6dd891a4b1f7db7d74ff8372a6e89a61cbe67e84",
+          "sha256": "90d989022f9a6d73c85dd67f6dd891a4b1f7db7d74ff8372a6e89a61cbe67e84"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent",
+    "libscrypt",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/tor/bin/tor",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/tor.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/tor.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tor.rb",
+  "ruby_source_checksum": {
+    "sha256": "e73423b2610e57bc3467569e50a4c33439a8af7926152d6ae41adc4fc5a053e3"
+  },
+  "date_added": "2010-02-10T20:43:50-08:00"
+}

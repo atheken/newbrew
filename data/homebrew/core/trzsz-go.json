@@ -1,0 +1,105 @@
+{
+  "name": "trzsz-go",
+  "full_name": "trzsz-go",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple file transfer tools, similar to lrzsz (rz/sz), and compatible with tmux",
+  "license": "MIT",
+  "homepage": "https://trzsz.github.io",
+  "versions": {
+    "stable": "1.1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/trzsz/trzsz-go/archive/refs/tags/v1.1.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "655ea46ff2b88c7a0530950165b9c005a2cd2afe1ad91516d38edb5fdc56ec2b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a",
+          "sha256": "d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a",
+          "sha256": "d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a",
+          "sha256": "d7db826e62f88560d12fb6792b859048dc5dd90a77190f11dc9fb8909352427a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4",
+          "sha256": "e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4",
+          "sha256": "e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4",
+          "sha256": "e4dec434f41381a15b096ff3a908ff9f7e16e38a5eb2f29b12aa9e13354fc1a4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trzsz-go/blobs/sha256:64f8195b2c85f3f080d863e9117d2e1cc6b9f40ea57bd9d206d866e81a579452",
+          "sha256": "64f8195b2c85f3f080d863e9117d2e1cc6b9f40ea57bd9d206d866e81a579452"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/trzsz-go.rb",
+  "ruby_source_checksum": {
+    "sha256": "47a5a5bd3d5b3f09415dc9c093f25878e09edc035688156d0568faedba3a94e1"
+  },
+  "date_added": "2022-06-26T02:54:37+00:00"
+}

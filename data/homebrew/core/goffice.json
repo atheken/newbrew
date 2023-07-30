@@ -1,0 +1,158 @@
+{
+  "name": "goffice",
+  "full_name": "goffice",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Gnumeric spreadsheet program",
+  "license": "GPL-3.0-only or GPL-2.0-only",
+  "homepage": "https://gitlab.gnome.org/GNOME/goffice",
+  "versions": {
+    "stable": "0.10.55",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/goffice/0.10/goffice-0.10.55.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "16a221191855a6a6c0d06b1ef8e481cf3f52041a654ec96d35817045ba1a99af"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/goffice.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:b4fba5dd3adb45ec2bbd704602870bebdb56498f8e32a0d9cc73695e56d70539",
+          "sha256": "b4fba5dd3adb45ec2bbd704602870bebdb56498f8e32a0d9cc73695e56d70539"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:d65b7f9ed3f4f20f40db33f6a5e0524a7bb4eefbf7aa64cf2bd6d16ee36a10fe",
+          "sha256": "d65b7f9ed3f4f20f40db33f6a5e0524a7bb4eefbf7aa64cf2bd6d16ee36a10fe"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:0aa63ad148cb4aae4c65266661a83918c908e20215370f370a83539b76013925",
+          "sha256": "0aa63ad148cb4aae4c65266661a83918c908e20215370f370a83539b76013925"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:64237ea971207b9ed98c30df3fd174e43655c961e3fda8f477c694046906d6eb",
+          "sha256": "64237ea971207b9ed98c30df3fd174e43655c961e3fda8f477c694046906d6eb"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:e504938af2973d98cfed4e9a402ba7abafbfa9a1d93cb5deebda0af512bc70db",
+          "sha256": "e504938af2973d98cfed4e9a402ba7abafbfa9a1d93cb5deebda0af512bc70db"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:b4b6abb961eb7cc3485f517d1ea196104b0bddfdaa6dee3f258f906584f6e434",
+          "sha256": "b4b6abb961eb7cc3485f517d1ea196104b0bddfdaa6dee3f258f906584f6e434"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/goffice/blobs/sha256:8cde966d15d0204ea00adf282e606d026988617d25d5e2f139a623a8ce8f1b66",
+          "sha256": "8cde966d15d0204ea00adf282e606d026988617d25d5e2f139a623a8ce8f1b66"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "intltool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "atk",
+    "cairo",
+    "gdk-pixbuf",
+    "glib",
+    "gtk+3",
+    "libgsf",
+    "librsvg",
+    "pango"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/goffice.rb",
+  "ruby_source_checksum": {
+    "sha256": "3614a161f29a07a6c9a7744e3dc8bc7bb053c743bff76cb0ce2c4739c60e5f27"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "gtk-doc",
+      "libtool",
+      "gettext",
+      "intltool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "atk",
+      "cairo",
+      "gdk-pixbuf",
+      "glib",
+      "gtk+3",
+      "libgsf",
+      "librsvg",
+      "pango"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxml2",
+      "libxslt"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2012-02-18T14:01:48-08:00"
+}

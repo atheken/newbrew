@@ -1,0 +1,118 @@
+{
+  "name": "libcouchbase",
+  "full_name": "libcouchbase",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "libcouchbase@3"
+  ],
+  "versioned_formulae": [
+    "libcouchbase@2"
+  ],
+  "desc": "C library for Couchbase",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.couchbase.com/c-sdk/current/hello-world/start-using-sdk.html",
+  "versions": {
+    "stable": "3.3.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://packages.couchbase.com/clients/c/libcouchbase-3.3.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "91ff6471351a056c446dc29c283eecea8c18da8f4af83b5db469e65482ded7ab"
+    },
+    "head": {
+      "url": "https://github.com/couchbase/libcouchbase.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:300d7c2fa0d9f98b6cffa08f320d2370ba1736df3a2d45d725c26a93f96708be",
+          "sha256": "300d7c2fa0d9f98b6cffa08f320d2370ba1736df3a2d45d725c26a93f96708be"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:e74fdba8d3f0d00ed1793e357c35f58bc6dfaa1f1f039010fc8010d573f7f948",
+          "sha256": "e74fdba8d3f0d00ed1793e357c35f58bc6dfaa1f1f039010fc8010d573f7f948"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:40efd1c07e2d91a738fcc480462cb6eaab4fa936011ec95f9969a82dd7836901",
+          "sha256": "40efd1c07e2d91a738fcc480462cb6eaab4fa936011ec95f9969a82dd7836901"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:ac33b4addc0dbadd1c83795dbce10be71fc1cbf375fd84b0195359ae008b6527",
+          "sha256": "ac33b4addc0dbadd1c83795dbce10be71fc1cbf375fd84b0195359ae008b6527"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:f4a2830a86978ae2c64ff83fe54ce010a4a6a9ecc0bd464d2b84013a6b34e76e",
+          "sha256": "f4a2830a86978ae2c64ff83fe54ce010a4a6a9ecc0bd464d2b84013a6b34e76e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:2d2fb55d767c627914474e67ed2c3ef053c077ee10a5d1d321794fd0168091e0",
+          "sha256": "2d2fb55d767c627914474e67ed2c3ef053c077ee10a5d1d321794fd0168091e0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libcouchbase/blobs/sha256:f196f58278101bf1b8f49a299e29b7cbb021ddb57c73b194d3e3b6be28b19b83",
+          "sha256": "f196f58278101bf1b8f49a299e29b7cbb021ddb57c73b194d3e3b6be28b19b83"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libev",
+    "libevent",
+    "libuv",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libcouchbase.rb",
+  "ruby_source_checksum": {
+    "sha256": "381be8cf95025620deb55d1f039c851d8831022dd5f0bab93ce2d64ffc5423ec"
+  },
+  "date_added": "2012-03-11T21:12:16-05:00"
+}

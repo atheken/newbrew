@@ -1,0 +1,105 @@
+{
+  "name": "libolm",
+  "full_name": "libolm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of the Double Ratchet cryptographic ratchet",
+  "license": "Apache-2.0",
+  "homepage": "https://gitlab.matrix.org/matrix-org/olm",
+  "versions": {
+    "stable": "3.2.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.matrix.org/matrix-org/olm/-/archive/3.2.15/olm-3.2.15.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0c63362b8be78580c2ff862297386ceb00fb05b295ce346f6fff8be8ac49eded"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:ae2fce79fbf4a831388686618bf59126dbd90ff8695cc88c5b22997ac8022240",
+          "sha256": "ae2fce79fbf4a831388686618bf59126dbd90ff8695cc88c5b22997ac8022240"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:b829de0f052d4256e5ac278288ba80f652b1501abd305a914e8733db02dbe2c2",
+          "sha256": "b829de0f052d4256e5ac278288ba80f652b1501abd305a914e8733db02dbe2c2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:acc275d512ad0e668d3eafe8882f5a527b7ca6b179bfa470a5feecb850ea6557",
+          "sha256": "acc275d512ad0e668d3eafe8882f5a527b7ca6b179bfa470a5feecb850ea6557"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:a89325d517b1e2a49fe253cdd4fa50fed2aff90682ea081591595d72a6d17521",
+          "sha256": "a89325d517b1e2a49fe253cdd4fa50fed2aff90682ea081591595d72a6d17521"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:22379c3407fd3cfc393a40f281ca11782b58a8207e4aecdc102c9535023235e3",
+          "sha256": "22379c3407fd3cfc393a40f281ca11782b58a8207e4aecdc102c9535023235e3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:2aace47f007fb57beea4c7f8d72d5b1f6f7775b58721c2097a0e3a2e410dfebc",
+          "sha256": "2aace47f007fb57beea4c7f8d72d5b1f6f7775b58721c2097a0e3a2e410dfebc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libolm/blobs/sha256:cd99aa0000266d83803aeed496decb2df14b7d7ed78035e63d0aeaba501f83fb",
+          "sha256": "cd99aa0000266d83803aeed496decb2df14b7d7ed78035e63d0aeaba501f83fb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libolm.rb",
+  "ruby_source_checksum": {
+    "sha256": "6d022cca0fc35ac176e0206650452c491a6a94ab5cceab4aad6e24f80a90c234"
+  },
+  "date_added": "2020-05-16T17:34:47+00:00"
+}

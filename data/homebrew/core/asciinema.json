@@ -1,0 +1,109 @@
+{
+  "name": "asciinema",
+  "full_name": "asciinema",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Record and share terminal sessions",
+  "license": "GPL-3.0",
+  "homepage": "https://asciinema.org",
+  "versions": {
+    "stable": "2.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/2b/78/b57985f4efe85e1b49a7ec48fd0f876f75937ae541740c5589754d6164a9/asciinema-2.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "db8b056c00e9bbb2751c958298b522518c4bd80326d90bedab7f8943c7a494d5"
+    },
+    "head": {
+      "url": "https://github.com/asciinema/asciinema.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:6dae7f1d9929f2038918cb726b9ebfcb8c799ebeab382d4cefc66b19bd11415a",
+          "sha256": "6dae7f1d9929f2038918cb726b9ebfcb8c799ebeab382d4cefc66b19bd11415a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:19b1b2088615754f5ac48a0678a13747ca2c993401b6191a2ac12ea3e0bfbf8f",
+          "sha256": "19b1b2088615754f5ac48a0678a13747ca2c993401b6191a2ac12ea3e0bfbf8f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:f4ddfa118137c9f06e75af99db2b2a116fd8012fe4dfd299eea7a804d30d546f",
+          "sha256": "f4ddfa118137c9f06e75af99db2b2a116fd8012fe4dfd299eea7a804d30d546f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:db4188518aade133a74961306c063b5100adcdbaff8b2c868ba137a1caa50be4",
+          "sha256": "db4188518aade133a74961306c063b5100adcdbaff8b2c868ba137a1caa50be4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:1fd2a3729306568bc7a1ca034a364fe0e62526715a8068d9a4bfa0e124abb22c",
+          "sha256": "1fd2a3729306568bc7a1ca034a364fe0e62526715a8068d9a4bfa0e124abb22c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:be49b0dc0c626328a2263ffd2cb516d6f7ab1f8a10ba48528e06bfb64239108e",
+          "sha256": "be49b0dc0c626328a2263ffd2cb516d6f7ab1f8a10ba48528e06bfb64239108e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciinema/blobs/sha256:f12203e93e58b0f689d3c4ebac81bc2d507bee2ff38278023f68852b8c19de61",
+          "sha256": "f12203e93e58b0f689d3c4ebac81bc2d507bee2ff38278023f68852b8c19de61"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asciinema.rb",
+  "ruby_source_checksum": {
+    "sha256": "b31021e77a25e1a230ede025b6c7f2958474c40a9b6de63e590ec65ec2bebb66"
+  },
+  "date_added": "2014-12-18T16:07:26+00:00"
+}

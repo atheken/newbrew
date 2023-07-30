@@ -1,0 +1,109 @@
+{
+  "name": "lmdb",
+  "full_name": "lmdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightning memory-mapped database: key-value data store",
+  "license": "OLDAP-2.8",
+  "homepage": "https://www.symas.com/symas-embedded-database-lmdb",
+  "versions": {
+    "stable": "0.9.31",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.31/openldap-LMDB_0.9.31.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "2132b8261d241876ce5fe10a243b2f7e0127eecaaff30039573eadc09e3acee6"
+    },
+    "head": {
+      "url": "https://git.openldap.org/openldap/openldap.git",
+      "branch": "mdb.master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:d5fc0e7ddf34975d3d059acdafe24a0ff8b2ad06ab885daa56e0b39d35e62e39",
+          "sha256": "d5fc0e7ddf34975d3d059acdafe24a0ff8b2ad06ab885daa56e0b39d35e62e39"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:df0af406ba05e10c20affbb89c96a1d57893315a24897206dafd4caa0f71cfd7",
+          "sha256": "df0af406ba05e10c20affbb89c96a1d57893315a24897206dafd4caa0f71cfd7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:c8f083bb749cf113b75048abdc2e68455ff4e7b7ef0255441904b2cb335e83bf",
+          "sha256": "c8f083bb749cf113b75048abdc2e68455ff4e7b7ef0255441904b2cb335e83bf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:c99efea54f5107b6326a79f39b8670c464ba13230b4dfbf969f34527835c80e8",
+          "sha256": "c99efea54f5107b6326a79f39b8670c464ba13230b4dfbf969f34527835c80e8"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:ec302b289dd892a4917ea5c971554bb38dd19d87852d3476fb47a248676e2008",
+          "sha256": "ec302b289dd892a4917ea5c971554bb38dd19d87852d3476fb47a248676e2008"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:1b237d14c62923901686ca9eb80eb2f50301dfcd640b93d27b9c5b7410f79fcb",
+          "sha256": "1b237d14c62923901686ca9eb80eb2f50301dfcd640b93d27b9c5b7410f79fcb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lmdb/blobs/sha256:b3f0368c65048ba0ff16bf90d71e95b0b165b0c3f5cc2f4a5497d58c01b96621",
+          "sha256": "b3f0368c65048ba0ff16bf90d71e95b0b165b0c3f5cc2f4a5497d58c01b96621"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lmdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "f6389225433288cef585d400093e6975addfc8d7e37ca71538cc43da861415b6"
+  },
+  "date_added": "2013-08-07T07:50:08-07:00"
+}

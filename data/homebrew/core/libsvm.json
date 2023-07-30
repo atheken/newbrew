@@ -1,0 +1,107 @@
+{
+  "name": "libsvm",
+  "full_name": "libsvm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for support vector machines",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.csie.ntu.edu.tw/~cjlin/libsvm/",
+  "versions": {
+    "stable": "3.32",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvm/libsvm-3.32.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8644cc6518ca88bbc50d8c8ead1734f1ab9b6f17017045ef9ae38773aa653dad"
+    },
+    "head": {
+      "url": "https://github.com/cjlin1/libsvm.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:fe235819b910f8d4076349a0c777525baa46f469cca14821a80775d6cad6ab0e",
+          "sha256": "fe235819b910f8d4076349a0c777525baa46f469cca14821a80775d6cad6ab0e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:9267ca6d537c962fecbfc3f9478487d172cc150e3bd5b26a6e88ae020b48c21b",
+          "sha256": "9267ca6d537c962fecbfc3f9478487d172cc150e3bd5b26a6e88ae020b48c21b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:dfead0cdebbbed12bf34e06ff4c058ce528f207ea8aba50c4e0495dc2c4a97fe",
+          "sha256": "dfead0cdebbbed12bf34e06ff4c058ce528f207ea8aba50c4e0495dc2c4a97fe"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:a00f5eb69a10446eafbe0b16be164a28e3ef03db654ecf18baaedc8f0db12e2f",
+          "sha256": "a00f5eb69a10446eafbe0b16be164a28e3ef03db654ecf18baaedc8f0db12e2f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:8da95e20f0b0ff7560004e15fab010f1aae1486326ab9d617f7e06de0b3e2b5e",
+          "sha256": "8da95e20f0b0ff7560004e15fab010f1aae1486326ab9d617f7e06de0b3e2b5e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:cc6ee0e7e2532a05a9b82beec1a8ca04e7c1380f9d6634a2b45a79e6479c4d4d",
+          "sha256": "cc6ee0e7e2532a05a9b82beec1a8ca04e7c1380f9d6634a2b45a79e6479c4d4d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libsvm/blobs/sha256:464056f924539b980646498a4b2ec99422656e35a676c2d1439064df97609b44",
+          "sha256": "464056f924539b980646498a4b2ec99422656e35a676c2d1439064df97609b44"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libsvm.rb",
+  "ruby_source_checksum": {
+    "sha256": "f82bef15c2061e7697aa6433983b4210f58881ffad5aa5be1e863d863ec09055"
+  },
+  "date_added": "2012-01-28T13:58:16-08:00"
+}

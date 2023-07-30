@@ -1,0 +1,87 @@
+{
+  "name": "h2",
+  "full_name": "h2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Java SQL database",
+  "license": "MPL-2.0",
+  "homepage": "https://www.h2database.com/",
+  "versions": {
+    "stable": "2.2.220",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/h2database/h2database/releases/download/version-2.2.220/h2-2023-07-04.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "f461dce80bc055c5ec7652c31249d7639a780e046e3974e45ee0ab79e7a36812"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/h2/blobs/sha256:511aca0c6b46a789986c1c7b93f62a820e5c7c2b3872e396b3fe80377d5e161a",
+          "sha256": "511aca0c6b46a789986c1c7b93f62a820e5c7c2b3872e396b3fe80377d5e161a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/h2/bin/h2",
+      "-tcp",
+      "-web",
+      "-pg"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/h2.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4357449639b9d0126100d05a4374f43c7cc42284956b3aba0a8150f899035da"
+  },
+  "date_added": "2013-11-15T07:45:39-08:00"
+}

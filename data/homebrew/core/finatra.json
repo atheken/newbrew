@@ -1,0 +1,73 @@
+{
+  "name": "finatra",
+  "full_name": "finatra",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scala web framework inspired by Sinatra",
+  "license": "Apache-2.0",
+  "homepage": "http://finatra.info/",
+  "versions": {
+    "stable": "1.5.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/twitter/finatra/archive/1.5.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "aa4fab5ccdc012da9edf4650addf54b6ba64eb7e6a5e88d8c76e68e4d89216de"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/finatra/blobs/sha256:4647f53656631f55bef9d4a4c3ef66adafa598c3e48a65be4199a1cdc33bf5dc",
+          "sha256": "4647f53656631f55bef9d4a4c3ef66adafa598c3e48a65be4199a1cdc33bf5dc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/finatra.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec704e83622e3ed1c4b73f70606aa104e8a18f04b0f62992d391f5f9af1f0c7c"
+  },
+  "date_added": "2014-10-26T12:03:57+00:00"
+}

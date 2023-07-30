@@ -1,0 +1,77 @@
+{
+  "name": "git-game",
+  "full_name": "git-game",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Game for git to guess who made which commit",
+  "license": "MIT",
+  "homepage": "https://github.com/jsomers/git-game",
+  "versions": {
+    "stable": "1.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jsomers/git-game/archive/1.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6670c73c2ffe2bc2255566c88f26763100bf0b24a94d3fe10d255712d2a8809e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-game/blobs/sha256:8161b713aa176c7a8a48b525d71c18ed66d6adff46de2fbdef9b52a2602671b9",
+          "sha256": "8161b713aa176c7a8a48b525d71c18ed66d6adff46de2fbdef9b52a2602671b9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-game.rb",
+  "ruby_source_checksum": {
+    "sha256": "8f1a135459bf721b1ef99177c8ab7e40f1ea2798e9fb5bacefe75ed65ca3f44d"
+  },
+  "date_added": "2017-02-08T10:08:51+00:00"
+}

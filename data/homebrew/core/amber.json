@@ -1,0 +1,110 @@
+{
+  "name": "amber",
+  "full_name": "amber",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Crystal web framework. Bare metal performance, productivity and happiness",
+  "license": "MIT",
+  "homepage": "https://amberframework.org/",
+  "versions": {
+    "stable": "1.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/amberframework/amber/archive/refs/tags/v1.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "37511d6b4afe308e1943cedeab9114b01d5787d868c23d2c0cc555917a21c830"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:a58e71da8f3bd81d7ea0865629192516c7b78ffdf86f4a36ef9d16f0989f4d53",
+          "sha256": "a58e71da8f3bd81d7ea0865629192516c7b78ffdf86f4a36ef9d16f0989f4d53"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:242d9eae3535ff3923abc04f150293a831629401b2c5137814c4314254d524ee",
+          "sha256": "242d9eae3535ff3923abc04f150293a831629401b2c5137814c4314254d524ee"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:89d5c6078a78519c8448d69e3dae8fa566b2cb2cdf9072ebcb2f3b26620d567d",
+          "sha256": "89d5c6078a78519c8448d69e3dae8fa566b2cb2cdf9072ebcb2f3b26620d567d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:e20092fc8b6a737600755e31f6d10c1235411d0ba8a82b3c9ffbb9817c5170ca",
+          "sha256": "e20092fc8b6a737600755e31f6d10c1235411d0ba8a82b3c9ffbb9817c5170ca"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:58f0ea20927b9e0a637f86b1cc27af7d3fe3967ce1eb4b4dc58ea1673035ea0c",
+          "sha256": "58f0ea20927b9e0a637f86b1cc27af7d3fe3967ce1eb4b4dc58ea1673035ea0c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:da3c927123d4b58560c201a213411030ec071b11f0a287f8a0542e801d0770a6",
+          "sha256": "da3c927123d4b58560c201a213411030ec071b11f0a287f8a0542e801d0770a6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/amber/blobs/sha256:564fadf54bc255a81862b1c60fe76ffe611b5ef8eebc452a1e3e12e169a8d44a",
+          "sha256": "564fadf54bc255a81862b1c60fe76ffe611b5ef8eebc452a1e3e12e169a8d44a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "crystal",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/amber.rb",
+  "ruby_source_checksum": {
+    "sha256": "e8eb207d4da0d04bbfa55da98f68bc184ec0d09053e31cbf90a15bf4d3b9cb52"
+  },
+  "date_added": "2018-01-20T09:49:44-08:00"
+}

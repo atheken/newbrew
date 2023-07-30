@@ -1,0 +1,113 @@
+{
+  "name": "gtk-vnc",
+  "full_name": "gtk-vnc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VNC viewer widget for GTK",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://wiki.gnome.org/Projects/gtk-vnc",
+  "versions": {
+    "stable": "1.3.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gtk-vnc/1.3/gtk-vnc-1.3.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "512763ac4e0559d0158b6682ca5dd1a3bd633f082f5e4349d7158e6b5f80f1ce"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:74998a793c0d7fd96b2a9d4a7ed4b0da1a4d84dce9c2f3aac187fb1430f43423",
+          "sha256": "74998a793c0d7fd96b2a9d4a7ed4b0da1a4d84dce9c2f3aac187fb1430f43423"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:2109dd9faa3e24eb8d2bab51a3e00cfde6f660bd690912326c0185d61b9b684b",
+          "sha256": "2109dd9faa3e24eb8d2bab51a3e00cfde6f660bd690912326c0185d61b9b684b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:45af9d03738555dea42232249d0b44d115efa45e45f7e3e304a156ca7101c92d",
+          "sha256": "45af9d03738555dea42232249d0b44d115efa45e45f7e3e304a156ca7101c92d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:0280b7af865b61bba28e5f921b7a3905be00621f831e51bdd4291c300bc4fa72",
+          "sha256": "0280b7af865b61bba28e5f921b7a3905be00621f831e51bdd4291c300bc4fa72"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:9dd26957dbc1e2481560b641e34d363df11638713cc3e5872ac978f44e658b59",
+          "sha256": "9dd26957dbc1e2481560b641e34d363df11638713cc3e5872ac978f44e658b59"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:002f65ea23b94e3307cf9363670d4de923643cde75334294ce9df880dde01168",
+          "sha256": "002f65ea23b94e3307cf9363670d4de923643cde75334294ce9df880dde01168"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-vnc/blobs/sha256:4c70374f53d695c50ba007b971f9ea8c3b88136497f2b344e332107ba7807696",
+          "sha256": "4c70374f53d695c50ba007b971f9ea8c3b88136497f2b344e332107ba7807696"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gnutls",
+    "gtk+3",
+    "libgcrypt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gtk-vnc.rb",
+  "ruby_source_checksum": {
+    "sha256": "2190aa1b4593e54b440ca4500636f5820c0bb17ce85e80335dcb47b1e8e8fbfd"
+  },
+  "date_added": "2016-04-19T09:36:57+01:00"
+}

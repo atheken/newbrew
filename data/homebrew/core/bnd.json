@@ -1,0 +1,105 @@
+{
+  "name": "bnd",
+  "full_name": "bnd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Swiss Army Knife for OSGi bundles",
+  "license": "Apache-2.0 or EPL-2.0",
+  "homepage": "https://bnd.bndtools.org/",
+  "versions": {
+    "stable": "6.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=biz/aQute/bnd/biz.aQute.bnd/6.4.1/biz.aQute.bnd-6.4.1.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "71108848bf44b7521afc7d6f63613ac1ffef8d41bf92588a1ec196bfb05fea19"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc",
+          "sha256": "a72b84f857a282a23dac9e995d4462d59c74430da39cd71eb0e28aefba8111cc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bnd/blobs/sha256:721b378810b533d58c4ed3d98dd94e31949cad601665f2eec90704e2bf4165fc",
+          "sha256": "721b378810b533d58c4ed3d98dd94e31949cad601665f2eec90704e2bf4165fc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bnd.rb",
+  "ruby_source_checksum": {
+    "sha256": "2acd1111eaf91d796d00e94dcc21bd3edcc07fe2bf2bad40de59676db4a2fcab"
+  },
+  "date_added": "2016-12-15T12:56:57-05:00"
+}

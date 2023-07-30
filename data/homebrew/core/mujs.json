@@ -1,0 +1,111 @@
+{
+  "name": "mujs",
+  "full_name": "mujs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Embeddable Javascript interpreter",
+  "license": "ISC",
+  "homepage": "https://www.mujs.com/",
+  "versions": {
+    "stable": "1.3.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mujs.com/downloads/mujs-1.3.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e2c5ee5416dfda2230c7a0cb7895df9a9b2d5b2065bb18e7e64dec2a796abe1b"
+    },
+    "head": {
+      "url": "https://github.com/ccxvii/mujs.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:adbe9447f9f9f2cd0a9bea7792e21216eaa494092f17dae1f911ffbb80125158",
+          "sha256": "adbe9447f9f9f2cd0a9bea7792e21216eaa494092f17dae1f911ffbb80125158"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:73536860e13e1a1fa956e5c7dcb55e573ff7953be8792c0b77302573650a0ce7",
+          "sha256": "73536860e13e1a1fa956e5c7dcb55e573ff7953be8792c0b77302573650a0ce7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:cf8314788424777f86f9fa7dfb287868d5bc27dee2c6b5871aabb351794f3349",
+          "sha256": "cf8314788424777f86f9fa7dfb287868d5bc27dee2c6b5871aabb351794f3349"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:fef93dae516dae1b78638e8cca4cc4b51c233f58c1f245dd4908a7e60df3fdc1",
+          "sha256": "fef93dae516dae1b78638e8cca4cc4b51c233f58c1f245dd4908a7e60df3fdc1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:29bc1c4bc8f5bf921cf31001125da52cd8d4a04e821743b9a5fd464a90ed711d",
+          "sha256": "29bc1c4bc8f5bf921cf31001125da52cd8d4a04e821743b9a5fd464a90ed711d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:59a246f51508566f1beabe0eee40e7b29f432319ef665ab516abc674eacfe6b1",
+          "sha256": "59a246f51508566f1beabe0eee40e7b29f432319ef665ab516abc674eacfe6b1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mujs/blobs/sha256:ab5d68da455da1feeabd6550b7b529ad027d043e97ef9b32e13b505df0c92019",
+          "sha256": "ab5d68da455da1feeabd6550b7b529ad027d043e97ef9b32e13b505df0c92019"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "readline"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mujs.rb",
+  "ruby_source_checksum": {
+    "sha256": "6c3fe42c076f517b36a7f641b0d927969228df6a096e44fbcf8f0b76ddd31cfd"
+  },
+  "date_added": "2017-08-09T10:30:06+02:00"
+}

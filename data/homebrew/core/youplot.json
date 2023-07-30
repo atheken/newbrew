@@ -1,0 +1,107 @@
+{
+  "name": "youplot",
+  "full_name": "youplot",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool that draw plots on the terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/red-data-tools/YouPlot/",
+  "versions": {
+    "stable": "0.4.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/red-data-tools/YouPlot/archive/v0.4.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "aa7339139bc4ea9aa0b2279e4e8052fde673a60ad47e87d50fde06626dc2b3c3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:60e92af5e86cc5c29a923a12470c36b6c1bdbe9e3d0549ce483b45974494a090",
+          "sha256": "60e92af5e86cc5c29a923a12470c36b6c1bdbe9e3d0549ce483b45974494a090"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:397cf683916a6b62eb8ac1a8ca98bb56d3ca3d9fdd725f40702d6f72c7e2bf4b",
+          "sha256": "397cf683916a6b62eb8ac1a8ca98bb56d3ca3d9fdd725f40702d6f72c7e2bf4b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:6a0cc141b2dfc5bcd7a28666ca181799d5b6fbf48dca90ac64e582e7225810a2",
+          "sha256": "6a0cc141b2dfc5bcd7a28666ca181799d5b6fbf48dca90ac64e582e7225810a2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:13fedf180b967115571c03890214d65cfcaf8607acda2a75dea5b263c47ee3cb",
+          "sha256": "13fedf180b967115571c03890214d65cfcaf8607acda2a75dea5b263c47ee3cb"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:c2d9cddf97b15b474f181f318f97a24a50e50e7e7ca71922cb97248d13935383",
+          "sha256": "c2d9cddf97b15b474f181f318f97a24a50e50e7e7ca71922cb97248d13935383"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:fbc41b8190ca616ba3794aa5d75fc9121cb15e303fc2f4a7df0926bc74468ff0",
+          "sha256": "fbc41b8190ca616ba3794aa5d75fc9121cb15e303fc2f4a7df0926bc74468ff0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youplot/blobs/sha256:c14eb0b846c089762f066aef1f2cda5093012274234b92023a331a1bf8e93bdc",
+          "sha256": "c14eb0b846c089762f066aef1f2cda5093012274234b92023a331a1bf8e93bdc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/youplot.rb",
+  "ruby_source_checksum": {
+    "sha256": "ebc066d858091b8034565e34b9404e758938cc1e39a971a840c7ba4685f759e0"
+  },
+  "date_added": "2023-02-10T08:55:11+00:00"
+}

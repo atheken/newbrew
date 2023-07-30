@@ -1,0 +1,110 @@
+{
+  "name": "shallow-backup",
+  "full_name": "shallow-backup",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Git-integrated backup tool for macOS and Linux devs",
+  "license": "MIT",
+  "homepage": "https://github.com/alichtman/shallow-backup",
+  "versions": {
+    "stable": "5.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/96/d7/c59ad086eabfc1b2984e32cc2615368f9ab0b375b8fc5a7a63e5ca81c017/shallow-backup-5.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0af200e5c2d1887e9209bfd970a6835d1d304cc22183569613f378f00848cfe1"
+    },
+    "head": {
+      "url": "https://github.com/alichtman/shallow-backup.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:9a2492b461b1d87eddb49a0e4ab40ef8b190534d6e1099ee77ae911314df60e3",
+          "sha256": "9a2492b461b1d87eddb49a0e4ab40ef8b190534d6e1099ee77ae911314df60e3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:95516355dcc3104cbcd281de234fd2da04453fb87ac9ae361b2b1cd407ed9f3d",
+          "sha256": "95516355dcc3104cbcd281de234fd2da04453fb87ac9ae361b2b1cd407ed9f3d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:af25f9064dbe01dbb07ea2193552949d793412bb0caca81e9e5c400d282d9118",
+          "sha256": "af25f9064dbe01dbb07ea2193552949d793412bb0caca81e9e5c400d282d9118"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:226758d858d2b74af070faa17318640734f4e248a30b23016f28fd7eb6d643cf",
+          "sha256": "226758d858d2b74af070faa17318640734f4e248a30b23016f28fd7eb6d643cf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:62d9ced2450c7d5e54cecee708c52702f710aab25501f6750ea0daa4babc4423",
+          "sha256": "62d9ced2450c7d5e54cecee708c52702f710aab25501f6750ea0daa4babc4423"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:fd12ad190208a24871f6aa7e95f1af096f00601c0f926c6ae657294c01fc167a",
+          "sha256": "fd12ad190208a24871f6aa7e95f1af096f00601c0f926c6ae657294c01fc167a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shallow-backup/blobs/sha256:d8df8ff954a6fefd42c44bf2486bd319bfba4deac071dcb71c01357962a928c1",
+          "sha256": "d8df8ff954a6fefd42c44bf2486bd319bfba4deac071dcb71c01357962a928c1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/shallow-backup.rb",
+  "ruby_source_checksum": {
+    "sha256": "7ecf18ab1016824af33da417fa01308b704ce8674e3efe566babc3c48c9215fd"
+  },
+  "date_added": "2020-08-05T00:51:27+00:00"
+}

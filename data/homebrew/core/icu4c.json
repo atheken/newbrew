@@ -1,0 +1,106 @@
+{
+  "name": "icu4c",
+  "full_name": "icu4c",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C/C++ and Java libraries for Unicode and globalization",
+  "license": "ICU",
+  "homepage": "https://icu.unicode.org/home",
+  "versions": {
+    "stable": "73.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/unicode-org/icu/releases/download/release-73-2/icu4c-73_2-src.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "818a80712ed3caacd9b652305e01afc7fa167e6f2e94996da44b90c2ab604ce1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:953797d46546c570c4fab4e8b2395624ae90acd492f75b68ff99fbd115ccd748",
+          "sha256": "953797d46546c570c4fab4e8b2395624ae90acd492f75b68ff99fbd115ccd748"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:488714896b377fb1bb09f023e0740235730be9098a2bf70e932cd9d1386d4a4a",
+          "sha256": "488714896b377fb1bb09f023e0740235730be9098a2bf70e932cd9d1386d4a4a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:d51cb68a129278f56d544937e381c8f1deb5edc8a20c40aeb50c6fee93d8eb1d",
+          "sha256": "d51cb68a129278f56d544937e381c8f1deb5edc8a20c40aeb50c6fee93d8eb1d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:4400e31a217d6ffcd2bd06e26ecbeed768133493bfcc4cb3c9ff9702f480beb6",
+          "sha256": "4400e31a217d6ffcd2bd06e26ecbeed768133493bfcc4cb3c9ff9702f480beb6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:56abe168ef97fdee2bc2a8d0634c235b54cb7c2740465ee64053d96cbc755a9b",
+          "sha256": "56abe168ef97fdee2bc2a8d0634c235b54cb7c2740465ee64053d96cbc755a9b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:707aa80ac7b79afe6047d25a44b90c46ed15fb6f0c255e0057c7dc812a9ab433",
+          "sha256": "707aa80ac7b79afe6047d25a44b90c46ed15fb6f0c255e0057c7dc812a9ab433"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:714dc987ca9c9b594e6e17c02640f93b49074f81264be16051a93a8f5f674d77",
+          "sha256": "714dc987ca9c9b594e6e17c02640f93b49074f81264be16051a93a8f5f674d77"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": "macOS provides libicucore.dylib (but nothing else)"
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/icu4c.rb",
+  "ruby_source_checksum": {
+    "sha256": "8a86c829ca2a56d3fc6e8f7571f3f14f5755079781d14636964f88cf3487014e"
+  },
+  "date_added": "2009-09-14T20:33:46+01:00"
+}

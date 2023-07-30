@@ -1,0 +1,157 @@
+{
+  "name": "handbrake",
+  "full_name": "handbrake",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open-source video transcoder available for Linux, Mac, and Windows",
+  "license": "GPL-2.0-only",
+  "homepage": "https://handbrake.fr/",
+  "versions": {
+    "stable": "1.6.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/HandBrake/HandBrake/releases/download/1.6.1/HandBrake-1.6.1-source.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "94ccfe03db917a91650000c510f7fd53f844da19f19ad4b4be1b8f6bc31a8d4c"
+    },
+    "head": {
+      "url": "https://github.com/HandBrake/HandBrake.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:a3e5f63cdb95b25c5413fed7ce3915a089d44ed6c5996be9cd84c55b642231e8",
+          "sha256": "a3e5f63cdb95b25c5413fed7ce3915a089d44ed6c5996be9cd84c55b642231e8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:37bd7be3f905a7306d009e810ffab50233274bdb638a75f4ffbf50ebeeae737d",
+          "sha256": "37bd7be3f905a7306d009e810ffab50233274bdb638a75f4ffbf50ebeeae737d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:e06e53d7c973f66d12f8fb508b5cae5a5fb04f56c28b2d9bfae2ea99ec9ad4fa",
+          "sha256": "e06e53d7c973f66d12f8fb508b5cae5a5fb04f56c28b2d9bfae2ea99ec9ad4fa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:bc015419768b2af7d4878a02f23f8c4331763cdf3cc1dc09a38deba82f7527e3",
+          "sha256": "bc015419768b2af7d4878a02f23f8c4331763cdf3cc1dc09a38deba82f7527e3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:b53be55508115ba147ddab5db7076a292de59628240e898dc89690f0ddef6f5a",
+          "sha256": "b53be55508115ba147ddab5db7076a292de59628240e898dc89690f0ddef6f5a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:18e10c745419996f3e9f11ab13a9b69dc66129157c96e9085b7f842987eecc3c",
+          "sha256": "18e10c745419996f3e9f11ab13a9b69dc66129157c96e9085b7f842987eecc3c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/handbrake/blobs/sha256:54b634013a3dbf5f5022d3a11a51df9de1b7f6f2af61deefd3fd5ea9b2964e4d",
+          "sha256": "54b634013a3dbf5f5022d3a11a51df9de1b7f6f2af61deefd3fd5ea9b2964e4d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "meson",
+    "nasm",
+    "ninja",
+    "pkg-config",
+    "python@3.11",
+    "yasm"
+  ],
+  "dependencies": [
+    "jansson",
+    "jpeg-turbo",
+    "lame",
+    "libass",
+    "libvorbis",
+    "libvpx",
+    "numactl",
+    "opus",
+    "speex",
+    "theora",
+    "x264",
+    "xz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "m4": "build"
+    },
+    "bzip2",
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": "10.3",
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/handbrake.rb",
+  "ruby_source_checksum": {
+    "sha256": "90e97810405858b04a80fb48c4879ff536e2435a7f99ff4d64263f4386e1bcd9"
+  },
+  "date_added": "2016-12-25T18:33:46+00:00"
+}

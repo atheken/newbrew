@@ -1,0 +1,105 @@
+{
+  "name": "asciidoctor",
+  "full_name": "asciidoctor",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text processor and publishing toolchain for AsciiDoc",
+  "license": "MIT",
+  "homepage": "https://asciidoctor.org/",
+  "versions": {
+    "stable": "2.0.20",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/asciidoctor/asciidoctor/archive/v2.0.20.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e38d8e15e0bf0f28811e35e3e24ca30b9f5424669ffd9e8e4c208b21f45dbdea"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224",
+          "sha256": "987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224",
+          "sha256": "987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224",
+          "sha256": "987d9a5584cd331ed4c922c595e1e25e24314def4deaef7bd9c2764d74727224"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55",
+          "sha256": "9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55",
+          "sha256": "9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55",
+          "sha256": "9833ecbbc05e19319c2ddb83c5310a05202bad47dfa5fb739c01e27f6ddbbd55"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctor/blobs/sha256:c05e33e2d036fc68a2b6cb4489108f241d1daa445d68534ebcbafde9c47a05dd",
+          "sha256": "c05e33e2d036fc68a2b6cb4489108f241d1daa445d68534ebcbafde9c47a05dd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ruby"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asciidoctor.rb",
+  "ruby_source_checksum": {
+    "sha256": "86b0122b273c39843607950bb2a503aea50eea14de56d6dbaef28a44a122081b"
+  },
+  "date_added": "2017-11-03T06:00:54-07:00"
+}

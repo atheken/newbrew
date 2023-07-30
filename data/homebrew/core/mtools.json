@@ -1,0 +1,107 @@
+{
+  "name": "mtools",
+  "full_name": "mtools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for manipulating MSDOS files",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/mtools/",
+  "versions": {
+    "stable": "4.0.43",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/mtools/mtools-4.0.43.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8866666fa06906ee02c709f670ae6361c5ac2008251ed825c43d321c06775718"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:6946726b6f5238ec05a1c2a85ba65a1507931b226cb63fe79d08c94db0ef8fce",
+          "sha256": "6946726b6f5238ec05a1c2a85ba65a1507931b226cb63fe79d08c94db0ef8fce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:75f40b6a8e2d129333a965130847c292716c7a08e633df9df8b46e1e5d81da74",
+          "sha256": "75f40b6a8e2d129333a965130847c292716c7a08e633df9df8b46e1e5d81da74"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:fc707c15ffed6999a1a81b958c4be06dec46f3f4580f1674e6882d05358892e7",
+          "sha256": "fc707c15ffed6999a1a81b958c4be06dec46f3f4580f1674e6882d05358892e7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:89d9b40ea5c5f459ee195f901d7ffbf5c71a79f61e0b162ae2f7a9b991006106",
+          "sha256": "89d9b40ea5c5f459ee195f901d7ffbf5c71a79f61e0b162ae2f7a9b991006106"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:a87230228ab7202f1c2783a61f44cc181410b13ae28b3dfbbefafd42f74ccdf1",
+          "sha256": "a87230228ab7202f1c2783a61f44cc181410b13ae28b3dfbbefafd42f74ccdf1"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:836180a06215fa9ed8bd6209d584e32ba5fc7c3af47ca18d77174726f2486a84",
+          "sha256": "836180a06215fa9ed8bd6209d584e32ba5fc7c3af47ca18d77174726f2486a84"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mtools/blobs/sha256:93f8d6a77bf0b27c00544a980919da2a383b0aec7ac280395b019bb3e6dcb78c",
+          "sha256": "93f8d6a77bf0b27c00544a980919da2a383b0aec7ac280395b019bb3e6dcb78c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "multimarkdown"
+  ],
+  "conflicts_with_reasons": [
+    "both install `mmd` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mtools.rb",
+  "ruby_source_checksum": {
+    "sha256": "5f16f2eae30ee8d802e35f216939009ea51e1561a329b43543b2a8d1a5f9e081"
+  },
+  "date_added": "2011-12-30T20:20:41-06:00"
+}

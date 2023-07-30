@@ -1,0 +1,112 @@
+{
+  "name": "darkice",
+  "full_name": "darkice",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Live audio streamer",
+  "license": "GPL-3.0-or-later",
+  "homepage": "http://www.darkice.org/",
+  "versions": {
+    "stable": "1.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rafael2k/darkice/releases/download/v1.4/darkice-1.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e6a8ec2b447cf5b4ffaf9b62700502b6bdacebf00b476f4e9bf9f9fe1e3dd817"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:d0db564fd3fad3478ae882b45007229aa010fa374fde2543fbcd453357a964a9",
+          "sha256": "d0db564fd3fad3478ae882b45007229aa010fa374fde2543fbcd453357a964a9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:0c114d7e19e2a1fea948adbf40be5566dea4d9a21888448aa48cad337e1aefa7",
+          "sha256": "0c114d7e19e2a1fea948adbf40be5566dea4d9a21888448aa48cad337e1aefa7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:74ea8b8e64aa084b45b2c0f54cf77617960a4de2e3ab14601375e4242fc74f0c",
+          "sha256": "74ea8b8e64aa084b45b2c0f54cf77617960a4de2e3ab14601375e4242fc74f0c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:a63714cf7139435583c9d7ee8f1f2f3627d386063beb6cd0767b47d28f721b02",
+          "sha256": "a63714cf7139435583c9d7ee8f1f2f3627d386063beb6cd0767b47d28f721b02"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:a07e77aa24879c67883e75d3fb73b7003d98fc59d6b9f5da24d64789727e1ea1",
+          "sha256": "a07e77aa24879c67883e75d3fb73b7003d98fc59d6b9f5da24d64789727e1ea1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:7bccd99a386891b98e1085300243152a8bd82fdaa0fe20d9b83448460711d2c8",
+          "sha256": "7bccd99a386891b98e1085300243152a8bd82fdaa0fe20d9b83448460711d2c8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/darkice/blobs/sha256:fbc68231f2235a681304aa5821ab187cb220977aa0ae4e7ef48eccd9de3a3c43",
+          "sha256": "fbc68231f2235a681304aa5821ab187cb220977aa0ae4e7ef48eccd9de3a3c43"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "faac",
+    "jack",
+    "lame",
+    "libsamplerate",
+    "libvorbis",
+    "two-lame"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/darkice.rb",
+  "ruby_source_checksum": {
+    "sha256": "e02e5d3b4c6b1d1975fa5276b1a21cc6b90ac569470e46b626d8097e299443c1"
+  },
+  "date_added": "2010-11-07T19:06:34-08:00"
+}

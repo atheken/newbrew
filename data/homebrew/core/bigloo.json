@@ -1,0 +1,113 @@
+{
+  "name": "bigloo",
+  "full_name": "bigloo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scheme implementation with object system, C, and Java interfaces",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www-sop.inria.fr/indes/fp/Bigloo/",
+  "versions": {
+    "stable": "4.5a-1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "ftp://ftp-sop.inria.fr/indes/fp/Bigloo/bigloo-4.5a-1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d8f04e889936187dc519719b749ad03fe574165a0b6d318e561f1b3bce0d5808"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bigloo/blobs/sha256:5465147a4efa0ac5b2310a832f37e26ba99cd1b3e84be0ee9e191f006954221c",
+          "sha256": "5465147a4efa0ac5b2310a832f37e26ba99cd1b3e84be0ee9e191f006954221c"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bigloo/blobs/sha256:d37972292b5b057f01e31f128ed92e10d78ebfd5860efb0d30e21a245d58760c",
+          "sha256": "d37972292b5b057f01e31f128ed92e10d78ebfd5860efb0d30e21a245d58760c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bigloo/blobs/sha256:6f82be6c432a3e6d61a93d0438255d4ef42e4a2359d16547fd2cbd6cf6bf161e",
+          "sha256": "6f82be6c432a3e6d61a93d0438255d4ef42e4a2359d16547fd2cbd6cf6bf161e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bigloo/blobs/sha256:b7a836944014403c1ca5e2d665cde655447345fdd307c9dd68e6220278a52197",
+          "sha256": "b7a836944014403c1ca5e2d665cde655447345fdd307c9dd68e6220278a52197"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "bdw-gc",
+    "gmp",
+    "libunistring",
+    "libuv",
+    "openjdk",
+    "openssl@3",
+    "pcre2",
+    "alsa-lib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bigloo.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf9f53fa3d6a39d3f1d64614074b668a0dd951a51870545daf1d9960c74630c9"
+  },
+  "date_added": "2010-10-21T10:07:11-07:00"
+}

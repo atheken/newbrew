@@ -1,0 +1,111 @@
+{
+  "name": "libshout",
+  "full_name": "libshout",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Data and connectivity library for the icecast server",
+  "license": "LGPL-2.0-or-later",
+  "homepage": "https://icecast.org/",
+  "versions": {
+    "stable": "2.4.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.xiph.org/releases/libshout/libshout-2.4.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "39cbd4f0efdfddc9755d88217e47f8f2d7108fa767f9d58a2ba26a16d8f7c910"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:9231d4d7890507d132e7a64201b7ead203a22cb47850c9cf7ee099fbc5c8a6cd",
+          "sha256": "9231d4d7890507d132e7a64201b7ead203a22cb47850c9cf7ee099fbc5c8a6cd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:60b072983a4133b4e504760df1173592f72f20ad4c563eaf4818c3f1de726c04",
+          "sha256": "60b072983a4133b4e504760df1173592f72f20ad4c563eaf4818c3f1de726c04"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:5556dc649d2ffc26db4982b4454fa398bbbe984dcdabcc43463c1ef9af7a01f0",
+          "sha256": "5556dc649d2ffc26db4982b4454fa398bbbe984dcdabcc43463c1ef9af7a01f0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:89f4593d901019c32468604a871a46524d30b48a9dbd09a060e00e99e487a99a",
+          "sha256": "89f4593d901019c32468604a871a46524d30b48a9dbd09a060e00e99e487a99a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:8ab0df70741deb6cec78b95f37fb60ff5504a3f077033c2b4c7ae76745d8987f",
+          "sha256": "8ab0df70741deb6cec78b95f37fb60ff5504a3f077033c2b4c7ae76745d8987f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:97acacadd869bf35f1a8ae8fb4c5771a028d531272313b5dbc55348ce197ebd1",
+          "sha256": "97acacadd869bf35f1a8ae8fb4c5771a028d531272313b5dbc55348ce197ebd1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libshout/blobs/sha256:898c7da67e779f3cce1a4b3f7b5cff8af87725d7235b3a138c06396db1b2eeec",
+          "sha256": "898c7da67e779f3cce1a4b3f7b5cff8af87725d7235b3a138c06396db1b2eeec"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libogg",
+    "libvorbis",
+    "openssl@3",
+    "speex",
+    "theora"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libshout.rb",
+  "ruby_source_checksum": {
+    "sha256": "30a586bcd2521fb27bf2b50669b40732f0fa7043d4e24df7383fe605e744eba6"
+  },
+  "date_added": "2010-01-30T14:18:05+01:00"
+}

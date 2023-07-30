@@ -1,0 +1,120 @@
+{
+  "name": "groff",
+  "full_name": "groff",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNU troff text-formatting system",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/groff/",
+  "versions": {
+    "stable": "1.23.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/groff/groff-1.23.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6b9757f592b7518b4902eb6af7e54570bdccba37a871fddb2d30ae3863511c13"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:c6d152d002365b25c67782fed7ca0141ee3dafaaa0e726bf3df427d469fb73ce",
+          "sha256": "c6d152d002365b25c67782fed7ca0141ee3dafaaa0e726bf3df427d469fb73ce"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:4926259bc0c75eb28f9d288c618ae84dc1a1a14952f3f414054e01ef5be345d0",
+          "sha256": "4926259bc0c75eb28f9d288c618ae84dc1a1a14952f3f414054e01ef5be345d0"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:e4dfe40ef95e535d7f9c98e3743ce42112ae74c8aa3cfc4f30089c53aa123ba4",
+          "sha256": "e4dfe40ef95e535d7f9c98e3743ce42112ae74c8aa3cfc4f30089c53aa123ba4"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:841d00a033f005f7e9eefed0d1190402879de5568a6624e494a52c581353bf5a",
+          "sha256": "841d00a033f005f7e9eefed0d1190402879de5568a6624e494a52c581353bf5a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:a0bfb5d123ae6766a69b8d245bcc8d0323e8f6bce3f7c55c89403939ba176d46",
+          "sha256": "a0bfb5d123ae6766a69b8d245bcc8d0323e8f6bce3f7c55c89403939ba176d46"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:8e8f79c4969912bf20f183dc3450001dc952b94967dca5cea18a7379d9d54f55",
+          "sha256": "8e8f79c4969912bf20f183dc3450001dc952b94967dca5cea18a7379d9d54f55"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groff/blobs/sha256:621ff79fc4f7ff2d66f78b96e1b3229aed81c49cb13831a46918841696b35428",
+          "sha256": "621ff79fc4f7ff2d66f78b96e1b3229aed81c49cb13831a46918841696b35428"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "texinfo"
+  ],
+  "dependencies": [
+    "ghostscript",
+    "netpbm",
+    "psutils",
+    "uchardet",
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/groff.rb",
+  "ruby_source_checksum": {
+    "sha256": "875b6b09a6101c1f44e7dd7914615c51bcdc1070d6e650d1292e6c9796a418f8"
+  },
+  "date_added": "2017-04-03T18:39:56+01:00"
+}

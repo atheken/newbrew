@@ -1,0 +1,89 @@
+{
+  "name": "geometry",
+  "full_name": "geometry",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Minimal, fully customizable and composable zsh prompt theme",
+  "license": "ISC",
+  "homepage": "https://github.com/geometry-zsh/geometry",
+  "versions": {
+    "stable": "2.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/geometry-zsh/geometry/archive/v2.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2ffe63fbe83813e368933d2add79b7f6439c7ade4fcc8243cb0166c17178cd9a"
+    },
+    "head": {
+      "url": "https://github.com/geometry-zsh/geometry.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/geometry/blobs/sha256:fb4186111a4ac55abbf13a80026f3d8de8c1f53fb505ceb9ff9d186fb2539c8d",
+          "sha256": "fb4186111a4ac55abbf13a80026f3d8de8c1f53fb505ceb9ff9d186fb2539c8d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "zsh-async"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    },
+    {
+      "zsh": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To activate Geometry, add the following to your .zshrc:\n  source $HOMEBREW_PREFIX/opt/geometry/share/geometry/geometry.zsh\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/geometry.rb",
+  "ruby_source_checksum": {
+    "sha256": "493c44d5c0afc45e1b028e5f92c204ffd0cfcbd870e6fe69359f7d2458edeb37"
+  },
+  "date_added": "2023-02-14T08:13:58+00:00"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "lv2",
+  "full_name": "lv2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Portable plugin standard for audio systems",
+  "license": "0BSD or ISC",
+  "homepage": "https://lv2plug.in/",
+  "versions": {
+    "stable": "1.18.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://lv2plug.in/spec/lv2-1.18.10.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "78c51bcf21b54e58bb6329accbb4dae03b2ed79b520f9a01e734bd9de530953f"
+    },
+    "head": {
+      "url": "https://gitlab.com/lv2/lv2.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lv2/blobs/sha256:c3b8730ed5228ee77c3eb76a3d88d5adca04726b05548f18c511b6cb696c6827",
+          "sha256": "c3b8730ed5228ee77c3eb76a3d88d5adca04726b05548f18c511b6cb696c6827"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja"
+  ],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lv2.rb",
+  "ruby_source_checksum": {
+    "sha256": "aa95cf42781d460c69b623b91d6ead48881c87253893ef6ddc3a0f4e74d4968c"
+  },
+  "date_added": "2013-01-14T16:36:02-08:00"
+}

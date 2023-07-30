@@ -1,0 +1,113 @@
+{
+  "name": "networkit",
+  "full_name": "networkit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Performance toolkit for large-scale network analysis",
+  "license": "MIT",
+  "homepage": "https://networkit.github.io",
+  "versions": {
+    "stable": "10.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/networkit/networkit/archive/refs/tags/10.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "35d11422b731f3e3f06ec05615576366be96ce26dd23aa16c8023b97f2fe9039"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:6a641907f704a372b44eeb3016fa6f633b48593f8cccdf70245a4fc0a8a0b2ee",
+          "sha256": "6a641907f704a372b44eeb3016fa6f633b48593f8cccdf70245a4fc0a8a0b2ee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:e8c3a17455f14617cf8cf83a8cdd4c1eb97cdf92c495e16aaf43bb05d3c84875",
+          "sha256": "e8c3a17455f14617cf8cf83a8cdd4c1eb97cdf92c495e16aaf43bb05d3c84875"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:f551e7a38d6578c04e3024c55f47dfe0c355ba0e23f2b203cf2c7475037bfa16",
+          "sha256": "f551e7a38d6578c04e3024c55f47dfe0c355ba0e23f2b203cf2c7475037bfa16"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:5df948fc0e43eb9c6a363250a7a5bfefffab863a83d3f1ae7c164d7d6365e836",
+          "sha256": "5df948fc0e43eb9c6a363250a7a5bfefffab863a83d3f1ae7c164d7d6365e836"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:ff2a389f6edeec2770801b7a1896e4bbe76d9365d9d15ece252a968dd1d8269b",
+          "sha256": "ff2a389f6edeec2770801b7a1896e4bbe76d9365d9d15ece252a968dd1d8269b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:5fe27b2ffa7ecb1ba75b6562b241a9fb9c79827531a08a91fa04e77aa689095e",
+          "sha256": "5fe27b2ffa7ecb1ba75b6562b241a9fb9c79827531a08a91fa04e77aa689095e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/networkit/blobs/sha256:9080b4e857eced5cf4f15d10d22a9069612f1fbea8a72e99ea7978f484fd5e92",
+          "sha256": "9080b4e857eced5cf4f15d10d22a9069612f1fbea8a72e99ea7978f484fd5e92"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "libcython",
+    "ninja",
+    "tlx"
+  ],
+  "dependencies": [
+    "libnetworkit",
+    "numpy",
+    "python@3.11",
+    "scipy"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/networkit.rb",
+  "ruby_source_checksum": {
+    "sha256": "a406ee4980193bc1e8e49f6ec079f770f2a7863266a4f7fbf1415d962b629140"
+  },
+  "date_added": "2020-06-26T09:51:57+00:00"
+}

@@ -1,0 +1,131 @@
+{
+  "name": "opusfile",
+  "full_name": "opusfile",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "API for decoding and seeking in .opus files",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.opus-codec.org/",
+  "versions": {
+    "stable": "0.12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.xiph.org/releases/opus/opusfile-0.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "118d8601c12dd6a44f52423e68ca9083cc9f2bfe72da7a8c1acb22a80ae3550b"
+    },
+    "head": {
+      "url": "https://gitlab.xiph.org/xiph/opusfile.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:d2d8a06a9cf6bae410e9112ec383e928b69986c8f6d1b91cde5961008e1ec077",
+          "sha256": "d2d8a06a9cf6bae410e9112ec383e928b69986c8f6d1b91cde5961008e1ec077"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:cd2de61cdf56792c4d6e03d5af1c1319b028d7c0227bbeb8b221f85c6928c301",
+          "sha256": "cd2de61cdf56792c4d6e03d5af1c1319b028d7c0227bbeb8b221f85c6928c301"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:c82b83a7d1a4847695a7667de5537fa2b75fc737d0caedf3562891019b7e8c37",
+          "sha256": "c82b83a7d1a4847695a7667de5537fa2b75fc737d0caedf3562891019b7e8c37"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:3f71655f0ae4529bbe68cdf389f44b835130e77078758674f0f433327aa7341f",
+          "sha256": "3f71655f0ae4529bbe68cdf389f44b835130e77078758674f0f433327aa7341f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:fa8d9e078297d10e650883b4c259d46bf955031174af802849e4151ef3b5dccc",
+          "sha256": "fa8d9e078297d10e650883b4c259d46bf955031174af802849e4151ef3b5dccc"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:f97ed204769d1f151372469bc4364076add0c7e15035bdba1a9aa630c2ee2063",
+          "sha256": "f97ed204769d1f151372469bc4364076add0c7e15035bdba1a9aa630c2ee2063"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opusfile/blobs/sha256:f4b0a03f7494d92eb31cdc658c7aca5d971a1c9482ad899a2fe6643715d887f4",
+          "sha256": "f4b0a03f7494d92eb31cdc658c7aca5d971a1c9482ad899a2fe6643715d887f4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libogg",
+    "openssl@3",
+    "opus"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opusfile.rb",
+  "ruby_source_checksum": {
+    "sha256": "ac95387f08acb0fe1276e2aafef7e66b1264d0e8217ce7e8eecc6f23983d4793"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "libogg",
+      "openssl@3",
+      "opus"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2013-01-05T08:14:07-08:00"
+}

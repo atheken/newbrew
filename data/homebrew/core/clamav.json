@@ -1,0 +1,128 @@
+{
+  "name": "clamav",
+  "full_name": "clamav",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Anti-virus software",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.clamav.net/",
+  "versions": {
+    "stable": "1.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.1.0/clamav-1.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a30020d99cd467fa5ea0efbd6f4f182efebf62a9fc62fc4a3a7b2cc3f55e6b74"
+    },
+    "head": {
+      "url": "https://github.com/Cisco-Talos/clamav.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:9ae2e6e79a10ac3eb7d08d5386e9b8a99500d6a92909304b479c6c910374afd6",
+          "sha256": "9ae2e6e79a10ac3eb7d08d5386e9b8a99500d6a92909304b479c6c910374afd6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:efb65f1eb739aecd178693e7ed9e82d449a03648ac90bc78f3a77270c1c5d884",
+          "sha256": "efb65f1eb739aecd178693e7ed9e82d449a03648ac90bc78f3a77270c1c5d884"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:e247eddf9a09fc2da4a2b7a335473d63204fcde035f095f001481757d8033764",
+          "sha256": "e247eddf9a09fc2da4a2b7a335473d63204fcde035f095f001481757d8033764"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:1f4fad01de3a3663309ac8cc76eb18f242260c8f8e93b4984f01745c62af6eb7",
+          "sha256": "1f4fad01de3a3663309ac8cc76eb18f242260c8f8e93b4984f01745c62af6eb7"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:b45c9d78705826e199fc4bb2e3e3aa96bb80011244380743c8c4484cd6c2a1b5",
+          "sha256": "b45c9d78705826e199fc4bb2e3e3aa96bb80011244380743c8c4484cd6c2a1b5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:39b20d42f011de92f8f230077bbe62fba5ffc0947563828f20805f7bb9502fd1",
+          "sha256": "39b20d42f011de92f8f230077bbe62fba5ffc0947563828f20805f7bb9502fd1"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/clamav/blobs/sha256:b44199d0e01d0c25c54dae2ebdc44a3eec9506adc55cfdd83c895b67fea3a1d8",
+          "sha256": "b44199d0e01d0c25c54dae2ebdc44a3eec9506adc55cfdd83c895b67fea3a1d8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "json-c",
+    "openssl@3",
+    "pcre2",
+    "yara"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "curl",
+    "libxml2",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To finish installation & run clamav you will need to edit\nthe example conf files at $HOMEBREW_PREFIX/etc/clamav/\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/clamav.rb",
+  "ruby_source_checksum": {
+    "sha256": "76b0039e39dbdbe37e342a32cc143f2dd45b205d7175aace7101b453e0b20535"
+  },
+  "date_added": "2010-03-17T09:22:44-07:00"
+}

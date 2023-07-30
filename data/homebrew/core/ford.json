@@ -1,0 +1,117 @@
+{
+  "name": "ford",
+  "full_name": "ford",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automatic documentation generator for modern Fortran programs",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/Fortran-FOSS-Programmers/ford",
+  "versions": {
+    "stable": "6.2.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/7f/19/60e91b8fb3fba9ab3a3fc21d69e90e328349492eecaefa15e589e3aed843/FORD-6.2.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5fc8570804244feebbf6ae7102f8fd7e5b4c9f41e4c2173ba7558e49e1df3ab6"
+    },
+    "head": {
+      "url": "https://github.com/Fortran-FOSS-Programmers/ford.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:8948ca52f3af0b56e558b409e482b4677a586d7c9bd52951b5cc517ce94d578b",
+          "sha256": "8948ca52f3af0b56e558b409e482b4677a586d7c9bd52951b5cc517ce94d578b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:5b728acd2e5faff1e19e8a3ed27a93a5c8d74cb9f50499e432d2b2448a8b941a",
+          "sha256": "5b728acd2e5faff1e19e8a3ed27a93a5c8d74cb9f50499e432d2b2448a8b941a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:9a04cc0ba94e82dc320f8f2aaab1f90ee09984ec7cb1b7513267387990484daa",
+          "sha256": "9a04cc0ba94e82dc320f8f2aaab1f90ee09984ec7cb1b7513267387990484daa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:c069a3f2ba3f9f00e1d562ec2b9dc3c363fad14badc0fbfe129c3875ce602334",
+          "sha256": "c069a3f2ba3f9f00e1d562ec2b9dc3c363fad14badc0fbfe129c3875ce602334"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:52d1f4ef76fca496c73599dade40d4fd97d2f0f223320fe511bccd2ccb439c23",
+          "sha256": "52d1f4ef76fca496c73599dade40d4fd97d2f0f223320fe511bccd2ccb439c23"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:f94d3c0f8b7f6626a2e232617ba906748d7ca1fea1245bcb803f1bfd4afc2bc1",
+          "sha256": "f94d3c0f8b7f6626a2e232617ba906748d7ca1fea1245bcb803f1bfd4afc2bc1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ford/blobs/sha256:893e1dc1a61555955610fba040b79d4ddc5b851fd9622663dc38173e02dfe2e8",
+          "sha256": "893e1dc1a61555955610fba040b79d4ddc5b851fd9622663dc38173e02dfe2e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "graphviz",
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ford.rb",
+  "ruby_source_checksum": {
+    "sha256": "d0431ab0c50a292d9f1e8854d6f35ba2d9861b8c1aecf26d9de5fcfa78c829c7"
+  },
+  "date_added": "2015-07-07T16:17:57+01:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "libarchive",
+  "full_name": "libarchive",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Multi-format archive and compression library",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.libarchive.org",
+  "versions": {
+    "stable": "3.6.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.libarchive.org/downloads/libarchive-3.6.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e2c1b80d5fbe59b61308fdfab6c79b5021d7ff4ff2489fb12daf0a96a83551d"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:8aa6a214d4ea80cb0092010bbfdd91aa6405c22b39a0587a5368c08dee6bdd15",
+          "sha256": "8aa6a214d4ea80cb0092010bbfdd91aa6405c22b39a0587a5368c08dee6bdd15"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:3dca2b28193205841b537cb73c20dbe4dc19e473068196c0815c1c2dbf1cd9c0",
+          "sha256": "3dca2b28193205841b537cb73c20dbe4dc19e473068196c0815c1c2dbf1cd9c0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:255b8c7c939162611f4f7e7056555a19fd78459f642d224c28d4349ef8b804ff",
+          "sha256": "255b8c7c939162611f4f7e7056555a19fd78459f642d224c28d4349ef8b804ff"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:bc3d258c66c8ac7a30925dc823acc0f5d65bbe72b44396785a388b4f578780ef",
+          "sha256": "bc3d258c66c8ac7a30925dc823acc0f5d65bbe72b44396785a388b4f578780ef"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:ca5dbd790a973e3f1b5d34fd8acdb7e7b1cab5d1557025939e72bad1646ab843",
+          "sha256": "ca5dbd790a973e3f1b5d34fd8acdb7e7b1cab5d1557025939e72bad1646ab843"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:994462e0b0807311e1825879e20a951c55b61e0445b73b843bc0c55d4570a2de",
+          "sha256": "994462e0b0807311e1825879e20a951c55b61e0445b73b843bc0c55d4570a2de"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:cf97322be50a6d08a28a1fc6838d50ca6da0e6234a87615325580a3f3784af4a",
+          "sha256": "cf97322be50a6d08a28a1fc6838d50ca6da0e6234a87615325580a3f3784af4a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libb2",
+    "lz4",
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libarchive.rb",
+  "ruby_source_checksum": {
+    "sha256": "05b8df8710c9276e77de7446299bfa920005badc8c315aadd7e8f641fc76c4e9"
+  },
+  "date_added": "2013-05-11T20:16:48-05:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "mbedtls",
+  "full_name": "mbedtls",
+  "tap": "homebrew/core",
+  "oldname": "polarssl",
+  "oldnames": [
+    "polarssl"
+  ],
+  "aliases": [
+    "mbedtls@3"
+  ],
+  "versioned_formulae": [
+    "mbedtls@2"
+  ],
+  "desc": "Cryptographic & SSL/TLS library",
+  "license": "Apache-2.0",
+  "homepage": "https://tls.mbed.org/",
+  "versions": {
+    "stable": "3.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Mbed-TLS/mbedtls/archive/mbedtls-3.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a5dac98592b1ac2232de0aed8f4ee62dffaa99e843e6f41dca2958095c737afd"
+    },
+    "head": {
+      "url": "https://github.com/Mbed-TLS/mbedtls.git",
+      "branch": "development"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:cceffba500502626f1dccbdc121e26a16595130d85299227254cf8ed52a73ccf",
+          "sha256": "cceffba500502626f1dccbdc121e26a16595130d85299227254cf8ed52a73ccf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:0c692684c712798cb6f27ddaecf1b8e035071be7d02dc1d12e5d117c11db93d0",
+          "sha256": "0c692684c712798cb6f27ddaecf1b8e035071be7d02dc1d12e5d117c11db93d0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:367067a0ee05d791efb5fa42e0a5f5f7762e2891e9bb7ad42aa404ee9c37f5ec",
+          "sha256": "367067a0ee05d791efb5fa42e0a5f5f7762e2891e9bb7ad42aa404ee9c37f5ec"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:6be8fe0a38baec5e18a59eb871027dbf445eb3efdb458ed3962df73de3bd8056",
+          "sha256": "6be8fe0a38baec5e18a59eb871027dbf445eb3efdb458ed3962df73de3bd8056"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:20052ab98c30a9e05f39baa991e192b7139d8de0b8e4f813d601411935e21fae",
+          "sha256": "20052ab98c30a9e05f39baa991e192b7139d8de0b8e4f813d601411935e21fae"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:82d92f3edefc4320a5d032672f19b407bd0c3bc634a00cd6e2e637702423f4a0",
+          "sha256": "82d92f3edefc4320a5d032672f19b407bd0c3bc634a00cd6e2e637702423f4a0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:7e1d4d8fc02d527bcb84c48688baed7840b127b43db79d4c4399829957328337",
+          "sha256": "7e1d4d8fc02d527bcb84c48688baed7840b127b43db79d4c4399829957328337"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mbedtls.rb",
+  "ruby_source_checksum": {
+    "sha256": "61beee1c4510da1bb91edb69681891bf3c808a9a68bfe1437a6ebd699c8118b8"
+  },
+  "date_added": "2015-10-06T03:35:26+01:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "pdnsrec",
+  "full_name": "pdnsrec",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Non-authoritative/recursing DNS server",
+  "license": "GPL-2.0-only with openvpn-openssl-exception",
+  "homepage": "https://www.powerdns.com/recursor.html",
+  "versions": {
+    "stable": "4.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.powerdns.com/releases/pdns-recursor-4.9.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "d36f162843e367646a661a785ca0becde9b68552855bf40532aebafa103966f3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:5ad054dc50027559219e41b7cfc2a4fd6cfc82da2ca915f65b437e3720a14a20",
+          "sha256": "5ad054dc50027559219e41b7cfc2a4fd6cfc82da2ca915f65b437e3720a14a20"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:20471457b019a13d55c07f2e8cd523eb374b0907eb2bc22f210ae30d9010ba1c",
+          "sha256": "20471457b019a13d55c07f2e8cd523eb374b0907eb2bc22f210ae30d9010ba1c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:e4f356003408714ff1a983c93167813c6f4600f1f8309de51f33f3c3ab4f85d6",
+          "sha256": "e4f356003408714ff1a983c93167813c6f4600f1f8309de51f33f3c3ab4f85d6"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:9486e9851890a4271ee9297ed19f586a8208b9c9b7421ceb4c52aa204231ab17",
+          "sha256": "9486e9851890a4271ee9297ed19f586a8208b9c9b7421ceb4c52aa204231ab17"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:7267220ee7a3dccc38731e948a1090042cca8f0811d5bdf907b50bc19bbb95e7",
+          "sha256": "7267220ee7a3dccc38731e948a1090042cca8f0811d5bdf907b50bc19bbb95e7"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:b058511f221c257992273a37c3e42bafa896860c3235bed3e2492f36c49c1f0d",
+          "sha256": "b058511f221c257992273a37c3e42bafa896860c3235bed3e2492f36c49c1f0d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdnsrec/blobs/sha256:4399be3015eab46ca17c7e67b50d537635d93b5753b7ab8de8ee1c0abcd3a601",
+          "sha256": "4399be3015eab46ca17c7e67b50d537635d93b5753b7ab8de8ee1c0abcd3a601"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "lua",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pdnsrec.rb",
+  "ruby_source_checksum": {
+    "sha256": "8882845b9c857fad1421f3cb329dbff57a185cfc41b48f2168bbd059d514bc17"
+  },
+  "date_added": "2013-06-18T14:38:46-07:00"
+}

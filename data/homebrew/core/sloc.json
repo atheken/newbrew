@@ -1,0 +1,75 @@
+{
+  "name": "sloc",
+  "full_name": "sloc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple tool to count source lines of code",
+  "license": "MIT",
+  "homepage": "https://github.com/flosse/sloc#readme",
+  "versions": {
+    "stable": "0.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/sloc/-/sloc-0.2.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fb56f1763b7dadfd0566f819665efc0725ba8dfbec13c75da3839edf309596e6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sloc/blobs/sha256:f2fffe38885f7cebab2d105c1dc8492bdfd9a7b8b02a7ae2cc03ad35f46066f5",
+          "sha256": "f2fffe38885f7cebab2d105c1dc8492bdfd9a7b8b02a7ae2cc03ad35f46066f5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sloc.rb",
+  "ruby_source_checksum": {
+    "sha256": "1aecf1325b69df07826d72ab6182ae902b785d2af9e24e5181e7606aa1697eb5"
+  },
+  "date_added": "2019-01-03T16:15:07+01:00"
+}

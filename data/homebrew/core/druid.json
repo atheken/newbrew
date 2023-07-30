@@ -1,0 +1,107 @@
+{
+  "name": "druid",
+  "full_name": "druid",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance, column-oriented, distributed data store",
+  "license": "Apache-2.0",
+  "homepage": "https://druid.apache.org/",
+  "versions": {
+    "stable": "26.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org/druid/26.0.0/apache-druid-26.0.0-bin.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "535424284c141ce9736e3a4c198fc367707b9471a4c739d13d1cb8b142d945b0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20",
+          "sha256": "82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20",
+          "sha256": "82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20",
+          "sha256": "82669b9daf370814051d8f059a45c2381f41eef304b198bdf8f3032f95f4cc20"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24",
+          "sha256": "856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24",
+          "sha256": "856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24",
+          "sha256": "856b76b85b577ba23439471ecd3cca1bf6c791f7b01a8c26ebc54cd561a57c24"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/druid/blobs/sha256:a7b7eb4c77c049ca32abcce61cb911c4498f8beb661752a53e4b906c36cf4734",
+          "sha256": "a7b7eb4c77c049ca32abcce61cb911c4498f8beb661752a53e4b906c36cf4734"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [
+    "zookeeper"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/druid.rb",
+  "ruby_source_checksum": {
+    "sha256": "0c352746a94acb688f78de0a2081950d297f0c1596b8f5f4414c93210def53ca"
+  },
+  "date_added": "2017-05-30T07:33:44-07:00"
+}

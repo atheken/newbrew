@@ -1,0 +1,117 @@
+{
+  "name": "cgns",
+  "full_name": "cgns",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CFD General Notation System",
+  "license": "BSD-3-Clause",
+  "homepage": "http://cgns.org/",
+  "versions": {
+    "stable": "4.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/CGNS/CGNS/archive/v4.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3b0615d1e6b566aa8772616ba5fd9ca4eca1a600720e36eadd914be348925fe2"
+    },
+    "head": {
+      "url": "https://github.com/CGNS/CGNS.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:ce99c50f036019874327c95a79a224a87360b6ed94253cff8efc405fd7bff096",
+          "sha256": "ce99c50f036019874327c95a79a224a87360b6ed94253cff8efc405fd7bff096"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:d4cac694928a1107b7f78561babe8ad5997914f19663dff150e6c827c602d831",
+          "sha256": "d4cac694928a1107b7f78561babe8ad5997914f19663dff150e6c827c602d831"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:226385007cf78e02dbe88e56718c1662f0c26692a1a15eb502721427c82b9944",
+          "sha256": "226385007cf78e02dbe88e56718c1662f0c26692a1a15eb502721427c82b9944"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:b8d92b3b67c9b85f9baf1779a70bc738d42f7cbb4586e6fc341689b1d61ee0ec",
+          "sha256": "b8d92b3b67c9b85f9baf1779a70bc738d42f7cbb4586e6fc341689b1d61ee0ec"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:8979f06f47c90538924a233349020b1358f6fab95d8cc2097aa56b2fc3ca1799",
+          "sha256": "8979f06f47c90538924a233349020b1358f6fab95d8cc2097aa56b2fc3ca1799"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:7bf1c37a0e5bbe6f9f3418b6eaaacb4ddb13e4c278438a9ca97c5bee428782a2",
+          "sha256": "7bf1c37a0e5bbe6f9f3418b6eaaacb4ddb13e4c278438a9ca97c5bee428782a2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cgns/blobs/sha256:2d41b94fa8b9aa29224d83663f9a237ee18e793e8969c4b6193d2d03a200ed9e",
+          "sha256": "2d41b94fa8b9aa29224d83663f9a237ee18e793e8969c4b6193d2d03a200ed9e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gcc",
+    "hdf5",
+    "libaec"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cgns.rb",
+  "ruby_source_checksum": {
+    "sha256": "d2cef6e123be1d117006ce786fb868a783dd065e1a2f92c44b761c832858df1c"
+  },
+  "date_added": "2020-01-04T15:22:51-05:00"
+}

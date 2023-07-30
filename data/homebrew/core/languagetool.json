@@ -1,0 +1,124 @@
+{
+  "name": "languagetool",
+  "full_name": "languagetool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Style and grammar checker",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.languagetool.org/",
+  "versions": {
+    "stable": "6.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/languagetool-org/languagetool.git",
+      "tag": "v6.2",
+      "revision": "2fe7ae723aa7f2212dc5a71247010af981322543",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/languagetool-org/languagetool.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:4d07d52b4f44349f74f7cdb77964972d583e4cf7bd27baa2af6e125ca7d74aca",
+          "sha256": "4d07d52b4f44349f74f7cdb77964972d583e4cf7bd27baa2af6e125ca7d74aca"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:2cd21adb77a1f11206ae2428e6d9856d5d8907fc15547b6b1b05a4e9ebbb0ec1",
+          "sha256": "2cd21adb77a1f11206ae2428e6d9856d5d8907fc15547b6b1b05a4e9ebbb0ec1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:501c2ed3ed592818a1359b77a8ebd382d65d4bf8983063f001174afe695b752c",
+          "sha256": "501c2ed3ed592818a1359b77a8ebd382d65d4bf8983063f001174afe695b752c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:8a468159d1b3b14432ff0cd83a46b4011e268612a45ea58ef90acc6b41e6f741",
+          "sha256": "8a468159d1b3b14432ff0cd83a46b4011e268612a45ea58ef90acc6b41e6f741"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:fa7ec4174d93c00084936ae45ca32f6a541ba224a71e22b8646a94ad3a1eb18b",
+          "sha256": "fa7ec4174d93c00084936ae45ca32f6a541ba224a71e22b8646a94ad3a1eb18b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:0bc2df167adf00bd1e129786563a966bf51887846b74dbcbd8e5016a6088821f",
+          "sha256": "0bc2df167adf00bd1e129786563a966bf51887846b74dbcbd8e5016a6088821f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/languagetool/blobs/sha256:0ff1125eeb79f209bb4575a1edb79900b3f97925379a98055dc79488029d0cbc",
+          "sha256": "0ff1125eeb79f209bb4575a1edb79900b3f97925379a98055dc79488029d0cbc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "maven"
+  ],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/languagetool/bin/languagetool-server",
+      "--port",
+      "8081",
+      "--allow-origin"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/languagetool/languagetool-server.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/languagetool/languagetool-server.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/languagetool.rb",
+  "ruby_source_checksum": {
+    "sha256": "94fb07e33f672d63652cdde6700f8afb36bade4731b17dc41bf3e0bcd3222f11"
+  },
+  "date_added": "2010-02-10T09:06:18-08:00"
+}

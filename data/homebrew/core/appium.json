@@ -1,0 +1,112 @@
+{
+  "name": "appium",
+  "full_name": "appium",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automation for Apps",
+  "license": "Apache-2.0",
+  "homepage": "https://appium.io/",
+  "versions": {
+    "stable": "2.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/appium/-/appium-2.0.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ae14a94002e839e8b37fc3bd37149d7809ff5387d998e97a15afb5e607332652"
+    },
+    "head": {
+      "url": "https://github.com/appium/appium.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/appium/blobs/sha256:56774cfe6b3b382cfe8cdef565ee0098723f1ae58b1a729dac89399a3370b085",
+          "sha256": "56774cfe6b3b382cfe8cdef565ee0098723f1ae58b1a729dac89399a3370b085"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/appium/blobs/sha256:dc95f83f2e5250db566093afa36e24770671b255bca4c0dda783ea7b704f8f16",
+          "sha256": "dc95f83f2e5250db566093afa36e24770671b255bca4c0dda783ea7b704f8f16"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/appium/blobs/sha256:384ca65ab978a113f4628ae6f20a37fe091268fe799b7b8f6d0673333a509c70",
+          "sha256": "384ca65ab978a113f4628ae6f20a37fe091268fe799b7b8f6d0673333a509c70"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/appium/blobs/sha256:c72a5007cf9285245b012038c69f2c4cf26fb47da6f8fe991bfb8b9035d26ba8",
+          "sha256": "c72a5007cf9285245b012038c69f2c4cf26fb47da6f8fe991bfb8b9035d26ba8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/appium/blobs/sha256:c210a2651d86b00f7cba7ead779b6da3f59aad6b6176369c5fb092a5b14c28bf",
+          "sha256": "c210a2651d86b00f7cba7ead779b6da3f59aad6b6176369c5fb092a5b14c28bf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node",
+    "vips"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/appium/bin/appium",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/appium.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/appium-error.log"
+  },
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/appium.rb",
+  "ruby_source_checksum": {
+    "sha256": "44b464e6b009c957104a270399211f202f453272f67be03d3b1ba77ee3699c07"
+  },
+  "date_added": "2019-10-02T22:33:50-04:00"
+}

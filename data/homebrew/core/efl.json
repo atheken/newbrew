@@ -1,0 +1,135 @@
+{
+  "name": "efl",
+  "full_name": "efl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Enlightenment Foundation Libraries",
+  "license": "GPL-2.0-only and LGPL-2.1-only and BSD-2-Clause and FTL and zlib-acknowledgement",
+  "homepage": "https://www.enlightenment.org",
+  "versions": {
+    "stable": "1.26.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.enlightenment.org/rel/libs/efl/efl-1.26.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d9f83aa0fd9334f44deeb4e4952dc0e5144683afac786feebce6030951617d15"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:2b653b7a4bfdead4b6567f9633dc1d0ec851e2678920236ad57463eea369f9a4",
+          "sha256": "2b653b7a4bfdead4b6567f9633dc1d0ec851e2678920236ad57463eea369f9a4"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:a7144e491351f8475a5dfe051112f150df09ff410bcc963b182aef50106a2381",
+          "sha256": "a7144e491351f8475a5dfe051112f150df09ff410bcc963b182aef50106a2381"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:b444bced3c8b20c19df34893a3760c9e3f8bcf9a2fa84fd912111c07645df52b",
+          "sha256": "b444bced3c8b20c19df34893a3760c9e3f8bcf9a2fa84fd912111c07645df52b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:de13653096d6456aff03cc84c8c728db8214ba25b97f92967005b3ae071469d9",
+          "sha256": "de13653096d6456aff03cc84c8c728db8214ba25b97f92967005b3ae071469d9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:9daaffaab0f55f68f13594599e7738ae7a36e351b903e133ad76ec64fe52024a",
+          "sha256": "9daaffaab0f55f68f13594599e7738ae7a36e351b903e133ad76ec64fe52024a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:3b8df4569420168d8b8055f2edfbfb91da6c85807bf4c8b87895a17ab43f2354",
+          "sha256": "3b8df4569420168d8b8055f2edfbfb91da6c85807bf4c8b87895a17ab43f2354"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/efl/blobs/sha256:3b909487cffe75b106ae5ce4741dd4be864852831609536404a47c7e181a6a84",
+          "sha256": "3b909487cffe75b106ae5ce4741dd4be864852831609536404a47c7e181a6a84"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "bullet",
+    "dbus",
+    "fontconfig",
+    "freetype",
+    "fribidi",
+    "gettext",
+    "giflib",
+    "glib",
+    "gstreamer",
+    "jpeg-turbo",
+    "libpng",
+    "libraw",
+    "librsvg",
+    "libsndfile",
+    "libspectre",
+    "libtiff",
+    "luajit",
+    "lz4",
+    "openssl@3",
+    "poppler",
+    "pulseaudio",
+    "shared-mime-info",
+    "webp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/efl.rb",
+  "ruby_source_checksum": {
+    "sha256": "678b8c82638b68458c77e1afb7602beb3578c2a78b67bbcc773d87b9a57b7dc3"
+  },
+  "date_added": "2015-05-07T13:38:04-07:00"
+}

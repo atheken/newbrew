@@ -1,0 +1,117 @@
+{
+  "name": "tenyr",
+  "full_name": "tenyr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "32-bit computing environment (including simulated CPU)",
+  "license": "MIT",
+  "homepage": "https://tenyr.info/",
+  "versions": {
+    "stable": "0.9.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kulp/tenyr/archive/v0.9.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "29010e3df8449e9210faf96ca5518d573af4ada4939fe1e7cfbc169fe9179224"
+    },
+    "head": {
+      "url": "https://github.com/kulp/tenyr.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:655a2c3c2841cca8dc2a9a12251050701c738425dc78687f2062357ded8bf4a2",
+          "sha256": "655a2c3c2841cca8dc2a9a12251050701c738425dc78687f2062357ded8bf4a2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:9254f0926869364cd952129f192c9fc230ef6a6343e373c1640872bbe9c51345",
+          "sha256": "9254f0926869364cd952129f192c9fc230ef6a6343e373c1640872bbe9c51345"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:d5b29d7fe175e9d5fa9a37fa80f390b7c0a302b5d8d8d55cf591a394878cfb1c",
+          "sha256": "d5b29d7fe175e9d5fa9a37fa80f390b7c0a302b5d8d8d55cf591a394878cfb1c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:7174b9cc9538058923d3e8cb74867679cddb2f8d932c644b31af6a1948a3d701",
+          "sha256": "7174b9cc9538058923d3e8cb74867679cddb2f8d932c644b31af6a1948a3d701"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:6fd5d63030858e3d238e668643502a954424d6cebc82a15a6a0e19eb13505ac6",
+          "sha256": "6fd5d63030858e3d238e668643502a954424d6cebc82a15a6a0e19eb13505ac6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:1d65d8a309019393a6db1f4d16d09f6fea293fc23dbb572ffab044cdabd952ff",
+          "sha256": "1d65d8a309019393a6db1f4d16d09f6fea293fc23dbb572ffab044cdabd952ff"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tenyr/blobs/sha256:f5c12c61e48eeb39a813598a9d1723095d0d0aaa5d6b30118457df84ac4f57de",
+          "sha256": "f5c12c61e48eeb39a813598a9d1723095d0d0aaa5d6b30118457df84ac4f57de"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison"
+  ],
+  "dependencies": [
+    "sdl2_image"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tenyr.rb",
+  "ruby_source_checksum": {
+    "sha256": "00dfa7426d452a96e4e1043ea278d08d3b5af489e12693d4376b9efe5fc170cd"
+  },
+  "date_added": "2013-02-02T15:56:09-08:00"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "fabric-completion",
+  "full_name": "fabric-completion",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bash completion for Fabric",
+  "license": "MIT",
+  "homepage": "https://github.com/n0740/fabric-completion",
+  "versions": {
+    "stable": "1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/n0740/fabric-completion.git",
+      "tag": null,
+      "revision": "5b5910492046e6335af0e88550176d2583d9a510",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/n0740/fabric-completion.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-completion/blobs/sha256:3a73318f4d2d5ef0a1b8f14dd72755ee37273b33e9df402bf0c2b9b825a53f6a",
+          "sha256": "3a73318f4d2d5ef0a1b8f14dd72755ee37273b33e9df402bf0c2b9b825a53f6a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "All available tasks are cached in special file to speed up the response.\nTherefore, Add .fab_tasks~ to your \".gitignore\".\n\nFor more details and configuration refer to the home page.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fabric-completion.rb",
+  "ruby_source_checksum": {
+    "sha256": "de8a4d685702d873c3cf99ade9f9a194f7953c191ca815573420b355c8cc926e"
+  },
+  "date_added": "2017-01-25T08:30:37+00:00"
+}

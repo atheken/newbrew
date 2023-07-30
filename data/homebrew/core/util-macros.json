@@ -1,0 +1,105 @@
+{
+  "name": "util-macros",
+  "full_name": "util-macros",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: Set of autoconf macros used to build other xorg packages",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "1.20.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/archive/individual/util/util-macros-1.20.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b86b262dbe971edb4ff233bc370dfad9f241d09f078a3f6d5b7f4b8ea4430db"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9",
+          "sha256": "d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9",
+          "sha256": "d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9",
+          "sha256": "d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6",
+          "sha256": "4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6",
+          "sha256": "4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6",
+          "sha256": "4e3314b61fccbf1b357ae51333f1c228dca6bcee87dcc218fe843fbbc0d55dd6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/util-macros/blobs/sha256:d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9",
+          "sha256": "d27b0b89a7376788a6a33f030d72f9bbc1397f7d21c2e672be950180ed35f3e9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/util-macros.rb",
+  "ruby_source_checksum": {
+    "sha256": "7e42c33e4338c469257637f9dfdafe379ee721d86329e1f18791f260c0fffbce"
+  },
+  "date_added": "2020-10-04T19:17:40+00:00"
+}

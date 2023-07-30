@@ -1,0 +1,119 @@
+{
+  "name": "libqalculate",
+  "full_name": "libqalculate",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for Qalculate! program",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://qalculate.github.io/",
+  "versions": {
+    "stable": "4.7.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.7.0/libqalculate-4.7.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "16135bcd07a905ffc27a3f1abe5e6feb6cda6c40e5f6bb35127fefdb50ccfd02"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:264861d918ae500279561e2279469526c029e78f5849de158d6e4761d1d71e84",
+          "sha256": "264861d918ae500279561e2279469526c029e78f5849de158d6e4761d1d71e84"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:68a04bdd22cfa4630b046ba28bc71816a39b01e777aab158d4122d5617174c13",
+          "sha256": "68a04bdd22cfa4630b046ba28bc71816a39b01e777aab158d4122d5617174c13"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:27eb633daf249725d1672d15a304b0a4e9ce3a6a83b43985161b8317fa58b1c6",
+          "sha256": "27eb633daf249725d1672d15a304b0a4e9ce3a6a83b43985161b8317fa58b1c6"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:16c3346024abe2b162530435de8f3f11f49ff5f68f9d5909727c84805442e319",
+          "sha256": "16c3346024abe2b162530435de8f3f11f49ff5f68f9d5909727c84805442e319"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:1f113f17d6ee9925c9c1d977904f283ee96f8792ed4403563aa7b5cb5fd891fc",
+          "sha256": "1f113f17d6ee9925c9c1d977904f283ee96f8792ed4403563aa7b5cb5fd891fc"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:9404c5f8102e18f011d4803bb2e78b33cb976e1154e2f06621dc0e3b5968ad8c",
+          "sha256": "9404c5f8102e18f011d4803bb2e78b33cb976e1154e2f06621dc0e3b5968ad8c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libqalculate/blobs/sha256:2384b5b8a820bac5287a3de932dc993b8fd9e9484706f64435987d8001e14aae",
+          "sha256": "2384b5b8a820bac5287a3de932dc993b8fd9e9484706f64435987d8001e14aae"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "intltool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "gnuplot",
+    "mpfr",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "perl": "build"
+    },
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libqalculate.rb",
+  "ruby_source_checksum": {
+    "sha256": "05be5531437ee1f6b174ac52b6ad43fcf6b65b7c13c3e83092f9b9e4a0e227c8"
+  },
+  "date_added": "2012-03-18T17:10:45-07:00"
+}

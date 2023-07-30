@@ -1,0 +1,120 @@
+{
+  "name": "solr",
+  "full_name": "solr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "solr@9.3"
+  ],
+  "versioned_formulae": [
+    "solr@8.11",
+    "solr@7.7"
+  ],
+  "desc": "Enterprise search platform from the Apache Lucene project",
+  "license": "Apache-2.0",
+  "homepage": "https://solr.apache.org/",
+  "versions": {
+    "stable": "9.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org/solr/solr/9.3.0/solr-9.3.0.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2a924a776d7c06dea561f12bdb17291dbaecc9e9a06f363d4599acb7fb7bfa71"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51",
+          "sha256": "ebcf2f867f5cd0d82917888941764a3fc9ee39f76e6a8d76f3dc357b09741f51"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/blobs/sha256:6a2d708a2c93ad59b9b7899896db6024c4127a63fa32b9363ee0d5c5d98fd19d",
+          "sha256": "6a2d708a2c93ad59b9b7899896db6024c4127a63fa32b9363ee0d5c5d98fd19d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/solr/bin/solr",
+      "start",
+      "-f",
+      "-s",
+      "/home/linuxbrew/.linuxbrew/var/lib/solr"
+    ],
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/solr.rb",
+  "ruby_source_checksum": {
+    "sha256": "285ec747eb83fd754c2e58c564d449ddf37f369faec30bbb3e8880f17f039e3b"
+  },
+  "date_added": "2009-11-07T18:22:34+00:00"
+}

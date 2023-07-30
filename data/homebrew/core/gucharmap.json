@@ -1,0 +1,115 @@
+{
+  "name": "gucharmap",
+  "full_name": "gucharmap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNOME Character Map, based on the Unicode Character Database",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://wiki.gnome.org/Apps/Gucharmap",
+  "versions": {
+    "stable": "15.0.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.gnome.org/GNOME/gucharmap/-/archive/15.0.4/gucharmap-15.0.4.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "ddd219ffd22ff72ae9c938d7bd0192a3d63b04bc570ee8214790298418b02078"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:a6cc905bd8f7b030c33669b2206a936d5eea7624cda347287c2d4d45d5ebea64",
+          "sha256": "a6cc905bd8f7b030c33669b2206a936d5eea7624cda347287c2d4d45d5ebea64"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:3a4d12ca000be73e94d1d4cbc9dbf9934b9bac407155c96fe8173c17bbf0c1ec",
+          "sha256": "3a4d12ca000be73e94d1d4cbc9dbf9934b9bac407155c96fe8173c17bbf0c1ec"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:2de5a4f0c034ec5d64e835929f81e59ee31c3e01a581e1af77af65845a34cb45",
+          "sha256": "2de5a4f0c034ec5d64e835929f81e59ee31c3e01a581e1af77af65845a34cb45"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:62695da2e8b3d1ed14603b8a9640a41b4333eeca9bf4177b3e8b8aa891227920",
+          "sha256": "62695da2e8b3d1ed14603b8a9640a41b4333eeca9bf4177b3e8b8aa891227920"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:a5fc53ec7eacc87a6d69ea056bf8acf5aa7d4a52641856cf8f221fcebb3941b7",
+          "sha256": "a5fc53ec7eacc87a6d69ea056bf8acf5aa7d4a52641856cf8f221fcebb3941b7"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:5f9512394695d02e16c205c1a3cf6978cc3ba5eab059d5a8e0118945868ad778",
+          "sha256": "5f9512394695d02e16c205c1a3cf6978cc3ba5eab059d5a8e0118945868ad778"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gucharmap/blobs/sha256:75c0ad1e82e0a479397f49067c1a4835657642271c1af38e31808c431205df89",
+          "sha256": "75c0ad1e82e0a479397f49067c1a4835657642271c1af38e31808c431205df89"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "desktop-file-utils",
+    "gobject-introspection",
+    "gtk-doc",
+    "itstool",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala",
+    "gettext"
+  ],
+  "dependencies": [
+    "gtk+3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gucharmap.rb",
+  "ruby_source_checksum": {
+    "sha256": "98f9d9e6becf14d5e07d0dd95652073c4ba237343346aa284236f80144eacd1e"
+  },
+  "date_added": "2015-08-20T19:44:50+01:00"
+}

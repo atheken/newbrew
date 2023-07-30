@@ -1,0 +1,109 @@
+{
+  "name": "trufflehog",
+  "full_name": "trufflehog",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Find and verify credentials",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://trufflesecurity.com/",
+  "versions": {
+    "stable": "3.46.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/trufflesecurity/trufflehog/archive/refs/tags/v3.46.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "803ec325f83756a36cd0f0449fb07b89e9d38904aa86f7375f347059e1fb3224"
+    },
+    "head": {
+      "url": "https://github.com/trufflesecurity/driftwood.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:3b3d08837412c714fd164ecd079bf05e9c1aa06e9897b45a083bc85ad3199025",
+          "sha256": "3b3d08837412c714fd164ecd079bf05e9c1aa06e9897b45a083bc85ad3199025"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:e30a3883acb22e51c5b57ac1125f8b11adbe3209483f71a555ab3d4aa5a8eb8a",
+          "sha256": "e30a3883acb22e51c5b57ac1125f8b11adbe3209483f71a555ab3d4aa5a8eb8a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:4b09c06169dfef04a841e864e0ed7c31fda536e125c0d5dfee51dc1af6069b48",
+          "sha256": "4b09c06169dfef04a841e864e0ed7c31fda536e125c0d5dfee51dc1af6069b48"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:fb31c5835cbc27da62de750cacd7784e97290401a6eb303011f30133969ffb80",
+          "sha256": "fb31c5835cbc27da62de750cacd7784e97290401a6eb303011f30133969ffb80"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:1f15adb848fdbd54771967dbe2eafda90a96dbf40868527327e03c52159ba71f",
+          "sha256": "1f15adb848fdbd54771967dbe2eafda90a96dbf40868527327e03c52159ba71f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:09c96676f87eb358aa125da49537b495712bf2951c134653270cc3fdc00b0624",
+          "sha256": "09c96676f87eb358aa125da49537b495712bf2951c134653270cc3fdc00b0624"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trufflehog/blobs/sha256:9ff4723d0397e4f8565094ac2882595cddc08d7116c9cc5b20f615e3fa72056d",
+          "sha256": "9ff4723d0397e4f8565094ac2882595cddc08d7116c9cc5b20f615e3fa72056d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/trufflehog.rb",
+  "ruby_source_checksum": {
+    "sha256": "30799aa0b877bc25ddf5e317fc057116f95548ea8a2eb553528b0bb0c370355d"
+  },
+  "date_added": "2023-07-03T18:55:51-04:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "gerbil-scheme",
+  "full_name": "gerbil-scheme",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Opinionated dialect of Scheme designed for Systems Programming",
+  "license": "LGPL-2.1-or-later or Apache-2.0",
+  "homepage": "https://cons.io",
+  "versions": {
+    "stable": "0.17",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vyzo/gerbil/archive/v0.17.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1e81265aba7e9022432649eb26b2e5c85a2bb631a315e4fa840b14cf336b2483"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:5568e6b56fed556b8c0145de4d54d6dc256c0d75af3e43a88a34c4f3b4922a0f",
+          "sha256": "5568e6b56fed556b8c0145de4d54d6dc256c0d75af3e43a88a34c4f3b4922a0f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:eea0039afa114fcf1329ca303a4b1829141a8b94d95520409109b362ffe459f6",
+          "sha256": "eea0039afa114fcf1329ca303a4b1829141a8b94d95520409109b362ffe459f6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:a95805093e7668f057a9bead359aed795887a461c6399fe7da08a2a365d0a176",
+          "sha256": "a95805093e7668f057a9bead359aed795887a461c6399fe7da08a2a365d0a176"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:29e03e2cce80923ebace68b450dd7ac32c0fb8e9d5108ad1734c20b133e70306",
+          "sha256": "29e03e2cce80923ebace68b450dd7ac32c0fb8e9d5108ad1734c20b133e70306"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:f3048903ad1fd2bd101cabb22d7587229d8e92712f6fb1724d5683664ad1e80b",
+          "sha256": "f3048903ad1fd2bd101cabb22d7587229d8e92712f6fb1724d5683664ad1e80b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:f6e7338913c1e66538c1af4d177c63869dd33554f0aa5d14be7143eefa724330",
+          "sha256": "f6e7338913c1e66538c1af4d177c63869dd33554f0aa5d14be7143eefa724330"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbil-scheme/blobs/sha256:878b862448fe401b00980688c6c880ef4344cc88272bb29ed6c1ddb1ce14460f",
+          "sha256": "878b862448fe401b00980688c6c880ef4344cc88272bb29ed6c1ddb1ce14460f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gambit-scheme",
+    "leveldb",
+    "libyaml",
+    "lmdb",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gerbil-scheme.rb",
+  "ruby_source_checksum": {
+    "sha256": "2ee510b1c5b6dc5e1914401d92c3c9374d8f73bc70f22cab55d66850db7f41c6"
+  },
+  "date_added": "2019-01-20T16:59:39+01:00"
+}

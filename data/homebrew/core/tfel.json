@@ -1,0 +1,113 @@
+{
+  "name": "tfel",
+  "full_name": "tfel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Code generation tool dedicated to material knowledge for numerical mechanics",
+  "license": "GPL-1.0-or-later",
+  "homepage": "https://thelfer.github.io/tfel/web/index.html",
+  "versions": {
+    "stable": "4.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/thelfer/tfel/archive/refs/tags/TFEL-4.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7505c41da9df5fb3c281651ff29b58a18fd4d91b92f839322f0267269c5f1375"
+    },
+    "head": {
+      "url": "https://github.com/thelfer/tfel.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:e7a36c0e5e16ea86948fac8e6dbe5154280e92762d005c502ae67d78c2266752",
+          "sha256": "e7a36c0e5e16ea86948fac8e6dbe5154280e92762d005c502ae67d78c2266752"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:e2bacd1722df002e836c893028af2ba0a2889f09809eb494243f6c63f1dd7eb2",
+          "sha256": "e2bacd1722df002e836c893028af2ba0a2889f09809eb494243f6c63f1dd7eb2"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:14369581648f19f2c106dc318180182b6bae6334e31976cfc21f4ce5c13e8769",
+          "sha256": "14369581648f19f2c106dc318180182b6bae6334e31976cfc21f4ce5c13e8769"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:d461a7949788f856112f39cec75dfb45c71e76c194eadf3d58a08d092aa87a57",
+          "sha256": "d461a7949788f856112f39cec75dfb45c71e76c194eadf3d58a08d092aa87a57"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:a9041744c78a7c6d157979493cf8685b55b2a0ed5ad0e246664c8e67cb53d586",
+          "sha256": "a9041744c78a7c6d157979493cf8685b55b2a0ed5ad0e246664c8e67cb53d586"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:bdf5e24ae4870225ac84ffeff3fd3891711b40837dc0c8c0180928f83041ffa7",
+          "sha256": "bdf5e24ae4870225ac84ffeff3fd3891711b40837dc0c8c0180928f83041ffa7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tfel/blobs/sha256:bd95038005351e47768c896557df3e8c95bdc75fe764a3d3badec12af9f01ef9",
+          "sha256": "bd95038005351e47768c896557df3e8c95bdc75fe764a3d3badec12af9f01ef9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gcc"
+  ],
+  "dependencies": [
+    "boost-python3",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tfel.rb",
+  "ruby_source_checksum": {
+    "sha256": "fb47e1ba5a4607e81aa6ddfcf55b6e5ed0723b3cb4b808a03f8fe9f5e7f1e604"
+  },
+  "date_added": "2022-09-29T07:33:48+00:00"
+}

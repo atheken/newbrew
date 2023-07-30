@@ -1,0 +1,107 @@
+{
+  "name": "backupninja",
+  "full_name": "backupninja",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Backup automation tool",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://0xacab.org/liberate/backupninja",
+  "versions": {
+    "stable": "1.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://0xacab.org/liberate/backupninja/-/archive/backupninja_upstream/1.2.2/backupninja-backupninja_upstream-1.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "93ddc72f085d46145b289d35dac1d72e998c15bec1833db78e474b53c9768774"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732",
+          "sha256": "3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732",
+          "sha256": "3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732",
+          "sha256": "3ce80b2e23b07df75d4d11651c7c819c27ab5673189114aa72da8f28f96e2732"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5",
+          "sha256": "36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5",
+          "sha256": "36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5",
+          "sha256": "36e98005281874b8a396b799357be9631e3a698e433fbe26ff4812711ae487a5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/backupninja/blobs/sha256:00f801dcd347b92d24d6f2dca281b464e6c627d62003dacf6d74a9595c2c4a0d",
+          "sha256": "00f801dcd347b92d24d6f2dca281b464e6c627d62003dacf6d74a9595c2c4a0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "bash",
+    "dialog",
+    "gawk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/backupninja.rb",
+  "ruby_source_checksum": {
+    "sha256": "71ef2e4f25089d48c24ea72f46d302d64fbc7b077b74141eab41074886e1a5b6"
+  },
+  "date_added": "2012-10-02T11:52:37-07:00"
+}

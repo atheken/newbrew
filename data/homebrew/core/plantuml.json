@@ -1,0 +1,106 @@
+{
+  "name": "plantuml",
+  "full_name": "plantuml",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Draw UML diagrams",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://plantuml.com/",
+  "versions": {
+    "stable": "1.2023.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/plantuml/plantuml/releases/download/v1.2023.10/plantuml-1.2023.10.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "ee06454723028763dd8280459e8fd8f31fcd85b1ae8d9ab0e32122243c098c3b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce",
+          "sha256": "d23fe00fff2988d3f4cc6ca8ec24134a9f8b2cffbe0bb8c30f313808603a3bce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/plantuml/blobs/sha256:1949d14953764e59cb5e7271408bdfefd9bced0cf0f00b6ae40d9fe9b96fc3a1",
+          "sha256": "1949d14953764e59cb5e7271408bdfefd9bced0cf0f00b6ae40d9fe9b96fc3a1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "graphviz",
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/plantuml.rb",
+  "ruby_source_checksum": {
+    "sha256": "a684a2d12cc2ceb7c540ecbf6a844deab1bfac41ebcfc23f799c4224120b7849"
+  },
+  "date_added": "2013-12-12T08:52:30-08:00"
+}

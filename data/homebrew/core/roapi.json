@@ -1,0 +1,105 @@
+{
+  "name": "roapi",
+  "full_name": "roapi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Full-fledged APIs for static datasets without writing a single line of code",
+  "license": "Apache-2.0",
+  "homepage": "https://roapi.github.io/docs",
+  "versions": {
+    "stable": "0.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/roapi/roapi/archive/refs/tags/roapi-v0.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "90dc3c036ba284504f0af023e343603b74a8f9222999fa6968fd2d7782fa6bac"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:e985295ec049440a4de8847b2572e6aca8be1e31603623b310a47ef333c9216f",
+          "sha256": "e985295ec049440a4de8847b2572e6aca8be1e31603623b310a47ef333c9216f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:c4e9f75ce10c6e60d8a6101eb1c40781b96a859a026656194c1ba3632f3ef6f6",
+          "sha256": "c4e9f75ce10c6e60d8a6101eb1c40781b96a859a026656194c1ba3632f3ef6f6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:98dec57754abe011af47c52623981039c31c49e1d7275214ac9d79252a1d5642",
+          "sha256": "98dec57754abe011af47c52623981039c31c49e1d7275214ac9d79252a1d5642"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:6daf36288d0cc4d48084c819c772286f66152b358dfd6e84d45c675d5ebc380d",
+          "sha256": "6daf36288d0cc4d48084c819c772286f66152b358dfd6e84d45c675d5ebc380d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:56019992e8e75b0493423015d4e86160ff8103c831bbddf43c860199142092e9",
+          "sha256": "56019992e8e75b0493423015d4e86160ff8103c831bbddf43c860199142092e9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:2d2f2d1db30113ff3c3b6bb5e9669c02889293e0e99a6d92a13674f521a73e47",
+          "sha256": "2d2f2d1db30113ff3c3b6bb5e9669c02889293e0e99a6d92a13674f521a73e47"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roapi/blobs/sha256:5cec37d5bebb1ff28144fd339bd1120599c71d9628042500bbc83e038b5122fd",
+          "sha256": "5cec37d5bebb1ff28144fd339bd1120599c71d9628042500bbc83e038b5122fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/roapi.rb",
+  "ruby_source_checksum": {
+    "sha256": "332ae986a0a386d82f2ced53edf705d91300dab74af016234dd4d34b84b38844"
+  },
+  "date_added": "2022-01-18T15:36:43+00:00"
+}

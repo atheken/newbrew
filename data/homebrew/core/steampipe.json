@@ -1,0 +1,109 @@
+{
+  "name": "steampipe",
+  "full_name": "steampipe",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Use SQL to instantly query your cloud services",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://steampipe.io/",
+  "versions": {
+    "stable": "0.20.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/turbot/steampipe/archive/refs/tags/v0.20.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5cae0aca5136666b669f4b85781bda3f27b9cb32de7a2f7cad14ff3cbc28adca"
+    },
+    "head": {
+      "url": "https://github.com/turbot/steampipe.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:a6309665b85487fa0a928257ddde2ddfebe483c97b15335dd45f1f22d3b38440",
+          "sha256": "a6309665b85487fa0a928257ddde2ddfebe483c97b15335dd45f1f22d3b38440"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:cdc48705a89e8f548a71ce76d86e0dbbaa9dbc068308d849c64b0178e60d46ec",
+          "sha256": "cdc48705a89e8f548a71ce76d86e0dbbaa9dbc068308d849c64b0178e60d46ec"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:74c08097f766d7431b9c90cadc403f4fb8919c00968f70dffbd02e07eba3d178",
+          "sha256": "74c08097f766d7431b9c90cadc403f4fb8919c00968f70dffbd02e07eba3d178"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:5e50dd52a3b75a6e75305e2d1cbb4f1d4c9f6bfe73c135f054237b0a6c998ab9",
+          "sha256": "5e50dd52a3b75a6e75305e2d1cbb4f1d4c9f6bfe73c135f054237b0a6c998ab9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:158f6a9e369caf61785e7dbe20bb09350142feca2fc961d35616435a3f81e719",
+          "sha256": "158f6a9e369caf61785e7dbe20bb09350142feca2fc961d35616435a3f81e719"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:3ab6be8f205e86c254a36a4c971c7a521c054014d729c28192bf49125b0569d4",
+          "sha256": "3ab6be8f205e86c254a36a4c971c7a521c054014d729c28192bf49125b0569d4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/steampipe/blobs/sha256:4125f6706c9f623f44cd0b39891e8a2c842aebbbfb7d0f91d48910c52a228740",
+          "sha256": "4125f6706c9f623f44cd0b39891e8a2c842aebbbfb7d0f91d48910c52a228740"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/steampipe.rb",
+  "ruby_source_checksum": {
+    "sha256": "e056618f47c09bfb6eee1bd5b295f4ac36798cf75f683ca4fd06d2fd9e5cd591"
+  },
+  "date_added": "2022-12-26T04:19:40+00:00"
+}

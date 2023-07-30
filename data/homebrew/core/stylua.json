@@ -1,0 +1,105 @@
+{
+  "name": "stylua",
+  "full_name": "stylua",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Opinionated Lua code formatter",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/JohnnyMorganz/StyLua",
+  "versions": {
+    "stable": "0.18.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/JohnnyMorganz/StyLua/archive/refs/tags/v0.18.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e06bd0e2befcfebfa312930f282acdc6e2cffff7c1cabce648be4d88e7e5f7c0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:8fe4df5883d0e30e743b8ca50f99b10ef7fb17e1367f6de340a482e6f3bb7a8a",
+          "sha256": "8fe4df5883d0e30e743b8ca50f99b10ef7fb17e1367f6de340a482e6f3bb7a8a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:98b62a18dcd8c00a4e45d277511fabb0e80424e0cd21e9b9405722abd5c66c53",
+          "sha256": "98b62a18dcd8c00a4e45d277511fabb0e80424e0cd21e9b9405722abd5c66c53"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:103d3e62872a1284baa00508eb6a0955f6d61b03a495debf49d8bdf9ae7b050d",
+          "sha256": "103d3e62872a1284baa00508eb6a0955f6d61b03a495debf49d8bdf9ae7b050d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:7db646947b6a9b3ab9ea281a2394c6a1a47b4e513a16fa4072a1add80d9ebaaf",
+          "sha256": "7db646947b6a9b3ab9ea281a2394c6a1a47b4e513a16fa4072a1add80d9ebaaf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:ff5dc0941de18dc55652bc91f1303831a9b90ca4bf491e12a9866583059a211a",
+          "sha256": "ff5dc0941de18dc55652bc91f1303831a9b90ca4bf491e12a9866583059a211a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:ff3457d9416296e4f7dc8dfa5c8bf4b211209a40e14f0adef072b1686215fe50",
+          "sha256": "ff3457d9416296e4f7dc8dfa5c8bf4b211209a40e14f0adef072b1686215fe50"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stylua/blobs/sha256:4273919d452cae6e0a851f697748827e9d398a1823af2b466d4efe4cc98021f3",
+          "sha256": "4273919d452cae6e0a851f697748827e9d398a1823af2b466d4efe4cc98021f3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stylua.rb",
+  "ruby_source_checksum": {
+    "sha256": "160d1c4bc545cc2af7df99ce3868d2689bc079c4c77af6f134842f57166ec180"
+  },
+  "date_added": "2021-08-01T08:47:58+00:00"
+}

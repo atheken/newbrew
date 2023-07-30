@@ -1,0 +1,107 @@
+{
+  "name": "babeld",
+  "full_name": "babeld",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Loop-avoiding distance-vector routing protocol",
+  "license": "MIT",
+  "homepage": "https://www.irif.fr/~jch/software/babel/",
+  "versions": {
+    "stable": "1.13.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.irif.fr/~jch/software/files/babeld-1.13.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "15f24d26da0ccfc073abcdef0309f281e4684f2aa71126f826572c4c845e8dd9"
+    },
+    "head": {
+      "url": "https://github.com/jech/babeld.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:de3bd348ee96f4800eebf8e081ba0b02688dd47c05303f4bd7c47b8850a6bc97",
+          "sha256": "de3bd348ee96f4800eebf8e081ba0b02688dd47c05303f4bd7c47b8850a6bc97"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:055e941a8174763608a1eb8b1953d2d60a75f6bd2ac5bc2f57235fc647b10bd8",
+          "sha256": "055e941a8174763608a1eb8b1953d2d60a75f6bd2ac5bc2f57235fc647b10bd8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:1c95ab7121b226e24a505064d231e89efe854d2c373f6a362e987b22901ed1cd",
+          "sha256": "1c95ab7121b226e24a505064d231e89efe854d2c373f6a362e987b22901ed1cd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:fa42c87c9b05ce203d457c7d6e288165ddb658bf830cd297b4fbe8c542ba40a8",
+          "sha256": "fa42c87c9b05ce203d457c7d6e288165ddb658bf830cd297b4fbe8c542ba40a8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:69f0e27d20bf8a9febc3922bbcfe6d9ac84685751814d7f8747fcb3a2153d543",
+          "sha256": "69f0e27d20bf8a9febc3922bbcfe6d9ac84685751814d7f8747fcb3a2153d543"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:3248b6ab94fada912bfdcb3521dc6c629a6e1a7bb09f9c1d33c232abcfc27a66",
+          "sha256": "3248b6ab94fada912bfdcb3521dc6c629a6e1a7bb09f9c1d33c232abcfc27a66"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babeld/blobs/sha256:73e9228c77443e9d1c349091f0fecb2b5f61daaf340b99a6b2120def482a8f9a",
+          "sha256": "73e9228c77443e9d1c349091f0fecb2b5f61daaf340b99a6b2120def482a8f9a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/babeld.rb",
+  "ruby_source_checksum": {
+    "sha256": "ff532159ee55d2e8acb232ce47ae0ddc39e19e3f8f123c5c98caa8c646cd7b5f"
+  },
+  "date_added": "2013-09-27T18:30:39-07:00"
+}

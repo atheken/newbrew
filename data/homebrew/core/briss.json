@@ -1,0 +1,75 @@
+{
+  "name": "briss",
+  "full_name": "briss",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Crop PDF files",
+  "license": null,
+  "homepage": "https://briss.sourceforge.io/",
+  "versions": {
+    "stable": "0.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "45dd668a9ceb9cd59529a9fefe422a002ee1554a61be07e6fc8b3baf33d733d9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/briss/blobs/sha256:0dde9e491031441296ba34f985de7d37325c03f2f5aae9869da56578e17a3126",
+          "sha256": "0dde9e491031441296ba34f985de7d37325c03f2f5aae9869da56578e17a3126"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/briss.rb",
+  "ruby_source_checksum": {
+    "sha256": "22ac398debe69e659c48f20aa13a23108bcb06fa697938d9caac33d9e34e907d"
+  },
+  "date_added": "2013-06-29T09:48:22-07:00"
+}

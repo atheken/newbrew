@@ -1,0 +1,112 @@
+{
+  "name": "juju",
+  "full_name": "juju",
+  "tap": "homebrew/core",
+  "oldname": "juju2",
+  "oldnames": [
+    "juju2",
+    "juju@2.0"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DevOps management tool",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://juju.is/",
+  "versions": {
+    "stable": "3.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://launchpad.net/juju/3.2/3.2.0/+download/juju-core_3.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd761ff63ff46f96b51ff94ec0b6871c519b242fb5966b5393a3a417386162f8"
+    },
+    "head": {
+      "url": "https://github.com/juju/juju.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:97b148247322f5ba4f109f109ebb9cfe597c72d82b2463f7feac12990a5e2b7b",
+          "sha256": "97b148247322f5ba4f109f109ebb9cfe597c72d82b2463f7feac12990a5e2b7b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:bd9862ca1ca90fb02c1300a09168946d33398cbabeff87cc476e312b239293a5",
+          "sha256": "bd9862ca1ca90fb02c1300a09168946d33398cbabeff87cc476e312b239293a5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:30f2e76df904b15b66fd5fac7b00c99d3086107ceacfada159c3e2870d9d66d0",
+          "sha256": "30f2e76df904b15b66fd5fac7b00c99d3086107ceacfada159c3e2870d9d66d0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:70b11b1a58d44fb9addf67bf6e22dc8689c7a3b40816d2983e096b8840e5d819",
+          "sha256": "70b11b1a58d44fb9addf67bf6e22dc8689c7a3b40816d2983e096b8840e5d819"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:ced4599bcf5e6751771f319275e434838114875fd9d78fc0f35ac8fa30d1adc4",
+          "sha256": "ced4599bcf5e6751771f319275e434838114875fd9d78fc0f35ac8fa30d1adc4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:1557b7cfdc303123f9c10e0b867d13cd721296e10318c08bf36b6d3a2f966812",
+          "sha256": "1557b7cfdc303123f9c10e0b867d13cd721296e10318c08bf36b6d3a2f966812"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/juju/blobs/sha256:12d7e4dfa90d84e857309a9b5dcd99806ef7e66161ae84310c45c52b430037e1",
+          "sha256": "12d7e4dfa90d84e857309a9b5dcd99806ef7e66161ae84310c45c52b430037e1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/juju.rb",
+  "ruby_source_checksum": {
+    "sha256": "fe7b2ac9aa61cce7c9fb34094a56d265d935b4ef33dab09847295186e634268b"
+  },
+  "date_added": "2013-08-17T08:43:36-07:00"
+}

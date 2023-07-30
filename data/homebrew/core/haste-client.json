@@ -1,0 +1,111 @@
+{
+  "name": "haste-client",
+  "full_name": "haste-client",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI client for haste-server",
+  "license": "MIT",
+  "homepage": "https://hastebin.com/",
+  "versions": {
+    "stable": "0.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/toptal/haste-client/archive/v0.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9f7e943be47408ba0b9765328794e7b87bdb2a785f1e9edb5d541d67b4a75d31"
+    },
+    "head": {
+      "url": "https://github.com/toptal/haste-client.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232",
+          "sha256": "867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232",
+          "sha256": "867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:b0bf267cb522df7e54546c61342ab74db3610856894b4a6f4e010e70ba2c0308",
+          "sha256": "b0bf267cb522df7e54546c61342ab74db3610856894b4a6f4e010e70ba2c0308"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232",
+          "sha256": "867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232",
+          "sha256": "867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232",
+          "sha256": "867a679e7daef529fa36bd744eb7ce3326867bed1fb5588fe79b626121247232"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/haste-client/blobs/sha256:3e8ca7f96707ff93d23f2faf3deb15bdaf7faeca5a78115823bc1c00a22e436d",
+          "sha256": "3e8ca7f96707ff93d23f2faf3deb15bdaf7faeca5a78115823bc1c00a22e436d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/haste-client.rb",
+  "ruby_source_checksum": {
+    "sha256": "98115e4db4e71a215c3abcdc45865e82b3ccdbc474394ea402e76f29a8234af9"
+  },
+  "date_added": "2017-07-03T13:52:06-07:00"
+}

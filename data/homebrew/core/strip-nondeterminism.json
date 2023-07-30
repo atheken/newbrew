@@ -1,0 +1,115 @@
+{
+  "name": "strip-nondeterminism",
+  "full_name": "strip-nondeterminism",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for stripping bits of non-deterministic information from files",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://salsa.debian.org/reproducible-builds/strip-nondeterminism",
+  "versions": {
+    "stable": "1.13.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://salsa.debian.org/reproducible-builds/strip-nondeterminism/-/archive/1.13.1/strip-nondeterminism-1.13.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "0bde4b23edd6cdb82fcdc4745ef9dc8ca0743e7c7e4fb2ea0bf78c76511f49f3"
+    },
+    "head": {
+      "url": "https://salsa.debian.org/reproducible-builds/strip-nondeterminism.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:ba3ad2c20a564c08f0e2baa695747714899aa45ea7aee3e756c6de29342f6823",
+          "sha256": "ba3ad2c20a564c08f0e2baa695747714899aa45ea7aee3e756c6de29342f6823"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:ba3ad2c20a564c08f0e2baa695747714899aa45ea7aee3e756c6de29342f6823",
+          "sha256": "ba3ad2c20a564c08f0e2baa695747714899aa45ea7aee3e756c6de29342f6823"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:263c7feef3a16a8a8fd3acdb6040c471691781cca9a86d93d8d3171e15f970f8",
+          "sha256": "263c7feef3a16a8a8fd3acdb6040c471691781cca9a86d93d8d3171e15f970f8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:dbd497072b9febd8b80a6c891f3f3b50127ab8f768acd30f87b96dd293a19a91",
+          "sha256": "dbd497072b9febd8b80a6c891f3f3b50127ab8f768acd30f87b96dd293a19a91"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:dbd497072b9febd8b80a6c891f3f3b50127ab8f768acd30f87b96dd293a19a91",
+          "sha256": "dbd497072b9febd8b80a6c891f3f3b50127ab8f768acd30f87b96dd293a19a91"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:00d0414ef922ed84f8a40a4441d3b4144de61fcb98d4472a6ee1990464a135d8",
+          "sha256": "00d0414ef922ed84f8a40a4441d3b4144de61fcb98d4472a6ee1990464a135d8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strip-nondeterminism/blobs/sha256:c947310bc8a8cbef77f88c6b73ce650fbadf05f27950ccd170436e034edfac8d",
+          "sha256": "c947310bc8a8cbef77f88c6b73ce650fbadf05f27950ccd170436e034edfac8d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "file-formula": "test"
+    },
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/strip-nondeterminism.rb",
+  "ruby_source_checksum": {
+    "sha256": "c11bcd37c003e549fd12b603e6d0e69419dcb69a1814fe9bec231226fd33fb4c"
+  },
+  "date_added": "2023-07-15T01:54:34-04:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "premake",
+  "full_name": "premake",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Write once, build anywhere Lua-based build system",
+  "license": "BSD-3-Clause",
+  "homepage": "https://premake.github.io/",
+  "versions": {
+    "stable": "5.0.0-beta2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/premake/premake-core/releases/download/v5.0.0-beta2/premake-5.0.0-beta2-src.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "4c1100f5170ae1c3bd1b4fd9458b3b02ae841aefbfc41514887b80996436dee2"
+    },
+    "head": {
+      "url": "https://github.com/premake/premake-core.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:b7c0e198ec64df063c624729b362aeffcf03b6a7c3d369a289553830aa84e76e",
+          "sha256": "b7c0e198ec64df063c624729b362aeffcf03b6a7c3d369a289553830aa84e76e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:c1a2d677314bd928dbbe53c160bd3d67477b485904f7df4afe1e7d92876380d7",
+          "sha256": "c1a2d677314bd928dbbe53c160bd3d67477b485904f7df4afe1e7d92876380d7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:bb6aded02913a669e7bb98a1556c1c1d069ca998e41c22fb77da2bafb82baa75",
+          "sha256": "bb6aded02913a669e7bb98a1556c1c1d069ca998e41c22fb77da2bafb82baa75"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:2e6089750d30a7173fd03d1c0397188f0bc81def52bd14d78c52b062d269a245",
+          "sha256": "2e6089750d30a7173fd03d1c0397188f0bc81def52bd14d78c52b062d269a245"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:1e2e64dcda1ad406434262658bca0830bd564a6c8fc9878bad0178e807fc140d",
+          "sha256": "1e2e64dcda1ad406434262658bca0830bd564a6c8fc9878bad0178e807fc140d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:0468917acf8072ff58035d030cff0500de669c64445bf113740d65d5cc098bea",
+          "sha256": "0468917acf8072ff58035d030cff0500de669c64445bf113740d65d5cc098bea"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/premake/blobs/sha256:df19de0950ff6c2e808f5faf472ef74b52b68076c12ed4db4afe7ed9583c514b",
+          "sha256": "df19de0950ff6c2e808f5faf472ef74b52b68076c12ed4db4afe7ed9583c514b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/premake.rb",
+  "ruby_source_checksum": {
+    "sha256": "22be54a76243ab6fcd0447197c5b5b7d0a2204f5f75522dbf6a4e3af9b00fbe5"
+  },
+  "date_added": "2009-12-04T18:03:02+00:00"
+}

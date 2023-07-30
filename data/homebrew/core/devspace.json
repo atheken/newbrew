@@ -1,0 +1,111 @@
+{
+  "name": "devspace",
+  "full_name": "devspace",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI helps develop/deploy/debug apps with Docker and k8s",
+  "license": "Apache-2.0",
+  "homepage": "https://devspace.sh/",
+  "versions": {
+    "stable": "6.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/loft-sh/devspace.git",
+      "tag": "v6.3.2",
+      "revision": "294a386008d52a6ed58448f3c73e5f3ef3caeb00",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/loft-sh/devspace.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:d875717180b1442da54a500bbc33834aae1d16ce0aa539676f06cf0a4ce2b708",
+          "sha256": "d875717180b1442da54a500bbc33834aae1d16ce0aa539676f06cf0a4ce2b708"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:e9d9dafcee76f1cbc03eaf65669dab78e6e35925093df71f92dfa81b656eea17",
+          "sha256": "e9d9dafcee76f1cbc03eaf65669dab78e6e35925093df71f92dfa81b656eea17"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:6576823d6be101745cb55171dd83a9b6647f814f5f067d467839bb3b544f7ab3",
+          "sha256": "6576823d6be101745cb55171dd83a9b6647f814f5f067d467839bb3b544f7ab3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:bd083bfcc69ca6d4c6f41c43f04003e36c9222770a539b9cfe6cda662b793f0d",
+          "sha256": "bd083bfcc69ca6d4c6f41c43f04003e36c9222770a539b9cfe6cda662b793f0d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:90aecaa31b19fa3e2cb8d6624d644241e20c7b1663e570dc8f6120ec5b12f87f",
+          "sha256": "90aecaa31b19fa3e2cb8d6624d644241e20c7b1663e570dc8f6120ec5b12f87f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:567561985d4f433cf822623583e6a3e3955725d90b44e793a6698d47631588ce",
+          "sha256": "567561985d4f433cf822623583e6a3e3955725d90b44e793a6698d47631588ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/devspace/blobs/sha256:1b5c22a0fd78c7e81e2b5658608387e609a7f66f83a5f35c61d9605049a80d3d",
+          "sha256": "1b5c22a0fd78c7e81e2b5658608387e609a7f66f83a5f35c61d9605049a80d3d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "kubernetes-cli"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/devspace.rb",
+  "ruby_source_checksum": {
+    "sha256": "1bb1939d4af4d81422501a045a9efb5c9328438d78e850b2beb83f1283a6972f"
+  },
+  "date_added": "2019-06-22T16:25:01+02:00"
+}

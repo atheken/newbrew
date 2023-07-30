@@ -1,0 +1,118 @@
+{
+  "name": "openslide",
+  "full_name": "openslide",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library to read whole-slide images (a.k.a. virtual slides)",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://openslide.org/",
+  "versions": {
+    "stable": "3.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9938034dba7f48fadc90a2cdf8cfe94c5613b04098d1348a5ff19da95b990564"
+    }
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:e583738663abd681d8251f1dc228f025c1c6938a928a96b728bce74fa34353c0",
+          "sha256": "e583738663abd681d8251f1dc228f025c1c6938a928a96b728bce74fa34353c0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:d37da9b5759f55d1d70a911a237c9be6275b3dc645c393cbd0467799fa17e989",
+          "sha256": "d37da9b5759f55d1d70a911a237c9be6275b3dc645c393cbd0467799fa17e989"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:b2368526acf0b7b6ea124c2c9b5faa93aff6f6e933ff7f53c8db6499094d2782",
+          "sha256": "b2368526acf0b7b6ea124c2c9b5faa93aff6f6e933ff7f53c8db6499094d2782"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:196c77d171091b1ebdd7c8697c3241fa8102b0965fb2bee4f03118ed139061eb",
+          "sha256": "196c77d171091b1ebdd7c8697c3241fa8102b0965fb2bee4f03118ed139061eb"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:33e28390bea7296e1eac8f5e70c4099d53c90191138690382933350615ece546",
+          "sha256": "33e28390bea7296e1eac8f5e70c4099d53c90191138690382933350615ece546"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:f62cbddfc327ae795bdceed9c3c66dc22e955a28cd14190ae6844f990c346301",
+          "sha256": "f62cbddfc327ae795bdceed9c3c66dc22e955a28cd14190ae6844f990c346301"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openslide/blobs/sha256:34556c96b3b25692de68c4a7896f59ff5ce4a2d8940844e64b6ab6674fb6e40d",
+          "sha256": "34556c96b3b25692de68c4a7896f59ff5ce4a2d8940844e64b6ab6674fb6e40d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "gdk-pixbuf",
+    "glib",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "libxml2",
+    "openjpeg"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openslide.rb",
+  "ruby_source_checksum": {
+    "sha256": "0aeb73e0f8cc4a24fdb2d9c1567f33fe7e89da6429c18324b469064ab6328241"
+  },
+  "date_added": "2013-01-30T10:34:27-08:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "flyway",
+  "full_name": "flyway",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Database version control to control migrations",
+  "license": "Apache-2.0",
+  "homepage": "https://flywaydb.org/",
+  "versions": {
+    "stable": "9.21.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=org/flywaydb/flyway-commandline/9.21.1/flyway-commandline-9.21.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a5b64daa57b81312c6a08089ba627de0f6272f6d9bc597c774ccd66e8dcfe0d5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85",
+          "sha256": "4489b415bfe86f09c5a7a91a3fa025b872bc660f8394005aa00dec6da8702a85"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flyway/blobs/sha256:b974493ea4fc5f03eec222b2c7cc62a8072d8422c60afd606588ebb296c9ce86",
+          "sha256": "b974493ea4fc5f03eec222b2c7cc62a8072d8422c60afd606588ebb296c9ce86"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/flyway.rb",
+  "ruby_source_checksum": {
+    "sha256": "7b15ba96f816c0f37fcadfff017948f61025f3fc5a0d403512d4b919ad77e90a"
+  },
+  "date_added": "2015-04-06T21:35:56+01:00"
+}

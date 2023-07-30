@@ -1,0 +1,138 @@
+{
+  "name": "podman",
+  "full_name": "podman",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for managing OCI containers and pods",
+  "license": "Apache-2.0 and GPL-3.0-or-later",
+  "homepage": "https://podman.io/",
+  "versions": {
+    "stable": "4.6.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/containers/podman.git",
+      "tag": "v4.6.0",
+      "revision": "38e6fab9664c6e59b66e73523b307a56130316ae",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/containers/podman.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:095f1f01b2cf9d4f51683fe6aec8d038f36da7601d08281bce6af5343f0a8db6",
+          "sha256": "095f1f01b2cf9d4f51683fe6aec8d038f36da7601d08281bce6af5343f0a8db6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:b18ddc378e3918b7ade86b4a4ba0d45a3fbdf4d4cd05cb2215908c513792d32a",
+          "sha256": "b18ddc378e3918b7ade86b4a4ba0d45a3fbdf4d4cd05cb2215908c513792d32a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:4e07ccc0cd465d9228e716f542c4215f777af698576e49fd685363758d8f9c40",
+          "sha256": "4e07ccc0cd465d9228e716f542c4215f777af698576e49fd685363758d8f9c40"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:25f4e361a9f54e75621cdf5de57aa1682d7dc5579d7822624c8b22f4a4ec1c8f",
+          "sha256": "25f4e361a9f54e75621cdf5de57aa1682d7dc5579d7822624c8b22f4a4ec1c8f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:affe9676f1b9c3768d760d9f1ba6c60e5941ab55fd283d36ac174e906ce8ca92",
+          "sha256": "affe9676f1b9c3768d760d9f1ba6c60e5941ab55fd283d36ac174e906ce8ca92"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:60698b21697f3f52f53dfbb987eaf1191eb754002306f0f4d6265c131498e425",
+          "sha256": "60698b21697f3f52f53dfbb987eaf1191eb754002306f0f4d6265c131498e425"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/podman/blobs/sha256:d628ec3ef6f46c1a95c59cd806c8221484b296fba5bbfeab557a68bde0346bef",
+          "sha256": "d628ec3ef6f46c1a95c59cd806c8221484b296fba5bbfeab557a68bde0346bef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "go-md2man",
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "protobuf",
+    "rust"
+  ],
+  "dependencies": [
+    "conmon",
+    "crun",
+    "fuse-overlayfs",
+    "gpgme",
+    "libseccomp",
+    "slirp4netns",
+    "systemd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": {
+      "linux": [
+        "/home/linuxbrew/.linuxbrew/opt/podman/bin/podman",
+        "system",
+        "service",
+        "--time=0"
+      ]
+    },
+    "run_type": "immediate",
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/podman.rb",
+  "ruby_source_checksum": {
+    "sha256": "0e2d4ed8a10391ad2e8c06e9a69f25de1614e593317e3fac9acdc4372508c660"
+  },
+  "date_added": "2020-08-27T11:50:34+00:00"
+}

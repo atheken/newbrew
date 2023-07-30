@@ -1,0 +1,109 @@
+{
+  "name": "rhit",
+  "full_name": "rhit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Nginx log explorer",
+  "license": "MIT",
+  "homepage": "https://dystroy.org/rhit/",
+  "versions": {
+    "stable": "1.7.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Canop/rhit/archive/refs/tags/v1.7.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a5381d88bc434a4a3db75ef39a86e9351b21b778eb54e7a264bd04863a48bad7"
+    },
+    "head": {
+      "url": "https://github.com/Canop/rhit.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:5c4d5986998c13973c41b570465f978123fc899337b6ee6accb54d7b4fd87b7e",
+          "sha256": "5c4d5986998c13973c41b570465f978123fc899337b6ee6accb54d7b4fd87b7e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:d7423336d8a61032802ef01b6117624b517b788f1f7e969957eb69e2e2825fea",
+          "sha256": "d7423336d8a61032802ef01b6117624b517b788f1f7e969957eb69e2e2825fea"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:7be5b5ed2c7e863bf884cf43c5d0b0eb6e126e787e352d0f94cb35cf8ee3b86e",
+          "sha256": "7be5b5ed2c7e863bf884cf43c5d0b0eb6e126e787e352d0f94cb35cf8ee3b86e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:6902048697acb0e8b2ae11cd40c065fe210f921ab03025fd9873123882c839d7",
+          "sha256": "6902048697acb0e8b2ae11cd40c065fe210f921ab03025fd9873123882c839d7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:158b929d890de826935bde583c3a6775f6ffaa4b4e3bb0a34c7f9a5c4de2ae05",
+          "sha256": "158b929d890de826935bde583c3a6775f6ffaa4b4e3bb0a34c7f9a5c4de2ae05"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:3b5326ab1996014ae1442270f76435f157a0da1df05477eedecab614cb60cd09",
+          "sha256": "3b5326ab1996014ae1442270f76435f157a0da1df05477eedecab614cb60cd09"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rhit/blobs/sha256:d99fc8a4eee321381a3fcae9b9704a39a246c2281b67c6b9c0ba4ee218a97fb9",
+          "sha256": "d99fc8a4eee321381a3fcae9b9704a39a246c2281b67c6b9c0ba4ee218a97fb9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rhit.rb",
+  "ruby_source_checksum": {
+    "sha256": "90d6311ba3408e051d663b3aebd8a07a38182d2c7f945da37e20a8980ff2d970"
+  },
+  "date_added": "2021-07-14T02:35:53+05:30"
+}

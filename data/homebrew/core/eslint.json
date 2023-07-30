@@ -1,0 +1,105 @@
+{
+  "name": "eslint",
+  "full_name": "eslint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "AST-based pattern checker for JavaScript",
+  "license": "MIT",
+  "homepage": "https://eslint.org",
+  "versions": {
+    "stable": "8.46.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/eslint/-/eslint-8.46.0.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "57a6999c35f738944da92439c1a72818559a9208d9c16924ace16c5228485b64"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2",
+          "sha256": "3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2",
+          "sha256": "3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2",
+          "sha256": "3d7b3e145c8131fe6e0190d4586305c6378022ecf56c690eb5abacd4da9fb9a2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283",
+          "sha256": "33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283",
+          "sha256": "33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283",
+          "sha256": "33bb49c6782f14c99a330d38edd11a67c3c0c68d7e340764587f144362ae8283"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eslint/blobs/sha256:39a2eb3de7c6562ae4e3527b14c68855eef759586fb2a060bda96ddcad943896",
+          "sha256": "39a2eb3de7c6562ae4e3527b14c68855eef759586fb2a060bda96ddcad943896"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/eslint.rb",
+  "ruby_source_checksum": {
+    "sha256": "fcb0c43a5a6f7925b9ae7300a865cde3cd1cc84da0608ad9a1917312442d187d"
+  },
+  "date_added": "2018-08-27T03:06:10+01:00"
+}

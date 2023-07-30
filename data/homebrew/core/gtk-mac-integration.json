@@ -1,0 +1,143 @@
+{
+  "name": "gtk-mac-integration",
+  "full_name": "gtk-mac-integration",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Integrates GTK macOS applications with the Mac desktop",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://wiki.gnome.org/Projects/GTK+/OSX/Integration",
+  "versions": {
+    "stable": "3.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gtk-mac-integration/3.0/gtk-mac-integration-3.0.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f19e35bc4534963127bbe629b9b3ccb9677ef012fc7f8e97fd5e890873ceb22d"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/gtk-mac-integration.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:9074e95f28068dc78a191df93877127a01cf4670bb9ccdfe9146e54a0ff7c0d9",
+          "sha256": "9074e95f28068dc78a191df93877127a01cf4670bb9ccdfe9146e54a0ff7c0d9"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:26d230d66f0a6900e8590fbfa6a6d77fee9b1d42db18a48b457ede3c9fab8485",
+          "sha256": "26d230d66f0a6900e8590fbfa6a6d77fee9b1d42db18a48b457ede3c9fab8485"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:7151adc39408f9e6b22706c623c2d16f444612e767c6eaba59b0c40f87a0d05d",
+          "sha256": "7151adc39408f9e6b22706c623c2d16f444612e767c6eaba59b0c40f87a0d05d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:3f91d9bc293e808976fee70d4dcaa622a0fdb7b14592679f9b8947c13a741e5b",
+          "sha256": "3f91d9bc293e808976fee70d4dcaa622a0fdb7b14592679f9b8947c13a741e5b"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:802ed17bc9f4420482938c98e2ddcfdcd7b08f77dc56e99d06f1116ac06c974b",
+          "sha256": "802ed17bc9f4420482938c98e2ddcfdcd7b08f77dc56e99d06f1116ac06c974b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk-mac-integration/blobs/sha256:2cf4342b7faedc47562f7b5a1dc6215b9255833e7bb71e23d6bcddd01deac89d",
+          "sha256": "2cf4342b7faedc47562f7b5a1dc6215b9255833e7bb71e23d6bcddd01deac89d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "gtk+3"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gtk-mac-integration.rb",
+  "ruby_source_checksum": {
+    "sha256": "c51abdcdd4897aea4da42965cf6ffb83462fb192749a5ee18a87eac0e58a8df8"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "gtk-doc",
+      "libtool",
+      "gobject-introspection",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "gettext",
+      "gtk+3"
+    ],
+    "test_dependencies": [
+      "pkg-config"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2015-06-17T15:58:58+01:00"
+}

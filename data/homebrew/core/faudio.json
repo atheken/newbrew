@@ -1,0 +1,111 @@
+{
+  "name": "faudio",
+  "full_name": "faudio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Accuracy-focused XAudio reimplementation for open platforms",
+  "license": "Zlib",
+  "homepage": "https://fna-xna.github.io/",
+  "versions": {
+    "stable": "23.07",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/FNA-XNA/FAudio/archive/23.07.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9f197b778a69dc70f7fd2def547e87c3f1c369edc03b1d4085feb2742414f62a"
+    },
+    "head": {
+      "url": "https://github.com/FNA-XNA/FAudio.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:f5f0de08cd4d03e3065b68a0e7b7462361ff7dbb28b17b5f85f9d20174304b92",
+          "sha256": "f5f0de08cd4d03e3065b68a0e7b7462361ff7dbb28b17b5f85f9d20174304b92"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:c994ce50b5e5ec140b6ed7bc0d5cc840965ce4574ce50fe97338435b7de2ecef",
+          "sha256": "c994ce50b5e5ec140b6ed7bc0d5cc840965ce4574ce50fe97338435b7de2ecef"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:a35b3fd7efcff9f0026e016d0abf5ab208ed151274c3a0158ac2d07387469e34",
+          "sha256": "a35b3fd7efcff9f0026e016d0abf5ab208ed151274c3a0158ac2d07387469e34"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:06a59cfd15478fb899e51546e1f763fb08311aca8633e34307c2bfcde43ae440",
+          "sha256": "06a59cfd15478fb899e51546e1f763fb08311aca8633e34307c2bfcde43ae440"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:c05cf7ab0093d12a8587fd636fe3cc249b0466c2882b6923aa72ec4524b18f02",
+          "sha256": "c05cf7ab0093d12a8587fd636fe3cc249b0466c2882b6923aa72ec4524b18f02"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:5548f2974b63f9bed8ffcdfc02d07e406ee303e0918085377eb7276567f59637",
+          "sha256": "5548f2974b63f9bed8ffcdfc02d07e406ee303e0918085377eb7276567f59637"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/faudio/blobs/sha256:db2ca0a2a8b67f51c6758f05353650aa7b1d0ab02a59f1da3b7240bd4d5f3a56",
+          "sha256": "db2ca0a2a8b67f51c6758f05353650aa7b1d0ab02a59f1da3b7240bd4d5f3a56"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/faudio.rb",
+  "ruby_source_checksum": {
+    "sha256": "ed12ddb0148f0b38a40be00f9229a8b532088f4bfa1215fc09c0743b93396067"
+  },
+  "date_added": "2019-04-16T20:03:36+02:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "glow",
+  "full_name": "glow",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Render markdown on the CLI",
+  "license": "MIT",
+  "homepage": "https://github.com/charmbracelet/glow",
+  "versions": {
+    "stable": "1.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/charmbracelet/glow/archive/v1.5.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b4ecf269b7c6447e19591b1d23f398ef2b38a6a75be68458390b42d3efc44b92"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380",
+          "sha256": "3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380",
+          "sha256": "3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380",
+          "sha256": "3c0d7b294dd4a8a12bca0eb53c9dec78c43a98c28436bd949074ba22b6a55380"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe",
+          "sha256": "b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe",
+          "sha256": "b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe",
+          "sha256": "b6552b824d49b18f65dda0a80364c88952e6ec64513ce3fdcff8fb748acccbbe"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glow/blobs/sha256:cc5970c0f0ab674039f840c12fdb5e3764bf90c879831e6038bdb6c55ba12382",
+          "sha256": "cc5970c0f0ab674039f840c12fdb5e3764bf90c879831e6038bdb6c55ba12382"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glow.rb",
+  "ruby_source_checksum": {
+    "sha256": "b473acb7052710f2163f2f35da6c404601baace7758cc7fad6bbb9152270c750"
+  },
+  "date_added": "2020-01-12T15:50:09+00:00"
+}

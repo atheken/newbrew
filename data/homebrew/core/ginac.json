@@ -1,0 +1,94 @@
+{
+  "name": "ginac",
+  "full_name": "ginac",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Not a Computer algebra system",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.ginac.de/",
+  "versions": {
+    "stable": "1.8.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.ginac.de/ginac-1.8.6.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "00b320b1116cae5b7b43364dbffb7912471d171f484d82764605d715858d975b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ginac/blobs/sha256:d629bff3f9a0c95b390b9a3c698b84b4a05351d75e29fe2fe7b18bd5f2f4c1dd",
+          "sha256": "d629bff3f9a0c95b390b9a3c698b84b4a05351d75e29fe2fe7b18bd5f2f4c1dd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ginac/blobs/sha256:da4eec6b40b30508abaf8ae7a23da9a908134d668c7e344284b21ea6f10462a9",
+          "sha256": "da4eec6b40b30508abaf8ae7a23da9a908134d668c7e344284b21ea6f10462a9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ginac/blobs/sha256:6c7f26dbf0499ab985401e36c39fc073ba405de86062ec6c9f0519d664658794",
+          "sha256": "6c7f26dbf0499ab985401e36c39fc073ba405de86062ec6c9f0519d664658794"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ginac/blobs/sha256:c238c6914c2226dbf2fcef735be7369f4962848c228a3f0950b5826b70d1b26d",
+          "sha256": "c238c6914c2226dbf2fcef735be7369f4962848c228a3f0950b5826b70d1b26d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cln",
+    "python@3.11",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ginac.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf74e0e7ffae6000db3a8a25a0a737ed2a2d3b9f97d796b6c28a7257db0090cb"
+  },
+  "date_added": "2010-06-20T21:51:45-07:00"
+}

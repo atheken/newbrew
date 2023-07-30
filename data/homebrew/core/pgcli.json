@@ -1,0 +1,110 @@
+{
+  "name": "pgcli",
+  "full_name": "pgcli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for Postgres with auto-completion and syntax highlighting",
+  "license": "BSD-3-Clause",
+  "homepage": "https://pgcli.com/",
+  "versions": {
+    "stable": "3.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a7/2c/5ec926b4ef08c23126875e29923bb803f2aee56d597aa248d429385d2887/pgcli-3.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cc448d95159fc0903d36182992778a096eda5752d660d47671383c8e2bf633f1"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:efa8d8763830fe16afe3e5f3fd01e7f1f60f697d220bede6191507a28739b7d4",
+          "sha256": "efa8d8763830fe16afe3e5f3fd01e7f1f60f697d220bede6191507a28739b7d4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:bcabf4b5831c3e5eb8123e0d0ee0168a1387bd1074353fdb0747373cb44efd02",
+          "sha256": "bcabf4b5831c3e5eb8123e0d0ee0168a1387bd1074353fdb0747373cb44efd02"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:ad81e4f07888f75edbb97b23914e82a74ef7aaa203da35387b8b2d0159c3646a",
+          "sha256": "ad81e4f07888f75edbb97b23914e82a74ef7aaa203da35387b8b2d0159c3646a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:7e72b87aecaf92fbf7a497f94b54619f56f48050ef55f0c6da0eb3042cf7c767",
+          "sha256": "7e72b87aecaf92fbf7a497f94b54619f56f48050ef55f0c6da0eb3042cf7c767"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:ab785ea23264fa9ad1128a289e9ea21a9df22ce8df0902e8099b77c2f0b89c07",
+          "sha256": "ab785ea23264fa9ad1128a289e9ea21a9df22ce8df0902e8099b77c2f0b89c07"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:acc846e235fe9d9ae8fc95ab101d414781e8260d4472e60b5a0b93f760a37d1a",
+          "sha256": "acc846e235fe9d9ae8fc95ab101d414781e8260d4472e60b5a0b93f760a37d1a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgcli/blobs/sha256:99eb0e89550934291484335f9527a8065b4a7d4fd531f5ad77c72040e28ded16",
+          "sha256": "99eb0e89550934291484335f9527a8065b4a7d4fd531f5ad77c72040e28ded16"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpq",
+    "pygments",
+    "python-tabulate",
+    "python-typing-extensions",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pgcli.rb",
+  "ruby_source_checksum": {
+    "sha256": "78d6177863c66d7629c4ea0c5006fa94ad481223b94108bdd10a4b350a0e0d1a"
+  },
+  "date_added": "2015-01-10T10:36:20-08:00"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "gfold",
+  "full_name": "gfold",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Help keep track of your Git repositories, written in Rust",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/nickgerace/gfold",
+  "versions": {
+    "stable": "4.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/nickgerace/gfold/archive/refs/tags/4.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d1f8c5a578bc20751a8584c73d4df3092364b0616226656d71dbf954edd481c3"
+    },
+    "head": {
+      "url": "https://github.com/nickgerace/gfold.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:387c3b56addb62d66d5b4a90fd4f9c5a810b0410ff4968db25ce6dc918d16dac",
+          "sha256": "387c3b56addb62d66d5b4a90fd4f9c5a810b0410ff4968db25ce6dc918d16dac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:b10b2cc728ebaba127538a8c6c32cf6735cd1c464305c8bfb68bc12554188683",
+          "sha256": "b10b2cc728ebaba127538a8c6c32cf6735cd1c464305c8bfb68bc12554188683"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:f458032d5fbfc31ade19cc9a5c633268ba5bdbb1376d11ccd816d8b99685da96",
+          "sha256": "f458032d5fbfc31ade19cc9a5c633268ba5bdbb1376d11ccd816d8b99685da96"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:808d959ef6219ac17f0005f8264fb1c0ec49401d63a74cefe200772937549fde",
+          "sha256": "808d959ef6219ac17f0005f8264fb1c0ec49401d63a74cefe200772937549fde"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:f0dfc994e3c2148775dcf20e02b93a0d23cb9e636e726fb56241d536f388e8e6",
+          "sha256": "f0dfc994e3c2148775dcf20e02b93a0d23cb9e636e726fb56241d536f388e8e6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:68d48c0c4cd08ecd3c0fc79614664e682234d5dea6a7920e1fe8f116b0d9c823",
+          "sha256": "68d48c0c4cd08ecd3c0fc79614664e682234d5dea6a7920e1fe8f116b0d9c823"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gfold/blobs/sha256:f12c02b19246e2a783c112ec1f95da175df5c226f31c874a3a3bdf4321fac984",
+          "sha256": "f12c02b19246e2a783c112ec1f95da175df5c226f31c874a3a3bdf4321fac984"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libgit2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "coreutils"
+  ],
+  "conflicts_with_reasons": [
+    "both install `gfold` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gfold.rb",
+  "ruby_source_checksum": {
+    "sha256": "64a98b0d81a3aefb5a19919e4ecc477d0dc859f8213213cfa741cb1da3f53708"
+  },
+  "date_added": "2023-03-13T12:05:54+00:00"
+}

@@ -1,0 +1,129 @@
+{
+  "name": "gitlab-runner",
+  "full_name": "gitlab-runner",
+  "tap": "homebrew/core",
+  "oldname": "gitlab-ci-multi-runner",
+  "oldnames": [
+    "gitlab-ci-multi-runner"
+  ],
+  "aliases": [
+    "gitlab-ci-multi-runner"
+  ],
+  "versioned_formulae": [],
+  "desc": "Official GitLab CI runner",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/gitlab-org/gitlab-runner",
+  "versions": {
+    "stable": "16.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.com/gitlab-org/gitlab-runner.git",
+      "tag": "v16.2.0",
+      "revision": "782e15dae28e70213e21b29f2fed257d2cf2998c",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://gitlab.com/gitlab-org/gitlab-runner.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3",
+          "sha256": "34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3",
+          "sha256": "34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3",
+          "sha256": "34e1515ad94bda914bdf3b0fe90a2d4964622b18f178ecf00790a8ae747c5ed3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd",
+          "sha256": "ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd",
+          "sha256": "ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd",
+          "sha256": "ceea9fda1cb03b985373665978b5d912c6b9cc89a3fa326d9827991deaccc4fd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gitlab-runner/blobs/sha256:dd4d6ab29ce9e7da4dab2d39e1d3c14d16feab5d04a6cd96d5ff4f1cf0e56bd0",
+          "sha256": "dd4d6ab29ce9e7da4dab2d39e1d3c14d16feab5d04a6cd96d5ff4f1cf0e56bd0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/gitlab-runner/bin/gitlab-runner",
+      "run",
+      "--syslog"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "working_dir": "/home/linuxbrew",
+    "process_type": "interactive",
+    "macos_legacy_timers": true
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gitlab-runner.rb",
+  "ruby_source_checksum": {
+    "sha256": "0a2b2ce3d76237145f83e51fa8da4900290ecbbc27c6ac4d4ef9b19af4959070"
+  },
+  "date_added": "2017-09-27T21:40:14+02:00"
+}

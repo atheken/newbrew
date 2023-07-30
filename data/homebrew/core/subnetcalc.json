@@ -1,0 +1,111 @@
+{
+  "name": "subnetcalc",
+  "full_name": "subnetcalc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "IPv4/IPv6 subnet calculator",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.nntb.no/~dreibh/subnetcalc/index.html",
+  "versions": {
+    "stable": "2.4.22",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dreibh/subnetcalc/archive/refs/tags/subnetcalc-2.4.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4df8ddb2738400ccdd0e00a45a4ce53b73ec0592b9faa8144289d7fc08443dda"
+    },
+    "head": {
+      "url": "https://github.com/dreibh/subnetcalc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:87c388a7eebfa381d87e22863be09d64b357b97497855937e57532c21668e8a9",
+          "sha256": "87c388a7eebfa381d87e22863be09d64b357b97497855937e57532c21668e8a9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:9bc5908e9fe695282c253f15d96369dad2ce1d86f0387da08f74880303b97d22",
+          "sha256": "9bc5908e9fe695282c253f15d96369dad2ce1d86f0387da08f74880303b97d22"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:03f972c333e11ecafdc315bef51d5c498d12cfe352fcbbc8a4bf19e2f68519e6",
+          "sha256": "03f972c333e11ecafdc315bef51d5c498d12cfe352fcbbc8a4bf19e2f68519e6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:819f6ab634df1028bd2f87400f0eb3cfcc872e047f523bdd1ed0daf3314206ff",
+          "sha256": "819f6ab634df1028bd2f87400f0eb3cfcc872e047f523bdd1ed0daf3314206ff"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:0f6c121d11f93b56cfffa4b075e1287b8b5bf4ef274de7ab136352574bb41f6a",
+          "sha256": "0f6c121d11f93b56cfffa4b075e1287b8b5bf4ef274de7ab136352574bb41f6a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:4af7b5d66e3db965c25eca7e1bd61441d09bd54dd3e1e2e4971f8ca4ce0030f3",
+          "sha256": "4af7b5d66e3db965c25eca7e1bd61441d09bd54dd3e1e2e4971f8ca4ce0030f3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subnetcalc/blobs/sha256:2ccec5ac199179cf0787b9cfe48082ebbb26dc2f0f60630d5c127af8c1b30ca7",
+          "sha256": "2ccec5ac199179cf0787b9cfe48082ebbb26dc2f0f60630d5c127af8c1b30ca7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "geoip"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/subnetcalc.rb",
+  "ruby_source_checksum": {
+    "sha256": "dcb293662fb1d4d56da792d2d440722e8d22540d81effb0e0455ff2590a8a1f8"
+  },
+  "date_added": "2014-01-31T18:46:39+01:00"
+}

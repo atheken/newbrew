@@ -1,0 +1,107 @@
+{
+  "name": "tiff2png",
+  "full_name": "tiff2png",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "TIFF to PNG converter",
+  "license": "ISC",
+  "homepage": "http://www.libpng.org/pub/png/apps/tiff2png.html",
+  "versions": {
+    "stable": "0.92",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rillian/tiff2png/archive/v0.92.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "64e746560b775c3bd90f53f1b9e482f793d80ea6e7f5d90ce92645fd1cd27e4a"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:cb4f278f194339e85a3e75b701c29e471b718760ad14bb10580bb546a3314e89",
+          "sha256": "cb4f278f194339e85a3e75b701c29e471b718760ad14bb10580bb546a3314e89"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:0ae6b6e42ee87ba89102282f21f1b7e4bbe98ded275f363a91e47ec9f0ec3cb2",
+          "sha256": "0ae6b6e42ee87ba89102282f21f1b7e4bbe98ded275f363a91e47ec9f0ec3cb2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:3df140d14c8a0c8247e1157ddb05ff9e5249b7115e26871c0eb498b43eccc180",
+          "sha256": "3df140d14c8a0c8247e1157ddb05ff9e5249b7115e26871c0eb498b43eccc180"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:77ab7ae23d1ee2add50645d344474f641c21abd8da1df66eb84b0e312a41cca6",
+          "sha256": "77ab7ae23d1ee2add50645d344474f641c21abd8da1df66eb84b0e312a41cca6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:80039b863040ebc5f7868d5331c358ee3ef0f210520eeb45a11cb746a406ebd0",
+          "sha256": "80039b863040ebc5f7868d5331c358ee3ef0f210520eeb45a11cb746a406ebd0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:bd5b088f08568c294627c010ca998e811a6ff11251299fec4df84caa35db8c74",
+          "sha256": "bd5b088f08568c294627c010ca998e811a6ff11251299fec4df84caa35db8c74"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tiff2png/blobs/sha256:a3c16e66fef90676d5b183e53657435b8f97e2f80832391edddae38ee523c02a",
+          "sha256": "a3c16e66fef90676d5b183e53657435b8f97e2f80832391edddae38ee523c02a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "jpeg-turbo",
+    "libpng",
+    "libtiff"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tiff2png.rb",
+  "ruby_source_checksum": {
+    "sha256": "861ae4c0cff06bebb354ebcbb6c2919e8ce8329523d4030482aea065a505ddd1"
+  },
+  "date_added": "2011-03-29T09:43:25-07:00"
+}

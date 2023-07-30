@@ -1,0 +1,114 @@
+{
+  "name": "osmium-tool",
+  "full_name": "osmium-tool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Libosmium-based command-line tool for processing OpenStreetMap data",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://osmcode.org/osmium-tool/",
+  "versions": {
+    "stable": "1.15.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/osmcode/osmium-tool/archive/v1.15.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b3be2f07d60dfb93f65d6a9f1af1fc9cf6ef68e5a460997d841c93079c3377b"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:f782b2826a0f45e4e5ec8f1caadde19de246c7ac93c0bed055f501461d7f07e9",
+          "sha256": "f782b2826a0f45e4e5ec8f1caadde19de246c7ac93c0bed055f501461d7f07e9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:932f82cfc739211c09b1fbfdbbf33bb3f4af7ee353dc25912fb9c495da3651f8",
+          "sha256": "932f82cfc739211c09b1fbfdbbf33bb3f4af7ee353dc25912fb9c495da3651f8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:9f30edea5da6046ed3e55f87b2bf83ab9e7590a88d0d77768b643b639611327d",
+          "sha256": "9f30edea5da6046ed3e55f87b2bf83ab9e7590a88d0d77768b643b639611327d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:8dfb0c03cf98a7d641dad804457c6592cd2bd604062c24d0e5f659672232bcb2",
+          "sha256": "8dfb0c03cf98a7d641dad804457c6592cd2bd604062c24d0e5f659672232bcb2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:39cad6166336a30d45105a7082495861df9239db625f2ecafa7b1c8ca1c4ef34",
+          "sha256": "39cad6166336a30d45105a7082495861df9239db625f2ecafa7b1c8ca1c4ef34"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:88947b3e84566348f662dc3676a624e0e4a8153e3157d9b3990960e3f23d6d3b",
+          "sha256": "88947b3e84566348f662dc3676a624e0e4a8153e3157d9b3990960e3f23d6d3b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osmium-tool/blobs/sha256:fd9d7ee47c1fc8f70bf6e611d83ff3e3db6762e18abdc92c1dcde5cad6d26884",
+          "sha256": "fd9d7ee47c1fc8f70bf6e611d83ff3e3db6762e18abdc92c1dcde5cad6d26884"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "libosmium",
+    "pandoc"
+  ],
+  "dependencies": [
+    "boost",
+    "lz4"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/osmium-tool.rb",
+  "ruby_source_checksum": {
+    "sha256": "808afb3dd51ff2e9695b2ff705ed5c2ddd64773163860e8a5d066d7d8449bd59"
+  },
+  "date_added": "2017-04-16T07:06:43-07:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "fabric-installer",
+  "full_name": "fabric-installer",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Installer for Fabric for the vanilla launcher",
+  "license": "Apache-2.0",
+  "homepage": "https://fabricmc.net/",
+  "versions": {
+    "stable": "0.11.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "c6ad5bef1bb12b5a7227be3ee540c2c906afdf4ac8114b78e0aca0b146005c27"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be",
+          "sha256": "4126ef7546f0feaadfbd1238b808319f76e70791b8ddc2341a673cb6cb0598be"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric-installer/blobs/sha256:99531a98bd6324b373148e0e35a1d4f995ebfd49af888a779fd005b18f652d75",
+          "sha256": "99531a98bd6324b373148e0e35a1d4f995ebfd49af888a779fd005b18f652d75"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fabric-installer.rb",
+  "ruby_source_checksum": {
+    "sha256": "5e4f2c95d67df2f7ea08884ca558c559df43f1361ada1f0eaaa223427c6107a3"
+  },
+  "date_added": "2021-04-26T06:22:12+00:00"
+}

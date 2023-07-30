@@ -1,0 +1,105 @@
+{
+  "name": "phpmyadmin",
+  "full_name": "phpmyadmin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web interface for MySQL and MariaDB",
+  "license": null,
+  "homepage": "https://www.phpmyadmin.net",
+  "versions": {
+    "stable": "5.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "61c763f209817d1b5d96a4c0eab65b4e36bce744f78e73bef3bebd1c07481c46"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:3bd02506f7741f5c566ce1208327f2a2cf02e2295d4cb5cadb6f9f2c4fafb8ec",
+          "sha256": "3bd02506f7741f5c566ce1208327f2a2cf02e2295d4cb5cadb6f9f2c4fafb8ec"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:2545dca90ee52f478275ff1a0da76cf27fcaf20fa7071f5cfe00f2c7fcdf1f7a",
+          "sha256": "2545dca90ee52f478275ff1a0da76cf27fcaf20fa7071f5cfe00f2c7fcdf1f7a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:83753db830be44e9d0b476e3fbb02ccabf9673364da6c9af9a15909d790acaf5",
+          "sha256": "83753db830be44e9d0b476e3fbb02ccabf9673364da6c9af9a15909d790acaf5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:15496fab9c4d8744f5d69869e0862a9c3ea957ebb1c3e62c6f02b7a8ba810169",
+          "sha256": "15496fab9c4d8744f5d69869e0862a9c3ea957ebb1c3e62c6f02b7a8ba810169"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:d0e69d5885b6c7a0e34214d6f3f5ef1aa982c913a239ff3e71c1b4ac6732e701",
+          "sha256": "d0e69d5885b6c7a0e34214d6f3f5ef1aa982c913a239ff3e71c1b4ac6732e701"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:77e2cb701aaf85ea94c8e1c9b9345fb6bd6ef6f6ec51a956eed2e3d81895cd21",
+          "sha256": "77e2cb701aaf85ea94c8e1c9b9345fb6bd6ef6f6ec51a956eed2e3d81895cd21"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phpmyadmin/blobs/sha256:3db06f5c804f3bdc48368d1d1b6460d093163fed7cd881fcdae06d14ee3c53d6",
+          "sha256": "3db06f5c804f3bdc48368d1d1b6460d093163fed7cd881fcdae06d14ee3c53d6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [
+    "php"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To enable phpMyAdmin in Apache, add the following to httpd.conf and\nrestart Apache:\n    Alias /phpmyadmin $HOMEBREW_PREFIX/share/phpmyadmin\n    <Directory $HOMEBREW_PREFIX/share/phpmyadmin/>\n        Options Indexes FollowSymLinks MultiViews\n        AllowOverride All\n        <IfModule mod_authz_core.c>\n            Require all granted\n        </IfModule>\n        <IfModule !mod_authz_core.c>\n            Order allow,deny\n            Allow from all\n        </IfModule>\n    </Directory>\nThen open http://localhost/phpmyadmin\nThe configuration file is $HOMEBREW_PREFIX/etc/phpmyadmin.config.inc.php\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/phpmyadmin.rb",
+  "ruby_source_checksum": {
+    "sha256": "094723093139a219eef2ee475cdbaad87ec5d63dbb8a767a5c0a7479d053eac0"
+  },
+  "date_added": "2011-12-21T14:51:25-08:00"
+}

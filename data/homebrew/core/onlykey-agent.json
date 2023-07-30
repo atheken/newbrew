@@ -1,0 +1,117 @@
+{
+  "name": "onlykey-agent",
+  "full_name": "onlykey-agent",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Middleware that lets you use OnlyKey as a hardware SSH/GPG device",
+  "license": "LGPL-3.0-only",
+  "homepage": "https://docs.crp.to/onlykey-agent.html",
+  "versions": {
+    "stable": "1.1.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/68/80/e89b6c3680bedb1e14e99f0539ac805bddc7d8dd87c58805c64484966b7c/onlykey-agent-1.1.15.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "49b19bec28dc0fb7053ef01266d8a9e7a078bb146214a641bdbb1feac6fc7ddb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:40cefa92f0d5c4731e68f3644ed709866812c183f918a38fca4942d4c94ad9b2",
+          "sha256": "40cefa92f0d5c4731e68f3644ed709866812c183f918a38fca4942d4c94ad9b2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:01b73aa8e25376582594d4608f3df654a205c6a031e23f473983c50a0bf2ac91",
+          "sha256": "01b73aa8e25376582594d4608f3df654a205c6a031e23f473983c50a0bf2ac91"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:d24c00449096e9bcbd0697886351764cef17ebad83434c105b30275030ddb36d",
+          "sha256": "d24c00449096e9bcbd0697886351764cef17ebad83434c105b30275030ddb36d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:a63443d6312052864fedd6442f0fe3d635cc717ac240e2b8ee9ceec9287eb46b",
+          "sha256": "a63443d6312052864fedd6442f0fe3d635cc717ac240e2b8ee9ceec9287eb46b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:e33a66c8ddb49421e02750bd37aed93d4432b04d0207032fc0ec5ca3161d3059",
+          "sha256": "e33a66c8ddb49421e02750bd37aed93d4432b04d0207032fc0ec5ca3161d3059"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:cad154b6b2d1f8535d61ad9f86e4e90e14a618b47ef031f7777a3f73851c9299",
+          "sha256": "cad154b6b2d1f8535d61ad9f86e4e90e14a618b47ef031f7777a3f73851c9299"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onlykey-agent/blobs/sha256:4fa6463dc8d9ea868c623543a0b6d545bdc4ed2eb1d2621ed481ec1313a5175d",
+          "sha256": "4fa6463dc8d9ea868c623543a0b6d545bdc4ed2eb1d2621ed481ec1313a5175d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "docutils",
+    "gnupg",
+    "hidapi",
+    "libcython",
+    "libusb",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/onlykey-agent.rb",
+  "ruby_source_checksum": {
+    "sha256": "fdb65202e7c4d6be668c2c7bab3864336ef55da035c1600066f9e57555071824"
+  },
+  "date_added": "2022-08-01T16:57:32+00:00"
+}

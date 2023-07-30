@@ -1,0 +1,103 @@
+{
+  "name": "libxmp-lite",
+  "full_name": "libxmp-lite",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lite libxmp",
+  "license": "MIT",
+  "homepage": "https://xmp.sourceforge.io",
+  "versions": {
+    "stable": "4.6.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/xmp/libxmp/4.6.0/libxmp-lite-4.6.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "71a93eb0119824bcc56eca95db154d1cdf30304b33d89a4732de6fef8a2c6f38"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:9500723abc3c75d1b85b4673344bf7ef874a6374883042fc8ec9cfe5f8064412",
+          "sha256": "9500723abc3c75d1b85b4673344bf7ef874a6374883042fc8ec9cfe5f8064412"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:fcfcc41e351cc97fc54a8c47fc958ac4c140fcfca85efbe4dc59d6c4768dc4e0",
+          "sha256": "fcfcc41e351cc97fc54a8c47fc958ac4c140fcfca85efbe4dc59d6c4768dc4e0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:6569f2687511dbc55c47854deda2bacac26e6e27b431da225b508814c720500e",
+          "sha256": "6569f2687511dbc55c47854deda2bacac26e6e27b431da225b508814c720500e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:7f9ac879b3cd5e9b67cac75a79c5f25b53165986444edcefaf8149f1c0f00c33",
+          "sha256": "7f9ac879b3cd5e9b67cac75a79c5f25b53165986444edcefaf8149f1c0f00c33"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:165bc02b01f381bd122b421490245ade0b277d4e0051dc4498b8354edb811488",
+          "sha256": "165bc02b01f381bd122b421490245ade0b277d4e0051dc4498b8354edb811488"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:56c37651e4a234b8796895786eccc4aacc03eb22c8aa3d30e16598856c4462a6",
+          "sha256": "56c37651e4a234b8796895786eccc4aacc03eb22c8aa3d30e16598856c4462a6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libxmp-lite/blobs/sha256:1cf6c9f842c6d2c80e98c6731e0707ea6f9c8ac9b89dc8c3b5a1d396d81ce46c",
+          "sha256": "1cf6c9f842c6d2c80e98c6731e0707ea6f9c8ac9b89dc8c3b5a1d396d81ce46c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libxmp-lite.rb",
+  "ruby_source_checksum": {
+    "sha256": "cca10ec5b3ed868db676f13d9f424fcc4d24c9a0d8d6b0b4974044cec721de54"
+  },
+  "date_added": "2015-03-08T16:23:30-04:00"
+}

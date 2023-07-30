@@ -1,0 +1,105 @@
+{
+  "name": "thanos",
+  "full_name": "thanos",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Highly available Prometheus setup with long term storage capabilities",
+  "license": "Apache-2.0",
+  "homepage": "https://thanos.io",
+  "versions": {
+    "stable": "0.31.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/thanos-io/thanos/archive/v0.31.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7d59f3a1a57f76ae675b59d57a1f4048e974f5cc02d3492460a21f5c7737bdcb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:7c130323995f309008f98181798fa86a6acd4d7b85eb8d583c62b7ae4453fa22",
+          "sha256": "7c130323995f309008f98181798fa86a6acd4d7b85eb8d583c62b7ae4453fa22"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:4e4c7354961ff645bac66e6daf3b013c6291bc33504302935e671abb8675a846",
+          "sha256": "4e4c7354961ff645bac66e6daf3b013c6291bc33504302935e671abb8675a846"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:f0b52384186c70cf891befd01688238a42ea2bd522cbb2dcc713d74e4adc6dad",
+          "sha256": "f0b52384186c70cf891befd01688238a42ea2bd522cbb2dcc713d74e4adc6dad"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:b7469949b0d187c5e4c5f6e5853047505f5ac52a63acd65f5515772c35bfb7a9",
+          "sha256": "b7469949b0d187c5e4c5f6e5853047505f5ac52a63acd65f5515772c35bfb7a9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:377eb6732a743f7ea66895d7a5da27aa4ddd725f444b829ae7ab259403a3a4b9",
+          "sha256": "377eb6732a743f7ea66895d7a5da27aa4ddd725f444b829ae7ab259403a3a4b9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:18623ad1fd1296db0c51f7d3005c76ace156128e2d1166f2cf9c84f26079fcdb",
+          "sha256": "18623ad1fd1296db0c51f7d3005c76ace156128e2d1166f2cf9c84f26079fcdb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/thanos/blobs/sha256:d2abc9c8e872fffa219e8808fd730e0034077b15d8717b448ac347afbb65f4b7",
+          "sha256": "d2abc9c8e872fffa219e8808fd730e0034077b15d8717b448ac347afbb65f4b7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/thanos.rb",
+  "ruby_source_checksum": {
+    "sha256": "30a316a0cb6f6e2c467af635dc84257de1290f9ae7d08c91f9c4576450763167"
+  },
+  "date_added": "2020-07-22T07:54:27+00:00"
+}

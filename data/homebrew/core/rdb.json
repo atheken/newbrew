@@ -1,0 +1,105 @@
+{
+  "name": "rdb",
+  "full_name": "rdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Redis RDB parser",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/HDT3213/rdb/",
+  "versions": {
+    "stable": "1.0.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/HDT3213/rdb/archive/refs/tags/v1.0.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a9916307b08300bd4e023b36e08f8cada0b8c003358278e0591cf298b4016de0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d",
+          "sha256": "08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d",
+          "sha256": "08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d",
+          "sha256": "08eaf505ffcc631127319f3a5825a072df8718103c79e77b10b322d1a03f900d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33",
+          "sha256": "2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33",
+          "sha256": "2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33",
+          "sha256": "2f48e34e14b8a81cb6c505ec895e1d81917b51be9b2bf32f3617f5e099b49b33"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdb/blobs/sha256:fba5cdbb9b7fc5978712875b89dd263695870c62a30a87b1a5be6d25f36d7c01",
+          "sha256": "fba5cdbb9b7fc5978712875b89dd263695870c62a30a87b1a5be6d25f36d7c01"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "94a2fb86b73c38c351fa66604f843e59097744311c13b483459e8ededb6b331c"
+  },
+  "date_added": "2022-08-19T04:44:13+00:00"
+}

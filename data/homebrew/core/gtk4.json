@@ -1,0 +1,138 @@
+{
+  "name": "gtk4",
+  "full_name": "gtk4",
+  "tap": "homebrew/core",
+  "oldname": "gtk+4",
+  "oldnames": [
+    "gtk+4"
+  ],
+  "aliases": [
+    "gtk+4"
+  ],
+  "versioned_formulae": [],
+  "desc": "Toolkit for creating graphical user interfaces",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gtk.org/",
+  "versions": {
+    "stable": "4.10.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gtk/4.10/gtk-4.10.4.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7725400482e0685e28265e226c62847f4e73cfca9e9b416ac5838207f5377a24"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:010c867405a7fc912dcafc28761380ca60ff106af4a2ac8a0aba62351d7483d1",
+          "sha256": "010c867405a7fc912dcafc28761380ca60ff106af4a2ac8a0aba62351d7483d1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:e3d5703352be1157cef9a24c5bf2726bf5181f898386d4609441d793aff58213",
+          "sha256": "e3d5703352be1157cef9a24c5bf2726bf5181f898386d4609441d793aff58213"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:a826618fa3e47dbea367d6513fd6519ae5230ad3bfad402d693c9791aaa6d3da",
+          "sha256": "a826618fa3e47dbea367d6513fd6519ae5230ad3bfad402d693c9791aaa6d3da"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:0dc18cd3f43cdb39a5ccfbd3882dcd15088bf9554f7b96eeddd20d398a4fa183",
+          "sha256": "0dc18cd3f43cdb39a5ccfbd3882dcd15088bf9554f7b96eeddd20d398a4fa183"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:b6ebfe48ceed27709f780b9afad494e5009732a303ca720b9ee552f39a9b1c9c",
+          "sha256": "b6ebfe48ceed27709f780b9afad494e5009732a303ca720b9ee552f39a9b1c9c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:5552bf81bac8120d58168c304762aa350a5957f105e3ec58127b4c6c4d8581b9",
+          "sha256": "5552bf81bac8120d58168c304762aa350a5957f105e3ec58127b4c6c4d8581b9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gtk4/blobs/sha256:d742ca41776469e7604a7dd98f3a968e23d802dc78e6e19bb7cad2aa37d42aa5",
+          "sha256": "d742ca41776469e7604a7dd98f3a968e23d802dc78e6e19bb7cad2aa37d42aa5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "docbook",
+    "docbook-xsl",
+    "docutils",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "sassc"
+  ],
+  "dependencies": [
+    "gdk-pixbuf",
+    "glib",
+    "graphene",
+    "hicolor-icon-theme",
+    "jpeg-turbo",
+    "libepoxy",
+    "libpng",
+    "libtiff",
+    "pango",
+    "libxcursor",
+    "libxkbcommon"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxslt": "build"
+    },
+    "cups"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gtk4.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4acfe2888f13d8f19167332c890292bee3cdadfedd515f42877c80232d3d033"
+  },
+  "date_added": "2021-01-05T14:52:46+00:00"
+}

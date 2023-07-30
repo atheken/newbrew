@@ -1,0 +1,119 @@
+{
+  "name": "go",
+  "full_name": "go",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "go@1.20",
+    "golang",
+    "google-go"
+  ],
+  "versioned_formulae": [
+    "go@1.19",
+    "go@1.18",
+    "go@1.17",
+    "go@1.16",
+    "go@1.15",
+    "go@1.14",
+    "go@1.13"
+  ],
+  "desc": "Open source programming language to build simple/reliable/efficient software",
+  "license": "BSD-3-Clause",
+  "homepage": "https://go.dev/",
+  "versions": {
+    "stable": "1.20.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://go.dev/dl/go1.20.6.src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "62ee5bc6fb55b8bae8f705e0cb8df86d6453626b4ecf93279e2867092e0b7f70"
+    },
+    "head": {
+      "url": "https://go.googlesource.com/go.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5",
+          "sha256": "2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5",
+          "sha256": "2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5",
+          "sha256": "2bcdf995616b5dce70e7af6ea081de4bcb9c128ee352136ed585ccd6f19201e5"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58",
+          "sha256": "e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58",
+          "sha256": "e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58",
+          "sha256": "e44dd3605ca4087298f51a9cddf523fec2a26b1162a4b952f920f67f837c7b58"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/go/blobs/sha256:a9e4746fc71baa030978a3afb19b5003f30d22a431a6271c57af2d6857839835",
+          "sha256": "a9e4746fc71baa030978a3afb19b5003f30d22a431a6271c57af2d6857839835"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/go.rb",
+  "ruby_source_checksum": {
+    "sha256": "f47e445848201ab98d32594e6897cee7f9a2f86b9959a7964e946db0442a1055"
+  },
+  "date_added": "2009-11-11T23:05:04+00:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "monitoring-plugins",
+  "full_name": "monitoring-plugins",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Plugins for nagios compatible monitoring systems",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.monitoring-plugins.org",
+  "versions": {
+    "stable": "2.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.monitoring-plugins.org/download/monitoring-plugins-2.3.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7023b1dc17626c5115b061e7ce02e06f006e35af92abf473334dffe7ff3c2d6d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:6a930ca2aaedd2cf73365bc71fdc93273ba78cb893c117149500f9fe20f79f43",
+          "sha256": "6a930ca2aaedd2cf73365bc71fdc93273ba78cb893c117149500f9fe20f79f43"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:0b0be4236072aa4ffb4a7bcd0ff09f79546790c57b5dc9c9232173cb676e1e93",
+          "sha256": "0b0be4236072aa4ffb4a7bcd0ff09f79546790c57b5dc9c9232173cb676e1e93"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:0baf0ab2e51519be149ee07a87927874729f38e4751be819d831466e144a8379",
+          "sha256": "0baf0ab2e51519be149ee07a87927874729f38e4751be819d831466e144a8379"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:91b1eb7fd56d87474127afad01204c18a206bfe7cdd0e090ba0000f47de1a428",
+          "sha256": "91b1eb7fd56d87474127afad01204c18a206bfe7cdd0e090ba0000f47de1a428"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:f7c115e18c7e2d811caab8fa412fb45c55144aec6779f75576c837e7cfd47b98",
+          "sha256": "f7c115e18c7e2d811caab8fa412fb45c55144aec6779f75576c837e7cfd47b98"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:470589d619ac73271cc89fc071640bf6d4448a34234f39bb0805a857623a15bf",
+          "sha256": "470589d619ac73271cc89fc071640bf6d4448a34234f39bb0805a857623a15bf"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/monitoring-plugins/blobs/sha256:a1a591f41c0bea670ae1592f05572b6e08c030e2e0cabfba9151dd5ba757f299",
+          "sha256": "a1a591f41c0bea670ae1592f05572b6e08c030e2e0cabfba9151dd5ba757f299"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3",
+    "bind"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "nagios-plugins"
+  ],
+  "conflicts_with_reasons": [
+    "both install their plugins to the same folder"
+  ],
+  "link_overwrite": [],
+  "caveats": "All plugins have been installed in:\n  $HOMEBREW_PREFIX/sbin\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/monitoring-plugins.rb",
+  "ruby_source_checksum": {
+    "sha256": "f3d9c407fe75868e1e875e076723defcd0ba4a2981056772cbecbad3fc997745"
+  },
+  "date_added": "2017-02-28T00:47:45+01:00"
+}

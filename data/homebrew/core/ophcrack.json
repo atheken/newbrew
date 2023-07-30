@@ -1,0 +1,114 @@
+{
+  "name": "ophcrack",
+  "full_name": "ophcrack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Microsoft Windows password cracker using rainbow tables",
+  "license": "GPL-2.0-or-later with openvpn-openssl-exception",
+  "homepage": "https://ophcrack.sourceforge.io/",
+  "versions": {
+    "stable": "3.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/ophcrack/ophcrack/3.8.0/ophcrack-3.8.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "048a6df57983a3a5a31ac7c4ec12df16aa49e652a29676d93d4ef959d50aeee0"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:2944016f7c83334b70e9be541ddb4dc1da3fd8153234897cfe133ae29e336afc",
+          "sha256": "2944016f7c83334b70e9be541ddb4dc1da3fd8153234897cfe133ae29e336afc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:37ecbad244ecc446c4bbdffe9d0826c76ef775e40e690b4f41dbc6c6630fdfde",
+          "sha256": "37ecbad244ecc446c4bbdffe9d0826c76ef775e40e690b4f41dbc6c6630fdfde"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:d8c3ea08b451c0c0d27ca20e531f902fdf9b4fde1eb1fb76759dc5a7e931faab",
+          "sha256": "d8c3ea08b451c0c0d27ca20e531f902fdf9b4fde1eb1fb76759dc5a7e931faab"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:fe4a6f346518d3efcfeefba25b473deb83ff1ca2701110551eed83c8c53e0e9a",
+          "sha256": "fe4a6f346518d3efcfeefba25b473deb83ff1ca2701110551eed83c8c53e0e9a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:c96ec9cc73e454864271c1a8decfa64b7a5b81a2a7a26a54713167d12fd7e770",
+          "sha256": "c96ec9cc73e454864271c1a8decfa64b7a5b81a2a7a26a54713167d12fd7e770"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:5a15aea7e8140b19119e29c2d4b8766a1f61bdef196458e684a95bcaaa81ad7d",
+          "sha256": "5a15aea7e8140b19119e29c2d4b8766a1f61bdef196458e684a95bcaaa81ad7d"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:0b0e6f27354207ce5939fd31581c7913c64824752ba6e217c097dcc17041221c",
+          "sha256": "0b0e6f27354207ce5939fd31581c7913c64824752ba6e217c097dcc17041221c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ophcrack/blobs/sha256:18e7c06d3f04cebc060e100f2b1a8c5825736fbd13047e6f1732a7e2d006235e",
+          "sha256": "18e7c06d3f04cebc060e100f2b1a8c5825736fbd13047e6f1732a7e2d006235e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ophcrack.rb",
+  "ruby_source_checksum": {
+    "sha256": "c951beb564e4dd628e1892e16f6b599970b67c2753c4a7063eb8dc51dace64d1"
+  },
+  "date_added": "2012-07-09T11:23:43-07:00"
+}

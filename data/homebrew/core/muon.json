@@ -1,0 +1,110 @@
+{
+  "name": "muon",
+  "full_name": "muon",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Meson-compatible build system",
+  "license": "GPL-3.0-only",
+  "homepage": "https://muon.build",
+  "versions": {
+    "stable": "0.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.sr.ht/~lattis/muon/archive/0.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d73db1be5388821179a25a15ba76fd59a8bf7c8709347a4ec2cb91755203f36c"
+    },
+    "head": {
+      "url": "https://git.sr.ht/~lattis/muon",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:18b3d76e8b2ebb078b87ce9c442168e9543df14e014442dc239554b83d633c91",
+          "sha256": "18b3d76e8b2ebb078b87ce9c442168e9543df14e014442dc239554b83d633c91"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:6327c8aa41fbbd6ba927a03d093f2f09f66e8a26b69e369add305e4179d5e3ff",
+          "sha256": "6327c8aa41fbbd6ba927a03d093f2f09f66e8a26b69e369add305e4179d5e3ff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:9506eb66834d26363c3de7b52dc930c8c80d821ec54aa2a76ea9c850d9eb7fae",
+          "sha256": "9506eb66834d26363c3de7b52dc930c8c80d821ec54aa2a76ea9c850d9eb7fae"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:fb33b7d82f66af0010f5a47db3a90a9f7bc5bd195dc8a11b80f01ad22ce76909",
+          "sha256": "fb33b7d82f66af0010f5a47db3a90a9f7bc5bd195dc8a11b80f01ad22ce76909"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:e3f056c2235a9bd35602454cc0a696b342a6324b18a90195ad5c2390de5134c7",
+          "sha256": "e3f056c2235a9bd35602454cc0a696b342a6324b18a90195ad5c2390de5134c7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:f0ace57d38a0d5156f80359e08e688facfafd5ba487146013480a58bfb32385f",
+          "sha256": "f0ace57d38a0d5156f80359e08e688facfafd5ba487146013480a58bfb32385f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/muon/blobs/sha256:1ccf7ccaf0a8b108319e15a8e0a172db4d7561009f3519f205ac34e4151da50e",
+          "sha256": "1ccf7ccaf0a8b108319e15a8e0a172db4d7561009f3519f205ac34e4151da50e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ninja",
+    "pkg-config"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/muon.rb",
+  "ruby_source_checksum": {
+    "sha256": "87e1bdecc65ba2eb147189cb2bcb3b8ef9827b0d7d218f7f42ffa9c8ab11d719"
+  },
+  "date_added": "2022-10-30T17:49:25+00:00"
+}

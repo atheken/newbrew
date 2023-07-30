@@ -1,0 +1,114 @@
+{
+  "name": "gspell",
+  "full_name": "gspell",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flexible API to implement spellchecking in GTK+ applications",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/gspell",
+  "versions": {
+    "stable": "1.12.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gspell/1.12/gspell-1.12.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b4e993bd827e4ceb6a770b1b5e8950fce3be9c8b2b0cbeb22fdf992808dd2139"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:7bfb5fdecb36da507e6234090327933860b173f9c08a9e7682badae3bbc22717",
+          "sha256": "7bfb5fdecb36da507e6234090327933860b173f9c08a9e7682badae3bbc22717"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:e1ce8928f95abc14f8a2a61d91d649606dd89e01996158ace98e12e989088ca8",
+          "sha256": "e1ce8928f95abc14f8a2a61d91d649606dd89e01996158ace98e12e989088ca8"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:adbbfccca9d4485334b7bafdd26377a677d5bc231e338695bb9ce2558bd3fb71",
+          "sha256": "adbbfccca9d4485334b7bafdd26377a677d5bc231e338695bb9ce2558bd3fb71"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:f54298f524ea6f40d3296aee5cd4b3feb326cc5398c21c9a8329973ff4c0ba33",
+          "sha256": "f54298f524ea6f40d3296aee5cd4b3feb326cc5398c21c9a8329973ff4c0ba33"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:011bcc30fc443fa9a280706cb3ec7313eb30083a6e7f11c4eadf8ddac433ac06",
+          "sha256": "011bcc30fc443fa9a280706cb3ec7313eb30083a6e7f11c4eadf8ddac433ac06"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:62927471883510fe62139fd7c82595601872549c92fe94b522905de0174f5220",
+          "sha256": "62927471883510fe62139fd7c82595601872549c92fe94b522905de0174f5220"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gspell/blobs/sha256:94b89a03bd2ba58d82701cc63bb3d81d0704a0e0c41e75eedb81f816b4e6581e",
+          "sha256": "94b89a03bd2ba58d82701cc63bb3d81d0704a0e0c41e75eedb81f816b4e6581e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "enchant",
+    "glib",
+    "gtk+3",
+    "icu4c"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gspell.rb",
+  "ruby_source_checksum": {
+    "sha256": "d50968517dbcd5de13e8d7303ff514819c97fe402847ca60a5335d6ce6b7d4fa"
+  },
+  "date_added": "2016-01-30T22:52:46-05:00"
+}

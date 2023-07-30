@@ -1,0 +1,93 @@
+{
+  "name": "gcsfuse",
+  "full_name": "gcsfuse",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "User-space file system for interacting with Google Cloud",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/googlecloudplatform/gcsfuse",
+  "versions": {
+    "stable": "1.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/GoogleCloudPlatform/gcsfuse/archive/v1.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f63c4a695a85df84ddfef2969b0c11f553ad7352e4e65945e5ed7fc90f7b33c1"
+    },
+    "head": {
+      "url": "https://github.com/GoogleCloudPlatform/gcsfuse.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcsfuse/blobs/sha256:933e3137d59a891fda45eb051f05ab097ad1ef687d92c18d9a60b8bf218dcd4e",
+          "sha256": "933e3137d59a891fda45eb051f05ab097ad1ef687d92c18d9a60b8bf218dcd4e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "libfuse"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gcsfuse.rb",
+  "ruby_source_checksum": {
+    "sha256": "10870f5af51ec8e54a0d6dadf46a80847eeb39d7c5cd2d1598814215e47d36b2"
+  },
+  "date_added": "2015-05-28T21:44:04+01:00"
+}

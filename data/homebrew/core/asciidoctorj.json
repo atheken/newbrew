@@ -1,0 +1,75 @@
+{
+  "name": "asciidoctorj",
+  "full_name": "asciidoctorj",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Java wrapper and bindings for Asciidoctor",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/asciidoctor/asciidoctorj",
+  "versions": {
+    "stable": "2.5.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=org/asciidoctor/asciidoctorj/2.5.10/asciidoctorj-2.5.10-bin.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "292db5e831192982ce485d1a1ffa37590b17d5e3757f11052145f07b6d1161bd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asciidoctorj/blobs/sha256:902df3c34d2131f33bf18a26999e4e05b4700a8bb0224921ef06f9f583503774",
+          "sha256": "902df3c34d2131f33bf18a26999e4e05b4700a8bb0224921ef06f9f583503774"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asciidoctorj.rb",
+  "ruby_source_checksum": {
+    "sha256": "c6cbacae9488a4fc4cb83171b3367d1c625b92309decf3490cb13dfe3f0cee77"
+  },
+  "date_added": "2017-10-17T21:28:32-04:00"
+}

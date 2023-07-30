@@ -1,0 +1,134 @@
+{
+  "name": "chuck",
+  "full_name": "chuck",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Concurrent, on-the-fly audio programming language",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://chuck.cs.princeton.edu/",
+  "versions": {
+    "stable": "1.5.0.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://chuck.cs.princeton.edu/release/files/chuck-1.5.0.7.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a7ec3af3df41521d161054810c04ae81b8e26ea4ec18b6d78af51025832f2e14"
+    },
+    "head": {
+      "url": "https://github.com/ccrma/chuck.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:4b4f8fdffdd05a1d389c21cb2d5457e13f2dd53ae8e6d480cbacc0f55423971c",
+          "sha256": "4b4f8fdffdd05a1d389c21cb2d5457e13f2dd53ae8e6d480cbacc0f55423971c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:39c1ad1ca3cb5e615bdbe9c2a47d10a424ab6c487f4ef59cfca60f63e63da27b",
+          "sha256": "39c1ad1ca3cb5e615bdbe9c2a47d10a424ab6c487f4ef59cfca60f63e63da27b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:5c5be7a8308df9a7c02d5811db4c91a6902b280331b3aa3637d8f40399f2dd04",
+          "sha256": "5c5be7a8308df9a7c02d5811db4c91a6902b280331b3aa3637d8f40399f2dd04"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:ae4c9207798c575e9d80738fe5852f59a4c4051d92cf4c4f13c06a3deb2117b6",
+          "sha256": "ae4c9207798c575e9d80738fe5852f59a4c4051d92cf4c4f13c06a3deb2117b6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:d3f16aef9ddd229abede8bb90a293308327fed2e5d2b53ddd981c0e0786f7d6e",
+          "sha256": "d3f16aef9ddd229abede8bb90a293308327fed2e5d2b53ddd981c0e0786f7d6e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:c29188f7ccb2f602bbf884bb5764220f2ba04b34a1b2e4d94f73ca21ef71a8f0",
+          "sha256": "c29188f7ccb2f602bbf884bb5764220f2ba04b34a1b2e4d94f73ca21ef71a8f0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chuck/blobs/sha256:b58740b6a2c3590fdf4f2c6d770abfdef92d218fb1076b0e619c249a6584abe5",
+          "sha256": "b58740b6a2c3590fdf4f2c6d770abfdef92d218fb1076b0e619c249a6584abe5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "alsa-lib",
+    "pulseaudio"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/chuck.rb",
+  "ruby_source_checksum": {
+    "sha256": "c8241b5c94271d8136b6a5f3d14f4fd9be4cebf645cfdf79325034f8ecd59d41"
+  },
+  "date_added": "2010-07-22T09:30:20-07:00"
+}

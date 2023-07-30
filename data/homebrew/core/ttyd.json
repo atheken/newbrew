@@ -1,0 +1,119 @@
+{
+  "name": "ttyd",
+  "full_name": "ttyd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for sharing terminal over the web",
+  "license": "MIT",
+  "homepage": "https://tsl0922.github.io/ttyd/",
+  "versions": {
+    "stable": "1.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tsl0922/ttyd/archive/refs/tags/1.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c9cf5eece52d27c5d728000f11315d36cb400c6948d1964a34a7eae74b454099"
+    },
+    "head": {
+      "url": "https://github.com/tsl0922/ttyd.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:69a099f652a4627ebd1883cf6f30ffaf24d10860f09ad70f165d1d325cef8df1",
+          "sha256": "69a099f652a4627ebd1883cf6f30ffaf24d10860f09ad70f165d1d325cef8df1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:904dc5cfb60de817fceadfe24656122a3afd9ec4aa7f9e66d7a6adfeb2da2b5c",
+          "sha256": "904dc5cfb60de817fceadfe24656122a3afd9ec4aa7f9e66d7a6adfeb2da2b5c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:f59972a5107ab4f0db65881a886b6305d1c85cc7cabdc1c63c9019e059f58653",
+          "sha256": "f59972a5107ab4f0db65881a886b6305d1c85cc7cabdc1c63c9019e059f58653"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:bf497b4d9a89b2a0fe3298e41b114aaf15745b30600a58867465c25a5c2690ad",
+          "sha256": "bf497b4d9a89b2a0fe3298e41b114aaf15745b30600a58867465c25a5c2690ad"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:714cce29332912b168fb7f3bb5c96c94804b88051d906bccc8d2008361e9497e",
+          "sha256": "714cce29332912b168fb7f3bb5c96c94804b88051d906bccc8d2008361e9497e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:4c565f05abbe15174806522d06bc5b764544c1c4cc5ab48d97ce886d4d5af108",
+          "sha256": "4c565f05abbe15174806522d06bc5b764544c1c4cc5ab48d97ce886d4d5af108"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ttyd/blobs/sha256:3d8bc1f21cc6c9f0d94e3e74bcf60adb9be03f06dd7b49f5e2d16b4212b052c9",
+          "sha256": "3d8bc1f21cc6c9f0d94e3e74bcf60adb9be03f06dd7b49f5e2d16b4212b052c9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "json-c",
+    "libevent",
+    "libuv",
+    "libwebsockets",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "vim"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/ttyd.rb",
+  "ruby_source_checksum": {
+    "sha256": "b48c729c1b8b41ee7d64540c372086aceeddd456152852a742b3335ceb0d4bef"
+  },
+  "date_added": "2016-10-13T08:35:31+01:00"
+}

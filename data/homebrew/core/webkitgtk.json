@@ -1,0 +1,141 @@
+{
+  "name": "webkitgtk",
+  "full_name": "webkitgtk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GTK interface to WebKit",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://webkitgtk.org",
+  "versions": {
+    "stable": "2.40.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://webkitgtk.org/releases/webkitgtk-2.40.5.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7de051a263668621d91a61a5eb1c3771d1a7cec900043d4afef06c326c16037f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/webkitgtk/blobs/sha256:38497987334c546f418fa6688d835fbb5729566300c34db6d3f668b6374cefcd",
+          "sha256": "38497987334c546f418fa6688d835fbb5729566300c34db6d3f668b6374cefcd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gobject-introspection",
+    "pkg-config",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "cairo",
+    "enchant",
+    "fontconfig",
+    "freetype",
+    "glib",
+    "gstreamer",
+    "gtk+3",
+    "harfbuzz",
+    "icu4c",
+    "jpeg-turbo",
+    "jpeg-xl",
+    "libavif",
+    "libgcrypt",
+    "libnotify",
+    "libpng",
+    "libsecret",
+    "libsoup",
+    "libwpe",
+    "libxcomposite",
+    "libxt",
+    "little-cms2",
+    "mesa",
+    "openjpeg",
+    "systemd",
+    "webp",
+    "woff2",
+    "wpebackend-fdo"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "perl": "build"
+    },
+    {
+      "ruby": "build"
+    },
+    {
+      "unifdef": "build"
+    },
+    "libxml2",
+    "libxslt",
+    "sqlite",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/webkitgtk.rb",
+  "ruby_source_checksum": {
+    "sha256": "c026fea29b12602c1374eb2560368dfdbd6a31266fdf56a5f206ed082edf18c2"
+  },
+  "date_added": "2015-12-07T13:23:31+00:00"
+}

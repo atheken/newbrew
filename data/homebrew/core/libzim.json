@@ -1,0 +1,118 @@
+{
+  "name": "libzim",
+  "full_name": "libzim",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Reference implementation of the ZIM specification",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/openzim/libzim",
+  "versions": {
+    "stable": "8.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.openzim.org/release/libzim/libzim-8.2.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fcddb400cb71b2c21d5da86fd606e0f45083873f0df5d4529345855a39b5707c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:b32179995f464b76d374d1d34502fb21c00303e3ced9b353953ac2320dee8eb2",
+          "sha256": "b32179995f464b76d374d1d34502fb21c00303e3ced9b353953ac2320dee8eb2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:54112606a0c0a8aa3fa1084e8978f92604124e12ad4584aa0f8df8cc01c62ad0",
+          "sha256": "54112606a0c0a8aa3fa1084e8978f92604124e12ad4584aa0f8df8cc01c62ad0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:e0a3011dc1e857f84f77e2a9e0b56e2c730f954f22f8ff9a191f873e66290444",
+          "sha256": "e0a3011dc1e857f84f77e2a9e0b56e2c730f954f22f8ff9a191f873e66290444"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:0acf18de8f6cd3d2bbc8e4dff266af813466dedaae89e9cfc5f93a3c1116e9e0",
+          "sha256": "0acf18de8f6cd3d2bbc8e4dff266af813466dedaae89e9cfc5f93a3c1116e9e0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:7298365283c04ea9a9e1917d94f1348f2fd28da409b223ed2d185847f57eb770",
+          "sha256": "7298365283c04ea9a9e1917d94f1348f2fd28da409b223ed2d185847f57eb770"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:15997699641928c370eec76dd3a8f52bc614d19d6b8c89a2e7cac5b162c07c66",
+          "sha256": "15997699641928c370eec76dd3a8f52bc614d19d6b8c89a2e7cac5b162c07c66"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libzim/blobs/sha256:b59dae0b79f9d692ffb5ff2aecf4d468a984b1a99bc5e2a3b56d64ddbc300a38",
+          "sha256": "b59dae0b79f9d692ffb5ff2aecf4d468a984b1a99bc5e2a3b56d64ddbc300a38"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "icu4c",
+    "xapian",
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libzim.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d83a1856924092f0ee9bd16d36e88fd87469bb094a2b8746654210416591429"
+  },
+  "date_added": "2023-02-12T13:58:37+00:00"
+}

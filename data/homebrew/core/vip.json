@@ -1,0 +1,103 @@
+{
+  "name": "vip",
+  "full_name": "vip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Program that provides for interactive editing in a pipeline",
+  "license": null,
+  "homepage": "https://www.cs.duke.edu/~des/vip.html",
+  "versions": {
+    "stable": "19971113",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.cs.duke.edu/~des/scripts/vip",
+      "tag": null,
+      "revision": null,
+      "checksum": "171278e8bd43abdbd3a4c35addda27a0d3c74fc784dbe60e4783d317ac249d11"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8",
+          "sha256": "cd1eaee76c43cbe5384907f794d619db9b4d044eb54e223e0666e4da73f007e8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vip/blobs/sha256:e859ab68e89bde9988f3966d5b5352ccb56dc0d88ddd958d200b5f60e5f91653",
+          "sha256": "e859ab68e89bde9988f3966d5b5352ccb56dc0d88ddd958d200b5f60e5f91653"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vip.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ba24316933551f41a5f28c52a14b21bc5dda94cff381e35ecf6a8d1fef82597"
+  },
+  "date_added": "2010-10-21T07:19:51-07:00"
+}

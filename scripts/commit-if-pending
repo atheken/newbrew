@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
+
+pushd $workdir
+
+git add -A
+git diff-index --quiet HEAD
+
+if [[ $? -eq 0 ]]; then
+    echo 'There are no changes to commit, exiting.'
+else
+    git commit -m 'Synchronizing new formulae.'
+fi
+
+trap popd EXIT

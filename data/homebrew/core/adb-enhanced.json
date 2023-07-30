@@ -1,0 +1,105 @@
+{
+  "name": "adb-enhanced",
+  "full_name": "adb-enhanced",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Swiss-army knife for Android testing and development",
+  "license": "Apache-2.0",
+  "homepage": "https://ashishb.net/tech/introducing-adb-enhanced-a-swiss-army-knife-for-android-development/",
+  "versions": {
+    "stable": "2.5.22",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/82/11/1228620ea0c9204d6d908d8485005141ab3d71d3db71a152080439fa927d/adb-enhanced-2.5.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b829dcb4c9a9422735d416a62820de679bed8b08dfbff2014d46a525c39bc7d0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:bdf2f9aad3d0e66174694171ad61979e05c4d9ede01f6fe763c8a3a57115a959",
+          "sha256": "bdf2f9aad3d0e66174694171ad61979e05c4d9ede01f6fe763c8a3a57115a959"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:3ead73d8a0fa21811a47787e6e4170e1fc91afffd62a3d987457c4e9d98231fb",
+          "sha256": "3ead73d8a0fa21811a47787e6e4170e1fc91afffd62a3d987457c4e9d98231fb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:329deefa3c598541c38baa46666890c962d679a21d0ecba377a50b4373f5b2c0",
+          "sha256": "329deefa3c598541c38baa46666890c962d679a21d0ecba377a50b4373f5b2c0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:58db3296ce92d5afe942d37f0422e5e67729ab4b55955d73f810d3c546b4b53b",
+          "sha256": "58db3296ce92d5afe942d37f0422e5e67729ab4b55955d73f810d3c546b4b53b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:caae90d5ae7111c4354f43a33cc23643ef072e585fe7317100c4acdf73280b8a",
+          "sha256": "caae90d5ae7111c4354f43a33cc23643ef072e585fe7317100c4acdf73280b8a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:e141e2e5e569d6672b882c2b43e74c8b430232fa0e6f75c8b33699cf42b671bb",
+          "sha256": "e141e2e5e569d6672b882c2b43e74c8b430232fa0e6f75c8b33699cf42b671bb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/adb-enhanced/blobs/sha256:435f9ddd2f1852f03cc8c3358289f440a07e266748efb8c1913e6d9427c7d4e6",
+          "sha256": "435f9ddd2f1852f03cc8c3358289f440a07e266748efb8c1913e6d9427c7d4e6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/adb-enhanced.rb",
+  "ruby_source_checksum": {
+    "sha256": "f2452fc6f576d905ee8435837fb0322a5d41b4e781dd5d4e5966b6bd116d61c5"
+  },
+  "date_added": "2023-06-28T12:21:25-07:00"
+}

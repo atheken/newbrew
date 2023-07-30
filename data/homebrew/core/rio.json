@@ -1,0 +1,116 @@
+{
+  "name": "rio",
+  "full_name": "rio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Hardware-accelerated GPU terminal emulator powered by WebGPU",
+  "license": "MIT",
+  "homepage": "https://raphamorim.io/rio/",
+  "versions": {
+    "stable": "0.0.14",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/raphamorim/rio/archive/refs/tags/v0.0.14.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "94aa2565e26fc8a8c5f22b1442d6500969c037c321177b065db06b0cd1f9544f"
+    },
+    "head": {
+      "url": "https://github.com/raphamorim/rio.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:5739d87c61094eb1b25155d4fab04abff702964bbc3898828b22fbf8c0419c92",
+          "sha256": "5739d87c61094eb1b25155d4fab04abff702964bbc3898828b22fbf8c0419c92"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:f17d9383ec11bd6b07717d7d8f09d6b0c62b25d284432adf072aef2fe0905ac4",
+          "sha256": "f17d9383ec11bd6b07717d7d8f09d6b0c62b25d284432adf072aef2fe0905ac4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:2c867a9fa8ae8ae436ba7428d368174c612313b89b5b866773465a4f24585e3d",
+          "sha256": "2c867a9fa8ae8ae436ba7428d368174c612313b89b5b866773465a4f24585e3d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:6bd9e7f33414ab5b5fac5193c942ec3bc71dd41f4faa814b329fdc9c28169d78",
+          "sha256": "6bd9e7f33414ab5b5fac5193c942ec3bc71dd41f4faa814b329fdc9c28169d78"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:c3865701d457e5086c02b708fef14aaf2cee422c853b5782b1ac5648a23c739f",
+          "sha256": "c3865701d457e5086c02b708fef14aaf2cee422c853b5782b1ac5648a23c739f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rio/blobs/sha256:4d02fa48415cf256f1bbb563dccf32e6cc09f777286c6abad189c60d00adcab0",
+          "sha256": "4d02fa48415cf256f1bbb563dccf32e6cc09f777286c6abad189c60d00adcab0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rio.rb",
+  "ruby_source_checksum": {
+    "sha256": "da4df7380ff88f6d332a37796a128fe737272cc15e07983c3714b80d715abab0"
+  },
+  "date_added": "2023-06-27T21:06:00+02:00"
+}

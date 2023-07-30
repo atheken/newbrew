@@ -1,0 +1,106 @@
+{
+  "name": "cartridge-cli",
+  "full_name": "cartridge-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tarantool Cartridge command-line utility",
+  "license": "BSD-2-Clause",
+  "homepage": "https://tarantool.org/",
+  "versions": {
+    "stable": "2.12.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tarantool/cartridge-cli.git",
+      "tag": "2.12.6",
+      "revision": "ec191fef4b2b68b176612551cc88404bd7b21d42",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:a28b3af7085b6a879117c4809c3f91f38423ad3231d9f759c44d2e9c2c29bd55",
+          "sha256": "a28b3af7085b6a879117c4809c3f91f38423ad3231d9f759c44d2e9c2c29bd55"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:fa8cae8e1abe5cbf96e67eb66220af75cd7415ba7ce8bcc0dc09494c2a63e12e",
+          "sha256": "fa8cae8e1abe5cbf96e67eb66220af75cd7415ba7ce8bcc0dc09494c2a63e12e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:c2dec7d21f61ea4cd873deb59e54513f0ad864cd9900d4ac693e439e328d2149",
+          "sha256": "c2dec7d21f61ea4cd873deb59e54513f0ad864cd9900d4ac693e439e328d2149"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:7c623a0a29baefe8bd6475ad4ba0f7e37b9e839da5077f5e82341e92a54e4ff6",
+          "sha256": "7c623a0a29baefe8bd6475ad4ba0f7e37b9e839da5077f5e82341e92a54e4ff6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:76566988eb2e7e19acf03394fd65bf50eb61f8b94cd33639f996d7c0a093c0e3",
+          "sha256": "76566988eb2e7e19acf03394fd65bf50eb61f8b94cd33639f996d7c0a093c0e3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:b436b62b195602c55bc3846feec66ba3da337d5f327928598fb5c57ee79d4533",
+          "sha256": "b436b62b195602c55bc3846feec66ba3da337d5f327928598fb5c57ee79d4533"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cartridge-cli/blobs/sha256:fce6711121b90e6255ac62d9cc282e3958121a28b735895dddc1e49c08540752",
+          "sha256": "fce6711121b90e6255ac62d9cc282e3958121a28b735895dddc1e49c08540752"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "mage"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cartridge-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "bb965ac00c8b77ff2efdd905222b4756b4dc09c68ac6d248be7bfe44df9cd862"
+  },
+  "date_added": "2019-11-19T21:00:50-05:00"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "theharvester",
+  "full_name": "theharvester",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Gather materials from public sources (for pen testers)",
+  "license": "GPL-2.0-only",
+  "homepage": "http://www.edge-security.com/theharvester.php",
+  "versions": {
+    "stable": "4.4.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/laramies/theHarvester/archive/4.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ac353067b25838a4c66c636dd82f4e563a744d22f30a5f9788a77bbef8c10524"
+    },
+    "head": {
+      "url": "https://github.com/laramies/theHarvester.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:5b876f9c65588532c0848da71c765a1661b1fa961751c513fbe56ab98f2dae13",
+          "sha256": "5b876f9c65588532c0848da71c765a1661b1fa961751c513fbe56ab98f2dae13"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:0cd2afd8e87b02946fdc9de79bf5830276598caee9be6d763a0eaa99126f0b77",
+          "sha256": "0cd2afd8e87b02946fdc9de79bf5830276598caee9be6d763a0eaa99126f0b77"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:cf675db05c452dd8a625da4baaf95ec684ffa4bb9db92ab0105385cfbcb76cf9",
+          "sha256": "cf675db05c452dd8a625da4baaf95ec684ffa4bb9db92ab0105385cfbcb76cf9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:07ceff6c6fdfbd05011f265585ae9f8f6ebec7bfd2694eb481007fd9cfc1d2bf",
+          "sha256": "07ceff6c6fdfbd05011f265585ae9f8f6ebec7bfd2694eb481007fd9cfc1d2bf"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:e902b75c6f75c17a41714aae722fe620f862787a480bfa22c99323f00dedcb91",
+          "sha256": "e902b75c6f75c17a41714aae722fe620f862787a480bfa22c99323f00dedcb91"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:a3d65c57cf5ae7be19b244a6f90b508d798ef9d7659d5391af342643f14d1f56",
+          "sha256": "a3d65c57cf5ae7be19b244a6f90b508d798ef9d7659d5391af342643f14d1f56"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/theharvester/blobs/sha256:b9827f373df832ad1c47da92aea5b887c243395245f90eb5cfc9d905a3ba0fc7",
+          "sha256": "b9827f373df832ad1c47da92aea5b887c243395245f90eb5cfc9d905a3ba0fc7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "pycparser",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/theharvester.rb",
+  "ruby_source_checksum": {
+    "sha256": "8c8887bc649770fa64502a447d17fe70c246cb797c9f42303b37586866e38125"
+  },
+  "date_added": "2013-12-30T22:26:37+00:00"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "procps",
+  "full_name": "procps",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "procps@4"
+  ],
+  "versioned_formulae": [
+    "procps@3"
+  ],
+  "desc": "Utilities for browsing procfs",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://gitlab.com/procps-ng/procps",
+  "versions": {
+    "stable": "4.0.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.com/procps-ng/procps/-/archive/v4.0.3/procps-v4.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "14cc21219c45d196772274ea3f194f6d668b6cc667fbde9ee6d8039121b73fa6"
+    },
+    "head": {
+      "url": "https://gitlab.com/procps-ng/procps.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/procps/blobs/sha256:4af58c410f092e07f194fa8ec15017826bc3874dc1231c87a5620fc25fa1cc9f",
+          "sha256": "4af58c410f092e07f194fa8ec15017826bc3874dc1231c87a5620fc25fa1cc9f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/procps.rb",
+  "ruby_source_checksum": {
+    "sha256": "19a812a8a06e23724c1dda1c9e20b068b74b623c1c7863251c8032eb508ae101"
+  },
+  "date_added": "2021-08-15T23:24:04+00:00"
+}

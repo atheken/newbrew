@@ -1,0 +1,129 @@
+{
+  "name": "inadyn",
+  "full_name": "inadyn",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dynamic DNS client with IPv4, IPv6, and SSL/TLS support",
+  "license": "GPL-2.0-or-later and ISC and MIT",
+  "homepage": "https://troglobit.com/projects/inadyn/",
+  "versions": {
+    "stable": "2.11.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/troglobit/inadyn/releases/download/v2.11.0/inadyn-2.11.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9c8b2a425acb9681564e9fc25a319f2109c7d2ebe1ffe99b06d4a722efb6ecba"
+    },
+    "head": {
+      "url": "https://github.com/troglobit/inadyn.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:698ac07a4d325652848e18f45a209fd5ae07bcf02ffed533183d2ae466ef2150",
+          "sha256": "698ac07a4d325652848e18f45a209fd5ae07bcf02ffed533183d2ae466ef2150"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:5e45cd2280d8920b15fce3d5825fba0f705506fc430e8b65d0cdec466c1805a2",
+          "sha256": "5e45cd2280d8920b15fce3d5825fba0f705506fc430e8b65d0cdec466c1805a2"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:f9c7ff2d284b203e63793ee34fc56a171acdc99e7ccbb893e4fc7ce5c3624c33",
+          "sha256": "f9c7ff2d284b203e63793ee34fc56a171acdc99e7ccbb893e4fc7ce5c3624c33"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:7853e374a5991661db97cc58e9e6c5d37b76308c0e99cd1f093c88ac980ef836",
+          "sha256": "7853e374a5991661db97cc58e9e6c5d37b76308c0e99cd1f093c88ac980ef836"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:b884d4ccafd28876a4bb6ff25aa6db00dc15dd7f87a77163a53393d8bf17d123",
+          "sha256": "b884d4ccafd28876a4bb6ff25aa6db00dc15dd7f87a77163a53393d8bf17d123"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:97e02510700ff61ca2b0932273d15e03159cf01a38df843350868ba4cda095cc",
+          "sha256": "97e02510700ff61ca2b0932273d15e03159cf01a38df843350868ba4cda095cc"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inadyn/blobs/sha256:dd28084bcb90b80a67470ae446b87acfb980ae49228abb6a5a422085684ddaff",
+          "sha256": "dd28084bcb90b80a67470ae446b87acfb980ae49228abb6a5a422085684ddaff"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "confuse",
+    "gnutls"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/inadyn.rb",
+  "ruby_source_checksum": {
+    "sha256": "bb6b9ed8ce91ca4498798ae5c644e654ded410fcf17e8b5480d38b05a00fb99f"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "confuse",
+      "gnutls"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2018-10-20T21:26:42+02:00"
+}

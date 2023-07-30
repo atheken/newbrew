@@ -1,0 +1,116 @@
+{
+  "name": "hledger",
+  "full_name": "hledger",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easy plain text accounting with command-line, terminal and web UIs",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://hledger.org/",
+  "versions": {
+    "stable": "1.30",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/simonmichael/hledger/archive/refs/tags/1.30.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d2a946c47ed74b835fe90cdb3979fc26a266b9e4b7f6a01f7cf1e05910d752a5"
+    },
+    "head": {
+      "url": "https://github.com/simonmichael/hledger.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:707a9a4a60836255b43d805524e91037d97832ecf94b9f69551f5a62b682dd8c",
+          "sha256": "707a9a4a60836255b43d805524e91037d97832ecf94b9f69551f5a62b682dd8c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:4a2d0b1da989ba3d383f4b9960fffcfe9eb00516afb28311ca02471c847b8a61",
+          "sha256": "4a2d0b1da989ba3d383f4b9960fffcfe9eb00516afb28311ca02471c847b8a61"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:903adb4c92c4f2f8a13b50f4009359ca922078f6d8cc6494c333eeaf67d7cb42",
+          "sha256": "903adb4c92c4f2f8a13b50f4009359ca922078f6d8cc6494c333eeaf67d7cb42"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:2c592d4719ae2fceb4db92f5f0ec821fefd2473981bf090c2fc394f3e48c26af",
+          "sha256": "2c592d4719ae2fceb4db92f5f0ec821fefd2473981bf090c2fc394f3e48c26af"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:5a29b43a0789f56b3209529dba0b3f5b746280515547bf44683b6606ccb83b81",
+          "sha256": "5a29b43a0789f56b3209529dba0b3f5b746280515547bf44683b6606ccb83b81"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:6ee24fdabb7f6dd20574e8a8c127c3e5d8796a3a283df6b095f990d3195d6d69",
+          "sha256": "6ee24fdabb7f6dd20574e8a8c127c3e5d8796a3a283df6b095f990d3195d6d69"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hledger/blobs/sha256:57a1715dd99dd1981e0f68f05b5054b177f6c7266f93033bd032f104ba8f3e71",
+          "sha256": "57a1715dd99dd1981e0f68f05b5054b177f6c7266f93033bd032f104ba8f3e71"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ghc@9.2",
+    "haskell-stack"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hledger.rb",
+  "ruby_source_checksum": {
+    "sha256": "3ea88d22ef3de558e677d530e3d87d81825fe8fa3024ebd4cbf2e731474f8c72"
+  },
+  "date_added": "2016-02-04T14:38:00+00:00"
+}

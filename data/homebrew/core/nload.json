@@ -1,0 +1,125 @@
+{
+  "name": "nload",
+  "full_name": "nload",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Realtime console network usage monitor",
+  "license": "GPL-2.0",
+  "homepage": "http://www.roland-riegel.de/nload/",
+  "versions": {
+    "stable": "0.7.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.roland-riegel.de/nload/nload-0.7.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c1c051e7155e26243d569be5d99c744d8620e65fa8a7e05efcf84d01d9d469e5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:9744511493995a64c3af0ec5523840e73d204fb3a5c5ab69678a18f5e4a30ae7",
+          "sha256": "9744511493995a64c3af0ec5523840e73d204fb3a5c5ab69678a18f5e4a30ae7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:a179869cf1ff0fc1d62619d85a23004ca8f5ac9d17a2157fe86fdc717c2fc796",
+          "sha256": "a179869cf1ff0fc1d62619d85a23004ca8f5ac9d17a2157fe86fdc717c2fc796"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:2c5db3ac98383bf71154283dbca344ef7e4ac355338bdff337936cb4836b8ace",
+          "sha256": "2c5db3ac98383bf71154283dbca344ef7e4ac355338bdff337936cb4836b8ace"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:0924f27e44c24642832a73d9f2f1f1d2f4880f38b23fe2e46ecbe3422125af7f",
+          "sha256": "0924f27e44c24642832a73d9f2f1f1d2f4880f38b23fe2e46ecbe3422125af7f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:fa676ad48d38191b0cfc2a7a5277ec26cbae48ba7a40c06b10bc1760692fdbf1",
+          "sha256": "fa676ad48d38191b0cfc2a7a5277ec26cbae48ba7a40c06b10bc1760692fdbf1"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:497154bd3de08b44994d05c69467266bb5ea54e6ddb7c9353bbf63bc77463447",
+          "sha256": "497154bd3de08b44994d05c69467266bb5ea54e6ddb7c9353bbf63bc77463447"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:2e566035d80abd97c43955ac5fa05ba347b67dbbd10d0543faef3cf5cc7b0bfb",
+          "sha256": "2e566035d80abd97c43955ac5fa05ba347b67dbbd10d0543faef3cf5cc7b0bfb"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:1dbf614f22611f66ee49efa6b1f5a1af29066be04e461d56e9766b84aeb68077",
+          "sha256": "1dbf614f22611f66ee49efa6b1f5a1af29066be04e461d56e9766b84aeb68077"
+        },
+        "high_sierra": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:3bcdee6e4f2e404d0ec728620b025524de265f94fccc290b29fc81f04f85be36",
+          "sha256": "3bcdee6e4f2e404d0ec728620b025524de265f94fccc290b29fc81f04f85be36"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nload/blobs/sha256:4b1d3e77437ea1f37ab063237a2b71318370b23248b8be6d6d10d07f786bed89",
+          "sha256": "4b1d3e77437ea1f37ab063237a2b71318370b23248b8be6d6d10d07f786bed89"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nload.rb",
+  "ruby_source_checksum": {
+    "sha256": "d5adf4351e643e66d926fce3e860f7a1bdcb31b4ec89b207fb91d173de792143"
+  },
+  "date_added": "2011-07-29T08:31:18-07:00"
+}

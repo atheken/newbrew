@@ -1,0 +1,107 @@
+{
+  "name": "libmwaw",
+  "full_name": "libmwaw",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for converting legacy Mac document formats",
+  "license": "LGPL-2.1-or-later or MPL-2.0",
+  "homepage": "https://sourceforge.net/p/libmwaw/wiki/Home/",
+  "versions": {
+    "stable": "0.3.22",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/libmwaw/libmwaw/libmwaw-0.3.22/libmwaw-0.3.22.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a1a39ffcea3ff2a7a7aae0c23877ddf4918b554bf82b0de5d7ce8e7f61ea8e32"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:14c3ef9b89eabb6d8f579cd6b4fc6b10aff80157395e25f5f4032c365e35814c",
+          "sha256": "14c3ef9b89eabb6d8f579cd6b4fc6b10aff80157395e25f5f4032c365e35814c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:22010af06baf85faaa647b36eab334caa1f097cbe8f66d60c77bb745ce70bcd9",
+          "sha256": "22010af06baf85faaa647b36eab334caa1f097cbe8f66d60c77bb745ce70bcd9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:02d9d169c112c585d2c8cfaaf1406a66bb6bb5a5bd909a2e842e9e5f5b6c6aee",
+          "sha256": "02d9d169c112c585d2c8cfaaf1406a66bb6bb5a5bd909a2e842e9e5f5b6c6aee"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:b62fd5d2f18f6f8248baef2454e48bedeb6a595b4e9eeed40f90fcf6c22722a0",
+          "sha256": "b62fd5d2f18f6f8248baef2454e48bedeb6a595b4e9eeed40f90fcf6c22722a0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:79ed34d639601c2afd3bcf9c573635f5f43826623a82fc931d64ada62fd632fd",
+          "sha256": "79ed34d639601c2afd3bcf9c573635f5f43826623a82fc931d64ada62fd632fd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:9830e2b0688157862cc7c2345fce55ae60955c3cca0c143fef2ab582a5d6d348",
+          "sha256": "9830e2b0688157862cc7c2345fce55ae60955c3cca0c143fef2ab582a5d6d348"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libmwaw/blobs/sha256:2f6f70031a248697ceaaaf2b4626511400904de27cac8f6c441196a6bf05ef1c",
+          "sha256": "2f6f70031a248697ceaaaf2b4626511400904de27cac8f6c441196a6bf05ef1c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "librevenge"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libmwaw.rb",
+  "ruby_source_checksum": {
+    "sha256": "6286dbadbe00df43b8d3297a695d7ee909f5c476558e9e4e743c15ffa8e8c5da"
+  },
+  "date_added": "2016-01-20T11:49:55-08:00"
+}

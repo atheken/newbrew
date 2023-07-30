@@ -1,0 +1,105 @@
+{
+  "name": "jetty",
+  "full_name": "jetty",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Java servlet engine and webserver",
+  "license": "Apache-2.0 or EPL-1.0",
+  "homepage": "https://www.eclipse.org/jetty/",
+  "versions": {
+    "stable": "9.4.51.v20230217",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-distribution/9.4.51.v20230217/jetty-distribution-9.4.51.v20230217.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5c34101bfb56b90c546df9b04f7931822b8f9bed676e02dc8c7c91b02a7f38b7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:d228e1b73584d5d9eee674e2ad77c5bb3b4b9fa3b33e515c12d9e24c2301af91",
+          "sha256": "d228e1b73584d5d9eee674e2ad77c5bb3b4b9fa3b33e515c12d9e24c2301af91"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:af0e1498c5bfbc9c05e728edfac77da8cb49c617554a149fe45ef9c499f5530e",
+          "sha256": "af0e1498c5bfbc9c05e728edfac77da8cb49c617554a149fe45ef9c499f5530e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:ec74afc2299e03f8241ba5e14a4008768e3c654db05f5beabe547714d71adaa5",
+          "sha256": "ec74afc2299e03f8241ba5e14a4008768e3c654db05f5beabe547714d71adaa5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175",
+          "sha256": "ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175",
+          "sha256": "ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175",
+          "sha256": "ee8afdb5a427644b41e8678220c2661d0dc34538488033d5f8c8c9081cddc175"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jetty/blobs/sha256:e13e171d78c9c7ea3d9493a3edf75f6ec44854603608e6a4fa05345af183c9fe",
+          "sha256": "e13e171d78c9c7ea3d9493a3edf75f6ec44854603608e6a4fa05345af183c9fe"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jetty.rb",
+  "ruby_source_checksum": {
+    "sha256": "4e010e6982bee42663f98f26b1515584dad2d69a4fcec70620c06cef290107b0"
+  },
+  "date_added": "2011-04-10T10:02:23-07:00"
+}

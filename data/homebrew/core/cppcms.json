@@ -1,0 +1,109 @@
+{
+  "name": "cppcms",
+  "full_name": "cppcms",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Free High Performance Web Development Framework",
+  "license": null,
+  "homepage": "http://cppcms.com/wikipp/en/page/main",
+  "versions": {
+    "stable": "1.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/cppcms/cppcms/1.2.1/cppcms-1.2.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "10fec7710409c949a229b9019ea065e25ff5687103037551b6f05716bf6cac52"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:1e231383932392067c2f82db565e7c89fdf262257dc18ae3c7069b661b7e37ad",
+          "sha256": "1e231383932392067c2f82db565e7c89fdf262257dc18ae3c7069b661b7e37ad"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:fbe7cecff46a4e2bc8f799354a4fe510d195721e56c769f077a0573e54d71739",
+          "sha256": "fbe7cecff46a4e2bc8f799354a4fe510d195721e56c769f077a0573e54d71739"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:4bd9653322f70e9300800e2b221af694d228667967a6ee8df6069bc3496344af",
+          "sha256": "4bd9653322f70e9300800e2b221af694d228667967a6ee8df6069bc3496344af"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:ae8964621f8e24d7494a9f7370dbbf4369a36e3dc0533632e101a6eb37adf4e1",
+          "sha256": "ae8964621f8e24d7494a9f7370dbbf4369a36e3dc0533632e101a6eb37adf4e1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:295e57a50103781f5f6d9d00f0693f8fa23802068fd53ee1fa0964bb1c9e556a",
+          "sha256": "295e57a50103781f5f6d9d00f0693f8fa23802068fd53ee1fa0964bb1c9e556a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:91451434afc317d71cee36e03047d170f453efcf4bcd61487750b353da4bb303",
+          "sha256": "91451434afc317d71cee36e03047d170f453efcf4bcd61487750b353da4bb303"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcms/blobs/sha256:3abf8511c89ef7221ef752f3bc3bca222b89babd25605b33dae88d1584a0050b",
+          "sha256": "3abf8511c89ef7221ef752f3bc3bca222b89babd25605b33dae88d1584a0050b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "pcre",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cppcms.rb",
+  "ruby_source_checksum": {
+    "sha256": "224c21a3980cc7cc6682009624f41c39c151deafb82831496e26b8ccc79dfbd7"
+  },
+  "date_added": "2015-08-27T12:25:22+01:00"
+}

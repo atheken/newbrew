@@ -1,0 +1,110 @@
+{
+  "name": "kwctl",
+  "full_name": "kwctl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool for the Kubewarden policy engine for Kubernetes",
+  "license": "Apache-2.0",
+  "homepage": "https://www.kubewarden.io/",
+  "versions": {
+    "stable": "1.6.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubewarden/kwctl/archive/refs/tags/v1.6.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f4573ae5c9de7b33d309364cbe479869e2b663c545b15f08420a909fff2169b8"
+    },
+    "head": {
+      "url": "https://github.com/kubewarden/kwctl.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:8eb0a2cf8d73f0eb62c3b200a69a973847649e511f867683751b15a64c72778b",
+          "sha256": "8eb0a2cf8d73f0eb62c3b200a69a973847649e511f867683751b15a64c72778b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:bbfd4073968f69ca4977b57bebb8d1698bd32d63a80a607cf72a225b559ea5a0",
+          "sha256": "bbfd4073968f69ca4977b57bebb8d1698bd32d63a80a607cf72a225b559ea5a0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:d4601892d82f2380399e3881c59c3947bb7432927ec207ea423f038dc21c7449",
+          "sha256": "d4601892d82f2380399e3881c59c3947bb7432927ec207ea423f038dc21c7449"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:b9ede68d60d77040d8852c1c5f08fe0e6745574a619cf64dc142fbac310de4ed",
+          "sha256": "b9ede68d60d77040d8852c1c5f08fe0e6745574a619cf64dc142fbac310de4ed"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:d7dc61052fd4f1e7d44f602d0dbc631099640aeccf0ef7fff92fe4c5436d9477",
+          "sha256": "d7dc61052fd4f1e7d44f602d0dbc631099640aeccf0ef7fff92fe4c5436d9477"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:f852fb01f0c2c5038532a3dffe0984b8b6ccbdf2a36909d895e1b59acf13740b",
+          "sha256": "f852fb01f0c2c5038532a3dffe0984b8b6ccbdf2a36909d895e1b59acf13740b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwctl/blobs/sha256:2062b64f2119f85af8fbbbe85513bd006f92dee648ec9ab9be2c1129a223eebb",
+          "sha256": "2062b64f2119f85af8fbbbe85513bd006f92dee648ec9ab9be2c1129a223eebb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kwctl.rb",
+  "ruby_source_checksum": {
+    "sha256": "9f2cbdaf32c0d15556ab222f3d462daaec742c36671ceb861ea8516c11c12634"
+  },
+  "date_added": "2023-01-11T03:42:19+00:00"
+}

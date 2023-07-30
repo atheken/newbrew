@@ -1,0 +1,113 @@
+{
+  "name": "tcpreplay",
+  "full_name": "tcpreplay",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Replay saved tcpdump files at arbitrary speeds",
+  "license": "BSD-2-Clause and BSD-3-Clause and BSD-4-Clause and GPL-3.0-or-later and ISC",
+  "homepage": "https://tcpreplay.appneta.com/",
+  "versions": {
+    "stable": "4.4.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/appneta/tcpreplay/releases/download/v4.4.4/tcpreplay-4.4.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "44f18fb6d3470ecaf77a51b901a119dae16da5be4d4140ffbb2785e37ad6d4bf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:6d4ecb5611be8412c3c0a0c4aa1b7b1ba332b0dc6a5012085db1df36df88d102",
+          "sha256": "6d4ecb5611be8412c3c0a0c4aa1b7b1ba332b0dc6a5012085db1df36df88d102"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:161b8a9f9f36d57d9e202e048a6268ece22766d77ace117db804e2e4a4c46bfa",
+          "sha256": "161b8a9f9f36d57d9e202e048a6268ece22766d77ace117db804e2e4a4c46bfa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:d380ca5958c854092c1043730013f1ca23d3236fca729fb40823f306c4287abe",
+          "sha256": "d380ca5958c854092c1043730013f1ca23d3236fca729fb40823f306c4287abe"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:840cf96e8e0123dfdae2837c2636065634f3a4b49073eefd5979e50d1d29c635",
+          "sha256": "840cf96e8e0123dfdae2837c2636065634f3a4b49073eefd5979e50d1d29c635"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:026d9a462e83ef10af1aa075b05d833cb52063c263a5675242c85caa2d4ff544",
+          "sha256": "026d9a462e83ef10af1aa075b05d833cb52063c263a5675242c85caa2d4ff544"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:544f608fe29cbb7259f7711d7e18f1c414de49f5dffc4df74d1f8087e123a845",
+          "sha256": "544f608fe29cbb7259f7711d7e18f1c414de49f5dffc4df74d1f8087e123a845"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tcpreplay/blobs/sha256:ef8f50af0ac4fe0c84beaea014c71cdd881e954a00cc0de72138b98c9de169b4",
+          "sha256": "ef8f50af0ac4fe0c84beaea014c71cdd881e954a00cc0de72138b98c9de169b4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "libdnet"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tcpreplay.rb",
+  "ruby_source_checksum": {
+    "sha256": "084ff53f8da3c1de611d91a6c5be1e74f771525d82fb77ea65c7f597b3238589"
+  },
+  "date_added": "2010-10-31T16:58:13-07:00"
+}

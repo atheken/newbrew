@@ -1,0 +1,129 @@
+{
+  "name": "nginx",
+  "full_name": "nginx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server",
+  "license": "BSD-2-Clause",
+  "homepage": "https://nginx.org/",
+  "versions": {
+    "stable": "1.25.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://nginx.org/download/nginx-1.25.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f09071ac46e0ea3adc0008ef0baca229fc6b4be4533baef9bbbfba7de29a8602"
+    },
+    "head": {
+      "url": "https://hg.nginx.org/nginx/",
+      "branch": null
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:29aa5568ae9d9f0e021c2624740b57fcd570f1225e1b86be6b108a217ec71357",
+          "sha256": "29aa5568ae9d9f0e021c2624740b57fcd570f1225e1b86be6b108a217ec71357"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:f62d70584d2f83b1f29b7c94b12c7969e3ac13aa348e9352490e3d81d6652709",
+          "sha256": "f62d70584d2f83b1f29b7c94b12c7969e3ac13aa348e9352490e3d81d6652709"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:5024b4a8407d5f4cd231697ed7fa09f1ebf23c52e8a893f9ca6698a75620281f",
+          "sha256": "5024b4a8407d5f4cd231697ed7fa09f1ebf23c52e8a893f9ca6698a75620281f"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:fdec83c8c5b3aaeefdeaddb9d320d6f4d6348976fb9e63f069d38a9f3bde6016",
+          "sha256": "fdec83c8c5b3aaeefdeaddb9d320d6f4d6348976fb9e63f069d38a9f3bde6016"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:453e9f63fd027084d7b61f78fedaac1b5db5a6735454fb99972fa105312e2cdb",
+          "sha256": "453e9f63fd027084d7b61f78fedaac1b5db5a6735454fb99972fa105312e2cdb"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:275da3fa0f5948ae79fee364ed9f3b39a3640490cd88a26a3d89c8779d9fff67",
+          "sha256": "275da3fa0f5948ae79fee364ed9f3b39a3640490cd88a26a3d89c8779d9fff67"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:d787d092728485358fe2e969986aec2d9c05d790b570cbba1c5c27b911016ae0",
+          "sha256": "d787d092728485358fe2e969986aec2d9c05d790b570cbba1c5c27b911016ae0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3",
+    "pcre2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "xz": "build"
+    },
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Docroot is: $HOMEBREW_PREFIX/var/www\n\nThe default port has been set in $HOMEBREW_PREFIX/etc/nginx/nginx.conf to 8080 so that\nnginx can run without sudo.\n\nnginx will load all files in $HOMEBREW_PREFIX/etc/nginx/servers/.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/nginx/bin/nginx",
+      "-g",
+      "daemon off;"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nginx.rb",
+  "ruby_source_checksum": {
+    "sha256": "eec922fa3a5577d8c143234746511225820f9222c51afc069f4693917d18f2fc"
+  },
+  "date_added": "2009-09-03T17:36:22+01:00"
+}

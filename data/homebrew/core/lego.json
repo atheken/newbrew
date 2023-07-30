@@ -1,0 +1,105 @@
+{
+  "name": "lego",
+  "full_name": "lego",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Let's Encrypt client and ACME library",
+  "license": "MIT",
+  "homepage": "https://go-acme.github.io/lego/",
+  "versions": {
+    "stable": "4.13.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/go-acme/lego/archive/v4.13.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a0d38442a8781f4c0f46b37eb026d74b15d0e54f54d04f52a86dd51d7ec4f6a0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023",
+          "sha256": "fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023",
+          "sha256": "fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023",
+          "sha256": "fb5cfcf80b25c888f9d3d1c53d6c40ae6eea096fcd3309c304b290f107291023"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d",
+          "sha256": "a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d",
+          "sha256": "a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d",
+          "sha256": "a71af52f127a3b5f774a354fbaa18a4c799044309e5121fd61974d4c8413ef3d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lego/blobs/sha256:0c8d684705a30b81a136a64b8a8870c7d724cb2430c2d3f30b294e022eef5357",
+          "sha256": "0c8d684705a30b81a136a64b8a8870c7d724cb2430c2d3f30b294e022eef5357"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lego.rb",
+  "ruby_source_checksum": {
+    "sha256": "31cea4ba0cd7f7d12a2c2732eb758c1b3e20546f228efc38c63848fb88558b62"
+  },
+  "date_added": "2016-08-04T11:28:52+01:00"
+}

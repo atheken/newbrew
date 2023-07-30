@@ -1,0 +1,112 @@
+{
+  "name": "leptonica",
+  "full_name": "leptonica",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Image processing and image analysis library",
+  "license": "BSD-2-Clause",
+  "homepage": "http://www.leptonica.org/",
+  "versions": {
+    "stable": "1.82.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.leptonica.org/source/leptonica-1.82.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "155302ee914668c27b6fe3ca9ff2da63b245f6d62f3061c8f27563774b8ae2d6"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:bbe2eadbb1a026605be6e25cc2380781014089bc045d6de7b82d8732ce98f755",
+          "sha256": "bbe2eadbb1a026605be6e25cc2380781014089bc045d6de7b82d8732ce98f755"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:df900711040809d37fbd4da3ffc19e6649cb746437ec00de15ad5952c7788568",
+          "sha256": "df900711040809d37fbd4da3ffc19e6649cb746437ec00de15ad5952c7788568"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:22c929151699d47a256dec0ed65a3b17632a2b7bf449c4a08e5d1d7c948d053a",
+          "sha256": "22c929151699d47a256dec0ed65a3b17632a2b7bf449c4a08e5d1d7c948d053a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:3faca0f2994817bf481c43509fa6b342b35e3ee48871a6ab504b51068df73b85",
+          "sha256": "3faca0f2994817bf481c43509fa6b342b35e3ee48871a6ab504b51068df73b85"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:8c0edbcdb903f2b6d33caa64bdd69ab5a19df1d026b2c3bd701bec325b0e9db8",
+          "sha256": "8c0edbcdb903f2b6d33caa64bdd69ab5a19df1d026b2c3bd701bec325b0e9db8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:84fec88e3f5c331b22e94a187a66d11818e4bcb04073515bea4f9d2242766bc4",
+          "sha256": "84fec88e3f5c331b22e94a187a66d11818e4bcb04073515bea4f9d2242766bc4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:c002d8bc874be1e7e0dce47586f33b776e4cfba7411406eb3530a3a946301d6d",
+          "sha256": "c002d8bc874be1e7e0dce47586f33b776e4cfba7411406eb3530a3a946301d6d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "giflib",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "openjpeg",
+    "webp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/leptonica.rb",
+  "ruby_source_checksum": {
+    "sha256": "ca9b6f9d0ba835a494f6f6adc4249f091e4603ea9bae008dab7686957757ce12"
+  },
+  "date_added": "2010-05-19T10:19:34-07:00"
+}

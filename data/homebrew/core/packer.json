@@ -1,0 +1,109 @@
+{
+  "name": "packer",
+  "full_name": "packer",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for creating identical machine images for multiple platforms",
+  "license": "MPL-2.0",
+  "homepage": "https://packer.io",
+  "versions": {
+    "stable": "1.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hashicorp/packer/archive/v1.9.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "16e5aa31892e917c18f866596c8fedd93e8631f72881997f20143bf2d22b91ee"
+    },
+    "head": {
+      "url": "https://github.com/hashicorp/packer.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:86078dc8c92b266ec793f3640cf84b78482a48811a8983ca3f0d50af356e571d",
+          "sha256": "86078dc8c92b266ec793f3640cf84b78482a48811a8983ca3f0d50af356e571d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:efb1aba43adc3ea94d7f144f7d4e30ef7772d6286c477ca4ffea276dfacbe4d7",
+          "sha256": "efb1aba43adc3ea94d7f144f7d4e30ef7772d6286c477ca4ffea276dfacbe4d7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:2507ed2ee7c00cacc1c1737226953f912d1f7a1b2ed71c358d61532adb349663",
+          "sha256": "2507ed2ee7c00cacc1c1737226953f912d1f7a1b2ed71c358d61532adb349663"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:7b99c7d8b0114cad8f3fa4cbd008e622a806436aafa52df08efba8d493c7a08e",
+          "sha256": "7b99c7d8b0114cad8f3fa4cbd008e622a806436aafa52df08efba8d493c7a08e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:75755be6f8513147b70efb3f858e3d5b45189218def98ea7073d79daa3c73f46",
+          "sha256": "75755be6f8513147b70efb3f858e3d5b45189218def98ea7073d79daa3c73f46"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:bc7bde320467a20c3a01914ed4df5a224d8262184d825d158c805e80bfbe307e",
+          "sha256": "bc7bde320467a20c3a01914ed4df5a224d8262184d825d158c805e80bfbe307e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packer/blobs/sha256:5386bf4d1987b195a6aabcc56e91e1adcd2339a2d4623ef6d7f78e5b1f9a0d24",
+          "sha256": "5386bf4d1987b195a6aabcc56e91e1adcd2339a2d4623ef6d7f78e5b1f9a0d24"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/packer.rb",
+  "ruby_source_checksum": {
+    "sha256": "78ee70ed259fcf376c267bb5016d1f849e4fb4e4670b0faa0950471fdcccea2b"
+  },
+  "date_added": "2015-05-14T10:50:18-07:00"
+}

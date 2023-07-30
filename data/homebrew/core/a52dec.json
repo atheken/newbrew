@@ -1,0 +1,103 @@
+{
+  "name": "a52dec",
+  "full_name": "a52dec",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for decoding ATSC A/52 streams (AKA 'AC-3')",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://git.adelielinux.org/community/a52dec/",
+  "versions": {
+    "stable": "0.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://distfiles.adelielinux.org/source/a52dec/a52dec-0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "03c181ce9c3fe0d2f5130de18dab9bd8bc63c354071515aa56983c74a9cffcc9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:1f40eee1f2254ecbeee873473dba633d2cc52f295aedb0ae3ae82db198d0c5b9",
+          "sha256": "1f40eee1f2254ecbeee873473dba633d2cc52f295aedb0ae3ae82db198d0c5b9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:61a272a68f11e79ba690068f532728eda218a9d86f330d070826bf003aedacfa",
+          "sha256": "61a272a68f11e79ba690068f532728eda218a9d86f330d070826bf003aedacfa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:24dae57187519f6ef5449df29562fa9d752d1844d00f2590bf5bb2b38213fd84",
+          "sha256": "24dae57187519f6ef5449df29562fa9d752d1844d00f2590bf5bb2b38213fd84"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:d365954f1957b92868f9a3335509eff98e4d52437b75a868165742c6849555d6",
+          "sha256": "d365954f1957b92868f9a3335509eff98e4d52437b75a868165742c6849555d6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:36ff9fa73cae7a8d1850cafa0f75d27df33d5f8bf5d57bf10a064de09e234194",
+          "sha256": "36ff9fa73cae7a8d1850cafa0f75d27df33d5f8bf5d57bf10a064de09e234194"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:cf1809cf8444fb50bbbe685e0f8ac697b84969cc0662d5079fa817c8eadd1ec3",
+          "sha256": "cf1809cf8444fb50bbbe685e0f8ac697b84969cc0662d5079fa817c8eadd1ec3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/a52dec/blobs/sha256:7a3d786826405966046c6962db674c563b89e86bf9ff5a53aecb9cea18f4df3d",
+          "sha256": "7a3d786826405966046c6962db674c563b89e86bf9ff5a53aecb9cea18f4df3d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/a52dec.rb",
+  "ruby_source_checksum": {
+    "sha256": "f53f511323b54524240cd8e2f014f2901492ae54618f6147e939e36e81d4440a"
+  },
+  "date_added": "2010-04-10T17:40:51+02:00"
+}

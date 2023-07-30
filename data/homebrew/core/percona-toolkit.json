@@ -1,0 +1,114 @@
+{
+  "name": "percona-toolkit",
+  "full_name": "percona-toolkit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tools for MySQL, MariaDB and system tasks",
+  "license": "GPL-2.0-only or Artistic-1.0-Perl",
+  "homepage": "https://www.percona.com/software/percona-toolkit/",
+  "versions": {
+    "stable": "3.5.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.percona.com/downloads/percona-toolkit/3.5.4/source/tarball/percona-toolkit-3.5.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "822003a386593352780e5d974a53de9bc5a7e35e64f7bbe631652f153c710ef8"
+    },
+    "head": {
+      "url": "lp:percona-toolkit",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:e0821eca0349aa75630663fd21f9fdcd712d84a9f53a01c146f4af961b307fc7",
+          "sha256": "e0821eca0349aa75630663fd21f9fdcd712d84a9f53a01c146f4af961b307fc7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:ad46f9da71dd6d08dc11e512406f127db1f180a8eae21673674dd2838e379277",
+          "sha256": "ad46f9da71dd6d08dc11e512406f127db1f180a8eae21673674dd2838e379277"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:14ce5916eae39f893d8f5a4a9a92fdc98cf61ea92f758402a534d6bfd7512942",
+          "sha256": "14ce5916eae39f893d8f5a4a9a92fdc98cf61ea92f758402a534d6bfd7512942"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:5c4639e809bc92e8c6035a4b9a25ee4fbd206ff4e60c70dd6265a8630422f6d7",
+          "sha256": "5c4639e809bc92e8c6035a4b9a25ee4fbd206ff4e60c70dd6265a8630422f6d7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:5e9f635c394e72054cb93ae117cca374b2404ac786f3489e30d1d13a794cf6b4",
+          "sha256": "5e9f635c394e72054cb93ae117cca374b2404ac786f3489e30d1d13a794cf6b4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:b59a0a7884c6df9143b19b929345fd6f17a13a69391d33ce68054e829d58b99d",
+          "sha256": "b59a0a7884c6df9143b19b929345fd6f17a13a69391d33ce68054e829d58b99d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-toolkit/blobs/sha256:4644e831db248a11ba18dd4c8d1e71d68ae99650763c64b6f300a2992c13efb9",
+          "sha256": "4644e831db248a11ba18dd4c8d1e71d68ae99650763c64b6f300a2992c13efb9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "mysql-client",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/percona-toolkit.rb",
+  "ruby_source_checksum": {
+    "sha256": "f477b087a23bf67798c5a66e58cda58d2e60baf79ee8f3c9fd93e18bec54af5c"
+  },
+  "date_added": "2012-01-29T17:20:54-08:00"
+}

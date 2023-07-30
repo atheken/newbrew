@@ -1,0 +1,81 @@
+{
+  "name": "maven@3.3",
+  "full_name": "maven@3.3",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "maven@3.5",
+    "maven@3.2"
+  ],
+  "desc": "Java-based project management",
+  "license": "Apache-2.0",
+  "homepage": "https://maven.apache.org/",
+  "versions": {
+    "stable": "3.3.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6e3e9c949ab4695a204f74038717aa7b2689b1be94875899ac1b3fe42800ff82"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maven/3.3/blobs/sha256:01312f11ae26710bfc86299357e9adb760bd6177ebe5d2f85d3e53bee572d19f",
+          "sha256": "01312f11ae26710bfc86299357e9adb760bd6177ebe5d2f85d3e53bee572d19f"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-07-31",
+  "disable_reason": "unmaintained",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/maven@3.3.rb",
+  "ruby_source_checksum": {
+    "sha256": "0eaf2caf5bb116fac1055307de1ee7ba954530ae859ce49aaaf650826266e7ba"
+  },
+  "date_added": "2017-04-12T04:28:09-07:00"
+}

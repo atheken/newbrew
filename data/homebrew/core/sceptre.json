@@ -1,0 +1,108 @@
+{
+  "name": "sceptre",
+  "full_name": "sceptre",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build better AWS infrastructure",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.sceptre-project.org/",
+  "versions": {
+    "stable": "4.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/05/cc/2ac3c8dd9323701b5ec61a58cc639a65cbada0ee539c837b4e78ccf54809/sceptre-4.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1fd5267854afc81ad1a315bbc82febb976ba6f490cb7f1e10f57f05030c7a04f"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:2cb3fd6cd7659050996bfc0ff60644a01511ebd14d42c716355ddbcadb14efc5",
+          "sha256": "2cb3fd6cd7659050996bfc0ff60644a01511ebd14d42c716355ddbcadb14efc5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:468fb7bf5460be0561f3e07bc8d0edba6f95496535478df44f1b6884c58a9e8b",
+          "sha256": "468fb7bf5460be0561f3e07bc8d0edba6f95496535478df44f1b6884c58a9e8b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:b75285d92ab1ccdc43db0e1c8fa7d3a083cfd809bbc739ba26c50242e621f73c",
+          "sha256": "b75285d92ab1ccdc43db0e1c8fa7d3a083cfd809bbc739ba26c50242e621f73c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:2cf5b62421dc131736f1d72a4305ada87430e8222e6feeede1ab5c19b53958d8",
+          "sha256": "2cf5b62421dc131736f1d72a4305ada87430e8222e6feeede1ab5c19b53958d8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:bb68d560b1e7738a627fc24ca415f73c7605ca3a33f71fc663832e64e2b52b44",
+          "sha256": "bb68d560b1e7738a627fc24ca415f73c7605ca3a33f71fc663832e64e2b52b44"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:7a4a286965b182c12a6ea5b0a85828408d01216cadf64fb1dfab93e084fe86fd",
+          "sha256": "7a4a286965b182c12a6ea5b0a85828408d01216cadf64fb1dfab93e084fe86fd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sceptre/blobs/sha256:8f27019b8feb91c07e0ddd6a3d40620df84043301907ebb0033aabb2234f7fa3",
+          "sha256": "8f27019b8feb91c07e0ddd6a3d40620df84043301907ebb0033aabb2234f7fa3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libyaml",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sceptre.rb",
+  "ruby_source_checksum": {
+    "sha256": "ef0dc87a1f08cbcf81a7ef5152567a2c33eb4282024811fce17c2e9abfc2f973"
+  },
+  "date_added": "2017-11-23T10:30:36-08:00"
+}

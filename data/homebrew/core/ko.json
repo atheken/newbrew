@@ -1,0 +1,105 @@
+{
+  "name": "ko",
+  "full_name": "ko",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build and deploy Go applications on Kubernetes",
+  "license": "Apache-2.0",
+  "homepage": "https://ko.build",
+  "versions": {
+    "stable": "0.14.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ko-build/ko/archive/v0.14.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a0621b2d6a2a3fbdad3627088b0edc5c67c13767a55050cb7e4c87bd597833bd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2",
+          "sha256": "beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2",
+          "sha256": "beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2",
+          "sha256": "beb1ee324e611b2e0d7f15f7bee20898574cf54668d9dbf1cfa9f4642548fbc2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9",
+          "sha256": "412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9",
+          "sha256": "412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9",
+          "sha256": "412d7c615d05ebe5ba08f61e91cc8ff930389344afc4c48ec794c849b30ee2a9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ko/blobs/sha256:0b7704424382fa7525a1a5f651bcc6f6db403f9c274ee68e911df932716f4ca0",
+          "sha256": "0b7704424382fa7525a1a5f651bcc6f6db403f9c274ee68e911df932716f4ca0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ko.rb",
+  "ruby_source_checksum": {
+    "sha256": "d753581dd17196b88a2338b62f3234d23e368da57dfa64e7e4b8704e61dba9bc"
+  },
+  "date_added": "2021-01-19T08:40:44+00:00"
+}

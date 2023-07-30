@@ -1,0 +1,112 @@
+{
+  "name": "duckscript",
+  "full_name": "duckscript",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple, extendable and embeddable scripting language",
+  "license": "Apache-2.0",
+  "homepage": "https://sagiegurari.github.io/duckscript",
+  "versions": {
+    "stable": "0.8.20",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sagiegurari/duckscript/archive/0.8.20.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "126de84f2cc03cb4ed8e835ed571dc2433ff15db7c558ad0c9455d87994977d2"
+    },
+    "head": {
+      "url": "https://github.com/sagiegurari/duckscript.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:2667af49cdfdafe3f1115280adfdcedc2e9fe9b3053bc2eb03a658e859a82ea5",
+          "sha256": "2667af49cdfdafe3f1115280adfdcedc2e9fe9b3053bc2eb03a658e859a82ea5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:6d1230e098bce64a0bf9190d9ad2171f64b80b3b29ce31b5c009e02779a653a8",
+          "sha256": "6d1230e098bce64a0bf9190d9ad2171f64b80b3b29ce31b5c009e02779a653a8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:186eaa2970ab0cea315729f5492aa99c285c24d9261fac505e674754526611d4",
+          "sha256": "186eaa2970ab0cea315729f5492aa99c285c24d9261fac505e674754526611d4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:f05eb25e79cd6dbfeee3fd7fbb93ec1cd8c9bae5bcaff9a1948dcf3a9696a68f",
+          "sha256": "f05eb25e79cd6dbfeee3fd7fbb93ec1cd8c9bae5bcaff9a1948dcf3a9696a68f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:5d7113f6cc7b63d6ccc504c3ac921561153d4e9d0e51fa0bddc1516b7d4d5e88",
+          "sha256": "5d7113f6cc7b63d6ccc504c3ac921561153d4e9d0e51fa0bddc1516b7d4d5e88"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:63734ea36b9ae620d5fa55f88ea8f470b4cb72d63f3f8fe28a7f7555cb5f9281",
+          "sha256": "63734ea36b9ae620d5fa55f88ea8f470b4cb72d63f3f8fe28a7f7555cb5f9281"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckscript/blobs/sha256:6f2ca9501af23dbc06e2a97fe7eb16482a0963173045892be624399d7e0e08b7",
+          "sha256": "6f2ca9501af23dbc06e2a97fe7eb16482a0963173045892be624399d7e0e08b7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/duckscript.rb",
+  "ruby_source_checksum": {
+    "sha256": "60d103869a11a108055e097565ea7ae9d33381f7b2212d5e1e8fe577cab03598"
+  },
+  "date_added": "2020-07-24T14:13:15+00:00"
+}

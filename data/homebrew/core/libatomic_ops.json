@@ -1,0 +1,103 @@
+{
+  "name": "libatomic_ops",
+  "full_name": "libatomic_ops",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementations for atomic memory update operations",
+  "license": "GPL-2.0-or-later and MIT",
+  "homepage": "https://github.com/ivmai/libatomic_ops/",
+  "versions": {
+    "stable": "7.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ivmai/libatomic_ops/releases/download/v7.8.0/libatomic_ops-7.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "15676e7674e11bda5a7e50a73f4d9e7d60452271b8acf6fd39a71fefdf89fa31"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:ed0db8f6667095ba3d496ceed407d24da924b5f5d294c138bb54aac074594990",
+          "sha256": "ed0db8f6667095ba3d496ceed407d24da924b5f5d294c138bb54aac074594990"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:7723e54538a406d853548be45f69e2064d79c733cf47e689917132c4156fec2e",
+          "sha256": "7723e54538a406d853548be45f69e2064d79c733cf47e689917132c4156fec2e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:27c11a727976b29caca9d7971a27ab10ee0aea1708b61e5bc56929e93759793b",
+          "sha256": "27c11a727976b29caca9d7971a27ab10ee0aea1708b61e5bc56929e93759793b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:e6705a2129f65fbc29ae067730e33e4d8fb150774c8a70f20d2fe3506ab26bdf",
+          "sha256": "e6705a2129f65fbc29ae067730e33e4d8fb150774c8a70f20d2fe3506ab26bdf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:212284fa313db676883d4e7c537ba782f934eb948c9f09921d69c858cdb44c8a",
+          "sha256": "212284fa313db676883d4e7c537ba782f934eb948c9f09921d69c858cdb44c8a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:0447f302797eb310f879dfd442a8447190df76877274f67dffcf718c7d19a3e9",
+          "sha256": "0447f302797eb310f879dfd442a8447190df76877274f67dffcf718c7d19a3e9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libatomic_ops/blobs/sha256:56a11f2c1002f3b7d07287a8360aa1afb101db94550526d616e74a76bec641b2",
+          "sha256": "56a11f2c1002f3b7d07287a8360aa1afb101db94550526d616e74a76bec641b2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libatomic_ops.rb",
+  "ruby_source_checksum": {
+    "sha256": "f2ae55f329e7c95193a0e62ef67a4ad94d3a53de2e1e8336e0b299605172b94c"
+  },
+  "date_added": "2013-09-10T13:01:41-07:00"
+}

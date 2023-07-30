@@ -1,0 +1,121 @@
+{
+  "name": "libftdi",
+  "full_name": "libftdi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library to talk to FTDI chips",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://www.intra2net.com/en/developer/libftdi",
+  "versions": {
+    "stable": "1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.intra2net.com/en/developer/libftdi/download/libftdi1-1.5.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "7c7091e9c86196148bd41177b4590dccb1510bfe6cea5bf7407ff194482eb049"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:db8777d9eec5f36b23b191183c6d25c398484c09b2ca5833d5ef252ef5ce7bfd",
+          "sha256": "db8777d9eec5f36b23b191183c6d25c398484c09b2ca5833d5ef252ef5ce7bfd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:00a1cf52f2dd6bc539fe5dc2cd2aa539722b285e37c0969e5e9b0e98e14f35c5",
+          "sha256": "00a1cf52f2dd6bc539fe5dc2cd2aa539722b285e37c0969e5e9b0e98e14f35c5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:998ea9ac5c02fdad06ad304dc36ccd0b010267271e7d68ff3f3cfbf407339067",
+          "sha256": "998ea9ac5c02fdad06ad304dc36ccd0b010267271e7d68ff3f3cfbf407339067"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:47d6bbb7af7b2e03dec5f2facae51a32650aac428628af0d5d8e393d48663fc8",
+          "sha256": "47d6bbb7af7b2e03dec5f2facae51a32650aac428628af0d5d8e393d48663fc8"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:a51e714c8f9c12fabd316d643927d09458535aeff83e97a00cdbdeddedfc0962",
+          "sha256": "a51e714c8f9c12fabd316d643927d09458535aeff83e97a00cdbdeddedfc0962"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:26dfaad8173c39d9aa57354256ae4885ea4154a5c3f539c0cb8929e627cafd72",
+          "sha256": "26dfaad8173c39d9aa57354256ae4885ea4154a5c3f539c0cb8929e627cafd72"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:8f20fb63150135151bac6d385c5c8fac07ccdc97c5d4a17d1d9aaf62737a606c",
+          "sha256": "8f20fb63150135151bac6d385c5c8fac07ccdc97c5d4a17d1d9aaf62737a606c"
+        },
+        "mojave": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:52fd8c98d57a09972db3db70a405c32c17dc7ea60663c058b8cfa17d51fc1951",
+          "sha256": "52fd8c98d57a09972db3db70a405c32c17dc7ea60663c058b8cfa17d51fc1951"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libftdi/blobs/sha256:9cd40f6f49dc081c4cc7e3ea4b159b428d1e611dbc708c1d06bcb3c10f1f3fea",
+          "sha256": "9cd40f6f49dc081c4cc7e3ea4b159b428d1e611dbc708c1d06bcb3c10f1f3fea"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "swig"
+  ],
+  "dependencies": [
+    "boost",
+    "confuse",
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libftdi.rb",
+  "ruby_source_checksum": {
+    "sha256": "c2319be14d539e10aa2c68dd3207a13726554453814ebb4e7b350341588e70f6"
+  },
+  "date_added": "2010-04-06T21:17:48-07:00"
+}

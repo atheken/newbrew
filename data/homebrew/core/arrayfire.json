@@ -1,0 +1,113 @@
+{
+  "name": "arrayfire",
+  "full_name": "arrayfire",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "General purpose GPU library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://arrayfire.com",
+  "versions": {
+    "stable": "3.8.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/arrayfire/arrayfire/releases/download/v3.8.3/arrayfire-full-3.8.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "331e28f133d39bc4bdbc531db400ba5d9834ed2d41578a0b8e68b73ee4ee423c"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:e916ffb9494f4ae60b3175ab5f0fbdbb28692e1c089717231c92b889a36a8ae8",
+          "sha256": "e916ffb9494f4ae60b3175ab5f0fbdbb28692e1c089717231c92b889a36a8ae8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:34f2ce47650347432d1450987136ea6cb1422ecd38d37ae069cbc2740083f757",
+          "sha256": "34f2ce47650347432d1450987136ea6cb1422ecd38d37ae069cbc2740083f757"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:b6608aeabf74e797ea20f252c0d628ddd5ceaba521007e334fe6a48c0d64a36b",
+          "sha256": "b6608aeabf74e797ea20f252c0d628ddd5ceaba521007e334fe6a48c0d64a36b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:e5403a4ce6bc13591df9f4ce264a1d371ef07f55f4f8e8010c16d239b2781f68",
+          "sha256": "e5403a4ce6bc13591df9f4ce264a1d371ef07f55f4f8e8010c16d239b2781f68"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:9d7acf295cf98c0a83b5bcd20f52b751061e190a493c14395953d1fe581d7681",
+          "sha256": "9d7acf295cf98c0a83b5bcd20f52b751061e190a493c14395953d1fe581d7681"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:f915f6c9b0bfd74bfc4439540da386a4ecb2c7689d365bbf400b4baf33b4bf4c",
+          "sha256": "f915f6c9b0bfd74bfc4439540da386a4ecb2c7689d365bbf400b4baf33b4bf4c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arrayfire/blobs/sha256:21ee45b0496f607d95fed9d002eb4b8a5a0e544bf1a7fa661dd8434c42829920",
+          "sha256": "21ee45b0496f607d95fed9d002eb4b8a5a0e544bf1a7fa661dd8434c42829920"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "boost",
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [
+    "fftw",
+    "fmt",
+    "freeimage",
+    "openblas",
+    "spdlog"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/arrayfire.rb",
+  "ruby_source_checksum": {
+    "sha256": "e8b3bc471355ec249d3cd0cf0430dd057148c3f47c9554d3ce15a93cfc36e1a0"
+  },
+  "date_added": "2020-07-13T08:45:19+00:00"
+}

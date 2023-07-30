@@ -1,0 +1,105 @@
+{
+  "name": "dua-cli",
+  "full_name": "dua-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "View disk space usage and delete unwanted data, fast",
+  "license": "MIT",
+  "homepage": "https://lib.rs/crates/dua-cli",
+  "versions": {
+    "stable": "2.20.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Byron/dua-cli/archive/refs/tags/v2.20.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "05ce2d74ec1282803c6825b0436d8b268eef176060b844ae29746a3d338fe658"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:e55e886006366e0bbaf87b741d782997cff53779204060d772fa641104a0f4fc",
+          "sha256": "e55e886006366e0bbaf87b741d782997cff53779204060d772fa641104a0f4fc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:9e45562d2303c72404e917d6ebd21d45e08e92da458fa7e31bc92503f158d1cf",
+          "sha256": "9e45562d2303c72404e917d6ebd21d45e08e92da458fa7e31bc92503f158d1cf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:911dece14e16458500f806ef74be1f22fd9bee50e6ecd9b48f8eb02953a67843",
+          "sha256": "911dece14e16458500f806ef74be1f22fd9bee50e6ecd9b48f8eb02953a67843"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:df03bc090641f93dc0c122dd6e323183af61c8c7e1b0fa50f7ee7792b6117ba8",
+          "sha256": "df03bc090641f93dc0c122dd6e323183af61c8c7e1b0fa50f7ee7792b6117ba8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:c58a5d68db3faa7d3b29049598c0967202e08bc68fa85bc3efdfaa2b97983776",
+          "sha256": "c58a5d68db3faa7d3b29049598c0967202e08bc68fa85bc3efdfaa2b97983776"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:18ed6f07fc379d000cb96ac204e7f0e1249ca8a69529ad8ca4abecb731b7e0dd",
+          "sha256": "18ed6f07fc379d000cb96ac204e7f0e1249ca8a69529ad8ca4abecb731b7e0dd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dua-cli/blobs/sha256:44dff7181ddb90c892a558ceadbd44eae2c65d6e8738be65e7798dca0142bd55",
+          "sha256": "44dff7181ddb90c892a558ceadbd44eae2c65d6e8738be65e7798dca0142bd55"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dua-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "a604f00a0943f149f08eddeb800d9461b5ae0ba0ddc026c81c92c8d5c5b441a3"
+  },
+  "date_added": "2021-04-11T19:10:16+00:00"
+}

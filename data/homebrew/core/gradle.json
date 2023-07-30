@@ -1,0 +1,110 @@
+{
+  "name": "gradle",
+  "full_name": "gradle",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "gradle@8"
+  ],
+  "versioned_formulae": [
+    "gradle@7",
+    "gradle@6"
+  ],
+  "desc": "Open-source build automation tool based on the Groovy and Kotlin DSL",
+  "license": "Apache-2.0",
+  "homepage": "https://www.gradle.org/",
+  "versions": {
+    "stable": "8.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://services.gradle.org/distributions/gradle-8.2.1-all.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "7c3ad722e9b0ce8205b91560fd6ce8296ac3eadf065672242fd73c06b8eeb6ee"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028",
+          "sha256": "cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028",
+          "sha256": "cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028",
+          "sha256": "cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e",
+          "sha256": "0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e",
+          "sha256": "0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e",
+          "sha256": "0827979f8a88ab5d214ccf22f4627f4d173140ec16f3c09f7a0ad7689bb45f5e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028",
+          "sha256": "cb845ba56cfb528ebd2c35f4b7e93ac5a7017a48c5e17df6deceed93fc30f028"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gradle.rb",
+  "ruby_source_checksum": {
+    "sha256": "8d137b4de0873818c514e7b889733c720f95544362b67d7f2aabe3cb9f7f1bf5"
+  },
+  "date_added": "2010-06-15T10:26:59-07:00"
+}

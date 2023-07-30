@@ -1,0 +1,111 @@
+{
+  "name": "azure-storage-cpp",
+  "full_name": "azure-storage-cpp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Microsoft Azure Storage Client Library for C++",
+  "license": "Apache-2.0",
+  "homepage": "https://azure.github.io/azure-storage-cpp",
+  "versions": {
+    "stable": "7.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Azure/azure-storage-cpp/archive/v7.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "446a821d115949f6511b7eb01e6a0e4f014b17bfeba0f3dc33a51750a9d5eca5"
+    }
+  },
+  "revision": 6,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:ab552ebf3bdc993fc9e579e2a6b75759c9da2ae1be66951caf8f9e609d7a1800",
+          "sha256": "ab552ebf3bdc993fc9e579e2a6b75759c9da2ae1be66951caf8f9e609d7a1800"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:46cd609d6586555b067f95d24cf0de532e40db79b0b3367c290d51cab751ce41",
+          "sha256": "46cd609d6586555b067f95d24cf0de532e40db79b0b3367c290d51cab751ce41"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:be9e3706cc237d12e7285ca3184b45681784905855e0f12e71457fdde06e980d",
+          "sha256": "be9e3706cc237d12e7285ca3184b45681784905855e0f12e71457fdde06e980d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:30ff16a364d78d4ff1b0478c79262628c42f614a585be85649cdb6dd1ef9d37c",
+          "sha256": "30ff16a364d78d4ff1b0478c79262628c42f614a585be85649cdb6dd1ef9d37c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:412a2a4bc2bb9a1e8e350fc906b43bc1f6461efc36bc21246358b4ee0cea2c4f",
+          "sha256": "412a2a4bc2bb9a1e8e350fc906b43bc1f6461efc36bc21246358b4ee0cea2c4f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:cf309d60aec3a7898cb09864286a950332cda74e165f7c8d741ef8f74b1cdd3a",
+          "sha256": "cf309d60aec3a7898cb09864286a950332cda74e165f7c8d741ef8f74b1cdd3a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/azure-storage-cpp/blobs/sha256:cc25900db6d940de570b1196d2680d440be510bbadf5310208e3728b6b55ebed",
+          "sha256": "cc25900db6d940de570b1196d2680d440be510bbadf5310208e3728b6b55ebed"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "cpprestsdk",
+    "gettext",
+    "openssl@3",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/azure-storage-cpp.rb",
+  "ruby_source_checksum": {
+    "sha256": "63a36cad27612b75a558234dc5a1c5ec47486183c5b51d8f187b515e66c043de"
+  },
+  "date_added": "2018-11-02T17:14:07+01:00"
+}

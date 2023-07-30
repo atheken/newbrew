@@ -1,0 +1,109 @@
+{
+  "name": "getmail6",
+  "full_name": "getmail6",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Extensible mail retrieval system with POP3, IMAP4, SSL support",
+  "license": "GPL-2.0-only",
+  "homepage": "https://getmail6.org/",
+  "versions": {
+    "stable": "6.18.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/getmail6/getmail6/archive/refs/tags/v6.18.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "419dc11184b147ef4daac2ec9f136b1b37e6450e2f44099629a6b7650deb044a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530",
+          "sha256": "1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530",
+          "sha256": "1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530",
+          "sha256": "1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265",
+          "sha256": "ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265",
+          "sha256": "ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265",
+          "sha256": "ed5dd093960948c844fca55dddc1be98f740e43fa4e84f55f84ab92b6df00265"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getmail6/blobs/sha256:1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530",
+          "sha256": "1b78657f43b1b31999bdec34a6919fe344b3287e9c41abed5b8091c3b116f530"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "python"
+  ],
+  "uses_from_macos_bounds": [
+    {
+      "since": "catalina"
+    }
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/getmail6.rb",
+  "ruby_source_checksum": {
+    "sha256": "404190ffd420165f6393aab2b41ab04ff290e118c29bcbb4392bcca7e7c1470e"
+  },
+  "date_added": "2023-06-19T13:55:23-04:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "xgboost",
+  "full_name": "xgboost",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scalable, Portable and Distributed Gradient Boosting Library",
+  "license": "Apache-2.0",
+  "homepage": "https://xgboost.ai/",
+  "versions": {
+    "stable": "1.7.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dmlc/xgboost.git",
+      "tag": "v1.7.6",
+      "revision": "36eb41c960483c8b52b44082663c99e6a0de440a",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:04d72cbe85a1a802e07408742e5b64b9312a7320789118413a29103438474dd1",
+          "sha256": "04d72cbe85a1a802e07408742e5b64b9312a7320789118413a29103438474dd1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:97bc38d310ed1c56c1e6058913444c43f5283a8a35130312a8606802e9d63672",
+          "sha256": "97bc38d310ed1c56c1e6058913444c43f5283a8a35130312a8606802e9d63672"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:0431d0005d51463623548e8113b7b8f926606b160d69459fc6c4879fd890293f",
+          "sha256": "0431d0005d51463623548e8113b7b8f926606b160d69459fc6c4879fd890293f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:12df562c167a27ba5e678a50a2ab72a4e786013387bf9403f6b82983eaf45a56",
+          "sha256": "12df562c167a27ba5e678a50a2ab72a4e786013387bf9403f6b82983eaf45a56"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:0d2664d8ce124545e28c1af5bb03dd05836fb9f39c25ad3fc67287563173add8",
+          "sha256": "0d2664d8ce124545e28c1af5bb03dd05836fb9f39c25ad3fc67287563173add8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:48b3579a36401fa6611fe6de895754807f7eda9e3a1a7872723fa92782d549d5",
+          "sha256": "48b3579a36401fa6611fe6de895754807f7eda9e3a1a7872723fa92782d549d5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xgboost/blobs/sha256:e91c0a44dbc2c19678aa481e1e1077007a56098c3a8beb2d7bf5d31437e0187d",
+          "sha256": "e91c0a44dbc2c19678aa481e1e1077007a56098c3a8beb2d7bf5d31437e0187d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xgboost.rb",
+  "ruby_source_checksum": {
+    "sha256": "b38c4ac15e810a21d1b4c450de7acdd8239a35d5d32d0f224fc1e6f604dae040"
+  },
+  "date_added": "2019-10-07T11:02:49+02:00"
+}

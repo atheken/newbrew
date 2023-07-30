@@ -1,0 +1,107 @@
+{
+  "name": "luajit",
+  "full_name": "luajit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Just-In-Time Compiler (JIT) for the Lua programming language",
+  "license": "MIT",
+  "homepage": "https://luajit.org/luajit.html",
+  "versions": {
+    "stable": "2.1.0-beta3-20230712.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/LuaJIT/LuaJIT/archive/8635cbabf3094c4d8bd00578c7d812bea87bb2d3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "835035b244c3dc3d3d19bdd5ac623af90b84207e6330fb78f9fa51d6e200d760"
+    },
+    "head": {
+      "url": "https://luajit.org/git/luajit-2.0.git",
+      "branch": "v2.1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:d254ee8085315f23f596b786821d3132855ce55bf8ba0aa4518c6b7ce40adbe9",
+          "sha256": "d254ee8085315f23f596b786821d3132855ce55bf8ba0aa4518c6b7ce40adbe9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:41f07225ae344b53deaf851a9810a12bcb57a911400ce4ac2a7435406464d96b",
+          "sha256": "41f07225ae344b53deaf851a9810a12bcb57a911400ce4ac2a7435406464d96b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:07b9f4e3fcd87bdbdfaea359113912f9b5820393104856ad4a9b32b45ea32ae5",
+          "sha256": "07b9f4e3fcd87bdbdfaea359113912f9b5820393104856ad4a9b32b45ea32ae5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:eb0c455530d388d00c46ce74209f06ebac945cc92bd0a700135a2fc4bff11e30",
+          "sha256": "eb0c455530d388d00c46ce74209f06ebac945cc92bd0a700135a2fc4bff11e30"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:a24fe60a6ca00bc85c22915c431e9137a87994505de51d0c62faab658e2db3bc",
+          "sha256": "a24fe60a6ca00bc85c22915c431e9137a87994505de51d0c62faab658e2db3bc"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:2a5c58a798744622467918083e5a947cd32964302508b759601837f6e3f13f31",
+          "sha256": "2a5c58a798744622467918083e5a947cd32964302508b759601837f6e3f13f31"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:2d88d7da1e1990863a70e66069730e2d71801d704f257f2da2941079fb6e577a",
+          "sha256": "2d88d7da1e1990863a70e66069730e2d71801d704f257f2da2941079fb6e577a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/luajit.rb",
+  "ruby_source_checksum": {
+    "sha256": "9ac332cfe49d2ee60e11a26b920c88a0b877d45da9f7ba5fda845e603d4eb6a7"
+  },
+  "date_added": "2010-05-24T09:44:25-07:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "libwebm",
+  "full_name": "libwebm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "WebM container",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.webmproject.org/code/",
+  "versions": {
+    "stable": "1.0.0.30",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/webmproject/libwebm/archive/libwebm-1.0.0.30.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6c1381fd1a66e86e095b76028ede696724e198ea0e39957c9649af5f0718b96a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:97a2d4d78fc365ad2a2b1219597e24e0c99fecfb001d59ac909490919886659a",
+          "sha256": "97a2d4d78fc365ad2a2b1219597e24e0c99fecfb001d59ac909490919886659a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:a99910e4e7c3eda52063a5ce8af1ceca221e573ac750e4a44e10d72e409034bc",
+          "sha256": "a99910e4e7c3eda52063a5ce8af1ceca221e573ac750e4a44e10d72e409034bc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:ad40f80c6ab3251c8a15d4b69237da7903861605f83077277d6784451fb1ceda",
+          "sha256": "ad40f80c6ab3251c8a15d4b69237da7903861605f83077277d6784451fb1ceda"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:bad46316d12e5ed6115667c97d0bbcdf559dfc518828c9d3609bcc39fc4e2ab3",
+          "sha256": "bad46316d12e5ed6115667c97d0bbcdf559dfc518828c9d3609bcc39fc4e2ab3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:10d205ec71e3bab053c06c0f8cbadc27a64ad8c4d383c8e2876dfea9da1d5af3",
+          "sha256": "10d205ec71e3bab053c06c0f8cbadc27a64ad8c4d383c8e2876dfea9da1d5af3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:dd560f1cb7c59441fbb5251883718af0fa39569e2d3abb4066926f6290d2eb01",
+          "sha256": "dd560f1cb7c59441fbb5251883718af0fa39569e2d3abb4066926f6290d2eb01"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebm/blobs/sha256:73347ce7d3bb4f6c28d61a31bf3c7362c332394d772559480a4b813578267d2e",
+          "sha256": "73347ce7d3bb4f6c28d61a31bf3c7362c332394d772559480a4b813578267d2e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libwebm.rb",
+  "ruby_source_checksum": {
+    "sha256": "20ce9c9e38598fcbcd9883d5eb1052034a837297d6f6605936c6530934312fd3"
+  },
+  "date_added": "2015-06-24T20:44:41+01:00"
+}

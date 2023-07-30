@@ -1,0 +1,108 @@
+{
+  "name": "sqlx-cli",
+  "full_name": "sqlx-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line utility for SQLx, the Rust SQL toolkit",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/launchbadge/sqlx",
+  "versions": {
+    "stable": "0.7.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/launchbadge/sqlx/archive/v0.7.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8e2697e3c8a102234f97e74c2d7c8ec83df2761c14eaf519b6e9302065f4c428"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:6dde9a1bd9ed20e3395edf73c33e2ea1572c5ee0a82f04058ef7a39065f75ee7",
+          "sha256": "6dde9a1bd9ed20e3395edf73c33e2ea1572c5ee0a82f04058ef7a39065f75ee7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:b65718af623e94f46c515ea2b93f1c56bbdae6bdf9c188c6754fa830091dcab8",
+          "sha256": "b65718af623e94f46c515ea2b93f1c56bbdae6bdf9c188c6754fa830091dcab8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:5994e742d40958fa3ba2044bca135d721e20ea90bc64677783106f889aa9d810",
+          "sha256": "5994e742d40958fa3ba2044bca135d721e20ea90bc64677783106f889aa9d810"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:72e6cc892d7379b35f17cd49255638710c6bc502a813c545bf8f9f22038230e5",
+          "sha256": "72e6cc892d7379b35f17cd49255638710c6bc502a813c545bf8f9f22038230e5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:276bf1bce14d2d765792be811c070793fd978160fe66dd6a340c28cd3f74b49c",
+          "sha256": "276bf1bce14d2d765792be811c070793fd978160fe66dd6a340c28cd3f74b49c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:a8fe6c26135068f5e0b5817750e8537564ff926f1432cb5a04337c802ff45b7a",
+          "sha256": "a8fe6c26135068f5e0b5817750e8537564ff926f1432cb5a04337c802ff45b7a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlx-cli/blobs/sha256:88d6e799789af1b3739b5a802bd676a7a0985ac9dd27e70f4cdc5b7ead6535c3",
+          "sha256": "88d6e799789af1b3739b5a802bd676a7a0985ac9dd27e70f4cdc5b7ead6535c3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sqlx-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "98aa42b2e5777d62d6adf7f97a6857b349185e373bd93f60f0b135d896e96e42"
+  },
+  "date_added": "2021-06-05T11:20:38+00:00"
+}

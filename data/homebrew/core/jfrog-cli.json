@@ -1,0 +1,107 @@
+{
+  "name": "jfrog-cli",
+  "full_name": "jfrog-cli",
+  "tap": "homebrew/core",
+  "oldname": "jfrog-cli-go",
+  "oldnames": [
+    "jfrog-cli-go"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line interface for JFrog products",
+  "license": "Apache-2.0",
+  "homepage": "https://www.jfrog.com/confluence/display/CLI/JFrog+CLI",
+  "versions": {
+    "stable": "2.44.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.44.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "69c1084caacd911370d81a8eee8e6fb95ed4e9959e377234c3a1ec6d0cf6e404"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479",
+          "sha256": "8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479",
+          "sha256": "8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479",
+          "sha256": "8890192ef40c2ef099eaf4e2bfb8b067a99721718aae6594115c447006246479"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef",
+          "sha256": "ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef",
+          "sha256": "ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef",
+          "sha256": "ca10b946f45057690e471a9a50a7d1ae8f9a25544525a1d185ab955fd12ab3ef"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jfrog-cli/blobs/sha256:51f763b2fe4fbddbc7ed3ad27f6673159fdc73ea887932a4db560d3fa2fe9f18",
+          "sha256": "51f763b2fe4fbddbc7ed3ad27f6673159fdc73ea887932a4db560d3fa2fe9f18"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jfrog-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "9456a8a91f17e8a7d33c2737e9c2a73193a4927376c26077d69fd43b702dabf3"
+  },
+  "date_added": "2020-06-02T18:07:38+00:00"
+}

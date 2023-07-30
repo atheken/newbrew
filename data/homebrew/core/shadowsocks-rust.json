@@ -1,0 +1,109 @@
+{
+  "name": "shadowsocks-rust",
+  "full_name": "shadowsocks-rust",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Rust port of Shadowsocks",
+  "license": "MIT",
+  "homepage": "https://github.com/shadowsocks/shadowsocks-rust",
+  "versions": {
+    "stable": "1.15.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/shadowsocks/shadowsocks-rust/archive/v1.15.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d3077af7d292ff2a0d36e9debb2104e37ad998deac4dd6eb0674b8fe7d41cf20"
+    },
+    "head": {
+      "url": "https://github.com/shadowsocks/shadowsocks-rust.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:8c67b36d6fbe591bf842ef3e211cb3a5e6ce57ffbf631d884a0312f0a43e0365",
+          "sha256": "8c67b36d6fbe591bf842ef3e211cb3a5e6ce57ffbf631d884a0312f0a43e0365"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:8ae8f4672096f472c3c79c9be3a298baad6da28e5c05d1d87b9087d8a972336c",
+          "sha256": "8ae8f4672096f472c3c79c9be3a298baad6da28e5c05d1d87b9087d8a972336c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:58b79ff7aab28cbab0a4f3bd7bef44a1f0f9c6b50c57000a6860221e45e7fe8b",
+          "sha256": "58b79ff7aab28cbab0a4f3bd7bef44a1f0f9c6b50c57000a6860221e45e7fe8b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:b46fd72b4c4dd4126b45771d5534c4a0f89f4ccd5d8fc16664866bc25e335975",
+          "sha256": "b46fd72b4c4dd4126b45771d5534c4a0f89f4ccd5d8fc16664866bc25e335975"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:581031ca8cfef89c66cff38278fcbc4286b90fde49c1747f9752e210915fb56d",
+          "sha256": "581031ca8cfef89c66cff38278fcbc4286b90fde49c1747f9752e210915fb56d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:a97d6789cbd4d0550267478a603c0293780a415a2a26d590ad1697360c40b4df",
+          "sha256": "a97d6789cbd4d0550267478a603c0293780a415a2a26d590ad1697360c40b4df"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/shadowsocks-rust/blobs/sha256:9b81108b06b272e265f95bed8b06e7732b0c6b638e70741b5c7b9b99f7196fca",
+          "sha256": "9b81108b06b272e265f95bed8b06e7732b0c6b638e70741b5c7b9b99f7196fca"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/shadowsocks-rust.rb",
+  "ruby_source_checksum": {
+    "sha256": "438a46d8584f2a727936674963a18b05387cbaed2d8b4b1acb5be2c3f85fcc13"
+  },
+  "date_added": "2022-03-27T03:33:41+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "nim",
+  "full_name": "nim",
+  "tap": "homebrew/core",
+  "oldname": "nimrod",
+  "oldnames": [
+    "nimrod"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Statically typed compiled systems programming language",
+  "license": "MIT",
+  "homepage": "https://nim-lang.org/",
+  "versions": {
+    "stable": "1.6.14",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://nim-lang.org/download/nim-1.6.14.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d070d2f28ae2400df7fe4a49eceb9f45cd539906b107481856a0af7a8fa82dc9"
+    },
+    "head": {
+      "url": "https://github.com/nim-lang/Nim.git",
+      "branch": "devel"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:c0d657335f096e22180b7d923572298bc1f9c39c78d173674d90db1a5ea0fdf6",
+          "sha256": "c0d657335f096e22180b7d923572298bc1f9c39c78d173674d90db1a5ea0fdf6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:17a89c77be7b79a5ad4da17848db599144cc1b6e8b56da67b735167c859aecb1",
+          "sha256": "17a89c77be7b79a5ad4da17848db599144cc1b6e8b56da67b735167c859aecb1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:df0a7ffb4c7971ebb3f889ca6c295da03d0dba830e489cd6accd1de48b5a8087",
+          "sha256": "df0a7ffb4c7971ebb3f889ca6c295da03d0dba830e489cd6accd1de48b5a8087"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:909f00f8b3404a67ad16b7b817731eff8c026c338783452b6803125882853b15",
+          "sha256": "909f00f8b3404a67ad16b7b817731eff8c026c338783452b6803125882853b15"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:1422b265bf8e39928c9712007e45b987719c3c85e033f9bf30529d1918391934",
+          "sha256": "1422b265bf8e39928c9712007e45b987719c3c85e033f9bf30529d1918391934"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:545546c1969539b9b825467f0d816afbcdf6c08d028224a9483701635a1d7bee",
+          "sha256": "545546c1969539b9b825467f0d816afbcdf6c08d028224a9483701635a1d7bee"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nim/blobs/sha256:1a7f17b6b94df0553b383e31ffd501e65325ec598096fd4224f0e761d9b7f32f",
+          "sha256": "1a7f17b6b94df0553b383e31ffd501e65325ec598096fd4224f0e761d9b7f32f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "help2man"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nim.rb",
+  "ruby_source_checksum": {
+    "sha256": "f6b3a60ec0a798de6323a9f40965b41cebd60f3009723da1fdfc14312a4e669c"
+  },
+  "date_added": "2015-11-03T18:01:33-08:00"
+}

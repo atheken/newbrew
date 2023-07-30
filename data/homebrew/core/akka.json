@@ -1,0 +1,75 @@
+{
+  "name": "akka",
+  "full_name": "akka",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Toolkit for building concurrent, distributed, and fault tolerant apps",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/akka/akka",
+  "versions": {
+    "stable": "2.4.20",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.typesafe.com/akka/akka_2.11-2.4.20.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "6f6af368672640512f8e0099a5d88277f4ac64de7d4edd151411e6a80cc78d0f"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/akka/blobs/sha256:a1b321e709c3c0165d5254fa009f2c8596e7803cf1c0fb8e9753562910c34239",
+          "sha256": "a1b321e709c3c0165d5254fa009f2c8596e7803cf1c0fb8e9753562910c34239"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-07-31",
+  "disable_reason": "is recommended to use Akka with a build tool",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/akka.rb",
+  "ruby_source_checksum": {
+    "sha256": "3b2326ab21c7a7cbafa09ee5d6788c1c17718a4587cd423c808322a045e97824"
+  },
+  "date_added": "2012-05-15T21:28:09-07:00"
+}

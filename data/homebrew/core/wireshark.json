@@ -1,0 +1,137 @@
+{
+  "name": "wireshark",
+  "full_name": "wireshark",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Graphical network analyzer and capture tool",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.wireshark.org",
+  "versions": {
+    "stable": "4.0.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.wireshark.org/download/src/all-versions/wireshark-4.0.7.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a79f7b04cbff823e30452abf4bcb86773d8583eb62d5f71f16c09f019f8a8777"
+    },
+    "head": {
+      "url": "https://gitlab.com/wireshark/wireshark.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:ae47d5bf4add72ecf9fe314dea23fca1d6d88babdc541e1fd18dd11e95448121",
+          "sha256": "ae47d5bf4add72ecf9fe314dea23fca1d6d88babdc541e1fd18dd11e95448121"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:7ecb68a1d1c019fe7e22b3c65ffe6c563d8a1e988912f22e82dd1f78b3f7232e",
+          "sha256": "7ecb68a1d1c019fe7e22b3c65ffe6c563d8a1e988912f22e82dd1f78b3f7232e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:5de302752852a6c3f8b663eeb94bf52be21e84450ecf8ef41e61023c5fc15f65",
+          "sha256": "5de302752852a6c3f8b663eeb94bf52be21e84450ecf8ef41e61023c5fc15f65"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:34d5acb1a86024348c6d5ac9b812c746ee3852b6dea66930fb7e88aad4d33309",
+          "sha256": "34d5acb1a86024348c6d5ac9b812c746ee3852b6dea66930fb7e88aad4d33309"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:19391041d5bcb6de2592fe8e9dbc5b80b4c9b7994c9ec903536e258d8f16f9a0",
+          "sha256": "19391041d5bcb6de2592fe8e9dbc5b80b4c9b7994c9ec903536e258d8f16f9a0"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:60f584caf2a0b14baa386543f21910d3ad8bb4808d1ac50d78bd31409328729d",
+          "sha256": "60f584caf2a0b14baa386543f21910d3ad8bb4808d1ac50d78bd31409328729d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wireshark/blobs/sha256:b106a76bcb17a97654f4221b0c885209eb5a17fbf445ccf98bf8b4843f8c8084",
+          "sha256": "b106a76bcb17a97654f4221b0c885209eb5a17fbf445ccf98bf8b4843f8c8084"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "c-ares",
+    "glib",
+    "gnutls",
+    "libgcrypt",
+    "libmaxminddb",
+    "libnghttp2",
+    "libsmi",
+    "libssh",
+    "lua"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    {
+      "python": "build"
+    },
+    "libpcap",
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "This formula only installs the command-line utilities by default.\n\nInstall Wireshark.app with Homebrew Cask:\n  brew install --cask wireshark\n\nIf your list of available capture interfaces is empty\n(default macOS behavior), install ChmodBPF:\n  brew install --cask wireshark-chmodbpf\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wireshark.rb",
+  "ruby_source_checksum": {
+    "sha256": "ce35684ce31b978551cb24601a119237f8600342c195b6d3287e563803014974"
+  },
+  "date_added": "2009-06-06T23:54:52+01:00"
+}

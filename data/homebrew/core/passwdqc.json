@@ -1,0 +1,109 @@
+{
+  "name": "passwdqc",
+  "full_name": "passwdqc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Password/passphrase strength checking and enforcement toolset",
+  "license": "0BSD",
+  "homepage": "https://www.openwall.com/passwdqc/",
+  "versions": {
+    "stable": "2.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.openwall.com/passwdqc/passwdqc-2.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "53b0f4bc49369f06195e9e13abb6cff352d5acb79e861004ec95973896488cf4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:d6212417a711c18e45a28eb3a24a775d091665538ed50f678d077fa47e647f7d",
+          "sha256": "d6212417a711c18e45a28eb3a24a775d091665538ed50f678d077fa47e647f7d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:1fa6444ca8237d6bed9e187245dee44ea797f13c8822ab77527df7c47f324c16",
+          "sha256": "1fa6444ca8237d6bed9e187245dee44ea797f13c8822ab77527df7c47f324c16"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:e8d4dc476b0ff113653823c425dcbfc89ad57112a89086fa8602f27f0c3c0f41",
+          "sha256": "e8d4dc476b0ff113653823c425dcbfc89ad57112a89086fa8602f27f0c3c0f41"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:40dd6c923246ef225bf9e129e5ae142ed77fe7d111f92654fab0e3edd921f612",
+          "sha256": "40dd6c923246ef225bf9e129e5ae142ed77fe7d111f92654fab0e3edd921f612"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:72f01dbc795a98ac1ec65db7c31f62e13182d47c422b116c57f72d34a8fc7c6f",
+          "sha256": "72f01dbc795a98ac1ec65db7c31f62e13182d47c422b116c57f72d34a8fc7c6f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:7fb7c879feb5562187e03d4d2a1bbc5be855330c1382cac43ef3378818eacb02",
+          "sha256": "7fb7c879feb5562187e03d4d2a1bbc5be855330c1382cac43ef3378818eacb02"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/passwdqc/blobs/sha256:1ef0b2b3f545ca92181f77b7fff78992ffe1a6a84d31dd26103ecc3696cb9a3f",
+          "sha256": "1ef0b2b3f545ca92181f77b7fff78992ffe1a6a84d31dd26103ecc3696cb9a3f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/passwdqc.rb",
+  "ruby_source_checksum": {
+    "sha256": "3b4ce5c8b71d7c88a58743312444a00ce0ea7189d691048f3592af6d2a5c6aa6"
+  },
+  "date_added": "2017-05-02T12:12:10+02:00"
+}

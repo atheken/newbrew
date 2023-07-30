@@ -1,0 +1,115 @@
+{
+  "name": "activemq",
+  "full_name": "activemq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "apache-activemq"
+  ],
+  "versioned_formulae": [],
+  "desc": "Apache ActiveMQ: powerful open source messaging server",
+  "license": "Apache-2.0",
+  "homepage": "https://activemq.apache.org/",
+  "versions": {
+    "stable": "5.18.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=activemq/5.18.2/apache-activemq-5.18.2-bin.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd3df3ec2f791d47f4351bc0e5d5f9880c220a451a31820edbf839962ec8430a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:f4b0c952a8e56a52f8f1fdf3a82ad5ae901fd028d1c1f4e04d3cee66e05ccec0",
+          "sha256": "f4b0c952a8e56a52f8f1fdf3a82ad5ae901fd028d1c1f4e04d3cee66e05ccec0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:95bececfb3d00a1b12b6ba5f1278e6f0c0bd75e133814b8c4519713909fad723",
+          "sha256": "95bececfb3d00a1b12b6ba5f1278e6f0c0bd75e133814b8c4519713909fad723"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:306b098ca800f9e54c4cebc20a2fce8ba711cf42601ebcae89fda974e96310ab",
+          "sha256": "306b098ca800f9e54c4cebc20a2fce8ba711cf42601ebcae89fda974e96310ab"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:ad2bb9bbf173ae56a246550eca6f7439780c26f87e10ad94db74725046c896b6",
+          "sha256": "ad2bb9bbf173ae56a246550eca6f7439780c26f87e10ad94db74725046c896b6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:f4f2dacfab2df8a1430c05142ddbddce2f21b375a45179c3f65b608b4bd09d1c",
+          "sha256": "f4f2dacfab2df8a1430c05142ddbddce2f21b375a45179c3f65b608b4bd09d1c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:017f8b8312ea6f01d69d1e7e9c42f34e85dc81199366f425c033503bcfd215c7",
+          "sha256": "017f8b8312ea6f01d69d1e7e9c42f34e85dc81199366f425c033503bcfd215c7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/activemq/blobs/sha256:8900b73fccb19c748158b980c96984f1b977eec36ac2cadac31dcc2be536ca51",
+          "sha256": "8900b73fccb19c748158b980c96984f1b977eec36ac2cadac31dcc2be536ca51"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "java-service-wrapper",
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/activemq/bin/activemq",
+      "console"
+    ],
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/activemq/libexec"
+  },
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/activemq.rb",
+  "ruby_source_checksum": {
+    "sha256": "6db6c3cc91a4a7bb50fd75095a6c1baa1732081b821b3429b3c366d11eb35566"
+  },
+  "date_added": "2009-09-30T17:23:38+01:00"
+}

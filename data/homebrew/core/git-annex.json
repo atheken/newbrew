@@ -1,0 +1,120 @@
+{
+  "name": "git-annex",
+  "full_name": "git-annex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manage files with git without checking in file contents",
+  "license": "AGPL-3.0-or-later and BSD-2-Clause and BSD-3-Clause and GPL-2.0-only and GPL-3.0-or-later and MIT",
+  "homepage": "https://git-annex.branchable.com/",
+  "versions": {
+    "stable": "10.20230626",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://hackage.haskell.org/package/git-annex-10.20230626/git-annex-10.20230626.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "29fdc05dc072794ccbb6ed45ae1fb5d4d81c7a670be00c4e257ea450165526fc"
+    },
+    "head": {
+      "url": "git://git-annex.branchable.com/",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:abad0a4b95e28735eb1806914513253753ab49b746fde0014b43300f7ab7584c",
+          "sha256": "abad0a4b95e28735eb1806914513253753ab49b746fde0014b43300f7ab7584c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:8a1fbd87fe8374586567b861352117f0c8f11decf1000ece6329449e8bbb572e",
+          "sha256": "8a1fbd87fe8374586567b861352117f0c8f11decf1000ece6329449e8bbb572e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:253c3f5f40ff6612ffb5d3f983933b11b1334c2dda777c4e5ba97703e881a3e6",
+          "sha256": "253c3f5f40ff6612ffb5d3f983933b11b1334c2dda777c4e5ba97703e881a3e6"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:3a0daa08181377bb8eda7ae13c950d11bf3dd226134edf1500a787b9ea9db146",
+          "sha256": "3a0daa08181377bb8eda7ae13c950d11bf3dd226134edf1500a787b9ea9db146"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:ac1d41eab96ffbf749295467013fc7deae1580ab6055486185d9639a6d01c58c",
+          "sha256": "ac1d41eab96ffbf749295467013fc7deae1580ab6055486185d9639a6d01c58c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:7e24cbf91c185e806051edbaea2d901cabba0a0f277b12a887534ca3d0768989",
+          "sha256": "7e24cbf91c185e806051edbaea2d901cabba0a0f277b12a887534ca3d0768989"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-annex/blobs/sha256:a5cb736ce99eef312298bf0f70e70a6f948e9aa23997e09b02514bdc9e62fbd1",
+          "sha256": "a5cb736ce99eef312298bf0f70e70a6f948e9aa23997e09b02514bdc9e62fbd1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cabal-install",
+    "ghc",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libmagic"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/git-annex/bin/git-annex",
+      "assistant",
+      "--autostart"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-annex.rb",
+  "ruby_source_checksum": {
+    "sha256": "ef719cbab0f0cd8ee08ea5402df81667a02ededb2204d759c705a3adb1d282f4"
+  },
+  "date_added": "2014-05-07T08:06:14+01:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "xml-tooling-c",
+  "full_name": "xml-tooling-c",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Provides a higher level interface to XML processing",
+  "license": "Apache-2.0",
+  "homepage": "https://wiki.shibboleth.net/confluence/display/OpenSAML/XMLTooling-C",
+  "versions": {
+    "stable": "3.2.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://shibboleth.net/downloads/c++-opensaml/3.2.1/xmltooling-3.2.4.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "92db9b52f28f854ba2b3c3b5721dc18c8bd885c1e0d9397f0beb3415e88e3845"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:ae4ac6f8e8c3316ecde0a3ee93a9ccb6378cda802cc091cd171a4730e677f17f",
+          "sha256": "ae4ac6f8e8c3316ecde0a3ee93a9ccb6378cda802cc091cd171a4730e677f17f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:5a8b264c7570c6ad106eb2edd451c11157373f206346eb8a4b8998e9ed62a851",
+          "sha256": "5a8b264c7570c6ad106eb2edd451c11157373f206346eb8a4b8998e9ed62a851"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:abcb3207ed424a52d6b5555c63fe484f34022b09c5e25c8ae3dd99bb898c5ad5",
+          "sha256": "abcb3207ed424a52d6b5555c63fe484f34022b09c5e25c8ae3dd99bb898c5ad5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:079ed64f572a73735ec306bb7d011e3ffe429c496001fafc1498937d8684a78a",
+          "sha256": "079ed64f572a73735ec306bb7d011e3ffe429c496001fafc1498937d8684a78a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:df0f4a56208757543bb35a7f56d5c56b68699a7422af4f908d83d4ec585cdc4d",
+          "sha256": "df0f4a56208757543bb35a7f56d5c56b68699a7422af4f908d83d4ec585cdc4d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:d9b9cc4501d19a476a3f2a0dbde388b3d50102518bd54cf018e642ff881f042b",
+          "sha256": "d9b9cc4501d19a476a3f2a0dbde388b3d50102518bd54cf018e642ff881f042b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-tooling-c/blobs/sha256:e6e7112c339d983cd2238781a912a5b972b49e6290f0ba17ccfa8835bf19ad2b",
+          "sha256": "e6e7112c339d983cd2238781a912a5b972b49e6290f0ba17ccfa8835bf19ad2b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "log4shib",
+    "openssl@3",
+    "xerces-c",
+    "xml-security-c"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xml-tooling-c.rb",
+  "ruby_source_checksum": {
+    "sha256": "7b61d7b4582ac008c053cd8b124e802a2c0e80e653e0b73c8eb5602d29bd7512"
+  },
+  "date_added": "2010-02-13T19:19:51+01:00"
+}

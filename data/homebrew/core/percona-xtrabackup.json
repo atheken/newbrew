@@ -1,0 +1,141 @@
+{
+  "name": "percona-xtrabackup",
+  "full_name": "percona-xtrabackup",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source hot backup tool for InnoDB and XtraDB databases",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.percona.com/software/mysql-database/percona-xtrabackup",
+  "versions": {
+    "stable": "8.0.33-27",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.percona.com/downloads/Percona-XtraBackup-LATEST/Percona-XtraBackup-8.0.33-27/source/tarball/percona-xtrabackup-8.0.33-27.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "64b3b0ecaab5a5ee50af02ec40f12664bfe4c94f929ff0c189705ae886da0b12"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:937b353dad9a7cbb1893c15b01bb411662c11a69f1520ed5b33fc51b90090bc6",
+          "sha256": "937b353dad9a7cbb1893c15b01bb411662c11a69f1520ed5b33fc51b90090bc6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:8cca0a8263716a5fd9f1502aca39c0f83ff58e36b8e0306e6ef3c764e4d8f0ae",
+          "sha256": "8cca0a8263716a5fd9f1502aca39c0f83ff58e36b8e0306e6ef3c764e4d8f0ae"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:6e6bffe23a6f800997c1e32713dbe10dbaab51d5a618b889932476b408b35653",
+          "sha256": "6e6bffe23a6f800997c1e32713dbe10dbaab51d5a618b889932476b408b35653"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:1a5fa290c4a6fe1d2e990733a0874cb281b654cd9850dea2d5cb927a3895347d",
+          "sha256": "1a5fa290c4a6fe1d2e990733a0874cb281b654cd9850dea2d5cb927a3895347d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:6143bb6eac718724597c360520643acfb9c550649b8f71b9d0ae73be93ad7eef",
+          "sha256": "6143bb6eac718724597c360520643acfb9c550649b8f71b9d0ae73be93ad7eef"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:4539220cae43a98599d8b3fb5d8f1c83ede9029fa34a2f7457214fe6fef477cd",
+          "sha256": "4539220cae43a98599d8b3fb5d8f1c83ede9029fa34a2f7457214fe6fef477cd"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/percona-xtrabackup/blobs/sha256:f50ba6d78343cb94d3ac956454024bae7c49e0432858d12fd10bed3d8ed7af82",
+          "sha256": "f50ba6d78343cb94d3ac956454024bae7c49e0432858d12fd10bed3d8ed7af82"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "sphinx-doc",
+    "patchelf"
+  ],
+  "dependencies": [
+    "icu4c",
+    "libev",
+    "libevent",
+    "libfido2",
+    "libgcrypt",
+    "lz4",
+    "mysql",
+    "openssl@3",
+    "protobuf@21",
+    "zstd",
+    "libaio",
+    "procps@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "vim": "build"
+    },
+    "curl",
+    "cyrus-sasl",
+    "libedit",
+    "perl",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "percona-server"
+  ],
+  "conflicts_with_reasons": [
+    "both install a `kmip.h`"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/percona-xtrabackup.rb",
+  "ruby_source_checksum": {
+    "sha256": "a8f2fad0b4188f887e65e0e61454a71a799e33e1d2137171e247da1930667036"
+  },
+  "date_added": "2016-05-05T23:45:29+01:00"
+}

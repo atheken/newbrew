@@ -1,0 +1,117 @@
+{
+  "name": "openmama",
+  "full_name": "openmama",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source high performance messaging API for various Market Data sources",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://openmama.finos.org",
+  "versions": {
+    "stable": "6.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/finos/OpenMAMA/archive/refs/tags/OpenMAMA-6.3.2-release.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5c09b5c73467c4122fe275c0f880c70e4b9f6f8d1ecbaa1aeeac7d8195d9ffef"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:6de6d6508390baa3544fa1995f827b8bf9cd6e043d167b97411e4fdf1a82c2d5",
+          "sha256": "6de6d6508390baa3544fa1995f827b8bf9cd6e043d167b97411e4fdf1a82c2d5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:01798a8ef79a4568217feef635bf6c19a611df734fca69ca1d056a15ff6c8708",
+          "sha256": "01798a8ef79a4568217feef635bf6c19a611df734fca69ca1d056a15ff6c8708"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:035ce67cd9725c533fd499fb06cb71bde602a6fa166ebd5ee1d4895e39dd9c09",
+          "sha256": "035ce67cd9725c533fd499fb06cb71bde602a6fa166ebd5ee1d4895e39dd9c09"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:31d87546029420927fd22a57abb347c9e90886cdc3d1b53d835658100fd3f302",
+          "sha256": "31d87546029420927fd22a57abb347c9e90886cdc3d1b53d835658100fd3f302"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:411572b9bbc3d14e3ed1fa4037fd1a8cce714111b8557a2771f810408e263170",
+          "sha256": "411572b9bbc3d14e3ed1fa4037fd1a8cce714111b8557a2771f810408e263170"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:b0484f0ae2366f8c6170164c8067f42dd0f94a9e0afaefe3dc68924c4a57cbe0",
+          "sha256": "b0484f0ae2366f8c6170164c8067f42dd0f94a9e0afaefe3dc68924c4a57cbe0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openmama/blobs/sha256:62da575388fea1bf4abd1799475004e328344c01351504d33c61aac0de464e46",
+          "sha256": "62da575388fea1bf4abd1799475004e328344c01351504d33c61aac0de464e46"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "libevent",
+    "qpid-proton",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openmama.rb",
+  "ruby_source_checksum": {
+    "sha256": "0be752afd9003f78ea0706693129b8fd7c3f5ccafc2c1cc1ad502acef74119f4"
+  },
+  "date_added": "2021-03-02T22:43:09+00:00"
+}

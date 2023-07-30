@@ -1,0 +1,114 @@
+{
+  "name": "emscripten",
+  "full_name": "emscripten",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "LLVM bytecode to JavaScript compiler",
+  "license": "Apache-2.0 and (Apache-2.0 with LLVM-exception) and (MIT or NCSA)",
+  "homepage": "https://emscripten.org/",
+  "versions": {
+    "stable": "3.1.44",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/emscripten-core/emscripten/archive/3.1.44.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "736d48662e825cea2422962295e83fb5486ba23de616862f63d1f2dd25f7263b"
+    },
+    "head": {
+      "url": "https://github.com/emscripten-core/emscripten.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:bf15c7c52a470497d905a4706a439e00a793727960ece1763794cbda06954453",
+          "sha256": "bf15c7c52a470497d905a4706a439e00a793727960ece1763794cbda06954453"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:78129ffdbc6bc2f6d4c38959562c0e2fb85c3809e1e1b9ba6ecba951b18a9abd",
+          "sha256": "78129ffdbc6bc2f6d4c38959562c0e2fb85c3809e1e1b9ba6ecba951b18a9abd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:e42479a38501c3cb686ec77b61a734994ef17feec26c094903bbccdc3c55b1e5",
+          "sha256": "e42479a38501c3cb686ec77b61a734994ef17feec26c094903bbccdc3c55b1e5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:33b3c74559a7832cdcdf1bca8f172b95a4f7f9fe9333161d2d8ff926b5a36aa1",
+          "sha256": "33b3c74559a7832cdcdf1bca8f172b95a4f7f9fe9333161d2d8ff926b5a36aa1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:f1d0d2f816a7a99045aa7c9940160651f8d16a709fe732eb5fe74ee2d5312e81",
+          "sha256": "f1d0d2f816a7a99045aa7c9940160651f8d16a709fe732eb5fe74ee2d5312e81"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:f8dbde44db4383aed04768034a8b40f91b430d032e01fa879a9637b04f73ff60",
+          "sha256": "f8dbde44db4383aed04768034a8b40f91b430d032e01fa879a9637b04f73ff60"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:4de7af42510242df7550518f8d4609259f91dd0321e6ce48886897e8f3d1d3f8",
+          "sha256": "4de7af42510242df7550518f8d4609259f91dd0321e6ce48886897e8f3d1d3f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "node",
+    "python@3.11",
+    "yuicompressor",
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/emscripten.rb",
+  "ruby_source_checksum": {
+    "sha256": "b24cf74d0512f5605118c34890e633f428c3bcb37b19be079d1cb75ed6aa3d53"
+  },
+  "date_added": "2014-06-07T15:03:03+01:00"
+}

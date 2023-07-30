@@ -1,0 +1,142 @@
+{
+  "name": "crystal",
+  "full_name": "crystal",
+  "tap": "homebrew/core",
+  "oldname": "crystal-lang",
+  "oldnames": [
+    "crystal-lang"
+  ],
+  "aliases": [
+    "crystal-lang"
+  ],
+  "versioned_formulae": [],
+  "desc": "Fast and statically typed, compiled language with Ruby-like syntax",
+  "license": "Apache-2.0",
+  "homepage": "https://crystal-lang.org/",
+  "versions": {
+    "stable": "1.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/crystal-lang/crystal/archive/1.9.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1e2e6974b0e2e152e5fae5388415ddb7e192378c8ac215c6f386fdaf9018e54f"
+    },
+    "head": {
+      "url": "https://github.com/crystal-lang/crystal.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:156855aa0ce541f7584260e825b6791cbbb9a0913387fedfb33143264cd11f0e",
+          "sha256": "156855aa0ce541f7584260e825b6791cbbb9a0913387fedfb33143264cd11f0e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:eccb5afb94e932118f2df6e1861eb3699ed26deb26341a553e8fa1e7a139f216",
+          "sha256": "eccb5afb94e932118f2df6e1861eb3699ed26deb26341a553e8fa1e7a139f216"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:7aaacf0111893bf530616a59f0358e841497a634b4933c25254c19c7a7a1dbf8",
+          "sha256": "7aaacf0111893bf530616a59f0358e841497a634b4933c25254c19c7a7a1dbf8"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:b72bb735ec6921ed5d759ea294d85edc038b54517e00316abf1802dc48a9722b",
+          "sha256": "b72bb735ec6921ed5d759ea294d85edc038b54517e00316abf1802dc48a9722b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:80c744b1531429a7ffa25053ef81878ca5a3ee1b87c281425d296b7d3cc25314",
+          "sha256": "80c744b1531429a7ffa25053ef81878ca5a3ee1b87c281425d296b7d3cc25314"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:d3799d1bd94c5fd179fec343cd741417ce571fedbf234f8a6e0f73b00b4d30a9",
+          "sha256": "d3799d1bd94c5fd179fec343cd741417ce571fedbf234f8a6e0f73b00b4d30a9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/crystal/blobs/sha256:736e33578f81c11ed4f4162d1e3f395ae7878950b47557af39b61350e1f64f8b",
+          "sha256": "736e33578f81c11ed4f4162d1e3f395ae7878950b47557af39b61350e1f64f8b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "bdw-gc",
+    "gmp",
+    "libevent",
+    "libyaml",
+    "llvm@15",
+    "openssl@3",
+    "pcre2",
+    "pkg-config"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/crystal.rb",
+  "ruby_source_checksum": {
+    "sha256": "c913e4764d47c25156ef9c45f05bda91548a34e2cb99b08d6345b5cd8ac76362"
+  },
+  "head_dependencies": {
+    "build_dependencies": [],
+    "dependencies": [
+      "bdw-gc",
+      "gmp",
+      "libevent",
+      "libyaml",
+      "llvm@15",
+      "openssl@3",
+      "pcre2",
+      "pkg-config"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libffi"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2015-06-15T08:38:08+01:00"
+}

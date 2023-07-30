@@ -1,0 +1,109 @@
+{
+  "name": "virtualenv",
+  "full_name": "virtualenv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for creating isolated virtual python environments",
+  "license": "MIT",
+  "homepage": "https://virtualenv.pypa.io/",
+  "versions": {
+    "stable": "20.24.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ea/3a/9e31ffe1d38f2ca7e249445783651548103237b29dd6389c104ff0feef93/virtualenv-20.24.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fd8a78f46f6b99a67b7ec5cf73f92357891a7b3a40fd97637c27f854aae3b9e0"
+    },
+    "head": {
+      "url": "https://github.com/pypa/virtualenv.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:f678c2d77ce24f4f44ae96520a55dd64ef0db51edf0e35cd02459dc2dac30d48",
+          "sha256": "f678c2d77ce24f4f44ae96520a55dd64ef0db51edf0e35cd02459dc2dac30d48"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:65d7bef55b859beff8553879b34a9bb67ad82e88b811664d6cb034b7f28707ee",
+          "sha256": "65d7bef55b859beff8553879b34a9bb67ad82e88b811664d6cb034b7f28707ee"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:164edac9b73130839bac1fd2076867e5b0a80c88f3c619d92bd3f6b84a948df4",
+          "sha256": "164edac9b73130839bac1fd2076867e5b0a80c88f3c619d92bd3f6b84a948df4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:1efa81d03170c7b46d2e476940d494741b3f5e39d25926f502348c4d60b98079",
+          "sha256": "1efa81d03170c7b46d2e476940d494741b3f5e39d25926f502348c4d60b98079"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:2aaca98f447664588878b336d6ddcb9567eeae7ea1ce9a0f53d2c97c0075b291",
+          "sha256": "2aaca98f447664588878b336d6ddcb9567eeae7ea1ce9a0f53d2c97c0075b291"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:7f3470ed0c680951df70f28474b8ec1237d4bb381d8d2b1dffc27b4d1d77fd78",
+          "sha256": "7f3470ed0c680951df70f28474b8ec1237d4bb381d8d2b1dffc27b4d1d77fd78"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/virtualenv/blobs/sha256:373bf783274db5b7ed31e7c981ad226eff2b0c524c0422cd70a4196e911fb57b",
+          "sha256": "373bf783274db5b7ed31e7c981ad226eff2b0c524c0422cd70a4196e911fb57b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/virtualenv.rb",
+  "ruby_source_checksum": {
+    "sha256": "550843939b43e7cd65f42cd6cfe1ad1db4486de4152b6786b8914760e3ca6a9a"
+  },
+  "date_added": "2021-03-20T17:52:31+00:00"
+}

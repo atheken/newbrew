@@ -1,0 +1,131 @@
+{
+  "name": "teleport",
+  "full_name": "teleport",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modern SSH server for teams managing distributed infrastructure",
+  "license": "Apache-2.0",
+  "homepage": "https://gravitational.com/teleport",
+  "versions": {
+    "stable": "13.2.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gravitational/teleport/archive/v13.2.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fbebeb15a6e4af6fcf1f71d667d85e576fe238c57502b5a3c7c036c40180f570"
+    },
+    "head": {
+      "url": "https://github.com/gravitational/teleport.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:7b44f1b84f4dc753a5d3aceace32a8866f115909751c683d19f0bad4ed1d1e1d",
+          "sha256": "7b44f1b84f4dc753a5d3aceace32a8866f115909751c683d19f0bad4ed1d1e1d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:a73eec662792387ffa7c6e37f23100a5aec2165b0a1dd51dd4d138ba24f8d935",
+          "sha256": "a73eec662792387ffa7c6e37f23100a5aec2165b0a1dd51dd4d138ba24f8d935"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:590c7426142a660c9551e43b9375181497ad7ec111860ad4470b35ab9367ed4a",
+          "sha256": "590c7426142a660c9551e43b9375181497ad7ec111860ad4470b35ab9367ed4a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:207cd7a6a22c3c8f6a7434dcf4e476c4679f3f2434e76aaa1e051f1bb69af039",
+          "sha256": "207cd7a6a22c3c8f6a7434dcf4e476c4679f3f2434e76aaa1e051f1bb69af039"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:45e94c76e8062e9767d0c272d04b41228629709dbc36a49600dd41ea604585ca",
+          "sha256": "45e94c76e8062e9767d0c272d04b41228629709dbc36a49600dd41ea604585ca"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:8311bb9d73bdbc742a0798471b4a1643a534deb47b09728e44bd802b6111404b",
+          "sha256": "8311bb9d73bdbc742a0798471b4a1643a534deb47b09728e44bd802b6111404b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/teleport/blobs/sha256:6109848ce21a6be493de3cdfdb5a297ea8c929186fb6e145965982d2a130be82",
+          "sha256": "6109848ce21a6be493de3cdfdb5a297ea8c929186fb6e145965982d2a130be82"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "pkg-config",
+    "yarn"
+  ],
+  "dependencies": [
+    "libfido2",
+    "node",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "curl": "test"
+    },
+    {
+      "netcat": "test"
+    },
+    "zip"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "etsh"
+  ],
+  "conflicts_with_reasons": [
+    "both install `tsh` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/teleport.rb",
+  "ruby_source_checksum": {
+    "sha256": "f467f026c65d119c4491c2c5dc1e8223dd7deb3e6cee16e68b35cde0b334ca8e"
+  },
+  "date_added": "2017-03-14T10:15:36+01:00"
+}

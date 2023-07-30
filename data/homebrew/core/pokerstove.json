@@ -1,0 +1,108 @@
+{
+  "name": "pokerstove",
+  "full_name": "pokerstove",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Poker evaluation and enumeration software",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/andrewprock/pokerstove",
+  "versions": {
+    "stable": "1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/andrewprock/pokerstove/archive/v1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "68503e7fc5a5b2bac451c0591309eacecba738d787874d5421c81f59fde2bc74"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:354a7b64304cd6c7a0e04200a5eda12393737e7a4a96ce12470fe40ad80ff4ef",
+          "sha256": "354a7b64304cd6c7a0e04200a5eda12393737e7a4a96ce12470fe40ad80ff4ef"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:6565611ac56460fed1619e63506259fb19ffc5e619715d292d008c6286345bdb",
+          "sha256": "6565611ac56460fed1619e63506259fb19ffc5e619715d292d008c6286345bdb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:612152599b7e4fbe9328967b9770e6bb8bb3cd45a8f07d03c30027633bffa52f",
+          "sha256": "612152599b7e4fbe9328967b9770e6bb8bb3cd45a8f07d03c30027633bffa52f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:77d153f1b85e2dc127cc78a7839e58ccfc52d53580665ecec3a56e7faa1e8d8c",
+          "sha256": "77d153f1b85e2dc127cc78a7839e58ccfc52d53580665ecec3a56e7faa1e8d8c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:4d77e43f1ea5baa87e1b0e226885f86d939819a33ba4c84fd73c47c0e6a8c96d",
+          "sha256": "4d77e43f1ea5baa87e1b0e226885f86d939819a33ba4c84fd73c47c0e6a8c96d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:8542c066554cf7309317c8fa3be1ccfe91e4056576f0b8f99fef568d5da04f3c",
+          "sha256": "8542c066554cf7309317c8fa3be1ccfe91e4056576f0b8f99fef568d5da04f3c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pokerstove/blobs/sha256:20618ea7f04f4bf92a7606f18df854a90268948e8f903c1484b4ea9154c7799c",
+          "sha256": "20618ea7f04f4bf92a7606f18df854a90268948e8f903c1484b4ea9154c7799c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "googletest"
+  ],
+  "dependencies": [
+    "boost@1.76"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-05-10",
+  "deprecation_reason": "does_not_build",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pokerstove.rb",
+  "ruby_source_checksum": {
+    "sha256": "a7a53a16b0e5e818fdc82b63823b9074e8a5c108ac9207b31601411e8c933243"
+  },
+  "date_added": "2019-08-28T11:13:25+02:00"
+}

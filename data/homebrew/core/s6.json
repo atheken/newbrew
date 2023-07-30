@@ -1,0 +1,103 @@
+{
+  "name": "s6",
+  "full_name": "s6",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Small & secure supervision software suite",
+  "license": "ISC",
+  "homepage": "https://skarnet.org/software/s6/",
+  "versions": {
+    "stable": "2.11.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://skarnet.org/software/s6/s6-2.11.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7c16138ad2f0ffbe0ed2ae8dd0cecada9f7c787edd33a69084d219110693df74"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:7d82841a937d225abe30cb936f17b0dfaa9b55b44664d0c078947b3e2f31b842",
+          "sha256": "7d82841a937d225abe30cb936f17b0dfaa9b55b44664d0c078947b3e2f31b842"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:a2a9990dd6bad436267683f63064852bdd0b1601cfdd0d5b0bf4950692b70afe",
+          "sha256": "a2a9990dd6bad436267683f63064852bdd0b1601cfdd0d5b0bf4950692b70afe"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:f0faec1206b628932b008704bd06afe90ee619c5f16cc12028ad13e6f42899b8",
+          "sha256": "f0faec1206b628932b008704bd06afe90ee619c5f16cc12028ad13e6f42899b8"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:f889869c9aad0692f722d521d8272c18bc524afbdf1649f663a0e41812d4ecc3",
+          "sha256": "f889869c9aad0692f722d521d8272c18bc524afbdf1649f663a0e41812d4ecc3"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:22afe8784431c63955c9effd899e11c8dd293ce335ca739b3752e188585c7396",
+          "sha256": "22afe8784431c63955c9effd899e11c8dd293ce335ca739b3752e188585c7396"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:d06ef0c95d2805357b0c2b9185c3d9deaf4f6f364e08debe099665f0877f0f71",
+          "sha256": "d06ef0c95d2805357b0c2b9185c3d9deaf4f6f364e08debe099665f0877f0f71"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/s6/blobs/sha256:9481a027a93de16c244988d29f55b41c7a098b2c5ba634afcf11615cb50d0acb",
+          "sha256": "9481a027a93de16c244988d29f55b41c7a098b2c5ba634afcf11615cb50d0acb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/s6.rb",
+  "ruby_source_checksum": {
+    "sha256": "52390bccc05cc3fc72060b9faadbecabe8fa0309f17f4c85f1876a45d6a00bba"
+  },
+  "date_added": "2016-06-13T17:43:18+01:00"
+}

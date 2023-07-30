@@ -1,0 +1,105 @@
+{
+  "name": "calceph",
+  "full_name": "calceph",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library to access the binary planetary ephemeris files",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.imcce.fr/inpop/calceph",
+  "versions": {
+    "stable": "3.5.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.imcce.fr/content/medias/recherche/equipes/asd/calceph/calceph-3.5.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e43ab9b2750fda3598899602851bae182f11c415444c22d753409218a3a2d2e6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:c01c0ff6df3c1bbc1f8bad4ff68b1bc0ea76a3eb8ca76d1d6e9faae52d7f11f1",
+          "sha256": "c01c0ff6df3c1bbc1f8bad4ff68b1bc0ea76a3eb8ca76d1d6e9faae52d7f11f1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:d5f228f651131e89c399733aeff67ebbf1df7a812963c345c7194d7f9a5ceacb",
+          "sha256": "d5f228f651131e89c399733aeff67ebbf1df7a812963c345c7194d7f9a5ceacb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:58a42fa91f7863eb3fcd174332387d8b247739cb3f65f40dc8c5714186fa18e4",
+          "sha256": "58a42fa91f7863eb3fcd174332387d8b247739cb3f65f40dc8c5714186fa18e4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:93e3f7ee780ae17bf087d21067fec3d78905c4bb0fe60bbd5c140f4cbffcf356",
+          "sha256": "93e3f7ee780ae17bf087d21067fec3d78905c4bb0fe60bbd5c140f4cbffcf356"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:daf8fb2630eed6d2d357f31b8b2b2cd631ff7672ce23e7223a24bff07cf9db00",
+          "sha256": "daf8fb2630eed6d2d357f31b8b2b2cd631ff7672ce23e7223a24bff07cf9db00"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:cb7eb19af6792c9fbc414162d31fd20b087b8537a6d72f94ca65a002ef85beee",
+          "sha256": "cb7eb19af6792c9fbc414162d31fd20b087b8537a6d72f94ca65a002ef85beee"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/calceph/blobs/sha256:983ddb9b99f9a920970954d9e2c40073ffdfc658c73b00247fe04ede26a3cf0a",
+          "sha256": "983ddb9b99f9a920970954d9e2c40073ffdfc658c73b00247fe04ede26a3cf0a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gcc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/calceph.rb",
+  "ruby_source_checksum": {
+    "sha256": "d02a6a6556e4bc7178285530b1cde933ef928a77283fe38513f4df213623ed81"
+  },
+  "date_added": "2019-11-06T15:22:11+09:00"
+}

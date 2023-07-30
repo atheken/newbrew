@@ -1,0 +1,110 @@
+{
+  "name": "stunnel",
+  "full_name": "stunnel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SSL tunneling program",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.stunnel.org/",
+  "versions": {
+    "stable": "5.70",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.stunnel.org/downloads/stunnel-5.70.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7bbc7b9e9a988d76301325db4c110ec360a98ffb8a221c7accbff9c0a8bae2f3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:a3e7fd50914a2755852f86b378cd6c3b37f3fa2b89ca5ce811f35bd5879747ee",
+          "sha256": "a3e7fd50914a2755852f86b378cd6c3b37f3fa2b89ca5ce811f35bd5879747ee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:e0e4e78fd7b823a8dd5c970d1f5cf54820119ef7125b43b24dcf80e0a0387029",
+          "sha256": "e0e4e78fd7b823a8dd5c970d1f5cf54820119ef7125b43b24dcf80e0a0387029"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:7c60137bcf285268bff1eb6fffc380ec4d534d98b54e553cc3f6b5d4fb0c5bc3",
+          "sha256": "7c60137bcf285268bff1eb6fffc380ec4d534d98b54e553cc3f6b5d4fb0c5bc3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:64b37b9eb2b294bdb7f478675536dfc7032a26c4072801640fa6dd9c6e817fc5",
+          "sha256": "64b37b9eb2b294bdb7f478675536dfc7032a26c4072801640fa6dd9c6e817fc5"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:9f70e64c9ceba451d790ebcd34b6e480d10697d511dce82afee839d4bfb4221b",
+          "sha256": "9f70e64c9ceba451d790ebcd34b6e480d10697d511dce82afee839d4bfb4221b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:10c2fd4bb8986a45d3c114ef5e03ded4b16ebf8afb2828ed847f9839647d3cad",
+          "sha256": "10c2fd4bb8986a45d3c114ef5e03ded4b16ebf8afb2828ed847f9839647d3cad"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stunnel/blobs/sha256:b85856c87cb80d5b7a5159ec26ad9ee792cba186824b19a710a57754cc2555f3",
+          "sha256": "b85856c87cb80d5b7a5159ec26ad9ee792cba186824b19a710a57754cc2555f3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A bogus SSL server certificate has been installed to:\n  $HOMEBREW_PREFIX/etc/stunnel/stunnel.pem\n\nThis certificate will be used by default unless a config file says otherwise!\nStunnel will refuse to load the sample configuration file if left unedited.\n\nIn your stunnel configuration, specify a SSL certificate with\nthe \"cert =\" option for each service.\n\nTo use Stunnel with Homebrew services, make sure to set \"foreground = yes\" in\nyour Stunnel configuration.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/stunnel/bin/stunnel"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stunnel.rb",
+  "ruby_source_checksum": {
+    "sha256": "971218b7df4377e2cc2023c58a8c31ff4acf3501d922be319a4f9dd455f7c6f6"
+  },
+  "date_added": "2010-06-22T14:08:05-07:00"
+}

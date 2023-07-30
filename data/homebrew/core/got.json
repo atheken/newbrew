@@ -1,0 +1,117 @@
+{
+  "name": "got",
+  "full_name": "got",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Version control system",
+  "license": "ISC",
+  "homepage": "https://gameoftrees.org/",
+  "versions": {
+    "stable": "0.91",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gameoftrees.org/releases/portable/got-portable-0.91.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "79b15eb508601018f2ddaab74df2bdbde79ebdb992004bfd91a52886c9ecae55"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:a9555343ba0ced9553c44c72012594273fb16f8dbf83bc54fafedb09ca0c4a10",
+          "sha256": "a9555343ba0ced9553c44c72012594273fb16f8dbf83bc54fafedb09ca0c4a10"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:5db0e3e095379a73eacd589e067013dbe3e1bf726890f40ef2f12daa58f3b058",
+          "sha256": "5db0e3e095379a73eacd589e067013dbe3e1bf726890f40ef2f12daa58f3b058"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:f497aa58dc335d51eda8c5a29d1cd49f2bae45706dbd8c8a2d1551acec212898",
+          "sha256": "f497aa58dc335d51eda8c5a29d1cd49f2bae45706dbd8c8a2d1551acec212898"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:3dc0404cdc98baa15b1533834834148a8244d7fbdc3a358b2558500921c98646",
+          "sha256": "3dc0404cdc98baa15b1533834834148a8244d7fbdc3a358b2558500921c98646"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:9f59bb1ceefe272e82ff76d13be1433f7925fed10adf7603fb2ea93af2c4ca6c",
+          "sha256": "9f59bb1ceefe272e82ff76d13be1433f7925fed10adf7603fb2ea93af2c4ca6c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:856db5869b1ee260f0f98900851893054a9cadf2891043bc772515fbaf5242c9",
+          "sha256": "856db5869b1ee260f0f98900851893054a9cadf2891043bc772515fbaf5242c9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/got/blobs/sha256:6d592f5def000b6f27f1c727768843f094ea33d6c0fddcee7d19a62c4f5a482e",
+          "sha256": "6d592f5def000b6f27f1c727768843f094ea33d6c0fddcee7d19a62c4f5a482e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent",
+    "ncurses",
+    "openssl@3",
+    "libbsd",
+    "libmd",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/got.rb",
+  "ruby_source_checksum": {
+    "sha256": "b3d5b0eebacbec92d2d2d3effb4f0d37b7b09f77753ea1eb70e6ce8151e37309"
+  },
+  "date_added": "2022-09-18T06:17:50+00:00"
+}

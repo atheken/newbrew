@@ -1,0 +1,147 @@
+{
+  "name": "znc",
+  "full_name": "znc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Advanced IRC bouncer",
+  "license": "Apache-2.0",
+  "homepage": "https://wiki.znc.in/ZNC",
+  "versions": {
+    "stable": "1.8.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://znc.in/releases/archive/znc-1.8.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ff238aae3f2ae0e44e683c4aee17dc8e4fdd261ca9379d83b48a7d422488de0d"
+    },
+    "head": {
+      "url": "https://github.com/znc/znc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 9,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:9d22b6e33c6538bab946604ba4317459e185897e2f2ae491cc7b66076073e065",
+          "sha256": "9d22b6e33c6538bab946604ba4317459e185897e2f2ae491cc7b66076073e065"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:ed9dcc7af9880176e7a29ef421c4acd240160ddd67920bd6649aa158b9e37bc7",
+          "sha256": "ed9dcc7af9880176e7a29ef421c4acd240160ddd67920bd6649aa158b9e37bc7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:1868c389351fd86e5c9c5847974b57007fd794819213f864d1854fa5d4139db0",
+          "sha256": "1868c389351fd86e5c9c5847974b57007fd794819213f864d1854fa5d4139db0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:b553390d14bff7112a6bc0adae40d427cccd0a1ba3a01f69ad8a5dea698bc5e2",
+          "sha256": "b553390d14bff7112a6bc0adae40d427cccd0a1ba3a01f69ad8a5dea698bc5e2"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:5365f2987a95d6a84b0e7e1137903f25d8b8f20d69003c9ddbbee1bcd92d4a9a",
+          "sha256": "5365f2987a95d6a84b0e7e1137903f25d8b8f20d69003c9ddbbee1bcd92d4a9a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:ad659f597cbbed3de79d83d580d4f65608ff342b18a95bf971f4cc3818470ec6",
+          "sha256": "ad659f597cbbed3de79d83d580d4f65608ff342b18a95bf971f4cc3818470ec6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/znc/blobs/sha256:4b7acf8d5d88524f8091a79a19cbfd2b8ac1ba89cb0245f4cac579fad82d7961",
+          "sha256": "4b7acf8d5d88524f8091a79a19cbfd2b8ac1ba89cb0245f4cac579fad82d7961"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "icu4c",
+    "openssl@3",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/znc/bin/znc",
+      "--foreground"
+    ],
+    "run_type": "interval",
+    "interval": 300,
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/znc.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/znc.log"
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/znc.rb",
+  "ruby_source_checksum": {
+    "sha256": "3cc00ec6739b57d4233a543e9c6fb4f93b1fc0c114938a4db6be0d9cdf8b716c"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "cmake",
+      "swig",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "icu4c",
+      "openssl@3",
+      "python@3.11"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2009-09-15T17:30:40-07:00"
+}

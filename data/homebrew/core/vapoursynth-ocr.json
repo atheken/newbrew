@@ -1,0 +1,114 @@
+{
+  "name": "vapoursynth-ocr",
+  "full_name": "vapoursynth-ocr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VapourSynth filters - Tesseract OCR filter",
+  "license": "MIT",
+  "homepage": "https://www.vapoursynth.com",
+  "versions": {
+    "stable": "2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vapoursynth/vs-ocr/archive/R2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "64ee82a6c9c59ab2aa0f5ab54224e42b027e39ea44be9784861d9e11c8532fb0"
+    },
+    "head": {
+      "url": "https://github.com/vapoursynth/vs-ocr.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:9b635d6c1b56a97d6cdafef0470e26769486e19418400c56defdfa81d0577c9e",
+          "sha256": "9b635d6c1b56a97d6cdafef0470e26769486e19418400c56defdfa81d0577c9e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:e8e11e248289747ce1cd57caed559dcd959c531a65b3151ff3bf04d638edc26b",
+          "sha256": "e8e11e248289747ce1cd57caed559dcd959c531a65b3151ff3bf04d638edc26b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:20ad8e7a483b069cadc169f356006403b6ba10731b4f6f4bbd8848e4b9c72c63",
+          "sha256": "20ad8e7a483b069cadc169f356006403b6ba10731b4f6f4bbd8848e4b9c72c63"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:ed2c569fba05a3f3abd0b54f877326afa63bca120eefe0f3758c46fec20e96eb",
+          "sha256": "ed2c569fba05a3f3abd0b54f877326afa63bca120eefe0f3758c46fec20e96eb"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:e2ccadae92be39e3f424c1b80629c4c80354b3ccf7228dd41575c71e04d1e1ca",
+          "sha256": "e2ccadae92be39e3f424c1b80629c4c80354b3ccf7228dd41575c71e04d1e1ca"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:26cc8b76d5f94632f73933cc9893f317f878c20e4e9156b3133e37df1c1c06ce",
+          "sha256": "26cc8b76d5f94632f73933cc9893f317f878c20e4e9156b3133e37df1c1c06ce"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-ocr/blobs/sha256:5da3243e4db078a215fc1cbacabc33538d2fc757a08812bc7839c76636785409",
+          "sha256": "5da3243e4db078a215fc1cbacabc33538d2fc757a08812bc7839c76636785409"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "tesseract",
+    "vapoursynth"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vapoursynth-ocr.rb",
+  "ruby_source_checksum": {
+    "sha256": "57b6f14c1d04c1a237409d3317a605154d2419c0b8cc36e51b3ab750c572d2db"
+  },
+  "date_added": "2019-04-16T22:08:12+02:00"
+}

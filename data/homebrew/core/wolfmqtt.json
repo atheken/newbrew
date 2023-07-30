@@ -1,0 +1,113 @@
+{
+  "name": "wolfmqtt",
+  "full_name": "wolfmqtt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Small, fast, portable MQTT client C implementation",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/wolfSSL/wolfMQTT",
+  "versions": {
+    "stable": "1.16.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wolfSSL/wolfMQTT/archive/refs/tags/v1.16.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "be806967ff4dfa80d88d2197cabd8a5bf0072d03759bf8506aaa4ee9c5c48ba6"
+    },
+    "head": {
+      "url": "https://github.com/wolfSSL/wolfMQTT.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:49b23940a62dcbe6e66e5338c89faab6f4db51bd1126be29dace74b70348d411",
+          "sha256": "49b23940a62dcbe6e66e5338c89faab6f4db51bd1126be29dace74b70348d411"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:c4df8a877f40d52d69fa5d5016751db51be85bbfbcb79e927bf8a03fc42c3b20",
+          "sha256": "c4df8a877f40d52d69fa5d5016751db51be85bbfbcb79e927bf8a03fc42c3b20"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:2999a1f462c8b195135d88258f36633b2c20792172927f70526b133cb93587ba",
+          "sha256": "2999a1f462c8b195135d88258f36633b2c20792172927f70526b133cb93587ba"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:8773446a50beb3494efed336b307bdb03532c72eba3864397514874523e8a5f0",
+          "sha256": "8773446a50beb3494efed336b307bdb03532c72eba3864397514874523e8a5f0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:b5fe604ffafc2920cef29d3fbc5d010d2011375c18ca47798894bba837803719",
+          "sha256": "b5fe604ffafc2920cef29d3fbc5d010d2011375c18ca47798894bba837803719"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:9c5336dfdc4c7c920c91a9b3138b77ff531985c82dca4d0ee6faab40ae393981",
+          "sha256": "9c5336dfdc4c7c920c91a9b3138b77ff531985c82dca4d0ee6faab40ae393981"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wolfmqtt/blobs/sha256:a7418f88c7422585fd8078c1c06d7f77c4dcbb46e137d96cf7258eaa395d5902",
+          "sha256": "a7418f88c7422585fd8078c1c06d7f77c4dcbb46e137d96cf7258eaa395d5902"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "wolfssl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wolfmqtt.rb",
+  "ruby_source_checksum": {
+    "sha256": "d0e407f04cdb0647670a9db6e10a82de885579c54993755a728ae465e5cf5c86"
+  },
+  "date_added": "2020-04-11T11:58:16+00:00"
+}

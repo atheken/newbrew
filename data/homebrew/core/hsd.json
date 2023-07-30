@@ -1,0 +1,106 @@
+{
+  "name": "hsd",
+  "full_name": "hsd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Handshake Daemon & Full Node",
+  "license": "MIT",
+  "homepage": "https://handshake.org",
+  "versions": {
+    "stable": "5.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/handshake-org/hsd/archive/v5.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "26ea58625a2d2a650b5c5ab6298549d9322d94dbe77923891f587701989f6acb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:6e33b650cd716fa7c8f222a1647d80206cafe3b1a5737510e19d454db3b9f885",
+          "sha256": "6e33b650cd716fa7c8f222a1647d80206cafe3b1a5737510e19d454db3b9f885"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:891e09d4fc846d9c28333bb7802adc3f58aeb97e1c43f8a7d531eb833189d62b",
+          "sha256": "891e09d4fc846d9c28333bb7802adc3f58aeb97e1c43f8a7d531eb833189d62b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:1a86e93df427d26c37970a7802e3485d20d7e89fc5a0e3621a6d6e3b07623bb9",
+          "sha256": "1a86e93df427d26c37970a7802e3485d20d7e89fc5a0e3621a6d6e3b07623bb9"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:874d449265b346303794c5f2a3933ae695fe0fb7308d3d9c48ed022fde97c7e5",
+          "sha256": "874d449265b346303794c5f2a3933ae695fe0fb7308d3d9c48ed022fde97c7e5"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:f1a3506fe4aa86949cc468918117fb2de360495b7e2fc52bd55432bc2a26fe48",
+          "sha256": "f1a3506fe4aa86949cc468918117fb2de360495b7e2fc52bd55432bc2a26fe48"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:e05a3527a83d7c9a9b6d97eaec92e4a2817ebaec978b3c4d2cb765df9d6d295d",
+          "sha256": "e05a3527a83d7c9a9b6d97eaec92e4a2817ebaec978b3c4d2cb765df9d6d295d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hsd/blobs/sha256:29fd069adcadcf9158a73c2245aee9f983dd690009778dfb395115e3b5694850",
+          "sha256": "29fd069adcadcf9158a73c2245aee9f983dd690009778dfb395115e3b5694850"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node",
+    "unbound"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hsd.rb",
+  "ruby_source_checksum": {
+    "sha256": "1902a7056acbde73cd27faeb2dfc84ac6e5f7ea7bbf9f05264011ac87278da96"
+  },
+  "date_added": "2020-03-25T19:13:44-04:00"
+}

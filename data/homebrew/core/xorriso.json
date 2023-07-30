@@ -1,0 +1,107 @@
+{
+  "name": "xorriso",
+  "full_name": "xorriso",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ISO9660+RR manipulation tool",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.gnu.org/software/xorriso/",
+  "versions": {
+    "stable": "1.5.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/xorriso/xorriso-1.5.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d4b6b66bd04c49c6b358ee66475d806d6f6d7486e801106a47d331df1f2f8feb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:3e64ea078ab6659f5892db71cf6d2c72825cbefb80956ee88a8aaf5d0080594d",
+          "sha256": "3e64ea078ab6659f5892db71cf6d2c72825cbefb80956ee88a8aaf5d0080594d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:0c7004800a9d909e5cbe3373dbb2d8fb71a943d022901f8a5b950c34c52215b5",
+          "sha256": "0c7004800a9d909e5cbe3373dbb2d8fb71a943d022901f8a5b950c34c52215b5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:b6a4f6c99d783a4c6c7b32438aae079f7d769b34ad831310868309fe275ff585",
+          "sha256": "b6a4f6c99d783a4c6c7b32438aae079f7d769b34ad831310868309fe275ff585"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:3865faab160986fdaa7e94f37056a15a1b790a32501118e4d6ab91abeb9543ce",
+          "sha256": "3865faab160986fdaa7e94f37056a15a1b790a32501118e4d6ab91abeb9543ce"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:b0d7600730ba18eab8cdc658ddeb80f849906fbd505694a7603e57650568b392",
+          "sha256": "b0d7600730ba18eab8cdc658ddeb80f849906fbd505694a7603e57650568b392"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:b69459a4b5cbf28b29730e7b79ee89f1fd916d2c7f05c4de83826296c576a79f",
+          "sha256": "b69459a4b5cbf28b29730e7b79ee89f1fd916d2c7f05c4de83826296c576a79f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorriso/blobs/sha256:af398fe111c552f7c70837d0179cd5f42784a79444fb9dc913c4fdf4b0eb8da6",
+          "sha256": "af398fe111c552f7c70837d0179cd5f42784a79444fb9dc913c4fdf4b0eb8da6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xorriso.rb",
+  "ruby_source_checksum": {
+    "sha256": "88b10f398df2a84c10e82c9ec43a1270535739d50f82aeba14f8ae84a5c7fd24"
+  },
+  "date_added": "2012-08-21T12:29:53-05:00"
+}

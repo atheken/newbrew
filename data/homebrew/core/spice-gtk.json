@@ -1,0 +1,131 @@
+{
+  "name": "spice-gtk",
+  "full_name": "spice-gtk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GTK client/libraries for SPICE",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later and BSD-3-Clause",
+  "homepage": "https://www.spice-space.org",
+  "versions": {
+    "stable": "0.42",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.spice-space.org/download/gtk/spice-gtk-0.42.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9380117f1811ad1faa1812cb6602479b6290d4a0d8cc442d44427f7f6c0e7a58"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:2a6e8931ad271174c6f0ed8db774939cdde78d024c3ecdda9f9f2035e2536547",
+          "sha256": "2a6e8931ad271174c6f0ed8db774939cdde78d024c3ecdda9f9f2035e2536547"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:500b53e19c783d9a5267dc2ca98a195e2d434f2bb65493d114036365bcb1a39c",
+          "sha256": "500b53e19c783d9a5267dc2ca98a195e2d434f2bb65493d114036365bcb1a39c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:26ba9072a37ada8a8ffe4b7fc72ce5e818ac285e43e9c3d313bb3a67c00b97e6",
+          "sha256": "26ba9072a37ada8a8ffe4b7fc72ce5e818ac285e43e9c3d313bb3a67c00b97e6"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:c7bc533bf415ffdda9cbf3129bff469457c84e266c1ee88ddac5be721e66431d",
+          "sha256": "c7bc533bf415ffdda9cbf3129bff469457c84e266c1ee88ddac5be721e66431d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:cb802775855bc572d85b75a854cb4ad1eab6fa558a72c8b208c9963c2c326862",
+          "sha256": "cb802775855bc572d85b75a854cb4ad1eab6fa558a72c8b208c9963c2c326862"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:8988ac006388c1c9992ee19b844d108cbca3fc8c6642f67e623b4781cba3e6a7",
+          "sha256": "8988ac006388c1c9992ee19b844d108cbca3fc8c6642f67e623b4781cba3e6a7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/spice-gtk/blobs/sha256:b68695adcd56e47248083082f0a09b9aa2c9cb80a78d684c2cc644bd5ecad469",
+          "sha256": "b68695adcd56e47248083082f0a09b9aa2c9cb80a78d684c2cc644bd5ecad469"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "intltool",
+    "libtool",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python@3.11",
+    "six",
+    "vala"
+  ],
+  "dependencies": [
+    "atk",
+    "cairo",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gstreamer",
+    "gtk+3",
+    "jpeg-turbo",
+    "json-glib",
+    "libusb",
+    "lz4",
+    "openssl@3",
+    "opus",
+    "pango",
+    "pixman",
+    "spice-protocol",
+    "usbredir"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/spice-gtk.rb",
+  "ruby_source_checksum": {
+    "sha256": "6c2f33b443aedd2981821a8f8c1060d9deae61abf35a09e1b9320866c9de2e5a"
+  },
+  "date_added": "2019-05-30T12:36:09+02:00"
+}

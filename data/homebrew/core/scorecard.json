@@ -1,0 +1,109 @@
+{
+  "name": "scorecard",
+  "full_name": "scorecard",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Security health metrics for Open Source",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ossf/scorecard",
+  "versions": {
+    "stable": "4.11.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ossf/scorecard.git",
+      "tag": "v4.11.0",
+      "revision": "4edb07802fdad892fa8d10f8fd47666b6ccc27c9",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/ossf/scorecard.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca",
+          "sha256": "cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca",
+          "sha256": "cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca",
+          "sha256": "cb944a7610a3b88b84c4053e4f6f62d316ffedb64d0d7f0eef92187af02c42ca"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061",
+          "sha256": "ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061",
+          "sha256": "ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061",
+          "sha256": "ffdb4b64589f8b2a035afba3e2e3f6778bdbde814380f5696ab0b3f74602f061"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scorecard/blobs/sha256:c25d27653f6a49e95551e7518eb0e1d31a026ddb413304dc2dd9bc4184c0192b",
+          "sha256": "c25d27653f6a49e95551e7518eb0e1d31a026ddb413304dc2dd9bc4184c0192b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scorecard.rb",
+  "ruby_source_checksum": {
+    "sha256": "3e4be95f21ba4d4bc1cc3b0872534db3914a3fe7e8a6df116ab02ebe3ca163fe"
+  },
+  "date_added": "2021-07-12T07:49:23+00:00"
+}

@@ -1,0 +1,134 @@
+{
+  "name": "openj9",
+  "full_name": "openj9",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High performance, scalable, Java virtual machine",
+  "license": "EPL-2.0 or Apache-2.0 or (GPL-2.0-only with Classpath-exception-2.0) or (GPL-2.0-only with OpenJDK-assembly-exception-1.0)",
+  "homepage": "https://www.eclipse.org/openj9/",
+  "versions": {
+    "stable": "0.39.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/eclipse-openj9/openj9.git",
+      "tag": "openj9-0.39.0",
+      "revision": "088b83604033f2e4f0edb2d267b1f8b2a2450e91",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openj9/blobs/sha256:634d1ba21afd7593f7a9dd0738d8ef2ef3eca2232634f49123b2a669479d3d66",
+          "sha256": "634d1ba21afd7593f7a9dd0738d8ef2ef3eca2232634f49123b2a669479d3d66"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openj9/blobs/sha256:a15b058b69186f82f80380d89a0a484f02b491ecf246b1533c53b070c0393f93",
+          "sha256": "a15b058b69186f82f80380d89a0a484f02b491ecf246b1533c53b070c0393f93"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openj9/blobs/sha256:e2d8252a2d1d60cb63266302e4a56a40131add600df4406ab1ca7a3475a5c6cd",
+          "sha256": "e2d8252a2d1d60cb63266302e4a56a40131add600df4406ab1ca7a3475a5c6cd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openj9/blobs/sha256:a21b5c578663507ab630ac148e131ff65a3b39fe014612281b3227c354f96bc6",
+          "sha256": "a21b5c578663507ab630ac148e131ff65a3b39fe014612281b3227c354f96bc6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openj9/blobs/sha256:90b4d6d01fc3a6f17d2478d60fd93fd6c9254c582b564a5ab1c5ec78d5bb042c",
+          "sha256": "90b4d6d01fc3a6f17d2478d60fd93fd6c9254c582b564a5ab1c5ec78d5bb042c"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it conflicts with openjdk",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "bash",
+    "cmake",
+    "ninja",
+    "pkg-config",
+    "nasm"
+  ],
+  "dependencies": [
+    "fontconfig",
+    "giflib",
+    "harfbuzz",
+    "jpeg-turbo",
+    "libpng",
+    "little-cms2",
+    "alsa-lib",
+    "libx11",
+    "libxext",
+    "libxrandr",
+    "libxrender",
+    "libxt",
+    "libxtst",
+    "numactl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "m4": "build"
+    },
+    "cups",
+    "libffi",
+    "unzip",
+    "zip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openj9.rb",
+  "ruby_source_checksum": {
+    "sha256": "024f0b1d1fd1c7be8f0b446de0d3c8966bb1cdb08a85cffaaf9848c5d8c7da4d"
+  },
+  "date_added": "2021-05-04T11:42:15+00:00"
+}

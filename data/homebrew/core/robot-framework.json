@@ -1,0 +1,115 @@
+{
+  "name": "robot-framework",
+  "full_name": "robot-framework",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source test framework for acceptance testing",
+  "license": "Apache-2.0",
+  "homepage": "https://robotframework.org/",
+  "versions": {
+    "stable": "6.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/c6/37/fc94979077241a09f31f347cbae401c9f62705eadd441a392285537e603c/robotframework-6.1.1.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "3fa18f2596a4df2418c4b59abf43248327c15ed38ad8665f6a9a9c75c95d7789"
+    },
+    "head": {
+      "url": "https://github.com/robotframework/robotframework.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:1d9e65c0bd2df75c05d73d03b3e9a0887c4deaa3de0d1688a6dc06c4d9dce498",
+          "sha256": "1d9e65c0bd2df75c05d73d03b3e9a0887c4deaa3de0d1688a6dc06c4d9dce498"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:87e38514752c24dab56d1b16b157e724ab0e67b95414ad204a228fe6546605c1",
+          "sha256": "87e38514752c24dab56d1b16b157e724ab0e67b95414ad204a228fe6546605c1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:409a2ce35f575ce21da4c9095c89b7899ea2d00dfd849c18d16efaf97d721151",
+          "sha256": "409a2ce35f575ce21da4c9095c89b7899ea2d00dfd849c18d16efaf97d721151"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:d9ec8e634284299b8da2f96e1a05355f8cb891a071c5fdb3e9877ff4e297ac6c",
+          "sha256": "d9ec8e634284299b8da2f96e1a05355f8cb891a071c5fdb3e9877ff4e297ac6c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:2cc2ef282f7f11f29be09cd0c028c0d05f84d9a2f4b4e84d06ee7c5d533d3d6b",
+          "sha256": "2cc2ef282f7f11f29be09cd0c028c0d05f84d9a2f4b4e84d06ee7c5d533d3d6b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:c1c809fef43a5a4d0faee4046a2e2dc6d12abd993efc562db2c019d2aa32ae90",
+          "sha256": "c1c809fef43a5a4d0faee4046a2e2dc6d12abd993efc562db2c019d2aa32ae90"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/robot-framework/blobs/sha256:1f9f3429fa9a0297020af0111214ef95404d731eec45dafa38fe2dcf0c0f67ef",
+          "sha256": "1f9f3429fa9a0297020af0111214ef95404d731eec45dafa38fe2dcf0c0f67ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/robot-framework.rb",
+  "ruby_source_checksum": {
+    "sha256": "5f25c405364e6d062e5214974ecaff4d21b3b59692d9a9ffd716bc313c28078b"
+  },
+  "date_added": "2017-01-27T09:09:53+00:00"
+}

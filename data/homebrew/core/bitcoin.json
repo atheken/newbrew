@@ -1,0 +1,138 @@
+{
+  "name": "bitcoin",
+  "full_name": "bitcoin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Decentralized, peer to peer payment network",
+  "license": "MIT",
+  "homepage": "https://bitcoincore.org/",
+  "versions": {
+    "stable": "25.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://bitcoincore.org/bin/bitcoin-core-25.0/bitcoin-25.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5df67cf42ca3b9a0c38cdafec5bbb517da5b58d251f32c8d2a47511f9be1ebc2"
+    },
+    "head": {
+      "url": "https://github.com/bitcoin/bitcoin.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:7964d698ce133103c43ec7e133a983028278f3d851d5382fec243215225cfec6",
+          "sha256": "7964d698ce133103c43ec7e133a983028278f3d851d5382fec243215225cfec6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:69954197ac4aab4ca15fea03927f9ea870563ad574ebe962548cd69c7bcd8334",
+          "sha256": "69954197ac4aab4ca15fea03927f9ea870563ad574ebe962548cd69c7bcd8334"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:9038890cd9c57dfe0f31a15b35a0a748c5a207fbf0a09684adcaf73cb0b0e4fd",
+          "sha256": "9038890cd9c57dfe0f31a15b35a0a748c5a207fbf0a09684adcaf73cb0b0e4fd"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:29a074e4a96fe7bb7c7e2a135980e6c885133abfdf6aa6669b61597d1a11b40c",
+          "sha256": "29a074e4a96fe7bb7c7e2a135980e6c885133abfdf6aa6669b61597d1a11b40c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:e3af0cfeba91ba9be13a49a6525add34deaf8363aa470ada08bb92c53a48f6dd",
+          "sha256": "e3af0cfeba91ba9be13a49a6525add34deaf8363aa470ada08bb92c53a48f6dd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:88c3d142ff5bb795fff54fd3724536d8572aeb4549c11dde27c8d7e4d5b71841",
+          "sha256": "88c3d142ff5bb795fff54fd3724536d8572aeb4549c11dde27c8d7e4d5b71841"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bitcoin/blobs/sha256:2e6f19d87b4784267c1cb1a4a19236be3e8691ef2197f4c5dab6f83dd0a209c0",
+          "sha256": "2e6f19d87b4784267c1cb1a4a19236be3e8691ef2197f4c5dab6f83dd0a209c0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config",
+    "util-linux"
+  ],
+  "dependencies": [
+    "berkeley-db@4",
+    "boost",
+    "libevent",
+    "miniupnpc",
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.15",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/bitcoin/bin/bitcoind",
+    "run_type": "immediate"
+  },
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bitcoin.rb",
+  "ruby_source_checksum": {
+    "sha256": "7dd52e62660e0d037d7e61332a5ca7935ef6ef983b080be9be89d5ebde64ca76"
+  },
+  "date_added": "2017-06-18T08:05:27-07:00"
+}

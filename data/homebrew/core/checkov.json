@@ -1,0 +1,114 @@
+{
+  "name": "checkov",
+  "full_name": "checkov",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Prevent cloud misconfigurations during build-time for IaC tools",
+  "license": "Apache-2.0",
+  "homepage": "https://www.checkov.io/",
+  "versions": {
+    "stable": "2.3.345",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/b3/b4/f0f3a6a91b05a4db2d53f66e86065e18b3e4f4e00ce1e74ef0c002904e2a/checkov-2.3.345.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "016739c834b96dc0803c2d41f6b70a9d8b60a64660b7cc0539cdfce99737ce58"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:182c9a717aa6380f2350a862cbddd4fb5c62cecca4b4eb099aa8847c2178e4b4",
+          "sha256": "182c9a717aa6380f2350a862cbddd4fb5c62cecca4b4eb099aa8847c2178e4b4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:a49149e5e890ae6351c4304ea37ffb85ee02fbb03e2a3152b509889a7dddee7a",
+          "sha256": "a49149e5e890ae6351c4304ea37ffb85ee02fbb03e2a3152b509889a7dddee7a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:aae115569eafe4fc3262d9f537267bae4cf6a71ce62fecc33ee5cdf04c116db0",
+          "sha256": "aae115569eafe4fc3262d9f537267bae4cf6a71ce62fecc33ee5cdf04c116db0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:e05a4d1b7cabf9ee100c6e52fb19e1a9ca86c80951ea050ec529472b7db49589",
+          "sha256": "e05a4d1b7cabf9ee100c6e52fb19e1a9ca86c80951ea050ec529472b7db49589"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:70d7adc66918a5b4fba1e7fe65d931a76e49575eabefa54cf06c9403284cae2a",
+          "sha256": "70d7adc66918a5b4fba1e7fe65d931a76e49575eabefa54cf06c9403284cae2a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:65ba72beb94b057bc65c8d08fc4f744550e080bf86ea13faba8c333596e1a1aa",
+          "sha256": "65ba72beb94b057bc65c8d08fc4f744550e080bf86ea13faba8c333596e1a1aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/checkov/blobs/sha256:18e44d3e86452ef56f99630e49d9a51bde290f325a97647bd271b8de54578ad3",
+          "sha256": "18e44d3e86452ef56f99630e49d9a51bde290f325a97647bd271b8de54578ad3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "python-markdown",
+    "python-tabulate",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/checkov.rb",
+  "ruby_source_checksum": {
+    "sha256": "2108c5cc377787ede0768ff34476d9a43fa2fd6061bd6a827cf17b17f5fa1422"
+  },
+  "date_added": "2020-11-09T17:47:35+00:00"
+}

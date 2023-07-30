@@ -1,0 +1,105 @@
+{
+  "name": "pint",
+  "full_name": "pint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Prometheus rule linter/validator",
+  "license": "Apache-2.0",
+  "homepage": "https://cloudflare.github.io/pint/",
+  "versions": {
+    "stable": "0.44.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cloudflare/pint/archive/refs/tags/v0.44.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0c47a42578a9db8b4ce455c8ec7b94f5eea0f79752d60e119d0cc6f24b43e1f6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51",
+          "sha256": "e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51",
+          "sha256": "e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51",
+          "sha256": "e7152134e52af0ab7ca0381f247fb7249316640068797b3bccdf6b07b9f0fa51"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6",
+          "sha256": "a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6",
+          "sha256": "a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6",
+          "sha256": "a9600a3694fb2ddfd9853ad13bbca3d086e3179879486b8377700c6940d6e8b6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pint/blobs/sha256:6bab0bf2988b897706ef59bfd95fc58492137d357a18488186d8fd2ad6267a47",
+          "sha256": "6bab0bf2988b897706ef59bfd95fc58492137d357a18488186d8fd2ad6267a47"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pint.rb",
+  "ruby_source_checksum": {
+    "sha256": "ed3fd9e6e4102b52a5c209834383b7869d100ca99b231376b8a25b853bc98447"
+  },
+  "date_added": "2022-07-31T10:59:34+00:00"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "linux-headers@4.4",
+  "full_name": "linux-headers@4.4",
+  "tap": "homebrew/core",
+  "oldname": "linux-headers",
+  "oldnames": [
+    "linux-headers"
+  ],
+  "aliases": [],
+  "versioned_formulae": [
+    "linux-headers@5.16",
+    "linux-headers@5.15",
+    "linux-headers@4.15"
+  ],
+  "desc": "Header files of the Linux kernel",
+  "license": "GPL-2.0-only",
+  "homepage": "https://kernel.org/",
+  "versions": {
+    "stable": "4.4.302",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.302.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "66271f9d9fce8596622e8154ca0ea160e46b78a5a6c967a15b55855f744d1b0b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linux-headers/4.4/blobs/sha256:08339aac091f6bef8e643268c0801898e14acd349420f7e08df8c2094efcef8b",
+          "sha256": "08339aac091f6bef8e643268c0801898e14acd349420f7e08df8c2094efcef8b"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/linux-headers@4.4.rb",
+  "ruby_source_checksum": {
+    "sha256": "be341b7da22edc6b41439d861e9823c2c6c3c6e97689752e1ff588836ce93453"
+  },
+  "date_added": "2021-07-20T23:17:59-07:00"
+}

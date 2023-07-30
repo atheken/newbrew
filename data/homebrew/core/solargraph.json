@@ -1,0 +1,109 @@
+{
+  "name": "solargraph",
+  "full_name": "solargraph",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ruby language server",
+  "license": "MIT",
+  "homepage": "https://solargraph.org",
+  "versions": {
+    "stable": "0.49.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/castwide/solargraph.git",
+      "tag": "v0.49.0",
+      "revision": "c8d40adc997efc90eff1892a0e161543a696d358",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:b3809485537b507bea73604022f07310f08fb484d3179c87d87f680bfc6a1445",
+          "sha256": "b3809485537b507bea73604022f07310f08fb484d3179c87d87f680bfc6a1445"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:d7ec8e0d4f845d6d097575cdc393d97d6af84cb43fa9fc5f9158b8ea52998c08",
+          "sha256": "d7ec8e0d4f845d6d097575cdc393d97d6af84cb43fa9fc5f9158b8ea52998c08"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:9d6ddafa53ddd8f1dd57757c59bce35388b11ee96521381bc3c9087483416235",
+          "sha256": "9d6ddafa53ddd8f1dd57757c59bce35388b11ee96521381bc3c9087483416235"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:7303e3bb5200c0a76efb7413c521685e8283e7654e83fe809c75c456d5363b67",
+          "sha256": "7303e3bb5200c0a76efb7413c521685e8283e7654e83fe809c75c456d5363b67"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:38382e8d0266c38e0eb6fca8176477026d8ece5c53237920cd6733f3b90365ec",
+          "sha256": "38382e8d0266c38e0eb6fca8176477026d8ece5c53237920cd6733f3b90365ec"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:c2ba1e2a6e9e6034b9c30e680bfaec1d143a09df6928c70e34b0109779fbf712",
+          "sha256": "c2ba1e2a6e9e6034b9c30e680bfaec1d143a09df6928c70e34b0109779fbf712"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solargraph/blobs/sha256:faeca34a6d2716350ec139ddaa22993fc65ce2cd01dddb8a3d8098a21be5c358",
+          "sha256": "faeca34a6d2716350ec139ddaa22993fc65ce2cd01dddb8a3d8098a21be5c358"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby",
+    "xz"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/solargraph.rb",
+  "ruby_source_checksum": {
+    "sha256": "924b12bf310af49ff542cd9b19fd90e7f398f5307aa4d7f8853521147a799cfa"
+  },
+  "date_added": "2021-12-21T11:55:37+00:00"
+}

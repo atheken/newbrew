@@ -1,0 +1,106 @@
+{
+  "name": "libimagequant",
+  "full_name": "libimagequant",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Palette quantization library extracted from pnquant2",
+  "license": "Cannot Represent",
+  "homepage": "https://pngquant.org/lib/",
+  "versions": {
+    "stable": "4.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ImageOptim/libimagequant/archive/4.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "716ffb2bc1594a4f9af324d7096129a37a3f9ebcee7f78a132282fbf2cf22fd8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:97c3688ef5aa75bd33d85e823137164e9d466d42e13c18f728ce80f07b00b657",
+          "sha256": "97c3688ef5aa75bd33d85e823137164e9d466d42e13c18f728ce80f07b00b657"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:d63de9dcc545248c6be1ad3995599096796f489e59757af007311f0c3aeb98a8",
+          "sha256": "d63de9dcc545248c6be1ad3995599096796f489e59757af007311f0c3aeb98a8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:9416c5c53269072776255fb2abc2ecc1548463a09231de0e008cf922a1ead3e7",
+          "sha256": "9416c5c53269072776255fb2abc2ecc1548463a09231de0e008cf922a1ead3e7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:544e83a1484121ac15453559cdc1298fbbef378c6cc5e928edd3f244276be27a",
+          "sha256": "544e83a1484121ac15453559cdc1298fbbef378c6cc5e928edd3f244276be27a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:8f5280c3f6d139f3ed0cb6d7adb4b21ca467f3aa971d5889f279a3c8dd689d8f",
+          "sha256": "8f5280c3f6d139f3ed0cb6d7adb4b21ca467f3aa971d5889f279a3c8dd689d8f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:d1ad32221e27f3c2035a3acf1adbb078de190984dc1580e188a518bad6d013ce",
+          "sha256": "d1ad32221e27f3c2035a3acf1adbb078de190984dc1580e188a518bad6d013ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libimagequant/blobs/sha256:e6c743a999b18e55734d0dda08dcde833b87843ba7c37dadf5e63f6390d422b9",
+          "sha256": "e6c743a999b18e55734d0dda08dcde833b87843ba7c37dadf5e63f6390d422b9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cargo-c",
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libimagequant.rb",
+  "ruby_source_checksum": {
+    "sha256": "adfec61ebeab0e2a1f1ea74de10053f3d8ebde5c39b476bd99c2ea13a322172c"
+  },
+  "date_added": "2018-06-19T01:51:10-07:00"
+}

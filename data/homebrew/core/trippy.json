@@ -1,0 +1,109 @@
+{
+  "name": "trippy",
+  "full_name": "trippy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network diagnostic tool, inspired by mtr",
+  "license": "Apache-2.0",
+  "homepage": "https://trippy.cli.rs/",
+  "versions": {
+    "stable": "0.8.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fujiapple852/trippy/archive/refs/tags/0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4b2155ca20d53ee1d29c9459a6efc4ee094658e93033a90085e39c841d02666b"
+    },
+    "head": {
+      "url": "https://github.com/fujiapple852/trippy.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:2ca7942839c96151fee0e2abcc7d5b551fd53c75f797a96b786e11316d04baaf",
+          "sha256": "2ca7942839c96151fee0e2abcc7d5b551fd53c75f797a96b786e11316d04baaf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:4f0ea6d43dfa05b6bdda735eb6dfac2f3e38b99f4a09694929742633fbc12f47",
+          "sha256": "4f0ea6d43dfa05b6bdda735eb6dfac2f3e38b99f4a09694929742633fbc12f47"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:7b083e2f4d9afd3c82e2d1b2e01f52e6804972e4205818c0049f6e39ea688608",
+          "sha256": "7b083e2f4d9afd3c82e2d1b2e01f52e6804972e4205818c0049f6e39ea688608"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:48e6cbda0b86865439925bd439e128b120e675ca97abf0798b9d3c4d83b9eefb",
+          "sha256": "48e6cbda0b86865439925bd439e128b120e675ca97abf0798b9d3c4d83b9eefb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:cf4ce67bbe64a8cdda172993c16b9e74a08ef0ce094c9d8425b845108a1cb0e5",
+          "sha256": "cf4ce67bbe64a8cdda172993c16b9e74a08ef0ce094c9d8425b845108a1cb0e5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:452cbfe0a5557e9b8b2079bb61496d0e45f3bb0c9179873c709d0f472033be26",
+          "sha256": "452cbfe0a5557e9b8b2079bb61496d0e45f3bb0c9179873c709d0f472033be26"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trippy/blobs/sha256:d134c0706c4f73e14a541865d16968e9c86ce81f2bb48a17ebf428316c08b281",
+          "sha256": "d134c0706c4f73e14a541865d16968e9c86ce81f2bb48a17ebf428316c08b281"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/trippy.rb",
+  "ruby_source_checksum": {
+    "sha256": "ca4f988ec093829f18652ccc3ce0d84f37edb1eeb25be7b01ff6e4ce9c3d0d4a"
+  },
+  "date_added": "2023-03-12T06:21:49+00:00"
+}

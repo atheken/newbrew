@@ -1,0 +1,111 @@
+{
+  "name": "linode-cli",
+  "full_name": "linode-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for the Linode API",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.linode.com/products/cli/",
+  "versions": {
+    "stable": "5.41.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/87/9a/e4d3fa5d8e2191a18b6aa9960a89ef8e3713edf8fcdeeb86e8cab6ac17e6/linode-cli-5.41.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "03f23c34255881f7124f40a2d699556beefba196d4049429fa97bdfb9370a0b4"
+    },
+    "head": {
+      "url": "https://github.com/linode/linode-cli.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:bc367cc2e6728e6d054a5a4632c66da9cfe8822ed50430c502490bd3f553ae25",
+          "sha256": "bc367cc2e6728e6d054a5a4632c66da9cfe8822ed50430c502490bd3f553ae25"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:404260fa52f4457149494fcb9154be5214ae1f3dc5340259a4d908bbf011c822",
+          "sha256": "404260fa52f4457149494fcb9154be5214ae1f3dc5340259a4d908bbf011c822"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:d347bfd946b8864ef681394c980685534b57b52cc69ba87b550fc95bbb2c03a2",
+          "sha256": "d347bfd946b8864ef681394c980685534b57b52cc69ba87b550fc95bbb2c03a2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:1d59464706c75886a0b444e328fdfd83c20e0e1f319bd9a28bfd9896e7f019b5",
+          "sha256": "1d59464706c75886a0b444e328fdfd83c20e0e1f319bd9a28bfd9896e7f019b5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:86ba8b384f478d8a08cfa62e5757435d1378aed021311dfb4e80aa219ba92bf3",
+          "sha256": "86ba8b384f478d8a08cfa62e5757435d1378aed021311dfb4e80aa219ba92bf3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:bef3d4523db38117c74ba54575e7a4a204355e50aa873c966ed9fb953b283be6",
+          "sha256": "bef3d4523db38117c74ba54575e7a4a204355e50aa873c966ed9fb953b283be6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/linode-cli/blobs/sha256:fa339d3b6d069a2d55b58961c7e2f2431dbd5faa87303051d1a8e2b9a92b3c61",
+          "sha256": "fa339d3b6d069a2d55b58961c7e2f2431dbd5faa87303051d1a8e2b9a92b3c61"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/linode-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "48a369e006f98ebddaf43cbd65e556dcbbb433d74ba48157cd1d8a05435fb5d9"
+  },
+  "date_added": "2022-02-03T05:15:00+00:00"
+}

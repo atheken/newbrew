@@ -1,0 +1,109 @@
+{
+  "name": "libclc",
+  "full_name": "libclc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of the library requirements of the OpenCL C programming language",
+  "license": "Apache-2.0 with LLVM-exception",
+  "homepage": "https://libclc.llvm.org/",
+  "versions": {
+    "stable": "16.0.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.6/libclc-16.0.6.src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "61952af79c555d50bc88cb6f134d9abe9278f65dd34c2bc945cc3d324c2af224"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f",
+          "sha256": "cc9c0dd53dc0846a507a7eb445d950400e4a37a1e587d6fa6f3ae6c4ea0f200f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libclc/blobs/sha256:c16d51be82c19ebd19059721d57b3145d79e3d3db2f9cf1836beff0866db5603",
+          "sha256": "c16d51be82c19ebd19059721d57b3145d79e3d3db2f9cf1836beff0866db5603"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "llvm",
+    "spirv-llvm-translator"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "llvm"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libclc.rb",
+  "ruby_source_checksum": {
+    "sha256": "7d0cbcaa7b4656656a866329ffdd32820ee7e5ee89481faa90abdafc8fb23ab4"
+  },
+  "date_added": "2023-05-14T20:29:15+08:00"
+}

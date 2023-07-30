@@ -1,0 +1,109 @@
+{
+  "name": "flake8",
+  "full_name": "flake8",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lint your Python code for style and logical errors",
+  "license": "MIT",
+  "homepage": "https://flake8.pycqa.org/",
+  "versions": {
+    "stable": "6.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/cf/f8/bbe24f43695c0c480181e39ce910c2650c794831886ec46ddd7c40520e6a/flake8-6.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d5b3857f07c030bdb5bf41c7f53799571d75c4491748a3adcd47de929e34cd23"
+    },
+    "head": {
+      "url": "https://github.com/PyCQA/flake8.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:1eed9a057bfab1b4db4cb236a4a16d1ea1ff40d16975bcdae17da0d01457308a",
+          "sha256": "1eed9a057bfab1b4db4cb236a4a16d1ea1ff40d16975bcdae17da0d01457308a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:e89142a3f1f2e098847826a1609c60b74e717d6a67b80a41e4f9894d10a843ea",
+          "sha256": "e89142a3f1f2e098847826a1609c60b74e717d6a67b80a41e4f9894d10a843ea"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:fe9648b81f55f28c91a857a0de6494326593c0a9400c7513b4f6314ba5d53b1b",
+          "sha256": "fe9648b81f55f28c91a857a0de6494326593c0a9400c7513b4f6314ba5d53b1b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:ee8180234914a19a716f496d0ad0f9e2e986912eda7253ac84ea01954053d312",
+          "sha256": "ee8180234914a19a716f496d0ad0f9e2e986912eda7253ac84ea01954053d312"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:677fc80edf5de3eb8c753a6a9dca3219b3ab2c84a137aaa2eeb0c8213057e4a8",
+          "sha256": "677fc80edf5de3eb8c753a6a9dca3219b3ab2c84a137aaa2eeb0c8213057e4a8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:df2f6f810fec4267565b616304d5b9e3262dafd04db5e5d5e8f9cbdbbd8682d6",
+          "sha256": "df2f6f810fec4267565b616304d5b9e3262dafd04db5e5d5e8f9cbdbbd8682d6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flake8/blobs/sha256:2c0d35a1ff6ccb302ea1e7d2a8777047f89dc4647c963ebab3ea315f4240424f",
+          "sha256": "2c0d35a1ff6ccb302ea1e7d2a8777047f89dc4647c963ebab3ea315f4240424f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/flake8.rb",
+  "ruby_source_checksum": {
+    "sha256": "1dae19e3b3d17bbdfc76262725c2f4209baa5dfa68551d5bddc0744212ff5636"
+  },
+  "date_added": "2016-06-16T22:20:21+01:00"
+}

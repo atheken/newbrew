@@ -1,0 +1,112 @@
+{
+  "name": "proxychains-ng",
+  "full_name": "proxychains-ng",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Hook preloader",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/rofl0r/proxychains-ng",
+  "versions": {
+    "stable": "4.16",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rofl0r/proxychains-ng/archive/v4.16.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5f66908044cc0c504f4a7e618ae390c9a78d108d3f713d7839e440693f43b5e7"
+    },
+    "head": {
+      "url": "https://github.com/rofl0r/proxychains-ng.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:1bc1b52df2f57921158ffed11abe9f759aaaca442f69839f035c4a6fbbb987f2",
+          "sha256": "1bc1b52df2f57921158ffed11abe9f759aaaca442f69839f035c4a6fbbb987f2"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:ce214ff6acd1265dc03907d4415c1b7d883862d56e046f305fb7ad1a23295840",
+          "sha256": "ce214ff6acd1265dc03907d4415c1b7d883862d56e046f305fb7ad1a23295840"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:4a5d12dcf616731f16127b8c2a0f77adccaa813a74e9952bf7de504f4f6818c2",
+          "sha256": "4a5d12dcf616731f16127b8c2a0f77adccaa813a74e9952bf7de504f4f6818c2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:0bdd42d9b1e1a9edb51c9e41cfca87db863d8632e1125f9acd5be9e83a357995",
+          "sha256": "0bdd42d9b1e1a9edb51c9e41cfca87db863d8632e1125f9acd5be9e83a357995"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:68cdf4b1a018cc0a94513227ff073dfa430658f330dce45dcc041e001639e8f1",
+          "sha256": "68cdf4b1a018cc0a94513227ff073dfa430658f330dce45dcc041e001639e8f1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:e1c1f4075d1b7bc8e4aa3053ff0fddb53f0813080785583fff7bf5037c8fa835",
+          "sha256": "e1c1f4075d1b7bc8e4aa3053ff0fddb53f0813080785583fff7bf5037c8fa835"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:b85d3715f51bd972366c176cc9a75c8b1303812fde82c879e12b17657db08789",
+          "sha256": "b85d3715f51bd972366c176cc9a75c8b1303812fde82c879e12b17657db08789"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/proxychains-ng/blobs/sha256:b88fdbfcdada3fca4d4e8e8195d848aad96fe2b242888f6466df7b5535b598a6",
+          "sha256": "b88fdbfcdada3fca4d4e8e8195d848aad96fe2b242888f6466df7b5535b598a6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/proxychains-ng.rb",
+  "ruby_source_checksum": {
+    "sha256": "4238e5542fea6622c81f3567d4a2c28efce1385252346140e546b32bea909a65"
+  },
+  "date_added": "2013-06-11T16:25:10+02:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "fwknop",
+  "full_name": "fwknop",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Single Packet Authorization and Port Knocking",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.cipherdyne.org/fwknop/",
+  "versions": {
+    "stable": "2.6.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mrash/fwknop/archive/2.6.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a7c465ba84261f32c6468c99d5512f1111e1bf4701477f75b024bf60b3e4d235"
+    },
+    "head": {
+      "url": "https://github.com/mrash/fwknop.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:1855b9dc8ff17dbc1cc3c07512d3ebb81f80b5e45b5ab918da8df3ac48cd86d5",
+          "sha256": "1855b9dc8ff17dbc1cc3c07512d3ebb81f80b5e45b5ab918da8df3ac48cd86d5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:b786ab1814ba91ca06d3d638e7c1aad3a57e472ea957ab3f45f72c82063176db",
+          "sha256": "b786ab1814ba91ca06d3d638e7c1aad3a57e472ea957ab3f45f72c82063176db"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:2c9f26be45a730f30e6c950f842e76d982bf58afabf0710c2c4add41eda497d6",
+          "sha256": "2c9f26be45a730f30e6c950f842e76d982bf58afabf0710c2c4add41eda497d6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:c231ca3d7d20435ed0ae401294d5e6352ac811e4376635f93afdd71eb2b08656",
+          "sha256": "c231ca3d7d20435ed0ae401294d5e6352ac811e4376635f93afdd71eb2b08656"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:2c2faa8fc9328c53553c4b5bee81c4b8b6e8a43ed54f49d9ab6646bea0529e5e",
+          "sha256": "2c2faa8fc9328c53553c4b5bee81c4b8b6e8a43ed54f49d9ab6646bea0529e5e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fwknop/blobs/sha256:370466dcba3753ce5cd890395d91fae86f13d656b97bb1a379cccd774ace12d1",
+          "sha256": "370466dcba3753ce5cd890395d91fae86f13d656b97bb1a379cccd774ace12d1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "texinfo"
+  ],
+  "dependencies": [
+    "gpgme",
+    "iptables"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2022-10-01",
+  "deprecation_reason": "unmaintained",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fwknop.rb",
+  "ruby_source_checksum": {
+    "sha256": "26929f10e77e5e0b36a6a2166181ce83540fe2ed2622501c78d3650f392721f0"
+  },
+  "date_added": "2012-03-25T18:17:59-07:00"
+}

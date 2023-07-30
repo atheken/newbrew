@@ -1,0 +1,120 @@
+{
+  "name": "omake",
+  "full_name": "omake",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "o-make"
+  ],
+  "versioned_formulae": [],
+  "desc": "Build system designed for scalability, portability, and concision",
+  "license": "GPL-2.0-only",
+  "homepage": "http://projects.camlcity.org/projects/omake.html",
+  "versions": {
+    "stable": "0.10.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ocaml-omake/omake/archive/omake-0.10.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f84f4cbb18a075782a7432bbf9abd5ef177eb0603fc1c69afffce8c2c25e30ee"
+    },
+    "head": {
+      "url": "https://github.com/ocaml-omake/omake.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:94c636910242c5431bf03e0cd3d5c8f2972a48ad821ba36443ce603c44c84f70",
+          "sha256": "94c636910242c5431bf03e0cd3d5c8f2972a48ad821ba36443ce603c44c84f70"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:40ad54dcd5bef35cfb5ab3e7cb7b5f81e03c1b313b1f7c74e715b6ea6c6353f7",
+          "sha256": "40ad54dcd5bef35cfb5ab3e7cb7b5f81e03c1b313b1f7c74e715b6ea6c6353f7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:a980b712dacb260d0ec4b2121545cdec4a1534ca95976e10b6edfb6eb2137569",
+          "sha256": "a980b712dacb260d0ec4b2121545cdec4a1534ca95976e10b6edfb6eb2137569"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:3794f8d448da10ad33558e4a7390f8e657a4de09a84db6933387f1f59da0603c",
+          "sha256": "3794f8d448da10ad33558e4a7390f8e657a4de09a84db6933387f1f59da0603c"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:f41e4e4311dd134634010373863ef6ab0830c0c4bbb210590c8e2975b10fe35d",
+          "sha256": "f41e4e4311dd134634010373863ef6ab0830c0c4bbb210590c8e2975b10fe35d"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:8dd4cb8d9e79996dc69c9205dfddba7e7e530971f197c2f40d306818afb6a97e",
+          "sha256": "8dd4cb8d9e79996dc69c9205dfddba7e7e530971f197c2f40d306818afb6a97e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/omake/blobs/sha256:5d2038dba034f18eae8f32a98f526ef30b45ceae8ca6bd103b3e083267ab2695",
+          "sha256": "5d2038dba034f18eae8f32a98f526ef30b45ceae8ca6bd103b3e083267ab2695"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ocaml"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "ocaml",
+    "ocaml-findlib"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "oil",
+    "etsh"
+  ],
+  "conflicts_with_reasons": [
+    "both install 'osh' binaries",
+    "both install 'osh' binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/omake.rb",
+  "ruby_source_checksum": {
+    "sha256": "5fd3fd7114a6b2bd25331e5a453a912d9741fdb236850b4cb86a6a58e70f6d2c"
+  },
+  "date_added": "2020-07-08T11:36:11+00:00"
+}

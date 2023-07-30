@@ -1,0 +1,123 @@
+{
+  "name": "asio",
+  "full_name": "asio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross-platform C++ Library for asynchronous programming",
+  "license": "BSL-1.0",
+  "homepage": "https://think-async.com/Asio",
+  "versions": {
+    "stable": "1.28.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/asio/asio/1.28.1%20%28Stable%29/asio-1.28.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "3bcf0357e2e19a2ee5adc805e6cc209338a7461c406d3047d282ea1c4b566101"
+    },
+    "head": {
+      "url": "https://github.com/chriskohlhoff/asio.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:afee43084abe550b59253d8b05bfe2f4e9735bc8e8245067edae9ca5367e4d20",
+          "sha256": "afee43084abe550b59253d8b05bfe2f4e9735bc8e8245067edae9ca5367e4d20"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:aadc88fbaac96e4886b9da1e2f5f3733c91d1c543430fdec047402c2a397665c",
+          "sha256": "aadc88fbaac96e4886b9da1e2f5f3733c91d1c543430fdec047402c2a397665c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:a729d67adbec19d0207de92fcbac2ab80264c6f50f3d57973bf585fdec5dff78",
+          "sha256": "a729d67adbec19d0207de92fcbac2ab80264c6f50f3d57973bf585fdec5dff78"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:5bd3675a77ec2ad624ae08cd459d0d2008f27b4a150a30feaaf6c2fbd9bf1ea2",
+          "sha256": "5bd3675a77ec2ad624ae08cd459d0d2008f27b4a150a30feaaf6c2fbd9bf1ea2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:4beb25487b7e5548fc86d538b9a5e51de37540604a6ac71c6eecdff76d1bc1dc",
+          "sha256": "4beb25487b7e5548fc86d538b9a5e51de37540604a6ac71c6eecdff76d1bc1dc"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:1c26d0ed67f36c26a9204496b6b437917e470eba0a7c3132090b86c848de51c6",
+          "sha256": "1c26d0ed67f36c26a9204496b6b437917e470eba0a7c3132090b86c848de51c6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asio/blobs/sha256:ef48e68516761c4d94b643b82cb54a9c018734aa4bca02449bef44a4cbcbae10",
+          "sha256": "ef48e68516761c4d94b643b82cb54a9c018734aa4bca02449bef44a4cbcbae10"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asio.rb",
+  "ruby_source_checksum": {
+    "sha256": "eb3752b22d764b720346ca601f7679899b0d107b15cf5fcff38ec70c9c3b2bd2"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake"
+    ],
+    "dependencies": [
+      "openssl@3"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2015-10-03T08:59:30-07:00"
+}

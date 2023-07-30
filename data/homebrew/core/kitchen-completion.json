@@ -1,0 +1,77 @@
+{
+  "name": "kitchen-completion",
+  "full_name": "kitchen-completion",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bash completion for Kitchen",
+  "license": "MIT",
+  "homepage": "https://github.com/MarkBorcherding/test-kitchen-bash-completion",
+  "versions": {
+    "stable": "1.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/MarkBorcherding/test-kitchen-bash-completion/archive/v1.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6a9789359dab220df0afad25385dd3959012cfa6433c8c96e4970010b8cfc483"
+    },
+    "head": {
+      "url": "https://github.com/MarkBorcherding/test-kitchen-bash-completion.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kitchen-completion/blobs/sha256:4477a44357f241518a1ebd61583623cfccee33e67c2046cd85ce6702a2ea54ce",
+          "sha256": "4477a44357f241518a1ebd61583623cfccee33e67c2046cd85ce6702a2ea54ce"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kitchen-completion.rb",
+  "ruby_source_checksum": {
+    "sha256": "94decf652c7413b5798b5229f43c4b96698a2ce5a600c1c340e55f56862b7897"
+  },
+  "date_added": "2017-01-25T08:30:37+00:00"
+}

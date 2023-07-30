@@ -1,0 +1,87 @@
+{
+  "name": "ext2fuse",
+  "full_name": "ext2fuse",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compact implementation of ext2 file system using FUSE",
+  "license": null,
+  "homepage": "https://sourceforge.net/projects/ext2fuse/",
+  "versions": {
+    "stable": "0.8.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/ext2fuse/ext2fuse/0.8.1/ext2fuse-src-0.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "431035797b2783216ec74b6aad5c721b4bffb75d2174967266ee49f0a3466cd9"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ext2fuse/blobs/sha256:cf8a8ab7893e4703857cc93f41853567140bb2713e90dffd0db844d916d83ce9",
+          "sha256": "cf8a8ab7893e4703857cc93f41853567140bb2713e90dffd0db844d916d83ce9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "e2fsprogs",
+    "libfuse@2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ext2fuse.rb",
+  "ruby_source_checksum": {
+    "sha256": "f39d28aad97392ed1db3f010c6ed0ec92b89a3ad3ba9961638fe14c949d5ffb0"
+  },
+  "date_added": "2012-03-18T13:14:08-07:00"
+}

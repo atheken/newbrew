@@ -1,0 +1,128 @@
+{
+  "name": "pypy",
+  "full_name": "pypy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Highly performant implementation of Python 2 in Python",
+  "license": "MIT",
+  "homepage": "https://pypy.org/",
+  "versions": {
+    "stable": "7.3.12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.python.org/pypy/pypy2.7-v7.3.12-src.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "dd61d88da274c2ce2cec77667d4a3df9a652bcc50e26f90991d4dd0af66bccf4"
+    },
+    "head": {
+      "url": "https://foss.heptapod.net/pypy/pypy",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:72d020e6636b793655a7dbf76426943edc64b82c26a12d37249d4dd55785d64b",
+          "sha256": "72d020e6636b793655a7dbf76426943edc64b82c26a12d37249d4dd55785d64b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:44bc02650e5b0c879956e328cb2a0ec61b3076d6d71945fb0edec7dec218266a",
+          "sha256": "44bc02650e5b0c879956e328cb2a0ec61b3076d6d71945fb0edec7dec218266a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:02c8c813d93fe2f9d030b1545f65d840bcacaf5b5e00f83ab50830fa9a186015",
+          "sha256": "02c8c813d93fe2f9d030b1545f65d840bcacaf5b5e00f83ab50830fa9a186015"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:3cea00e5b65cc015f85d381dc130de64976f7d98dba2e7f831beecd207b49cf5",
+          "sha256": "3cea00e5b65cc015f85d381dc130de64976f7d98dba2e7f831beecd207b49cf5"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:d4394557612b898ab032706d741659769e8ef1fef38b7a25dc874bbfe48ddf6e",
+          "sha256": "d4394557612b898ab032706d741659769e8ef1fef38b7a25dc874bbfe48ddf6e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:1df1252d1edf27d93c3e2d022902463150196c08780a51f0dc96c86c6830d09d",
+          "sha256": "1df1252d1edf27d93c3e2d022902463150196c08780a51f0dc96c86c6830d09d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pypy/blobs/sha256:55263b35f3525afeaa7699687863b558f1f3d43ec50ea38455e60f42b3fed6f2",
+          "sha256": "55263b35f3525afeaa7699687863b558f1f3d43ec50ea38455e60f42b3fed6f2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdbm",
+    "openssl@3",
+    "sqlite",
+    "tcl-tk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "libffi",
+    "ncurses",
+    "unzip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A \"distutils.cfg\" has been written to:\n  $HOMEBREW_PREFIX/Cellar/pypy/7.3.12/libexec/lib-python/2.7/distutils\nspecifying the install-scripts folder as:\n  $HOMEBREW_PREFIX/share/pypy\n\nIf you install Python packages via \"pypy setup.py install\", easy_install_pypy,\nor pip_pypy, any provided scripts will go into the install-scripts folder\nabove, so you may want to add it to your PATH *after* $HOMEBREW_PREFIX/bin\nso you don't overwrite tools from CPython.\n\nSetuptools and pip have been installed, so you can use easy_install_pypy and\npip_pypy.\nTo update setuptools and pip between pypy releases, run:\n    pip_pypy install --upgrade pip setuptools\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pypy.rb",
+  "ruby_source_checksum": {
+    "sha256": "cf9c4584dc79b6650c9df86875d2ed97071b6841f1bc44367f4b19d5cb303a98"
+  },
+  "date_added": "2010-05-19T21:55:16-07:00"
+}

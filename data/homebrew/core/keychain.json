@@ -1,0 +1,73 @@
+{
+  "name": "keychain",
+  "full_name": "keychain",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "User-friendly front-end to ssh-agent(1)",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.funtoo.org/Keychain",
+  "versions": {
+    "stable": "2.8.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/funtoo/keychain/archive/2.8.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dcce703e5001211c8ebc0528f45b523f84d2bceeb240600795b4d80cb8475a0b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keychain/blobs/sha256:38a9acfd004abd466201585d76285f1bc852b4e517d0324908f8b628ff8508ac",
+          "sha256": "38a9acfd004abd466201585d76285f1bc852b4e517d0324908f8b628ff8508ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/keychain.rb",
+  "ruby_source_checksum": {
+    "sha256": "f8934f34af036010f60e841e4978cd1e99fd5baabdb7a93d6de486fd639520ce"
+  },
+  "date_added": "2010-01-31T11:28:10-08:00"
+}

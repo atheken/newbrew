@@ -1,0 +1,75 @@
+{
+  "name": "apache-ctakes",
+  "full_name": "apache-ctakes",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "NLP system for extraction of information from EMR clinical text",
+  "license": "Apache-2.0",
+  "homepage": "https://ctakes.apache.org",
+  "versions": {
+    "stable": "4.0.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org//ctakes/ctakes-4.0.0.1/apache-ctakes-4.0.0.1-bin.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f741016e3755054876f3bb27f916a8008af27175ef33785638a6292d300c972e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-ctakes/blobs/sha256:4c6af60f27e2795e09763b88aa81e00faa80ba6d46e6f6cac3d2cd0b72b9f69f",
+          "sha256": "4c6af60f27e2795e09763b88aa81e00faa80ba6d46e6f6cac3d2cd0b72b9f69f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-12-30",
+  "disable_reason": "installs binaries and does not build from source",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apache-ctakes.rb",
+  "ruby_source_checksum": {
+    "sha256": "5524b3e85339a8c54cd221fbd24464bc7666df9649d7dde7cc63247544c8c632"
+  },
+  "date_added": "2017-07-17T21:38:20-07:00"
+}

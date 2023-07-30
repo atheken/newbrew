@@ -1,0 +1,105 @@
+{
+  "name": "triton",
+  "full_name": "triton",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Joyent Triton CLI",
+  "license": "MPL-2.0",
+  "homepage": "https://www.npmjs.com/package/triton",
+  "versions": {
+    "stable": "7.15.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/triton/-/triton-7.15.5.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e8abc804b33877db9853386854bfcbefe9d581259ffdb66c34f9303e9cae2ccf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:10955b249b0d8df311d0ef4a375a1423bfe1180b2347d0891718fbdda8d5cdd6",
+          "sha256": "10955b249b0d8df311d0ef4a375a1423bfe1180b2347d0891718fbdda8d5cdd6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:4378238a4943d9c81260d5c240d0ca84c7786be5e4a155ad6ec95809df9067f4",
+          "sha256": "4378238a4943d9c81260d5c240d0ca84c7786be5e4a155ad6ec95809df9067f4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:f0e935a9df5165bb7242e8c437248e7fb67fd047190d0d65f81a9acfeac2f702",
+          "sha256": "f0e935a9df5165bb7242e8c437248e7fb67fd047190d0d65f81a9acfeac2f702"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:1332dd81ec3bcc3e86e5be5628bfb538a7bfe7fcaff4ea1ab4a6c028d86ed623",
+          "sha256": "1332dd81ec3bcc3e86e5be5628bfb538a7bfe7fcaff4ea1ab4a6c028d86ed623"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:8ecbceb11956c610c6aee65374e5260440f31ce96bc96b763e11e18a8af45fe9",
+          "sha256": "8ecbceb11956c610c6aee65374e5260440f31ce96bc96b763e11e18a8af45fe9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:6f5cc33eddadc31c0f70034ce438aaf5b49d241517ce2d50fdce9b67834cc144",
+          "sha256": "6f5cc33eddadc31c0f70034ce438aaf5b49d241517ce2d50fdce9b67834cc144"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/triton/blobs/sha256:e6147ed98336e4982a30521bcc4093d0d92f10583d82e7f48e0858ed07fd42f5",
+          "sha256": "e6147ed98336e4982a30521bcc4093d0d92f10583d82e7f48e0858ed07fd42f5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/triton.rb",
+  "ruby_source_checksum": {
+    "sha256": "21e103562a5bb04d181fa6752057ce9b0dea243ef119ac5a3bd45a90426a3b83"
+  },
+  "date_added": "2018-06-12T18:17:45-07:00"
+}

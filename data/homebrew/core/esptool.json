@@ -1,0 +1,113 @@
+{
+  "name": "esptool",
+  "full_name": "esptool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ESP8266 and ESP32 serial bootloader utility",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://docs.espressif.com/projects/esptool/en/latest/esp32/",
+  "versions": {
+    "stable": "4.6.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a3/63/c757f50b606996a7e676f000b40626f65be63b3a10030563929c968e431c/esptool-4.6.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "549ef93eef42ee7e9462ce5a53c16df7a0c71d91b3f77e19ec15749804cdf300"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:3d58bd53a3972dbddd8a3c9e7b90f85ab827f5ffa10b1c0c6de6ff5bffdc682a",
+          "sha256": "3d58bd53a3972dbddd8a3c9e7b90f85ab827f5ffa10b1c0c6de6ff5bffdc682a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:56b7c807266fc7a9e402add60cbfa491f4f1d682ed99f80c66ab527b1f9d6dfc",
+          "sha256": "56b7c807266fc7a9e402add60cbfa491f4f1d682ed99f80c66ab527b1f9d6dfc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:38a82a94b2dfc2d669ceb829529be68b70e66a3d2c63591c60fd7ec63d009197",
+          "sha256": "38a82a94b2dfc2d669ceb829529be68b70e66a3d2c63591c60fd7ec63d009197"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:ecf35644361b06e360659960f0b265885a070c477e7117d6e6bc600f05334176",
+          "sha256": "ecf35644361b06e360659960f0b265885a070c477e7117d6e6bc600f05334176"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:0b4fe9838fad14275de730630ad6f380639798bded59d1c22f5add980828fe8d",
+          "sha256": "0b4fe9838fad14275de730630ad6f380639798bded59d1c22f5add980828fe8d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:85b6b564558502a6db9826005109778fd9d99e9303c4473706b7fb3dee9752b4",
+          "sha256": "85b6b564558502a6db9826005109778fd9d99e9303c4473706b7fb3dee9752b4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esptool/blobs/sha256:97845a3f3b518a0149ebc8de71dce7471fc793b6baf41fc80c80c64619ba9164",
+          "sha256": "97845a3f3b518a0149ebc8de71dce7471fc793b6baf41fc80c80c64619ba9164"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/esptool.rb",
+  "ruby_source_checksum": {
+    "sha256": "b5afdc7aedfe77d05c132c4d78fbaa2af005e26d1884b2c151ebdc848213fa4f"
+  },
+  "date_added": "2019-01-07T12:31:20+01:00"
+}

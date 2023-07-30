@@ -1,0 +1,147 @@
+{
+  "name": "nghttp2",
+  "full_name": "nghttp2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "HTTP/2 C Library",
+  "license": "MIT",
+  "homepage": "https://nghttp2.org/",
+  "versions": {
+    "stable": "1.55.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.55.1/nghttp2-1.55.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e12fddb65ae3218b4edc083501519379928eba153e71a1673b185570f08beb96"
+    },
+    "head": {
+      "url": "https://github.com/nghttp2/nghttp2.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:dcc1fa311a01d212a202878717de5665a619dccadfafbd7cc47e27c8ce51e080",
+          "sha256": "dcc1fa311a01d212a202878717de5665a619dccadfafbd7cc47e27c8ce51e080"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:5f2c41b857d16cf3376ba3fbca958a7d6c23c75455de609dbac993e8f39a326a",
+          "sha256": "5f2c41b857d16cf3376ba3fbca958a7d6c23c75455de609dbac993e8f39a326a"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:9ebd00c59e3ed4f4298830c836ce078cca31b5c8257acea270f1d59efffd250c",
+          "sha256": "9ebd00c59e3ed4f4298830c836ce078cca31b5c8257acea270f1d59efffd250c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:edb91c6ce652d00d72c3d1616ab040ad76af26ef1c0ad258239debcdb60d1791",
+          "sha256": "edb91c6ce652d00d72c3d1616ab040ad76af26ef1c0ad258239debcdb60d1791"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:9730f312cd7f4d9ed35afc4a40ab8c8dcad2f52e3d100a2a1eaafe45e0eb41c6",
+          "sha256": "9730f312cd7f4d9ed35afc4a40ab8c8dcad2f52e3d100a2a1eaafe45e0eb41c6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:7df196c0dbb02b11bf57f0bbb2b33ab45817d691161e48372b887bdb7edd158d",
+          "sha256": "7df196c0dbb02b11bf57f0bbb2b33ab45817d691161e48372b887bdb7edd158d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nghttp2/blobs/sha256:496d9dc8509e607987944e22f2e36b510878e71fbafd3d2be1fddc6abadba232",
+          "sha256": "496d9dc8509e607987944e22f2e36b510878e71fbafd3d2be1fddc6abadba232"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "c-ares",
+    "jemalloc",
+    "libev",
+    "libnghttp2",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nghttp2.rb",
+  "ruby_source_checksum": {
+    "sha256": "8bb6144587bd9128b2ae7880a1dab0dcfe1454aa90a49c67ed81616b32fbc59c"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "c-ares",
+      "jemalloc",
+      "libev",
+      "libnghttp2",
+      "openssl@3"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxml2",
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2015-02-10T08:43:24+00:00"
+}

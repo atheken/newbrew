@@ -1,0 +1,126 @@
+{
+  "name": "ansible@2.9",
+  "full_name": "ansible@2.9",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "ansible@7",
+    "ansible@6",
+    "ansible@2.8"
+  ],
+  "desc": "Automate deployment, configuration, and upgrading",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.ansible.com/",
+  "versions": {
+    "stable": "2.9.27",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/5b/99/ce005d0314840e1a6eef34e0faf0ba4f7bccd8172b33cc84fee21afab7ad/ansible-2.9.27.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "479159e50b3bd90920d06bc59410c3a51d3f9be9b4e1029e11d1e4a2d0705736"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:abadcae9145235d06a31abce0c1d449eb8cf92b5a8edf62c70ec48b8c91f09e7",
+          "sha256": "abadcae9145235d06a31abce0c1d449eb8cf92b5a8edf62c70ec48b8c91f09e7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:ffe20ea072fa23ec8dcd4d8fd268975d7f27406fa45bc45b73752e2e2ecbc5ae",
+          "sha256": "ffe20ea072fa23ec8dcd4d8fd268975d7f27406fa45bc45b73752e2e2ecbc5ae"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:8e9bf4cb5a2a8533d78baf2413f95399bf39ffb3ac63b44a05c41080ff852260",
+          "sha256": "8e9bf4cb5a2a8533d78baf2413f95399bf39ffb3ac63b44a05c41080ff852260"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:4631c8092d086940cae273c0701e3de294b38a75c61217479c896293fbbba979",
+          "sha256": "4631c8092d086940cae273c0701e3de294b38a75c61217479c896293fbbba979"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:1a2f08751fb9c4e593d856092cdd7318746f8d043ff8195e70cba3c72e41262f",
+          "sha256": "1a2f08751fb9c4e593d856092cdd7318746f8d043ff8195e70cba3c72e41262f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:50d49a0bb4e592fff683ee2e6a7e29e7090abd4327218e4955a0642721e8e7a4",
+          "sha256": "50d49a0bb4e592fff683ee2e6a7e29e7090abd4327218e4955a0642721e8e7a4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible/2.9/blobs/sha256:5de396c7242a093c8de98f3035e61a8a40c102d7bcb3e77de7d78f2e7baffb26",
+          "sha256": "5de396c7242a093c8de98f3035e61a8a40c102d7bcb3e77de7d78f2e7baffb26"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libyaml",
+    "openssl@1.1",
+    "python@3.9",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "krb5",
+    "libffi",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-05-11",
+  "disable_reason": "unmaintained",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/ansible@2.9.rb",
+  "ruby_source_checksum": {
+    "sha256": "38ce582b966e31bb780bd57b629639f6b6c85141b83b219e2ecc1f5a2a80299b"
+  },
+  "date_added": "2021-01-23T21:24:06+00:00"
+}

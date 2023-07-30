@@ -1,0 +1,125 @@
+{
+  "name": "pocsuite3",
+  "full_name": "pocsuite3",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open-sourced remote vulnerability testing framework",
+  "license": "GPL-2.0-only",
+  "homepage": "https://pocsuite.org/",
+  "versions": {
+    "stable": "2.0.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/0c/a0/89e1eb8bd85cdf54b0c642d22ea8b39d7f47769b116a9181367383d5f2d2/pocsuite3-2.0.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "17ba73665e225225299570d97654eac3ded6cdf761ca42e57353dd6615bf496f"
+    },
+    "head": {
+      "url": "https://github.com/knownsec/pocsuite3.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:7ef1664b92f7c06a8ceedde28f207d394093dcfe7dc8f829874a5295271c96d4",
+          "sha256": "7ef1664b92f7c06a8ceedde28f207d394093dcfe7dc8f829874a5295271c96d4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:1d3ddfef1a099173bd702b8df9c894d8c532168ad9c1182e2596441504763423",
+          "sha256": "1d3ddfef1a099173bd702b8df9c894d8c532168ad9c1182e2596441504763423"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:f8edc6bc4ce6c5a24a9b601ca6a1ed5783fa686138180d5bd7e350d983ea44a7",
+          "sha256": "f8edc6bc4ce6c5a24a9b601ca6a1ed5783fa686138180d5bd7e350d983ea44a7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:590e4c968d1dbd9176af200ee022e5dee0b5d843ea3fde956fce9736ce04c46b",
+          "sha256": "590e4c968d1dbd9176af200ee022e5dee0b5d843ea3fde956fce9736ce04c46b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:4fd1edfdf85e13b4f98deedac7ff0c320283416991704c542a2b76ee342ddb64",
+          "sha256": "4fd1edfdf85e13b4f98deedac7ff0c320283416991704c542a2b76ee342ddb64"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:dd06b377dbaeb52c9a54d8194505cc778c032ac392177626ded94337a53c0c53",
+          "sha256": "dd06b377dbaeb52c9a54d8194505cc778c032ac392177626ded94337a53c0c53"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pocsuite3/blobs/sha256:4e799c0e077cc50974fcf19a2c24b6bc23b96c15b94ad22c37264b6552ceea3c",
+          "sha256": "4e799c0e077cc50974fcf19a2c24b6bc23b96c15b94ad22c37264b6552ceea3c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi",
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pocsuite3.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1fc43fa56c5c2ba10a32bd8fb95c4f5a5297e2c8877da55febb0533e6cfa874"
+  },
+  "date_added": "2021-12-02T13:55:32+00:00"
+}

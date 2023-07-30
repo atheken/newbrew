@@ -1,0 +1,94 @@
+{
+  "name": "src",
+  "full_name": "src",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple revision control: RCS reloaded with a modern UI",
+  "license": "BSD-2-Clause",
+  "homepage": "http://www.catb.org/~esr/src/",
+  "versions": {
+    "stable": "1.32",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.catb.org/~esr/src/src-1.32.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0920350a63ef5ee3a5f4fcd7f7bfeca0646ad871c1718b80e4f7a939531a3165"
+    },
+    "head": {
+      "url": "https://gitlab.com/esr/src.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/src/blobs/sha256:5cbfa8adeb53bfa81b0e81f53cf8f0f10231bc80ba9ffc80ad94432fe4c814fd",
+          "sha256": "5cbfa8adeb53bfa81b0e81f53cf8f0f10231bc80ba9ffc80ad94432fe4c814fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "rcs"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/src.rb",
+  "ruby_source_checksum": {
+    "sha256": "452078c6af43d5df2d60167a5a6dd9486e13e1570e14428a5e16259f8399334e"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "asciidoc"
+    ],
+    "dependencies": [
+      "python@3.11",
+      "rcs"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2015-01-01T15:30:54+00:00"
+}

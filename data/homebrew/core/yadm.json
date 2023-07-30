@@ -1,0 +1,77 @@
+{
+  "name": "yadm",
+  "full_name": "yadm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Yet Another Dotfiles Manager",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://yadm.io/",
+  "versions": {
+    "stable": "3.2.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/TheLocehiliosan/yadm/archive/3.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c5fb508748995ce4c08a21d8bcda686ad680116ccf00a5318bbccf147f4c33ad"
+    },
+    "head": {
+      "url": "https://github.com/TheLocehiliosan/yadm.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yadm/blobs/sha256:fae6c470a2f67ecdcbfb2b973d78d74563759d4f39988f1be71c4641345b88ef",
+          "sha256": "fae6c470a2f67ecdcbfb2b973d78d74563759d4f39988f1be71c4641345b88ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yadm.rb",
+  "ruby_source_checksum": {
+    "sha256": "e738075a9fedf85283e5f7b55be286e5255ed3dcc3f38750b4dc5db239490772"
+  },
+  "date_added": "2016-04-29T18:53:33+01:00"
+}

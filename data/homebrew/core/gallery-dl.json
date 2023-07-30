@@ -1,0 +1,109 @@
+{
+  "name": "gallery-dl",
+  "full_name": "gallery-dl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line downloader for image-hosting site galleries and collections",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/mikf/gallery-dl",
+  "versions": {
+    "stable": "1.25.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/7b/b1/7695f743070f369d76b802372faeec7a4ff4a43327d8942c54d5f5091eb9/gallery_dl-1.25.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "eaad85f73486669d2266806f39422e204a8db3dee16ec6f3136dd72724d95037"
+    },
+    "head": {
+      "url": "https://github.com/mikf/gallery-dl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:7cde347e133715c1cda93f8d73ae81ffbc7899ead41697ee73c7046b3e9115e3",
+          "sha256": "7cde347e133715c1cda93f8d73ae81ffbc7899ead41697ee73c7046b3e9115e3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:e71a5b4c6b888f5edb545e58214239314f5f553149fa9a91b4e85d425a71ce0a",
+          "sha256": "e71a5b4c6b888f5edb545e58214239314f5f553149fa9a91b4e85d425a71ce0a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:7e19519cac80490cd7602fb649f3c7fa32f8a8e95d3fe9b06bff4cc11f31ccb1",
+          "sha256": "7e19519cac80490cd7602fb649f3c7fa32f8a8e95d3fe9b06bff4cc11f31ccb1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:086a2a55862f13d7576207ce6338b5bf703950ed2cb395f98eae6dc1ca43245c",
+          "sha256": "086a2a55862f13d7576207ce6338b5bf703950ed2cb395f98eae6dc1ca43245c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:524f1a91ba4062dd6e073f65f4523d8b9ae8885a8388d5fe99c3f907b2427827",
+          "sha256": "524f1a91ba4062dd6e073f65f4523d8b9ae8885a8388d5fe99c3f907b2427827"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:a1e15c23a70318e635bcbdc60f8e82825372f86157d2a0fc0050adb9035b1fc6",
+          "sha256": "a1e15c23a70318e635bcbdc60f8e82825372f86157d2a0fc0050adb9035b1fc6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gallery-dl/blobs/sha256:a407f0a842d7f71ad4248dc7f59ed05849a8b8e99f92b283eed7fdd5dbbff00f",
+          "sha256": "a407f0a842d7f71ad4248dc7f59ed05849a8b8e99f92b283eed7fdd5dbbff00f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gallery-dl.rb",
+  "ruby_source_checksum": {
+    "sha256": "3126419deff6c8e06d00425ebf344ab0a5c9c4edb1bbedca7886626a5e94cec6"
+  },
+  "date_added": "2021-01-10T18:23:56+00:00"
+}

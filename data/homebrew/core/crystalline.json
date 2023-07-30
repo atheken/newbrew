@@ -1,0 +1,106 @@
+{
+  "name": "crystalline",
+  "full_name": "crystalline",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Language Server Protocol implementation for Crystal",
+  "license": "MIT",
+  "homepage": "https://github.com/elbywan/crystalline",
+  "versions": {
+    "stable": "0.10.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/elbywan/crystalline/archive/refs/tags/v0.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "26c926ba423e4b04fc52af501cd842c8255312014fc4aa1bc3735a8cd0df3426"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:3cb46e330dab39dad7f95b9bcb62e5cc059a5e223f8f0bbce3ebe1f78447b03f",
+          "sha256": "3cb46e330dab39dad7f95b9bcb62e5cc059a5e223f8f0bbce3ebe1f78447b03f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:52ec44a201cf107c54393203771380e931e85f1a842e2c35f69325f19b3003fe",
+          "sha256": "52ec44a201cf107c54393203771380e931e85f1a842e2c35f69325f19b3003fe"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:baa787f5f7ec0d5503d34740c0b487f9c9202933d652c2d6a2cf834e2352d830",
+          "sha256": "baa787f5f7ec0d5503d34740c0b487f9c9202933d652c2d6a2cf834e2352d830"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:ebb043ac152b8423a005281c4c479dfbc52cf14bca9603cc9a50cc59973925d7",
+          "sha256": "ebb043ac152b8423a005281c4c479dfbc52cf14bca9603cc9a50cc59973925d7"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:b62edecae1746cbc0824d08420bece5f42c703786e4240dd508c08e3d7d37d4d",
+          "sha256": "b62edecae1746cbc0824d08420bece5f42c703786e4240dd508c08e3d7d37d4d"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:b0398dcc4e016063f67cb5408c44a858061d735784015997e9715ba0495428fb",
+          "sha256": "b0398dcc4e016063f67cb5408c44a858061d735784015997e9715ba0495428fb"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/crystalline/blobs/sha256:4408fa4fb3a5df0272e21344d5b60656f1b14175b4c37c7b0ca5e067bf903369",
+          "sha256": "4408fa4fb3a5df0272e21344d5b60656f1b14175b4c37c7b0ca5e067bf903369"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "crystal",
+    "libyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/crystalline.rb",
+  "ruby_source_checksum": {
+    "sha256": "5d7a11477fa3729f9833257311697ec97405fe3593a61c9c28ac7c520d70719e"
+  },
+  "date_added": "2023-07-15T00:07:17+02:00"
+}

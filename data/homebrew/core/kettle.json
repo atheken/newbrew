@@ -1,0 +1,117 @@
+{
+  "name": "kettle",
+  "full_name": "kettle",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Pentaho Data Integration software",
+  "license": "Apache-2.0",
+  "homepage": "https://www.hitachivantara.com/en-us/products/data-management-analytics.html",
+  "versions": {
+    "stable": "9.4.0.0-343",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://privatefilesbucket-community-edition.s3.us-west-2.amazonaws.com/9.4.0.0-343/ce/client-tools/pdi-ce-9.4.0.0-343.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "e6804fae1a9aa66b92e781e9b2e835d72d56a6adc53dc03e429a847991a334e8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1",
+          "sha256": "1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1",
+          "sha256": "1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1",
+          "sha256": "1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667",
+          "sha256": "e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667",
+          "sha256": "e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667",
+          "sha256": "e669d982c9d3224573ee7582d8509d37af52e2e7ac7dc65e24f7e9c12bc67667"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kettle/blobs/sha256:1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1",
+          "sha256": "1bbc81ed932e900450ca07207a502ceff327fb1bf9f08936969aa2c3cf72daa1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/kettle/bin/pdicarte",
+      "/home/linuxbrew/.linuxbrew/etc/kettle/carte-config.xml"
+    ],
+    "run_type": "immediate",
+    "environment_variables": {
+      "KETTLE_HOME": "/home/linuxbrew/.linuxbrew/etc/kettle"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/etc/kettle",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/kettle/carte.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/kettle/carte.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kettle.rb",
+  "ruby_source_checksum": {
+    "sha256": "faf23e26316315f3af49f1935dd1c6bdfb97c2afc9dc5069a72a82109ded4a63"
+  },
+  "date_added": "2015-02-11T22:59:32-08:00"
+}

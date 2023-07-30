@@ -1,0 +1,111 @@
+{
+  "name": "xsane",
+  "full_name": "xsane",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Graphical scanning frontend",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://gitlab.com/sane-project/frontend/xsane",
+  "versions": {
+    "stable": "0.999",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.osuosl.org/pub/blfs/conglomeration/xsane/xsane-0.999.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5782d23e67dc961c81eef13a87b17eb0144cae3d1ffc5cf7e0322da751482b4b"
+    }
+  },
+  "revision": 6,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:d2d0507a2156f930eef16374780022edf4e976e7a5bde9c7dcf7ac81a9725dca",
+          "sha256": "d2d0507a2156f930eef16374780022edf4e976e7a5bde9c7dcf7ac81a9725dca"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:0c763e8bdd1f31f25a5cde4f9f723719d6c4f2f7adf8a03148d05d18e690cf1e",
+          "sha256": "0c763e8bdd1f31f25a5cde4f9f723719d6c4f2f7adf8a03148d05d18e690cf1e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:85b52863f5e9fcbfeaa5802e86087d9a1cfbbd40ca725f8a7abb36c561882c64",
+          "sha256": "85b52863f5e9fcbfeaa5802e86087d9a1cfbbd40ca725f8a7abb36c561882c64"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:08ef991d405a28926b28221dd64263751ca579106b8459e22f721d674d5a0874",
+          "sha256": "08ef991d405a28926b28221dd64263751ca579106b8459e22f721d674d5a0874"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:c1b28359dc4961aa9f705c3f0336da59ce5e303add9312d075fd1d48f7774b01",
+          "sha256": "c1b28359dc4961aa9f705c3f0336da59ce5e303add9312d075fd1d48f7774b01"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:a4ad4d5b415fb56d65d87ec43898a2af0165c267eb709863cca9d8faf7736a70",
+          "sha256": "a4ad4d5b415fb56d65d87ec43898a2af0165c267eb709863cca9d8faf7736a70"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xsane/blobs/sha256:321247fec8198f7580ec51d2e237588c837bd1df6683c80eb49e0b36cf5bbef6",
+          "sha256": "321247fec8198f7580ec51d2e237588c837bd1df6683c80eb49e0b36cf5bbef6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gtk+",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "sane-backends"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xsane.rb",
+  "ruby_source_checksum": {
+    "sha256": "77bc91bdce3eb681790b972ae04b0bfb77be0975507e5c34381e67f3c532533a"
+  },
+  "date_added": "2013-11-17T11:27:22-08:00"
+}

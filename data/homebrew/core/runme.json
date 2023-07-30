@@ -1,0 +1,109 @@
+{
+  "name": "runme",
+  "full_name": "runme",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Execute commands inside your runbooks, docs, and READMEs",
+  "license": "Apache-2.0",
+  "homepage": "https://runme.dev/",
+  "versions": {
+    "stable": "1.6.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/stateful/runme.git",
+      "tag": "v1.6.0",
+      "revision": "3cca8a6e7d34f401c1bdd99828a7fac5b1d8fac9",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/stateful/runme.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:c5e34625912cc60ce423727a7711c192094276a9eed59b4bdc6ab276898c64fc",
+          "sha256": "c5e34625912cc60ce423727a7711c192094276a9eed59b4bdc6ab276898c64fc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:8709005b1298b7eda2f4789d6cf68b4e6de35a8276b94e93b31045f9d09d3dcd",
+          "sha256": "8709005b1298b7eda2f4789d6cf68b4e6de35a8276b94e93b31045f9d09d3dcd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:172aafbce56573f3efc6c9076b3fe647b176e10a274eb7ddff9df9be906dbdaa",
+          "sha256": "172aafbce56573f3efc6c9076b3fe647b176e10a274eb7ddff9df9be906dbdaa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:ca05fb5c3beb7e34693da31d41e54c45c0ea644949148e0fe4dd91dcb4b08fca",
+          "sha256": "ca05fb5c3beb7e34693da31d41e54c45c0ea644949148e0fe4dd91dcb4b08fca"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:094c55c782956c519087ca6ab7dcec98a37bccf4ee93f4f20f8b86146e6fc32b",
+          "sha256": "094c55c782956c519087ca6ab7dcec98a37bccf4ee93f4f20f8b86146e6fc32b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:fb03b090baf388748d725a0123792d0bad93c33aee1c1ace09567007295998d1",
+          "sha256": "fb03b090baf388748d725a0123792d0bad93c33aee1c1ace09567007295998d1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/runme/blobs/sha256:e2048d1361388fc8ccd84ce076fd759934902d90f73ab354a321b95d1b0c7cbb",
+          "sha256": "e2048d1361388fc8ccd84ce076fd759934902d90f73ab354a321b95d1b0c7cbb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/runme.rb",
+  "ruby_source_checksum": {
+    "sha256": "3fffc401c46b600150229a5241552763ef4147948b9ba5ed728156f8cba5c7bd"
+  },
+  "date_added": "2023-07-06T18:50:33-07:00"
+}

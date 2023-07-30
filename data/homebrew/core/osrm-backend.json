@@ -1,0 +1,124 @@
+{
+  "name": "osrm-backend",
+  "full_name": "osrm-backend",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High performance routing engine",
+  "license": "BSD-2-Clause",
+  "homepage": "http://project-osrm.org/",
+  "versions": {
+    "stable": "5.27.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Project-OSRM/osrm-backend/archive/v5.27.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "52391580e0f92663dd7b21cbcc7b9064d6704470e2601bf3ec5c5170b471629a"
+    },
+    "head": {
+      "url": "https://github.com/Project-OSRM/osrm-backend.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:44144dafdb204030ddefce66ac98e5d15c330bd98ff9397500ba9d4b65a94565",
+          "sha256": "44144dafdb204030ddefce66ac98e5d15c330bd98ff9397500ba9d4b65a94565"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:d81204f9ffcc5999aae199e93fe8eedfd48d3ed65143fa287e9bd660716da2a9",
+          "sha256": "d81204f9ffcc5999aae199e93fe8eedfd48d3ed65143fa287e9bd660716da2a9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:d48cfda368155e929f22c0cf08d1f8edee08366ebb65045b53d069fd1aeed86b",
+          "sha256": "d48cfda368155e929f22c0cf08d1f8edee08366ebb65045b53d069fd1aeed86b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:b68803f30785d4bc12e7a21f72b189e0918a8091f50d7b86df0d37df11b473d2",
+          "sha256": "b68803f30785d4bc12e7a21f72b189e0918a8091f50d7b86df0d37df11b473d2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:b40166ee8b4752089e41213e9795eb90c3fb8b057f77375342669b46001c444b",
+          "sha256": "b40166ee8b4752089e41213e9795eb90c3fb8b057f77375342669b46001c444b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:f7468b379ec2ef34dba76e5ab90ff9bbc86a505d54493f039548b59760551787",
+          "sha256": "f7468b379ec2ef34dba76e5ab90ff9bbc86a505d54493f039548b59760551787"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osrm-backend/blobs/sha256:a1806109f9e7cdc92d5467d998a92190c0d15e0e9f9a2efd3e3fab633deab85b",
+          "sha256": "a1806109f9e7cdc92d5467d998a92190c0d15e0e9f9a2efd3e3fab633deab85b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "libstxxl",
+    "libxml2",
+    "libzip",
+    "lua",
+    "tbb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "flatbuffers"
+  ],
+  "conflicts_with_reasons": [
+    "both install flatbuffers headers"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/osrm-backend.rb",
+  "ruby_source_checksum": {
+    "sha256": "e1427ec0abcb8a1e72b552e7491e286ebfd50d872dcac25fca8830b73242ce9b"
+  },
+  "date_added": "2016-10-12T12:34:34+01:00"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "doxygen",
+  "full_name": "doxygen",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Generate documentation for several programming languages",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.doxygen.nl/",
+  "versions": {
+    "stable": "1.9.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://doxygen.nl/files/doxygen-1.9.7.repack.src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "aa9b2118578f4d277954c8584eb7228be47cdf29e8041ce4dcba21e41dfb89f3"
+    },
+    "head": {
+      "url": "https://github.com/doxygen/doxygen.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:d43869a221c709c1b164fe38e08b73a99f861df61f80037508169a8f7b7d946a",
+          "sha256": "d43869a221c709c1b164fe38e08b73a99f861df61f80037508169a8f7b7d946a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:7011815f4862e0d639282be742d26993f6b1c09075370e00a3be8e0d882b91c0",
+          "sha256": "7011815f4862e0d639282be742d26993f6b1c09075370e00a3be8e0d882b91c0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:754f9c2e29bb0d0ed68c03a35657804d120653f29e70febae676e7e6e422c87a",
+          "sha256": "754f9c2e29bb0d0ed68c03a35657804d120653f29e70febae676e7e6e422c87a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:370eb5c5e2c1dab4519b8d1337c4126402ead836c08a9dd69ceee17d8cfc06b8",
+          "sha256": "370eb5c5e2c1dab4519b8d1337c4126402ead836c08a9dd69ceee17d8cfc06b8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:cd6247e728dd99dfc83699e83c0f556a6c4a0e03f9bf3918eee5e441f4591fdc",
+          "sha256": "cd6247e728dd99dfc83699e83c0f556a6c4a0e03f9bf3918eee5e441f4591fdc"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:152f4ab38a79ede7265adfa2c5c9cf472698d4942386b233303718e746aef117",
+          "sha256": "152f4ab38a79ede7265adfa2c5c9cf472698d4942386b233303718e746aef117"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/doxygen/blobs/sha256:66a70cd48366251e0d62e76a5f2b349f58d3fb12d6240af64f2b8a16d31f36d8",
+          "sha256": "66a70cd48366251e0d62e76a5f2b349f58d3fb12d6240af64f2b8a16d31f36d8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/doxygen.rb",
+  "ruby_source_checksum": {
+    "sha256": "48fafde58808dea97b4762fc6bb04e432287094f70f417530cf4905e2e945532"
+  },
+  "date_added": "2009-11-11T21:51:44+00:00"
+}

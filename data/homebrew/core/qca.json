@@ -1,0 +1,118 @@
+{
+  "name": "qca",
+  "full_name": "qca",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Qt Cryptographic Architecture (QCA)",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://userbase.kde.org/QCA",
+  "versions": {
+    "stable": "2.3.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.kde.org/stable/qca/2.3.7/qca-2.3.7.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fee2343b54687d5be3e30fb33ce296ee50ac7ae5e23d7ab725f63ffdf7af3f43"
+    },
+    "head": {
+      "url": "https://invent.kde.org/libraries/qca.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:f7c386d6484854c37b199fbd2229bf09d7c0feb4292dba7f31be570ea7a17c6e",
+          "sha256": "f7c386d6484854c37b199fbd2229bf09d7c0feb4292dba7f31be570ea7a17c6e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:a2c25cf1264e6bb33b1aaf8ec8525c58df60f0c003906469f77eda3c56e73518",
+          "sha256": "a2c25cf1264e6bb33b1aaf8ec8525c58df60f0c003906469f77eda3c56e73518"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:c7ff822233c00931c5da4c22689269edcc5244fa7bc1ade0d213be11266c10a8",
+          "sha256": "c7ff822233c00931c5da4c22689269edcc5244fa7bc1ade0d213be11266c10a8"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:1894df58bbbef4986d47d50edb3c49d189d9c1c0748b5cb80589e095222b2f26",
+          "sha256": "1894df58bbbef4986d47d50edb3c49d189d9c1c0748b5cb80589e095222b2f26"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:dae78d2860c8d11a268ae4f9ebcc62d1fcf7501d5ace5e3a93294539188860bc",
+          "sha256": "dae78d2860c8d11a268ae4f9ebcc62d1fcf7501d5ace5e3a93294539188860bc"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:2e63ba841df444e96470611e7adc7b8e4a88e23a735042780731fddeb5f78762",
+          "sha256": "2e63ba841df444e96470611e7adc7b8e4a88e23a735042780731fddeb5f78762"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qca/blobs/sha256:cfdcd1c448ce4881ace28b56b9415a229cc597a73e778acabb7f4af061d95939",
+          "sha256": "cfdcd1c448ce4881ace28b56b9415a229cc597a73e778acabb7f4af061d95939"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "botan",
+    "gnupg",
+    "libgcrypt",
+    "nss",
+    "openssl@3",
+    "pkcs11-helper",
+    "qt@5"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/qca.rb",
+  "ruby_source_checksum": {
+    "sha256": "24ba8c20a29b2715285a0f35c0230215fe5153357660b47ba15a3f15b4b49c29"
+  },
+  "date_added": "2010-03-14T13:24:37+01:00"
+}

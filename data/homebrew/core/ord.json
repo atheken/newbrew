@@ -1,0 +1,109 @@
+{
+  "name": "ord",
+  "full_name": "ord",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Index, block explorer, and command-line wallet",
+  "license": "CC0-1.0",
+  "homepage": "https://ordinals.com/",
+  "versions": {
+    "stable": "0.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ordinals/ord/archive/refs/tags/0.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4f025958b0ed214ecf33c6f2c074d762ff20b6fef07e65d2a3908a1f95c5cf39"
+    },
+    "head": {
+      "url": "https://github.com/ordinals/ord.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:a49f924b482232fe89296e7b2e90322b3f8a4727658370bb08153f2f207b9dd0",
+          "sha256": "a49f924b482232fe89296e7b2e90322b3f8a4727658370bb08153f2f207b9dd0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:ce54f1e3f1cdc8f54eaae8d53c3d99d7d0b0684f980911e3074a90d2f195fcf7",
+          "sha256": "ce54f1e3f1cdc8f54eaae8d53c3d99d7d0b0684f980911e3074a90d2f195fcf7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:4e30f7b8cdc77805e8eaf02a8937519c2c6fd1f0f15d9c6567adfc4ca1144e0f",
+          "sha256": "4e30f7b8cdc77805e8eaf02a8937519c2c6fd1f0f15d9c6567adfc4ca1144e0f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:e68d6de6da4c4ab80e343a0e24a36a31acf594ffeb6945b4decd10d5c37d6eea",
+          "sha256": "e68d6de6da4c4ab80e343a0e24a36a31acf594ffeb6945b4decd10d5c37d6eea"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:515dcffdb9b83eed47caa36d2aa5d88761912e5391cd32f237127f5d099d9282",
+          "sha256": "515dcffdb9b83eed47caa36d2aa5d88761912e5391cd32f237127f5d099d9282"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:69bdf5c01897293e565d4fcf66ad661d26c20ee47697ec9c81b2f8ae88c6f710",
+          "sha256": "69bdf5c01897293e565d4fcf66ad661d26c20ee47697ec9c81b2f8ae88c6f710"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ord/blobs/sha256:7539d6f7d9f978b3750f1dd551e34c1bc0e18f1906f72e2112bd51dfb0929d6a",
+          "sha256": "7539d6f7d9f978b3750f1dd551e34c1bc0e18f1906f72e2112bd51dfb0929d6a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ord.rb",
+  "ruby_source_checksum": {
+    "sha256": "65318648b034c9a273a061ca41b602e397b00c99dbbd20bc6d12420b38cc1bc1"
+  },
+  "date_added": "2023-06-17T10:16:57-04:00"
+}

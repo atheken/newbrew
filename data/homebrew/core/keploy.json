@@ -1,0 +1,108 @@
+{
+  "name": "keploy",
+  "full_name": "keploy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Testing Toolkit creates test-cases and data mocks from API calls, DB queries",
+  "license": "Apache-2.0",
+  "homepage": "https://keploy.io",
+  "versions": {
+    "stable": "0.9.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/keploy/keploy/archive/refs/tags/v0.9.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3f3691d1a9c6b78ca3395b60aa3445f62c1fc2abeab6c2cb02952508c00c6fc8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:31a9f1033cc516bbca1300e93040784786641d81f7c3a34eae8ae8c511ecbbab",
+          "sha256": "31a9f1033cc516bbca1300e93040784786641d81f7c3a34eae8ae8c511ecbbab"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:3d3ebe286769e95676567789d2d188bafb12f0b116a82c35fbf2003190622ba6",
+          "sha256": "3d3ebe286769e95676567789d2d188bafb12f0b116a82c35fbf2003190622ba6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:6e347cdde332d84ae4cd87ef6850b79dd861155502c11ee5ddb434503080e6bf",
+          "sha256": "6e347cdde332d84ae4cd87ef6850b79dd861155502c11ee5ddb434503080e6bf"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:cec42361779647e32136bd267ed3f711601b0d4fac3c8cb9e8d9260e95f377c6",
+          "sha256": "cec42361779647e32136bd267ed3f711601b0d4fac3c8cb9e8d9260e95f377c6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:a09a0326e431c8672da014f0a1f2a649228daa2b72a185b1750040cbc112c49c",
+          "sha256": "a09a0326e431c8672da014f0a1f2a649228daa2b72a185b1750040cbc112c49c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:55db0bed90f088de13d55aede4f616de3a19f57f998f40807c4d73d9805ff4bd",
+          "sha256": "55db0bed90f088de13d55aede4f616de3a19f57f998f40807c4d73d9805ff4bd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keploy/blobs/sha256:dc325652e271a16da522854d36f6f1e5ab93509d67f067f9e5eff1130a932a2f",
+          "sha256": "dc325652e271a16da522854d36f6f1e5ab93509d67f067f9e5eff1130a932a2f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gatsby-cli",
+    "go"
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/keploy.rb",
+  "ruby_source_checksum": {
+    "sha256": "4e962c783145447492b87cb9682171943c8fb25c24c1fb6687ae6f7e1b3fd89f"
+  },
+  "date_added": "2022-12-19T02:53:26+00:00"
+}

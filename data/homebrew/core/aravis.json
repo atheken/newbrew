@@ -1,0 +1,117 @@
+{
+  "name": "aravis",
+  "full_name": "aravis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vision library for genicam based cameras",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://wiki.gnome.org/Projects/Aravis",
+  "versions": {
+    "stable": "0.8.28",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/AravisProject/aravis/releases/download/0.8.28/aravis-0.8.28.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c350e25b84a57c0bc09aa9bf931d64ea8469201ed3ffd4cf02ac49dc98a3eedf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:3a1cc67466a72fd2286077db588f6d3852bced5ded51dab874b03891ce101768",
+          "sha256": "3a1cc67466a72fd2286077db588f6d3852bced5ded51dab874b03891ce101768"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:bff05f2d53b4d45e39fd515a2346e7c837c8a0c743912a21273204b98c1d0d9d",
+          "sha256": "bff05f2d53b4d45e39fd515a2346e7c837c8a0c743912a21273204b98c1d0d9d"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:3228a44e03b7b67cf0c465bafc8443a424a110e856d830371fa5247de1d68c9d",
+          "sha256": "3228a44e03b7b67cf0c465bafc8443a424a110e856d830371fa5247de1d68c9d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:e0ee70f15e72b592b8147db3b90829f5d24493e2713fb5cf1d819819a42d2ae8",
+          "sha256": "e0ee70f15e72b592b8147db3b90829f5d24493e2713fb5cf1d819819a42d2ae8"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:90270918af89c6a9b36a2f1ec1f00280909d888d8011db24aa91ecf7f65d9d7c",
+          "sha256": "90270918af89c6a9b36a2f1ec1f00280909d888d8011db24aa91ecf7f65d9d7c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:d1d30c244a23e38f5c9748151036998ddc32d0d67c5d85ade1e16b93ea5f82af",
+          "sha256": "d1d30c244a23e38f5c9748151036998ddc32d0d67c5d85ade1e16b93ea5f82af"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aravis/blobs/sha256:01c48ba983015e9b8d454bb4fd662bb61478244070ea89f74f27a17aaa3bcf9a",
+          "sha256": "01c48ba983015e9b8d454bb4fd662bb61478244070ea89f74f27a17aaa3bcf9a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "adwaita-icon-theme",
+    "glib",
+    "gstreamer",
+    "gtk+3",
+    "intltool",
+    "libnotify",
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "For GStreamer to find the bundled plugin:\n  export GST_PLUGIN_PATH=$HOMEBREW_PREFIX/opt/aravis/lib/gstreamer-1.0\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aravis.rb",
+  "ruby_source_checksum": {
+    "sha256": "d7a9fc7ea9e49fc292d94e1ef11ae5ab27baa9c324628716c7aca892b220575a"
+  },
+  "date_added": "2018-09-20T09:44:35+02:00"
+}

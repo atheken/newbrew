@@ -1,0 +1,105 @@
+{
+  "name": "tika",
+  "full_name": "tika",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Content analysis toolkit",
+  "license": "Apache-2.0",
+  "homepage": "https://tika.apache.org/",
+  "versions": {
+    "stable": "2.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=tika/2.8.0/tika-app-2.8.0.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "634af0e18ab3d0f222eb40ed2f766c917fd925936bd4171bb827c65c847abe44"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee",
+          "sha256": "bc95e707d8595028782ebbeefed63b2de9a047aca71d018d1e407e47385d9cee"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tika/blobs/sha256:022a467234ccdceaaa41e7053cad45cf1e97945476d292d759957222f46cf527",
+          "sha256": "022a467234ccdceaaa41e7053cad45cf1e97945476d292d759957222f46cf527"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tika.rb",
+  "ruby_source_checksum": {
+    "sha256": "67278a39682d944aa9383519e9de42f60e7128a71cf41a05b00f16eb9d774535"
+  },
+  "date_added": "2012-08-26T10:49:46-07:00"
+}

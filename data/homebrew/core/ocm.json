@@ -1,0 +1,109 @@
+{
+  "name": "ocm",
+  "full_name": "ocm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for the Red Hat OpenShift Cluster Manager",
+  "license": "Apache-2.0",
+  "homepage": "https://www.openshift.com/",
+  "versions": {
+    "stable": "0.1.67",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openshift-online/ocm-cli/archive/refs/tags/v0.1.67.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c8db8f579a59cea7ffe8000d78fb61bffd1cb3435fde786f88c2944f5ce40846"
+    },
+    "head": {
+      "url": "https://github.com/openshift-online/ocm-cli.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b",
+          "sha256": "d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b",
+          "sha256": "d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b",
+          "sha256": "d81c93c890bbbd56390d30d6bb921e399fe3bfeb905e0a81f1c4cb620aa0c24b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d",
+          "sha256": "74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d",
+          "sha256": "74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d",
+          "sha256": "74c5bbf3770372a46800d5d7200fe6a531f04eca74f0e0ac0257a6540035c07d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocm/blobs/sha256:9e010ff29a570026e5294c44cf4f369f019eca5ee2edfc4ae2fd2224338f9681",
+          "sha256": "9e010ff29a570026e5294c44cf4f369f019eca5ee2edfc4ae2fd2224338f9681"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ocm.rb",
+  "ruby_source_checksum": {
+    "sha256": "d5a92c88c5d5342b529666a6b8f9a7b5e34882b137fcc5ab3c9f8779535fb086"
+  },
+  "date_added": "2023-01-12T16:41:05+00:00"
+}

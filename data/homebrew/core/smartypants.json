@@ -1,0 +1,73 @@
+{
+  "name": "smartypants",
+  "full_name": "smartypants",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Typography prettifier",
+  "license": null,
+  "homepage": "https://daringfireball.net/projects/smartypants/",
+  "versions": {
+    "stable": "1.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://daringfireball.net/projects/downloads/SmartyPants_1.5.1.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "2813a12d8dd23f091399195edd7965e130103e439e2a14f298b75b253616d531"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/smartypants/blobs/sha256:a1af00dbd1e4d6d42c6251fc9ca0cd36cce3370a9321f183e7f96a5bdebf8c6d",
+          "sha256": "a1af00dbd1e4d6d42c6251fc9ca0cd36cce3370a9321f183e7f96a5bdebf8c6d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/smartypants.rb",
+  "ruby_source_checksum": {
+    "sha256": "852a4eb0f6151cc1804ae53b8cd04d1cab7a632e45d8d164f9446519a349eb99"
+  },
+  "date_added": "2010-07-02T19:50:27-07:00"
+}

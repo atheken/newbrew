@@ -1,0 +1,106 @@
+{
+  "name": "dmd",
+  "full_name": "dmd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Digital Mars D compiler",
+  "license": "BSL-1.0",
+  "homepage": "https://dlang.org/",
+  "versions": {
+    "stable": "2.104.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dlang/dmd/archive/refs/tags/v2.104.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "166ab204994cb462c9e20a05c92033fc124926860e66944df9dee3784a3b4171"
+    },
+    "head": {
+      "url": "https://github.com/dlang/dmd.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dmd/blobs/sha256:a41634de385a7dfe4ab491c3a89bdb4c90c08e2653a9aac509403b7f167d9993",
+          "sha256": "a41634de385a7dfe4ab491c3a89bdb4c90c08e2653a9aac509403b7f167d9993"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dmd/blobs/sha256:745f40142f86760a51cbe01506641d08bcbb72d6713fe1685f27d1c593e5da09",
+          "sha256": "745f40142f86760a51cbe01506641d08bcbb72d6713fe1685f27d1c593e5da09"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dmd/blobs/sha256:57fc9d656099a477657c0143e929e5b3dc14b91bc17204ba1a93ce4b94383d47",
+          "sha256": "57fc9d656099a477657c0143e929e5b3dc14b91bc17204ba1a93ce4b94383d47"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dmd/blobs/sha256:6e59698e77570806e5618ca3aad632a953efbf55f1b41e2e589001438811ebbf",
+          "sha256": "6e59698e77570806e5618ca3aad632a953efbf55f1b41e2e589001438811ebbf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ldc"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Ancillary tools (e.g. ddemangle, dustmite, rdmd) are now in the `dtools` formula.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dmd.rb",
+  "ruby_source_checksum": {
+    "sha256": "02dd5e955f974b0e54519f1fa411c44e127aff076f9ad7191488fb3f1f702d1e"
+  },
+  "date_added": "2009-06-04T19:36:58+01:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "sqlc",
+  "full_name": "sqlc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Generate type safe Go from SQL",
+  "license": "MIT",
+  "homepage": "https://sqlc.dev/",
+  "versions": {
+    "stable": "1.19.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kyleconroy/sqlc/archive/v1.19.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4e4973a00cb745c5d7c8d1927e0810e713b06a6be2d075a803220e25bccdb287"
+    },
+    "head": {
+      "url": "https://github.com/kyleconroy/sqlc.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:58c9279136fb24daa52555bb1c946c901ebba2ec4981a8cb94977e97d1aa8ce0",
+          "sha256": "58c9279136fb24daa52555bb1c946c901ebba2ec4981a8cb94977e97d1aa8ce0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:3c3c757e9bdb4bdeee332c2cefa5890f46ac1bdb1143ff2a2d9a4e73f522d6d3",
+          "sha256": "3c3c757e9bdb4bdeee332c2cefa5890f46ac1bdb1143ff2a2d9a4e73f522d6d3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:5e3d9135e95f85eab41fad52190619c059cfdf4db116dc1dd1a9b3680cd7e217",
+          "sha256": "5e3d9135e95f85eab41fad52190619c059cfdf4db116dc1dd1a9b3680cd7e217"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:54bfab127cccccde6fb7359b481baf598d92abc1b522064ce33a8e9168ef2975",
+          "sha256": "54bfab127cccccde6fb7359b481baf598d92abc1b522064ce33a8e9168ef2975"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:9d98d37f13bdac57fc5a18a9da4d3a8a43cda45808cd84053a865ed150fffe58",
+          "sha256": "9d98d37f13bdac57fc5a18a9da4d3a8a43cda45808cd84053a865ed150fffe58"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:a7a3716add0749bbd289dbcd943e256f4fb668400d5a61f1bddfe4e511597193",
+          "sha256": "a7a3716add0749bbd289dbcd943e256f4fb668400d5a61f1bddfe4e511597193"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlc/blobs/sha256:053a666a798b75a674051355d248de830a98e79936f5c14cc355e9371e6e6f85",
+          "sha256": "053a666a798b75a674051355d248de830a98e79936f5c14cc355e9371e6e6f85"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sqlc.rb",
+  "ruby_source_checksum": {
+    "sha256": "a249bae64b4973698185581ebeb8a05fc29cff396b3a41a8f60c018ac20fb026"
+  },
+  "date_added": "2020-12-24T00:19:22+00:00"
+}

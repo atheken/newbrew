@@ -1,0 +1,109 @@
+{
+  "name": "subliminal",
+  "full_name": "subliminal",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library to search and download subtitles",
+  "license": "MIT",
+  "homepage": "https://subliminal.readthedocs.io",
+  "versions": {
+    "stable": "2.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/dd/3a/ac02011988ad013f24a11cb6123a7ff9e17a75369964c7edd9f64bfea80f/subliminal-2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c6439cc733a4f37f01f8c14c096d44fd28d75d1f6f6e2d1d1003b1b82c65628b"
+    },
+    "head": {
+      "url": "https://github.com/Diaoul/subliminal.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:aceffa16fd3c0ef9dd59807dd2144a55c7291846b4d85100811ce5de7b7ca5a4",
+          "sha256": "aceffa16fd3c0ef9dd59807dd2144a55c7291846b4d85100811ce5de7b7ca5a4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:4e71db9ee5661b99f756281a8683affe6d239c01c4f168e56fdea76a939e1fdb",
+          "sha256": "4e71db9ee5661b99f756281a8683affe6d239c01c4f168e56fdea76a939e1fdb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:93417bbdf08ad983d6a2ec5151f043dfbc84408759849ea52d95ddf7d564f6da",
+          "sha256": "93417bbdf08ad983d6a2ec5151f043dfbc84408759849ea52d95ddf7d564f6da"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:d871750ece1d220e3fbbb7ce244eb82f7ef9e172b2562369ff73f67be8b60371",
+          "sha256": "d871750ece1d220e3fbbb7ce244eb82f7ef9e172b2562369ff73f67be8b60371"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:205cf4a299a71a713c1800a763b1e4db6dbe84231b300e0a76e68e7ec70955e6",
+          "sha256": "205cf4a299a71a713c1800a763b1e4db6dbe84231b300e0a76e68e7ec70955e6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:452dd79729153b41090bf94487b70d369ffed3769ad23aea7cb78112f770db2a",
+          "sha256": "452dd79729153b41090bf94487b70d369ffed3769ad23aea7cb78112f770db2a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/subliminal/blobs/sha256:cbde28668573a72b7572899110d645aca03095d47cd1a77999a626e84e70853d",
+          "sha256": "cbde28668573a72b7572899110d645aca03095d47cd1a77999a626e84e70853d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.9"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-05-09",
+  "disable_reason": "unmaintained",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/subliminal.rb",
+  "ruby_source_checksum": {
+    "sha256": "6a6694c50528c229dd23518578c34e5c746bfe42230acaff1130c185fd46636a"
+  },
+  "date_added": "2014-10-13T21:38:20+01:00"
+}

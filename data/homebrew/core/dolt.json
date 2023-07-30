@@ -1,0 +1,105 @@
+{
+  "name": "dolt",
+  "full_name": "dolt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Git for Data",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/dolthub/dolt",
+  "versions": {
+    "stable": "1.8.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dolthub/dolt/archive/v1.8.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "49a9cad8aadb8ec12ca1bbccf9fd8fd44fa8fa70a98500b6751f3fac8809ccd4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763",
+          "sha256": "7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763",
+          "sha256": "7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763",
+          "sha256": "7cf72a3c81cb63a86ec1433593de8b76a69950b37fdfb0e8fc1cfbcf8ba49763"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a",
+          "sha256": "dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a",
+          "sha256": "dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a",
+          "sha256": "dc77f3b5234efba2c0cc6637c686613c246f38afc393cc90b7cbf758fd1ec33a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dolt/blobs/sha256:7a2e38efaba8c633bf4a81745d7bb69f2a0be9dd13ae3f4480f3d8b38846b808",
+          "sha256": "7a2e38efaba8c633bf4a81745d7bb69f2a0be9dd13ae3f4480f3d8b38846b808"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dolt.rb",
+  "ruby_source_checksum": {
+    "sha256": "9628fab6e127585dab6375f87bf4230bb369e258a82c9e5429ef606978376b19"
+  },
+  "date_added": "2020-04-14T14:55:53+00:00"
+}

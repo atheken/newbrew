@@ -1,0 +1,134 @@
+{
+  "name": "libxslt",
+  "full_name": "libxslt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C XSLT library for GNOME",
+  "license": "X11",
+  "homepage": "http://xmlsoft.org/XSLT/",
+  "versions": {
+    "stable": "1.1.38",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.38.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1f32450425819a09acaff2ab7a5a7f8a2ec7956e505d7beeb45e843d0e1ecab1"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/libxslt.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:35d88548858fbda1b24792cd42c06393cac959deead4dc75dce6da512b1148a1",
+          "sha256": "35d88548858fbda1b24792cd42c06393cac959deead4dc75dce6da512b1148a1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:c0d279287ad596dc0f645c26a2395122dcc11d2ade608b6f5550ab8cbac5fafd",
+          "sha256": "c0d279287ad596dc0f645c26a2395122dcc11d2ade608b6f5550ab8cbac5fafd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:0e787304a2bbc5159bdd73eee1a10eb5f72bad6ffb7adc2d3a13548e680c0107",
+          "sha256": "0e787304a2bbc5159bdd73eee1a10eb5f72bad6ffb7adc2d3a13548e680c0107"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:607d4cb7bbbad12f0b2008ee1f696881335ea1560f02b559b2dae8ad3a895437",
+          "sha256": "607d4cb7bbbad12f0b2008ee1f696881335ea1560f02b559b2dae8ad3a895437"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:5b000778f50c467c9f28e882ef5b3e0c9711d8c4e42083f59d0e5bd716127c44",
+          "sha256": "5b000778f50c467c9f28e882ef5b3e0c9711d8c4e42083f59d0e5bd716127c44"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:bd8e4f4cb5883bee9cdc2aeab754a679b9166a2f80f2ec013b7f3bcd9b395387",
+          "sha256": "bd8e4f4cb5883bee9cdc2aeab754a679b9166a2f80f2ec013b7f3bcd9b395387"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libxslt/blobs/sha256:32f5991ea5c42e4f76e859e4ba4406da9183e621dd09bc0c955be5fe865b7df9",
+          "sha256": "32f5991ea5c42e4f76e859e4ba4406da9183e621dd09bc0c955be5fe865b7df9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "icu4c",
+    "libgcrypt",
+    "libxml2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To allow the nokogiri gem to link against this libxslt run:\n  gem install nokogiri -- --with-xslt-dir=$HOMEBREW_PREFIX/opt/libxslt\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libxslt.rb",
+  "ruby_source_checksum": {
+    "sha256": "e65b8af32ca31b3c9a9facd950d14eb7fea3fbccec5045ac7a35965675ddd2ac"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "icu4c",
+      "libgcrypt",
+      "libxml2"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2011-09-02T15:45:18-05:00"
+}

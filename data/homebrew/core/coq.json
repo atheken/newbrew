@@ -1,0 +1,124 @@
+{
+  "name": "coq",
+  "full_name": "coq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Proof assistant for higher-order logic",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://coq.inria.fr/",
+  "versions": {
+    "stable": "8.17.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/coq/coq/archive/V8.17.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "724667de65825359081b747d41fdbead0620d43b57aa8377a27acd4b072585e6"
+    },
+    "head": {
+      "url": "https://github.com/coq/coq.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:17428d897cd59b5ad624055c3de93ad2e40781ccc99db16333a71aaad58a3386",
+          "sha256": "17428d897cd59b5ad624055c3de93ad2e40781ccc99db16333a71aaad58a3386"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:16f1d9f1950219e0af6e4e06c28813908367ed23bff7ff1c3c4310c8afbaf653",
+          "sha256": "16f1d9f1950219e0af6e4e06c28813908367ed23bff7ff1c3c4310c8afbaf653"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:afc36bee0d091cc4902e1553daee20767dd4b4585ab7b54c8d34adf602616270",
+          "sha256": "afc36bee0d091cc4902e1553daee20767dd4b4585ab7b54c8d34adf602616270"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:d78a6b69c915bf1529eb04aae3b2582a9226102abf02182eb12966a59f22e8de",
+          "sha256": "d78a6b69c915bf1529eb04aae3b2582a9226102abf02182eb12966a59f22e8de"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:0e46aa5d4bc792918c9532644c16f40f7c67c351bb12731afb60b93b17d61591",
+          "sha256": "0e46aa5d4bc792918c9532644c16f40f7c67c351bb12731afb60b93b17d61591"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:ebc637b55147ceed8574602c71575281b7b12246859dd61eb0fdf1c71693cc5d",
+          "sha256": "ebc637b55147ceed8574602c71575281b7b12246859dd61eb0fdf1c71693cc5d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coq/blobs/sha256:19fb510814e223b19f28e0c2aa67c4b9add7fdbc65772ad7b8a41214685b9acd",
+          "sha256": "19fb510814e223b19f28e0c2aa67c4b9add7fdbc65772ad7b8a41214685b9acd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "dune"
+  ],
+  "dependencies": [
+    "gmp",
+    "ocaml",
+    "ocaml-findlib",
+    "ocaml-zarith"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "m4": "build"
+    },
+    {
+      "unzip": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/coq.rb",
+  "ruby_source_checksum": {
+    "sha256": "c79e16feb5b44a3cc7ebe2cef35b35db2fc32aec81259862070738a5ab8b926e"
+  },
+  "date_added": "2010-11-03T21:29:34-07:00"
+}

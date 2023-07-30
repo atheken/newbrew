@@ -1,0 +1,134 @@
+{
+  "name": "emqx",
+  "full_name": "emqx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "MQTT broker for IoT",
+  "license": "Apache-2.0",
+  "homepage": "https://www.emqx.io/",
+  "versions": {
+    "stable": "5.1.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/emqx/emqx/archive/refs/tags/v5.1.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b9ecb6275386b410e9c330b4c5b3d30acf377627d41e73c00c6460b4d8fd5f0b"
+    },
+    "head": {
+      "url": "https://github.com/emqx/emqx.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:b5f436cb7ca08d254641faf9d7785757b24daec46fe1c4e834edbe491cde3d38",
+          "sha256": "b5f436cb7ca08d254641faf9d7785757b24daec46fe1c4e834edbe491cde3d38"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:5dd3a6fb09022bc904627a4aaf04fdd8a1520dffe42bb79775ea23961c440ac2",
+          "sha256": "5dd3a6fb09022bc904627a4aaf04fdd8a1520dffe42bb79775ea23961c440ac2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:eedcf7821cace8625b532a0ab1fdd1141fffc0ab7299e6df5d6711ef7ac02d2c",
+          "sha256": "eedcf7821cace8625b532a0ab1fdd1141fffc0ab7299e6df5d6711ef7ac02d2c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:c0f706808b0a67f0e8169c82f5aeefc25a86365086fef24ee7e39d5d6bc302c4",
+          "sha256": "c0f706808b0a67f0e8169c82f5aeefc25a86365086fef24ee7e39d5d6bc302c4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:d96178a3af7386126be4fd24fdef9446a781502009e4eba4d05b864b16f3a23e",
+          "sha256": "d96178a3af7386126be4fd24fdef9446a781502009e4eba4d05b864b16f3a23e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:257ead1ee5f0bcc3d05e9e51f3e08ca506fe789c088638ef8f3cf053258345c8",
+          "sha256": "257ead1ee5f0bcc3d05e9e51f3e08ca506fe789c088638ef8f3cf053258345c8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/emqx/blobs/sha256:724850ba28b66b92025824696e53b2c41ae10e5378496a27b3ae15c8954856e1",
+          "sha256": "724850ba28b66b92025824696e53b2c41ae10e5378496a27b3ae15c8954856e1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "ccache",
+    "cmake",
+    "coreutils",
+    "erlang@25",
+    "freetds",
+    "libtool"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "ncurses",
+    "zlib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "curl": "build"
+    },
+    {
+      "unzip": "build"
+    },
+    {
+      "zip": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/emqx.rb",
+  "ruby_source_checksum": {
+    "sha256": "18421f906a52d4acf9db107a02a6ee802e9f878a5d2ac2e17b3546c76bd64d1b"
+  },
+  "date_added": "2022-12-15T14:10:29+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "lgeneral",
+  "full_name": "lgeneral",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Turn-based strategy engine heavily inspired by Panzer General",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://lgames.sourceforge.io/LGeneral/",
+  "versions": {
+    "stable": "1.4.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/lgeneral/lgeneral/lgeneral-1.4.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0a26b495716cdcab63b49a294ba31649bc0abe74ce0df48276e52f4a6f323a95"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:6814c4921c62261436537a16b3d945863fd8afa2e3f9702e1fe2b15d98ce9cc4",
+          "sha256": "6814c4921c62261436537a16b3d945863fd8afa2e3f9702e1fe2b15d98ce9cc4"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:66e1e176e9fe55234aac274f8aab642aefaf71c8257576ef693eff1b21867f62",
+          "sha256": "66e1e176e9fe55234aac274f8aab642aefaf71c8257576ef693eff1b21867f62"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:262a595324361728d033438f3373024b1925557ed9e1d19f7a921aae9370eeb9",
+          "sha256": "262a595324361728d033438f3373024b1925557ed9e1d19f7a921aae9370eeb9"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:237418ae7e4069b558b046d4b68044c3c307c28898ff00ca56a20aa97d13d542",
+          "sha256": "237418ae7e4069b558b046d4b68044c3c307c28898ff00ca56a20aa97d13d542"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:bc51bd29569a83218f84748d31bac40cadff60a7caacaead3e499970aba25b37",
+          "sha256": "bc51bd29569a83218f84748d31bac40cadff60a7caacaead3e499970aba25b37"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:643779c73ca7a36a3db58993aa374f451bfb3e4c50bd699968137e77330acddf",
+          "sha256": "643779c73ca7a36a3db58993aa374f451bfb3e4c50bd699968137e77330acddf"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lgeneral/blobs/sha256:eefab1384276b2406cbdb286bfc730b3d434112f2d5ea8be6c3edb451d34f2e9",
+          "sha256": "eefab1384276b2406cbdb286bfc730b3d434112f2d5ea8be6c3edb451d34f2e9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gettext",
+    "sdl12-compat",
+    "sdl2",
+    "sdl2_mixer"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Requires pg-data.tar.gz or the original DOS version of Panzer General. Can be downloaded from\nhttps://sourceforge.net/projects/lgeneral/files/lgeneral-data/pg-data.tar.gz/download\nTo install use:\n  lgc-pg -s <pg-data-unzipped-dir> -d $HOMEBREW_PREFIX/opt/lgeneral/share/lgeneral\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lgeneral.rb",
+  "ruby_source_checksum": {
+    "sha256": "027aad5cd6cf3ee9e3b947d264646f0ddcebe4143a8cc2412bda9e8f0d544dab"
+  },
+  "date_added": "2022-07-04T09:09:48+00:00"
+}

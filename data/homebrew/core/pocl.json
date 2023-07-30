@@ -1,0 +1,121 @@
+{
+  "name": "pocl",
+  "full_name": "pocl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Portable Computing Language",
+  "license": "MIT",
+  "homepage": "http://portablecl.org",
+  "versions": {
+    "stable": "3.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://portablecl.org/downloads/pocl-3.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "82314362552e050aff417318dd623b18cf0f1d0f84f92d10a7e3750dd12d3a9a"
+    },
+    "head": {
+      "url": "https://github.com/pocl/pocl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:a889cde4e1f855f90ccc3e9afcb0839c3f2cd63ac4788c3b6ae109fdf69e3b01",
+          "sha256": "a889cde4e1f855f90ccc3e9afcb0839c3f2cd63ac4788c3b6ae109fdf69e3b01"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:b102e21ee22fb6da243b672735d26d75aacceb79cb2628d5cb6897dc7709423d",
+          "sha256": "b102e21ee22fb6da243b672735d26d75aacceb79cb2628d5cb6897dc7709423d"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:05ad886415b8c78098aec4a5511e058b86e5c4b90833e815f4f010b47723d258",
+          "sha256": "05ad886415b8c78098aec4a5511e058b86e5c4b90833e815f4f010b47723d258"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:31547dd88a441097ac30b5a396d293af17331df64223e5d6bc75e8bee5219c70",
+          "sha256": "31547dd88a441097ac30b5a396d293af17331df64223e5d6bc75e8bee5219c70"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:ebd4512a7dffd600b8a02b61fa017fe5f90c8b693785963d241dffcb224bd703",
+          "sha256": "ebd4512a7dffd600b8a02b61fa017fe5f90c8b693785963d241dffcb224bd703"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:be751028d7efa9dd39564b3a79e39a40aaa6916683cccabde37b030884a64b10",
+          "sha256": "be751028d7efa9dd39564b3a79e39a40aaa6916683cccabde37b030884a64b10"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pocl/blobs/sha256:691ace09c0b0bd71a8a63cd44a201dd15d36de055cd6fca2e96aadc4eaa59426",
+          "sha256": "691ace09c0b0bd71a8a63cd44a201dd15d36de055cd6fca2e96aadc4eaa59426"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "opencl-headers",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "hwloc",
+    "llvm@15",
+    "opencl-icd-loader"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pocl.rb",
+  "ruby_source_checksum": {
+    "sha256": "337087b829fd7c4247e402bef36ddb9446325c27efaf9b062f2a5700434a4444"
+  },
+  "date_added": "2013-12-15T16:31:14+00:00"
+}

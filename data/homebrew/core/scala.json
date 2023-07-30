@@ -1,0 +1,81 @@
+{
+  "name": "scala",
+  "full_name": "scala",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "scala@3"
+  ],
+  "versioned_formulae": [
+    "scala@2.13",
+    "scala@2.12",
+    "scala@2.11"
+  ],
+  "desc": "JVM-based programming language",
+  "license": "Apache-2.0",
+  "homepage": "https://www.scala-lang.org/",
+  "versions": {
+    "stable": "3.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lampepfl/dotty/releases/download/3.3.0/scala3-3.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "064ee508a8e3b9c69843102c836aa89894148022bf37af3c26a9464dfa101475"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scala/blobs/sha256:41784ddb78f6cd9db263dac250ce491ca8de2f6160ecf23bcffcbb7e8c724262",
+          "sha256": "41784ddb78f6cd9db263dac250ce491ca8de2f6160ecf23bcffcbb7e8c724262"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use with IntelliJ, set the Scala home to:\n  $HOMEBREW_PREFIX/opt/scala/idea\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scala.rb",
+  "ruby_source_checksum": {
+    "sha256": "92619676a65fb611a1cf83e2a5ca6ed158f8c7ea099f8d4f6847b2ba5739686d"
+  },
+  "date_added": "2009-09-11T17:42:54+01:00"
+}

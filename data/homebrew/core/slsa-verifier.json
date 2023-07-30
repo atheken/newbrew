@@ -1,0 +1,109 @@
+{
+  "name": "slsa-verifier",
+  "full_name": "slsa-verifier",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Verify provenance from SLSA compliant builders",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/slsa-framework/slsa-verifier",
+  "versions": {
+    "stable": "2.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/slsa-framework/slsa-verifier/archive/refs/tags/v2.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "56f4ef585269a49f5af42cf19f0683b1593ec57f516ff2d426cd81623d4ce6ec"
+    },
+    "head": {
+      "url": "https://github.com/slsa-framework/slsa-verifier.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723",
+          "sha256": "ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723",
+          "sha256": "ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723",
+          "sha256": "ef2c9e94be3d84837f663d99d4a34cf01484823a8bfc05bd81c719b6433d1723"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:6842d91f8a81df33035a444af23f65fe2149c42eedf58ef5fd115368d45f3fef",
+          "sha256": "6842d91f8a81df33035a444af23f65fe2149c42eedf58ef5fd115368d45f3fef"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:32806b0a61ab0028ad8f7864d29af5589e96be6e3d2086f8b246526d9a07acaf",
+          "sha256": "32806b0a61ab0028ad8f7864d29af5589e96be6e3d2086f8b246526d9a07acaf"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:7e46674e80decb52e1734444291bedbc989cda454975a42869426ba50d2c17a9",
+          "sha256": "7e46674e80decb52e1734444291bedbc989cda454975a42869426ba50d2c17a9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slsa-verifier/blobs/sha256:3eca13cc4e327e705e5dcc5109ee6588f3c839c82d8dbf08136daee7bc065e86",
+          "sha256": "3eca13cc4e327e705e5dcc5109ee6588f3c839c82d8dbf08136daee7bc065e86"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/slsa-verifier.rb",
+  "ruby_source_checksum": {
+    "sha256": "8dc4d97602839cd2f040748e00ecb0c6ea9c619847ee44ff2daa48190c23ea9c"
+  },
+  "date_added": "2023-06-11T19:12:49-04:00"
+}

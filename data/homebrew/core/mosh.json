@@ -1,0 +1,144 @@
+{
+  "name": "mosh",
+  "full_name": "mosh",
+  "tap": "homebrew/core",
+  "oldname": "mobile-shell",
+  "oldnames": [
+    "mobile-shell"
+  ],
+  "aliases": [
+    "mobile-shell"
+  ],
+  "versioned_formulae": [],
+  "desc": "Remote terminal application",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://mosh.org",
+  "versions": {
+    "stable": "1.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "872e4b134e5df29c8933dff12350785054d2fd2839b5ae6b5587b14db1465ddd"
+    },
+    "head": {
+      "url": "https://github.com/mobile-shell/mosh.git",
+      "branch": "master"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:cdd2d7e3bbfe43525ebe6066f1748c1c33969e442ded18547ac767a9ae14eb17",
+          "sha256": "cdd2d7e3bbfe43525ebe6066f1748c1c33969e442ded18547ac767a9ae14eb17"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:749b88a7f9c420d0fbdca8f04149d2b4133c5e37b4b9be2e6d3efc1658867dc8",
+          "sha256": "749b88a7f9c420d0fbdca8f04149d2b4133c5e37b4b9be2e6d3efc1658867dc8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:bd94ec171b2ff3cb6c8f64ceecdf9894ffa49dd62059cd39c31788d80f67605b",
+          "sha256": "bd94ec171b2ff3cb6c8f64ceecdf9894ffa49dd62059cd39c31788d80f67605b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:f76c8c24a42a2ec22d4077fa5ab64ccc6587872d01f2ba5759083beb81ae84b1",
+          "sha256": "f76c8c24a42a2ec22d4077fa5ab64ccc6587872d01f2ba5759083beb81ae84b1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:f1613e143631ecd0f20c27f0e0439117076bf3a8dc40728bc04e16f4748ddc49",
+          "sha256": "f1613e143631ecd0f20c27f0e0439117076bf3a8dc40728bc04e16f4748ddc49"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:20b801a44a511b7daba60c7f8804bfcb89b61adea449ff10081c60646ed1fb3e",
+          "sha256": "20b801a44a511b7daba60c7f8804bfcb89b61adea449ff10081c60646ed1fb3e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mosh/blobs/sha256:2cffb2c704a0df44613cb6f0db5fe9f6fafaf3459b14f07b1e700a73af156846",
+          "sha256": "2cffb2c704a0df44613cb6f0db5fe9f6fafaf3459b14f07b1e700a73af156846"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "protobuf",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mosh.rb",
+  "ruby_source_checksum": {
+    "sha256": "bfb6e80632a35612282c8672f13bd9228edeb048e3ac7993eb82d299114e9f55"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "protobuf",
+      "openssl@3"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "ncurses",
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2010-11-06T08:23:29-07:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "python-yq",
+  "full_name": "python-yq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line YAML and XML processor that wraps jq",
+  "license": "Apache-2.0",
+  "homepage": "https://kislyuk.github.io/yq/",
+  "versions": {
+    "stable": "3.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/90/a0/ddb66d2e527626288a9b526af5c21bc0e590622faa1d0425808ad75f6bc5/yq-3.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8dbb7a0c937ddbfc3dd175e6478f40960c140d3e8b1f1a0315de76384d66650a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:8462cbcf64af6c1e2be73b44e6abc4ae14ba264eb728f0970e2fbac37a31f9d9",
+          "sha256": "8462cbcf64af6c1e2be73b44e6abc4ae14ba264eb728f0970e2fbac37a31f9d9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:72e936fbdaf805e71aefdc1a996685fc12033b2bbb3b11838210c1ddbea13c37",
+          "sha256": "72e936fbdaf805e71aefdc1a996685fc12033b2bbb3b11838210c1ddbea13c37"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:a3120fc51a4d7b8c754e945c2c8584311f7b4c70797343e485c260a75a2b148f",
+          "sha256": "a3120fc51a4d7b8c754e945c2c8584311f7b4c70797343e485c260a75a2b148f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:3b96bfc6ba0dcca57be1a7db8b38537b40d84fdc61a6c10e7933c2f6b4110fe1",
+          "sha256": "3b96bfc6ba0dcca57be1a7db8b38537b40d84fdc61a6c10e7933c2f6b4110fe1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:5c53971c90bb5e41b81f81dbe249a43390eef91d5dec102305647ac2aa2bd915",
+          "sha256": "5c53971c90bb5e41b81f81dbe249a43390eef91d5dec102305647ac2aa2bd915"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:88b7c82ad5368b2318dc174d0d79679dc21851467a0202bf2cd7a71cbc8d48c9",
+          "sha256": "88b7c82ad5368b2318dc174d0d79679dc21851467a0202bf2cd7a71cbc8d48c9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-yq/blobs/sha256:84063b1d958d69680857044d79f015f9fbd78d1407df4b6df35fc0fef1d59d25",
+          "sha256": "84063b1d958d69680857044d79f015f9fbd78d1407df4b6df35fc0fef1d59d25"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "jq",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "yq"
+  ],
+  "conflicts_with_reasons": [
+    "both install `yq` executables"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/python-yq.rb",
+  "ruby_source_checksum": {
+    "sha256": "8b254e9a16f0a3ae025a71a3031ff95aeddf7dfb63620db15c5146e85063abaa"
+  },
+  "date_added": "2018-07-09T02:46:09-07:00"
+}

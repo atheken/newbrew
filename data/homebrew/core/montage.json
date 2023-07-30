@@ -1,0 +1,114 @@
+{
+  "name": "montage",
+  "full_name": "montage",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Toolkit for assembling FITS images into custom mosaics",
+  "license": "BSD-3-Clause",
+  "homepage": "http://montage.ipac.caltech.edu",
+  "versions": {
+    "stable": "6.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://montage.ipac.caltech.edu/download/Montage_v6.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1f540a7389d30fcf9f8cd9897617cc68b19350fbcde97c4d1cdc5634de1992c6"
+    },
+    "head": {
+      "url": "https://github.com/Caltech-IPAC/Montage.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:64bead5a3b77bd80dd4cdb5980ac40b4f140246a8dd77ffc91cc476e1d5201e0",
+          "sha256": "64bead5a3b77bd80dd4cdb5980ac40b4f140246a8dd77ffc91cc476e1d5201e0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:979157185163a1e4af7de11b882687e34e86b5e8a185c046c8e468da8a7765f6",
+          "sha256": "979157185163a1e4af7de11b882687e34e86b5e8a185c046c8e468da8a7765f6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:f9fb8238d49754d19175b69133cab7ac5d4a28d76cf0823894956eb9dcddc738",
+          "sha256": "f9fb8238d49754d19175b69133cab7ac5d4a28d76cf0823894956eb9dcddc738"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:f6bc30d29752622bd772486c04d6feedf51a28bcf599571cf4b9336a21249900",
+          "sha256": "f6bc30d29752622bd772486c04d6feedf51a28bcf599571cf4b9336a21249900"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:98c1ea6725fe61b926cb5ae148b6fec4dac9c3f2a05d2573395bfbe1ca3f3ef6",
+          "sha256": "98c1ea6725fe61b926cb5ae148b6fec4dac9c3f2a05d2573395bfbe1ca3f3ef6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/montage/blobs/sha256:c0dae6deab1f09e34a1ba4dcebf923f697662a0b4a0f12b778cbc4eda7191d00",
+          "sha256": "c0dae6deab1f09e34a1ba4dcebf923f697662a0b4a0f12b778cbc4eda7191d00"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "cfitsio",
+    "freetype",
+    "jpeg-turbo"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "wdiff"
+  ],
+  "conflicts_with_reasons": [
+    "both install an `mdiff` executable"
+  ],
+  "link_overwrite": [],
+  "caveats": "Montage is under the Caltech/JPL non-exclusive, non-commercial software\nlicence agreement available at:\n  http://montage.ipac.caltech.edu/docs/download.html\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/montage.rb",
+  "ruby_source_checksum": {
+    "sha256": "fe5533a7e29725b4ca8f036596d4c3b2c0f3ab47675e3582b8aea36d0f2d30c9"
+  },
+  "date_added": "2011-09-08T09:14:24-07:00"
+}

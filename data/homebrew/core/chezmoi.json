@@ -1,0 +1,109 @@
+{
+  "name": "chezmoi",
+  "full_name": "chezmoi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manage your dotfiles across multiple diverse machines, securely",
+  "license": "MIT",
+  "homepage": "https://chezmoi.io/",
+  "versions": {
+    "stable": "2.36.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/twpayne/chezmoi.git",
+      "tag": "v2.36.1",
+      "revision": "0b0fa89f612f5f885ccfc8c3890f515cc668c5c6",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/twpayne/chezmoi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:c77aaee493406a53497e3d27254e3fc652ab2908395f9f66b789f481741186ce",
+          "sha256": "c77aaee493406a53497e3d27254e3fc652ab2908395f9f66b789f481741186ce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:03e4ad2b3b975bab16ea79edfad386f60a0cb557d07dc628b09e089d39b8c044",
+          "sha256": "03e4ad2b3b975bab16ea79edfad386f60a0cb557d07dc628b09e089d39b8c044"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:94dad33961a39e9368ccdc9872a6d18bc579dcda07c25d9d78475d191b4e886e",
+          "sha256": "94dad33961a39e9368ccdc9872a6d18bc579dcda07c25d9d78475d191b4e886e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:10319aade06641afed9aeb16a0c70bcf1ee6e6e84d78cb1fdd70450aed7d40ce",
+          "sha256": "10319aade06641afed9aeb16a0c70bcf1ee6e6e84d78cb1fdd70450aed7d40ce"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:cc38c5c83783ec39055e55ab0fe35ddd1bdf0935fca66400d2c8f585b4075068",
+          "sha256": "cc38c5c83783ec39055e55ab0fe35ddd1bdf0935fca66400d2c8f585b4075068"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:2024572907ef2abf0b74ba3ee57db87ecfb2da0774f58fa8be0b61b48fed04b5",
+          "sha256": "2024572907ef2abf0b74ba3ee57db87ecfb2da0774f58fa8be0b61b48fed04b5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chezmoi/blobs/sha256:4833db1e0bf0ea48c3791d3cc5857005cff80675229fe8d76102fb96e6afec0e",
+          "sha256": "4833db1e0bf0ea48c3791d3cc5857005cff80675229fe8d76102fb96e6afec0e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/chezmoi.rb",
+  "ruby_source_checksum": {
+    "sha256": "a8dc5f9816d836775a55331f1e167ae9c2ff76ccb9a33c9da2b64eaa1a777613"
+  },
+  "date_added": "2020-04-23T17:25:50+01:00"
+}

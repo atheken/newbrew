@@ -1,0 +1,128 @@
+{
+  "name": "node@16",
+  "full_name": "node@16",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "node@18",
+    "node@14",
+    "node@10"
+  ],
+  "desc": "Platform built on V8 to build network applications",
+  "license": "MIT",
+  "homepage": "https://nodejs.org/",
+  "versions": {
+    "stable": "16.20.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://nodejs.org/dist/v16.20.1/node-v16.20.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "83e03381e271f1a5619188e7aea9d85d9b7e12f5be2a28ceb78d7249ed22b7f1"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:32c02eb8685bca80ae38c38ad87c7e53b2e2d0ea04d3905ef6d7b54227f9fadd",
+          "sha256": "32c02eb8685bca80ae38c38ad87c7e53b2e2d0ea04d3905ef6d7b54227f9fadd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:892e19b59b0a54cdd13046092ec134616c39296d365b7cea2fa1da61ce1aa741",
+          "sha256": "892e19b59b0a54cdd13046092ec134616c39296d365b7cea2fa1da61ce1aa741"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:b5cef587998788334def771a486ff287ed1a4d70ad78d148ed2ff69e7c825293",
+          "sha256": "b5cef587998788334def771a486ff287ed1a4d70ad78d148ed2ff69e7c825293"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:ac9b85404fe342e77b3e2e9a4b35d82ed57e67ff4d8635b35a3de7cc86ea4b43",
+          "sha256": "ac9b85404fe342e77b3e2e9a4b35d82ed57e67ff4d8635b35a3de7cc86ea4b43"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:e8b90416a921f883f91abec3809fde918c3ac9537b9be67082b0648e1b81fa91",
+          "sha256": "e8b90416a921f883f91abec3809fde918c3ac9537b9be67082b0648e1b81fa91"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:d485bbb9f9aee386690d95168412a5da37663ca695b0aa86b761273073c88d1c",
+          "sha256": "d485bbb9f9aee386690d95168412a5da37663ca695b0aa86b761273073c88d1c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:2cbcfa355dd001fa4a7b0bf1fd825367e05eedabaf71f4d4bcb3e78c16246328",
+          "sha256": "2cbcfa355dd001fa4a7b0bf1fd825367e05eedabaf71f4d4bcb3e78c16246328"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "brotli",
+    "c-ares",
+    "icu4c",
+    "libnghttp2",
+    "libuv",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "python",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {
+      "since": "catalina"
+    },
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/node@16.rb",
+  "ruby_source_checksum": {
+    "sha256": "4ee47c3190efc8843385082dd4f5bb22252d6034ad8676d978f53360f7680000"
+  },
+  "date_added": "2021-10-22T09:47:10+00:00"
+}

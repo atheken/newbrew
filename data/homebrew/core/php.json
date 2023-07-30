@@ -1,0 +1,227 @@
+{
+  "name": "php",
+  "full_name": "php",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "php@8.2"
+  ],
+  "versioned_formulae": [
+    "php@8.1",
+    "php@8.0",
+    "php@7.4"
+  ],
+  "desc": "General-purpose scripting language",
+  "license": "PHP-3.01",
+  "homepage": "https://www.php.net/",
+  "versions": {
+    "stable": "8.2.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.php.net/distributions/php-8.2.8.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cfe1055fbcd486de7d3312da6146949aae577365808790af6018205567609801"
+    },
+    "head": {
+      "url": "https://github.com/php/php-src.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:cf4ed8e8303a71f58e86ac4579a05f8795a4ea244ed8075359fd6cd30197100a",
+          "sha256": "cf4ed8e8303a71f58e86ac4579a05f8795a4ea244ed8075359fd6cd30197100a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:157787c62289dbe695e67f10c0501961161b6489db49fa1b0e652b6cc05d820c",
+          "sha256": "157787c62289dbe695e67f10c0501961161b6489db49fa1b0e652b6cc05d820c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:260cdfadd930a214df1418e5711acb2d6d85e148bd9dd5f26d0bbe2eef812472",
+          "sha256": "260cdfadd930a214df1418e5711acb2d6d85e148bd9dd5f26d0bbe2eef812472"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:361f34eddaad8dd22b282b7ce7e927af0525a9fab2cfb04b81d58a3769b192f6",
+          "sha256": "361f34eddaad8dd22b282b7ce7e927af0525a9fab2cfb04b81d58a3769b192f6"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:f15cdb07e75d00fa906fa1f8a7b8407c34bf8a7ace3bdbad0a038aa0ffca5d0f",
+          "sha256": "f15cdb07e75d00fa906fa1f8a7b8407c34bf8a7ace3bdbad0a038aa0ffca5d0f"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:4aba8baa472a8a0986d1b545e6455fc9da886a8a0b85b70dbcaa4f4f8c1f6fb4",
+          "sha256": "4aba8baa472a8a0986d1b545e6455fc9da886a8a0b85b70dbcaa4f4f8c1f6fb4"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/php/blobs/sha256:6477da1344889e9b98a7617946ca513d16ef63fd4b567d922f8a0ac82314013e",
+          "sha256": "6477da1344889e9b98a7617946ca513d16ef63fd4b567d922f8a0ac82314013e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "httpd",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "argon2",
+    "aspell",
+    "autoconf",
+    "curl",
+    "freetds",
+    "gd",
+    "gettext",
+    "gmp",
+    "icu4c",
+    "krb5",
+    "libpq",
+    "libsodium",
+    "libzip",
+    "oniguruma",
+    "openldap",
+    "openssl@3",
+    "pcre2",
+    "sqlite",
+    "tidy-html5",
+    "unixodbc"
+  ],
+  "test_dependencies": [
+    "httpd"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "xz": "build"
+    },
+    "bzip2",
+    "libedit",
+    "libffi",
+    "libxml2",
+    "libxslt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To enable PHP in Apache add the following to httpd.conf and restart Apache:\n    LoadModule php_module $HOMEBREW_PREFIX/opt/php/lib/httpd/modules/libphp.so\n\n    <FilesMatch \\.php$>\n        SetHandler application/x-httpd-php\n    </FilesMatch>\n\nFinally, check DirectoryIndex includes index.php\n    DirectoryIndex index.php index.html\n\nThe php.ini and php-fpm.ini file can be found in:\n    $HOMEBREW_PREFIX/etc/php/8.2/\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/php/sbin/php-fpm",
+      "--nodaemonize"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/php-fpm.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/php.rb",
+  "ruby_source_checksum": {
+    "sha256": "a807306cda4ebcaf29f3dbaabf2405e9881ba6400db5994a5e8be11d59b35ed7"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "bison",
+      "re2c",
+      "httpd",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "apr",
+      "apr-util",
+      "argon2",
+      "aspell",
+      "autoconf",
+      "curl",
+      "freetds",
+      "gd",
+      "gettext",
+      "gmp",
+      "icu4c",
+      "krb5",
+      "libpq",
+      "libsodium",
+      "libzip",
+      "oniguruma",
+      "openldap",
+      "openssl@3",
+      "pcre2",
+      "sqlite",
+      "tidy-html5",
+      "unixodbc"
+    ],
+    "test_dependencies": [
+      "httpd"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "xz": "build"
+      },
+      "bzip2",
+      "libedit",
+      "libffi",
+      "libxml2",
+      "libxslt",
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "date_added": "2018-02-28T01:09:55-08:00"
+}

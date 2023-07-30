@@ -1,0 +1,103 @@
+{
+  "name": "libnatpmp",
+  "full_name": "libnatpmp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "NAT port mapping protocol library",
+  "license": "BSD-3-Clause",
+  "homepage": "http://miniupnp.free.fr/libnatpmp.html",
+  "versions": {
+    "stable": "20230423",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://miniupnp.free.fr/files/download.php?file=libnatpmp-20230423.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0684ed2c8406437e7519a1bd20ea83780db871b3a3a5d752311ba3e889dbfc70"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:e2b3149c35d8f3b95be8530a59185bff9d795599b7311d8cbb5acdd815737b83",
+          "sha256": "e2b3149c35d8f3b95be8530a59185bff9d795599b7311d8cbb5acdd815737b83"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:f859a0235c76bb63c350d94f053832a15fee55936a8e7a03a5b5dc04dd69c627",
+          "sha256": "f859a0235c76bb63c350d94f053832a15fee55936a8e7a03a5b5dc04dd69c627"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:0e39353eba562756a31d3937f87c68f5d6b66526bfabb3cb5db71b5c7cce1bd9",
+          "sha256": "0e39353eba562756a31d3937f87c68f5d6b66526bfabb3cb5db71b5c7cce1bd9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:2997902f048650bd589d999bb508836f9275432f702041922d63577f526ae427",
+          "sha256": "2997902f048650bd589d999bb508836f9275432f702041922d63577f526ae427"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:8d9857a3229541160545cd65308faede6b0a4a49b22491fa2726b9b391797dd1",
+          "sha256": "8d9857a3229541160545cd65308faede6b0a4a49b22491fa2726b9b391797dd1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:b3e8cff2d63434c2f2db23be4caf16799c420f9ef7308dca1173b5cf3ff6b9b8",
+          "sha256": "b3e8cff2d63434c2f2db23be4caf16799c420f9ef7308dca1173b5cf3ff6b9b8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libnatpmp/blobs/sha256:5c61e68ce733b200615ecb9dbabe36a9336cf7d6404a4d869573a365acaebc08",
+          "sha256": "5c61e68ce733b200615ecb9dbabe36a9336cf7d6404a4d869573a365acaebc08"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libnatpmp.rb",
+  "ruby_source_checksum": {
+    "sha256": "599e43823dcdcd3a833722c74f3d8afee0497e04f23349516278482cbcd5e4bf"
+  },
+  "date_added": "2013-09-19T07:39:26-07:00"
+}

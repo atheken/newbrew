@@ -1,0 +1,107 @@
+{
+  "name": "phrase-cli",
+  "full_name": "phrase-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "phrase"
+  ],
+  "versioned_formulae": [],
+  "desc": "Tool to interact with the Phrase API",
+  "license": "MIT",
+  "homepage": "https://phrase.com/",
+  "versions": {
+    "stable": "2.8.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/phrase/phrase-cli/archive/refs/tags/2.8.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fc4d562ce399698682f0e64caae4982660fe6c03f497a6e9306d0138a315d988"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307",
+          "sha256": "122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307",
+          "sha256": "122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307",
+          "sha256": "122c528d7dd8cc2934471c68c7baacab9be621639ca23e19521d3a785b7e5307"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927",
+          "sha256": "cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927",
+          "sha256": "cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927",
+          "sha256": "cfdb049556ea7690247e6771d6f8401a2e2834288b1d5a4d18f7106c5446d927"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phrase-cli/blobs/sha256:15738d4b24720ff9456aed0b969d1f62ea2a116bfab870f551c11258916542d1",
+          "sha256": "15738d4b24720ff9456aed0b969d1f62ea2a116bfab870f551c11258916542d1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/phrase-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "c800983abd2dd56b51ccb7bca8b1d6664f87e1f0e4202517ba0e50f61c794699"
+  },
+  "date_added": "2022-06-16T15:48:06+00:00"
+}

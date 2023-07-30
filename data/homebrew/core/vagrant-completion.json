@@ -1,0 +1,77 @@
+{
+  "name": "vagrant-completion",
+  "full_name": "vagrant-completion",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bash completion for Vagrant",
+  "license": "MIT",
+  "homepage": "https://github.com/hashicorp/vagrant",
+  "versions": {
+    "stable": "2.3.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hashicorp/vagrant/archive/v2.3.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fa8a96319aa7b9ff5f4a991b77cbf37f549549d84737624bcebefa8f2004bf45"
+    },
+    "head": {
+      "url": "https://github.com/hashicorp/vagrant.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vagrant-completion/blobs/sha256:1e505842b21fff086e13163e635da612316a8d1c3ef598744f773996c692ffa3",
+          "sha256": "1e505842b21fff086e13163e635da612316a8d1c3ef598744f773996c692ffa3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vagrant-completion.rb",
+  "ruby_source_checksum": {
+    "sha256": "28e04e50b349a2586530fa22f7db008aa12ac142f0b6af26989ad5887ff5e9df"
+  },
+  "date_added": "2017-01-25T08:30:37+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "asdf",
+  "full_name": "asdf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Extendable version manager with support for Ruby, Node.js, Erlang & more",
+  "license": "MIT",
+  "homepage": "https://asdf-vm.com/",
+  "versions": {
+    "stable": "0.12.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/asdf-vm/asdf/archive/refs/tags/v0.12.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8416d3556f093b3f2f9931b30165efd8800c520c129bed22a537f889aa6dff90"
+    },
+    "head": {
+      "url": "https://github.com/asdf-vm/asdf.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/asdf/blobs/sha256:d96303f7e926935adfbe217ee7f157427cc5877a24894baa59500d6c27c215af",
+          "sha256": "d96303f7e926935adfbe217ee7f157427cc5877a24894baa59500d6c27c215af"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "autoconf",
+    "automake",
+    "coreutils",
+    "libtool",
+    "libyaml",
+    "openssl@3",
+    "readline",
+    "unixodbc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use asdf, add the following line (or equivalent) to your shell profile\ne.g. ~/.profile or ~/.zshrc:\n  . $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh\ne.g. ~/.config/fish/config.fish\n  source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish\nRestart your terminal for the settings to take effect.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asdf.rb",
+  "ruby_source_checksum": {
+    "sha256": "540129ed51ca653f3ee3aca08d4a29ab21862a5e001bf13d5f377d048a5978d6"
+  },
+  "date_added": "2017-06-04T08:04:36-07:00"
+}

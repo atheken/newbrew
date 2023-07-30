@@ -1,0 +1,126 @@
+{
+  "name": "hashcat",
+  "full_name": "hashcat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "World's fastest and most advanced password recovery utility",
+  "license": "MIT",
+  "homepage": "https://hashcat.net/hashcat/",
+  "versions": {
+    "stable": "6.2.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://hashcat.net/files/hashcat-6.2.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b25e1077bcf34908cc8f18c1a69a2ec98b047b2cbcf0f51144dcf3ba1e0b7b2a"
+    },
+    "head": {
+      "url": "https://github.com/hashcat/hashcat.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:c9bda2074060ddc2bb25040b8732aa1924e7073b1713167f5ff519bca4e9e59c",
+          "sha256": "c9bda2074060ddc2bb25040b8732aa1924e7073b1713167f5ff519bca4e9e59c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:a38dc13dc95eaffce8765a0a2f28a011b9955ece2554f0979dd98ebfbca65420",
+          "sha256": "a38dc13dc95eaffce8765a0a2f28a011b9955ece2554f0979dd98ebfbca65420"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:93dd43fc9111b38b3328069b3cf743c105d30a384be9eb346e910a43dbbcaef6",
+          "sha256": "93dd43fc9111b38b3328069b3cf743c105d30a384be9eb346e910a43dbbcaef6"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:ffd4e78e2eee1000b7e96f1c41924fc57ee51f19cc3dc7aeab1d86c8244cca0a",
+          "sha256": "ffd4e78e2eee1000b7e96f1c41924fc57ee51f19cc3dc7aeab1d86c8244cca0a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:72c07b363ef009aaf1ca83b6d0bfd3ff7757baee1dd018e5467043ffe15d9638",
+          "sha256": "72c07b363ef009aaf1ca83b6d0bfd3ff7757baee1dd018e5467043ffe15d9638"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/hashcat/blobs/sha256:3b7abe7959ac081d6cfd3892bf64860f4dbc9657d6711e48cc0fec4445f771cb",
+          "sha256": "3b7abe7959ac081d6cfd3892bf64860f4dbc9657d6711e48cc0fec4445f771cb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnu-sed",
+    "opencl-headers"
+  ],
+  "dependencies": [
+    "minizip",
+    "xxhash",
+    "opencl-icd-loader",
+    "pocl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.13",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hashcat.rb",
+  "ruby_source_checksum": {
+    "sha256": "7f9f61f77c2aa4ee66c670357d474b7652545ce6945c83b5a73b380c8f02c14b"
+  },
+  "date_added": "2016-09-11T10:19:54-04:00"
+}

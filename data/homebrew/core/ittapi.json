@@ -1,0 +1,109 @@
+{
+  "name": "ittapi",
+  "full_name": "ittapi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Intel Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/intel/ittapi",
+  "versions": {
+    "stable": "3.24.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/intel/ittapi/archive/refs/tags/v3.24.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "006c0379ea072965b735922c5e01ab0f2a32e288675c200523a59279a03254fb"
+    },
+    "head": {
+      "url": "https://github.com/intel/ittapi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:e283bdba1a33c24d5a7369b5596801746c543dbd789e8da2d885412d5d40d6e6",
+          "sha256": "e283bdba1a33c24d5a7369b5596801746c543dbd789e8da2d885412d5d40d6e6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:e260645d91cd2224fd37f5c258d7466a4f2e690a6388f9740934527f0b1e749e",
+          "sha256": "e260645d91cd2224fd37f5c258d7466a4f2e690a6388f9740934527f0b1e749e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:20874a9e92cab5123555d93b57cd570089d9d715596d56d129e5d121abd92128",
+          "sha256": "20874a9e92cab5123555d93b57cd570089d9d715596d56d129e5d121abd92128"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:20d1a8592d9911f40606a5390727ae17c7e60c285b4836933c9d01d642a12dad",
+          "sha256": "20d1a8592d9911f40606a5390727ae17c7e60c285b4836933c9d01d642a12dad"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:b3d297d0a59ff7da7a7960fcfc2075342b6b309f1b3b216a97b31317b90c2f31",
+          "sha256": "b3d297d0a59ff7da7a7960fcfc2075342b6b309f1b3b216a97b31317b90c2f31"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:abf107eab80397eb821930e54b1aff7a65f112ca5fd17bf1d59f2981ddc931d3",
+          "sha256": "abf107eab80397eb821930e54b1aff7a65f112ca5fd17bf1d59f2981ddc931d3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ittapi/blobs/sha256:6cac75cf90921f8a2313415e8c2082c293a99cc3c4c8b3a8fa17242bc716c833",
+          "sha256": "6cac75cf90921f8a2313415e8c2082c293a99cc3c4c8b3a8fa17242bc716c833"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ittapi.rb",
+  "ruby_source_checksum": {
+    "sha256": "01db3f4807e20f71e1c9c4ab17b752ca2d65805f4d609d029cdbce2252805be2"
+  },
+  "date_added": "2023-07-17T14:59:45+04:00"
+}

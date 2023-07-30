@@ -1,0 +1,112 @@
+{
+  "name": "search-that-hash",
+  "full_name": "search-that-hash",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Searches Hash APIs to crack your hash quickly",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/HashPals/Search-That-Hash",
+  "versions": {
+    "stable": "0.2.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/5e/b9/a304a92ba77a9e18b3023b66634e71cded5285cef7e3b56d3c1874e9d84e/search-that-hash-0.2.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "384498abbb9a611aa173b20d06b135e013674670fecc01b34d456bfe536e0bca"
+    },
+    "head": {
+      "url": "https://github.com/HashPals/Search-That-Hash.git",
+      "branch": "main"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:8ea5896a06d70c1732cfdc431318671fcec6c65cbbb04cfa02d8f9336ce2232e",
+          "sha256": "8ea5896a06d70c1732cfdc431318671fcec6c65cbbb04cfa02d8f9336ce2232e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:378f0e16454fdcc10cd924ac37a5463c42ad1b3a6c7b8857908df3cbeeca9b88",
+          "sha256": "378f0e16454fdcc10cd924ac37a5463c42ad1b3a6c7b8857908df3cbeeca9b88"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:04a4e3e96186302635e689bab44eb08dbf89367056e264a664cb32662eb0cde4",
+          "sha256": "04a4e3e96186302635e689bab44eb08dbf89367056e264a664cb32662eb0cde4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:615113d1e0495c23864586428ce92c927796b9d799cfbbf587214af345cf0fa2",
+          "sha256": "615113d1e0495c23864586428ce92c927796b9d799cfbbf587214af345cf0fa2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:ea42f4db7b191ef2c9f6e92c58bf934357bc51c8cb9a1d9174eb36908edf7130",
+          "sha256": "ea42f4db7b191ef2c9f6e92c58bf934357bc51c8cb9a1d9174eb36908edf7130"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:c903a7ce8cb387ae7333c71bfaf8e6a5632b073601c2beb0c4b21c8e2eeb01b3",
+          "sha256": "c903a7ce8cb387ae7333c71bfaf8e6a5632b073601c2beb0c4b21c8e2eeb01b3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/search-that-hash/blobs/sha256:03db95ba19b1ef9feb71d74cccc998da3b93789ff192b879ff62fa4243b6a410",
+          "sha256": "03db95ba19b1ef9feb71d74cccc998da3b93789ff192b879ff62fa4243b6a410"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "name-that-hash",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/search-that-hash.rb",
+  "ruby_source_checksum": {
+    "sha256": "fb814f62ecccad54c7aefc350cfdc06e0c8289ae0fd0d4ae779a09986a28ba95"
+  },
+  "date_added": "2021-05-11T13:28:56+00:00"
+}

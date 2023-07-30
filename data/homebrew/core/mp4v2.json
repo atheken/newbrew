@@ -1,0 +1,107 @@
+{
+  "name": "mp4v2",
+  "full_name": "mp4v2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Read, create, and modify MP4 files",
+  "license": "MPL-1.1",
+  "homepage": "https://mp4v2.org",
+  "versions": {
+    "stable": "2.1.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/enzo1982/mp4v2/releases/download/v2.1.3/mp4v2-2.1.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "033185c17bf3c5fdd94020c95f8325be2e5356558e3913c3d6547a85dd61f7f1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:1eeebb5c4beeda316aec2ab260c37b2eb7375330af16ff7f80a5e63f61ca7042",
+          "sha256": "1eeebb5c4beeda316aec2ab260c37b2eb7375330af16ff7f80a5e63f61ca7042"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:ab285946431ba3b30e0541a5391ff4ae0af7fa6ec6d84bd3213ac34400bf4682",
+          "sha256": "ab285946431ba3b30e0541a5391ff4ae0af7fa6ec6d84bd3213ac34400bf4682"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:48b40608f388870c825a0655c317293927d37899fc412c73c998cb3db60b1670",
+          "sha256": "48b40608f388870c825a0655c317293927d37899fc412c73c998cb3db60b1670"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:5f584150ea02e3b5d3049a117b60dbe88d412c380442fef8246267bf6f66ed36",
+          "sha256": "5f584150ea02e3b5d3049a117b60dbe88d412c380442fef8246267bf6f66ed36"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:62619da0d20b36b5854c08f531687dfe55d9fbd87dabaaf985ced7fe1b24b3aa",
+          "sha256": "62619da0d20b36b5854c08f531687dfe55d9fbd87dabaaf985ced7fe1b24b3aa"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:c7c93618a03cfb59e95a6d39e9e6e9d1f355b72ea199b9c6e3d881f606323c88",
+          "sha256": "c7c93618a03cfb59e95a6d39e9e6e9d1f355b72ea199b9c6e3d881f606323c88"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mp4v2/blobs/sha256:529cebb9ec595d2834e29ff7be7a29150453be53b55a1269284992cd8c35de06",
+          "sha256": "529cebb9ec595d2834e29ff7be7a29150453be53b55a1269284992cd8c35de06"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "bento4"
+  ],
+  "conflicts_with_reasons": [
+    "both install `mp4extract` and `mp4info` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mp4v2.rb",
+  "ruby_source_checksum": {
+    "sha256": "5efa5bfbe27ac64291ead12b0dc25eed94e73aef1c0d0c110bef678e727e9cf1"
+  },
+  "date_added": "2010-08-12T07:53:30-07:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "astrometry-net",
+  "full_name": "astrometry-net",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automatic identification of astronomical images",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/dstndstn/astrometry.net",
+  "versions": {
+    "stable": "0.94",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dstndstn/astrometry.net/releases/download/0.94/astrometry.net-0.94.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "38c0d04171ecae42033ce5c9cd0757d8c5fc1418f2004d85e858f29aee383c5f"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:6a574a5c845ac38bec69c43c1797c70f54dd7f25bf148514c39dbaef29bea5f5",
+          "sha256": "6a574a5c845ac38bec69c43c1797c70f54dd7f25bf148514c39dbaef29bea5f5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:5050cdcb8005677bd98eafcda71396d4d3c55570e4e51be713e93766143d4a35",
+          "sha256": "5050cdcb8005677bd98eafcda71396d4d3c55570e4e51be713e93766143d4a35"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:37cf4b463f85a3227e5c62f01ed9b2dcda9d3d1102ccd918788b1d14efc4e04a",
+          "sha256": "37cf4b463f85a3227e5c62f01ed9b2dcda9d3d1102ccd918788b1d14efc4e04a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:be5b9d25645f905f63ce3f48ccb6e2ba385a307b99b726b07ac9ada3af2258ef",
+          "sha256": "be5b9d25645f905f63ce3f48ccb6e2ba385a307b99b726b07ac9ada3af2258ef"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:f00daa91016797ed2b7fb514552710203ba96052de0622d0d471c9bbbb1fa8fb",
+          "sha256": "f00daa91016797ed2b7fb514552710203ba96052de0622d0d471c9bbbb1fa8fb"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:3fb6f1b21bfb89385ccb5119ff181c83e06ebd5cdf379de9112c0e0159d45a86",
+          "sha256": "3fb6f1b21bfb89385ccb5119ff181c83e06ebd5cdf379de9112c0e0159d45a86"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/astrometry-net/blobs/sha256:60b1fdd3386bafa3552310c8ed87288d667b89b0afaf3db77a76ffdac75cbcf7",
+          "sha256": "60b1fdd3386bafa3552310c8ed87288d667b89b0afaf3db77a76ffdac75cbcf7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "swig"
+  ],
+  "dependencies": [
+    "cairo",
+    "cfitsio",
+    "gsl",
+    "jpeg-turbo",
+    "libpng",
+    "netpbm",
+    "numpy",
+    "python@3.11",
+    "wcslib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/astrometry-net.rb",
+  "ruby_source_checksum": {
+    "sha256": "b2734c3d383c8f1f21305a47ea1f05e481d947be0373743915b61ff40b95efa5"
+  },
+  "date_added": "2018-11-27T15:35:32+01:00"
+}

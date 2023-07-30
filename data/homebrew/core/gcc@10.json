@@ -1,0 +1,107 @@
+{
+  "name": "gcc@10",
+  "full_name": "gcc@10",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "gcc@12",
+    "gcc@11",
+    "gcc@9",
+    "gcc@8",
+    "gcc@7",
+    "gcc@6",
+    "gcc@5",
+    "gcc@4.9"
+  ],
+  "desc": "GNU compiler collection",
+  "license": "GPL-3.0-or-later with GCC-exception-3.1",
+  "homepage": "https://gcc.gnu.org/",
+  "versions": {
+    "stable": "10.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-10.5.0/gcc-10.5.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "25109543fdf46f397c347b5d8b7a2c7e5694a5a51cce4b9c6e1ea8a71ca307c1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/10/blobs/sha256:1155f38da440c96a9df1442152c3149755dfd369815cf8b967e9bbf2a4874489",
+          "sha256": "1155f38da440c96a9df1442152c3149755dfd369815cf8b967e9bbf2a4874489"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/10/blobs/sha256:be699cd4f9c26c0023a28eb56e534058cac1ab1b2d06e57b531905cfde49b48e",
+          "sha256": "be699cd4f9c26c0023a28eb56e534058cac1ab1b2d06e57b531905cfde49b48e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/10/blobs/sha256:5f40c454e3e3b96578411e28d6ba27679c6d3c182a978c60c3ea8f57f8235033",
+          "sha256": "5f40c454e3e3b96578411e28d6ba27679c6d3c182a978c60c3ea8f57f8235033"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/10/blobs/sha256:517a097236a0de677b0718462a752068ce32f5b6b86e044bdfc2fd7c2097207e",
+          "sha256": "517a097236a0de677b0718462a752068ce32f5b6b86e044bdfc2fd7c2097207e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp",
+    "isl",
+    "libmpc",
+    "mpfr",
+    "binutils"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gcc@10.rb",
+  "ruby_source_checksum": {
+    "sha256": "5f1cd6352b85a3a769bba1230d612b5600d7529bdd26515e92fc10393db8f7e3"
+  },
+  "date_added": "2021-05-09T13:59:41+00:00"
+}

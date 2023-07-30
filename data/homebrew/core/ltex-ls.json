@@ -1,0 +1,112 @@
+{
+  "name": "ltex-ls",
+  "full_name": "ltex-ls",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "LSP for LanguageTool with support for Latex, Markdown and Others",
+  "license": "MPL-2.0",
+  "homepage": "https://valentjn.github.io/ltex/",
+  "versions": {
+    "stable": "16.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/valentjn/ltex-ls/archive/refs/tags/16.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0cd67495ee4695493fc2a0b37d14146325aa6b9f45d767d16c60abdefdd2dc1d"
+    },
+    "head": {
+      "url": "https://github.com/valentjn/ltex-ls.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:4b244f07079c6aaab1a65f648d6ee13266fb1164f7f82f6003a9284e9976d2cb",
+          "sha256": "4b244f07079c6aaab1a65f648d6ee13266fb1164f7f82f6003a9284e9976d2cb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:11567aa4c9ea7b6d0516329dc5d527cd1f212b1869a0473456c8a2ec0a902907",
+          "sha256": "11567aa4c9ea7b6d0516329dc5d527cd1f212b1869a0473456c8a2ec0a902907"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:cb3a024aedddbde888b77821f76b8c48e4a2648358f669a16881dde500315094",
+          "sha256": "cb3a024aedddbde888b77821f76b8c48e4a2648358f669a16881dde500315094"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:baa9c3e2989c2664dc853b71bf1b3ccad9b78add83dc44f7bbb6ea9983278c67",
+          "sha256": "baa9c3e2989c2664dc853b71bf1b3ccad9b78add83dc44f7bbb6ea9983278c67"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:5e837641af16e424a784e9392f1df5fff22984fd561666e060c6bb4131c9cd0a",
+          "sha256": "5e837641af16e424a784e9392f1df5fff22984fd561666e060c6bb4131c9cd0a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:d69b0d4ba11e0c48d1d7719b126f6240ec15765077cd84be560010bc88b355e6",
+          "sha256": "d69b0d4ba11e0c48d1d7719b126f6240ec15765077cd84be560010bc88b355e6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ltex-ls/blobs/sha256:4adccf31620d7eab220663889b631f5b33e52ab7c1e96d1b91dafd732b450baa",
+          "sha256": "4adccf31620d7eab220663889b631f5b33e52ab7c1e96d1b91dafd732b450baa"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "maven",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ltex-ls.rb",
+  "ruby_source_checksum": {
+    "sha256": "cce6afe82d00e08bfd2f2a96bbad6ff142690158cb36085c386aa22dad0b7b25"
+  },
+  "date_added": "2022-03-18T13:03:31+00:00"
+}

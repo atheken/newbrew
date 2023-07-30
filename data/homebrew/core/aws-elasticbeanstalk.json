@@ -1,0 +1,119 @@
+{
+  "name": "aws-elasticbeanstalk",
+  "full_name": "aws-elasticbeanstalk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "awsebcli"
+  ],
+  "versioned_formulae": [],
+  "desc": "Client for Amazon Elastic Beanstalk web service",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html",
+  "versions": {
+    "stable": "3.20.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d2/1a/564eab628edbe1815d2bfde14a1cfb9a3e0e14a7a217731792ec60e1e80f/awsebcli-3.20.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8672d6a9ce14cd49efcf8c26299f0970459430f9a1d817504b5200cb10bec9be"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:f02743fdae224c62bd0fbac829d883533b72ab6b704bdaf9da856cfb9646dfd4",
+          "sha256": "f02743fdae224c62bd0fbac829d883533b72ab6b704bdaf9da856cfb9646dfd4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:e0dc66ae824179060cb91e5c9ce7510650814c9f4d0c1b8c38fa6e257a621335",
+          "sha256": "e0dc66ae824179060cb91e5c9ce7510650814c9f4d0c1b8c38fa6e257a621335"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:f69efeae043592519f71ab4e9f90f6772a2f976312c169f222eea17382bc1f22",
+          "sha256": "f69efeae043592519f71ab4e9f90f6772a2f976312c169f222eea17382bc1f22"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:9d23430365633218e9b6adddde9a4a1aad7c9d75a02619d22958a1cac27e53e3",
+          "sha256": "9d23430365633218e9b6adddde9a4a1aad7c9d75a02619d22958a1cac27e53e3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:d85ef5335c836a77685b55176b5ed4fb3639d2e19a96b4002576a5506c1ed395",
+          "sha256": "d85ef5335c836a77685b55176b5ed4fb3639d2e19a96b4002576a5506c1ed395"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:cf8405cbea0e06c270b13cd100b1f0bd09e43c1668278bdb1e1e046c5e317d89",
+          "sha256": "cf8405cbea0e06c270b13cd100b1f0bd09e43c1668278bdb1e1e046c5e317d89"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-elasticbeanstalk/blobs/sha256:ae9c3f13a5e64c51e90251ba76c576591cffdc29794834618e015e318eecbdb5",
+          "sha256": "ae9c3f13a5e64c51e90251ba76c576591cffdc29794834618e015e318eecbdb5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aws-elasticbeanstalk.rb",
+  "ruby_source_checksum": {
+    "sha256": "21ba1e08180ecb15573229783ea6b6b267ed8f726683be8bddc530ece5c87a66"
+  },
+  "date_added": "2013-01-09T20:18:12-08:00"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "watchman",
+  "full_name": "watchman",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Watch files and take action when they change",
+  "license": "MIT",
+  "homepage": "https://github.com/facebook/watchman",
+  "versions": {
+    "stable": "2023.08.07.00",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/facebook/watchman/archive/refs/tags/v2023.08.07.00.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8158efc9a6ecf56dbfd2c52cfd6689ca073655b909bf61100c0f88bf5c0b0720"
+    },
+    "head": {
+      "url": "https://github.com/facebook/watchman.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:b6fa4f872632a9da4ca29a5c0be58da189b85f5de4e34be6baf36c442b0ffcc9",
+          "sha256": "b6fa4f872632a9da4ca29a5c0be58da189b85f5de4e34be6baf36c442b0ffcc9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:76d7da58f86cf619f383ed4bf9944e313f6a9c87f196b5a3ea5055a7033b3d4c",
+          "sha256": "76d7da58f86cf619f383ed4bf9944e313f6a9c87f196b5a3ea5055a7033b3d4c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:8b81254ef59de4fc1103e8371ae5072f1fc66d41f121136813859b5a73b87e6f",
+          "sha256": "8b81254ef59de4fc1103e8371ae5072f1fc66d41f121136813859b5a73b87e6f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:c91e2d023df15a34b94cdde3e95b4abeeb11230b0c4ea6407c96b4a290a987b7",
+          "sha256": "c91e2d023df15a34b94cdde3e95b4abeeb11230b0c4ea6407c96b4a290a987b7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:619bc2f324bfd4884a891a9ecdf51ff2b8b87ab25e976d2a2f2a05e139db998e",
+          "sha256": "619bc2f324bfd4884a891a9ecdf51ff2b8b87ab25e976d2a2f2a05e139db998e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:51c6a36b4692d7012803b71db0d224386a2f213165764be64891401e1122924d",
+          "sha256": "51c6a36b4692d7012803b71db0d224386a2f213165764be64891401e1122924d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watchman/blobs/sha256:6ae6f550244f8118819269319915503ecdd25410412c2d034d84bc70cf140685",
+          "sha256": "6ae6f550244f8118819269319915503ecdd25410412c2d034d84bc70cf140685"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "cpptoml",
+    "googletest",
+    "mvfst",
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "boost",
+    "edencommon",
+    "fb303",
+    "fmt",
+    "folly",
+    "gflags",
+    "glog",
+    "libevent",
+    "openssl@3",
+    "pcre2",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/watchman.rb",
+  "ruby_source_checksum": {
+    "sha256": "3441da8b6fd859851fcf4589c57c453a272b06d46891cbb76700070783c4493c"
+  },
+  "date_added": "2013-08-07T09:41:25-07:00"
+}

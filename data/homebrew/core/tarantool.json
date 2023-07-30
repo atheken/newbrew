@@ -1,0 +1,122 @@
+{
+  "name": "tarantool",
+  "full_name": "tarantool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "In-memory database and Lua application server",
+  "license": "BSD-2-Clause",
+  "homepage": "https://tarantool.org/",
+  "versions": {
+    "stable": "2.11.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.tarantool.org/tarantool/src/tarantool-2.11.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4506e7208cd20f3c1858d14b9b40fe388083592faac5c79ec30aa751e095f1f2"
+    },
+    "head": {
+      "url": "https://github.com/tarantool/tarantool.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:9573662f5901674abfee4a9e6a55c814f87f81977d48d99834e8b904e177f94e",
+          "sha256": "9573662f5901674abfee4a9e6a55c814f87f81977d48d99834e8b904e177f94e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:39b89da13f08b294352a0bd0a54a8de1d6991ab7c53931b372d6ebc0eeb9847e",
+          "sha256": "39b89da13f08b294352a0bd0a54a8de1d6991ab7c53931b372d6ebc0eeb9847e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:e6609006b16d4846f5d050a892c4cfad6f774c6991ce11c90823ccc4f553ed83",
+          "sha256": "e6609006b16d4846f5d050a892c4cfad6f774c6991ce11c90823ccc4f553ed83"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:5891fb6baa4c38b332e754a675246b31cbf5462b33b748e5e597834cbf821fe1",
+          "sha256": "5891fb6baa4c38b332e754a675246b31cbf5462b33b748e5e597834cbf821fe1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:cf076349a68ac9f4281d6c3a1aae4778304e88750081fab85c61000912185f90",
+          "sha256": "cf076349a68ac9f4281d6c3a1aae4778304e88750081fab85c61000912185f90"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:f942215edd1bd3290894d2d193adbdc7ac76c391440c1c78b2ae6f130012ef2e",
+          "sha256": "f942215edd1bd3290894d2d193adbdc7ac76c391440c1c78b2ae6f130012ef2e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tarantool/blobs/sha256:137380a34ba96428d88498ba7b66adcffd92de550ef3854c2154e6b2c618b50f",
+          "sha256": "137380a34ba96428d88498ba7b66adcffd92de550ef3854c2154e6b2c618b50f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "icu4c",
+    "libyaml",
+    "openssl@3",
+    "readline",
+    "zstd",
+    "libunwind"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tarantool.rb",
+  "ruby_source_checksum": {
+    "sha256": "30d19b6b119c5f037534ffe026f38f8697f11d52167952544e2890e0504f779e"
+  },
+  "date_added": "2016-01-25T09:19:45+00:00"
+}

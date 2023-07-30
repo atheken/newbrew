@@ -1,0 +1,119 @@
+{
+  "name": "augeas",
+  "full_name": "augeas",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Configuration editing tool and API",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://augeas.net/",
+  "versions": {
+    "stable": "1.14.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hercules-team/augeas/releases/download/release-1.14.1/augeas-1.14.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "368bfdd782e4b9c7163baadd621359c82b162734864b667051ff6bcb57b9edff"
+    },
+    "head": {
+      "url": "https://github.com/hercules-team/augeas.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:645ef0a289b82eba6c529784382de45763432457902402b9c33c5818387edb3a",
+          "sha256": "645ef0a289b82eba6c529784382de45763432457902402b9c33c5818387edb3a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:a1cd27ecd44f8e69c9e54433cbcfdee18d20f3a35f3b94e048f8b520bca045a8",
+          "sha256": "a1cd27ecd44f8e69c9e54433cbcfdee18d20f3a35f3b94e048f8b520bca045a8"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:677f8c16ca36a6360acba59123d166dfa336f5e8c419263c0732ea50e018e675",
+          "sha256": "677f8c16ca36a6360acba59123d166dfa336f5e8c419263c0732ea50e018e675"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:8642b0d19d8a11a1d7f46deaa63cb96b9108f1511e82072781bddbccb82aa607",
+          "sha256": "8642b0d19d8a11a1d7f46deaa63cb96b9108f1511e82072781bddbccb82aa607"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:aeb35b8dd081642befbb5f67a373d06e459b70aab03f4954e76ab0d217a230d4",
+          "sha256": "aeb35b8dd081642befbb5f67a373d06e459b70aab03f4954e76ab0d217a230d4"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:42c50013aa4e9134aa5306762ea0e022057166b311ddd6dab0e74374a0ff42e0",
+          "sha256": "42c50013aa4e9134aa5306762ea0e022057166b311ddd6dab0e74374a0ff42e0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/augeas/blobs/sha256:bbb9c2c8b61a5000b52927daccca19cc9eb3a3d22d0a1d911d67da52a0a0968f",
+          "sha256": "bbb9c2c8b61a5000b52927daccca19cc9eb3a3d22d0a1d911d67da52a0a0968f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "bison",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Lenses have been installed to:\n  $HOMEBREW_PREFIX/share/augeas/lenses/dist\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/augeas.rb",
+  "ruby_source_checksum": {
+    "sha256": "9d4bb72ea75096c8b6cc39ec3c029d33d5fce06fd31ba2e0fb5fab397ea97db1"
+  },
+  "date_added": "2011-08-25T00:53:37+01:00"
+}

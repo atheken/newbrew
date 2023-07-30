@@ -1,0 +1,120 @@
+{
+  "name": "rpm",
+  "full_name": "rpm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Standard unix software packaging tool",
+  "license": "GPL-2.0-only",
+  "homepage": "https://rpm.org/",
+  "versions": {
+    "stable": "4.18.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.osuosl.org/pub/rpm/releases/rpm-4.18.x/rpm-4.18.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "37f3b42c0966941e2ad3f10fde3639824a6591d07197ba8fd0869ca0779e1f56"
+    },
+    "head": {
+      "url": "https://github.com/rpm-software-management/rpm.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rpm/blobs/sha256:2d97d36743ae989839e7ef4c4d3f396c2f7cd5ab7ff87b429510a4bb9b047cf7",
+          "sha256": "2d97d36743ae989839e7ef4c4d3f396c2f7cd5ab7ff87b429510a4bb9b047cf7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rpm/blobs/sha256:d5085f39aee9be16443d96ba081f46cfb80818dc6f0c3bb5367f6d79b62c51fd",
+          "sha256": "d5085f39aee9be16443d96ba081f46cfb80818dc6f0c3bb5367f6d79b62c51fd"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rpm/blobs/sha256:f7021265bd0654607b2e50709a8e29f0be08e3da8ca407566b04109fa0d176e8",
+          "sha256": "f7021265bd0654607b2e50709a8e29f0be08e3da8ca407566b04109fa0d176e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gettext",
+    "libarchive",
+    "libmagic",
+    "lua",
+    "openssl@3",
+    "pkg-config",
+    "popt",
+    "sqlite",
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "13",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [
+    "rpm2cpio"
+  ],
+  "conflicts_with_reasons": [
+    "both install `rpm2cpio` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rpm.rb",
+  "ruby_source_checksum": {
+    "sha256": "661a6b2cd85531da3057107d8ee0f7ebbef2fadec6799704dd35f899347a530c"
+  },
+  "date_added": "2013-05-10T14:33:52+01:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "lldpd",
+  "full_name": "lldpd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of IEEE 802.1ab (LLDP)",
+  "license": "ISC",
+  "homepage": "https://lldpd.github.io/",
+  "versions": {
+    "stable": "1.0.17",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://media.luffy.cx/files/lldpd/lldpd-1.0.17.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9343177f145d2bca66ef03d59528079d3f1663c624b1e2b9d08268efdc6127ce"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:05359b24178b10a6d51b89d879da01150b073029943870917e4906ace804240a",
+          "sha256": "05359b24178b10a6d51b89d879da01150b073029943870917e4906ace804240a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:429752982f0ba472b97f95cf89e0c0a42109a0734a8643c22c87ff044a93b851",
+          "sha256": "429752982f0ba472b97f95cf89e0c0a42109a0734a8643c22c87ff044a93b851"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:a95b1e0fb11f67ef23e3a6e312e179813a00db6ac4c2a3133e43c543101cf644",
+          "sha256": "a95b1e0fb11f67ef23e3a6e312e179813a00db6ac4c2a3133e43c543101cf644"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:91e756817f4ae5a6c1a4cf15f4244aad4a610e9ccbd778093fc4e14ed8351c7f",
+          "sha256": "91e756817f4ae5a6c1a4cf15f4244aad4a610e9ccbd778093fc4e14ed8351c7f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:182c26074eea41ab2b01627a8379f74b4232866f486643286c180e50371ee599",
+          "sha256": "182c26074eea41ab2b01627a8379f74b4232866f486643286c180e50371ee599"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:d308af855f3bfa9c0b2ef7099406d21bf37c019200d372893904557977a2baab",
+          "sha256": "d308af855f3bfa9c0b2ef7099406d21bf37c019200d372893904557977a2baab"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/lldpd/blobs/sha256:3d31ed3f8699f0c3116047c90c26ff80a79bba6f6cb0555a2fb1d222f1bf7410",
+          "sha256": "3d31ed3f8699f0c3116047c90c26ff80a79bba6f6cb0555a2fb1d222f1bf7410"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libevent",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/lldpd/sbin/lldpd",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "require_root": true
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lldpd.rb",
+  "ruby_source_checksum": {
+    "sha256": "e7b26d2b65a7b97e776e8105a7b3a28115e547ed064d694b9a05178bf0795312"
+  },
+  "date_added": "2013-04-20T09:38:08-07:00"
+}

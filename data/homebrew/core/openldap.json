@@ -1,0 +1,109 @@
+{
+  "name": "openldap",
+  "full_name": "openldap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source suite of directory software",
+  "license": "OLDAP-2.8",
+  "homepage": "https://www.openldap.org/software/",
+  "versions": {
+    "stable": "2.6.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.5.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2e27a8d4f4c2af8fe840b573271c20aa163e24987f9765214644290f5beb38d9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:2e42d33c7c181f771c0107c47072dc798ccc9ebc05d1959d39c84da734034d1a",
+          "sha256": "2e42d33c7c181f771c0107c47072dc798ccc9ebc05d1959d39c84da734034d1a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:7e76d58caeacc55e79d58a9daded5f6262832011fbb96b0c37e0c8cf9f4a2b28",
+          "sha256": "7e76d58caeacc55e79d58a9daded5f6262832011fbb96b0c37e0c8cf9f4a2b28"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:8367df08c12c6599732eadf90005caa0811b3f302267600ff991fc58075080f5",
+          "sha256": "8367df08c12c6599732eadf90005caa0811b3f302267600ff991fc58075080f5"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:2ee42119fb5232f867ac2472f7054afda31b1bbc5d72909a43fd3e3935908839",
+          "sha256": "2ee42119fb5232f867ac2472f7054afda31b1bbc5d72909a43fd3e3935908839"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:05be2243b1dc4d19ecd8fd342b2585d200d13419fd3ecdf9d311ab8098c96d7a",
+          "sha256": "05be2243b1dc4d19ecd8fd342b2585d200d13419fd3ecdf9d311ab8098c96d7a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:bf6ab39a45e0d9392f927c8fd935f94968edbf7be1385afb1ab44d4cac3bc5d9",
+          "sha256": "bf6ab39a45e0d9392f927c8fd935f94968edbf7be1385afb1ab44d4cac3bc5d9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:acc12b445557a8b4c5872e7fae4653e36ccc74b618c9bd82eb40f28c7618e0b6",
+          "sha256": "acc12b445557a8b4c5872e7fae4653e36ccc74b618c9bd82eb40f28c7618e0b6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openldap.rb",
+  "ruby_source_checksum": {
+    "sha256": "24bcfe5e7063baf613e62f0b8173dca3f32bea4af77cd660d007ff04a4c08e93"
+  },
+  "date_added": "2010-03-25T14:54:26-07:00"
+}

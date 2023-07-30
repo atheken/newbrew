@@ -1,0 +1,132 @@
+{
+  "name": "bdw-gc",
+  "full_name": "bdw-gc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "boehmgc",
+    "libgc"
+  ],
+  "versioned_formulae": [],
+  "desc": "Garbage collector for C and C++",
+  "license": "MIT",
+  "homepage": "https://www.hboehm.info/gc/",
+  "versions": {
+    "stable": "8.2.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ivmai/bdwgc/releases/download/v8.2.4/gc-8.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3d0d3cdbe077403d3106bb40f0cbb563413d6efdbb2a7e1cd6886595dec48fc2"
+    },
+    "head": {
+      "url": "https://github.com/ivmai/bdwgc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:d72bbcd333cb094f8420140377f52d180215cb9da36e6ee2e7844131dd3893e6",
+          "sha256": "d72bbcd333cb094f8420140377f52d180215cb9da36e6ee2e7844131dd3893e6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:341fca69e636872e81ba36d11455fd0d0a0ab212118bf0c08650965ee4507df7",
+          "sha256": "341fca69e636872e81ba36d11455fd0d0a0ab212118bf0c08650965ee4507df7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:3d80fe2490ea0f7a74c456c3d48096deb084a354f9be2efe600628307345cf9f",
+          "sha256": "3d80fe2490ea0f7a74c456c3d48096deb084a354f9be2efe600628307345cf9f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:7eb544c73ee1bff67ec56f1a3f980b6baf92a19f1189b0d06b3ea90d69dd7554",
+          "sha256": "7eb544c73ee1bff67ec56f1a3f980b6baf92a19f1189b0d06b3ea90d69dd7554"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:c7767f6818d404d1dd7d15c14b6b7cd14fe51016c601c337b3a73b4ab12655c2",
+          "sha256": "c7767f6818d404d1dd7d15c14b6b7cd14fe51016c601c337b3a73b4ab12655c2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:82a7fec30efbcc9927471602771d96fa824d413764add2d8c9fb9e1487195ce0",
+          "sha256": "82a7fec30efbcc9927471602771d96fa824d413764add2d8c9fb9e1487195ce0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bdw-gc/blobs/sha256:f652d04db5c62c5bb5c6a974886b883ecddbd780ef960070ae1fcdfbab887acf",
+          "sha256": "f652d04db5c62c5bb5c6a974886b883ecddbd780ef960070ae1fcdfbab887acf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "libatomic_ops",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "gcc"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bdw-gc.rb",
+  "ruby_source_checksum": {
+    "sha256": "68428bb556cc91fdfb1ceaf91afda46c12363e579aab558f53486e92f217ccf1"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "libatomic_ops",
+      "pkg-config"
+    ],
+    "dependencies": [],
+    "test_dependencies": [
+      "gcc"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2009-09-29T23:33:22+01:00"
+}

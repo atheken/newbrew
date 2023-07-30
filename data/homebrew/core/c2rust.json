@@ -1,0 +1,110 @@
+{
+  "name": "c2rust",
+  "full_name": "c2rust",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Migrate C code to Rust",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/immunant/c2rust",
+  "versions": {
+    "stable": "0.18.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/immunant/c2rust/archive/refs/tags/v0.18.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cf72bd59cac5ff31553c5d1626f130167d4f72eaabcffc27630dee2a95f4707e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:98a206d507f2da3996fd319e341de81c76254d98b3a5d607db5403b1cf6ac711",
+          "sha256": "98a206d507f2da3996fd319e341de81c76254d98b3a5d607db5403b1cf6ac711"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:85ad71fbc83acf2e5c6828e71d1d8490767c825652eeffe14c8bde8daa46f57d",
+          "sha256": "85ad71fbc83acf2e5c6828e71d1d8490767c825652eeffe14c8bde8daa46f57d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:7f2009a3a0edd49c972c3466b5914439e4b13510a041c4b250729d574fa26bed",
+          "sha256": "7f2009a3a0edd49c972c3466b5914439e4b13510a041c4b250729d574fa26bed"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:615d64b0907a80653c3a86072fa94fe70bc9fa9918d1c7a42bc09e8902e8b724",
+          "sha256": "615d64b0907a80653c3a86072fa94fe70bc9fa9918d1c7a42bc09e8902e8b724"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:eec3bde1181c4dac28702aea6fdf9b8c520394a60e1db26c19af660868eb624f",
+          "sha256": "eec3bde1181c4dac28702aea6fdf9b8c520394a60e1db26c19af660868eb624f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:de6199fff18618ea3e68a913387508b167cd62defe60b939184cee2cdb9819a7",
+          "sha256": "de6199fff18618ea3e68a913387508b167cd62defe60b939184cee2cdb9819a7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/c2rust/blobs/sha256:5740665ba6822fd9287c3ce2516b5ab95a714962ea7a738b597bde7d7297a667",
+          "sha256": "5740665ba6822fd9287c3ce2516b5ab95a714962ea7a738b597bde7d7297a667"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "dependencies": [
+    "llvm"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/c2rust.rb",
+  "ruby_source_checksum": {
+    "sha256": "e27440547f910996299b7b99767f6653c54e8c5f797516ea01019b4f3872ef85"
+  },
+  "date_added": "2022-07-25T11:04:26+00:00"
+}

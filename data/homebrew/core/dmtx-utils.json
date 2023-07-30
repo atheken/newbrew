@@ -1,0 +1,111 @@
+{
+  "name": "dmtx-utils",
+  "full_name": "dmtx-utils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Read and write data matrix barcodes",
+  "license": "LGPL-2.1",
+  "homepage": "https://github.com/dmtx/dmtx-utils",
+  "versions": {
+    "stable": "0.7.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dmtx/dmtx-utils/archive/v0.7.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0d396ec14f32a8cf9e08369a4122a16aa2e5fa1675e02218f16f1ab777ea2a28"
+    }
+  },
+  "revision": 6,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:c147ab73dac9c03562cf06d561a923ba70e30ecb4607d755622d0156805a7892",
+          "sha256": "c147ab73dac9c03562cf06d561a923ba70e30ecb4607d755622d0156805a7892"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:81be259b08bd67f4dab389bb326b4adbdd01cd201d5b98c77f4cc72e0f5c669a",
+          "sha256": "81be259b08bd67f4dab389bb326b4adbdd01cd201d5b98c77f4cc72e0f5c669a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:f7e90d8cd99bbedb06dffa5338d64e65307fcb4c98095d897a91466a8da86322",
+          "sha256": "f7e90d8cd99bbedb06dffa5338d64e65307fcb4c98095d897a91466a8da86322"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:161997f60768bb9798550757f0a01e2e27434934d9ec8a2b47153a52abe10cd7",
+          "sha256": "161997f60768bb9798550757f0a01e2e27434934d9ec8a2b47153a52abe10cd7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:7a754c6517fc4a35d07c17a34b3bf98d62d85fa6015f11ecd38d92db4e1c0372",
+          "sha256": "7a754c6517fc4a35d07c17a34b3bf98d62d85fa6015f11ecd38d92db4e1c0372"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:fa4722a33d220d1f8cd8740c4b6d938e92f8d9b76ab555762cc8c84c72084573",
+          "sha256": "fa4722a33d220d1f8cd8740c4b6d938e92f8d9b76ab555762cc8c84c72084573"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dmtx-utils/blobs/sha256:cc7f066604465fcaf850671368291a758eec7fa261d6bbdbde892b798fd0daa1",
+          "sha256": "cc7f066604465fcaf850671368291a758eec7fa261d6bbdbde892b798fd0daa1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "imagemagick",
+    "libdmtx",
+    "libtool"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dmtx-utils.rb",
+  "ruby_source_checksum": {
+    "sha256": "ef81c4ad767f132ac2d3729d687ed8337bc5ce7d50bc77f0e804244abbe75c1d"
+  },
+  "date_added": "2012-12-16T23:02:33-08:00"
+}

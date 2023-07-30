@@ -1,0 +1,105 @@
+{
+  "name": "liboauth",
+  "full_name": "liboauth",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for the OAuth Core RFC 5849 standard",
+  "license": "MIT",
+  "homepage": "https://liboauth.sourceforge.io",
+  "versions": {
+    "stable": "1.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/liboauth/liboauth-1.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0df60157b052f0e774ade8a8bac59d6e8d4b464058cc55f9208d72e41156811f"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:a39ee9626caffc0652551afceb3de434b14f497d0e6f86888edfb987f0e46bfb",
+          "sha256": "a39ee9626caffc0652551afceb3de434b14f497d0e6f86888edfb987f0e46bfb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:14eb9710933a0f1e3974449b3451288160147295e1a941ed41720af29b62c9e2",
+          "sha256": "14eb9710933a0f1e3974449b3451288160147295e1a941ed41720af29b62c9e2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:76fdd8122c46982e11d80e4416c20f95a856c6ccdab50d94be6fffed926a52e6",
+          "sha256": "76fdd8122c46982e11d80e4416c20f95a856c6ccdab50d94be6fffed926a52e6"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:c428f77d8ce2e3ee3517782cfffcc442d6f136a98feaf969b9f0bc589a752ec0",
+          "sha256": "c428f77d8ce2e3ee3517782cfffcc442d6f136a98feaf969b9f0bc589a752ec0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:1ca737e530881673e82ccc350dfc769d1e30d6db94f5b77d2d2261216003f539",
+          "sha256": "1ca737e530881673e82ccc350dfc769d1e30d6db94f5b77d2d2261216003f539"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:2a00f8fb82450e4acfec03f1e91dc74196ecf0150047b64a4357d6ac716d279c",
+          "sha256": "2a00f8fb82450e4acfec03f1e91dc74196ecf0150047b64a4357d6ac716d279c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/liboauth/blobs/sha256:0177a7a4378d03aa25b46b4bc37bc12b777438fa177ef15b0dd16406cfad40ef",
+          "sha256": "0177a7a4378d03aa25b46b4bc37bc12b777438fa177ef15b0dd16406cfad40ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/liboauth.rb",
+  "ruby_source_checksum": {
+    "sha256": "34f1b3d7b9b9117808048f42bd1007eb870053387584fa3defe9edb10600f587"
+  },
+  "date_added": "2013-01-17T14:29:44-08:00"
+}

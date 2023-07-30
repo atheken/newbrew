@@ -1,0 +1,106 @@
+{
+  "name": "tintin",
+  "full_name": "tintin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "MUD client",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://tintin.mudhalla.net/",
+  "versions": {
+    "stable": "2.02.31",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/scandum/tintin/releases/download/2.02.31/tintin-2.02.31.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f6359867f0c91ef2f1ddabd5e2d98b02b75bb0129470a824c9a0b143ff14e7c7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:5abf2cbdb5cd3e2ae9c01a5b29321d936e86f9d793551fb25f90a2f791ab4e3f",
+          "sha256": "5abf2cbdb5cd3e2ae9c01a5b29321d936e86f9d793551fb25f90a2f791ab4e3f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:8b3b152050a13305b5b8f03f755368f4e046515c57d97e369037ff0fbbb8ded8",
+          "sha256": "8b3b152050a13305b5b8f03f755368f4e046515c57d97e369037ff0fbbb8ded8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:8cbe798a0f98f4101bd55a72b73af553f218e815caa084adec0005409413ddc2",
+          "sha256": "8cbe798a0f98f4101bd55a72b73af553f218e815caa084adec0005409413ddc2"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:419693b6825e7aedc436a8591906a66cdc88b8296e6ce94bb6986c7eef2ddd02",
+          "sha256": "419693b6825e7aedc436a8591906a66cdc88b8296e6ce94bb6986c7eef2ddd02"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:7f84c54c009d1fcafdae192e194479ce9c6603eaf7f4fe31c137c680fda0017a",
+          "sha256": "7f84c54c009d1fcafdae192e194479ce9c6603eaf7f4fe31c137c680fda0017a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:ae668678e8c4b3c38561e26f7d98102138beb1f81917e5cb529cd925150560e9",
+          "sha256": "ae668678e8c4b3c38561e26f7d98102138beb1f81917e5cb529cd925150560e9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tintin/blobs/sha256:b702831ad086345f822a45e45eeab0e0d44e321593fd67eafcd34e0bec0c4d3d",
+          "sha256": "b702831ad086345f822a45e45eeab0e0d44e321593fd67eafcd34e0bec0c4d3d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gnutls",
+    "pcre"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tintin.rb",
+  "ruby_source_checksum": {
+    "sha256": "a033d2497234c15ed2aae12a4b39b17629fc873de8a831ec7e3d650a2672ee41"
+  },
+  "date_added": "2009-09-30T00:22:49-05:00"
+}

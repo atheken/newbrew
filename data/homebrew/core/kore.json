@@ -1,0 +1,123 @@
+{
+  "name": "kore",
+  "full_name": "kore",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web application framework for writing web APIs in C",
+  "license": "ISC",
+  "homepage": "https://kore.io/",
+  "versions": {
+    "stable": "4.2.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://kore.io/releases/kore-4.2.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f9a9727af97441ae87ff9250e374b9fe3a32a3348b25cb50bd2b7de5ec7f5d82"
+    },
+    "head": {
+      "url": "https://github.com/jorisvink/kore.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:2079b1a823ee0915cb18e0148f04514d04638dc91807d2b3ef27c32129f7303a",
+          "sha256": "2079b1a823ee0915cb18e0148f04514d04638dc91807d2b3ef27c32129f7303a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:0a22c98bd62f85f7cb1dcd41ef763c95bb97c4d77592432770de250e97dde75c",
+          "sha256": "0a22c98bd62f85f7cb1dcd41ef763c95bb97c4d77592432770de250e97dde75c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:37860487cb7c2ec1efeb924857b32da30d3bd6dd07f7eff4da3ad42d24134252",
+          "sha256": "37860487cb7c2ec1efeb924857b32da30d3bd6dd07f7eff4da3ad42d24134252"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:a826de0cab4f5e9b7cef6d7a08573d38b476cefda028e3ace20a8c1b79b7d414",
+          "sha256": "a826de0cab4f5e9b7cef6d7a08573d38b476cefda028e3ace20a8c1b79b7d414"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:4a013753ae526626e4afd5519a41521c5c2e2a004b741306617b7d23f6c7b218",
+          "sha256": "4a013753ae526626e4afd5519a41521c5c2e2a004b741306617b7d23f6c7b218"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:13917b8cf36d5fb5b57fb5028aa49fd421bd4ec930742b697d194ee0c0e1bb21",
+          "sha256": "13917b8cf36d5fb5b57fb5028aa49fd421bd4ec930742b697d194ee0c0e1bb21"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/kore/blobs/sha256:8f982ba054916139a8560c8826a450b30784e08c672aaebcc8736d6ca88e4eb0",
+          "sha256": "8f982ba054916139a8560c8826a450b30784e08c672aaebcc8736d6ca88e4eb0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.12",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kore.rb",
+  "ruby_source_checksum": {
+    "sha256": "664a3ad3624bad1f09f59a7d5ff99053ae73c28a6a9a33673d03ee38206a4fb3"
+  },
+  "date_added": "2014-12-12T09:43:53-08:00"
+}

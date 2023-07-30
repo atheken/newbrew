@@ -1,0 +1,117 @@
+{
+  "name": "pdal",
+  "full_name": "pdal",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Point data abstraction library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.pdal.io/",
+  "versions": {
+    "stable": "2.5.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/PDAL/PDAL/releases/download/2.5.5/PDAL-2.5.5-src.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "b32b16475619a6bdfaee5a07a9b859206e18de5acff2a4447502fd0a9c6538d6"
+    },
+    "head": {
+      "url": "https://github.com/PDAL/PDAL.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:48afc00971d9b72829406fa2d5ed28cc36f4b453531d30dc6f894abab6982df5",
+          "sha256": "48afc00971d9b72829406fa2d5ed28cc36f4b453531d30dc6f894abab6982df5"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:ae867cbfcb9dc3e8392b741de59037c6ea828c863fa11144805772d314c0a8f1",
+          "sha256": "ae867cbfcb9dc3e8392b741de59037c6ea828c863fa11144805772d314c0a8f1"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:b8e42461e0b41a0ace6cf6ac7b1713f6fc5aff81baf6ea0cf7eb87abdc98e793",
+          "sha256": "b8e42461e0b41a0ace6cf6ac7b1713f6fc5aff81baf6ea0cf7eb87abdc98e793"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:065fe354793c615ca42ee391e2079eb205010b169e762340b6f05edebc8029c1",
+          "sha256": "065fe354793c615ca42ee391e2079eb205010b169e762340b6f05edebc8029c1"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:2db1a7879387eaac5d8e23b9f561d7374e5d8a020b18a5cde167d19117f3e78b",
+          "sha256": "2db1a7879387eaac5d8e23b9f561d7374e5d8a020b18a5cde167d19117f3e78b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:8799b5be8cba98681b202f72463462c7064ef83e43268cafeb8fd3f0090f890a",
+          "sha256": "8799b5be8cba98681b202f72463462c7064ef83e43268cafeb8fd3f0090f890a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pdal/blobs/sha256:a5cd6d374597ec37ab8497ee85857c9e8e76d081ed30c289651e32eb34b024b6",
+          "sha256": "a5cd6d374597ec37ab8497ee85857c9e8e76d081ed30c289651e32eb34b024b6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdal",
+    "hdf5",
+    "laszip",
+    "libpq",
+    "numpy",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pdal.rb",
+  "ruby_source_checksum": {
+    "sha256": "371cd2c2ed0299c17399c7c45aaee7258c4fde97ef4176814e7a08164a31460f"
+  },
+  "date_added": "2011-12-17T12:24:45-08:00"
+}

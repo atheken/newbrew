@@ -1,0 +1,127 @@
+{
+  "name": "snort",
+  "full_name": "snort",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flexible Network Intrusion Detection System",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.snort.org",
+  "versions": {
+    "stable": "3.1.66.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/snort3/snort3/archive/3.1.66.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4481f882d767620e91fa6d97232ae9527cab06ba77087399c5dd91c72826e0bb"
+    },
+    "head": {
+      "url": "https://github.com/snort3/snort3.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:bb087c1925238c7b8f29a7175d546fd3b168943041f74b752a51d956216d1f29",
+          "sha256": "bb087c1925238c7b8f29a7175d546fd3b168943041f74b752a51d956216d1f29"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:a57cef6c9f346ac48ee87336c9f5c1212d312b6cc3b486e4ee4632a850c5389a",
+          "sha256": "a57cef6c9f346ac48ee87336c9f5c1212d312b6cc3b486e4ee4632a850c5389a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:6d1da79f8667200c291ce3dfd79a20c6d6f8dafcd79713d61d8ecc3ae9232230",
+          "sha256": "6d1da79f8667200c291ce3dfd79a20c6d6f8dafcd79713d61d8ecc3ae9232230"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:83fc3fa531430c28c607a1b01cd486d3d7df569d1ec2cf900430a00f0d54666e",
+          "sha256": "83fc3fa531430c28c607a1b01cd486d3d7df569d1ec2cf900430a00f0d54666e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:6a861eb977bc1cff123f8d7b4e315381ffbcdc9b84305692dc7e032bc6298394",
+          "sha256": "6a861eb977bc1cff123f8d7b4e315381ffbcdc9b84305692dc7e032bc6298394"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:15bb07f7e6b5d22e2ba40164771e1afbf0768463fcfe4530c2bfe23b95efd3ee",
+          "sha256": "15bb07f7e6b5d22e2ba40164771e1afbf0768463fcfe4530c2bfe23b95efd3ee"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snort/blobs/sha256:01b9d40ca5bb09e3646837d855ea68260ef6da51337a9fc1b94f8f0233eb5d83",
+          "sha256": "01b9d40ca5bb09e3646837d855ea68260ef6da51337a9fc1b94f8f0233eb5d83"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "flex",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "daq",
+    "gperftools",
+    "hwloc",
+    "libdnet",
+    "libpcap",
+    "luajit",
+    "openssl@3",
+    "pcre",
+    "xz",
+    "libunwind",
+    "hyperscan"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "For snort to be functional, you need to update the permissions for /dev/bpf*\nso that they can be read by non-root users.  This can be done manually using:\n    sudo chmod o+r /dev/bpf*\nor you could create a startup item to do this for you.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/snort.rb",
+  "ruby_source_checksum": {
+    "sha256": "c395aab019b578812622da2e472ad9834e4ce456607f65f2999d26ca21ccc689"
+  },
+  "date_added": "2011-08-27T21:25:45-05:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "babl",
+  "full_name": "babl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dynamic, any-to-any, pixel format translation library",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://www.gegl.org/babl/",
+  "versions": {
+    "stable": "0.1.106",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gimp.org/pub/babl/0.1/babl-0.1.106.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d325135d3304f088c134cc620013acf035de2e5d125a50a2d91054e7377c415f"
+    },
+    "head": {
+      "url": "https://github.com/GNOME/babl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:d2262c448da0fbd1483282bf7978d537381608d10e98778a6a7e3dfb332b797b",
+          "sha256": "d2262c448da0fbd1483282bf7978d537381608d10e98778a6a7e3dfb332b797b"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:1a436ea903c5eeb2cdfa524171c8976ac0047ea0fc48c3daacc8f814f367b723",
+          "sha256": "1a436ea903c5eeb2cdfa524171c8976ac0047ea0fc48c3daacc8f814f367b723"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:fe7ce007039e7d52fb050c0581b179c339f2dbec696d84a584c30a39bc2490e5",
+          "sha256": "fe7ce007039e7d52fb050c0581b179c339f2dbec696d84a584c30a39bc2490e5"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:86ad27203bd7e18d035a1c1f089fdfe336e5ae4fef112615b6961a225cf12e03",
+          "sha256": "86ad27203bd7e18d035a1c1f089fdfe336e5ae4fef112615b6961a225cf12e03"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:cc27752609a03322409dea058eb438cd198a785fbbc541e31b08cc671d73bd97",
+          "sha256": "cc27752609a03322409dea058eb438cd198a785fbbc541e31b08cc671d73bd97"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:3aae805b1aee8eb7462a31e95db66c0d2e1b2cd9fdbecf06ac947f32ac57e74e",
+          "sha256": "3aae805b1aee8eb7462a31e95db66c0d2e1b2cd9fdbecf06ac947f32ac57e74e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babl/blobs/sha256:324b6d7f0de8ab3568a9f3ce0a3197199c2a098ea1abbee970d471de866b30b1",
+          "sha256": "324b6d7f0de8ab3568a9f3ce0a3197199c2a098ea1abbee970d471de866b30b1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "glib",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pcre2",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "little-cms2"
+  ],
+  "test_dependencies": [
+    "gobject-introspection"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/babl.rb",
+  "ruby_source_checksum": {
+    "sha256": "03674c81b34dea53e9c3ece2b41dd672bf5ad6cd3d659105b8e7a4ce589180e4"
+  },
+  "date_added": "2011-11-28T16:02:12-08:00"
+}

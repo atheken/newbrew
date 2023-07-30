@@ -1,0 +1,120 @@
+{
+  "name": "exiv2",
+  "full_name": "exiv2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "EXIF and IPTC metadata manipulation library and tools",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://exiv2.org/",
+  "versions": {
+    "stable": "0.27.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6"
+    },
+    "head": {
+      "url": "https://github.com/Exiv2/exiv2.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:b8bf182b90d97afa7440cd1614a51b48c6a1a3b43ac7d5c4ac6013ab80fb1137",
+          "sha256": "b8bf182b90d97afa7440cd1614a51b48c6a1a3b43ac7d5c4ac6013ab80fb1137"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:333f89f2cf93031046718a29a228050d431272e818fe1d89687c3e1981b23884",
+          "sha256": "333f89f2cf93031046718a29a228050d431272e818fe1d89687c3e1981b23884"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:151aeb245e05e2e0a8f46da4979d0233a5820aea34e22fe191913f5499c259db",
+          "sha256": "151aeb245e05e2e0a8f46da4979d0233a5820aea34e22fe191913f5499c259db"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:22a09bf8a504f1ec3c19c4e7e52c47615c37412a8acdd4ec13dddac767f54b79",
+          "sha256": "22a09bf8a504f1ec3c19c4e7e52c47615c37412a8acdd4ec13dddac767f54b79"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:80c73e17a8d67741cf13b02959f1fcbe09c64126c469c465a8fa101907c22b9c",
+          "sha256": "80c73e17a8d67741cf13b02959f1fcbe09c64126c469c465a8fa101907c22b9c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:878bfea27f1f04e01bbeca7203f26a7732cece76cfebf6d1a2b6a71fade9d13b",
+          "sha256": "878bfea27f1f04e01bbeca7203f26a7732cece76cfebf6d1a2b6a71fade9d13b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/exiv2/blobs/sha256:d7613f59e7848995120cf631b90509f45628195a9c18882464594a791f311dd2",
+          "sha256": "d7613f59e7848995120cf631b90509f45628195a9c18882464594a791f311dd2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gettext",
+    "libssh"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "expat",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/exiv2.rb",
+  "ruby_source_checksum": {
+    "sha256": "f474e56f3c1b03ac73af221c6928bf06892d03abf67fe996b6fa2b11dcc742a3"
+  },
+  "date_added": "2010-02-18T13:06:08-08:00"
+}

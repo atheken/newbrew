@@ -1,0 +1,116 @@
+{
+  "name": "ipopt",
+  "full_name": "ipopt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Interior point optimizer",
+  "license": "EPL-2.0",
+  "homepage": "https://coin-or.github.io/Ipopt/",
+  "versions": {
+    "stable": "3.14.12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/coin-or/Ipopt/archive/releases/3.14.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6b06cd6280d5ca52fc97ca95adaaddd43529e6e8637c274e21ee1072c3b4577f"
+    },
+    "head": {
+      "url": "https://github.com/coin-or/Ipopt.git",
+      "branch": "stable/3.14"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:2a4faa74c116c600b9cddcd14c3261ebd15bb22fcc225169b943734f0c8665f0",
+          "sha256": "2a4faa74c116c600b9cddcd14c3261ebd15bb22fcc225169b943734f0c8665f0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:eca3d43412eb195d3400dc43d5e1763c0788a6539fada79bfffc098b6f44006b",
+          "sha256": "eca3d43412eb195d3400dc43d5e1763c0788a6539fada79bfffc098b6f44006b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:b5a0e77969ed03a2677b398731bdb626022824f345fc449422b7f2acdaea840f",
+          "sha256": "b5a0e77969ed03a2677b398731bdb626022824f345fc449422b7f2acdaea840f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:d1ee49c596e2a87e69e62fdc90348886b6c6f1a2a749615011500697b96db19c",
+          "sha256": "d1ee49c596e2a87e69e62fdc90348886b6c6f1a2a749615011500697b96db19c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:7ed9526e8b28640832c8131c4dba3d624a1557f4bce7f24c31306a37a0a52fd9",
+          "sha256": "7ed9526e8b28640832c8131c4dba3d624a1557f4bce7f24c31306a37a0a52fd9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:464bc75765bd684fcfeb138881c34664a9eb944d299a892160309b9e8c55d0bf",
+          "sha256": "464bc75765bd684fcfeb138881c34664a9eb944d299a892160309b9e8c55d0bf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ipopt/blobs/sha256:f20b121f0eb35819601c90c92afb09111a5fee07fb4b1b0355c311ab46cc2e01",
+          "sha256": "f20b121f0eb35819601c90c92afb09111a5fee07fb4b1b0355c311ab46cc2e01"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "openjdk",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ampl-mp",
+    "gcc",
+    "openblas"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ipopt.rb",
+  "ruby_source_checksum": {
+    "sha256": "296cd004592ff85b39120b74201cf54e2fec3f2d97977af74640c5d7fbdce247"
+  },
+  "date_added": "2011-09-01T09:33:23-07:00"
+}

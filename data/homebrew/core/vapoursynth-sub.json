@@ -1,0 +1,114 @@
+{
+  "name": "vapoursynth-sub",
+  "full_name": "vapoursynth-sub",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VapourSynth filters - Subtitling filter",
+  "license": "MIT",
+  "homepage": "https://www.vapoursynth.com",
+  "versions": {
+    "stable": "4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vapoursynth/subtext/archive/R4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "75b43db67062bf98e31c4e98138fe8d7fd328619216ad0444423efc3d6bc1398"
+    },
+    "head": {
+      "url": "https://github.com/vapoursynth/subtext.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:18df66402b5b0612d575766fefadc18f40d8fe7aed14ff7a6ec97c1a05e94bff",
+          "sha256": "18df66402b5b0612d575766fefadc18f40d8fe7aed14ff7a6ec97c1a05e94bff"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:0be08d3ca56d404588d61badae14e9930f1abe0df0eae0c6b69ac6eff85d1db3",
+          "sha256": "0be08d3ca56d404588d61badae14e9930f1abe0df0eae0c6b69ac6eff85d1db3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:b01b9b7977bdbf1e5ff744e6f4bf91f0c5f659cbad4054bb72aabe1ab801e169",
+          "sha256": "b01b9b7977bdbf1e5ff744e6f4bf91f0c5f659cbad4054bb72aabe1ab801e169"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:ef507c8bd5dbbbeb8e330bcec90cf01f3a8a974baeb3aea0b8b68a834b15032a",
+          "sha256": "ef507c8bd5dbbbeb8e330bcec90cf01f3a8a974baeb3aea0b8b68a834b15032a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:65a9159a7dd44be6977ee0fc089db43e182024e7fd4080daee108c39bd185b02",
+          "sha256": "65a9159a7dd44be6977ee0fc089db43e182024e7fd4080daee108c39bd185b02"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:a943de850d54d3bec2297cad3aa6031bf80d9f002994af268741314122fb3a08",
+          "sha256": "a943de850d54d3bec2297cad3aa6031bf80d9f002994af268741314122fb3a08"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vapoursynth-sub/blobs/sha256:5eee1c9ffd626de825ad7b1cb66a1db3985c0b9faf7f87480c2ae67d73f8aa39",
+          "sha256": "5eee1c9ffd626de825ad7b1cb66a1db3985c0b9faf7f87480c2ae67d73f8aa39"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ffmpeg",
+    "libass",
+    "vapoursynth"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vapoursynth-sub.rb",
+  "ruby_source_checksum": {
+    "sha256": "9589d581a8388dff71a3dcf07fb5a7b081e2adc9e7030a0a10098a6f1740a8ad"
+  },
+  "date_added": "2019-04-16T22:08:12+02:00"
+}

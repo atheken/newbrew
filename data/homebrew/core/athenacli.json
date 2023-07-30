@@ -1,0 +1,107 @@
+{
+  "name": "athenacli",
+  "full_name": "athenacli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool for AWS Athena service",
+  "license": "BSD-3-Clause",
+  "homepage": "https://athenacli.readthedocs.io/en/latest/",
+  "versions": {
+    "stable": "1.6.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/38/1a/d9cd6c68a4a1cd2ce779b163f8cec390ae82c684caa920d0360094886b1f/athenacli-1.6.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c7733433f2795d250e3c23b134136fea571ea9868c15f424875cd194eaeb7246"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 4,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:19abdd458c36309d2ad2100dae56ce5bc4faa927b6e9b56080141deb08ecadc7",
+          "sha256": "19abdd458c36309d2ad2100dae56ce5bc4faa927b6e9b56080141deb08ecadc7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:3301f4e7df42efbe11e59d6c9f23c627954675b5d306ae6dfce0a1d03dbe167e",
+          "sha256": "3301f4e7df42efbe11e59d6c9f23c627954675b5d306ae6dfce0a1d03dbe167e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:f7352cc00a19e95a24c91b399d31127d90f68136b29966db6d1d8520284400d1",
+          "sha256": "f7352cc00a19e95a24c91b399d31127d90f68136b29966db6d1d8520284400d1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:1d0ddb8308bd53ea087a9977352b942785fdd33a192c51f727b810b14dc84568",
+          "sha256": "1d0ddb8308bd53ea087a9977352b942785fdd33a192c51f727b810b14dc84568"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:d913515ae10f7d4cc012624f2f2b20e87cfbe91572b15538623b7a534704bfb8",
+          "sha256": "d913515ae10f7d4cc012624f2f2b20e87cfbe91572b15538623b7a534704bfb8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:12907a64698643c40fb0fdb3a7a5fd791dbd617177dced1dc993e0dcd3ecfc15",
+          "sha256": "12907a64698643c40fb0fdb3a7a5fd791dbd617177dced1dc993e0dcd3ecfc15"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/athenacli/blobs/sha256:ecfb036ceb566cc93d605e2feadf27d0fffbb0c82719eb9ac11b40e6c08ceac9",
+          "sha256": "ecfb036ceb566cc93d605e2feadf27d0fffbb0c82719eb9ac11b40e6c08ceac9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python-tabulate",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/athenacli.rb",
+  "ruby_source_checksum": {
+    "sha256": "531b3f72653435d02d9f53b44390efedde04bef49861700b6a1da3aebf28c258"
+  },
+  "date_added": "2020-08-04T16:10:38+00:00"
+}

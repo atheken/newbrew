@@ -1,0 +1,105 @@
+{
+  "name": "grepip",
+  "full_name": "grepip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Filters IPv4 & IPv6 addresses with a grep-compatible interface",
+  "license": "Apache-2.0",
+  "homepage": "https://ipinfo.io",
+  "versions": {
+    "stable": "1.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ipinfo/cli/archive/grepip-1.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2ed9477bc5599a10348a7026968242fb4609e6b580c04aaae46d7c71b9fa3d55"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c",
+          "sha256": "127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c",
+          "sha256": "127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c",
+          "sha256": "127a16e5a544dfd437b203f471b8259cf247c655cbc1031689998280d5a4054c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526",
+          "sha256": "1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526",
+          "sha256": "1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526",
+          "sha256": "1368886025366798bc84ccf0dece8def4aeec415fa2dad37a9cdc675b09b8526"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grepip/blobs/sha256:d066156f98edcbf0164a1ee749cba4e78b14dc6cb4a39b3be80b9484aa6a61ba",
+          "sha256": "d066156f98edcbf0164a1ee749cba4e78b14dc6cb4a39b3be80b9484aa6a61ba"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/grepip.rb",
+  "ruby_source_checksum": {
+    "sha256": "a0dbc32c747d170cbb8f6802cfff2e3eea30a1e76492d3f9895539857d3e317b"
+  },
+  "date_added": "2021-05-20T09:11:36+00:00"
+}

@@ -1,0 +1,155 @@
+{
+  "name": "root",
+  "full_name": "root",
+  "tap": "homebrew/core",
+  "oldname": "root6",
+  "oldnames": [
+    "root6"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Object oriented framework for large scale data analysis",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://root.cern.ch/",
+  "versions": {
+    "stable": "6.28.04",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://root.cern.ch/download/root_v6.28.04.source.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "70f7f86a0cd5e3f2a0befdc59942dd50140d990ab264e8e56c7f17f6bfe9c965"
+    },
+    "head": {
+      "url": "https://github.com/root-project/root.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:747e6d1fdcb0af9bdd9690893c71349307262e1e97f6fb0935825ad380d8cadf",
+          "sha256": "747e6d1fdcb0af9bdd9690893c71349307262e1e97f6fb0935825ad380d8cadf"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:541be50238ad8e75767d8f3d7e18453b19ee255985606c46fee5d270e8e65961",
+          "sha256": "541be50238ad8e75767d8f3d7e18453b19ee255985606c46fee5d270e8e65961"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:2ad541e3e94e1e91b5412e4be46c2d69a437a9341836e45d40790ce692773175",
+          "sha256": "2ad541e3e94e1e91b5412e4be46c2d69a437a9341836e45d40790ce692773175"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:0cb9e5bd349dfd9321d45f16e8abd965714be3dd557821ebd87fa22a08024bc6",
+          "sha256": "0cb9e5bd349dfd9321d45f16e8abd965714be3dd557821ebd87fa22a08024bc6"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:285616c03d34ad02d59ea58446029a41d7080f3cf09d575774ebcd929c693dfc",
+          "sha256": "285616c03d34ad02d59ea58446029a41d7080f3cf09d575774ebcd929c693dfc"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/root/blobs/sha256:64c3462903f48240639c36d7a545742a50fd7ee4361ed06a5e77d9b1d35f84c9",
+          "sha256": "64c3462903f48240639c36d7a545742a50fd7ee4361ed06a5e77d9b1d35f84c9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cfitsio",
+    "davix",
+    "fftw",
+    "freetype",
+    "ftgl",
+    "gcc",
+    "gl2ps",
+    "glew",
+    "graphviz",
+    "gsl",
+    "lz4",
+    "mysql-client",
+    "nlohmann-json",
+    "numpy",
+    "openblas",
+    "openssl@3",
+    "pcre",
+    "python@3.11",
+    "sqlite",
+    "tbb",
+    "xrootd",
+    "xxhash",
+    "xz",
+    "zstd",
+    "libxft",
+    "libxpm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt",
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "As of ROOT 6.22, you should not need the thisroot scripts; but if you\ndepend on the custom variables set by them, you can still run them:\n\nFor bash users:\n  . $HOMEBREW_PREFIX/bin/thisroot.sh\nFor zsh users:\n  pushd $HOMEBREW_PREFIX >/dev/null; . bin/thisroot.sh; popd >/dev/null\nFor csh/tcsh users:\n  source $HOMEBREW_PREFIX/bin/thisroot.csh\nFor fish users:\n  . $HOMEBREW_PREFIX/bin/thisroot.fish\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/root.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c4609754f45eed90e4be046af8864830ac7bd98e4daee3368e8569efc446889"
+  },
+  "date_added": "2012-08-06T09:46:08-07:00"
+}

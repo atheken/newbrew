@@ -1,0 +1,111 @@
+{
+  "name": "hadoop",
+  "full_name": "hadoop",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Framework for distributed processing of large data sets",
+  "license": "Apache-2.0",
+  "homepage": "https://hadoop.apache.org/",
+  "versions": {
+    "stable": "3.3.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f5195059c0d4102adaa7fff17f7b2a85df906bcb6e19948716319f9978641a04"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f",
+          "sha256": "cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f",
+          "sha256": "cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f",
+          "sha256": "cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d",
+          "sha256": "6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d",
+          "sha256": "6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d",
+          "sha256": "6191a8773d779d5307e2f3fb7bb0c0d6f797638a8f87f07e849a0a61be3a726d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hadoop/blobs/sha256:cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f",
+          "sha256": "cddc35ec7bb9fa8f6304588d52b62886ea9cb6ede2bd25368565457423258e2f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "corepack",
+    "yarn"
+  ],
+  "conflicts_with_reasons": [
+    "both install `yarn` binaries",
+    "both install `yarn` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hadoop.rb",
+  "ruby_source_checksum": {
+    "sha256": "ad0d0b3cde8b5cdb611c03d45990f1d191f3ce0fd35a0174541e91f0f916704c"
+  },
+  "date_added": "2009-12-18T21:07:06+01:00"
+}

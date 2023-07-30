@@ -1,0 +1,114 @@
+{
+  "name": "ghex",
+  "full_name": "ghex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNOME hex editor",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://wiki.gnome.org/Apps/Ghex",
+  "versions": {
+    "stable": "44.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/ghex/44/ghex-44.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "404bdf649eaa13922a80ae32f19fe40e71f0ee0f461c45edac72888a00ead6c2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:b24850225e3ef5acce621a865092640176c258cc6f5a0d20025c2b063ed8df26",
+          "sha256": "b24850225e3ef5acce621a865092640176c258cc6f5a0d20025c2b063ed8df26"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:bff53ad2a98f8acd5a90f6175f738eafcd52a87a2440cbf15373715e2a267e0f",
+          "sha256": "bff53ad2a98f8acd5a90f6175f738eafcd52a87a2440cbf15373715e2a267e0f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:71d00373e2bd1046261ea16a32d96315945ec4694ef5565a4bfe337891bf7324",
+          "sha256": "71d00373e2bd1046261ea16a32d96315945ec4694ef5565a4bfe337891bf7324"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:cd5d6b72c6b5f69f591c09b1df69233041b8d4c06182977793488b4368fb55c5",
+          "sha256": "cd5d6b72c6b5f69f591c09b1df69233041b8d4c06182977793488b4368fb55c5"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:17a2c88e096f50a272d00b610ca0ab31cb936bed869ef2b19bc2960ee6c6acf1",
+          "sha256": "17a2c88e096f50a272d00b610ca0ab31cb936bed869ef2b19bc2960ee6c6acf1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:b15ad9b195d096a84814be302aabd77678110bdab98e81f013c470303b162d70",
+          "sha256": "b15ad9b195d096a84814be302aabd77678110bdab98e81f013c470303b162d70"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghex/blobs/sha256:e2345dd7567104840a79161f8e18d55d8df90c962409d4c135b71ae088d07225",
+          "sha256": "e2345dd7567104840a79161f8e18d55d8df90c962409d4c135b71ae088d07225"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "desktop-file-utils",
+    "gettext",
+    "itstool",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gtk4",
+    "hicolor-icon-theme",
+    "libadwaita"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ghex.rb",
+  "ruby_source_checksum": {
+    "sha256": "1b6790e996445625d43b6aa8c9b3c35eeb22ade37e3f933d2fea95698038fd7c"
+  },
+  "date_added": "2015-09-08T15:12:16+01:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "poetry",
+  "full_name": "poetry",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Python package management tool",
+  "license": "MIT",
+  "homepage": "https://python-poetry.org/",
+  "versions": {
+    "stable": "1.5.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ab/42/1c8769483f4e72d17fd7b827d11be37a48289d38df40b1d8640ef53d7b33/poetry-1.5.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cc7ea4524d1a11558006224bfe8ba8ed071417d4eb5ef6c89decc6a37d437eeb"
+    },
+    "head": {
+      "url": "https://github.com/python-poetry/poetry.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:fa323d21a318ba7764a7cd36e9fb939ee15e26485549f4395c134d212edff88b",
+          "sha256": "fa323d21a318ba7764a7cd36e9fb939ee15e26485549f4395c134d212edff88b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:e8e3ff4498ae74cb846bc84c19d256e92f83712aaa8d7233084e4784f4bd1034",
+          "sha256": "e8e3ff4498ae74cb846bc84c19d256e92f83712aaa8d7233084e4784f4bd1034"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:654c7f47660fe5aae26b30f0670d7504de2b2328fe548fb3855c017e20e37b70",
+          "sha256": "654c7f47660fe5aae26b30f0670d7504de2b2328fe548fb3855c017e20e37b70"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:e6351615e4d02e4fcda7fc4139341c896648bb47bff0c59037c993fca007d882",
+          "sha256": "e6351615e4d02e4fcda7fc4139341c896648bb47bff0c59037c993fca007d882"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:e82d153e8535910ba3dcb4636132442940e2d0b378756f96e8a2525cc15f8a69",
+          "sha256": "e82d153e8535910ba3dcb4636132442940e2d0b378756f96e8a2525cc15f8a69"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:fdf87693131966a67ed422d0e2e9a5039923d1423fff0402ca777f5f36a35570",
+          "sha256": "fdf87693131966a67ed422d0e2e9a5039923d1423fff0402ca777f5f36a35570"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/poetry/blobs/sha256:53ba84e91544962ada92996f018db73d50c0a6f0996b9dae5f9a1be3647ba676",
+          "sha256": "53ba84e91544962ada92996f018db73d50c0a6f0996b9dae5f9a1be3647ba676"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "pycparser",
+    "python@3.11",
+    "six",
+    "virtualenv"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/poetry.rb",
+  "ruby_source_checksum": {
+    "sha256": "9075dace5058cbad209c8168f0c053982c1a11cce31a29d9adc347af4a381625"
+  },
+  "date_added": "2020-01-06T11:04:20-05:00"
+}

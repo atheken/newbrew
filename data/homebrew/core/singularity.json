@@ -1,0 +1,90 @@
+{
+  "name": "singularity",
+  "full_name": "singularity",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Application container and unprivileged sandbox platform for Linux",
+  "license": "BSD-3-Clause",
+  "homepage": "https://apptainer.org/",
+  "versions": {
+    "stable": "3.8.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/apptainer/singularity/releases/download/v3.8.7/singularity-3.8.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3329f2e583f84a8343cb2c0380a1d6cbceafae7d1e633b5cbcadf7143eac859b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/singularity/blobs/sha256:d069275ad84aab8b61a14a312a6db06a4000ca2b8f1664a261461b4b560b0d7a",
+          "sha256": "d069275ad84aab8b61a14a312a6db06a4000ca2b8f1664a261461b4b560b0d7a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libseccomp",
+    "squashfs"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/singularity.rb",
+  "ruby_source_checksum": {
+    "sha256": "255a833863e30b6b17474af2da67c3d2d45ea3d167760e1f9cff3a4b0188cdc7"
+  },
+  "date_added": "2021-08-17T14:05:14-07:00"
+}

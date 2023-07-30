@@ -1,0 +1,114 @@
+{
+  "name": "libdivecomputer",
+  "full_name": "libdivecomputer",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for communication with various dive computers",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.libdivecomputer.org/",
+  "versions": {
+    "stable": "0.8.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.libdivecomputer.org/releases/libdivecomputer-0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "275ecce7923644ed581faab9dcb4f1a69ad251bceb0721c4e5f85fb631617a0e"
+    },
+    "head": {
+      "url": "https://github.com/libdivecomputer/libdivecomputer.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:94af44c0b407fae8f45e0d5f5fb86fe92f5464efe57d316eb71526aa68eac264",
+          "sha256": "94af44c0b407fae8f45e0d5f5fb86fe92f5464efe57d316eb71526aa68eac264"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:84b1aab56409e9842deab38dab5dc8a9f7ddd1c7f0ea5ad68b9bcd31733645fb",
+          "sha256": "84b1aab56409e9842deab38dab5dc8a9f7ddd1c7f0ea5ad68b9bcd31733645fb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:dadcbc9e4225a70a0a508f68d69dd033cd4c146eed0a8b35c9ab4f6883111683",
+          "sha256": "dadcbc9e4225a70a0a508f68d69dd033cd4c146eed0a8b35c9ab4f6883111683"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:5a831d39e6851ac0f0aa879321f2da7734f40b6f0b66f9824c59766547ed4857",
+          "sha256": "5a831d39e6851ac0f0aa879321f2da7734f40b6f0b66f9824c59766547ed4857"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:03dd6bece702dbd9128822bc7e58bffaa7ddbab2e1c154416c8843068ddc9512",
+          "sha256": "03dd6bece702dbd9128822bc7e58bffaa7ddbab2e1c154416c8843068ddc9512"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:0daa371bb5f9f96bd3c2c02f02181f77004e5326d4975e04fd441d01593c6f20",
+          "sha256": "0daa371bb5f9f96bd3c2c02f02181f77004e5326d4975e04fd441d01593c6f20"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivecomputer/blobs/sha256:a564c1072cacd56aacdeddb41032cce203e2d59cf375448e160007c619204245",
+          "sha256": "a564c1072cacd56aacdeddb41032cce203e2d59cf375448e160007c619204245"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdivecomputer.rb",
+  "ruby_source_checksum": {
+    "sha256": "bc769a1832c887c2a6a490b4e811fc346a46f8a3104b1b226e4e404c499ffa50"
+  },
+  "date_added": "2016-08-25T18:26:23+01:00"
+}

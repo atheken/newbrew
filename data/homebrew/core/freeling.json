@@ -1,0 +1,118 @@
+{
+  "name": "freeling",
+  "full_name": "freeling",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Suite of language analyzers",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://nlp.lsi.upc.edu/freeling/",
+  "versions": {
+    "stable": "4.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/TALP-UPC/FreeLing/releases/download/4.2/FreeLing-src-4.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c672a6379142ac2e872741e7662f17eccd8230bffc680564d2843d87480f1600"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:ac2822ac4f5c777cc7bef01ac5b57e1c77ba193817f8e1d1d57b19fbb25a77ce",
+          "sha256": "ac2822ac4f5c777cc7bef01ac5b57e1c77ba193817f8e1d1d57b19fbb25a77ce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:c2788cb4af12d5fa65c214cb1d0af80b747fb83cc51cb5d788fb6f1462bfc80f",
+          "sha256": "c2788cb4af12d5fa65c214cb1d0af80b747fb83cc51cb5d788fb6f1462bfc80f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:ca7bc8d5219f6bac9051a19e9404fd5452876260c9dd16b96e0f10c80f6b90a4",
+          "sha256": "ca7bc8d5219f6bac9051a19e9404fd5452876260c9dd16b96e0f10c80f6b90a4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:321c4a350ec1b843723b2ff0cea9b4633a4c33b73f3aa7080b5831abecfc245a",
+          "sha256": "321c4a350ec1b843723b2ff0cea9b4633a4c33b73f3aa7080b5831abecfc245a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:42ce7757ef606fae613b6db9a1c66af4e7270b23002785dac583abcccad87aa7",
+          "sha256": "42ce7757ef606fae613b6db9a1c66af4e7270b23002785dac583abcccad87aa7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:47ebbfe29be84a737912f9aba05df90520b2fa76730f90f295991603c20d79ce",
+          "sha256": "47ebbfe29be84a737912f9aba05df90520b2fa76730f90f295991603c20d79ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/freeling/blobs/sha256:35f72701267b2a0fd8bbc46e6e24b79cebb2b9326da5280d4504cc15cf3c3e56",
+          "sha256": "35f72701267b2a0fd8bbc46e6e24b79cebb2b9326da5280d4504cc15cf3c3e56"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "icu4c"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "dynet",
+    "eigen",
+    "foma",
+    "hunspell"
+  ],
+  "conflicts_with_reasons": [
+    "freeling ships its own copy of dynet",
+    "freeling ships its own copy of eigen",
+    "freeling ships its own copy of foma",
+    "both install 'analyze' binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freeling.rb",
+  "ruby_source_checksum": {
+    "sha256": "d02b53426369fca28de19af03c84c527e93a107aacc966264eca463d0b95d1cf"
+  },
+  "date_added": "2012-10-26T13:38:42-07:00"
+}

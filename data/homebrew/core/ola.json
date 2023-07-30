@@ -1,0 +1,129 @@
+{
+  "name": "ola",
+  "full_name": "ola",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open Lighting Architecture for lighting control information",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+  "homepage": "https://www.openlighting.org/ola/",
+  "versions": {
+    "stable": "0.10.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/OpenLightingProject/ola/releases/download/0.10.9/ola-0.10.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "44073698c147fe641507398253c2e52ff8dc7eac8606cbf286c29f37939a4ebf"
+    },
+    "head": {
+      "url": "https://github.com/OpenLightingProject/ola.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:70bc041b7b093dad97457e7384ab334b35d2cfebe15f6f51616493a93f83a246",
+          "sha256": "70bc041b7b093dad97457e7384ab334b35d2cfebe15f6f51616493a93f83a246"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:e98135ba113896d907f982ceec5c7d5329f7daa5e095ca488dbd951c5b0334a6",
+          "sha256": "e98135ba113896d907f982ceec5c7d5329f7daa5e095ca488dbd951c5b0334a6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:6436e1d0108fee7e8771adbfc66a3780c3b02cd087f09c4631a43c2e8492ab12",
+          "sha256": "6436e1d0108fee7e8771adbfc66a3780c3b02cd087f09c4631a43c2e8492ab12"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:48c24b257ef8381f901a81817e4a757aea056371b48f92ca4af5edf037a6ca29",
+          "sha256": "48c24b257ef8381f901a81817e4a757aea056371b48f92ca4af5edf037a6ca29"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:9199cced2f2c365923d088d367d47828bf3abb839825b42c5f1bc17651b1a1e4",
+          "sha256": "9199cced2f2c365923d088d367d47828bf3abb839825b42c5f1bc17651b1a1e4"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:133412d65cfe02c454d4a7c172af8c7dd5a0f31c1b62d26705c8063a8c4acc7c",
+          "sha256": "133412d65cfe02c454d4a7c172af8c7dd5a0f31c1b62d26705c8063a8c4acc7c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ola/blobs/sha256:339101088570b59af916d7586451a29b82bc443f42ea694249558b38a135f3ba",
+          "sha256": "339101088570b59af916d7586451a29b82bc443f42ea694249558b38a135f3ba"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "liblo",
+    "libmicrohttpd",
+    "libusb",
+    "numpy",
+    "protobuf@21",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use the bundled Python libraries:\n  export PYTHONPATH=$HOMEBREW_PREFIX/opt/protobuf@21/lib/python3.11/site-packages\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ola.rb",
+  "ruby_source_checksum": {
+    "sha256": "7531ac61c0558893863351f177adeeb53f03b234d62b2a4e4631409a5e1752bf"
+  },
+  "date_added": "2014-03-24T14:52:59+00:00"
+}

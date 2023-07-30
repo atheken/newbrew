@@ -1,0 +1,130 @@
+{
+  "name": "singular",
+  "full_name": "singular",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Computer algebra system for polynomial computations",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.singular.uni-kl.de/",
+  "versions": {
+    "stable": "4.3.2p4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/4-3-2/singular-4.3.2p4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "22f263665e7e6def39f48fd2695f613a377281af39350414f461ba7f3bd07149"
+    },
+    "head": {
+      "url": "https://github.com/Singular/Singular.git",
+      "branch": "spielwiese"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:c368b9af9eff41fb0fb9fbaedd94928dd94577a68f44d29b33736d026dedde07",
+          "sha256": "c368b9af9eff41fb0fb9fbaedd94928dd94577a68f44d29b33736d026dedde07"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:a17bd0521171d71f41778d0f40a2d856a8a2be5f1803ec8427d69b8b8f1a8bbb",
+          "sha256": "a17bd0521171d71f41778d0f40a2d856a8a2be5f1803ec8427d69b8b8f1a8bbb"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:bebefcd3cedc588bbf49b0331ffa258f76f3a086b747ac8a37aeefe23cea6579",
+          "sha256": "bebefcd3cedc588bbf49b0331ffa258f76f3a086b747ac8a37aeefe23cea6579"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:2db420d3b13cca63246b9f0cc7c19cc2dea9b5bb88ddcd164a0ee5ab88fdd224",
+          "sha256": "2db420d3b13cca63246b9f0cc7c19cc2dea9b5bb88ddcd164a0ee5ab88fdd224"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:8ce57a093dfe5ece45cd44383e1203805089277d39dd04277c1f7c322061cc6d",
+          "sha256": "8ce57a093dfe5ece45cd44383e1203805089277d39dd04277c1f7c322061cc6d"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:e8cbd14ce43876fd5720f6d8306d3a1f5c66497af4a437fcd8d3a18607c7b62f",
+          "sha256": "e8cbd14ce43876fd5720f6d8306d3a1f5c66497af4a437fcd8d3a18607c7b62f"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/singular/blobs/sha256:23bbcc5e0f26babfafa5b35a78146fbd370c80a39e7c697f795cb35d0a63b873",
+          "sha256": "23bbcc5e0f26babfafa5b35a78146fbd370c80a39e7c697f795cb35d0a63b873"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp",
+    "mpfr",
+    "ntl",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/singular.rb",
+  "ruby_source_checksum": {
+    "sha256": "2df7bfb49362f13d806e866146d891c7a1ba1fc5bb92a5836f70a3448fd203be"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [
+      "gmp",
+      "mpfr",
+      "ntl",
+      "python@3.11"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2017-10-28T09:49:23-07:00"
+}

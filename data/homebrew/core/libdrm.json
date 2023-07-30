@@ -1,0 +1,91 @@
+{
+  "name": "libdrm",
+  "full_name": "libdrm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for accessing the direct rendering manager",
+  "license": "MIT",
+  "homepage": "https://dri.freedesktop.org",
+  "versions": {
+    "stable": "2.4.115",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dri.freedesktop.org/libdrm/libdrm-2.4.115.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "554cfbfe0542bddb391b4e3e05bfbbfc3e282b955bd56218d21c0616481f65eb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdrm/blobs/sha256:07bf2efc3b29fa65e560cc13c43f86fe2b250b47e3cb4f4251ad4976979e927c",
+          "sha256": "07bf2efc3b29fa65e560cc13c43f86fe2b250b47e3cb4f4251ad4976979e927c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "docutils",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libpciaccess"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdrm.rb",
+  "ruby_source_checksum": {
+    "sha256": "a27b6dede293e1aeec22ec05e7cb7a357e5d1e191b0466a54aa1fabe36646f8b"
+  },
+  "date_added": "2020-10-16T22:00:04+02:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "libfreenect",
+  "full_name": "libfreenect",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Drivers and libraries for the Xbox Kinect device",
+  "license": "Apache-2.0 or GPL-2.0-only",
+  "homepage": "https://openkinect.org/",
+  "versions": {
+    "stable": "0.7.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/OpenKinect/libfreenect/archive/v0.7.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "adbfc6e7ce72f77cccb3341807a1e2cc6fe2ee62e1bc4d70a6c9b05fac83fe8f"
+    },
+    "head": {
+      "url": "https://github.com/OpenKinect/libfreenect.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:6b6e976f60aa61f7152f5718ef76de1c00f3b69f4c04367c9d4bae5f60172124",
+          "sha256": "6b6e976f60aa61f7152f5718ef76de1c00f3b69f4c04367c9d4bae5f60172124"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:aa5115ad4e3fc18a5ad5756a546a9dbe500e4127682134f266fcc7a3c72c63f4",
+          "sha256": "aa5115ad4e3fc18a5ad5756a546a9dbe500e4127682134f266fcc7a3c72c63f4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:733424be170996321ea99ddbfabc0a395cb2d559e7e0b56255902a53cba6aa71",
+          "sha256": "733424be170996321ea99ddbfabc0a395cb2d559e7e0b56255902a53cba6aa71"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:952fcc1af45af220088b79af7ac99d351b0beb490e0a9cc2ff4a42887922a457",
+          "sha256": "952fcc1af45af220088b79af7ac99d351b0beb490e0a9cc2ff4a42887922a457"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:950df9d8e8b39b312b12028b8e95fa8af11cbc2b94a538a5e8be74acd5901f51",
+          "sha256": "950df9d8e8b39b312b12028b8e95fa8af11cbc2b94a538a5e8be74acd5901f51"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:97f55a7543778c5e8e09cc1b4ecd928b0c54016323fbc104813b7393efad40e7",
+          "sha256": "97f55a7543778c5e8e09cc1b4ecd928b0c54016323fbc104813b7393efad40e7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libfreenect/blobs/sha256:d651605c3afdbff1aee2405b162509bd8754d2fbf4246ece112574fd5be8de77",
+          "sha256": "d651605c3afdbff1aee2405b162509bd8754d2fbf4246ece112574fd5be8de77"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libfreenect.rb",
+  "ruby_source_checksum": {
+    "sha256": "f4998bde786269b5367d5d81c24ff85131306c85a6273534f8b3248ce1d5261b"
+  },
+  "date_added": "2013-02-01T09:22:14-08:00"
+}

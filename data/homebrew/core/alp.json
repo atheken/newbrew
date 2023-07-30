@@ -1,0 +1,109 @@
+{
+  "name": "alp",
+  "full_name": "alp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Access Log Profiler",
+  "license": "MIT",
+  "homepage": "https://github.com/tkuchiki/alp",
+  "versions": {
+    "stable": "1.0.14",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tkuchiki/alp/archive/v1.0.14.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "67f34c71f8cb10e3491bd0b9467cd7ff6673ddf4e26341b59d7dbe03fe44af24"
+    },
+    "head": {
+      "url": "https://github.com/tkuchiki/alp.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684",
+          "sha256": "8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684",
+          "sha256": "8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684",
+          "sha256": "8abecb19eff90b8cdd0fb0604b11c113cd17c4b03ae20d1d70fc5473c7748684"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc",
+          "sha256": "2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc",
+          "sha256": "2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc",
+          "sha256": "2d33e4f63c11310f3b541453d0e59d4573a9118a3a19f1c16a2b134e08b5c4cc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/alp/blobs/sha256:04f572c0df80252f32a36f34f4f613da7adee4c4898249bde78fbc96577e04ae",
+          "sha256": "04f572c0df80252f32a36f34f4f613da7adee4c4898249bde78fbc96577e04ae"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/alp.rb",
+  "ruby_source_checksum": {
+    "sha256": "dd25440aaf2c1a289647053bec298c2f8168130beead1b5fe1c153ba260babd3"
+  },
+  "date_added": "2019-10-02T19:36:41-04:00"
+}

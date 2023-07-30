@@ -1,0 +1,105 @@
+{
+  "name": "quasi88",
+  "full_name": "quasi88",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "PC-8801 emulator",
+  "license": null,
+  "homepage": "https://www.eonet.ne.jp/~showtime/quasi88/",
+  "versions": {
+    "stable": "0.6.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.eonet.ne.jp/~showtime/quasi88/release/quasi88-0.6.4.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2c4329f9f77e02a1e1f23c941be07fbe6e4a32353b5d012531f53b06996881ff"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:7b4c72ce4204ac7a10b58982ba65f7bb900f3b6bc2a71533efdd4eb8394b38e1",
+          "sha256": "7b4c72ce4204ac7a10b58982ba65f7bb900f3b6bc2a71533efdd4eb8394b38e1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:5a13523bdec455846c2a50a069305794522261565d040aac6304b2b07af649e9",
+          "sha256": "5a13523bdec455846c2a50a069305794522261565d040aac6304b2b07af649e9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:6a128b745d94138d3fe571518ce9755c0bfa34324e229da743007e6d5961aab1",
+          "sha256": "6a128b745d94138d3fe571518ce9755c0bfa34324e229da743007e6d5961aab1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:c70a45dd3e4f7f7aed3e14cefd80319e7f1dc8644dab7597df4cdddf9191011e",
+          "sha256": "c70a45dd3e4f7f7aed3e14cefd80319e7f1dc8644dab7597df4cdddf9191011e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:5af9ca3ad12c1bfa8d761fc1ff30d36099dd032fdd47fc2e85f89722a21de6dd",
+          "sha256": "5af9ca3ad12c1bfa8d761fc1ff30d36099dd032fdd47fc2e85f89722a21de6dd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:3a46e754acb469e4619f3cedeb402ebe45b69a096c65688697e3144aac61b413",
+          "sha256": "3a46e754acb469e4619f3cedeb402ebe45b69a096c65688697e3144aac61b413"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quasi88/blobs/sha256:278f6e32cae48b0acd18865f8793d442b5e9d5aa3a201a6d3bf179c27d39a46e",
+          "sha256": "278f6e32cae48b0acd18865f8793d442b5e9d5aa3a201a6d3bf179c27d39a46e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "sdl12-compat"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "You will need to place ROM and disk files.\nDefault arguments for the directories are:\n  -romdir ~/quasi88/rom/\n  -diskdir ~/quasi88/disk/\n  -tapedir ~/quasi88/tape/\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/quasi88.rb",
+  "ruby_source_checksum": {
+    "sha256": "365796d6a212dc476725fc19bb4c04ee1a8793a61013ee08efde2998656602a7"
+  },
+  "date_added": "2017-02-08T10:09:01+00:00"
+}

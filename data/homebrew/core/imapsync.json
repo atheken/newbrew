@@ -1,0 +1,115 @@
+{
+  "name": "imapsync",
+  "full_name": "imapsync",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Migrate or backup IMAP mail accounts",
+  "license": "NLPL",
+  "homepage": "https://imapsync.lamiral.info/",
+  "versions": {
+    "stable": "2.229",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://imapsync.lamiral.info/dist2/imapsync-2.229.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "553ce6d6535b954987a859fa0c3c74da446df74157d398ab09159c7f8ed8043d"
+    },
+    "head": {
+      "url": "https://github.com/imapsync/imapsync.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:fd2f78cab0c17b917645842bedfead04ea5b8786a41e6102b71c7e162d98de9b",
+          "sha256": "fd2f78cab0c17b917645842bedfead04ea5b8786a41e6102b71c7e162d98de9b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:c02cc184275db94574d26e0c8161e0e95fc826bccfd9b79be4bc936a1b7e9b2e",
+          "sha256": "c02cc184275db94574d26e0c8161e0e95fc826bccfd9b79be4bc936a1b7e9b2e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:b6ae8bc4307c7bd1d66be4a833701a2058965770cb636babf11b611a6cd18267",
+          "sha256": "b6ae8bc4307c7bd1d66be4a833701a2058965770cb636babf11b611a6cd18267"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:65302ef772b8e18ad83702079504a69f58c53ffb6c5b69c2451f5846c0fde0ce",
+          "sha256": "65302ef772b8e18ad83702079504a69f58c53ffb6c5b69c2451f5846c0fde0ce"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:b119b2f55d364f6ade085a7bdb4b9011c1ce32261daf27008222c6225e2cbd3e",
+          "sha256": "b119b2f55d364f6ade085a7bdb4b9011c1ce32261daf27008222c6225e2cbd3e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:1cda240322bbc0a82d0ddee72c0ce7121931f5db909198f96d07b3e9db278add",
+          "sha256": "1cda240322bbc0a82d0ddee72c0ce7121931f5db909198f96d07b3e9db278add"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/imapsync/blobs/sha256:b260c61a02c6265f27a7e57451d28a0a5c97ce57b4e80e6c393b78c1fe31f9e9",
+          "sha256": "b260c61a02c6265f27a7e57451d28a0a5c97ce57b4e80e6c393b78c1fe31f9e9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pod2man"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/imapsync.rb",
+  "ruby_source_checksum": {
+    "sha256": "b588cb22d254e115ab5ad0d4d47e0cb84dd4881bb5a8c73d96054b32ab08f9ef"
+  },
+  "date_added": "2014-04-26T16:41:22-07:00"
+}

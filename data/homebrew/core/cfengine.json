@@ -1,0 +1,112 @@
+{
+  "name": "cfengine",
+  "full_name": "cfengine",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Help manage and understand IT infrastructure",
+  "license": "BSD-3-Clause and GPL-2.0-or-later and GPL-3.0-only and LGPL-2.0-or-later",
+  "homepage": "https://cfengine.com/",
+  "versions": {
+    "stable": "3.22.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cfengine-package-repos.s3.amazonaws.com/tarballs/cfengine-community-3.22.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c2e7ac88d2371fda2809e0bbd3a3908cab50592b6c1479353bd18ba809b93528"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:015b04d8465581173060924e86777a960531ccff34dee65d3b6758ca076841f2",
+          "sha256": "015b04d8465581173060924e86777a960531ccff34dee65d3b6758ca076841f2"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:3ebb2118a1c6e42c8641249b14d5f3febbd08b67dccf608f169fa6cad71f5e48",
+          "sha256": "3ebb2118a1c6e42c8641249b14d5f3febbd08b67dccf608f169fa6cad71f5e48"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:420ef43f40fc4f871ec83902e1c4388c4fe32499de45982de41f3e08b488ebd9",
+          "sha256": "420ef43f40fc4f871ec83902e1c4388c4fe32499de45982de41f3e08b488ebd9"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:c3a086085d47322e84e5c6ddc50a8bb82767f4609c5caea9ae0a906f99c13286",
+          "sha256": "c3a086085d47322e84e5c6ddc50a8bb82767f4609c5caea9ae0a906f99c13286"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:42eed03205b9d617c4e9d2f9181faee1bc9c854799bc4f380a33f0c4b0a07b69",
+          "sha256": "42eed03205b9d617c4e9d2f9181faee1bc9c854799bc4f380a33f0c4b0a07b69"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:f0cb272965fc3727754d71b4544f29ed432fef2efea743f29e0e273ed03af4ed",
+          "sha256": "f0cb272965fc3727754d71b4544f29ed432fef2efea743f29e0e273ed03af4ed"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cfengine/blobs/sha256:9f01d7f6ce91e60b9e19871da800a5f2355cec0df3db1462f8d01e0d4d1d6cbb",
+          "sha256": "9f01d7f6ce91e60b9e19871da800a5f2355cec0df3db1462f8d01e0d4d1d6cbb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "lmdb",
+    "openssl@3",
+    "pcre",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cfengine.rb",
+  "ruby_source_checksum": {
+    "sha256": "6f12ca46d1f71176418295608a97131c8fcec5671e9123bce019331c81e0eac4"
+  },
+  "date_added": "2011-09-02T10:01:41-07:00"
+}

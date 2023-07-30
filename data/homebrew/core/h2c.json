@@ -1,0 +1,73 @@
+{
+  "name": "h2c",
+  "full_name": "h2c",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Headers 2 curl",
+  "license": "MIT",
+  "homepage": "https://curl.se/h2c/",
+  "versions": {
+    "stable": "1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/curl/h2c/archive/refs/tags/1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1c5e4d76131abb5151c89cc54945256509dad9d12cab36205aa5bcd7f8a311af"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/h2c/blobs/sha256:6fd6c532ca1267e809b95532aae4a7663fe2c16375266530672ace7602fb2ab4",
+          "sha256": "6fd6c532ca1267e809b95532aae4a7663fe2c16375266530672ace7602fb2ab4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/h2c.rb",
+  "ruby_source_checksum": {
+    "sha256": "8c26543b95769e7ebfd6cac782037400f8f8c58eab8e24895ac14f47e9b3cb33"
+  },
+  "date_added": "2021-08-22T17:19:22+00:00"
+}

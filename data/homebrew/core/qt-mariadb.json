@@ -1,0 +1,116 @@
+{
+  "name": "qt-mariadb",
+  "full_name": "qt-mariadb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Qt SQL Database Driver",
+  "license": "GPL-2.0-only or GPL-3.0-only or LGPL-3.0-only",
+  "homepage": "https://www.qt.io/",
+  "versions": {
+    "stable": "6.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.qt.io/official_releases/qt/6.5/6.5.1/submodules/qtbase-everywhere-src-6.5.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "db56fa1f4303a1189fe33418d25d1924931c7aef237f89eea9de58e858eebfed"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:0afb4d84269cbfc9935f627c836ffca986beed1a27692ea54ed73b0bb35a2c38",
+          "sha256": "0afb4d84269cbfc9935f627c836ffca986beed1a27692ea54ed73b0bb35a2c38"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:93290c7540f30cf95194a35a5d5af5ad0579dd225fc14dd3030dc7f0ea8e61ca",
+          "sha256": "93290c7540f30cf95194a35a5d5af5ad0579dd225fc14dd3030dc7f0ea8e61ca"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:bedc5ada13d9417615056766bb610a071b36fa77e4a65c96097351b769a1a19c",
+          "sha256": "bedc5ada13d9417615056766bb610a071b36fa77e4a65c96097351b769a1a19c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:2ffc59d23e73c2e490a717ce08d05b5cb3304b281f09c687caa99add89541bb7",
+          "sha256": "2ffc59d23e73c2e490a717ce08d05b5cb3304b281f09c687caa99add89541bb7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:bd83fe0198c4744f34bd405a004c8c2f40f1205b93895626da614f798c1abb19",
+          "sha256": "bd83fe0198c4744f34bd405a004c8c2f40f1205b93895626da614f798c1abb19"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:9129dce0ee9c1f5f80631217f22edbf19887ab424964aca0683cbac5ca373411",
+          "sha256": "9129dce0ee9c1f5f80631217f22edbf19887ab424964aca0683cbac5ca373411"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-mariadb/blobs/sha256:8ff4239e1ab64da29d4c532c6d90b28f7f25133dcd6a4ad92846c5bfd8b07f9b",
+          "sha256": "8ff4239e1ab64da29d4c532c6d90b28f7f25133dcd6a4ad92846c5bfd8b07f9b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "mariadb",
+    "qt"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "qt-mysql",
+    "qt-percona-server"
+  ],
+  "conflicts_with_reasons": [
+    "qt-mysql, qt-mariadb, and qt-percona-server install the same binaries",
+    "qt-mysql, qt-mariadb, and qt-percona-server install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/qt-mariadb.rb",
+  "ruby_source_checksum": {
+    "sha256": "0ac8852eb09bdb1087a0213697796849e351b9dcecd78de5611236841da29de9"
+  },
+  "date_added": "2021-03-11T10:50:10+00:00"
+}

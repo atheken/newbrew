@@ -1,0 +1,111 @@
+{
+  "name": "bacon",
+  "full_name": "bacon",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Background rust code check",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://dystroy.org/bacon/",
+  "versions": {
+    "stable": "2.12.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Canop/bacon/archive/refs/tags/v2.12.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "612113c2b43f26b5b72262d4c964a98c153562cb7cbb27204900c9c72fbc0bdd"
+    },
+    "head": {
+      "url": "https://github.com/Canop/bacon.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:86243a5622f42e605edcdcab86044bcd75ea920dc5e393bf7b20ff6032f9a4b0",
+          "sha256": "86243a5622f42e605edcdcab86044bcd75ea920dc5e393bf7b20ff6032f9a4b0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:3694e7ab83855e798c38fd7528cdc564b3219582755b6836b3d0adf6e672901b",
+          "sha256": "3694e7ab83855e798c38fd7528cdc564b3219582755b6836b3d0adf6e672901b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:63fc357eb8c947cb33589da1a7a0780a0d8566c23fcc7b3176014402dfbb22e2",
+          "sha256": "63fc357eb8c947cb33589da1a7a0780a0d8566c23fcc7b3176014402dfbb22e2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:6d565a1b96e0f9b154adcc0da5856a45c143e56aec12c3d5802c26c38bc48fd3",
+          "sha256": "6d565a1b96e0f9b154adcc0da5856a45c143e56aec12c3d5802c26c38bc48fd3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:31c709cbafebfecd804d707740f3350d712407c1368930150638d5929157fb04",
+          "sha256": "31c709cbafebfecd804d707740f3350d712407c1368930150638d5929157fb04"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:0b5ed2335c041176bfab66c4eb06d6107fb8cee0b12f0798caa54ffb9535e503",
+          "sha256": "0b5ed2335c041176bfab66c4eb06d6107fb8cee0b12f0798caa54ffb9535e503"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bacon/blobs/sha256:2d28ff8efa4996801e8dc5fb435a27c45b93042f492b7fa0a092dad0cfc6ca0a",
+          "sha256": "2d28ff8efa4996801e8dc5fb435a27c45b93042f492b7fa0a092dad0cfc6ca0a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "rustup-init"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bacon.rb",
+  "ruby_source_checksum": {
+    "sha256": "612a1b18bbeb1b3bd1da64d798c2a3f3fe3ecd500c7026e33dc1ca2a27cefd49"
+  },
+  "date_added": "2023-07-16T14:39:10-04:00"
+}

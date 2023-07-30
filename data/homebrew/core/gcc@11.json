@@ -1,0 +1,123 @@
+{
+  "name": "gcc@11",
+  "full_name": "gcc@11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "gcc@12",
+    "gcc@10",
+    "gcc@9",
+    "gcc@8",
+    "gcc@7",
+    "gcc@6",
+    "gcc@5",
+    "gcc@4.9"
+  ],
+  "desc": "GNU compiler collection",
+  "license": "GPL-3.0-or-later with GCC-exception-3.1",
+  "homepage": "https://gcc.gnu.org/",
+  "versions": {
+    "stable": "11.4.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-11.4.0/gcc-11.4.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3f2db222b007e8a4a23cd5ba56726ef08e8b1f1eb2055ee72c1402cea73a8dd9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:3ce21c85558296a85d1d812068b7f025490677fdd5147f5f1278b59637541b22",
+          "sha256": "3ce21c85558296a85d1d812068b7f025490677fdd5147f5f1278b59637541b22"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:b24f95edca8b2f73c7d75f83d2acbf5b03b27fc5f575de84183002f093a7c77b",
+          "sha256": "b24f95edca8b2f73c7d75f83d2acbf5b03b27fc5f575de84183002f093a7c77b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:5b069149e7d61489428816cad9143bf5ed1db6122d13026bf57c2fed22cadda0",
+          "sha256": "5b069149e7d61489428816cad9143bf5ed1db6122d13026bf57c2fed22cadda0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:c9de346027021d6d3cf858b0baf79173900930556d57b68e84a9c43acb817bc8",
+          "sha256": "c9de346027021d6d3cf858b0baf79173900930556d57b68e84a9c43acb817bc8"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:a7d2b4a88d82f6f18eea6a5f845e97a38faee6f0322156bbcedeb13cd2a591f3",
+          "sha256": "a7d2b4a88d82f6f18eea6a5f845e97a38faee6f0322156bbcedeb13cd2a591f3"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:2256527e6fbef29473cc43c8220ac0d1274000949f64f71d7fb5e6832d251d8a",
+          "sha256": "2256527e6fbef29473cc43c8220ac0d1274000949f64f71d7fb5e6832d251d8a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcc/11/blobs/sha256:8d9a19ebac8d51fd1c9169b11ae64647fedcd041ba1e6ef3a9fa6436ec2cfa2c",
+          "sha256": "8d9a19ebac8d51fd1c9169b11ae64647fedcd041ba1e6ef3a9fa6436ec2cfa2c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp",
+    "isl",
+    "libmpc",
+    "mpfr",
+    "zstd",
+    "binutils"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gcc@11.rb",
+  "ruby_source_checksum": {
+    "sha256": "beb201d7aaa948904e361194b08d45bc25532f253c8ec1d18d6f653e3759084c"
+  },
+  "date_added": "2022-08-06T04:48:37+00:00"
+}

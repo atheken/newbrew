@@ -1,0 +1,103 @@
+{
+  "name": "daemon",
+  "full_name": "daemon",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Turn other processes into daemons",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://libslack.org/daemon/",
+  "versions": {
+    "stable": "0.8.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://libslack.org/daemon/download/daemon-0.8.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b34b37543bba43bd086e59f4b754c8102380ae5c1728b987c890d5da4b4cf3ca"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:67168d0e776fca5e0e6c2978c744e114ed90ba1555262d645e5f1a79ae844b3e",
+          "sha256": "67168d0e776fca5e0e6c2978c744e114ed90ba1555262d645e5f1a79ae844b3e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:7bb7cbcb55ae6142dc315b12243d5bdbc75d7cb26a724233ab4ab4d56f6cc7bc",
+          "sha256": "7bb7cbcb55ae6142dc315b12243d5bdbc75d7cb26a724233ab4ab4d56f6cc7bc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:c909f0b70f33ca40fcf32af53f16c9578f1155610a2ecdf0eed200d82a1ecaed",
+          "sha256": "c909f0b70f33ca40fcf32af53f16c9578f1155610a2ecdf0eed200d82a1ecaed"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:9d82ecab6f3639a579a82698613d536d7a5081ebb7fa043002d35ffb2b2ca779",
+          "sha256": "9d82ecab6f3639a579a82698613d536d7a5081ebb7fa043002d35ffb2b2ca779"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:6d699c3e932cf93485868577a79bbbd3fa67eaaea6d536923d07211306c22f0c",
+          "sha256": "6d699c3e932cf93485868577a79bbbd3fa67eaaea6d536923d07211306c22f0c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:85e794a262a2f956b7b17c862840516b274a3c99402e5d6597d085868d8efdd0",
+          "sha256": "85e794a262a2f956b7b17c862840516b274a3c99402e5d6597d085868d8efdd0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/daemon/blobs/sha256:584fe06d9ec4dc1a7a47c54407a1e88421ae6ea40282f56d74e00bef6228f8f1",
+          "sha256": "584fe06d9ec4dc1a7a47c54407a1e88421ae6ea40282f56d74e00bef6228f8f1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/daemon.rb",
+  "ruby_source_checksum": {
+    "sha256": "2313d5e1165e35ffc011dda05335c552ff71322157beffeef7d9aadb57043ba7"
+  },
+  "date_added": "2011-11-12T18:46:58-06:00"
+}

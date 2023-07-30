@@ -1,0 +1,112 @@
+{
+  "name": "pyyaml",
+  "full_name": "pyyaml",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "YAML framework for Python",
+  "license": "MIT",
+  "homepage": "https://pyyaml.org",
+  "versions": {
+    "stable": "6.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:7e52df0812b2d3714c1d1504cbd07597aea578b1646e35ce2275fc484dd50957",
+          "sha256": "7e52df0812b2d3714c1d1504cbd07597aea578b1646e35ce2275fc484dd50957"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:c587e1c3c419d096678d0870087d1bb97f3b12f3bf264dde670c9d42c257bcd0",
+          "sha256": "c587e1c3c419d096678d0870087d1bb97f3b12f3bf264dde670c9d42c257bcd0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:0834240857ef7d9f218257b66407fcf35ec9b213c4bb47cbf1760340991a9d70",
+          "sha256": "0834240857ef7d9f218257b66407fcf35ec9b213c4bb47cbf1760340991a9d70"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:3b77e8fcf1b747a263090daaa112390f47645bbfc16e56acac7de176ba874419",
+          "sha256": "3b77e8fcf1b747a263090daaa112390f47645bbfc16e56acac7de176ba874419"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:e0b2451c2879083e566e96a20ca62ab210572789b02fe9f5c3157d818b7b91c5",
+          "sha256": "e0b2451c2879083e566e96a20ca62ab210572789b02fe9f5c3157d818b7b91c5"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:28519daaaae05ab448355b3ee342b36c2493a3e90eb1d1d76ec5f49161259aca",
+          "sha256": "28519daaaae05ab448355b3ee342b36c2493a3e90eb1d1d76ec5f49161259aca"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyyaml/blobs/sha256:5d040e378298ea7ec94cfd92d3f41fb6dbeb4a07de2613a043db984a5624032c",
+          "sha256": "5d040e378298ea7ec94cfd92d3f41fb6dbeb4a07de2613a043db984a5624032c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cython",
+    "python@3.10",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "libyaml"
+  ],
+  "test_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "This formula provides the `yaml` module for Python 3.10, 3.11.\nIf you need `yaml` for a different version of Python, use pip.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pyyaml.rb",
+  "ruby_source_checksum": {
+    "sha256": "476772b95149b916786db1135683d136983aa613f6d601ba45fd431e59a6b08c"
+  },
+  "date_added": "2022-09-10T11:30:58+00:00"
+}

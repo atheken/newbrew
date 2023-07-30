@@ -1,0 +1,156 @@
+{
+  "name": "knot",
+  "full_name": "knot",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance authoritative-only DNS server",
+  "license": "GPL-3.0-or-later and 0BSD and BSD-3-Clause and LGPL-2.0-or-later and MIT",
+  "homepage": "https://www.knot-dns.cz/",
+  "versions": {
+    "stable": "3.2.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://secure.nic.cz/files/knot-dns/knot-3.2.9.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bc1f9eb8c9f67f52805f3acfa2d0153190245fa145b007fafa9068d2da292506"
+    },
+    "head": {
+      "url": "https://gitlab.labs.nic.cz/knot/knot-dns.git",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:25c40f24b9d22f4d12dda0bc390944f2057b64554bdc37b1a1426a38d722142d",
+          "sha256": "25c40f24b9d22f4d12dda0bc390944f2057b64554bdc37b1a1426a38d722142d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:19e054cab71eefe9862c8c3579bbbe5c20041d1a73124278fe4434a221bcaadf",
+          "sha256": "19e054cab71eefe9862c8c3579bbbe5c20041d1a73124278fe4434a221bcaadf"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:2466d9f5212edb548aaa90e58756f4776a1e55b8d07cc63e58fb578604b62f8a",
+          "sha256": "2466d9f5212edb548aaa90e58756f4776a1e55b8d07cc63e58fb578604b62f8a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:7e94e8e00724f7d7f07623e72c5959b306f7484d3159b8287287193bcefcf434",
+          "sha256": "7e94e8e00724f7d7f07623e72c5959b306f7484d3159b8287287193bcefcf434"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:980b43439226cbc6e2e8f25b19f35c712d8827a086029bb9cd641571b3d55596",
+          "sha256": "980b43439226cbc6e2e8f25b19f35c712d8827a086029bb9cd641571b3d55596"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:e4d85f64a2a641d87bff677f37ac094a6af53845c76e99a1ef19d44b8a9c6a04",
+          "sha256": "e4d85f64a2a641d87bff677f37ac094a6af53845c76e99a1ef19d44b8a9c6a04"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/knot/blobs/sha256:467e952639225de5dd7b830c733750992479db99e070ad7218625b92f8f44642",
+          "sha256": "467e952639225de5dd7b830c733750992479db99e070ad7218625b92f8f44642"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "sphinx-doc"
+  ],
+  "dependencies": [
+    "fstrm",
+    "gnutls",
+    "libidn2",
+    "libnghttp2",
+    "lmdb",
+    "protobuf-c",
+    "userspace-rcu"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libedit"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/knot/sbin/knotd",
+    "run_type": "immediate",
+    "require_root": true,
+    "input_path": "/dev/null",
+    "log_path": "/dev/null",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/knot.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/knot.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1bbfe7146a89d4c4bb01ecb039cec5b16863923cc91a38bdc0ef2937fb15fad"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config",
+      "sphinx-doc"
+    ],
+    "dependencies": [
+      "fstrm",
+      "gnutls",
+      "libidn2",
+      "libnghttp2",
+      "lmdb",
+      "protobuf-c",
+      "userspace-rcu"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libedit"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2014-05-13T11:21:52-07:00"
+}

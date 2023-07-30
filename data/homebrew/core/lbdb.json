@@ -1,0 +1,105 @@
+{
+  "name": "lbdb",
+  "full_name": "lbdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Little brother's database for the mutt mail reader",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.spinnaker.de/lbdb/",
+  "versions": {
+    "stable": "0.52.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.spinnaker.de/lbdb/download/lbdb-0.52.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "186b263056bc979d399d1d7f29664e84dd7a4282ffbe4378cb567e55318d7929"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:26d0fcf12fc5b34e47e3db5a46f9831ced0fb27aca85ba5027569a400f420535",
+          "sha256": "26d0fcf12fc5b34e47e3db5a46f9831ced0fb27aca85ba5027569a400f420535"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:c248dcc59fa3b06d9e06b99b28890b6cc0abb0befc3bbfffbcb37ab1adfe340f",
+          "sha256": "c248dcc59fa3b06d9e06b99b28890b6cc0abb0befc3bbfffbcb37ab1adfe340f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:878500511fdf5242a88d2f5e5b93eb8a53e55af14563eef61aacf1cbf133e89a",
+          "sha256": "878500511fdf5242a88d2f5e5b93eb8a53e55af14563eef61aacf1cbf133e89a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:e9c3c09538c18af545e116b1669ca8d8bde510a5e8870a76731630b1cc67a7b1",
+          "sha256": "e9c3c09538c18af545e116b1669ca8d8bde510a5e8870a76731630b1cc67a7b1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:9330d60cc8d13e3cb3cbacf0be304fd72ee8a91ceaa85e05415be82882606fcf",
+          "sha256": "9330d60cc8d13e3cb3cbacf0be304fd72ee8a91ceaa85e05415be82882606fcf"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:76c658923b409f0398bde5d1cacdee3964f8620651f1d039788c782d5205e7d6",
+          "sha256": "76c658923b409f0398bde5d1cacdee3964f8620651f1d039788c782d5205e7d6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lbdb/blobs/sha256:89941ede433bacad1a798d2d5e16962df39cb8ce184485c19e755b56feb4e6a4",
+          "sha256": "89941ede433bacad1a798d2d5e16962df39cb8ce184485c19e755b56feb4e6a4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "abook"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lbdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "a4b24b4b493516aa16f6360b387ede7c99badc523131dd24d193da3af41210a8"
+  },
+  "date_added": "2009-09-30T00:04:56+01:00"
+}

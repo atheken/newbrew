@@ -1,0 +1,105 @@
+{
+  "name": "cloudprober",
+  "full_name": "cloudprober",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Active monitoring software to detect failures before your customers do",
+  "license": "Apache-2.0",
+  "homepage": "https://cloudprober.org",
+  "versions": {
+    "stable": "0.12.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cloudprober/cloudprober/archive/refs/tags/v0.12.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b33653db6de2c2f07b2b4c552630b6ad9e21b49eeb0b07f73f1629d318bdd08"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:4de0a01a6d52b6704fbb5670d7d8720f094ac0298f59ad3064fba8b7f513dc59",
+          "sha256": "4de0a01a6d52b6704fbb5670d7d8720f094ac0298f59ad3064fba8b7f513dc59"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:5a7ca5118127487e47385b8c903728e24e0bb7842565efdbb1b0be4c0e7e2e54",
+          "sha256": "5a7ca5118127487e47385b8c903728e24e0bb7842565efdbb1b0be4c0e7e2e54"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:04584dec3bd9a4e356399329474e33d6fde3c3681da06ea795b1464ab24cd84f",
+          "sha256": "04584dec3bd9a4e356399329474e33d6fde3c3681da06ea795b1464ab24cd84f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:2fcddc1e8300214f3a62d9a1cbe79a7f72c079730e8b392521d855f64316b2dc",
+          "sha256": "2fcddc1e8300214f3a62d9a1cbe79a7f72c079730e8b392521d855f64316b2dc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:8c3d80c17fd3fa6b714a21acf318f29f107d8fad6e9e7328a236c1087db98c7b",
+          "sha256": "8c3d80c17fd3fa6b714a21acf318f29f107d8fad6e9e7328a236c1087db98c7b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:67600bbd3259ca75a1e0178a8eaa953a0aef89fd375fbccda3392cdee9a9806e",
+          "sha256": "67600bbd3259ca75a1e0178a8eaa953a0aef89fd375fbccda3392cdee9a9806e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudprober/blobs/sha256:b29f78f623622f74384c125c0f2b47e67afe2c1db1b3ada0db5524e6f4d26cf0",
+          "sha256": "b29f78f623622f74384c125c0f2b47e67afe2c1db1b3ada0db5524e6f4d26cf0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cloudprober.rb",
+  "ruby_source_checksum": {
+    "sha256": "58edfcaef2735787a3eb361aa0f33d9811c02090ed369fc753c102e791816c5f"
+  },
+  "date_added": "2022-10-28T14:09:40+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "tlx",
+  "full_name": "tlx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Collection of Sophisticated C++ Data Structures, Algorithms and Helpers",
+  "license": "BSL-1.0",
+  "homepage": "https://tlx.github.io",
+  "versions": {
+    "stable": "0.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tlx/tlx/archive/v0.6.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "24dd1acf36dd43b8e0414420e3f9adc2e6bb0e75047e872a06167961aedad769"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:c5bf4de79e505634d807afd511f8c30b43e1f770a0d727549f8428fa504308f2",
+          "sha256": "c5bf4de79e505634d807afd511f8c30b43e1f770a0d727549f8428fa504308f2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:4d67f614d8877c5fc1796c9e7c4d913fe085890e2556908fb7d0ee767c7bbdd3",
+          "sha256": "4d67f614d8877c5fc1796c9e7c4d913fe085890e2556908fb7d0ee767c7bbdd3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:14ad8d90c73c62b2e9b1332ed5ffbe59487cfbcf36d0157390fd9e59327ec6c5",
+          "sha256": "14ad8d90c73c62b2e9b1332ed5ffbe59487cfbcf36d0157390fd9e59327ec6c5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:1fa9c67739a557c7faba1bf0a20352d8ecef8e79f32ba8caf2ef293fdc098dcd",
+          "sha256": "1fa9c67739a557c7faba1bf0a20352d8ecef8e79f32ba8caf2ef293fdc098dcd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:0065add2f25b25eeb527aeb48625e34563d0afb702a496c67223ee78f3570547",
+          "sha256": "0065add2f25b25eeb527aeb48625e34563d0afb702a496c67223ee78f3570547"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:00ee92b029c92c9ac1f8326e9b039970097b802fe6ab79c2b8cf33251e3e7f60",
+          "sha256": "00ee92b029c92c9ac1f8326e9b039970097b802fe6ab79c2b8cf33251e3e7f60"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tlx/blobs/sha256:e67f35bf407415cf0ab4f5afba211439f82b8da3495a6a52b0301c3a76f099b8",
+          "sha256": "e67f35bf407415cf0ab4f5afba211439f82b8da3495a6a52b0301c3a76f099b8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tlx.rb",
+  "ruby_source_checksum": {
+    "sha256": "2e8131fed5ba3f95b59e653d7a200d3a369dbef43a43e94f27d9fae25681eeec"
+  },
+  "date_added": "2020-03-12T13:39:15+00:00"
+}

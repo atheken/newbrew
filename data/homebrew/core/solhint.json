@@ -1,0 +1,75 @@
+{
+  "name": "solhint",
+  "full_name": "solhint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Linter for Solidity code",
+  "license": "MIT",
+  "homepage": "https://protofire.github.io/solhint/",
+  "versions": {
+    "stable": "3.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/solhint/-/solhint-3.4.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "84c80f5c8bc41314f0957e01820078637a36809ce4e09efdef1c65060c56f7a4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solhint/blobs/sha256:3c29e86604cde4fe7925063eaed32eb2c72744669e2d1d2ba77953d2f2313a71",
+          "sha256": "3c29e86604cde4fe7925063eaed32eb2c72744669e2d1d2ba77953d2f2313a71"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/solhint.rb",
+  "ruby_source_checksum": {
+    "sha256": "7ff6446909567a53a9e94e7c223398aecdbcb65b1954b569b5c764ddf9df00f9"
+  },
+  "date_added": "2023-02-19T22:20:59+00:00"
+}

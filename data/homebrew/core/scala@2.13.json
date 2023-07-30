@@ -1,0 +1,81 @@
+{
+  "name": "scala@2.13",
+  "full_name": "scala@2.13",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "scala@2.12",
+    "scala@2.11"
+  ],
+  "desc": "JVM-based programming language",
+  "license": "Apache-2.0",
+  "homepage": "https://www.scala-lang.org/",
+  "versions": {
+    "stable": "2.13.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.lightbend.com/scala/2.13.11/scala-2.13.11.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6182dd81d2023cce527333ed785b1aa23a98e87dc855aba38ba4892dc6aaf1e3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scala/2.13/blobs/sha256:a3d6c2ad1f020aab87c0783574771cfcbd3a98bf46e0488348df692437748870",
+          "sha256": "a3d6c2ad1f020aab87c0783574771cfcbd3a98bf46e0488348df692437748870"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use with IntelliJ, set the Scala home to:\n  $HOMEBREW_PREFIX/opt/scala@2.13/idea\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scala@2.13.rb",
+  "ruby_source_checksum": {
+    "sha256": "f5bcb18b318e6d57d350e6c6c252ced2d4a2e3b0d80c061acf6779129633ecff"
+  },
+  "date_added": "2022-09-20T15:14:53+00:00"
+}

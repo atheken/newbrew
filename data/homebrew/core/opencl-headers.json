@@ -1,0 +1,112 @@
+{
+  "name": "opencl-headers",
+  "full_name": "opencl-headers",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C language header files for the OpenCL API",
+  "license": "Apache-2.0",
+  "homepage": "https://www.khronos.org/registry/OpenCL/",
+  "versions": {
+    "stable": "2023.04.17",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/KhronosGroup/OpenCL-Headers/archive/refs/tags/v2023.04.17.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0ce992f4167f958f68a37918dec6325be18f848dee29a4521c633aae3304915d"
+    },
+    "head": {
+      "url": "https://github.com/KhronosGroup/OpenCL-Headers.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29",
+          "sha256": "d8bc77ea328329b357d2782a4a7f540bf6cfc8b63d308652b1c0ca0c06d0ce29"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencl-headers/blobs/sha256:e4ebc91efd80fdd10af86d228a281056bd00cb709739b0269db06c77002ea6e3",
+          "sha256": "e4ebc91efd80fdd10af86d228a281056bd00cb709739b0269db06c77002ea6e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":shadowed_by_macos",
+    "explanation": "macOS provides OpenCL.framework"
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opencl-headers.rb",
+  "ruby_source_checksum": {
+    "sha256": "8dd54689a76ee0fc534c5191eea53a1e42d76905a077f5a8beeca0e2f02356d8"
+  },
+  "date_added": "2022-06-08T07:00:53+00:00"
+}

@@ -1,0 +1,145 @@
+{
+  "name": "freerdp",
+  "full_name": "freerdp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X11 implementation of the Remote Desktop Protocol (RDP)",
+  "license": "Apache-2.0",
+  "homepage": "https://www.freerdp.com/",
+  "versions": {
+    "stable": "2.10.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/FreeRDP/FreeRDP/archive/2.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "88fa59f8e8338d5cb2490d159480564562a5624f3a3572c89fa3070b9626835c"
+    },
+    "head": {
+      "url": "https://github.com/FreeRDP/FreeRDP.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:f1db8f50c5fe4ff993c6a6b72d8e6873fe8aff3e9edb6aeab8132a5b90c57604",
+          "sha256": "f1db8f50c5fe4ff993c6a6b72d8e6873fe8aff3e9edb6aeab8132a5b90c57604"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:ac9fe6b9270f32b24308a11a1b44e0cc7bdda8fda9e39344f7cb31561fd26e27",
+          "sha256": "ac9fe6b9270f32b24308a11a1b44e0cc7bdda8fda9e39344f7cb31561fd26e27"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:16e00d3b71957ce3a40d297543ae23cd4eca38d8c39c4e741e9b72da2dd3709c",
+          "sha256": "16e00d3b71957ce3a40d297543ae23cd4eca38d8c39c4e741e9b72da2dd3709c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:555a15ff9e75aa6fd486f4ac9980df93b1344382cf6e5b5cc4c5a70024480083",
+          "sha256": "555a15ff9e75aa6fd486f4ac9980df93b1344382cf6e5b5cc4c5a70024480083"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:587de54a0cf9a89fe1fc0f153c3fdcf3d0c944917bba62f716602e5b6eb46a4a",
+          "sha256": "587de54a0cf9a89fe1fc0f153c3fdcf3d0c944917bba62f716602e5b6eb46a4a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:2bb947c3e0002c1035dc98dff3a78879107d851837e047f0bf5f31fa21e15203",
+          "sha256": "2bb947c3e0002c1035dc98dff3a78879107d851837e047f0bf5f31fa21e15203"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/freerdp/blobs/sha256:0f748f1eab362120a49bb3a6031b614536278819ef09988d3e5b0c5fff7b4e58",
+          "sha256": "0f748f1eab362120a49bb3a6031b614536278819ef09988d3e5b0c5fff7b4e58"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "jpeg-turbo",
+    "libusb",
+    "libx11",
+    "libxcursor",
+    "libxext",
+    "libxfixes",
+    "libxi",
+    "libxinerama",
+    "libxrandr",
+    "libxrender",
+    "libxv",
+    "openssl@3",
+    "alsa-lib",
+    "ffmpeg@4",
+    "glib",
+    "systemd",
+    "wayland"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "cups"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "xfreerdp is an X11 application that requires an XServer be installed\nand running. Lack of a running XServer will cause a \"$DISPLAY\" error.\n\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freerdp.rb",
+  "ruby_source_checksum": {
+    "sha256": "50401beb3edc3f41fdeeb699eeab5095e804c93361c0eafb92f4143c64abd8c3"
+  },
+  "date_added": "2012-03-15T17:52:24-07:00"
+}

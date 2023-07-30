@@ -1,0 +1,111 @@
+{
+  "name": "csfml",
+  "full_name": "csfml",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SMFL bindings for C",
+  "license": "Zlib",
+  "homepage": "https://www.sfml-dev.org/",
+  "versions": {
+    "stable": "2.5.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/SFML/CSFML/archive/2.5.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2671f1cd2a4e54e86f7483c4683132466c01a6ca90fa010bc4964a8820c36f06"
+    },
+    "head": {
+      "url": "https://github.com/SFML/CSFML.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:ffe6c174f1386b9aa9e82eebf34240395dec2167a8783861cb10fd9f64654275",
+          "sha256": "ffe6c174f1386b9aa9e82eebf34240395dec2167a8783861cb10fd9f64654275"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:4d40b9e48454350f58bac875b12091e58de655677abc212eb32808fa97536fe2",
+          "sha256": "4d40b9e48454350f58bac875b12091e58de655677abc212eb32808fa97536fe2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:caa271cb7428aa9813fada7fe4d080faa058f3b1599c2ef4eff05453260658a3",
+          "sha256": "caa271cb7428aa9813fada7fe4d080faa058f3b1599c2ef4eff05453260658a3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:dd3a2adba0082f3d5505d1564345bd28ccfa2a4eaf00642558354e025140a7c0",
+          "sha256": "dd3a2adba0082f3d5505d1564345bd28ccfa2a4eaf00642558354e025140a7c0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:881ff68b8f8a5e2f9e4feac22d1af3f7255179bd0cac00720e358059a717be5f",
+          "sha256": "881ff68b8f8a5e2f9e4feac22d1af3f7255179bd0cac00720e358059a717be5f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:37b4d2ae7b2f5ff1a9032b8086eaa7b0d3960185f264f28992d053621feb094a",
+          "sha256": "37b4d2ae7b2f5ff1a9032b8086eaa7b0d3960185f264f28992d053621feb094a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csfml/blobs/sha256:33bc409017a399d20809d94e7280864a48125da44205a2a64ed9de6e0298b971",
+          "sha256": "33bc409017a399d20809d94e7280864a48125da44205a2a64ed9de6e0298b971"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "sfml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/csfml.rb",
+  "ruby_source_checksum": {
+    "sha256": "3bf3b5fc1b0884cd8cd5465979eafe39f2a216bb2048b2af003f245cfc5814a1"
+  },
+  "date_added": "2014-08-30T08:14:29+01:00"
+}

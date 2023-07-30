@@ -1,0 +1,108 @@
+{
+  "name": "himalaya",
+  "full_name": "himalaya",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI email client written in Rust",
+  "license": "MIT",
+  "homepage": "https://pimalaya.org/himalaya/",
+  "versions": {
+    "stable": "0.8.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/soywod/himalaya/archive/v0.8.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "61f0535c37baac58a6cae8e793fd8d9be84ab47d74e69bdc3cf43e5676e6cb6d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:6e8a47d949b8d48ab0de7ed9752242ed99727eb45deaed4e1a7bdc39b3cb94a8",
+          "sha256": "6e8a47d949b8d48ab0de7ed9752242ed99727eb45deaed4e1a7bdc39b3cb94a8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:6cca94538b01a1afed3020e908a4b4befb2f42b302946381b1ba1461f9106bc8",
+          "sha256": "6cca94538b01a1afed3020e908a4b4befb2f42b302946381b1ba1461f9106bc8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:8c1b55463dd33fb728b29727151df0c505add93d474e197221022cc0fe246769",
+          "sha256": "8c1b55463dd33fb728b29727151df0c505add93d474e197221022cc0fe246769"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:7e913abb3fb064d195900e75f921f18f31aa553adaa501efb43888ffb77f2503",
+          "sha256": "7e913abb3fb064d195900e75f921f18f31aa553adaa501efb43888ffb77f2503"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:d8f0ae0cd2264cb0ac61d3a4afa5204968d711b952e57844b6a8fdfed9828b26",
+          "sha256": "d8f0ae0cd2264cb0ac61d3a4afa5204968d711b952e57844b6a8fdfed9828b26"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:b47125bda5b11d0f470f14a39057764c4ba7f45c82947f00f50479a8a9a70a10",
+          "sha256": "b47125bda5b11d0f470f14a39057764c4ba7f45c82947f00f50479a8a9a70a10"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/himalaya/blobs/sha256:cffa9c9979025649bd76c86ac3acde0beccc4c843b1f7c061a65b79c8704f2e3",
+          "sha256": "cffa9c9979025649bd76c86ac3acde0beccc4c843b1f7c061a65b79c8704f2e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/himalaya.rb",
+  "ruby_source_checksum": {
+    "sha256": "4d1fe6affc42ffab5780946c67593ba6119867f177d339d4501ab4e09f948f71"
+  },
+  "date_added": "2021-06-04T07:38:54+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "go-jsonnet",
+  "full_name": "go-jsonnet",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Go implementation of configuration language for defining JSON data",
+  "license": "Apache-2.0",
+  "homepage": "https://jsonnet.org/",
+  "versions": {
+    "stable": "0.20.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/go-jsonnet/archive/v0.20.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bf9923a848dba65fa99f6e926221ab4222c2f259ba837d279b43917962bc7d70"
+    },
+    "head": {
+      "url": "https://github.com/google/go-jsonnet.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:d7ef4c5d8638c9eb8197bd5be4bfc1e1e52d6dcb7275fe193850b4729ca199af",
+          "sha256": "d7ef4c5d8638c9eb8197bd5be4bfc1e1e52d6dcb7275fe193850b4729ca199af"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:9f6ee690b5458c98426e668d40adc3d9f392b1a3d66a084eb5661dd032ba25d6",
+          "sha256": "9f6ee690b5458c98426e668d40adc3d9f392b1a3d66a084eb5661dd032ba25d6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:047317978d20c496cecfed47b54268962b041ef4599de8d46218f382b2ff60d9",
+          "sha256": "047317978d20c496cecfed47b54268962b041ef4599de8d46218f382b2ff60d9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:0cb7c6f14e4d80552bb290c3f6f9cfe564ca46c37756b14a86adf0ddf671e146",
+          "sha256": "0cb7c6f14e4d80552bb290c3f6f9cfe564ca46c37756b14a86adf0ddf671e146"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:ad1d51519e7a45af2b8132258360965ca84d7b9e4a36ea30dc5b708682ef06d8",
+          "sha256": "ad1d51519e7a45af2b8132258360965ca84d7b9e4a36ea30dc5b708682ef06d8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:c11c053543e2d2bae86497ceadb07ebd78949aa4822a7061757604a920ce3e1b",
+          "sha256": "c11c053543e2d2bae86497ceadb07ebd78949aa4822a7061757604a920ce3e1b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-jsonnet/blobs/sha256:b6e4b46c874cc4019c247df166cf633df2dbf0dd77e8046aae0cb6594c49cf4b",
+          "sha256": "b6e4b46c874cc4019c247df166cf633df2dbf0dd77e8046aae0cb6594c49cf4b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "jsonnet"
+  ],
+  "conflicts_with_reasons": [
+    "both install binaries with the same name"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/go-jsonnet.rb",
+  "ruby_source_checksum": {
+    "sha256": "acd49c509a5f878c24717dba58607884624eb052600b86eca462c260b4016016"
+  },
+  "date_added": "2020-04-15T04:40:11+00:00"
+}

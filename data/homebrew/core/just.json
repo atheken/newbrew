@@ -1,0 +1,109 @@
+{
+  "name": "just",
+  "full_name": "just",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Handy way to save and run project-specific commands",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/casey/just",
+  "versions": {
+    "stable": "1.14.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/casey/just/archive/1.14.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "021d4dee59ddfd86ab87b9c9423b9a8126932c844da9765a35eb1ccb8f6cf4ce"
+    },
+    "head": {
+      "url": "https://github.com/casey/just.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:1d7b2cd7fb280dbe9bdfb365b0eba775fbe467d51760a247130ddc2f23ef382e",
+          "sha256": "1d7b2cd7fb280dbe9bdfb365b0eba775fbe467d51760a247130ddc2f23ef382e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:085625e36867272e81b8870907a063babaa9c14c3fdfd04e4584e7c808363c14",
+          "sha256": "085625e36867272e81b8870907a063babaa9c14c3fdfd04e4584e7c808363c14"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:e91a75faf9d618a388d0f7245f92edd72d3c7654682a40f4f57bbd396ebacf5f",
+          "sha256": "e91a75faf9d618a388d0f7245f92edd72d3c7654682a40f4f57bbd396ebacf5f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:cf499f26cdb67badc7bbc6e562d7adbfad300b29a64d1eb76febca245a26d8cf",
+          "sha256": "cf499f26cdb67badc7bbc6e562d7adbfad300b29a64d1eb76febca245a26d8cf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:5d2116df04de9e9f00b4754c4f60152991bc81ae0b3acd61c369348e08d72b55",
+          "sha256": "5d2116df04de9e9f00b4754c4f60152991bc81ae0b3acd61c369348e08d72b55"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:e33d9aa36f7e32a029cc5ab371b48be1250c2dab0c76f1823f6f2ad3b52714b3",
+          "sha256": "e33d9aa36f7e32a029cc5ab371b48be1250c2dab0c76f1823f6f2ad3b52714b3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/just/blobs/sha256:cec55b92f82be562549c029523a8e8e758c9d823adb96e0a04f80bb3e8e0932d",
+          "sha256": "cec55b92f82be562549c029523a8e8e758c9d823adb96e0a04f80bb3e8e0932d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/just.rb",
+  "ruby_source_checksum": {
+    "sha256": "5f7b53eb7960a7899ee6d8253c31628d03430d9be1f679c3ed08c9751df74c5c"
+  },
+  "date_added": "2017-11-07T10:43:34-06:00"
+}

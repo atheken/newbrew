@@ -1,0 +1,114 @@
+{
+  "name": "qt-unixodbc",
+  "full_name": "qt-unixodbc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Qt SQL Database Driver",
+  "license": "GPL-2.0-only or GPL-3.0-only or LGPL-3.0-only",
+  "homepage": "https://www.qt.io/",
+  "versions": {
+    "stable": "6.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.qt.io/official_releases/qt/6.5/6.5.1/submodules/qtbase-everywhere-src-6.5.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "db56fa1f4303a1189fe33418d25d1924931c7aef237f89eea9de58e858eebfed"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:fbae1c11298d5b3b00fc2297222bc877ef67508ea0b75152d3cb86d4880db3b6",
+          "sha256": "fbae1c11298d5b3b00fc2297222bc877ef67508ea0b75152d3cb86d4880db3b6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:09bf198d7066f0af56cc84907a5c35817f3460788c084ae16f9d5ef4587f0e45",
+          "sha256": "09bf198d7066f0af56cc84907a5c35817f3460788c084ae16f9d5ef4587f0e45"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:0b16a536b91cb783230feb7d1a492700215071b532934c7d2be44b001be52e3a",
+          "sha256": "0b16a536b91cb783230feb7d1a492700215071b532934c7d2be44b001be52e3a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:6d8f3b7fbf38c0fed278f3189ebde536c34884ecf72a477b24a93b03348867b0",
+          "sha256": "6d8f3b7fbf38c0fed278f3189ebde536c34884ecf72a477b24a93b03348867b0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:5ce7fa0555edfd016950adeae6afb3170cb7d0941b972eb023bfcc2ce4dc35f4",
+          "sha256": "5ce7fa0555edfd016950adeae6afb3170cb7d0941b972eb023bfcc2ce4dc35f4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:2f82e90fef0117dad086ba0ed050a9c3d05e9b6ff2fc5bf8f48827631cb04867",
+          "sha256": "2f82e90fef0117dad086ba0ed050a9c3d05e9b6ff2fc5bf8f48827631cb04867"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-unixodbc/blobs/sha256:38babc2a0d860ce81a80363d0ab766742ef413197a0fd7084dd05a55f2eed9e1",
+          "sha256": "38babc2a0d860ce81a80363d0ab766742ef413197a0fd7084dd05a55f2eed9e1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "qt",
+    "unixodbc"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "qt-libiodbc"
+  ],
+  "conflicts_with_reasons": [
+    "qt-unixodbc and qt-libiodbc install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/qt-unixodbc.rb",
+  "ruby_source_checksum": {
+    "sha256": "46baf1b54e71a4f211b9c9c773e8bcce9383ee26edd0164d42d6d74379987686"
+  },
+  "date_added": "2021-03-11T10:50:10+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "apko",
+  "full_name": "apko",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build OCI images from APK packages directly without Dockerfile",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/chainguard-dev/apko",
+  "versions": {
+    "stable": "0.10.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/chainguard-dev/apko/archive/refs/tags/v0.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "daac21e1ee92dbc83881382e4a375bbeb3550fcf17e5a76a7f7c7cb03408cd6b"
+    },
+    "head": {
+      "url": "https://github.com/chainguard-dev/apko.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38",
+          "sha256": "e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38",
+          "sha256": "e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38",
+          "sha256": "e454c909e27778193c21f745c8f166255cde8b5eb55639fe1e0e5641fbb7cf38"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e",
+          "sha256": "6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e",
+          "sha256": "6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e",
+          "sha256": "6634cc885579291a0cb59570f64dee22855b9cae58d926427afea6b8e1b3786e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apko/blobs/sha256:c2591a206e97cc8da2a2a440463636fc3ba902d31e6d6706306a88005b96754b",
+          "sha256": "c2591a206e97cc8da2a2a440463636fc3ba902d31e6d6706306a88005b96754b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apko.rb",
+  "ruby_source_checksum": {
+    "sha256": "2e9881ed7cccf2af76ceb30b31e0099fc34c07056f8de4eb00817e37c6a6e089"
+  },
+  "date_added": "2023-05-26T17:03:45-04:00"
+}

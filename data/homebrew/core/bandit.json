@@ -1,0 +1,111 @@
+{
+  "name": "bandit",
+  "full_name": "bandit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Security-oriented static analyser for Python code",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/PyCQA/bandit",
+  "versions": {
+    "stable": "1.7.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/5e/67/997278e785edf155bd57163ae7030f979a0907857365cb30815d93b5354b/bandit-1.7.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bdfc739baa03b880c2d15d0431b31c658ffc348e907fe197e54e0389dd59e11e"
+    },
+    "head": {
+      "url": "https://github.com/PyCQA/bandit.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:eb572e6133251ae18d544a2b26c8a916e460a02a8bf1196f251208332cc9c9a8",
+          "sha256": "eb572e6133251ae18d544a2b26c8a916e460a02a8bf1196f251208332cc9c9a8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:2721a0771c2b77d91fa7bc77df94f0f8fa6445ecf63274100920e290b0fdd62b",
+          "sha256": "2721a0771c2b77d91fa7bc77df94f0f8fa6445ecf63274100920e290b0fdd62b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:fad59da6c7e4023955e927849e1f1a824ab969b05b06b1fb88c82b93ceddfad7",
+          "sha256": "fad59da6c7e4023955e927849e1f1a824ab969b05b06b1fb88c82b93ceddfad7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:bd055f8f3f5d2a956e2714ac742ebe79cac986bc7d22a3e31a845a677fd509fd",
+          "sha256": "bd055f8f3f5d2a956e2714ac742ebe79cac986bc7d22a3e31a845a677fd509fd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:09e68c3dc8639c89f59f729bcda7d1afd839d1f272c6f991d455908b9bb2d4f4",
+          "sha256": "09e68c3dc8639c89f59f729bcda7d1afd839d1f272c6f991d455908b9bb2d4f4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:a36476aca0395cfc2172b22083eb1dc6162e68caaf4f20c316be2b073bacdb03",
+          "sha256": "a36476aca0395cfc2172b22083eb1dc6162e68caaf4f20c316be2b073bacdb03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bandit/blobs/sha256:5907253f645409b05277595de95d54595bc577b2ca90ce8fb58b217c1b468d59",
+          "sha256": "5907253f645409b05277595de95d54595bc577b2ca90ce8fb58b217c1b468d59"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bandit.rb",
+  "ruby_source_checksum": {
+    "sha256": "affda704e9f87ec7b5fcd5bf9f9c90c0537a8d6e5092792ead72a171c450baa4"
+  },
+  "date_added": "2021-01-11T12:16:41+00:00"
+}

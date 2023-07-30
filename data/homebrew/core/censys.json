@@ -1,0 +1,106 @@
+{
+  "name": "censys",
+  "full_name": "censys",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line interface for the Censys APIs (censys.io)",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/censys/censys-python",
+  "versions": {
+    "stable": "2.2.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d2/2f/1b7c7cb70c5e49d89a8d4545c1c5f3b42f68e470331512356d8a27f23041/censys-2.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2bcace81886b490b8e9b89e9269ee78ec7442631f5ac6e3fae8c94421a2b9d09"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:c8b7850b79b4da9f8af67c5d6b756cd348eafc3c81fea748d0351e8e1bf3b461",
+          "sha256": "c8b7850b79b4da9f8af67c5d6b756cd348eafc3c81fea748d0351e8e1bf3b461"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:e824e2ebfb8fd9efdce7bf2161df5075eafeb4e865c09dc873b50fc97b768b44",
+          "sha256": "e824e2ebfb8fd9efdce7bf2161df5075eafeb4e865c09dc873b50fc97b768b44"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:214883893b5f6c5c386f0c6d9c0843f4bb38e64f324a83ed8c912ccbad2a8a03",
+          "sha256": "214883893b5f6c5c386f0c6d9c0843f4bb38e64f324a83ed8c912ccbad2a8a03"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:04b0906afa31e3c1677ffe55ab53da680c3f6d80b2861462600a2e9809d57b7e",
+          "sha256": "04b0906afa31e3c1677ffe55ab53da680c3f6d80b2861462600a2e9809d57b7e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:03c2544a15a4d4d144599e2ffafe9afb8a32e43ab34adf166a95a0fd3eacaa70",
+          "sha256": "03c2544a15a4d4d144599e2ffafe9afb8a32e43ab34adf166a95a0fd3eacaa70"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:5906850a3efb6591ee96a94530fc189a21158e5b53efdffd7f443218417e6960",
+          "sha256": "5906850a3efb6591ee96a94530fc189a21158e5b53efdffd7f443218417e6960"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/censys/blobs/sha256:bf5a40c2299965d3e7f2552dfac7a83fb56b59eabf574a91cb8db4d048d680ed",
+          "sha256": "bf5a40c2299965d3e7f2552dfac7a83fb56b59eabf574a91cb8db4d048d680ed"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/censys.rb",
+  "ruby_source_checksum": {
+    "sha256": "feed797fbbc226ae1dda1554fca451ed711305f53c3e58d95d352302514cd1f3"
+  },
+  "date_added": "2022-08-11T07:42:15+00:00"
+}

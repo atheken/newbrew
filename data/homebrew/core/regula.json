@@ -1,0 +1,109 @@
+{
+  "name": "regula",
+  "full_name": "regula",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Checks infrastructure as code templates using Open Policy Agent/Rego",
+  "license": "Apache-2.0",
+  "homepage": "https://regula.dev/",
+  "versions": {
+    "stable": "3.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fugue/regula.git",
+      "tag": "v3.2.1",
+      "revision": "fed1e441b187504a5928e2999a6210b88279139c",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/fugue/regula.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:32955fbf11b6316c1d6af6bb53227567d76ec5d2c2afa72893eece0c861d7be8",
+          "sha256": "32955fbf11b6316c1d6af6bb53227567d76ec5d2c2afa72893eece0c861d7be8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:c00dfdde9f6e15f5adcbff029615ef21121b0a08c3c05c722287806472b8488a",
+          "sha256": "c00dfdde9f6e15f5adcbff029615ef21121b0a08c3c05c722287806472b8488a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:45925ecaa81eebd2a4cc53d0547a0d02172b3196a281ec08d643efe9d62f0c32",
+          "sha256": "45925ecaa81eebd2a4cc53d0547a0d02172b3196a281ec08d643efe9d62f0c32"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:6ad82b75e4b823e3335d3c1d2174a95b57b747d17da1fc69fba2a091dae4e98e",
+          "sha256": "6ad82b75e4b823e3335d3c1d2174a95b57b747d17da1fc69fba2a091dae4e98e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:308470d3a43ce5fe69448da81d00e51c09b9d42ed299c9bf5a08619eedc305aa",
+          "sha256": "308470d3a43ce5fe69448da81d00e51c09b9d42ed299c9bf5a08619eedc305aa"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:29c286e8ac38c7f7b2bcc912a406b40ad480e778ee25f7d5422f35e11deacb77",
+          "sha256": "29c286e8ac38c7f7b2bcc912a406b40ad480e778ee25f7d5422f35e11deacb77"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/regula/blobs/sha256:abbb2a4a62e5c18d4a2ecfb9c34fa98ff7d93b5275d0b288482fa65379978cd7",
+          "sha256": "abbb2a4a62e5c18d4a2ecfb9c34fa98ff7d93b5275d0b288482fa65379978cd7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/regula.rb",
+  "ruby_source_checksum": {
+    "sha256": "6f46c725e5dd0808da7e5c11553c4f46c32f29322924345c9a8422dbeb9e193f"
+  },
+  "date_added": "2021-11-21T17:48:17+00:00"
+}

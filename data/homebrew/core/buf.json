@@ -1,0 +1,109 @@
+{
+  "name": "buf",
+  "full_name": "buf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "New way of working with Protocol Buffers",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/bufbuild/buf",
+  "versions": {
+    "stable": "1.25.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/bufbuild/buf/archive/refs/tags/v1.25.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5ccf081fad412c6f91fd22f69d7f814a315b8f93d7e99d76603a08c94b5632db"
+    },
+    "head": {
+      "url": "https://github.com/bufbuild/buf.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:407e209016f254b00fd6b2a70e22da517bf223adf7852d8817994a3d1f3b0d3a",
+          "sha256": "407e209016f254b00fd6b2a70e22da517bf223adf7852d8817994a3d1f3b0d3a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:407e209016f254b00fd6b2a70e22da517bf223adf7852d8817994a3d1f3b0d3a",
+          "sha256": "407e209016f254b00fd6b2a70e22da517bf223adf7852d8817994a3d1f3b0d3a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:70f9abd999e5ad2c318db33e9976991ae585501006b152aa72e9d0fd5ef7cf80",
+          "sha256": "70f9abd999e5ad2c318db33e9976991ae585501006b152aa72e9d0fd5ef7cf80"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce",
+          "sha256": "184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce",
+          "sha256": "184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce",
+          "sha256": "184dcb71265c7d014b6b55b99a87ecbf06d4e3ee05d5b7c53a693d193e5b54ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/buf/blobs/sha256:1fca5d48e5e998f82adb068ea67a7e2b4bb32977d5aa602d75282c0aaf0c5c9b",
+          "sha256": "1fca5d48e5e998f82adb068ea67a7e2b4bb32977d5aa602d75282c0aaf0c5c9b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/buf.rb",
+  "ruby_source_checksum": {
+    "sha256": "4740955479e0cd24ba77045e9328ebce0639b997af9a8a60a5cfd3d35b76290b"
+  },
+  "date_added": "2022-12-12T05:44:51+00:00"
+}

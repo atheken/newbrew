@@ -1,0 +1,116 @@
+{
+  "name": "opencascade",
+  "full_name": "opencascade",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "3D modeling and numerical simulation software for CAD/CAM/CAE",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://dev.opencascade.org/",
+  "versions": {
+    "stable": "7.7.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.dev.opencascade.org/gitweb/?p=occt.git;a=snapshot;h=refs/tags/V7_7_2;sf=tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2fb23c8d67a7b72061b4f7a6875861e17d412d524527b2a96151ead1d9cfa2c1"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:58ccfbc5b3cce2e4526201ae799b57b5b56baa105eaeb7df521407a803ff58ff",
+          "sha256": "58ccfbc5b3cce2e4526201ae799b57b5b56baa105eaeb7df521407a803ff58ff"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:4036d7412743ad4f9fad8a260b1c9d4d178a6181a85458251c2431be25b1df4e",
+          "sha256": "4036d7412743ad4f9fad8a260b1c9d4d178a6181a85458251c2431be25b1df4e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:26f8f8d7bfde327d8ce6dfcca92027d65de3cdbf58c2a6ef1c8ef0bc014499ac",
+          "sha256": "26f8f8d7bfde327d8ce6dfcca92027d65de3cdbf58c2a6ef1c8ef0bc014499ac"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:735838ed1b509a878a101690451c0348103292e2b0a89a6d721acc79c01358d1",
+          "sha256": "735838ed1b509a878a101690451c0348103292e2b0a89a6d721acc79c01358d1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:4f31d63a97dc8ed4993cc94f1ce0052b0fff4e6c0b0632a592aadaca55ca741c",
+          "sha256": "4f31d63a97dc8ed4993cc94f1ce0052b0fff4e6c0b0632a592aadaca55ca741c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:dea2039879a80c1464ea88caedf93d5cfdc094f26b5695cf29b4c7a9985611b7",
+          "sha256": "dea2039879a80c1464ea88caedf93d5cfdc094f26b5695cf29b4c7a9985611b7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencascade/blobs/sha256:8121480f2fc82a5806b43323a053dc39626ef8c3612c831633d0d7885819477f",
+          "sha256": "8121480f2fc82a5806b43323a053dc39626ef8c3612c831633d0d7885819477f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "rapidjson"
+  ],
+  "dependencies": [
+    "fontconfig",
+    "freeimage",
+    "freetype",
+    "tbb",
+    "tcl-tk",
+    "mesa"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opencascade.rb",
+  "ruby_source_checksum": {
+    "sha256": "b50d2f1488d6f5ebb5dcfcee4a424886eb2d4f0b0bc0945cc976d5bbf48f6e83"
+  },
+  "date_added": "2017-12-31T00:39:38-08:00"
+}

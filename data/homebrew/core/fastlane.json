@@ -1,0 +1,109 @@
+{
+  "name": "fastlane",
+  "full_name": "fastlane",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easiest way to build and release mobile apps",
+  "license": "MIT",
+  "homepage": "https://fastlane.tools",
+  "versions": {
+    "stable": "2.214.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fastlane/fastlane/archive/2.214.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b391fbe3684d8af0c96f39cb1739150b619f4e8e9338d00954a027a149e62196"
+    },
+    "head": {
+      "url": "https://github.com/fastlane/fastlane.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:f69ed0248f62dec49d4bc6dff399e210b6428c17e741c6bd58e85b13ceefcd47",
+          "sha256": "f69ed0248f62dec49d4bc6dff399e210b6428c17e741c6bd58e85b13ceefcd47"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:2a1ccefd1681e7434a81b266b8361c75f75e1106bee260e7e68e3eb403c0e9cf",
+          "sha256": "2a1ccefd1681e7434a81b266b8361c75f75e1106bee260e7e68e3eb403c0e9cf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:cac17c91ab8686ed0047fedca2d92db382a62120a4227d8ce820ddad350e973e",
+          "sha256": "cac17c91ab8686ed0047fedca2d92db382a62120a4227d8ce820ddad350e973e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:027f4861e0df6f21789e29f7fc7e5e67c45006c5c6f2d6c8c13cf5e7719a20c9",
+          "sha256": "027f4861e0df6f21789e29f7fc7e5e67c45006c5c6f2d6c8c13cf5e7719a20c9"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:31e5f23d8c78f2596d6c2f78e8701a8250dbdefbec8fa8881df6200b773e614b",
+          "sha256": "31e5f23d8c78f2596d6c2f78e8701a8250dbdefbec8fa8881df6200b773e614b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:2bd26f501ed100867736770042b0d1be1a0563dc0c8d84e13eefa964e0d35e70",
+          "sha256": "2bd26f501ed100867736770042b0d1be1a0563dc0c8d84e13eefa964e0d35e70"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fastlane/blobs/sha256:2194209c115ecebd5cda4d3b8aa9d258a2f83cae35ed8387987eb8c2a7e31858",
+          "sha256": "2194209c115ecebd5cda4d3b8aa9d258a2f83cae35ed8387987eb8c2a7e31858"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ruby@3.1"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fastlane.rb",
+  "ruby_source_checksum": {
+    "sha256": "efc6be0cf25934fe94e076404a9e99ce2248417dccd3c1478763db7d3e93d562"
+  },
+  "date_added": "2019-12-12T08:42:20+00:00"
+}

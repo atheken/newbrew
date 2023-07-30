@@ -1,0 +1,117 @@
+{
+  "name": "mycli",
+  "full_name": "mycli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for MySQL with auto-completion and syntax highlighting",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.mycli.net/",
+  "versions": {
+    "stable": "1.26.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d6/e9/e3555839dec9ddbb94e20e5f5b7b633efc603986cffe1113f99048306887/mycli-1.26.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8c03035c9b4526dbfa0b0859654e2974a0e77592a9e9b27f40f5a8daae83beb1"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:c031ffa4e018c407a1429bb5108f85349ed55f56af39691976110c3e6b76ab04",
+          "sha256": "c031ffa4e018c407a1429bb5108f85349ed55f56af39691976110c3e6b76ab04"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:bff78c58fecd6ed672a6e110d50d3c33ce6c73db6243a2b8bd2e3bbe301dd1eb",
+          "sha256": "bff78c58fecd6ed672a6e110d50d3c33ce6c73db6243a2b8bd2e3bbe301dd1eb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:75b6e900ed87f20bb1496e0d0ac5dbc56d387db5b8879dcb4c046ff0384a5b29",
+          "sha256": "75b6e900ed87f20bb1496e0d0ac5dbc56d387db5b8879dcb4c046ff0384a5b29"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:9a80c17ab0e008238756fe60cf9ad6fb4a85f40e2eb295626cbb897fb2cfb32c",
+          "sha256": "9a80c17ab0e008238756fe60cf9ad6fb4a85f40e2eb295626cbb897fb2cfb32c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:10d66432c5d1cf484f50f62d23c9d51f0168f02c3814eb97eb29d9a6d16807e6",
+          "sha256": "10d66432c5d1cf484f50f62d23c9d51f0168f02c3814eb97eb29d9a6d16807e6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:219f4c9548be893988f2053a0c3967ceff88844eb67530d6e50e5ea251b46fcc",
+          "sha256": "219f4c9548be893988f2053a0c3967ceff88844eb67530d6e50e5ea251b46fcc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mycli/blobs/sha256:d4610978f4a7510ec140008292a238166733a14d8c43cdd64d982961b3e9f72e",
+          "sha256": "d4610978f4a7510ec140008292a238166733a14d8c43cdd64d982961b3e9f72e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pygments",
+    "python-tabulate",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mycli.rb",
+  "ruby_source_checksum": {
+    "sha256": "49c991a1400fc8246d40019f824e50728465edb182809055b62b6c43677ec7f6"
+  },
+  "date_added": "2015-07-30T06:42:59+01:00"
+}

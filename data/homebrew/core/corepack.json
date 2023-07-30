@@ -1,0 +1,83 @@
+{
+  "name": "corepack",
+  "full_name": "corepack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Package acting as bridge between Node projects and their package managers",
+  "license": "MIT",
+  "homepage": "https://github.com/nodejs/corepack",
+  "versions": {
+    "stable": "0.19.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/corepack/-/corepack-0.19.0.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "889a93e002451a46710d5a799863c1e788ba6545d196bdc9e978f0bd46d071af"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/corepack/blobs/sha256:644006acd5307d4cb3f3d0fe992aa1831ee37d96f5b48a6500b22a1faf654b45",
+          "sha256": "644006acd5307d4cb3f3d0fe992aa1831ee37d96f5b48a6500b22a1faf654b45"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "hadoop",
+    "yarn",
+    "pnpm"
+  ],
+  "conflicts_with_reasons": [
+    "both install `yarn` binaries",
+    "both install `yarn` and `yarnpkg` binaries",
+    "both install `pnpm` and `pnpx` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/corepack.rb",
+  "ruby_source_checksum": {
+    "sha256": "04ff5510c9ecfab04dcfc8bb9464f66b1e823fdb10792420828e3f3f772eaacb"
+  },
+  "date_added": "2021-11-03T17:23:02+00:00"
+}

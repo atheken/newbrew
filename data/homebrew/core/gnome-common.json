@@ -1,0 +1,112 @@
+{
+  "name": "gnome-common",
+  "full_name": "gnome-common",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Core files for GNOME",
+  "license": "GPL-2.0",
+  "homepage": "https://gitlab.gnome.org/GNOME/gnome-common",
+  "versions": {
+    "stable": "3.18.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gnome-common/3.18/gnome-common-3.18.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "22569e370ae755e04527b76328befc4c73b62bfd4a572499fde116b8318af8cf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:f0301bdbf6c3d84a7c95e2ddc3c94a82ba79ac415a49e93b36a793dda8c02e34",
+          "sha256": "f0301bdbf6c3d84a7c95e2ddc3c94a82ba79ac415a49e93b36a793dda8c02e34"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07",
+          "sha256": "186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:ff4e1b1395991ae955f575ed3529e66a881ada9561866b10030d00883b1ceab5",
+          "sha256": "ff4e1b1395991ae955f575ed3529e66a881ada9561866b10030d00883b1ceab5"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:079756ae6ef88387933614b1adcd2a76f239f779817f6128493cdac85c8f5baa",
+          "sha256": "079756ae6ef88387933614b1adcd2a76f239f779817f6128493cdac85c8f5baa"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:7c853c9cdcd84eddb2a3567d161182b27b42dd28c2d696005dc43cf27bdb7038",
+          "sha256": "7c853c9cdcd84eddb2a3567d161182b27b42dd28c2d696005dc43cf27bdb7038"
+        },
+        "high_sierra": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:e0d511e98b09eff8a4e0a0511b421459b4610516d643fc9094a44c9e480a7771",
+          "sha256": "e0d511e98b09eff8a4e0a0511b421459b4610516d643fc9094a44c9e480a7771"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07",
+          "sha256": "186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07"
+        },
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gnome-common/blobs/sha256:186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07",
+          "sha256": "186e36c90aadeb3fe96a17c685b1610b43ff5522d7cd4bad372d6f823938bb07"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "autoconf-archive"
+  ],
+  "conflicts_with_reasons": [
+    "both install ax_check_enable_debug.m4 and ax_code_coverage.m4"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-01-25",
+  "deprecation_reason": "deprecated_upstream",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gnome-common.rb",
+  "ruby_source_checksum": {
+    "sha256": "2a5763b6e87a04db7a7d4722a77da125cb167e14b17bc1675a10813fdb203dac"
+  },
+  "date_added": "2010-07-26T20:51:39-07:00"
+}

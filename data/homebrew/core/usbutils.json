@@ -1,0 +1,114 @@
+{
+  "name": "usbutils",
+  "full_name": "usbutils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "List detailed info about USB devices",
+  "license": "GPL-2.0-only or GPL-3.0-only",
+  "homepage": "http://www.linux-usb.org/",
+  "versions": {
+    "stable": "015",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirrors.edge.kernel.org/pub/linux/utils/usb/usbutils/usbutils-015.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2b8140664578f39c3f6f0166a1b950f8655304e63e3d7f89899acb99bc5cb8e7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:0e99cf12fb0f563a2b3d1989c9d48a1e32b50929698adce3b55ec987cfebd7bf",
+          "sha256": "0e99cf12fb0f563a2b3d1989c9d48a1e32b50929698adce3b55ec987cfebd7bf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:c67a9bb88a9cd63c920331a86db072da46957021de78c4a6f3d8283978b85473",
+          "sha256": "c67a9bb88a9cd63c920331a86db072da46957021de78c4a6f3d8283978b85473"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:947ef6a6c17f7874a41d3c2320f91fa494ca29ff9c61e23c8de1964407853d7e",
+          "sha256": "947ef6a6c17f7874a41d3c2320f91fa494ca29ff9c61e23c8de1964407853d7e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:f8adae8b13b1fbf6df63cd14b9f0da8449c6cbbbece3ced1e11ede87b7f46070",
+          "sha256": "f8adae8b13b1fbf6df63cd14b9f0da8449c6cbbbece3ced1e11ede87b7f46070"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:df6424c3b6aedb0cb484679980e452ea4af24cd65ac94f674084f209f19f0915",
+          "sha256": "df6424c3b6aedb0cb484679980e452ea4af24cd65ac94f674084f209f19f0915"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:d1a3c62a690bf4bf4697ce22690468495a97e79bece17d464a6b961de8fa7c7f",
+          "sha256": "d1a3c62a690bf4bf4697ce22690468495a97e79bece17d464a6b961de8fa7c7f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/usbutils/blobs/sha256:ada2b7a26c837e0cc24b81aec12a29d5bbff51366a4222a6b14ae5013e102b27",
+          "sha256": "ada2b7a26c837e0cc24b81aec12a29d5bbff51366a4222a6b14ae5013e102b27"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "lsusb"
+  ],
+  "conflicts_with_reasons": [
+    "both provide an `lsusb` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": "usbhid-dump requires either proper code signing with com.apple.vm.device-access\nentitlement or root privilege\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/usbutils.rb",
+  "ruby_source_checksum": {
+    "sha256": "c36da470a1c6ed202ca80ea4df0b84af2772b4d3187b2b84a7d191ac7afaf896"
+  },
+  "date_added": "2022-02-03T01:29:22+00:00"
+}

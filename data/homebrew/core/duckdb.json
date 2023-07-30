@@ -1,0 +1,105 @@
+{
+  "name": "duckdb",
+  "full_name": "duckdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Embeddable SQL OLAP Database Management System",
+  "license": "MIT",
+  "homepage": "https://www.duckdb.org",
+  "versions": {
+    "stable": "0.8.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/duckdb/duckdb.git",
+      "tag": "v0.8.1",
+      "revision": "6536a772329002b05decbfc0a9d3f606e0ec7f55",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:7285e35f75dcc9445ce051ed160e3e598dce1928958ba576597f7594f1a91e6e",
+          "sha256": "7285e35f75dcc9445ce051ed160e3e598dce1928958ba576597f7594f1a91e6e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:6d2dbd766cdd3b3d0f5efae4a6b0a84f954a37dca404ff90341118c3bfe48091",
+          "sha256": "6d2dbd766cdd3b3d0f5efae4a6b0a84f954a37dca404ff90341118c3bfe48091"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:2eacb6a11d23d169773ff5cdcdd58902da5b8e0750046fbb8bc31096e5e1a935",
+          "sha256": "2eacb6a11d23d169773ff5cdcdd58902da5b8e0750046fbb8bc31096e5e1a935"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:18eb3e511611edc32910d442f723dfb80275945f329fb1863eed9c618dbb43d6",
+          "sha256": "18eb3e511611edc32910d442f723dfb80275945f329fb1863eed9c618dbb43d6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:1506500f6ed51cc029bd46c8448a21e9f499d8e2339be179ca40e7a0b907a780",
+          "sha256": "1506500f6ed51cc029bd46c8448a21e9f499d8e2339be179ca40e7a0b907a780"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:e121ad95a43e8d875e82fb0e01da4aade5315670ad4f1f3f5cb73742f1da9ee6",
+          "sha256": "e121ad95a43e8d875e82fb0e01da4aade5315670ad4f1f3f5cb73742f1da9ee6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:f758dff6e407bbf618cb9d0d37fd84f65718188d1d559d1977f27fc5846e4e2a",
+          "sha256": "f758dff6e407bbf618cb9d0d37fd84f65718188d1d559d1977f27fc5846e4e2a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/duckdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "282285a0401856fe4ce2ee134dfa8f44f5fb5aabf0084ef4de5d2b4d792a35c7"
+  },
+  "date_added": "2020-05-25T16:14:19+00:00"
+}

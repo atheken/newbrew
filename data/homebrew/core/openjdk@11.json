@@ -1,0 +1,139 @@
+{
+  "name": "openjdk@11",
+  "full_name": "openjdk@11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "java11"
+  ],
+  "versioned_formulae": [
+    "openjdk@17",
+    "openjdk@8"
+  ],
+  "desc": "Development kit for the Java programming language",
+  "license": "GPL-2.0-only",
+  "homepage": "https://openjdk.java.net/",
+  "versions": {
+    "stable": "11.0.20",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openjdk/jdk11u/archive/refs/tags/jdk-11.0.20-ga.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a277b89ff5ade85d3b5885ad7bffb3f2d9c80df47363fedb9110b62c45dbec37"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:79e6d8b60cbe3896c77a209622d8a7449c0aeaa2c07464902a04d85a4c6e2704",
+          "sha256": "79e6d8b60cbe3896c77a209622d8a7449c0aeaa2c07464902a04d85a4c6e2704"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:3e4bfb1c1059ee26db039055b0964d9f0d6b7f92dc4c18e756943645771f7fb4",
+          "sha256": "3e4bfb1c1059ee26db039055b0964d9f0d6b7f92dc4c18e756943645771f7fb4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:abf60cb7f20d52819226e23c6a0bcd8e49ec778320a542693b5091fd8ae1358c",
+          "sha256": "abf60cb7f20d52819226e23c6a0bcd8e49ec778320a542693b5091fd8ae1358c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:eda4e4cd6ffd4c3f7d72cf69c64587bea7871487a645d0e138887a76b45cb69e",
+          "sha256": "eda4e4cd6ffd4c3f7d72cf69c64587bea7871487a645d0e138887a76b45cb69e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:22e912ea60485fe6deb33d7dde5266cc7c64472a721e3c80ea5768f7d6db96ad",
+          "sha256": "22e912ea60485fe6deb33d7dde5266cc7c64472a721e3c80ea5768f7d6db96ad"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:c408b88d9129ee2776ef680c07fea3da17d96204239a098cb7baa437a638cb03",
+          "sha256": "c408b88d9129ee2776ef680c07fea3da17d96204239a098cb7baa437a638cb03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:889a2c142fb442a9945389c56659b7f65d59620f87271ba7c688f839e03d209e",
+          "sha256": "889a2c142fb442a9945389c56659b7f65d59620f87271ba7c688f839e03d209e"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "giflib",
+    "harfbuzz",
+    "jpeg-turbo",
+    "libpng",
+    "little-cms2",
+    "alsa-lib",
+    "fontconfig",
+    "freetype",
+    "libx11",
+    "libxext",
+    "libxrandr",
+    "libxrender",
+    "libxt",
+    "libxtst"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "cups",
+    "unzip",
+    "zip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openjdk@11.rb",
+  "ruby_source_checksum": {
+    "sha256": "125cd30ebc6078fa5a1b3f6ac9e112433cdf96bc58a6544074c53ebe2d5b2d09"
+  },
+  "date_added": "2019-11-06T15:18:04+09:00"
+}

@@ -1,0 +1,137 @@
+{
+  "name": "stellar-core",
+  "full_name": "stellar-core",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Backbone of the Stellar (XLM) network",
+  "license": "Apache-2.0",
+  "homepage": "https://www.stellar.org/",
+  "versions": {
+    "stable": "19.12.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/stellar/stellar-core.git",
+      "tag": "v19.12.0",
+      "revision": "2109a168a895349f87b502ae3d182380b378fa47",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/stellar/stellar-core.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:f17fa6b94f6372138a747b713f22ffa7afbb814557831944b47f55196052efc1",
+          "sha256": "f17fa6b94f6372138a747b713f22ffa7afbb814557831944b47f55196052efc1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:6ce79955440b060e7f7dd17f59fc402fe685321bdfeec13559697709e26839cb",
+          "sha256": "6ce79955440b060e7f7dd17f59fc402fe685321bdfeec13559697709e26839cb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:4664ffc28718c8bf51256e6f466dade6ebe0e650d37c81b666f7aa9c345c4cf4",
+          "sha256": "4664ffc28718c8bf51256e6f466dade6ebe0e650d37c81b666f7aa9c345c4cf4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:a20f17f0fadc23a6e90259e091ec916b493ae16c7ef88a1ec7fe710d33fa81a7",
+          "sha256": "a20f17f0fadc23a6e90259e091ec916b493ae16c7ef88a1ec7fe710d33fa81a7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:1f78b6717ccf1007d617c3e2c429bfbe478e4857a439b37bd192ca3fc874b4b7",
+          "sha256": "1f78b6717ccf1007d617c3e2c429bfbe478e4857a439b37bd192ca3fc874b4b7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:8db2d6afdd6408c6c4e6f44c4ed30e4a4607ce5e7c169f07e574ce112917e56d",
+          "sha256": "8db2d6afdd6408c6c4e6f44c4ed30e4a4607ce5e7c169f07e574ce112917e56d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stellar-core/blobs/sha256:7774902aefa8cf4eec6d4e5d0323d46989bf3f9e9ecac5a674a5688dbff12c4c",
+          "sha256": "7774902aefa8cf4eec6d4e5d0323d46989bf3f9e9ecac5a674a5688dbff12c4c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "bison",
+    "libtool",
+    "pandoc",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libpq",
+    "libpqxx",
+    "libsodium",
+    "libunwind"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.15",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stellar-core.rb",
+  "ruby_source_checksum": {
+    "sha256": "cfe517c031236e6946802834339c8c0f181c2851aa4a84a01f5d4a77588b97d8"
+  },
+  "date_added": "2018-02-26T11:01:50+01:00"
+}

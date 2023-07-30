@@ -1,0 +1,120 @@
+{
+  "name": "binwalk",
+  "full_name": "binwalk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Searches a binary image for embedded files and executable code",
+  "license": "MIT",
+  "homepage": "https://github.com/ReFirmLabs/binwalk",
+  "versions": {
+    "stable": "2.3.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ReFirmLabs/binwalk/archive/v2.3.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "60416bfec2390cec76742ce942737df3e6585c933c2467932f59c21e002ba7a9"
+    },
+    "head": {
+      "url": "https://github.com/ReFirmLabs/binwalk.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:4f7bf49bcdc180a94d923859aaae9bb975531e3f66c0946fa0e8560d76e9705d",
+          "sha256": "4f7bf49bcdc180a94d923859aaae9bb975531e3f66c0946fa0e8560d76e9705d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:50bc5ac7368e8f0423f374afe062b6e9f36a20a6a288991b129340185a67e6c9",
+          "sha256": "50bc5ac7368e8f0423f374afe062b6e9f36a20a6a288991b129340185a67e6c9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:d5e7979beefcf75ed418a517ec05ddabccc02712790eac38f3b82c118abd3aac",
+          "sha256": "d5e7979beefcf75ed418a517ec05ddabccc02712790eac38f3b82c118abd3aac"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:097c35817c67fb96ab78e91be7f316f931e356ab8b06d27d340e567d25769dc7",
+          "sha256": "097c35817c67fb96ab78e91be7f316f931e356ab8b06d27d340e567d25769dc7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:3835d5d50f13e1bbf7e960b5bd6c354ece0ba0cda79599c956b9d860e668896c",
+          "sha256": "3835d5d50f13e1bbf7e960b5bd6c354ece0ba0cda79599c956b9d860e668896c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:db580e80796365ee95126a20ba213c360f5bd170c6cdf68d7598860979229566",
+          "sha256": "db580e80796365ee95126a20ba213c360f5bd170c6cdf68d7598860979229566"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/binwalk/blobs/sha256:8b2728143c492690a2d7193a20bbfa8dc57c1b16f0709995a29aefc9b1270379",
+          "sha256": "8b2728143c492690a2d7193a20bbfa8dc57c1b16f0709995a29aefc9b1270379"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "swig"
+  ],
+  "dependencies": [
+    "freetype",
+    "libpng",
+    "numpy",
+    "p7zip",
+    "pillow",
+    "python@3.11",
+    "six",
+    "ssdeep",
+    "xz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/binwalk.rb",
+  "ruby_source_checksum": {
+    "sha256": "5f6dd68967f9da38b944080b8b70983630d153276e0eaae0d4617a833ca266c5"
+  },
+  "date_added": "2012-01-07T21:34:43+00:00"
+}

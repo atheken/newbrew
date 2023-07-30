@@ -1,0 +1,128 @@
+{
+  "name": "ocp",
+  "full_name": "ocp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "UNIX port of the Open Cubic Player",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://stian.cubic.org/project-ocp.php",
+  "versions": {
+    "stable": "0.2.105",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://stian.cubic.org/ocp/ocp-0.2.105.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1a87b3c572679fb681a25bf158bdc1cc078018d0507965e1557610c17fcccfc5"
+    },
+    "head": {
+      "url": "https://github.com/mywave82/opencubicplayer.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:3690f47824577f3df596994371ce56932d68a875a6d2d4e0d9e19e442d9624d4",
+          "sha256": "3690f47824577f3df596994371ce56932d68a875a6d2d4e0d9e19e442d9624d4"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:1ba0669652567aecd14feb6c517ec77b5b0ee5964de54e4e69ad78030efb9296",
+          "sha256": "1ba0669652567aecd14feb6c517ec77b5b0ee5964de54e4e69ad78030efb9296"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:bbcbda1ecb8bad6dad0db51abfc171e82b558223a20ec67cf9b948259c8d0973",
+          "sha256": "bbcbda1ecb8bad6dad0db51abfc171e82b558223a20ec67cf9b948259c8d0973"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:02825ed5010ac2760131fe2bb0737c6e14d11a9066039b36ccf9687e2e1da77a",
+          "sha256": "02825ed5010ac2760131fe2bb0737c6e14d11a9066039b36ccf9687e2e1da77a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:eb34a21ed728ffe4598edc3664094045fe4ad11ce29beb797e17776b9857fdc1",
+          "sha256": "eb34a21ed728ffe4598edc3664094045fe4ad11ce29beb797e17776b9857fdc1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:614c28d5a6ab0df1385e37168354df743aeb68b1fad5c8672129be20ec277056",
+          "sha256": "614c28d5a6ab0df1385e37168354df743aeb68b1fad5c8672129be20ec277056"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ocp/blobs/sha256:8d9e1a49c80862bf0940bdddf2302b6646cd5d936a02d1683f293a9143683c2d",
+          "sha256": "8d9e1a49c80862bf0940bdddf2302b6646cd5d936a02d1683f293a9143683c2d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "xa",
+    "util-linux"
+  ],
+  "dependencies": [
+    "ancient",
+    "cjson",
+    "flac",
+    "freetype",
+    "jpeg-turbo",
+    "libdiscid",
+    "libpng",
+    "libvorbis",
+    "mad",
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ocp.rb",
+  "ruby_source_checksum": {
+    "sha256": "8f081b73204df628cf1396fee07032fef7812b651d5aca451af890efe4f7fbfd"
+  },
+  "date_added": "2011-12-11T22:35:26-06:00"
+}

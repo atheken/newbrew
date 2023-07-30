@@ -1,0 +1,116 @@
+{
+  "name": "beancount",
+  "full_name": "beancount",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Double-entry accounting tool that works on plain text files",
+  "license": "GPL-2.0-only",
+  "homepage": "https://beancount.github.io/",
+  "versions": {
+    "stable": "2.3.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/77/51/2acc2741fa2937a3a1123fd00e6e76e6d6f27c46579ea53705c49bd221ec/beancount-2.3.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "14e35625a2e9cbd43cae6178da08cb3f1224f6261e541ca6726df35d98e9c36a"
+    },
+    "head": {
+      "url": "https://github.com/beancount/beancount.git",
+      "branch": "master"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:03ef875d69799e284c01168cd019522ac6e77761a733db39580f83add49640ef",
+          "sha256": "03ef875d69799e284c01168cd019522ac6e77761a733db39580f83add49640ef"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:d772180476f4d7e6d7ed726a4a0a89a74fde2763ba8a0720bb4ae1effc744062",
+          "sha256": "d772180476f4d7e6d7ed726a4a0a89a74fde2763ba8a0720bb4ae1effc744062"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:0be7baa9d36e0868c676ae8462b30eed4156d5b688815344ee765fe92f8e6bc0",
+          "sha256": "0be7baa9d36e0868c676ae8462b30eed4156d5b688815344ee765fe92f8e6bc0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:444f3f876ac225d5391cb581eaf06bb479c19feabbcad2c4020b5795838f33fd",
+          "sha256": "444f3f876ac225d5391cb581eaf06bb479c19feabbcad2c4020b5795838f33fd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:7bd2d6ca34fb22ebbdb1e5e684dd3b18e7bf2ab67bb1ef1be1d820be6a6e5c3a",
+          "sha256": "7bd2d6ca34fb22ebbdb1e5e684dd3b18e7bf2ab67bb1ef1be1d820be6a6e5c3a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:0fda97e891f24a025051d94c9e2e035f91734d26925f788244c033217475c759",
+          "sha256": "0fda97e891f24a025051d94c9e2e035f91734d26925f788244c033217475c759"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/beancount/blobs/sha256:df32a4654b8f9e6fe341bebb3e8295c812b13f491c80ea035be7337be52c085c",
+          "sha256": "df32a4654b8f9e6fe341bebb3e8295c812b13f491c80ea035be7337be52c085c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/beancount.rb",
+  "ruby_source_checksum": {
+    "sha256": "48a9f8487791ded4b28b0bc5ecf64f599cae8b8cb953dccae64b377bbbaad4c2"
+  },
+  "date_added": "2020-04-06T09:11:01+00:00"
+}

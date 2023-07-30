@@ -1,0 +1,84 @@
+{
+  "name": "git-recent",
+  "full_name": "git-recent",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "See your latest local git branches, formatted real fancy",
+  "license": "MIT",
+  "homepage": "https://github.com/paulirish/git-recent",
+  "versions": {
+    "stable": "1.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/paulirish/git-recent/archive/v1.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "790c0de09ea19948b3b0ad642d82c30ee20c8d14a04b761fa2a2f716dc19eedc"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-recent/blobs/sha256:99a91fd45ae79225c569a3acdf442380c60701ac987a9fb6c965dda22132b2c2",
+          "sha256": "99a91fd45ae79225c569a3acdf442380c60701ac987a9fb6c965dda22132b2c2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.12",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-recent.rb",
+  "ruby_source_checksum": {
+    "sha256": "88e00ff8c76f43750e9c0196652fcd3f28d1f9a38b2db2c03209c158fd8fbc51"
+  },
+  "date_added": "2017-02-10T15:07:40+00:00"
+}

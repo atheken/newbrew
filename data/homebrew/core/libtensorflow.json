@@ -1,0 +1,114 @@
+{
+  "name": "libtensorflow",
+  "full_name": "libtensorflow",
+  "tap": "homebrew/core",
+  "oldname": "tensorflow",
+  "oldnames": [
+    "tensorflow"
+  ],
+  "aliases": [
+    "libtensorflow@2",
+    "tensorflow"
+  ],
+  "versioned_formulae": [
+    "libtensorflow@1"
+  ],
+  "desc": "C interface for Google's OS library for Machine Intelligence",
+  "license": "Apache-2.0",
+  "homepage": "https://www.tensorflow.org/",
+  "versions": {
+    "stable": "2.12.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tensorflow/tensorflow/archive/refs/tags/v2.12.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c030cb1905bff1d2446615992aad8d8d85cbe90c4fb625cee458c63bf466bc8e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:a02e1473f4da79861359f692b4831183491991e18bdfc669747319187005b7c7",
+          "sha256": "a02e1473f4da79861359f692b4831183491991e18bdfc669747319187005b7c7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:a02e1473f4da79861359f692b4831183491991e18bdfc669747319187005b7c7",
+          "sha256": "a02e1473f4da79861359f692b4831183491991e18bdfc669747319187005b7c7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:f552152df7b221e03f2e806cb3a4e3acdcab9097a570034871673de10c479d9f",
+          "sha256": "f552152df7b221e03f2e806cb3a4e3acdcab9097a570034871673de10c479d9f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:d0cdf8369fb0f4b39b628e309af5809a95b0f53744b149e3727cf09d2a20d086",
+          "sha256": "d0cdf8369fb0f4b39b628e309af5809a95b0f53744b149e3727cf09d2a20d086"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:d0cdf8369fb0f4b39b628e309af5809a95b0f53744b149e3727cf09d2a20d086",
+          "sha256": "d0cdf8369fb0f4b39b628e309af5809a95b0f53744b149e3727cf09d2a20d086"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:a8664f86c8ebf5d410c5e863786bb3de912618633e1013d5d76813d3482f3888",
+          "sha256": "a8664f86c8ebf5d410c5e863786bb3de912618633e1013d5d76813d3482f3888"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libtensorflow/blobs/sha256:5ac69fe06ed91c094845a52233ed225015147c4e1deff218494d1727e5e56b3b",
+          "sha256": "5ac69fe06ed91c094845a52233ed225015147c4e1deff218494d1727e5e56b3b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bazelisk",
+    "numpy",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libtensorflow.rb",
+  "ruby_source_checksum": {
+    "sha256": "15f336b026cd4ad093fc088b14d8d83be6eaadb67093c7418f1bf90b48cb9d41"
+  },
+  "date_added": "2017-03-03T19:00:04+01:00"
+}

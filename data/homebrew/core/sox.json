@@ -1,0 +1,114 @@
+{
+  "name": "sox",
+  "full_name": "sox",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SOund eXchange: universal sound sample translator",
+  "license": "LGPL-2.0-only and GPL-2.0-only",
+  "homepage": "https://sox.sourceforge.io/",
+  "versions": {
+    "stable": "14.4.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b45f598643ffbd8e363ff24d61166ccec4836fea6d3888881b8df53e3bb55f6c"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:1669b614365ee6f54c3b974aa2e25c6e88353caeb73a2763f31c5f71d7032705",
+          "sha256": "1669b614365ee6f54c3b974aa2e25c6e88353caeb73a2763f31c5f71d7032705"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:170cf704ff002b6d97b5c5f081e3dda5d87a9860860a13b1e8a7efbb4b4dba53",
+          "sha256": "170cf704ff002b6d97b5c5f081e3dda5d87a9860860a13b1e8a7efbb4b4dba53"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:ac3d7cf23b479a1bf067f82636cd5345d2e43de29e57d687206922c8d260ee9f",
+          "sha256": "ac3d7cf23b479a1bf067f82636cd5345d2e43de29e57d687206922c8d260ee9f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:54d7c86a22ce014e0924791450e8c8a2630fc2609f5086d1620bfd1fa901544a",
+          "sha256": "54d7c86a22ce014e0924791450e8c8a2630fc2609f5086d1620bfd1fa901544a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:dec8603f276fe6a1928a320ff498267785b75fcfa9523647de2f623367d2e896",
+          "sha256": "dec8603f276fe6a1928a320ff498267785b75fcfa9523647de2f623367d2e896"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:bf59b93291ad51588e8e4183165ee8d945cde82f0ea22ae61e1c5076a5be10f3",
+          "sha256": "bf59b93291ad51588e8e4183165ee8d945cde82f0ea22ae61e1c5076a5be10f3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sox/blobs/sha256:7bb06054835fa3a2be758935d05d245b9edb5330b484b6f1e57d77ab60f772ad",
+          "sha256": "7bb06054835fa3a2be758935d05d245b9edb5330b484b6f1e57d77ab60f772ad"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "flac",
+    "lame",
+    "libpng",
+    "libsndfile",
+    "libvorbis",
+    "mad",
+    "opusfile",
+    "alsa-lib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sox.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4b6238faeeed0f4678e4ff4c6a17fa8c77f81963951b3f4ad1cff456bad02a8"
+  },
+  "date_added": "2010-01-31T16:58:14+01:00"
+}

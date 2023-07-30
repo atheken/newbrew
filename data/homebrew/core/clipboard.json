@@ -1,0 +1,115 @@
+{
+  "name": "clipboard",
+  "full_name": "clipboard",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cut, copy, and paste anything, anywhere, all from the terminal",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://getclipboard.app",
+  "versions": {
+    "stable": "0.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Slackadays/Clipboard/archive/refs/tags/0.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f7ceb2dbb76bc094ac8afbef97bdef0f1a9451ca7dd1a4a181f3b2a859a2f094"
+    },
+    "head": {
+      "url": "https://github.com/Slackadays/Clipboard.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:eb7cd95c14967d778fb8c6bf8fc41df9872df5d168302d4a9ba4009705ce81d5",
+          "sha256": "eb7cd95c14967d778fb8c6bf8fc41df9872df5d168302d4a9ba4009705ce81d5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:9aa8b15aa9d96a00ebc14a7d9ad158dcfa8f20f9ee1b6ebf361e13438b29da86",
+          "sha256": "9aa8b15aa9d96a00ebc14a7d9ad158dcfa8f20f9ee1b6ebf361e13438b29da86"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:c49325785554c9ebb365c1a8ec2213c905a74831238f341e3494096339cd6b6e",
+          "sha256": "c49325785554c9ebb365c1a8ec2213c905a74831238f341e3494096339cd6b6e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:6e6d598fc672e75eea970319c52aa14827f617a09ec75ae71c11fbd76fd4c127",
+          "sha256": "6e6d598fc672e75eea970319c52aa14827f617a09ec75ae71c11fbd76fd4c127"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:6a184431252b3ed79a6b013494d31812b87fa1b0ddfac98e71f6374472dcfee9",
+          "sha256": "6a184431252b3ed79a6b013494d31812b87fa1b0ddfac98e71f6374472dcfee9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:fb880f65f93efd42a453bee516c21ff2125a11eef024cebf76bc6dc654ccf5a7",
+          "sha256": "fb880f65f93efd42a453bee516c21ff2125a11eef024cebf76bc6dc654ccf5a7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clipboard/blobs/sha256:214673f6c32a86563805184515292afa2e5c0dee3ae570591ce1885d904dbba0",
+          "sha256": "214673f6c32a86563805184515292afa2e5c0dee3ae570591ce1885d904dbba0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "wayland-protocols"
+  ],
+  "dependencies": [
+    "alsa-lib",
+    "libx11",
+    "wayland"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/clipboard.rb",
+  "ruby_source_checksum": {
+    "sha256": "5a60a7014c7f5782ff6d68d3cd56f1f19281a35c7d77de0ee6299e045019f1ef"
+  },
+  "date_added": "2023-02-18T09:06:49+00:00"
+}

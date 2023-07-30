@@ -1,0 +1,105 @@
+{
+  "name": "cloudformation-guard",
+  "full_name": "cloudformation-guard",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Checks CloudFormation templates for compliance using a declarative syntax",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/aws-cloudformation/cloudformation-guard",
+  "versions": {
+    "stable": "3.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aws-cloudformation/cloudformation-guard/archive/3.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ce0f06bc4d632dc64514f24be40de48e53e8cc97e5cfb2434bb84811ceecb899"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:d4b932da57b9f98e1fd1066023304f158173802caa59f73f26345f7ff05a002f",
+          "sha256": "d4b932da57b9f98e1fd1066023304f158173802caa59f73f26345f7ff05a002f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:debacf0ef2617f8763477c40106667cdcfebad24291eaa08f00e46f5b77ccd2e",
+          "sha256": "debacf0ef2617f8763477c40106667cdcfebad24291eaa08f00e46f5b77ccd2e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:e09df565fe59c4fce234400410154ea9720a00db269e5c205750630d2d9bc625",
+          "sha256": "e09df565fe59c4fce234400410154ea9720a00db269e5c205750630d2d9bc625"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:404d4fa9ced07bdb78bda263ca068a680a707e29cb42b3f1be26195e148936b0",
+          "sha256": "404d4fa9ced07bdb78bda263ca068a680a707e29cb42b3f1be26195e148936b0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:7fce5c94eda4eb8e0df34cc7689a9dc977cdf99abbdebfda38e380fe18f75d92",
+          "sha256": "7fce5c94eda4eb8e0df34cc7689a9dc977cdf99abbdebfda38e380fe18f75d92"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:ecc5e7afe59910f18be0889d72d914070fdcde884a71c6f175d7f275ca60d70d",
+          "sha256": "ecc5e7afe59910f18be0889d72d914070fdcde884a71c6f175d7f275ca60d70d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloudformation-guard/blobs/sha256:6366af9ff59aa85361325da05614a601e3daa65bbf754d4d1d477fe80cc874b7",
+          "sha256": "6366af9ff59aa85361325da05614a601e3daa65bbf754d4d1d477fe80cc874b7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cloudformation-guard.rb",
+  "ruby_source_checksum": {
+    "sha256": "f531527003af09f53fd19a329c20d4c5af41790ef05c9f3ab387969e9056e424"
+  },
+  "date_added": "2020-09-30T22:44:00+00:00"
+}

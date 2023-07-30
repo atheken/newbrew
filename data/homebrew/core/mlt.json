@@ -1,0 +1,124 @@
+{
+  "name": "mlt",
+  "full_name": "mlt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Author, manage, and run multitrack audio/video compositions",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://www.mltframework.org/",
+  "versions": {
+    "stable": "7.18.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mltframework/mlt/releases/download/v7.18.0/mlt-7.18.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9c57da14fbf3cb9c23b867b36f038aac7978c159ba0e8d8ac90e31c66878d115"
+    },
+    "head": {
+      "url": "https://github.com/mltframework/mlt.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:394ba22390851d935d5280f17f4e75b87be445ddbd9be7a4db782ce5584e0420",
+          "sha256": "394ba22390851d935d5280f17f4e75b87be445ddbd9be7a4db782ce5584e0420"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:006ac2abfcd63d0cea3111e2bc428ee02ecc80f4e3eb20cbf29d12a7bc2580ce",
+          "sha256": "006ac2abfcd63d0cea3111e2bc428ee02ecc80f4e3eb20cbf29d12a7bc2580ce"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:a571c58376630099edb76017990a6590715e48c24a0943e04fe0aaec9700afe1",
+          "sha256": "a571c58376630099edb76017990a6590715e48c24a0943e04fe0aaec9700afe1"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:fddb9c34eab9067d1dcb92d6d9a8d96cbea2006c610138d4997f986ffda26b2b",
+          "sha256": "fddb9c34eab9067d1dcb92d6d9a8d96cbea2006c610138d4997f986ffda26b2b"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:55bdc7443a18a6c988e74b634eb1ed301eff4485b19d66618f29b01fa44134fe",
+          "sha256": "55bdc7443a18a6c988e74b634eb1ed301eff4485b19d66618f29b01fa44134fe"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:0710524da8223ccb4c97b460c1f3292e616aa30dcdd51c8aea1701cfe99b7552",
+          "sha256": "0710524da8223ccb4c97b460c1f3292e616aa30dcdd51c8aea1701cfe99b7552"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mlt/blobs/sha256:ec26ed38488fe349f8531043ae5123c2d584c7aa36cb06ac0bc245ca3e228d74",
+          "sha256": "ec26ed38488fe349f8531043ae5123c2d584c7aa36cb06ac0bc245ca3e228d74"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ffmpeg",
+    "fftw",
+    "frei0r",
+    "gdk-pixbuf",
+    "libdv",
+    "libexif",
+    "libsamplerate",
+    "libvorbis",
+    "opencv",
+    "pango",
+    "qt@5",
+    "sdl2",
+    "sox"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mlt.rb",
+  "ruby_source_checksum": {
+    "sha256": "0b172b0ca6d183cd7c003f27eb434dc31e1567ab0dc1b0b6622e416f79e1ea4a"
+  },
+  "date_added": "2013-09-10T20:00:02-07:00"
+}

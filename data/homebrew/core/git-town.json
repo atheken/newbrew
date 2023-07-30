@@ -1,0 +1,105 @@
+{
+  "name": "git-town",
+  "full_name": "git-town",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-level command-line interface for Git",
+  "license": "MIT",
+  "homepage": "https://www.git-town.com/",
+  "versions": {
+    "stable": "9.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/git-town/git-town/archive/refs/tags/v9.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0fb557d1423765077522b37e64daca4883a1ff1c267b321e3822871872a8fa45"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3",
+          "sha256": "309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3",
+          "sha256": "309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3",
+          "sha256": "309be11132a16517913790c7638355b6a9c0c32ba4572b19c26acd95e2ec4cc3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d",
+          "sha256": "d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d",
+          "sha256": "d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d",
+          "sha256": "d2a6e110b9216bfb3cb3b6e02228e060b0076d9335fed505f1a8943f2e2db68d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-town/blobs/sha256:4edaffc6c5cd2cc6765fcc36327c18e99eab2b09c681a39d09ca9f41330ad657",
+          "sha256": "4edaffc6c5cd2cc6765fcc36327c18e99eab2b09c681a39d09ca9f41330ad657"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-town.rb",
+  "ruby_source_checksum": {
+    "sha256": "b7ab5c6086dc2d296e7d9480358c07c71a01aefc0bab3a27f2d08d19fea09ada"
+  },
+  "date_added": "2015-09-11T01:00:19+01:00"
+}

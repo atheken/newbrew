@@ -1,0 +1,113 @@
+{
+  "name": "soplex",
+  "full_name": "soplex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Optimization package for solving linear programming problems (LPs)",
+  "license": "Apache-2.0",
+  "homepage": "https://soplex.zib.de/",
+  "versions": {
+    "stable": "6.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://soplex.zib.de/download/release/soplex-6.0.3.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "357db78d18d9f1b81a4fe65cf0182475d2a527a6ad9030ac2f5ef7c077d6764c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:fe7cab6cf7d72f3600615567c5d35928f64100a894aec88c036a1b74ae8ebaef",
+          "sha256": "fe7cab6cf7d72f3600615567c5d35928f64100a894aec88c036a1b74ae8ebaef"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:871d364891d796e3a9a6d6c9892f6f5eaf78ee931eb9150aa8ccdd11dfa84f3a",
+          "sha256": "871d364891d796e3a9a6d6c9892f6f5eaf78ee931eb9150aa8ccdd11dfa84f3a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:9c4f2020273a628be567632a3da99f20fa1c9d40928e92069c3b9e5aa94fb129",
+          "sha256": "9c4f2020273a628be567632a3da99f20fa1c9d40928e92069c3b9e5aa94fb129"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:32914581bf7e4ebda8bab2d3d1be0ae0ef8fb2c72383fc46f81bec2e73f7b700",
+          "sha256": "32914581bf7e4ebda8bab2d3d1be0ae0ef8fb2c72383fc46f81bec2e73f7b700"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:749d4059dac1f07bcf248346ac94dcb0367b0d996779a28cb2df629c63dfb8dd",
+          "sha256": "749d4059dac1f07bcf248346ac94dcb0367b0d996779a28cb2df629c63dfb8dd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:a34f1994cf2e258d82eede007619d98e62997670289e00f6415ab50d14215019",
+          "sha256": "a34f1994cf2e258d82eede007619d98e62997670289e00f6415ab50d14215019"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/soplex/blobs/sha256:fee3c886e05256b18d65755ed273701030f604aad30d676b7e72b2f5f167af9c",
+          "sha256": "fee3c886e05256b18d65755ed273701030f604aad30d676b7e72b2f5f167af9c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "gmp",
+    "tbb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/soplex.rb",
+  "ruby_source_checksum": {
+    "sha256": "acc74d7d13cbbc763f47496e5d74b9cd5343499b9a2b034c4945b56aef5129c6"
+  },
+  "date_added": "2023-02-05T01:55:12+00:00"
+}

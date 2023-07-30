@@ -1,0 +1,119 @@
+{
+  "name": "bazel",
+  "full_name": "bazel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "bazel@6"
+  ],
+  "versioned_formulae": [],
+  "desc": "Google's own build tool",
+  "license": "Apache-2.0",
+  "homepage": "https://bazel.build/",
+  "versions": {
+    "stable": "6.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/bazelbuild/bazel/releases/download/6.3.0/bazel-6.3.0-dist.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "902198981b1d26112fc05913e79f1b3e9772c3f95594caf85619d041ba06ede0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:ebce89209ccfd88d370705da2a2d13e32e7e28fa452cbce08f77019bb0c3a87b",
+          "sha256": "ebce89209ccfd88d370705da2a2d13e32e7e28fa452cbce08f77019bb0c3a87b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:48e0457b1c850a96d63903019d2813a2b097322c6c7f10c638546350cb5f4a83",
+          "sha256": "48e0457b1c850a96d63903019d2813a2b097322c6c7f10c638546350cb5f4a83"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:325758f5301369b8f72181eb976e7a81716ae87fb44fec403bc6bb398a4605a5",
+          "sha256": "325758f5301369b8f72181eb976e7a81716ae87fb44fec403bc6bb398a4605a5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:23ed294e1bcd3a35b08091b5fd15b2888bb25f698bd59fdf94d7c537b2f3b6a6",
+          "sha256": "23ed294e1bcd3a35b08091b5fd15b2888bb25f698bd59fdf94d7c537b2f3b6a6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:976cf3211c12521b167b905ef2f9a9884e6d26a0a81ef2fd8d5d3479e7e142bd",
+          "sha256": "976cf3211c12521b167b905ef2f9a9884e6d26a0a81ef2fd8d5d3479e7e142bd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:dbc69665367070e60fd9ca1dd1dc17aa647bfdc7ec5d4b38c97ef6bdd0349cd4",
+          "sha256": "dbc69665367070e60fd9ca1dd1dc17aa647bfdc7ec5d4b38c97ef6bdd0349cd4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bazel/blobs/sha256:a0a94e8b9a678ac3c5984cf72b2eccfeb74cb7aa8b931e61b3f5f58ac55a8f4b",
+          "sha256": "a0a94e8b9a678ac3c5984cf72b2eccfeb74cb7aa8b931e61b3f5f58ac55a8f4b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "python@3.11"
+  ],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "unzip",
+    "zip"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "bazelisk"
+  ],
+  "conflicts_with_reasons": [
+    "Bazelisk replaces the bazel binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bazel.rb",
+  "ruby_source_checksum": {
+    "sha256": "d77e5223dc6a32a4bdc75d64989742c12962dc80b5f3f91ac0a4004943af540d"
+  },
+  "date_added": "2015-11-22T16:19:17+00:00"
+}

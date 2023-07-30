@@ -1,0 +1,105 @@
+{
+  "name": "noweb",
+  "full_name": "noweb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "WEB-like literate-programming tool",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.cs.tufts.edu/~nr/noweb/",
+  "versions": {
+    "stable": "2.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/nrnrnr/noweb/archive/refs/tags/v2_12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "34e3903bce9771345ff392b1998f7877389b66c71b3292834e8aaf448837a7f0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:0068cf8061ae3a7cb18121fd2ebfdc4acf8b7637a53ba827b8510b3dc0bdf714",
+          "sha256": "0068cf8061ae3a7cb18121fd2ebfdc4acf8b7637a53ba827b8510b3dc0bdf714"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:a1300e280c5bf6bffb9ea37a6840265d7645db9aae1a39fa1a423c1649bd606a",
+          "sha256": "a1300e280c5bf6bffb9ea37a6840265d7645db9aae1a39fa1a423c1649bd606a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:203d5c7e72a0b556c08745473c80b516b842d9a70f345fb29d9e12ef2c056d32",
+          "sha256": "203d5c7e72a0b556c08745473c80b516b842d9a70f345fb29d9e12ef2c056d32"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:bc6bb8e8e542cf8f0dd2630b8f79cf5f478a17fe422c8b05a2d2c209d445f859",
+          "sha256": "bc6bb8e8e542cf8f0dd2630b8f79cf5f478a17fe422c8b05a2d2c209d445f859"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:65bc66014cc8a65cf32b9fa09167330a166cee389f9bda2e9cd02eb27982082b",
+          "sha256": "65bc66014cc8a65cf32b9fa09167330a166cee389f9bda2e9cd02eb27982082b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:56341492c694961e3f86baa4bc2ffe3dd175d59b2a6417e345ddd545877da83e",
+          "sha256": "56341492c694961e3f86baa4bc2ffe3dd175d59b2a6417e345ddd545877da83e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/noweb/blobs/sha256:e23dc34b6972b5a2b771c1a73444efd8c0c6a035a96437057ba52124433ea8a3",
+          "sha256": "e23dc34b6972b5a2b771c1a73444efd8c0c6a035a96437057ba52124433ea8a3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "icon"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "TeX support files are installed in the directory:\n\n  $HOMEBREW_PREFIX/Cellar/noweb/2.12/tex/generic/noweb\n\nYou may need to add the directory to TEXINPUTS to run noweb properly.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/noweb.rb",
+  "ruby_source_checksum": {
+    "sha256": "56b82e5cc9cf1486347f7f9a6b2d728f2e432ab4c35dd48b663b78752286abfa"
+  },
+  "date_added": "2011-03-06T20:45:08-08:00"
+}

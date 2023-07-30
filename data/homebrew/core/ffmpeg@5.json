@@ -1,0 +1,158 @@
+{
+  "name": "ffmpeg@5",
+  "full_name": "ffmpeg@5",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "ffmpeg@4",
+    "ffmpeg@2.8"
+  ],
+  "desc": "Play, record, convert, and stream audio and video",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://ffmpeg.org/",
+  "versions": {
+    "stable": "5.1.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ffmpeg.org/releases/ffmpeg-5.1.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b113593ff907293be7aed95acdda5e785dd73616d7d4ec90a0f6adbc5a0312e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:329c15e7625f9eb2aa4d9db566d9d8093f038579b3ff49a01b2dad9adc46366f",
+          "sha256": "329c15e7625f9eb2aa4d9db566d9d8093f038579b3ff49a01b2dad9adc46366f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:051e1a264e04c62639301b7e411cb7667719b85eaf20dcff19485c3a7c58b44e",
+          "sha256": "051e1a264e04c62639301b7e411cb7667719b85eaf20dcff19485c3a7c58b44e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:de95af561325d22b808f300a4295f6b7188c18607983b0cf97e55e046c75dddf",
+          "sha256": "de95af561325d22b808f300a4295f6b7188c18607983b0cf97e55e046c75dddf"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:2343de6ebda27cefff6c3e056c57ea2d8ff4fea6e7075437d53fcfd52bc7cadc",
+          "sha256": "2343de6ebda27cefff6c3e056c57ea2d8ff4fea6e7075437d53fcfd52bc7cadc"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:b6654f40e5ebc5f284f42d54785463ebb1fb9faef2aa025e9474dd4d9e5b5c2f",
+          "sha256": "b6654f40e5ebc5f284f42d54785463ebb1fb9faef2aa025e9474dd4d9e5b5c2f"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:b8fb51b5a4b50d4791d941f1babc79efc83134fb7fce91ee33d467d3abc6a87b",
+          "sha256": "b8fb51b5a4b50d4791d941f1babc79efc83134fb7fce91ee33d467d3abc6a87b"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ffmpeg/5/blobs/sha256:a0d7522661aee9a9812c76ad066e4e4ba330be7dbddc8f5bd63d1f9f92a8a5c9",
+          "sha256": "a0d7522661aee9a9812c76ad066e4e4ba330be7dbddc8f5bd63d1f9f92a8a5c9"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "nasm"
+  ],
+  "dependencies": [
+    "aom",
+    "aribb24",
+    "dav1d",
+    "fontconfig",
+    "freetype",
+    "frei0r",
+    "gnutls",
+    "lame",
+    "libass",
+    "libbluray",
+    "librist",
+    "libsoxr",
+    "libvidstab",
+    "libvmaf",
+    "libvorbis",
+    "libvpx",
+    "opencore-amr",
+    "openjpeg",
+    "opus",
+    "rav1e",
+    "rubberband",
+    "sdl2",
+    "snappy",
+    "speex",
+    "srt",
+    "svt-av1",
+    "tesseract",
+    "theora",
+    "webp",
+    "x264",
+    "x265",
+    "xvid",
+    "xz",
+    "zeromq",
+    "zimg",
+    "alsa-lib",
+    "libxv"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ffmpeg@5.rb",
+  "ruby_source_checksum": {
+    "sha256": "0289779d6e10f45b544e61fd9f84d9a26b47df6f48c42ac6356b507f8d02964c"
+  },
+  "date_added": "2023-04-20T17:44:03+08:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "waypoint",
+  "full_name": "waypoint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to build, deploy, and release any application on any platform",
+  "license": "MPL-2.0",
+  "homepage": "https://www.waypointproject.io/",
+  "versions": {
+    "stable": "0.11.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hashicorp/waypoint/archive/v0.11.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd150448b0720e6b0009d38226c9736fba27c102d76820203f876f9715e69a2d"
+    },
+    "head": {
+      "url": "https://github.com/hashicorp/waypoint.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:ece073f61133592bbc9126cffabbdd82e283d5ee5e00683608e856717f3d4a85",
+          "sha256": "ece073f61133592bbc9126cffabbdd82e283d5ee5e00683608e856717f3d4a85"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:ac709d96b55824af5ff625970cc86bef5f98d6f8e8b2cd4a7f57d0915a8a689a",
+          "sha256": "ac709d96b55824af5ff625970cc86bef5f98d6f8e8b2cd4a7f57d0915a8a689a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:d13a6270bb21a79316b54206df71bf8e7cf3916c0bebc275086ffcc73c78a505",
+          "sha256": "d13a6270bb21a79316b54206df71bf8e7cf3916c0bebc275086ffcc73c78a505"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:74080a7a24b398b90d5754c569937296f1912530d071bbbbbc3408d011607442",
+          "sha256": "74080a7a24b398b90d5754c569937296f1912530d071bbbbbc3408d011607442"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:488802106f5616a2d1539b5bf8f8b3deb3bc52cef0b35e08295fb0c0d7191a56",
+          "sha256": "488802106f5616a2d1539b5bf8f8b3deb3bc52cef0b35e08295fb0c0d7191a56"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:e9a09531b1de65de58ec98cb86703afca7686e919238846c32578a3ae6a3b758",
+          "sha256": "e9a09531b1de65de58ec98cb86703afca7686e919238846c32578a3ae6a3b758"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waypoint/blobs/sha256:f57fdf51ef8c6da96157ecb5ef2127342394fb16c56776136c74fad816c374c6",
+          "sha256": "f57fdf51ef8c6da96157ecb5ef2127342394fb16c56776136c74fad816c374c6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "go-bindata"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/waypoint.rb",
+  "ruby_source_checksum": {
+    "sha256": "339eb0edcaea856bbe9cb1ffe313e5f63b2890848d02d7fadd15ed63f83fbbf2"
+  },
+  "date_added": "2021-06-20T08:03:03+00:00"
+}

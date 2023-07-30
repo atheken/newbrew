@@ -1,0 +1,124 @@
+{
+  "name": "argyll-cms",
+  "full_name": "argyll-cms",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ICC compatible color management system",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://www.argyllcms.com/",
+  "versions": {
+    "stable": "2.3.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.argyllcms.com/Argyll_V2.3.1_src.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "bd0bcf58cec284824b79ff55baa242903ed361e12b1b37e12228679f9754961c"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:a5fcde403ff9fcd5066e618d9881746cd74497673cb45b5b70513dd7eed2e4e5",
+          "sha256": "a5fcde403ff9fcd5066e618d9881746cd74497673cb45b5b70513dd7eed2e4e5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:b984e5dad0d132169e324c0ce6e2247a3215978ffab873389c076e3d4329dd0a",
+          "sha256": "b984e5dad0d132169e324c0ce6e2247a3215978ffab873389c076e3d4329dd0a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:7da00534b2a37d605ad48b5040f5c3963ab34e4e532aa8e141cb06bc8b95a3de",
+          "sha256": "7da00534b2a37d605ad48b5040f5c3963ab34e4e532aa8e141cb06bc8b95a3de"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:82a1932941c85b76d58c00161b08778a67adf2f79c17d62022b43f50e12f6f38",
+          "sha256": "82a1932941c85b76d58c00161b08778a67adf2f79c17d62022b43f50e12f6f38"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:046626e1817bfb96c4c5bd57eca3e5fb431c468280ca2719826f761980211c80",
+          "sha256": "046626e1817bfb96c4c5bd57eca3e5fb431c468280ca2719826f761980211c80"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:7b6bb889e77f4f01c17dd64e8c99170b5e7b00248d4701459d01c14f1fbf47e9",
+          "sha256": "7b6bb889e77f4f01c17dd64e8c99170b5e7b00248d4701459d01c14f1fbf47e9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argyll-cms/blobs/sha256:85d4cb96a1cb7f85063ef58ba270e68c55e9dedd2d6ab5807acc0946d549ca6a",
+          "sha256": "85d4cb96a1cb7f85063ef58ba270e68c55e9dedd2d6ab5807acc0946d549ca6a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "jam"
+  ],
+  "dependencies": [
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "openssl@3",
+    "libx11",
+    "libxinerama",
+    "libxrandr",
+    "libxscrnsaver",
+    "libxxf86vm",
+    "xorgproto"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "num-utils"
+  ],
+  "conflicts_with_reasons": [
+    "both install `average` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/argyll-cms.rb",
+  "ruby_source_checksum": {
+    "sha256": "ee2f1e46d45bae3c0c21c22bd115c44612c1cecaf273c0d9bb6188d36168bf57"
+  },
+  "date_added": "2014-08-27T16:51:34-07:00"
+}

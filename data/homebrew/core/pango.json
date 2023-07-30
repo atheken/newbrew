@@ -1,0 +1,119 @@
+{
+  "name": "pango",
+  "full_name": "pango",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Framework for layout and rendering of i18n text",
+  "license": "LGPL-2.0-or-later",
+  "homepage": "https://pango.gnome.org",
+  "versions": {
+    "stable": "1.50.14",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/pango/1.50/pango-1.50.14.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1d67f205bfc318c27a29cfdfb6828568df566795df0cb51d2189cde7f2d581e8"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/pango.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:36b5b69c52886ea5c6599bc35bf22eb942cc44b2bcbe2ea0bd2340d72fe1d832",
+          "sha256": "36b5b69c52886ea5c6599bc35bf22eb942cc44b2bcbe2ea0bd2340d72fe1d832"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:0aaa4549f79b4fcd445fcfa409a516e5d1058b41853a056b191c43ad3388d959",
+          "sha256": "0aaa4549f79b4fcd445fcfa409a516e5d1058b41853a056b191c43ad3388d959"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:34d3bddaee4e322f64cb8a65763702d0037dd65f100772665b71a0ac108708d0",
+          "sha256": "34d3bddaee4e322f64cb8a65763702d0037dd65f100772665b71a0ac108708d0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:eae13498d195f5407514f88c3681981e4cf8b1b3099af13ce771be9934929ead",
+          "sha256": "eae13498d195f5407514f88c3681981e4cf8b1b3099af13ce771be9934929ead"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:34449966361af6e0ec7808fc48ea6b6368fb56c9873b332c77740a9ed4d0fdc1",
+          "sha256": "34449966361af6e0ec7808fc48ea6b6368fb56c9873b332c77740a9ed4d0fdc1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:8058dda295f5bd9a7fa01124a22b850285363fc9ab65e644bb037ad621475eb3",
+          "sha256": "8058dda295f5bd9a7fa01124a22b850285363fc9ab65e644bb037ad621475eb3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:c0e091a6c225b78ca16eef4dd0d955a13996c44896a6ee5d182aef5944f59cc8",
+          "sha256": "c0e091a6c225b78ca16eef4dd0d955a13996c44896a6ee5d182aef5944f59cc8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "fontconfig",
+    "freetype",
+    "fribidi",
+    "glib",
+    "harfbuzz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pango.rb",
+  "ruby_source_checksum": {
+    "sha256": "e536a15c33ef82aca5f29ca94433a6e12fb0c8d14a45160e7e5030fea1c8c174"
+  },
+  "date_added": "2010-02-07T12:18:10-08:00"
+}

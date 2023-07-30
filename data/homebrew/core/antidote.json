@@ -1,0 +1,77 @@
+{
+  "name": "antidote",
+  "full_name": "antidote",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Plugin manager for zsh, inspired by antigen and antibody",
+  "license": "MIT",
+  "homepage": "https://getantidote.github.io/",
+  "versions": {
+    "stable": "1.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mattmc3/antidote/archive/refs/tags/v1.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "10efff67c6f243cfff965ba98dbedef350434a8cd0e5b8b4c4ee22da8ac6ef30"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/antidote/blobs/sha256:1aaa9b11e403260c13463770df1bf87621166f8b611aef53b1ab93ef27c06fdb",
+          "sha256": "1aaa9b11e403260c13463770df1bf87621166f8b611aef53b1ab93ef27c06fdb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zsh"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To activate antidote, add the following to your ~/.zshrc:\n  source $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/antidote.rb",
+  "ruby_source_checksum": {
+    "sha256": "139f51eeb5411f7d04698221be66053853daccb3f01aca4e593803d57c84bbc4"
+  },
+  "date_added": "2022-09-12T08:27:23+00:00"
+}

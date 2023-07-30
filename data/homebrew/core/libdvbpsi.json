@@ -1,0 +1,120 @@
+{
+  "name": "libdvbpsi",
+  "full_name": "libdvbpsi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library to decode/generate MPEG TS and DVB PSI tables",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.videolan.org/developers/libdvbpsi.html",
+  "versions": {
+    "stable": "1.3.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://get.videolan.org/libdvbpsi/1.3.3/libdvbpsi-1.3.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "02b5998bcf289cdfbd8757bedd5987e681309b0a25b3ffe6cebae599f7a00112"
+    },
+    "head": {
+      "url": "https://code.videolan.org/videolan/libdvbpsi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:1c472e474f03c56fc1e29442555abd1786e3f8310d12d1fbc64442f166e8541b",
+          "sha256": "1c472e474f03c56fc1e29442555abd1786e3f8310d12d1fbc64442f166e8541b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:1bf8f2771e32e8799e111cf03d52d765d29e38b3494856f65c004166accaa1cf",
+          "sha256": "1bf8f2771e32e8799e111cf03d52d765d29e38b3494856f65c004166accaa1cf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:d235fec5478322cf04a4ed079073b18ac289548ebd0b31b2aaca8b84fe9987a3",
+          "sha256": "d235fec5478322cf04a4ed079073b18ac289548ebd0b31b2aaca8b84fe9987a3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:94c15b82989c45ea689079e7dfe8655953d192cc8ed09dcfe3400f04bc561434",
+          "sha256": "94c15b82989c45ea689079e7dfe8655953d192cc8ed09dcfe3400f04bc561434"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:c1af0d643851a02a2ed1db53f959abf421321e32ea7f5f74e97edc0ca48db6b6",
+          "sha256": "c1af0d643851a02a2ed1db53f959abf421321e32ea7f5f74e97edc0ca48db6b6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:6897247fd9cfdd4bc5cfd4db8991b7bb5d1647a6f929bab5642c8e673fe1f317",
+          "sha256": "6897247fd9cfdd4bc5cfd4db8991b7bb5d1647a6f929bab5642c8e673fe1f317"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libdvbpsi/blobs/sha256:8aff79b57483d77c1d376a230726c33df0e1f322d40b9ab7bba314ae28cfc359",
+          "sha256": "8aff79b57483d77c1d376a230726c33df0e1f322d40b9ab7bba314ae28cfc359"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdvbpsi.rb",
+  "ruby_source_checksum": {
+    "sha256": "826f4bf97a325c3ae3d83346e9ccda40d3892eb0a9cdf82c0cbe0dbdf4e3652d"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2009-10-12T23:01:13+01:00"
+}

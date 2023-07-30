@@ -1,0 +1,145 @@
+{
+  "name": "postgis",
+  "full_name": "postgis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Adds support for geographic objects to PostgreSQL",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://postgis.net/",
+  "versions": {
+    "stable": "3.3.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.osgeo.org/postgis/source/postgis-3.3.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9d41eaef70e811a4fe2f4a431d144c0c57ce17c2c1a3c938ddaf4e5a3813b0d8"
+    },
+    "head": {
+      "url": "https://git.osgeo.org/gitea/postgis/postgis.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:58d4836cb078a10a09f9e795d8945cfbb5babda38501be97ab3599873944da6c",
+          "sha256": "58d4836cb078a10a09f9e795d8945cfbb5babda38501be97ab3599873944da6c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:61e3944fa5e520a496ba01dcf1fe4aa12533e884192f5b54e3e10f4678435fec",
+          "sha256": "61e3944fa5e520a496ba01dcf1fe4aa12533e884192f5b54e3e10f4678435fec"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:384ddec8f1b794afaf82d28657384fdb95f5da2ee8458143768151a79493dad1",
+          "sha256": "384ddec8f1b794afaf82d28657384fdb95f5da2ee8458143768151a79493dad1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:e25211d85bdbf3a1c70c207ce9f296bd3d66498a83fc929abf4ed4f5ea1e6a6c",
+          "sha256": "e25211d85bdbf3a1c70c207ce9f296bd3d66498a83fc929abf4ed4f5ea1e6a6c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:68fdbb2b502cfce533b4faee0235db83e81f7b3e85d9879cb63cbd763e486ee3",
+          "sha256": "68fdbb2b502cfce533b4faee0235db83e81f7b3e85d9879cb63cbd763e486ee3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:427e6ed7171174f941de5fdbad50d6cab9733067c8ee2be7cc78c36d59d6ba5a",
+          "sha256": "427e6ed7171174f941de5fdbad50d6cab9733067c8ee2be7cc78c36d59d6ba5a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/postgis/blobs/sha256:0a86e19af33b5d32f705c09cc8f9addec3c21b4cc3d174f7dddf05c0da06e139",
+          "sha256": "0a86e19af33b5d32f705c09cc8f9addec3c21b4cc3d174f7dddf05c0da06e139"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gpp",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdal",
+    "geos",
+    "icu4c",
+    "json-c",
+    "pcre2",
+    "postgresql@14",
+    "proj",
+    "protobuf-c",
+    "sfcgal"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/postgis.rb",
+  "ruby_source_checksum": {
+    "sha256": "fa561a17c27f9a42fbe6e0fe0824ceed87464ca5795b909ed04b8e8798a729a1"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "gpp",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "gdal",
+      "geos",
+      "icu4c",
+      "json-c",
+      "pcre2",
+      "postgresql@14",
+      "proj",
+      "protobuf-c",
+      "sfcgal"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2009-10-02T11:04:48-07:00"
+}

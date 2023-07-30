@@ -1,0 +1,140 @@
+{
+  "name": "swig",
+  "full_name": "swig",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "swig@4",
+    "swig@4.1"
+  ],
+  "versioned_formulae": [
+    "swig@3"
+  ],
+  "desc": "Generate scripting interfaces to C/C++ code",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.swig.org/",
+  "versions": {
+    "stable": "4.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/swig/swig/swig-4.1.1/swig-4.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2af08aced8fcd65cdb5cc62426768914bedc735b1c250325203716f78e39ac9b"
+    },
+    "head": {
+      "url": "https://github.com/swig/swig.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:360d6e5438f0ac5a819ce2f9a0812dd9fa4d8c6edec7ac7377d2717779e26bb6",
+          "sha256": "360d6e5438f0ac5a819ce2f9a0812dd9fa4d8c6edec7ac7377d2717779e26bb6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:27c89aff26a1b22f1f645298992fba5db8d70b71772509f75870eefd7382e2e8",
+          "sha256": "27c89aff26a1b22f1f645298992fba5db8d70b71772509f75870eefd7382e2e8"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:d939f6eeeb6f58e3057fd311362b9e37fa969b83f6654752f5d3749898e99b69",
+          "sha256": "d939f6eeeb6f58e3057fd311362b9e37fa969b83f6654752f5d3749898e99b69"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:f478fa16ba778eac8227fe51844909db95887153f6fbb8ee4e050dbb0c4acc8e",
+          "sha256": "f478fa16ba778eac8227fe51844909db95887153f6fbb8ee4e050dbb0c4acc8e"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:7762910a737820dc734b089253c2f5bc7140673a2300acd97f0338ebc7ef6fd5",
+          "sha256": "7762910a737820dc734b089253c2f5bc7140673a2300acd97f0338ebc7ef6fd5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:8133b566757d1d2295bb38d77a536258aef56b9f6b15ec3c222ff1166d596204",
+          "sha256": "8133b566757d1d2295bb38d77a536258aef56b9f6b15ec3c222ff1166d596204"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swig/blobs/sha256:debb12256fb29f493afb450dddae5d66010faf0b014f719f3c530167b1b1d7a4",
+          "sha256": "debb12256fb29f493afb450dddae5d66010faf0b014f719f3c530167b1b1d7a4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pcre2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "ruby": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/swig.rb",
+  "ruby_source_checksum": {
+    "sha256": "1f4dc6c18bb3f438ceb111b38630976288fd9dff560b06bc82de2de031eead59"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake"
+    ],
+    "dependencies": [
+      "pcre2"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "ruby": "test"
+      }
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2009-10-15T15:54:07+01:00"
+}

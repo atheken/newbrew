@@ -1,0 +1,105 @@
+{
+  "name": "libprotoident",
+  "full_name": "libprotoident",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Performs application layer protocol identification for flows",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://github.com/wanduow/libprotoident",
+  "versions": {
+    "stable": "2.0.15-2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/LibtraceTeam/libprotoident/archive/refs/tags/2.0.15-2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2b43a492fe1d7ada2e7b7b164c8e35220b35bf816bd971c7f77decc74b69801e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:8ace9b58b751f6fdb761ff949f271c239143232e72e259619ce7053f2de430d7",
+          "sha256": "8ace9b58b751f6fdb761ff949f271c239143232e72e259619ce7053f2de430d7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:2fc5f6991116f9d63e327f05905affc40219b75a60eee637f2d6f5dc4f59d6e1",
+          "sha256": "2fc5f6991116f9d63e327f05905affc40219b75a60eee637f2d6f5dc4f59d6e1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:c3a42911911468bc01a9fc0d1d5f0cbedaf60534ad6b9d1618eb22d53191b144",
+          "sha256": "c3a42911911468bc01a9fc0d1d5f0cbedaf60534ad6b9d1618eb22d53191b144"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:3ad6e71b4d5a2857eabee4604eae32bd5f8888afb9532f6b984d5379548f3bb1",
+          "sha256": "3ad6e71b4d5a2857eabee4604eae32bd5f8888afb9532f6b984d5379548f3bb1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:56c72764357f942f42eb087698db4dfa1ca54ec8e2d80a30a66298c73ce49a57",
+          "sha256": "56c72764357f942f42eb087698db4dfa1ca54ec8e2d80a30a66298c73ce49a57"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libprotoident/blobs/sha256:538f5938a6c533c1102a3c8d0b49d3e298e67b085fbca1fe8b8a71d92ae4f242",
+          "sha256": "538f5938a6c533c1102a3c8d0b49d3e298e67b085fbca1fe8b8a71d92ae4f242"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "libflowmanager",
+    "libtrace"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libprotoident.rb",
+  "ruby_source_checksum": {
+    "sha256": "30af95049b4b3d3ddfd5d774cde8b1fb4142b0ba18395feb8d9a2b33d035fdea"
+  },
+  "date_added": "2015-06-22T20:58:46+01:00"
+}

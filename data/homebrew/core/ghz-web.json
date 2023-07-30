@@ -1,0 +1,118 @@
+{
+  "name": "ghz-web",
+  "full_name": "ghz-web",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web interface for ghz",
+  "license": "Apache-2.0",
+  "homepage": "https://ghz.sh",
+  "versions": {
+    "stable": "0.117.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/bojand/ghz/archive/v0.117.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "33014936ee67f8f139e89e342756d8415880b65c6bb6acb9fbf97132745a1528"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:48fb5f73011676dedd16c117da5489c4601bd9a10f3d686121f851de582eb1d6",
+          "sha256": "48fb5f73011676dedd16c117da5489c4601bd9a10f3d686121f851de582eb1d6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:f7d7d5ff5fefbb11464876bf6a032cd48eb2ebd67a863896f161605e981b9472",
+          "sha256": "f7d7d5ff5fefbb11464876bf6a032cd48eb2ebd67a863896f161605e981b9472"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:f763ec11a9044333f3a0e01f3930b61376a15d0489cc02dbcfcf6e76bf928449",
+          "sha256": "f763ec11a9044333f3a0e01f3930b61376a15d0489cc02dbcfcf6e76bf928449"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:f596d94dd82c2acd8dd41a68e049a7b9bf1403d053fb63dc0bfe27d8258d61da",
+          "sha256": "f596d94dd82c2acd8dd41a68e049a7b9bf1403d053fb63dc0bfe27d8258d61da"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:a6aec1ae6a60a2e6f8ab4119e0dddcb5654b6ce66c0fae717975b2bd71fa2e78",
+          "sha256": "a6aec1ae6a60a2e6f8ab4119e0dddcb5654b6ce66c0fae717975b2bd71fa2e78"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:cfbdcf04415099cf3a26db7e155089debc508f4cfaabea2a2d978553ea37d2aa",
+          "sha256": "cfbdcf04415099cf3a26db7e155089debc508f4cfaabea2a2d978553ea37d2aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghz-web/blobs/sha256:fef80789a23ab266fd6feac2223692d77df555d730f5132d1e002bb3e83a7333",
+          "sha256": "fef80789a23ab266fd6feac2223692d77df555d730f5132d1e002bb3e83a7333"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ghz-web.rb",
+  "ruby_source_checksum": {
+    "sha256": "1c0aeb670ab93d6e5848a81bcc45b40589e99d16600fa56a66d950b362ca4057"
+  },
+  "date_added": "2020-05-28T14:43:05+02:00"
+}

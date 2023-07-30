@@ -1,0 +1,75 @@
+{
+  "name": "wgetpaste",
+  "full_name": "wgetpaste",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automate pasting to a number of pastebin services",
+  "license": "MIT",
+  "homepage": "https://wgetpaste.zlin.dk/",
+  "versions": {
+    "stable": "2.33",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zlin/wgetpaste/releases/download/2.33/wgetpaste-2.33.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e9359d84a3a63bbbd128621535c5302f2e3a85e23a52200e81e8fab9b77e971b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wgetpaste/blobs/sha256:e28f46fd5ff5ace39fab378e3e156ada2996420f9db32e78c5679f5b461fee16",
+          "sha256": "e28f46fd5ff5ace39fab378e3e156ada2996420f9db32e78c5679f5b461fee16"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "wget"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wgetpaste.rb",
+  "ruby_source_checksum": {
+    "sha256": "4f9e77917271841beb8f9c6333da830725873f29cdfff6aa580799e3cdf2aef1"
+  },
+  "date_added": "2013-01-03T13:43:24-08:00"
+}

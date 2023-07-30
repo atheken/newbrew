@@ -1,0 +1,108 @@
+{
+  "name": "menhir",
+  "full_name": "menhir",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "LR(1) parser generator for the OCaml programming language",
+  "license": "GPL-3.0-or-later",
+  "homepage": "http://cristal.inria.fr/~fpottier/menhir",
+  "versions": {
+    "stable": "20230608",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.inria.fr/fpottier/menhir/-/archive/20230608/menhir-20230608.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "6fff24b0e1bca2143a774357dcda17ba367a6d23fadd9d7df52774f904dae2a9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:b5f3471fdeedef8360e4ef1a220787993578205fdf64b34bfe52eaf426ad40a0",
+          "sha256": "b5f3471fdeedef8360e4ef1a220787993578205fdf64b34bfe52eaf426ad40a0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:b092e36031f47030e59839d5fd05d321317ace2cd20a83f0ed952a416bd0a90e",
+          "sha256": "b092e36031f47030e59839d5fd05d321317ace2cd20a83f0ed952a416bd0a90e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:14f19b612756c58d8c935598f6f6a8f7b11f405a1cb3b7dbad0fe6063e941f3f",
+          "sha256": "14f19b612756c58d8c935598f6f6a8f7b11f405a1cb3b7dbad0fe6063e941f3f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:03f6d47c1c894c0892a536dc0abcf744039b747bbe707880024d491c16e8a9ac",
+          "sha256": "03f6d47c1c894c0892a536dc0abcf744039b747bbe707880024d491c16e8a9ac"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:17a7165e6c26f622e431953ab5a9723b36035d31dc2296768dda298f5b0995e0",
+          "sha256": "17a7165e6c26f622e431953ab5a9723b36035d31dc2296768dda298f5b0995e0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:d1cace7fa759e156a78d1e3f2e71723bb0971e549a64c16dbea5f206ee028aea",
+          "sha256": "d1cace7fa759e156a78d1e3f2e71723bb0971e549a64c16dbea5f206ee028aea"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/menhir/blobs/sha256:8aba8e33a8f0746020d10440af25b25eda2d83a414bdcda1ffabb51fa5b5ec0b",
+          "sha256": "8aba8e33a8f0746020d10440af25b25eda2d83a414bdcda1ffabb51fa5b5ec0b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "dune",
+    "ocamlbuild"
+  ],
+  "dependencies": [
+    "ocaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/menhir.rb",
+  "ruby_source_checksum": {
+    "sha256": "e5194ce7b0a7662edf8119d250187f54e241c0fd99b40ce924a86eb1b0cbe474"
+  },
+  "date_added": "2014-05-26T14:43:42-05:00"
+}

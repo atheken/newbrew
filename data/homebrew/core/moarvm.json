@@ -1,0 +1,121 @@
+{
+  "name": "moarvm",
+  "full_name": "moarvm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VM with adaptive optimization and JIT compilation, built for Rakudo",
+  "license": "Artistic-2.0",
+  "homepage": "https://moarvm.org",
+  "versions": {
+    "stable": "2023.06",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/MoarVM/MoarVM/releases/download/2023.06/MoarVM-2023.06.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "143f92510eaa3452c712e4aae9f44d84cd078f16517b40252bab7dd5e224ecdb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:a014a860226cc28444561ac2fd0c054b526693a71a9d2e33b9b0c9588aa1e170",
+          "sha256": "a014a860226cc28444561ac2fd0c054b526693a71a9d2e33b9b0c9588aa1e170"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:135d7bbd36b96bc859c24edcc520171262d39c66fdb863f4493a8d18cacdba15",
+          "sha256": "135d7bbd36b96bc859c24edcc520171262d39c66fdb863f4493a8d18cacdba15"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:25cde0a02f50b2c029a35dac8094ad2573ba27b16ccdafab558dd809cd82c7ad",
+          "sha256": "25cde0a02f50b2c029a35dac8094ad2573ba27b16ccdafab558dd809cd82c7ad"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:15c04dc422316bf00657ccad8fbbdcbb377040f42039aaa9f0eeb0bdb36ce1a2",
+          "sha256": "15c04dc422316bf00657ccad8fbbdcbb377040f42039aaa9f0eeb0bdb36ce1a2"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:2dcf9154f9b3b7adbcbf4ed5d42a894bbda6252317b7eaedc11c9834ace95002",
+          "sha256": "2dcf9154f9b3b7adbcbf4ed5d42a894bbda6252317b7eaedc11c9834ace95002"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:40e97defe5f76329051f4c3f1b54fc617e3122392c7fdfc94c786a64e4bc7257",
+          "sha256": "40e97defe5f76329051f4c3f1b54fc617e3122392c7fdfc94c786a64e4bc7257"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moarvm/blobs/sha256:7f6104ec8df30d0c9888d632fe4cd9117e5b8dd62e4f2596b7e84084c55d0150",
+          "sha256": "7f6104ec8df30d0c9888d632fe4cd9117e5b8dd62e4f2596b7e84084c55d0150"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libtommath",
+    "libuv",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "perl": "build"
+    },
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "rakudo-star"
+  ],
+  "conflicts_with_reasons": [
+    "rakudo-star currently ships with moarvm included"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/moarvm.rb",
+  "ruby_source_checksum": {
+    "sha256": "507e6c5489fb08e13f3f14af83dfdc38158a9844520ee3f2e66445a67d311576"
+  },
+  "date_added": "2019-01-07T12:35:49+01:00"
+}

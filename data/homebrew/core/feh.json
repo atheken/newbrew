@@ -1,0 +1,113 @@
+{
+  "name": "feh",
+  "full_name": "feh",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X11 image viewer",
+  "license": "MIT-feh",
+  "homepage": "https://feh.finalrewind.org/",
+  "versions": {
+    "stable": "3.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://feh.finalrewind.org/feh-3.10.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "1d71d1f6dcfe9ffee5e2766969a11978f7eb4fac7d7ae556f104c11f9c57cc98"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:d09345a22a4d8c83ce3dcf08c7094bc487c6ca6c3c68909b58a6b5c5fbe42fe6",
+          "sha256": "d09345a22a4d8c83ce3dcf08c7094bc487c6ca6c3c68909b58a6b5c5fbe42fe6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:5ff27ed211a8b9be511a8f15482247a7ecfc85a916827eaa1c71397b71b28df3",
+          "sha256": "5ff27ed211a8b9be511a8f15482247a7ecfc85a916827eaa1c71397b71b28df3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:799e3e81bd9ab5ce239bdf12014c92ddabf1eed3a0191da5ae042159107ab051",
+          "sha256": "799e3e81bd9ab5ce239bdf12014c92ddabf1eed3a0191da5ae042159107ab051"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:89580584fd9466914862b6e5f61c49633fc8bf371ef7e891bf660e943925cd6a",
+          "sha256": "89580584fd9466914862b6e5f61c49633fc8bf371ef7e891bf660e943925cd6a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:c29cbf93477a53aa44292a702596c7e96028f285c599121ac6e3c4ff9e732452",
+          "sha256": "c29cbf93477a53aa44292a702596c7e96028f285c599121ac6e3c4ff9e732452"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:ce60ede12373dac7aa745bb98091b3d145689b589a4898f8d7f6a989bbeb18c3",
+          "sha256": "ce60ede12373dac7aa745bb98091b3d145689b589a4898f8d7f6a989bbeb18c3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/feh/blobs/sha256:1ea557203296659043d36e6dbfc2491dc84188af3732ffc158c22134910c042e",
+          "sha256": "1ea557203296659043d36e6dbfc2491dc84188af3732ffc158c22134910c042e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "imlib2",
+    "libexif",
+    "libx11",
+    "libxinerama",
+    "libxt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/feh.rb",
+  "ruby_source_checksum": {
+    "sha256": "0597f3d0acc4cd309fc48284f7145e051e6e54472d0fa6209b4a46baa97ca32b"
+  },
+  "date_added": "2011-02-12T13:29:31+01:00"
+}

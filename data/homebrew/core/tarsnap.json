@@ -1,0 +1,138 @@
+{
+  "name": "tarsnap",
+  "full_name": "tarsnap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Online backups for the truly paranoid",
+  "license": "0BSD",
+  "homepage": "https://www.tarsnap.com/",
+  "versions": {
+    "stable": "1.0.40",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.tarsnap.com/download/tarsnap-autoconf-1.0.40.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bccae5380c1c1d6be25dccfb7c2eaa8364ba3401aafaee61e3c5574203c27fd5"
+    },
+    "head": {
+      "url": "https://github.com/Tarsnap/tarsnap.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:0e022219045b24e6d876bf97f8a092a82449932410ba7ebfa58d860dd92608ff",
+          "sha256": "0e022219045b24e6d876bf97f8a092a82449932410ba7ebfa58d860dd92608ff"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:8c765adcc21196986e44b11c168521f40ca7a6e6a9c1432bfa0e92933b28e920",
+          "sha256": "8c765adcc21196986e44b11c168521f40ca7a6e6a9c1432bfa0e92933b28e920"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:d99d8d2ea8f5b689fda5ab16779f19ccb66ac245743a0b3a968e853113e8d3ae",
+          "sha256": "d99d8d2ea8f5b689fda5ab16779f19ccb66ac245743a0b3a968e853113e8d3ae"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:d00d96a1ac3b3135985a30b282018fd3ca039532fd4fea10dce88149f0d904c7",
+          "sha256": "d00d96a1ac3b3135985a30b282018fd3ca039532fd4fea10dce88149f0d904c7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:77f225c14c952a1c5786d80fa284936fb35fbea06ea90522b39a39b8f1d8cd14",
+          "sha256": "77f225c14c952a1c5786d80fa284936fb35fbea06ea90522b39a39b8f1d8cd14"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:a81400622c552d684b783e239cdd3f3cdc139d2a1e65ef41eed1685efe89d95d",
+          "sha256": "a81400622c552d684b783e239cdd3f3cdc139d2a1e65ef41eed1685efe89d95d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tarsnap/blobs/sha256:511945c57b370981aeab675422da88d71b63a2442e7b55b6d9a7a4071e2668f8",
+          "sha256": "511945c57b370981aeab675422da88d71b63a2442e7b55b6d9a7a4071e2668f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "e2fsprogs"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tarsnap.rb",
+  "ruby_source_checksum": {
+    "sha256": "7a851a218a694890a7846dd8bc0669d18f31459dc0bca71a8eb0381fdb1d1840"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "e2fsprogs"
+    ],
+    "dependencies": [
+      "openssl@3"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "bzip2",
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2010-04-26T09:42:06-07:00"
+}

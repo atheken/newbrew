@@ -1,0 +1,105 @@
+{
+  "name": "glances",
+  "full_name": "glances",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Alternative to top/htop",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://nicolargo.github.io/glances/",
+  "versions": {
+    "stable": "3.4.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/15/0f/826df6c12110de8bfa9357be60be38bf93230103a9f39fdfa46708ef9200/Glances-3.4.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e7b1d54180db9961613f5485bf8e2a9fe93d0e58c1bcec0a451b4efe5687c85d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:f17c0c9e81be37b201a3f0159d5d1a6195a69ab530948745479bce34b80bca86",
+          "sha256": "f17c0c9e81be37b201a3f0159d5d1a6195a69ab530948745479bce34b80bca86"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:8526dc0031dbbb534295d8fbb5c1918b39f9b2314d258680bed06113899ad5f1",
+          "sha256": "8526dc0031dbbb534295d8fbb5c1918b39f9b2314d258680bed06113899ad5f1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:6e37ea6c56d3eedcf110f4b63309b2aad64cca791c9fcb35df8feae872adcfc8",
+          "sha256": "6e37ea6c56d3eedcf110f4b63309b2aad64cca791c9fcb35df8feae872adcfc8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:7c60330a40a54fb30dc029d5fc6286e25770a4e53421612f4bc8cd49297f316a",
+          "sha256": "7c60330a40a54fb30dc029d5fc6286e25770a4e53421612f4bc8cd49297f316a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:3a0dcca91cefeffb46fa9e88d8e26d14fb9f0562790623457d5f1a5d0d148ac2",
+          "sha256": "3a0dcca91cefeffb46fa9e88d8e26d14fb9f0562790623457d5f1a5d0d148ac2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:597134ccf0d1e33547a8e355cb3c1ea9070bd1fc747d3e64b74cef07a41db71e",
+          "sha256": "597134ccf0d1e33547a8e355cb3c1ea9070bd1fc747d3e64b74cef07a41db71e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glances/blobs/sha256:8f2edd50ee5eacfb976ebb1edee95b8e40ee2cc633d20598737510ffa72142eb",
+          "sha256": "8f2edd50ee5eacfb976ebb1edee95b8e40ee2cc633d20598737510ffa72142eb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glances.rb",
+  "ruby_source_checksum": {
+    "sha256": "507ec591503ce0ab2ed123dc21a52f35bd9fe5940c5a14568a59dd152945e2c5"
+  },
+  "date_added": "2018-01-10T04:17:30-08:00"
+}

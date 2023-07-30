@@ -1,0 +1,119 @@
+{
+  "name": "libzdb",
+  "full_name": "libzdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Database connection pool library",
+  "license": "GPL-3.0-only",
+  "homepage": "https://tildeslash.com/libzdb/",
+  "versions": {
+    "stable": "3.2.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://tildeslash.com/libzdb/dist/libzdb-3.2.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a1957826fab7725484fc5b74780a6a7d0d8b7f5e2e54d26e106b399e0a86beb0"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:69ee497f93eeec69092089d3491992dbfef8eb9191b91ff41856132a799b5e2c",
+          "sha256": "69ee497f93eeec69092089d3491992dbfef8eb9191b91ff41856132a799b5e2c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:9c941469057d1e6bc266f717253b4d273f79a206cbb88c1222b9438ffc45405b",
+          "sha256": "9c941469057d1e6bc266f717253b4d273f79a206cbb88c1222b9438ffc45405b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:7a63987fcff8e633e748b00623b2c4f8459eeffc58c14c415b523bab8a51b04d",
+          "sha256": "7a63987fcff8e633e748b00623b2c4f8459eeffc58c14c415b523bab8a51b04d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:695bee5cdf964b73531e8d0ac5668f4f4787958765da4dccec56466bb1e8dd02",
+          "sha256": "695bee5cdf964b73531e8d0ac5668f4f4787958765da4dccec56466bb1e8dd02"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:fb11437e4090f3a53cbdf84556234375cdaea1b0a8e0d30819ffd064ad6844a2",
+          "sha256": "fb11437e4090f3a53cbdf84556234375cdaea1b0a8e0d30819ffd064ad6844a2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:928efd66e2f2f6032982635fa2b6b36a2f55ff9e05c44554dddc5600dea1de65",
+          "sha256": "928efd66e2f2f6032982635fa2b6b36a2f55ff9e05c44554dddc5600dea1de65"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libzdb/blobs/sha256:2decd203e733b4c7c930d14cced666603bf77ab673068e4d66fa0fb7499c1b96",
+          "sha256": "2decd203e733b4c7c930d14cced666603bf77ab673068e4d66fa0fb7499c1b96"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpq",
+    "mysql-client",
+    "openssl@3",
+    "sqlite"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.13",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libzdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "b028f62388207c7973855a75da65932cbb249c252d9f8b84d481ab6a980502b2"
+  },
+  "date_added": "2012-06-12T20:32:33-07:00"
+}

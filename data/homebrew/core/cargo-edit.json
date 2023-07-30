@@ -1,0 +1,111 @@
+{
+  "name": "cargo-edit",
+  "full_name": "cargo-edit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Utility for managing cargo dependencies from the command-line",
+  "license": "MIT",
+  "homepage": "https://killercup.github.io/cargo-edit/",
+  "versions": {
+    "stable": "0.12.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/killercup/cargo-edit/archive/v0.12.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a8168ea2320c095f55d2b32f8bede8c814dcdc4290c250df36dc8ce0f6fb2095"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:fc9733fcc9a17ddec26cf85c6b3d78012d4be90accb077607e45ec22e78349c5",
+          "sha256": "fc9733fcc9a17ddec26cf85c6b3d78012d4be90accb077607e45ec22e78349c5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:c3650279b6ee915c9463492908197860208dc426a28e95762fc10cdbc7257fd1",
+          "sha256": "c3650279b6ee915c9463492908197860208dc426a28e95762fc10cdbc7257fd1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:e5ce6bf8ca65178bd4df7bf646b819f7103ddff0c516c242d8ea2fd89585464c",
+          "sha256": "e5ce6bf8ca65178bd4df7bf646b819f7103ddff0c516c242d8ea2fd89585464c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:a79a10921fbfbc69a34c237498265c8e962b16dd9144f0cfa6fdd8235ce41675",
+          "sha256": "a79a10921fbfbc69a34c237498265c8e962b16dd9144f0cfa6fdd8235ce41675"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:41c7884cfe078e882e04ad2d7b97e7f0b728f0d0f36852ae5bd4bfe003991fad",
+          "sha256": "41c7884cfe078e882e04ad2d7b97e7f0b728f0d0f36852ae5bd4bfe003991fad"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:def7d5ad96345c237572ef1fcca6fe7c2570114932ed59c0c99352d511d63c04",
+          "sha256": "def7d5ad96345c237572ef1fcca6fe7c2570114932ed59c0c99352d511d63c04"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-edit/blobs/sha256:e2674078d811596c0e31ef8ca74c764f3eeef1e2950f70c94656e25ac24de3bd",
+          "sha256": "e2674078d811596c0e31ef8ca74c764f3eeef1e2950f70c94656e25ac24de3bd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libgit2",
+    "openssl@3"
+  ],
+  "test_dependencies": [
+    "rustup-init"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-edit.rb",
+  "ruby_source_checksum": {
+    "sha256": "74428a534427d1ba5cdeec3edc4c5f8d6b2352af76afb4789a99f1ac1bb1ceed"
+  },
+  "date_added": "2020-11-17T23:13:13+00:00"
+}

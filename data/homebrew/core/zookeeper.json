@@ -1,0 +1,130 @@
+{
+  "name": "zookeeper",
+  "full_name": "zookeeper",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Centralized server for distributed coordination of services",
+  "license": "Apache-2.0",
+  "homepage": "https://zookeeper.apache.org/",
+  "versions": {
+    "stable": "3.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=zookeeper/zookeeper-3.8.1/apache-zookeeper-3.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ccc16850c8ab2553583583234d11c813061b5ea5f3b8ff1d740cde6c1fd1e219"
+    },
+    "head": {
+      "url": "https://gitbox.apache.org/repos/asf/zookeeper.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:13af3e59399609cf833576fc085e670afa28f46ccb1022353f027762a550c294",
+          "sha256": "13af3e59399609cf833576fc085e670afa28f46ccb1022353f027762a550c294"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:1940be28281f05a35153adbd60c0e6818428ce12de6d1019d6c16118161e2927",
+          "sha256": "1940be28281f05a35153adbd60c0e6818428ce12de6d1019d6c16118161e2927"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:f6b2814e65f0d08379c538bbdbb64b09cceed58b00830d95cfae1bfd79981878",
+          "sha256": "f6b2814e65f0d08379c538bbdbb64b09cceed58b00830d95cfae1bfd79981878"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:701fa917b47c5719898be5dae98dd5285f47a114ffe48ccf393d7485fc0553f6",
+          "sha256": "701fa917b47c5719898be5dae98dd5285f47a114ffe48ccf393d7485fc0553f6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:caa5872fe21c62778c634ac46410dbe8150d993589d54df1aad0b3291dc9fdca",
+          "sha256": "caa5872fe21c62778c634ac46410dbe8150d993589d54df1aad0b3291dc9fdca"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:2d1e98e4826a270e89c4afc2c3e6f10f2ab87028786ce42bb7d1a69be1797d4b",
+          "sha256": "2d1e98e4826a270e89c4afc2c3e6f10f2ab87028786ce42bb7d1a69be1797d4b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:d6648d03143cb69e6d0199171c3010703f5b9e8e8b099bfa9ed3cfb8969ceecc",
+          "sha256": "d6648d03143cb69e6d0199171c3010703f5b9e8e8b099bfa9ed3cfb8969ceecc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "cppunit",
+    "libtool",
+    "maven",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openjdk",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/zookeeper/bin/zkServer",
+      "start-foreground"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "successful_exit": false
+    },
+    "environment_variables": {
+      "SERVER_JVMFLAGS": "-Dapple.awt.UIElement=true"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var"
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zookeeper.rb",
+  "ruby_source_checksum": {
+    "sha256": "043e72215fd66c98db4e1d89a649c23365074f75084a33240184a6548f0fb3f6"
+  },
+  "date_added": "2010-10-22T09:38:00-07:00"
+}

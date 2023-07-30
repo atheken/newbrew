@@ -1,0 +1,112 @@
+{
+  "name": "gloox",
+  "full_name": "gloox",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ Jabber/XMPP library that handles the low-level protocol",
+  "license": "GPL-3.0-only with openvpn-openssl-exception",
+  "homepage": "https://camaya.net/gloox/",
+  "versions": {
+    "stable": "1.0.27",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://camaya.net/download/gloox-1.0.27.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b8b7371439bc58d9e51384b616c964b18b7b41b87af1b7855104380eda86ffb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:9b5ae7d3e5cc7ab20100263a57907d0f6ff9b063bd274b20bc7cdc36a11ba229",
+          "sha256": "9b5ae7d3e5cc7ab20100263a57907d0f6ff9b063bd274b20bc7cdc36a11ba229"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:aa39740f823cbbc7ecfe70d586d3c4cbe003d34c4aca76043a9c4e8c32e78a23",
+          "sha256": "aa39740f823cbbc7ecfe70d586d3c4cbe003d34c4aca76043a9c4e8c32e78a23"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:e56fbbd9d07dcbc0ed3f8b3d4ca2bf91f7dc6aa1252d0d657ebdc35a8758de49",
+          "sha256": "e56fbbd9d07dcbc0ed3f8b3d4ca2bf91f7dc6aa1252d0d657ebdc35a8758de49"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:706aeddbbdfa5b77edb5374df2a5f43205bc061195e1eb716da6331a500fa038",
+          "sha256": "706aeddbbdfa5b77edb5374df2a5f43205bc061195e1eb716da6331a500fa038"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:8e12926af004ce4865588035703d4bbce12fbc5a17613f3cc0df03921ddec964",
+          "sha256": "8e12926af004ce4865588035703d4bbce12fbc5a17613f3cc0df03921ddec964"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:5b052e56a2286f755a3517f6a0897befa74788af8821f2dd0c52a038c81859a0",
+          "sha256": "5b052e56a2286f755a3517f6a0897befa74788af8821f2dd0c52a038c81859a0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gloox/blobs/sha256:f2b0b46f102fc8d3d0ae4d6398110cce8ab5c1310a64babe1f8944131cfd9966",
+          "sha256": "f2b0b46f102fc8d3d0ae4d6398110cce8ab5c1310a64babe1f8944131cfd9966"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libidn",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gloox.rb",
+  "ruby_source_checksum": {
+    "sha256": "b57dddffd85580533c006a94ed880b167ede249037b36e6b6ab45e70009a091f"
+  },
+  "date_added": "2009-07-10T03:11:33+01:00"
+}

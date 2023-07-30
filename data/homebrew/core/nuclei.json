@@ -1,0 +1,109 @@
+{
+  "name": "nuclei",
+  "full_name": "nuclei",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "HTTP/DNS scanner configurable via YAML templates",
+  "license": "MIT",
+  "homepage": "https://nuclei.projectdiscovery.io/",
+  "versions": {
+    "stable": "2.9.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/projectdiscovery/nuclei/archive/v2.9.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "34f8846f39358b9b3f97d543f3eb26a9aa01fe92f4aea3ea1c83349b70abcd05"
+    },
+    "head": {
+      "url": "https://github.com/projectdiscovery/nuclei.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:bc159074afc963883f0d7d9b8e51727e3e6c0ed7d2211112781eba6029c1437b",
+          "sha256": "bc159074afc963883f0d7d9b8e51727e3e6c0ed7d2211112781eba6029c1437b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:199ea8e0daa8472e3c696cd65260d7e68f9e03ff08f42739d6c88e655df1086b",
+          "sha256": "199ea8e0daa8472e3c696cd65260d7e68f9e03ff08f42739d6c88e655df1086b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:c1af0919d8553bfe15956597f842e1a3eef7795744309988bacecd4e8f8f4f9d",
+          "sha256": "c1af0919d8553bfe15956597f842e1a3eef7795744309988bacecd4e8f8f4f9d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:eaf914ea722cec4f1deab51cf03afb2458ad65fc99920ba29ff0d92447a94f79",
+          "sha256": "eaf914ea722cec4f1deab51cf03afb2458ad65fc99920ba29ff0d92447a94f79"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:9490b3aef00437f78dd761c4cfeda9920be238407656866dade005ee9b605f24",
+          "sha256": "9490b3aef00437f78dd761c4cfeda9920be238407656866dade005ee9b605f24"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:d7023b3552c5ce6ba250d2659870364a8f9a2c2f8ab0797a27f38b24a79a0602",
+          "sha256": "d7023b3552c5ce6ba250d2659870364a8f9a2c2f8ab0797a27f38b24a79a0602"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuclei/blobs/sha256:c45097e6c613e88ef44c3abc12fb34eda2ba47df37eda8997d791ac8b2dc34d2",
+          "sha256": "c45097e6c613e88ef44c3abc12fb34eda2ba47df37eda8997d791ac8b2dc34d2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nuclei.rb",
+  "ruby_source_checksum": {
+    "sha256": "af7659520a3be4cfcc3f7fc9a3b166b02ee5d56110fe32bed3733d8a1bfb0b43"
+  },
+  "date_added": "2021-01-25T07:58:19+00:00"
+}

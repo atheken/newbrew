@@ -1,0 +1,113 @@
+{
+  "name": "nettle",
+  "full_name": "nettle",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "libnettle"
+  ],
+  "versioned_formulae": [],
+  "desc": "Low-level cryptographic library",
+  "license": "GPL-2.0-or-later or LGPL-3.0-or-later",
+  "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
+  "versions": {
+    "stable": "3.9.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/nettle/nettle-3.9.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ccfeff981b0ca71bbd6fbcb054f407c60ffb644389a5be80d6716d5b550c6ce3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:751e140ceac7711c462f1c05d74297c79f0abea26666f974370886c01d7bec83",
+          "sha256": "751e140ceac7711c462f1c05d74297c79f0abea26666f974370886c01d7bec83"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:0438f593bb82ef4bfbe1c3ebba3e42dd168f031674975832823f45b6b528a997",
+          "sha256": "0438f593bb82ef4bfbe1c3ebba3e42dd168f031674975832823f45b6b528a997"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:0b2001b44f417826e8463d83ce936105af71022cbe9f1e3ca0288b4389e6c460",
+          "sha256": "0b2001b44f417826e8463d83ce936105af71022cbe9f1e3ca0288b4389e6c460"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:180c6997e8df4c9e686250ef8388fa61bfde55ccd1f64c093122c10f18ce430f",
+          "sha256": "180c6997e8df4c9e686250ef8388fa61bfde55ccd1f64c093122c10f18ce430f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:8125044368a0ca002deed4578d868d9a90dd8532403eaad9237be8ae3b8f4ef5",
+          "sha256": "8125044368a0ca002deed4578d868d9a90dd8532403eaad9237be8ae3b8f4ef5"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:3892e22ccbf2c0305c33445b591a398ec9df758cb3589a4d872ecf266f737831",
+          "sha256": "3892e22ccbf2c0305c33445b591a398ec9df758cb3589a4d872ecf266f737831"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:89cb9f1c702bee6f67ef0a3d4c075b6d6b0dddf54853120a33272ce704d5a6d7",
+          "sha256": "89cb9f1c702bee6f67ef0a3d4c075b6d6b0dddf54853120a33272ce704d5a6d7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "m4": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nettle.rb",
+  "ruby_source_checksum": {
+    "sha256": "d962b4ad3aaf41d25fa8057e470392dc99d687d2d38d21e09212fcc302335f71"
+  },
+  "date_added": "2011-09-02T17:25:39-05:00"
+}

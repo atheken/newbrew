@@ -1,0 +1,129 @@
+{
+  "name": "lean",
+  "full_name": "lean",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Theorem prover",
+  "license": "Apache-2.0",
+  "homepage": "https://leanprover-community.github.io/",
+  "versions": {
+    "stable": "3.51.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/leanprover-community/lean/archive/v3.51.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5a4734bf345d6c5ba6eacd2d33d86d9540eea7d008b4ebf8dde126e729fcbcaf"
+    },
+    "head": {
+      "url": "https://github.com/leanprover-community/lean.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:0797fdae3a180bbc24a6add28a8e877b5b9b7146bbcf20f26a4722de25ba89be",
+          "sha256": "0797fdae3a180bbc24a6add28a8e877b5b9b7146bbcf20f26a4722de25ba89be"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:0659bcfa8b37c2ca94ca3f82d816537f17ace87a7b3364b7b751d41df288ea25",
+          "sha256": "0659bcfa8b37c2ca94ca3f82d816537f17ace87a7b3364b7b751d41df288ea25"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:b37a618f61d1cd10bb4f109b8ac307317d08e9ac400acd22ea06eaad0068132b",
+          "sha256": "b37a618f61d1cd10bb4f109b8ac307317d08e9ac400acd22ea06eaad0068132b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:42d0f2eb124c69b635767855a38494c89862ecb529db3c9d4f9988d248bd823a",
+          "sha256": "42d0f2eb124c69b635767855a38494c89862ecb529db3c9d4f9988d248bd823a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:b1c4beba495d421d1d193ab0545c0cc35161b1fec2ec306b11ffe464a7bd3c73",
+          "sha256": "b1c4beba495d421d1d193ab0545c0cc35161b1fec2ec306b11ffe464a7bd3c73"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:76f5df6bc494f44c1cc90ff21a40a6cc4024221e2e4956177b29982cc4015f00",
+          "sha256": "76f5df6bc494f44c1cc90ff21a40a6cc4024221e2e4956177b29982cc4015f00"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lean/blobs/sha256:47716dec0f9e482dd8a44694c4916cc86d104dcc65f50f4fc8d81e0f2d366ef6",
+          "sha256": "47716dec0f9e482dd8a44694c4916cc86d104dcc65f50f4fc8d81e0f2d366ef6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "coreutils",
+    "gmp",
+    "jemalloc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.14",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [
+    "elan-init"
+  ],
+  "conflicts_with_reasons": [
+    "`lean` and `elan-init` install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lean.rb",
+  "ruby_source_checksum": {
+    "sha256": "fb34e7d089183c11636236c533dc45526c7fe8cc0c1e59f86328618374458ec7"
+  },
+  "date_added": "2017-09-10T18:37:51+02:00"
+}

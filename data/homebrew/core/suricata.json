@@ -1,0 +1,118 @@
+{
+  "name": "suricata",
+  "full_name": "suricata",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network IDS, IPS, and security monitoring engine",
+  "license": "GPL-2.0-only",
+  "homepage": "https://suricata.io",
+  "versions": {
+    "stable": "7.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.openinfosecfoundation.org/download/suricata-7.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7bcd1313118366451465dc3f8385a3f6aadd084ffe44dd257dda8105863bb769"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:d58069d6aabe6fdaf36f5f23bad35b48d9e288f61e4913e7591e8f4447706d46",
+          "sha256": "d58069d6aabe6fdaf36f5f23bad35b48d9e288f61e4913e7591e8f4447706d46"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:b23b1457fb6c4fdbf1383d2774c07d2d83ff15bb104397f0a8475c743d8ee4b7",
+          "sha256": "b23b1457fb6c4fdbf1383d2774c07d2d83ff15bb104397f0a8475c743d8ee4b7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:3c1987e4fee155ccb835a2a5e0ca0003a9d4f3591b0766735f844849999cc42b",
+          "sha256": "3c1987e4fee155ccb835a2a5e0ca0003a9d4f3591b0766735f844849999cc42b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:d5603e316135025853b112f3200aecb3d78f5a8f4e2115b4edbfaf711e153e36",
+          "sha256": "d5603e316135025853b112f3200aecb3d78f5a8f4e2115b4edbfaf711e153e36"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:7c1e14f47f9456a263a37636a1a98c3a878e5f129163ebc7c7040563e1cceaeb",
+          "sha256": "7c1e14f47f9456a263a37636a1a98c3a878e5f129163ebc7c7040563e1cceaeb"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:cf3cc309c09683104ab7ee04c562861423305d8f36715ab62747be28b721dab4",
+          "sha256": "cf3cc309c09683104ab7ee04c562861423305d8f36715ab62747be28b721dab4"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/suricata/blobs/sha256:1145649e95a1b9b22b2d180b77b3ef4850ab120394b1eb9c2957d553b0ebd3c6",
+          "sha256": "1145649e95a1b9b22b2d180b77b3ef4850ab120394b1eb9c2957d553b0ebd3c6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "jansson",
+    "libmagic",
+    "libnet",
+    "lz4",
+    "pcre2",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/suricata.rb",
+  "ruby_source_checksum": {
+    "sha256": "a334d21bb35157d6a5824c50c4d5d1b6456df34cc6c38e4e8ac4dd4862b22ef5"
+  },
+  "date_added": "2013-07-30T09:28:45-07:00"
+}

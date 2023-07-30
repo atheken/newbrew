@@ -1,0 +1,107 @@
+{
+  "name": "diffoscope",
+  "full_name": "diffoscope",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "In-depth comparison of files, archives, and directories",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://diffoscope.org",
+  "versions": {
+    "stable": "246",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/79/1f/692d01d49286b68083735b16ca7ab52bdc007203bd21ed74290fece9f04e/diffoscope-246.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5247030aa3f34bae762dbd34ff0e747743c2673640d9c6d800e0603ffffedc6a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:9e3b079b98a59201f3a02399c734f6e05ce9bcafee7ad8a708434d0ceb986fd8",
+          "sha256": "9e3b079b98a59201f3a02399c734f6e05ce9bcafee7ad8a708434d0ceb986fd8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:7171b8e9ec6942601eb456486952c07a4c78b4563d4958f5d6050ac4fc815503",
+          "sha256": "7171b8e9ec6942601eb456486952c07a4c78b4563d4958f5d6050ac4fc815503"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:c3837efcccfbe7b86edd128eb6043b467ff9c0982cb0c690c3a7dd7ae5be3707",
+          "sha256": "c3837efcccfbe7b86edd128eb6043b467ff9c0982cb0c690c3a7dd7ae5be3707"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:0c733d64b56ad035314c833982e64bd284357840b7a23f22ef8bf98c7bb64205",
+          "sha256": "0c733d64b56ad035314c833982e64bd284357840b7a23f22ef8bf98c7bb64205"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:756c374dd35360eda9524829af07c451eaddb804801988cb167fadde29382cb5",
+          "sha256": "756c374dd35360eda9524829af07c451eaddb804801988cb167fadde29382cb5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:3e86f4b7b0e3a107971251b534a09f78517945118cc8528a94459ca1c5108fcc",
+          "sha256": "3e86f4b7b0e3a107971251b534a09f78517945118cc8528a94459ca1c5108fcc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diffoscope/blobs/sha256:3855f09ee9f73849c963a424861795d3e306e72cc8b28faa253b4069447dbc8d",
+          "sha256": "3855f09ee9f73849c963a424861795d3e306e72cc8b28faa253b4069447dbc8d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libarchive",
+    "libmagic",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/diffoscope.rb",
+  "ruby_source_checksum": {
+    "sha256": "c48e6f226cf840390769ad1c669aea3e62778812620985b02ea8ec5ba9dfca4d"
+  },
+  "date_added": "2015-12-02T17:23:07+02:00"
+}

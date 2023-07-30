@@ -1,0 +1,111 @@
+{
+  "name": "gwyddion",
+  "full_name": "gwyddion",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scanning Probe Microscopy visualization and analysis tool",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://gwyddion.net/",
+  "versions": {
+    "stable": "2.63",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://gwyddion.net/download/2.63/gwyddion-2.63.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8067b5470f0319a3be3ec077f9ace59ce071d359382d6cd7ede82c01f01c8f38"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:d3c1514b6223703e6ee86bccd1b65ef1a069348f93bd85cf58d9172f1df989e1",
+          "sha256": "d3c1514b6223703e6ee86bccd1b65ef1a069348f93bd85cf58d9172f1df989e1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:9e222c291217ea8edb89a2a38db7f9134688ae17b241a7d6484a4203fe306c97",
+          "sha256": "9e222c291217ea8edb89a2a38db7f9134688ae17b241a7d6484a4203fe306c97"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:d584e56ce7ec0e6ce276291ccd4736c5789a74a66e86c67afce5cda13d16934b",
+          "sha256": "d584e56ce7ec0e6ce276291ccd4736c5789a74a66e86c67afce5cda13d16934b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:6d7cb651783e738c339c0ebdc34a37d13d4d59aceabf14a05cae8d3638408530",
+          "sha256": "6d7cb651783e738c339c0ebdc34a37d13d4d59aceabf14a05cae8d3638408530"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:1c5c6b71147ae9f0aa759aeef371921b5f311d3749e7f439a99f3aab365b1ea2",
+          "sha256": "1c5c6b71147ae9f0aa759aeef371921b5f311d3749e7f439a99f3aab365b1ea2"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:ae68bb295a84085c97e725e406fc6f6680c22e82708b048c646f22c82c84ef1c",
+          "sha256": "ae68bb295a84085c97e725e406fc6f6680c22e82708b048c646f22c82c84ef1c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gwyddion/blobs/sha256:63bf4dce8b7644885ba8951250a2fcbaf6e615c495e42fc79749dbaf237c9bf2",
+          "sha256": "63bf4dce8b7644885ba8951250a2fcbaf6e615c495e42fc79749dbaf237c9bf2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fftw",
+    "gtk+",
+    "gtkglext",
+    "libxml2",
+    "minizip"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gwyddion.rb",
+  "ruby_source_checksum": {
+    "sha256": "b66ccf2d1f26af320251528d0b49d5f2dd96947674de18ec149706a5c9663a0b"
+  },
+  "date_added": "2011-01-22T10:38:37-08:00"
+}

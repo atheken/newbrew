@@ -1,0 +1,106 @@
+{
+  "name": "jc",
+  "full_name": "jc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Serializes the output of command-line tools to structured JSON output",
+  "license": "MIT",
+  "homepage": "https://github.com/kellyjonbrazil/jc",
+  "versions": {
+    "stable": "1.23.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d3/a6/b21f4785ee03d84597dbeeec8bffc6869d2040a47a3864c68ed498a5acab/jc-1.23.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e91097121b8f5a553dbb948d1fcc46d220d9b62236d73016eb0d8dad3cd9dc36"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:3c49ca333d54b89e433571f3d4510a6a6c5fd776d3243e1139093faf2b00c2ce",
+          "sha256": "3c49ca333d54b89e433571f3d4510a6a6c5fd776d3243e1139093faf2b00c2ce"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:ab7f870dda5a28fc79077bd4d0fc0431b25c5e7885fb81fef174086dde1c39ff",
+          "sha256": "ab7f870dda5a28fc79077bd4d0fc0431b25c5e7885fb81fef174086dde1c39ff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:90b48797a2499c7de46d7c65b595a5fc6c848b46561ddcdd771e4750a18c2971",
+          "sha256": "90b48797a2499c7de46d7c65b595a5fc6c848b46561ddcdd771e4750a18c2971"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:29e5e9c8bcd1ba56145ad5f790038a23937e65e5b102e138bcb49db7570354f8",
+          "sha256": "29e5e9c8bcd1ba56145ad5f790038a23937e65e5b102e138bcb49db7570354f8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:e0c2e1a45e49afa2e4c197a935d655cc557a4da09b11945d7ae56ffcdfc2960e",
+          "sha256": "e0c2e1a45e49afa2e4c197a935d655cc557a4da09b11945d7ae56ffcdfc2960e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:585042d7de0f9cf22f5e87f45a041df4b36da08f0e404fc39965669312bec1e5",
+          "sha256": "585042d7de0f9cf22f5e87f45a041df4b36da08f0e404fc39965669312bec1e5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jc/blobs/sha256:95b93e8269b78ea7af43245bbb93e2e6e27fefc0c5728ac5f01c3c52d5ae79f9",
+          "sha256": "95b93e8269b78ea7af43245bbb93e2e6e27fefc0c5728ac5f01c3c52d5ae79f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jc.rb",
+  "ruby_source_checksum": {
+    "sha256": "954bef19bc16ea0be57ffcdb01f371ba86de07ae9771ca303a051b072db9896b"
+  },
+  "date_added": "2020-04-22T09:03:07+00:00"
+}

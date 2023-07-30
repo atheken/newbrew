@@ -1,0 +1,126 @@
+{
+  "name": "pure-ftpd",
+  "full_name": "pure-ftpd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Secure and efficient FTP server",
+  "license": "BSD-2-Clause and BSD-3-Clause and BSD-4-Clause and ISC",
+  "homepage": "https://www.pureftpd.org/",
+  "versions": {
+    "stable": "1.0.51",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.51.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4160f66b76615eea2397eac4ea3f0a146b7928207b79bc4cc2f99ad7b7bd9513"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:a6f41d0fbf23150cdab22ddd9afbdeebb099f4e53537182d9980f06f9b26dbac",
+          "sha256": "a6f41d0fbf23150cdab22ddd9afbdeebb099f4e53537182d9980f06f9b26dbac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:1b67abcc9edd60aead2142a140209ae6697e4e229785d86de09c596c31488bff",
+          "sha256": "1b67abcc9edd60aead2142a140209ae6697e4e229785d86de09c596c31488bff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:3bc73b3496165c30c7ab46f68794336afd1da8979a9213d7e4a05d536b7e60a9",
+          "sha256": "3bc73b3496165c30c7ab46f68794336afd1da8979a9213d7e4a05d536b7e60a9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:544c26284f46449f9ccdf4a2ae18e9906c83a5387e9e6c7ef86a35e909ce8c97",
+          "sha256": "544c26284f46449f9ccdf4a2ae18e9906c83a5387e9e6c7ef86a35e909ce8c97"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:a528d655c319b209b6b5791ec9f29730f45dd84d0cee608cab3be611b17f210a",
+          "sha256": "a528d655c319b209b6b5791ec9f29730f45dd84d0cee608cab3be611b17f210a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:1e5868c9218be8b930ef9f32992ef3f87c180faf03acb58387429b99a6b79e5d",
+          "sha256": "1e5868c9218be8b930ef9f32992ef3f87c180faf03acb58387429b99a6b79e5d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pure-ftpd/blobs/sha256:633b0bb81436b00c8701ce9db2c560a7b43a8277b0482cc66c26ff9dbb4350ec",
+          "sha256": "633b0bb81436b00c8701ce9db2c560a7b43a8277b0482cc66c26ff9dbb4350ec"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libsodium",
+    "openssl@3",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/pure-ftpd/sbin/pure-ftpd",
+      "--chrooteveryone",
+      "--createhomedir",
+      "--allowdotfiles",
+      "--login=puredb:/home/linuxbrew/.linuxbrew/etc/pureftpd.pdb"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/pure-ftpd.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/pure-ftpd.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pure-ftpd.rb",
+  "ruby_source_checksum": {
+    "sha256": "f3eb8d91cf00e003ba1fe65e4479760c9fcdfdbe95571ef396a5eaf8f1ad3678"
+  },
+  "date_added": "2012-01-28T20:39:34-08:00"
+}

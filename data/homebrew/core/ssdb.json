@@ -1,0 +1,131 @@
+{
+  "name": "ssdb",
+  "full_name": "ssdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "NoSQL database supporting many data structures: Redis alternative",
+  "license": "BSD-3-Clause",
+  "homepage": "https://ssdb.io/",
+  "versions": {
+    "stable": "1.9.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ideawu/ssdb/archive/1.9.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a32009950114984d6e468e10d964b0ef1e846077b69d7c7615715fdfa01aaf6e"
+    },
+    "head": {
+      "url": "https://github.com/ideawu/ssdb.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:79bb5aad0a9002af14f96810f62717cd0249479368fecaa7e9481a7ab2b7a05e",
+          "sha256": "79bb5aad0a9002af14f96810f62717cd0249479368fecaa7e9481a7ab2b7a05e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:fd19fa3f456c5dd8b460280a7dac3953032564b280484346376b3f3f217e1592",
+          "sha256": "fd19fa3f456c5dd8b460280a7dac3953032564b280484346376b3f3f217e1592"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:fd8b6237b70f674f8bc59c1ce2e6d57e6476915c6b01657358a451ecab5e405a",
+          "sha256": "fd8b6237b70f674f8bc59c1ce2e6d57e6476915c6b01657358a451ecab5e405a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:1a620a33fde41616aa7f05016f3699b239e76a49a3740096551d64933acf9435",
+          "sha256": "1a620a33fde41616aa7f05016f3699b239e76a49a3740096551d64933acf9435"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:5251016f1ba03a184424fc041e61501398577ca0c1aceac23748e22bc8883f5f",
+          "sha256": "5251016f1ba03a184424fc041e61501398577ca0c1aceac23748e22bc8883f5f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:f92e221d20ca1a85c7ae555acd1417bba60b208a56091eb3a25d98fc788f25a3",
+          "sha256": "f92e221d20ca1a85c7ae555acd1417bba60b208a56091eb3a25d98fc788f25a3"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:4253e51c8e447b5d4e0ec5f064ee2fcc3ef57b30734df70f3b24d6399abb9363",
+          "sha256": "4253e51c8e447b5d4e0ec5f064ee2fcc3ef57b30734df70f3b24d6399abb9363"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:a10edecc28880cd37e02e75fdc318392ba6bda016f624181a9f4ff10982b211f",
+          "sha256": "a10edecc28880cd37e02e75fdc318392ba6bda016f624181a9f4ff10982b211f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ssdb/blobs/sha256:9db77a02bd8c3ed9569919f579d4e3a3d434bfba9f4679aafbc3c2de87993478",
+          "sha256": "9db77a02bd8c3ed9569919f579d4e3a3d434bfba9f4679aafbc3c2de87993478"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/ssdb/bin/ssdb-server",
+      "/home/linuxbrew/.linuxbrew/etc/ssdb.conf"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "successful_exit": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/ssdb.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/ssdb.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ssdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "e98e71c5705d4eaf915d98807a57ebc45f7ab000ae12d693f96a20424e52b1dc"
+  },
+  "date_added": "2014-08-04T09:46:15+01:00"
+}

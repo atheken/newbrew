@@ -1,0 +1,109 @@
+{
+  "name": "netcdf-fortran",
+  "full_name": "netcdf-fortran",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fortran libraries and utilities for NetCDF",
+  "license": "NetCDF",
+  "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+  "versions": {
+    "stable": "4.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Unidata/netcdf-fortran/archive/refs/tags/v4.6.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "40b534e0c81b853081c67ccde095367bd8a5eead2ee883431331674e7aa9509f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:f69dec2020417b0e8199b02be5a47c4ca2da04c7877b71238017cec1eb7d0b14",
+          "sha256": "f69dec2020417b0e8199b02be5a47c4ca2da04c7877b71238017cec1eb7d0b14"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:d37ff2c2dc92218abac1c96650ed04330748e4b2478b8af3a8191f1f09f82ce3",
+          "sha256": "d37ff2c2dc92218abac1c96650ed04330748e4b2478b8af3a8191f1f09f82ce3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:656efd1986de89c62f46cc8cee403671e0b27f7a9c5c71462d46dd71bd5b7afc",
+          "sha256": "656efd1986de89c62f46cc8cee403671e0b27f7a9c5c71462d46dd71bd5b7afc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:9f472b30b1122d65ec0200e712cfbc9fbc568fe5093f7766a54084d63ab01f94",
+          "sha256": "9f472b30b1122d65ec0200e712cfbc9fbc568fe5093f7766a54084d63ab01f94"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:e987324d04bfe2505ba86583d2c2fd3011ab57f946e75ff82179a126c0901aff",
+          "sha256": "e987324d04bfe2505ba86583d2c2fd3011ab57f946e75ff82179a126c0901aff"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:5d8adc17ed018ac5a4f9db5b62466fe5a43de072a2156bfc7d190fcd072ee483",
+          "sha256": "5d8adc17ed018ac5a4f9db5b62466fe5a43de072a2156bfc7d190fcd072ee483"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/netcdf-fortran/blobs/sha256:8c6ed098da41febed8864e81d27d264cadca8d99e55bfad0281d98c99e025790",
+          "sha256": "8c6ed098da41febed8864e81d27d264cadca8d99e55bfad0281d98c99e025790"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gcc",
+    "hdf5",
+    "netcdf"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/netcdf-fortran.rb",
+  "ruby_source_checksum": {
+    "sha256": "d8311e83a6653d727fa654a7dab83734b849b70fd36abe5df73ea99130e96115"
+  },
+  "date_added": "2022-10-03T00:45:51+00:00"
+}

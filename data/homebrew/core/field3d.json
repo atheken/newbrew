@@ -1,0 +1,109 @@
+{
+  "name": "field3d",
+  "full_name": "field3d",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for storing voxel data on disk and in memory",
+  "license": "BSD-3-Clause",
+  "homepage": "https://sites.google.com/site/field3d/",
+  "versions": {
+    "stable": "1.7.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/imageworks/Field3D/archive/v1.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b6168bc27abe0f5e9b8d01af7794b3268ae301ac72b753712df93125d51a0fd4"
+    }
+  },
+  "revision": 10,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:84775376ed6d1d9031455dc9a9130570e65e0c804e1b8543679258a2ed735859",
+          "sha256": "84775376ed6d1d9031455dc9a9130570e65e0c804e1b8543679258a2ed735859"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:2a2c1c5b03675b4939e84e5f59e42e4b5ecec38961b8b187bb126c396b930aff",
+          "sha256": "2a2c1c5b03675b4939e84e5f59e42e4b5ecec38961b8b187bb126c396b930aff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:115d9cf5592fb883058ec8a1e51105a709d02aa0e6529aa7d3777f912ac602aa",
+          "sha256": "115d9cf5592fb883058ec8a1e51105a709d02aa0e6529aa7d3777f912ac602aa"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:25fb0a2d50d3cc64d7a5ad7db60aab7b4a988a507b8206c812f25cf6c19e0310",
+          "sha256": "25fb0a2d50d3cc64d7a5ad7db60aab7b4a988a507b8206c812f25cf6c19e0310"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:0a3a952b86f24e779d0b0f2dca84574ab067b2c0bbbc83eba4ae1f1a223ba0fe",
+          "sha256": "0a3a952b86f24e779d0b0f2dca84574ab067b2c0bbbc83eba4ae1f1a223ba0fe"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:3c11ab54417b1f865a1d72197ab611617f132aeaf97b549a3f9881b06f13415a",
+          "sha256": "3c11ab54417b1f865a1d72197ab611617f132aeaf97b549a3f9881b06f13415a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/field3d/blobs/sha256:d5a36a8480ac6abb6537e774aed52c40a5de25536109050163e29edecf9e7a4a",
+          "sha256": "d5a36a8480ac6abb6537e774aed52c40a5de25536109050163e29edecf9e7a4a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "hdf5",
+    "ilmbase"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-02-03",
+  "deprecation_reason": "unmaintained",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/field3d.rb",
+  "ruby_source_checksum": {
+    "sha256": "7d6477243d2433308a0b454cfc146da35d4e86af030b77187c89d9ed827e89cb"
+  },
+  "date_added": "2011-12-11T17:44:41-06:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "xterm",
+  "full_name": "xterm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Terminal emulator for the X Window System",
+  "license": "X11",
+  "homepage": "https://invisible-island.net/xterm/",
+  "versions": {
+    "stable": "384",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://invisible-mirror.net/archives/xterm/xterm-384.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "31ef870740ceae020c3c4b4a9601c7f47bfd46672c1aaf2d213a565d64cbc373"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:237ed591ac78166be805c164fa81cbc6edf015c831f59f1136925429c1f807a4",
+          "sha256": "237ed591ac78166be805c164fa81cbc6edf015c831f59f1136925429c1f807a4"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:d9f66a51ae4ac93eb953fb1f69662c8a8ec53a31cc422061e7a59051528d95d9",
+          "sha256": "d9f66a51ae4ac93eb953fb1f69662c8a8ec53a31cc422061e7a59051528d95d9"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:9e76b30e573658633a989391e56ef02d93220a946be21bd1999b72accfc18483",
+          "sha256": "9e76b30e573658633a989391e56ef02d93220a946be21bd1999b72accfc18483"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:8d5e32b06ff89d6a39074778c14246c1c5593fdc98b7af8253e44fb728365209",
+          "sha256": "8d5e32b06ff89d6a39074778c14246c1c5593fdc98b7af8253e44fb728365209"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:379dcd7ca034170c42ede65ee4b00e3ab1e1cd958485904760c92feea65aff9e",
+          "sha256": "379dcd7ca034170c42ede65ee4b00e3ab1e1cd958485904760c92feea65aff9e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:ce78a86fe3e7abbf1375b217d2122eeee7cfc50a19247e41df34f4335790f2b0",
+          "sha256": "ce78a86fe3e7abbf1375b217d2122eeee7cfc50a19247e41df34f4335790f2b0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xterm/blobs/sha256:763d87094f32ca3ee8364d2259375716dd2e3fc1c58d0cc9087fd5eec06894c3",
+          "sha256": "763d87094f32ca3ee8364d2259375716dd2e3fc1c58d0cc9087fd5eec06894c3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "fontconfig",
+    "freetype",
+    "libice",
+    "libx11",
+    "libxaw",
+    "libxext",
+    "libxft",
+    "libxinerama",
+    "libxmu",
+    "libxpm",
+    "libxt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xterm.rb",
+  "ruby_source_checksum": {
+    "sha256": "64178c8e105e970a5459ee0cbfc243676293a9042676578d519240722c8fe0be"
+  },
+  "date_added": "2020-11-08T13:20:04+00:00"
+}

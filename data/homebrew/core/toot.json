@@ -1,0 +1,109 @@
+{
+  "name": "toot",
+  "full_name": "toot",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Mastodon CLI & TUI",
+  "license": "GPL-3.0-only",
+  "homepage": "https://toot.readthedocs.io/en/latest/index.html",
+  "versions": {
+    "stable": "0.38.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/4c/55/f7c6578f031e1c5d6605c1977ea36a9d7b89a72aef79b93fbd9719a15a74/toot-0.38.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "be9e5479a21ea8fb13cf7ba98d542daae07fd87fb56b20b8923b69ffa521c6b2"
+    },
+    "head": {
+      "url": "https://github.com/ihabunek/toot.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:4041993e95b81a078e1fa4b02a90f9d08f1e7e63e0617a770c21a749235a8639",
+          "sha256": "4041993e95b81a078e1fa4b02a90f9d08f1e7e63e0617a770c21a749235a8639"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:0936531d8006b2339f188780f3aefae64bb336640b243b61ed3f9161af6e0ee7",
+          "sha256": "0936531d8006b2339f188780f3aefae64bb336640b243b61ed3f9161af6e0ee7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:cbb5acb91b3c9ae6d22a9fc2e63707c6d9ce15ba59be09ea5e9db4d4af4e0b3f",
+          "sha256": "cbb5acb91b3c9ae6d22a9fc2e63707c6d9ce15ba59be09ea5e9db4d4af4e0b3f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:66548c7f2badfb2c2fabcd1958b8feb2ba415f7f23274d19afce9950c3acd065",
+          "sha256": "66548c7f2badfb2c2fabcd1958b8feb2ba415f7f23274d19afce9950c3acd065"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:680c1befbc590f4db432883ab933c9962b3a1e9941a0729108871f7b96a34e4a",
+          "sha256": "680c1befbc590f4db432883ab933c9962b3a1e9941a0729108871f7b96a34e4a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:616a5375e5695be80d1ac3c2472c5c726606655a191b5fc1e5e34edf348acdd8",
+          "sha256": "616a5375e5695be80d1ac3c2472c5c726606655a191b5fc1e5e34edf348acdd8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/toot/blobs/sha256:4cdd0e825e23f857cbb808ec0b44bba5141c405a00e62bb6c4a22cf6265d4735",
+          "sha256": "4cdd0e825e23f857cbb808ec0b44bba5141c405a00e62bb6c4a22cf6265d4735"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/toot.rb",
+  "ruby_source_checksum": {
+    "sha256": "79878c37bacfb628acb204cbebf05e5da584624f60c13a071ea2ba7ee707cdfc"
+  },
+  "date_added": "2020-06-09T12:06:28+00:00"
+}

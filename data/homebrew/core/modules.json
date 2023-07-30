@@ -1,0 +1,109 @@
+{
+  "name": "modules",
+  "full_name": "modules",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dynamic modification of a user's environment via modulefiles",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://modules.sourceforge.io/",
+  "versions": {
+    "stable": "5.3.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/modules/Modules/modules-5.3.1/modules-5.3.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "171f7faebc1363c8738a6905b31074636dd81d303098002b1c25801ee5483d86"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:539114dd953441f82633f0f5ce201719c7d5ffda9613ec94702997a08e774e84",
+          "sha256": "539114dd953441f82633f0f5ce201719c7d5ffda9613ec94702997a08e774e84"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:82afee11869c89ee190f3fc6980f2c3acb543f4020ef49389f444948f8ae3146",
+          "sha256": "82afee11869c89ee190f3fc6980f2c3acb543f4020ef49389f444948f8ae3146"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:1943734262bd565d5a170208a3aa3a14945342a440043e63051ddf66e1597a91",
+          "sha256": "1943734262bd565d5a170208a3aa3a14945342a440043e63051ddf66e1597a91"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:343d1394d56a919042afad951b2e43c18687d6b0132844e2d5ac07269211b3e0",
+          "sha256": "343d1394d56a919042afad951b2e43c18687d6b0132844e2d5ac07269211b3e0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:fe91df353c52b0456323d366f55fb9d6eda624b868439bcf28407453412b1b6f",
+          "sha256": "fe91df353c52b0456323d366f55fb9d6eda624b868439bcf28407453412b1b6f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:cfc7cf47d087751ed1fe11735ad56ae11d0cf61f64bea4d39ba12c3fca74046a",
+          "sha256": "cfc7cf47d087751ed1fe11735ad56ae11d0cf61f64bea4d39ba12c3fca74046a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/modules/blobs/sha256:d96274b4f7ea6077d0d72bfee2c769ef0cc455cda316c321b522825936d57da5",
+          "sha256": "d96274b4f7ea6077d0d72bfee2c769ef0cc455cda316c321b522825936d57da5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "tcl-tk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "less"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To activate modules, add the following at the end of your .zshrc:\n\n  source $HOMEBREW_PREFIX/opt/modules/init/zsh\n\nYou will also need to restart your terminal for this change to take effect.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/modules.rb",
+  "ruby_source_checksum": {
+    "sha256": "1bde9b1fade818284a5b189bd74046992ec90a306c5e9d72870a3c854fd28b6d"
+  },
+  "date_added": "2014-04-17T05:43:09-07:00"
+}

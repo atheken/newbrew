@@ -1,0 +1,114 @@
+{
+  "name": "file-formula",
+  "full_name": "file-formula",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "file"
+  ],
+  "versioned_formulae": [],
+  "desc": "Utility to determine file types",
+  "license": "Cannot Represent",
+  "homepage": "https://darwinsys.com/file/",
+  "versions": {
+    "stable": "5.45",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://astron.com/pub/file/file-5.45.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fc97f51029bb0e2c9f4e3bffefdaf678f0e039ee872b9de5c002a6d09c784d82"
+    },
+    "head": {
+      "url": "https://github.com/file/file.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:fe86a1022a44ac24fbd0f8b40a2ee4624335cdc6f1a865f5c5ca8df5fa07b454",
+          "sha256": "fe86a1022a44ac24fbd0f8b40a2ee4624335cdc6f1a865f5c5ca8df5fa07b454"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:bdaf9f9b25fcf7ea6c7bdbe44ec3f3cc0d56be0dcec1bbb9c6d4a0fd8d639e9c",
+          "sha256": "bdaf9f9b25fcf7ea6c7bdbe44ec3f3cc0d56be0dcec1bbb9c6d4a0fd8d639e9c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:4058375a321cd37c7d6090f446a2da2781e199b58a9b33cf8c4af480d4381836",
+          "sha256": "4058375a321cd37c7d6090f446a2da2781e199b58a9b33cf8c4af480d4381836"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:e801499f30fee64e03dc573b510c5ddfc9eafd1e258d54e3d2b0c16fc1fb74fa",
+          "sha256": "e801499f30fee64e03dc573b510c5ddfc9eafd1e258d54e3d2b0c16fc1fb74fa"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:83c75fa244fa2a9d65f2401516a4084805abf69896ff1ba76b1c50e516fd1f82",
+          "sha256": "83c75fa244fa2a9d65f2401516a4084805abf69896ff1ba76b1c50e516fd1f82"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:43280d24f741d9e770a41434fb8877d8004ad610fcec70b63cbc93be8d599efe",
+          "sha256": "43280d24f741d9e770a41434fb8877d8004ad610fcec70b63cbc93be8d599efe"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/file-formula/blobs/sha256:52bffb8f6675e1f95f197f1247b569ad5203fde6bbdc69fdddaaf7805de520c6",
+          "sha256": "52bffb8f6675e1f95f197f1247b569ad5203fde6bbdc69fdddaaf7805de520c6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libmagic"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/file-formula.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d7e6014604f1b15aa7f8f3592e94ca6017850b21793bcf22997333a9d838d17"
+  },
+  "date_added": "2017-04-03T18:39:56+01:00"
+}

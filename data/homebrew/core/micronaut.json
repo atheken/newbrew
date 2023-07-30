@@ -1,0 +1,105 @@
+{
+  "name": "micronaut",
+  "full_name": "micronaut",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modern JVM-based framework for building modular microservices",
+  "license": "Apache-2.0",
+  "homepage": "https://micronaut.io/",
+  "versions": {
+    "stable": "4.0.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/micronaut-projects/micronaut-starter/archive/v4.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e678a41acf09110b98f20e16d3e480dba89854d31be675ef1e74730e067c8682"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:3a4eb2e092fc2c2c2942d7a9c6dfb4784c33c9d2aae5580cefd3bf09589edec2",
+          "sha256": "3a4eb2e092fc2c2c2942d7a9c6dfb4784c33c9d2aae5580cefd3bf09589edec2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:9eaa111b1e91edbfefae6035e4ab70b2ba34c48d2603d86161c09c04f6f16e2c",
+          "sha256": "9eaa111b1e91edbfefae6035e4ab70b2ba34c48d2603d86161c09c04f6f16e2c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:12043806478b7ed081e0692e96cc88498d051f6ce45c1a91318748fabd170055",
+          "sha256": "12043806478b7ed081e0692e96cc88498d051f6ce45c1a91318748fabd170055"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:8e86b5cf97ebf12a89cb0e9f99b9f1199178a119f51fe3f2000a4beebac7c5db",
+          "sha256": "8e86b5cf97ebf12a89cb0e9f99b9f1199178a119f51fe3f2000a4beebac7c5db"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:da8518ab3fabbffa528fd7780b392aa9e28ef4e286c7b12da1f0e5f9ce6fd072",
+          "sha256": "da8518ab3fabbffa528fd7780b392aa9e28ef4e286c7b12da1f0e5f9ce6fd072"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:3c30838f57b3e9d9e017127301233af4e198fe3f9547559e230534a737f8d4f3",
+          "sha256": "3c30838f57b3e9d9e017127301233af4e198fe3f9547559e230534a737f8d4f3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/micronaut/blobs/sha256:66c246ddd0a4706d6f985319a4fc68e588a238523d6dc1e529d3351e823cf8c2",
+          "sha256": "66c246ddd0a4706d6f985319a4fc68e588a238523d6dc1e529d3351e823cf8c2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/micronaut.rb",
+  "ruby_source_checksum": {
+    "sha256": "7167ebaeae831b032a8e291157e194c1aacb941b55e176754ab1fab4b40c0bed"
+  },
+  "date_added": "2018-08-09T01:45:01+01:00"
+}

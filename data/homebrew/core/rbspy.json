@@ -1,0 +1,105 @@
+{
+  "name": "rbspy",
+  "full_name": "rbspy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Sampling profiler for Ruby",
+  "license": "MIT",
+  "homepage": "https://rbspy.github.io/",
+  "versions": {
+    "stable": "0.17.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rbspy/rbspy/archive/v0.17.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4b5b64a42c1a307c06886b2686d9496e0df205fe5e1e98ef9e3ca6ed226753c2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:1dc126b0a49def8e3a49793fdc1edd73a068fcd2a34b99517e6194b51a632b1b",
+          "sha256": "1dc126b0a49def8e3a49793fdc1edd73a068fcd2a34b99517e6194b51a632b1b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:12ec10ea1407788ed3576df1be9e47db6a427a68eb2203370f4795c832729be5",
+          "sha256": "12ec10ea1407788ed3576df1be9e47db6a427a68eb2203370f4795c832729be5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:cbb7dec819b4fe0828210578fd1ce8808a58c30ef4e294ab2b036e9cf022a355",
+          "sha256": "cbb7dec819b4fe0828210578fd1ce8808a58c30ef4e294ab2b036e9cf022a355"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:23f32126302b871f2f54648e4d72059993523c677ca466872dc3b52db0883297",
+          "sha256": "23f32126302b871f2f54648e4d72059993523c677ca466872dc3b52db0883297"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:f66fdde73c377432fc2f257850d59dd6bac2b88ec9b1aecf12673797e9270c4c",
+          "sha256": "f66fdde73c377432fc2f257850d59dd6bac2b88ec9b1aecf12673797e9270c4c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:f730f2de73fa864b289fbab760d48cfb19cc3603d65fd33c24e6c51ff8051983",
+          "sha256": "f730f2de73fa864b289fbab760d48cfb19cc3603d65fd33c24e6c51ff8051983"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbspy/blobs/sha256:3f86521dc6824d941786e647317193466b849c761f2481bbfcb2c02b95633952",
+          "sha256": "3f86521dc6824d941786e647317193466b849c761f2481bbfcb2c02b95633952"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rbspy.rb",
+  "ruby_source_checksum": {
+    "sha256": "cdb368c4f5df8c6b0f2a0172fddd56c2191c42b7a6e96a6968827e14326527d0"
+  },
+  "date_added": "2018-09-02T03:18:58+01:00"
+}

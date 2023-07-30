@@ -1,0 +1,107 @@
+{
+  "name": "mkdocs",
+  "full_name": "mkdocs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Project documentation with Markdown",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.mkdocs.org/",
+  "versions": {
+    "stable": "1.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/40/fa/3d68128bad167f063ac2842a68a407247c02491e87fe4beb77d9cd1fb71b/mkdocs-1.5.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f2f323c62fffdf1b71b84849e39aef56d6852b3f0a5571552bca32cefc650209"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:370380ca98f03768e522ffd7a3431189155d7067fdcca53ed3bc4686047ccb6c",
+          "sha256": "370380ca98f03768e522ffd7a3431189155d7067fdcca53ed3bc4686047ccb6c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:a6e065b53f4ac65e0114f57356494c3a602921d0d06bbe2744f27c09a51636c8",
+          "sha256": "a6e065b53f4ac65e0114f57356494c3a602921d0d06bbe2744f27c09a51636c8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:e49c0f062e89f1b69e16a2f2e52f91dd26d00e0ee24b3293549e45d81a8befd9",
+          "sha256": "e49c0f062e89f1b69e16a2f2e52f91dd26d00e0ee24b3293549e45d81a8befd9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:6aa24c98a7cbed7e8a64fc3502d8a0aa344215a1c627c33f07ff02773103438f",
+          "sha256": "6aa24c98a7cbed7e8a64fc3502d8a0aa344215a1c627c33f07ff02773103438f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:26b88aef527a4e49b05c4c664230a41cafb1a84444fdda21d1e7a1a77af3b535",
+          "sha256": "26b88aef527a4e49b05c4c664230a41cafb1a84444fdda21d1e7a1a77af3b535"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:e2b64c0b3d233f7a7ddcfec92d1446d01c1949ef5211ca4d806a01ca7de91fe8",
+          "sha256": "e2b64c0b3d233f7a7ddcfec92d1446d01c1949ef5211ca4d806a01ca7de91fe8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mkdocs/blobs/sha256:d3a3302d6cc02b5f8f4ad816e4765ea2a61f8e2ef1e44e4436f55200c9025a96",
+          "sha256": "d3a3302d6cc02b5f8f4ad816e4765ea2a61f8e2ef1e44e4436f55200c9025a96"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mkdocs.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf948d8904c55eb8cc6277698705ba7401886c8ffd55a6064305b846e80763d7"
+  },
+  "date_added": "2016-03-02T17:47:58+08:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "gerbv",
+  "full_name": "gerbv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Gerber (RS-274X) viewer",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://gerbv.github.io/",
+  "versions": {
+    "stable": "2.9.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gerbv/gerbv/archive/refs/tags/v2.9.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8908bf8981b764ca02df89dd72c6324df7cd322a744db6fefc6475b03c63ec49"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:d757b3ebbde4d52487f27973f2504984b751a186698a637894fc27e8d940615d",
+          "sha256": "d757b3ebbde4d52487f27973f2504984b751a186698a637894fc27e8d940615d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:daf38b14f3a95ec4796fc00c9b33033e81ebd662bfe222dcd9ab1f438944efe9",
+          "sha256": "daf38b14f3a95ec4796fc00c9b33033e81ebd662bfe222dcd9ab1f438944efe9"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:2b2444c00a7917be91884197dcc7c5f825a25dd9b334da7b22c7a188337da3be",
+          "sha256": "2b2444c00a7917be91884197dcc7c5f825a25dd9b334da7b22c7a188337da3be"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:92db292337a5a3a0df78a96b50702d063865552f6e50ab14aac2c0043872e074",
+          "sha256": "92db292337a5a3a0df78a96b50702d063865552f6e50ab14aac2c0043872e074"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:ebba10415bfa0b82f1598dbf2dfed33be1f5547101f44a645341701e363f9a90",
+          "sha256": "ebba10415bfa0b82f1598dbf2dfed33be1f5547101f44a645341701e363f9a90"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:a1ac561694f88074b2c284f110a7c426cb4fd4303215c04b69b24c8a307240e7",
+          "sha256": "a1ac561694f88074b2c284f110a7c426cb4fd4303215c04b69b24c8a307240e7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gerbv/blobs/sha256:3e2566e148446796cf646b12f66bceba8d664fbad18d42d0fba0cff554a8e681",
+          "sha256": "3e2566e148446796cf646b12f66bceba8d664fbad18d42d0fba0cff554a8e681"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gtk+"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gerbv.rb",
+  "ruby_source_checksum": {
+    "sha256": "a2c17db7ba6f794ef424d05b2c22b6c8ac97114adf04c0ddc4b385cb42235e5f"
+  },
+  "date_added": "2010-10-30T23:04:33-07:00"
+}

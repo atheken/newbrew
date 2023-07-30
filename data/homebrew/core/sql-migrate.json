@@ -1,0 +1,109 @@
+{
+  "name": "sql-migrate",
+  "full_name": "sql-migrate",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SQL schema migration tool for Go",
+  "license": "MIT",
+  "homepage": "https://github.com/rubenv/sql-migrate",
+  "versions": {
+    "stable": "1.5.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rubenv/sql-migrate/archive/refs/tags/v1.5.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5171e69fbb8cfd276afc3b8ac1be965cffcaa8fdc86d886d0a990b4b28bd50ad"
+    },
+    "head": {
+      "url": "https://github.com/rubenv/sql-migrate.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:923aa3b54e55c95e68e4ff691541377b41dfa1a008cecb9eebe589e8677bcb37",
+          "sha256": "923aa3b54e55c95e68e4ff691541377b41dfa1a008cecb9eebe589e8677bcb37"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:a66dd7a7fb6162e8a649ef631d19fd95eb6bac65e575b62656d5fb18cbbdc845",
+          "sha256": "a66dd7a7fb6162e8a649ef631d19fd95eb6bac65e575b62656d5fb18cbbdc845"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:a3acd534137ee20e0108d79f8e5da34986b55ca27f737120fa9a6952839a0d1c",
+          "sha256": "a3acd534137ee20e0108d79f8e5da34986b55ca27f737120fa9a6952839a0d1c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:56f56743d5603f13a92780181d2146619543d102e0949a70a78ff02394ccf3f8",
+          "sha256": "56f56743d5603f13a92780181d2146619543d102e0949a70a78ff02394ccf3f8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:bf214b55a09571a24af0f991c092339051b136e913f4db00bedb78d450d57ab4",
+          "sha256": "bf214b55a09571a24af0f991c092339051b136e913f4db00bedb78d450d57ab4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:9c07ec32217769ba854ec576646371de2ec5e4468152c6f3e4cd88cea33a151f",
+          "sha256": "9c07ec32217769ba854ec576646371de2ec5e4468152c6f3e4cd88cea33a151f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sql-migrate/blobs/sha256:ce78a4d019dd8661e74abbd7b4e433360458c954db80e595e6ec8909f83104ea",
+          "sha256": "ce78a4d019dd8661e74abbd7b4e433360458c954db80e595e6ec8909f83104ea"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sql-migrate.rb",
+  "ruby_source_checksum": {
+    "sha256": "0775a6b7c15342bebaa2820fbefc66184cd1f2cf3067918003511875374acd45"
+  },
+  "date_added": "2023-03-19T03:31:39+00:00"
+}

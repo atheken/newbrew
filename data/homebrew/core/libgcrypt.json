@@ -1,0 +1,105 @@
+{
+  "name": "libgcrypt",
+  "full_name": "libgcrypt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cryptographic library based on the code from GnuPG",
+  "license": "LGPL-2.1-or-later and GPL-2.0-or-later",
+  "homepage": "https://gnupg.org/related_software/libgcrypt/",
+  "versions": {
+    "stable": "1.10.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:958511d2de063313f9682d62d67722878cc5c6758a201ae5385eb62e539f6a48",
+          "sha256": "958511d2de063313f9682d62d67722878cc5c6758a201ae5385eb62e539f6a48"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:e09e21e188996fea1e67c6593a21407384ff3aceb99ef59f05877a2a77676d6a",
+          "sha256": "e09e21e188996fea1e67c6593a21407384ff3aceb99ef59f05877a2a77676d6a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:14ac682551b4eb40d1b12f98a2cdcc3364f0d76859b6b16898b5b793b315337b",
+          "sha256": "14ac682551b4eb40d1b12f98a2cdcc3364f0d76859b6b16898b5b793b315337b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:1cf13dcb5279b2d4254f22560a3cf80d9c06a1458937851849f2dace0110a23a",
+          "sha256": "1cf13dcb5279b2d4254f22560a3cf80d9c06a1458937851849f2dace0110a23a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:d39c52e83364970eb4be218d141f75550d11d07dbca2f62b91dddf4b294ef467",
+          "sha256": "d39c52e83364970eb4be218d141f75550d11d07dbca2f62b91dddf4b294ef467"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:fa4f1d4dec480ee6dbcde6023a3b7407e4330535c0bc777b27c3f403261965b5",
+          "sha256": "fa4f1d4dec480ee6dbcde6023a3b7407e4330535c0bc777b27c3f403261965b5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:fb4cdae9d33f557d8cc4f4fb34a2078a5ab9b91b6cfe9fabfcb966a6e39807bd",
+          "sha256": "fb4cdae9d33f557d8cc4f4fb34a2078a5ab9b91b6cfe9fabfcb966a6e39807bd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libgpg-error"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libgcrypt.rb",
+  "ruby_source_checksum": {
+    "sha256": "f5143548ea080c36b6a7140caada75a7b52c124850e13f8d600dac27628e2f42"
+  },
+  "date_added": "2009-09-11T17:42:53+01:00"
+}

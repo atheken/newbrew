@@ -1,0 +1,109 @@
+{
+  "name": "baidupcs-go",
+  "full_name": "baidupcs-go",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Terminal utility for Baidu Network Disk",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+  "versions": {
+    "stable": "3.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/qjfoidnh/BaiduPCS-Go/archive/v3.9.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "da7749bb0534f23154cbca7aad7e77d5531c3aabe458a0a0b1cd618b76f59217"
+    },
+    "head": {
+      "url": "https://github.com/qjfoidnh/BaiduPCS-Go.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a",
+          "sha256": "2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a",
+          "sha256": "2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a",
+          "sha256": "2a6296c9f0196a0525732244a03f983c197cc340c5658d259f05624a91d7d27a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080",
+          "sha256": "67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080",
+          "sha256": "67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080",
+          "sha256": "67905fed7172ac28532c8ae6a2a64528625618be7ecfe59cebad34ea95a28080"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/baidupcs-go/blobs/sha256:7a7d5cde8e8718d32b2ca2c4b433700d25b23f67a7d48ac9be753663b967b5b1",
+          "sha256": "7a7d5cde8e8718d32b2ca2c4b433700d25b23f67a7d48ac9be753663b967b5b1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/baidupcs-go.rb",
+  "ruby_source_checksum": {
+    "sha256": "bda965765c70ab185ef88eec718d00c024c9d512ddfe149b53727deb35af8702"
+  },
+  "date_added": "2019-12-23T08:19:31-05:00"
+}

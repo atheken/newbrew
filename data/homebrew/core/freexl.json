@@ -1,0 +1,111 @@
+{
+  "name": "freexl",
+  "full_name": "freexl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library to extract data from Excel .xls files",
+  "license": null,
+  "homepage": "https://www.gaia-gis.it/fossil/freexl/index",
+  "versions": {
+    "stable": "2.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.gaia-gis.it/gaia-sins/freexl-sources/freexl-2.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "176705f1de58ab7c1eebbf5c6de46ab76fcd8b856508dbd28f5648f7c6e1a7f0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:1fbeb7ff7273a9e9a26eccbbc4d9943167645de04654f5ada57b399262a66eb9",
+          "sha256": "1fbeb7ff7273a9e9a26eccbbc4d9943167645de04654f5ada57b399262a66eb9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:d5b5f5091fde8145fb4854df71e5a0d4c85064983f0ff50e8649b66e72459436",
+          "sha256": "d5b5f5091fde8145fb4854df71e5a0d4c85064983f0ff50e8649b66e72459436"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:65496307a6328795f5a4eaeac73e715d3b10852538476a37b141c69500db205b",
+          "sha256": "65496307a6328795f5a4eaeac73e715d3b10852538476a37b141c69500db205b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:deffaa3f557b73b8bfe491a641ed7bb0727bd8b8f6d81cbb8795f530e7db2624",
+          "sha256": "deffaa3f557b73b8bfe491a641ed7bb0727bd8b8f6d81cbb8795f530e7db2624"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:3578de5c3c6d52a04ee32fad357d1c4f25ee62a8d2a05dbf21fbe5e5e3595620",
+          "sha256": "3578de5c3c6d52a04ee32fad357d1c4f25ee62a8d2a05dbf21fbe5e5e3595620"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:915b680af0a7f34c12f86630fe22ac48b479fc14e24df6a4fb2c9274b0a971d3",
+          "sha256": "915b680af0a7f34c12f86630fe22ac48b479fc14e24df6a4fb2c9274b0a971d3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/freexl/blobs/sha256:6a23aa6cd549e49b7d3d3f5bf160d97d1125c26587074580b2926060003269e9",
+          "sha256": "6a23aa6cd549e49b7d3d3f5bf160d97d1125c26587074580b2926060003269e9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "doxygen"
+  ],
+  "dependencies": [
+    "minizip"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freexl.rb",
+  "ruby_source_checksum": {
+    "sha256": "8dc1bc434a5af5057e91dfb6d3ea3cdf5ead612c92a5ecddc800353476d545c6"
+  },
+  "date_added": "2012-01-08T14:42:09-08:00"
+}

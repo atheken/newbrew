@@ -1,0 +1,109 @@
+{
+  "name": "jove",
+  "full_name": "jove",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Emacs-style editor with vi-like memory, CPU, and size requirements",
+  "license": "Cannot Represent",
+  "homepage": "https://directory.fsf.org/wiki/Jove",
+  "versions": {
+    "stable": "4.17.5.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jonmacs/jove/archive/refs/tags/4.17.5.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ca5a5fcf71009c7389d655d1f1ae8139710f6cc531be95581e4b375e67f098d2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:bdfb0a74c8674460b1aacfeebfab0d7c645b392bb171eb4bc3bf4e71213cae31",
+          "sha256": "bdfb0a74c8674460b1aacfeebfab0d7c645b392bb171eb4bc3bf4e71213cae31"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:a46f4789b7af164cd5154cda01dc75417012c92ad0edf97a0f2b445d247c46d7",
+          "sha256": "a46f4789b7af164cd5154cda01dc75417012c92ad0edf97a0f2b445d247c46d7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:cbe5d7e4fad45ad2e41d97206a79b12cf3ceefb33bb8839490fdfeb2b549603a",
+          "sha256": "cbe5d7e4fad45ad2e41d97206a79b12cf3ceefb33bb8839490fdfeb2b549603a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:9422961e8614d8aec5478e85d35182ee89349d3c36f6f2532408840b7e7a26ff",
+          "sha256": "9422961e8614d8aec5478e85d35182ee89349d3c36f6f2532408840b7e7a26ff"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:7c883664ebb4fe5f42eef3a0df73ff285a3cb3e0e5f65f5a1c00b339b6523e7d",
+          "sha256": "7c883664ebb4fe5f42eef3a0df73ff285a3cb3e0e5f65f5a1c00b339b6523e7d"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:7683237862192a39be911ad6fe74a44f39f84c0396b4c0d7c8d852c4e77745ae",
+          "sha256": "7683237862192a39be911ad6fe74a44f39f84c0396b4c0d7c8d852c4e77745ae"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jove/blobs/sha256:5fa082ebb4156da6e11e7618f2aa658c30e6d80215093c913fc00a02489fb027",
+          "sha256": "5fa082ebb4156da6e11e7618f2aa658c30e6d80215093c913fc00a02489fb027"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "groff"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jove.rb",
+  "ruby_source_checksum": {
+    "sha256": "f89b509bc26a02343c6d627d5a9c1530ee2131cc9a90ce88297268f552df14aa"
+  },
+  "date_added": "2014-05-11T15:28:05-07:00"
+}

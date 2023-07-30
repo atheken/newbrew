@@ -1,0 +1,119 @@
+{
+  "name": "woob",
+  "full_name": "woob",
+  "tap": "homebrew/core",
+  "oldname": "weboob",
+  "oldnames": [
+    "weboob"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web Outside of Browsers",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://woob.tech/",
+  "versions": {
+    "stable": "3.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/cf/10/3eb104a43ab4ff3109109883382bdfee663412e8fda2967d0ab220479240/woob-3.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3765f4c54baeb4a837053f6d0ce82e54cee851aa3c8707a72aa8cd63d4304a76"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:9c97975ba764c1ed4bea18a81765f8df592eafad056a3adf27a77536e65ac6bd",
+          "sha256": "9c97975ba764c1ed4bea18a81765f8df592eafad056a3adf27a77536e65ac6bd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:e7cd596d44b9db8163f87e782a2295f1bcc1dc555e994adcb579ee3c3ef46b5d",
+          "sha256": "e7cd596d44b9db8163f87e782a2295f1bcc1dc555e994adcb579ee3c3ef46b5d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:9513ff24e3fba7b0de377f719a75cbe05758c48c3cc41cca4299c624d97b41e1",
+          "sha256": "9513ff24e3fba7b0de377f719a75cbe05758c48c3cc41cca4299c624d97b41e1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:948c26886f17bff9c235a8991d26573a6443605d619f1719e719ddce5ba34f7b",
+          "sha256": "948c26886f17bff9c235a8991d26573a6443605d619f1719e719ddce5ba34f7b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:dc26c1a50926cd5d41aee212aa2e2fa65fb45b29f7f4fbc68abab5edb68a1d35",
+          "sha256": "dc26c1a50926cd5d41aee212aa2e2fa65fb45b29f7f4fbc68abab5edb68a1d35"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:6829614e07810612a5f6b760ee4c005054c687d2729867077c43c344d44c75bd",
+          "sha256": "6829614e07810612a5f6b760ee4c005054c687d2729867077c43c344d44c75bd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woob/blobs/sha256:f8ae239facfe2ff6f68b607486b5845d79ea19cdc61b50eebecb5fbccaccca91",
+          "sha256": "f8ae239facfe2ff6f68b607486b5845d79ea19cdc61b50eebecb5fbccaccca91"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gnupg",
+    "pillow",
+    "pygments",
+    "python-certifi",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/woob.rb",
+  "ruby_source_checksum": {
+    "sha256": "186591aaa58741cc73b0250d911bcb80e84da65c65e950c0d2b5cde2392bbdb8"
+  },
+  "date_added": "2021-07-01T01:50:11+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "ortp",
+  "full_name": "ortp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Real-time transport protocol (RTP, RFC3550) library",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://linphone.org/",
+  "versions": {
+    "stable": "5.2.94",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.linphone.org/BC/public/ortp/-/archive/5.2.94/ortp-5.2.94.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "b210f5f38b89e958e0c540caac56565b5eb5ea0e8fb291a379ed7aa72667d4b4"
+    },
+    "head": {
+      "url": "https://gitlab.linphone.org/BC/public/ortp.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:36e2b738e0b037adb4b5a2ccb5469477db7e2c320810cdd595de5b55b7663e68",
+          "sha256": "36e2b738e0b037adb4b5a2ccb5469477db7e2c320810cdd595de5b55b7663e68"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:d188a43fc51709526b69fd488200f8fcc45ac35b1e62b671c917db3ced9e44b8",
+          "sha256": "d188a43fc51709526b69fd488200f8fcc45ac35b1e62b671c917db3ced9e44b8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:5bb9b542d2df3172a30638c473a4549ea814d365856aa525e880832b44e87f41",
+          "sha256": "5bb9b542d2df3172a30638c473a4549ea814d365856aa525e880832b44e87f41"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:9b1ab22f8c405d4643d5516a2fe9cf1701eaae811d8336caf01c11b5b0b62076",
+          "sha256": "9b1ab22f8c405d4643d5516a2fe9cf1701eaae811d8336caf01c11b5b0b62076"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:4224bcd1beb32a0c4fbefc937b4375df4c76298d4d60b7dc881d3513871b19e1",
+          "sha256": "4224bcd1beb32a0c4fbefc937b4375df4c76298d4d60b7dc881d3513871b19e1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:aad7921785fcb6b67297d2b58fd77a8b5a14d1ab2fc94af9eb988059f411dddc",
+          "sha256": "aad7921785fcb6b67297d2b58fd77a8b5a14d1ab2fc94af9eb988059f411dddc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ortp/blobs/sha256:b0b8b46f6f9608132f7fd148977b856cb5a6e3cdcbbff05cbd2608f05862c4da",
+          "sha256": "b0b8b46f6f9608132f7fd148977b856cb5a6e3cdcbbff05cbd2608f05862c4da"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "mbedtls@2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ortp.rb",
+  "ruby_source_checksum": {
+    "sha256": "2cc33ca05c6f533c2c3a4fd56dd03755b3a9feefe53c8596ab25260eeffb1740"
+  },
+  "date_added": "2011-06-08T21:24:08-07:00"
+}

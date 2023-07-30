@@ -1,0 +1,114 @@
+{
+  "name": "gexiv2",
+  "full_name": "gexiv2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GObject wrapper around the Exiv2 photo metadata library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://wiki.gnome.org/Projects/gexiv2",
+  "versions": {
+    "stable": "0.14.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gexiv2/0.14/gexiv2-0.14.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ec3ee3ec3860b9c78958a55da89cf76ae2305848e12f41945b7b52124d8f6cf9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:0ad8f1ab36aba81270108f1e0efd0f1cbf52071e8728dfd3c84e4ff6d290ec6f",
+          "sha256": "0ad8f1ab36aba81270108f1e0efd0f1cbf52071e8728dfd3c84e4ff6d290ec6f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:4956e81fab4afe0d14d499c5ff1b9426f98a8333e5f3a53851f09101d55c845a",
+          "sha256": "4956e81fab4afe0d14d499c5ff1b9426f98a8333e5f3a53851f09101d55c845a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:a6d044f982057d83aa4d897ced3b05df07235ab0d588a5b828806df89a1b5eea",
+          "sha256": "a6d044f982057d83aa4d897ced3b05df07235ab0d588a5b828806df89a1b5eea"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:a3258b5851f29bfe3fe07a6bdc411da5f82e662f9bd11e4d55f2f39dd747490f",
+          "sha256": "a3258b5851f29bfe3fe07a6bdc411da5f82e662f9bd11e4d55f2f39dd747490f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:c0f322b7db018e2d59cc805b9c324310f9a9463edee5cf48f23d8ae114c8f5d3",
+          "sha256": "c0f322b7db018e2d59cc805b9c324310f9a9463edee5cf48f23d8ae114c8f5d3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:95ac2d7d2cf9412107765bd9b932fc8cbe54b21d01569423fb450b3d50e7ad01",
+          "sha256": "95ac2d7d2cf9412107765bd9b932fc8cbe54b21d01569423fb450b3d50e7ad01"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gexiv2/blobs/sha256:328c1222b8af6349b919fc13253e390cf3b8ee51aeb37d7db52e8a53094e2e17",
+          "sha256": "328c1222b8af6349b919fc13253e390cf3b8ee51aeb37d7db52e8a53094e2e17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "pygobject3",
+    "python@3.11",
+    "vala"
+  ],
+  "dependencies": [
+    "exiv2",
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gexiv2.rb",
+  "ruby_source_checksum": {
+    "sha256": "379d9bcaf54cdad3ab3fd16d06c30679c5e19e775c115ebe9dad7a89a052ece0"
+  },
+  "date_added": "2015-03-23T08:34:43+00:00"
+}

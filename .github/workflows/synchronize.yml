@@ -1,0 +1,43 @@
+on:
+  push:
+    branches:
+      - master
+  schedule: 
+    - cron: "42 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: read
+  id-token: write
+
+concurrency:
+  group: "sync"
+  cancel-in-progress: false
+jobs:
+  synchronize-formulae:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Modify the UID of the standard linux brew container
+        run: |
+          docker build -t localbrew - <<DOCKERFILE
+          FROM homebrew/ubuntu20.04:4.1.4
+          USER root
+          RUN usermod -u $UID linuxbrew
+          USER linuxbrew
+          DOCKERFILE
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Update the repo with new formulae.
+        run: |
+          docker run -v $PWD:/work -w /work --rm -i localbrew <<SCRIPT
+          git checkout ${{ github.ref_name }}
+      
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+      
+          ./scripts/get-formula-data
+          ./scripts/commit-if-pending
+          SCRIPT
+      - name: Push repo
+        run: |
+          git push origin ${{ github.ref_name }}

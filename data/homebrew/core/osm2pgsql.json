@@ -1,0 +1,120 @@
+{
+  "name": "osm2pgsql",
+  "full_name": "osm2pgsql",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OpenStreetMap data to PostgreSQL converter",
+  "license": "GPL-2.0-only",
+  "homepage": "https://osm2pgsql.org",
+  "versions": {
+    "stable": "1.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openstreetmap/osm2pgsql/archive/1.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e3cd9e13893fd7a153c7b42089bd23338867190c91b157cbdb4ff7176ecba62"
+    },
+    "head": {
+      "url": "https://github.com/openstreetmap/osm2pgsql.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:f68c6b4751669d9846144161f39b25a7d491a51bf8383ea86f35d232175ef10c",
+          "sha256": "f68c6b4751669d9846144161f39b25a7d491a51bf8383ea86f35d232175ef10c"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:85ff17b822b7fc7ee1c1f943287322df3c4daef6b86a0806635db5eabcc5a74d",
+          "sha256": "85ff17b822b7fc7ee1c1f943287322df3c4daef6b86a0806635db5eabcc5a74d"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:7de9a23f5693e7ececcf11d725c3a9f94ea23926f86b59c44ed79fdca4d9694c",
+          "sha256": "7de9a23f5693e7ececcf11d725c3a9f94ea23926f86b59c44ed79fdca4d9694c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:2e4ba2b036c21b703e3fe7f5970f57817b6e322aef30808d297ec6ec989285c0",
+          "sha256": "2e4ba2b036c21b703e3fe7f5970f57817b6e322aef30808d297ec6ec989285c0"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:657279c73f39a324befeb90730a3be06d22de05e32703bc9c978d4a598231661",
+          "sha256": "657279c73f39a324befeb90730a3be06d22de05e32703bc9c978d4a598231661"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:6a142a7afde2a59117a337f64df02a18fc9fb8a63e564611ede61460b48703c9",
+          "sha256": "6a142a7afde2a59117a337f64df02a18fc9fb8a63e564611ede61460b48703c9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgsql/blobs/sha256:f395ab892fe7b6ab665fc6b09235a2665323761aee9aab8d9a626a70df5186f8",
+          "sha256": "f395ab892fe7b6ab665fc6b09235a2665323761aee9aab8d9a626a70df5186f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "lua"
+  ],
+  "dependencies": [
+    "boost",
+    "geos",
+    "libpq",
+    "luajit",
+    "proj"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/osm2pgsql.rb",
+  "ruby_source_checksum": {
+    "sha256": "e6b7976896e32e8d64cd6a0a572eba66bc6f38e4e1eafded5ed2ed1b0ab9913d"
+  },
+  "date_added": "2009-10-03T16:31:58+01:00"
+}

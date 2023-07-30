@@ -1,0 +1,111 @@
+{
+  "name": "ensmallen",
+  "full_name": "ensmallen",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flexible C++ library for efficient mathematical optimization",
+  "license": "BSD-3-Clause",
+  "homepage": "https://ensmallen.org",
+  "versions": {
+    "stable": "2.19.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mlpack/ensmallen/archive/2.19.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f36ad7f08b0688d2a8152e1c73dd437c56ed7a5af5facf65db6ffd977b275b2e"
+    },
+    "head": {
+      "url": "https://github.com/mlpack/ensmallen.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:c2dcee0b64d7b446fbce623f8be8e56042bc8599baff5a27571c88da0b432ba7",
+          "sha256": "c2dcee0b64d7b446fbce623f8be8e56042bc8599baff5a27571c88da0b432ba7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:2931d8a9fecaa829d52f21f741f100e7b1ea16239b8c3b21b54c15f3cfa6ad2a",
+          "sha256": "2931d8a9fecaa829d52f21f741f100e7b1ea16239b8c3b21b54c15f3cfa6ad2a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:5dbb56c37023d39606132a529421d674506ff2fefefae88f0728b0a47d227fb2",
+          "sha256": "5dbb56c37023d39606132a529421d674506ff2fefefae88f0728b0a47d227fb2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:a8a11bfb7ef9940e933110173a1e93d2d8ef9c85a9d8857f72e49cb01ed6506f",
+          "sha256": "a8a11bfb7ef9940e933110173a1e93d2d8ef9c85a9d8857f72e49cb01ed6506f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:5ffdd9861db40c13e54c41ad2a64f9c05e9a3017c6f37fbf4f2ca6d84a9e6c28",
+          "sha256": "5ffdd9861db40c13e54c41ad2a64f9c05e9a3017c6f37fbf4f2ca6d84a9e6c28"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:ac6fd8911fa61f3c0fd42a6c65fd1388b2dbff3434a358f2b69fe6ce6b62a0aa",
+          "sha256": "ac6fd8911fa61f3c0fd42a6c65fd1388b2dbff3434a358f2b69fe6ce6b62a0aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ensmallen/blobs/sha256:b30b48bbd7cd14d38271d73b3bd013f33ae24e38cb1e96bab6030bd15fd51a8b",
+          "sha256": "b30b48bbd7cd14d38271d73b3bd013f33ae24e38cb1e96bab6030bd15fd51a8b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "armadillo"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ensmallen.rb",
+  "ruby_source_checksum": {
+    "sha256": "a0697f9580734d89e42ada2e00b970c4bc4e929a9da1510804425a9f6ecc2d3f"
+  },
+  "date_added": "2019-12-20T09:32:30+11:00"
+}

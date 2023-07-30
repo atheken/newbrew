@@ -1,0 +1,105 @@
+{
+  "name": "boolector",
+  "full_name": "boolector",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SMT solver for fixed-size bit-vectors",
+  "license": "MIT",
+  "homepage": "https://boolector.github.io/",
+  "versions": {
+    "stable": "3.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Boolector/boolector/archive/refs/tags/3.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9a5bdbacf83f2dd81dbed1e1a9f923766807470afa29b73729c947ae769d42b9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:cb8385667d296041aabcc2aaef2d7568db50906aba76e0f7dc6f99edf81e0232",
+          "sha256": "cb8385667d296041aabcc2aaef2d7568db50906aba76e0f7dc6f99edf81e0232"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:6301f56a8dde1141da48935c21c3854dcf9011eccc26caae953f46b6c63bd66d",
+          "sha256": "6301f56a8dde1141da48935c21c3854dcf9011eccc26caae953f46b6c63bd66d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:e691ec93a807fe0498ef1eb9ab85e13814512fadafc364894411e24a50d3da0c",
+          "sha256": "e691ec93a807fe0498ef1eb9ab85e13814512fadafc364894411e24a50d3da0c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:c4ca654c705345f47ba8bff6f66fcf5ab4731b91fd9cd25d3b9721e4d8477d84",
+          "sha256": "c4ca654c705345f47ba8bff6f66fcf5ab4731b91fd9cd25d3b9721e4d8477d84"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:c074d7ff389aa3f973e132e3e7bb10cfc0f7748a74d3092c3ce817674b4331e7",
+          "sha256": "c074d7ff389aa3f973e132e3e7bb10cfc0f7748a74d3092c3ce817674b4331e7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:713adc03b74133ec2c7111903965a9d185be406f00766041b5c740271083f3bf",
+          "sha256": "713adc03b74133ec2c7111903965a9d185be406f00766041b5c740271083f3bf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boolector/blobs/sha256:64395e0ecc2ca0893266743ffee7deeed87016d434674787c8e67bce5db35f4e",
+          "sha256": "64395e0ecc2ca0893266743ffee7deeed87016d434674787c8e67bce5db35f4e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/boolector.rb",
+  "ruby_source_checksum": {
+    "sha256": "db6885509446f3de87a7184c86adbec1a90e10678bf8b0b17c6a89aaff52921a"
+  },
+  "date_added": "2023-05-21T11:33:03+08:00"
+}

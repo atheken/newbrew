@@ -1,0 +1,119 @@
+{
+  "name": "ceres-solver",
+  "full_name": "ceres-solver",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ library for large-scale optimization",
+  "license": "BSD-3-Clause",
+  "homepage": "http://ceres-solver.org/",
+  "versions": {
+    "stable": "2.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://ceres-solver.org/ceres-solver-2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f7d74eecde0aed75bfc51ec48c91d01fe16a6bf16bce1987a7073286701e2fc6"
+    },
+    "head": {
+      "url": "https://ceres-solver.googlesource.com/ceres-solver.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:132406aae22f9f085d7c02375cb22a80988b569c0a12153d716398509bca764d",
+          "sha256": "132406aae22f9f085d7c02375cb22a80988b569c0a12153d716398509bca764d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:02ae1599d8c04f6425e8a2df4448d57b37eed0f31fb486cbb934c7e3e4e6949e",
+          "sha256": "02ae1599d8c04f6425e8a2df4448d57b37eed0f31fb486cbb934c7e3e4e6949e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:8a3d92ac03ad8b52224713c088064c4452c5b2a1f40c558d5f6030d91a2d0883",
+          "sha256": "8a3d92ac03ad8b52224713c088064c4452c5b2a1f40c558d5f6030d91a2d0883"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:38bfcce75b8606172c39bcd3a4adfc988b9d90e59e3b595d0536bfb1f9561bdd",
+          "sha256": "38bfcce75b8606172c39bcd3a4adfc988b9d90e59e3b595d0536bfb1f9561bdd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:fe17f43c5efbe5113c7bfe424c8db2b9601cd9f4bdb1fb1ed3efad250e05d094",
+          "sha256": "fe17f43c5efbe5113c7bfe424c8db2b9601cd9f4bdb1fb1ed3efad250e05d094"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:7b81e35e58838e4ba4e78cecb9598ad6d8f738f24c665942c5f0cc13bf17686a",
+          "sha256": "7b81e35e58838e4ba4e78cecb9598ad6d8f738f24c665942c5f0cc13bf17686a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ceres-solver/blobs/sha256:6542b1fc620acf916a4e22b92552bb81d35abe3a7381975a3389568cc0fe185a",
+          "sha256": "6542b1fc620acf916a4e22b92552bb81d35abe3a7381975a3389568cc0fe185a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "eigen",
+    "gflags",
+    "glog",
+    "metis",
+    "openblas",
+    "suite-sparse",
+    "tbb"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ceres-solver.rb",
+  "ruby_source_checksum": {
+    "sha256": "c40f187532b2e2ff901a7dcf0c3419bac1ba76387adc0920b569f0be895a8200"
+  },
+  "date_added": "2017-08-09T18:11:28+02:00"
+}

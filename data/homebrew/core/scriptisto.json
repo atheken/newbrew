@@ -1,0 +1,106 @@
+{
+  "name": "scriptisto",
+  "full_name": "scriptisto",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Language-agnostic \"shebang interpreter\" to write scripts in compiled languages",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/igor-petruk/scriptisto",
+  "versions": {
+    "stable": "2.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/igor-petruk/scriptisto/archive/refs/tags/v2.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0d96b54589e9efe6b2994ebd66b8c2a6b0971baaec66798da53b0978bdce6d28"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:925d24e6cd29a5240be55a4cde9b783003742e7b2ea16164870ece16d8ab1c65",
+          "sha256": "925d24e6cd29a5240be55a4cde9b783003742e7b2ea16164870ece16d8ab1c65"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:22db05ed07bac30043e313e8d564635e6273bcbd67f22daf392f8b3b1f7a00f8",
+          "sha256": "22db05ed07bac30043e313e8d564635e6273bcbd67f22daf392f8b3b1f7a00f8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:c9febde14d2fe86bc88342b4cb51d4bee4fc4b9df757e454d27b886ff25534d4",
+          "sha256": "c9febde14d2fe86bc88342b4cb51d4bee4fc4b9df757e454d27b886ff25534d4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:d6e2330d8ee92fbde9a16c5a5d85bdfd48b1fee92bab04c7c4bfb5abc9390377",
+          "sha256": "d6e2330d8ee92fbde9a16c5a5d85bdfd48b1fee92bab04c7c4bfb5abc9390377"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:f207151397102480f07eaaedd0fb97782fda6e8fe947a846eb219e73ab96e71b",
+          "sha256": "f207151397102480f07eaaedd0fb97782fda6e8fe947a846eb219e73ab96e71b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:deedfc1ef677ac7134d0eff3832f726e4260d8c51e1eb11e8459bde63af5698d",
+          "sha256": "deedfc1ef677ac7134d0eff3832f726e4260d8c51e1eb11e8459bde63af5698d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scriptisto/blobs/sha256:d018f86f84775751e42073177fa38feb0d492f252a24846b7eb4fc8a0719bfaf",
+          "sha256": "d018f86f84775751e42073177fa38feb0d492f252a24846b7eb4fc8a0719bfaf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scriptisto.rb",
+  "ruby_source_checksum": {
+    "sha256": "8eb9255425f15d0089d049c42fa77acf93b3588add77e99e25a03e6644c81da6"
+  },
+  "date_added": "2023-01-21T15:24:23+00:00"
+}

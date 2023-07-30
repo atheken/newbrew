@@ -1,0 +1,105 @@
+{
+  "name": "airshare",
+  "full_name": "airshare",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross-platform content sharing in a local network",
+  "license": "MIT",
+  "homepage": "https://airshare.readthedocs.io/",
+  "versions": {
+    "stable": "0.1.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/cb/a2/d59c18cd6a143bf860c29acb70552b7351fd7e0f56213be86b624601106b/Airshare-0.1.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "138976933bcf2c0bc99f18901242544919e9fafe43735b4f83b19d4ae5964be7"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:da6a036a9bfe3e6240b8295171646d707403ce8df57a34df7fb0247a931e50d9",
+          "sha256": "da6a036a9bfe3e6240b8295171646d707403ce8df57a34df7fb0247a931e50d9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:0fed2a405fa9da1467ebe71af814345af2dd7d7bf7e8e994f4ba4c05ed9ef600",
+          "sha256": "0fed2a405fa9da1467ebe71af814345af2dd7d7bf7e8e994f4ba4c05ed9ef600"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:19bbc63e696058200de69231b0c689eeccdecc05fd2d1c80b324fd9a44459149",
+          "sha256": "19bbc63e696058200de69231b0c689eeccdecc05fd2d1c80b324fd9a44459149"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:8e657f0375fdf519e7fd7e9a6fa62d2d09050c514d380ff21ca87345a40b6878",
+          "sha256": "8e657f0375fdf519e7fd7e9a6fa62d2d09050c514d380ff21ca87345a40b6878"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:faee43de18b914733c697aae7913f0d364981f59a815427e9089d54f67487708",
+          "sha256": "faee43de18b914733c697aae7913f0d364981f59a815427e9089d54f67487708"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:9a08f2c660aadb3d1745694d662c522c7908b8ca7b4a3457cdc653ff191027ea",
+          "sha256": "9a08f2c660aadb3d1745694d662c522c7908b8ca7b4a3457cdc653ff191027ea"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/airshare/blobs/sha256:7677e6183e0394f5e4cf9f3b43ce1f2207a2af77b3f9a2d0b1595e4c90a7faf2",
+          "sha256": "7677e6183e0394f5e4cf9f3b43ce1f2207a2af77b3f9a2d0b1595e4c90a7faf2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/airshare.rb",
+  "ruby_source_checksum": {
+    "sha256": "6eae7e8f7a14ba64fc5c4b50f9939aeb479acf4079b0297bfff0ec7fc23a627d"
+  },
+  "date_added": "2020-06-04T22:23:18+00:00"
+}

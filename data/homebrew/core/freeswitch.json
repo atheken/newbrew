@@ -1,0 +1,150 @@
+{
+  "name": "freeswitch",
+  "full_name": "freeswitch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Telephony platform to route various communication protocols",
+  "license": "MPL-1.1",
+  "homepage": "https://freeswitch.org",
+  "versions": {
+    "stable": "1.10.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/signalwire/freeswitch.git",
+      "tag": "v1.10.9",
+      "revision": "a615e85afcdc5f3ca438e86fefc7ca21ee6b3a06",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/signalwire/freeswitch.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:63774550d80386ca14976a5d56c0e4d8bf3f6ad0cc60608233941d172aedf4f8",
+          "sha256": "63774550d80386ca14976a5d56c0e4d8bf3f6ad0cc60608233941d172aedf4f8"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:94f0b2d598552e4283bb9acb3aed5785db86462844b0c7e5782d220698a84837",
+          "sha256": "94f0b2d598552e4283bb9acb3aed5785db86462844b0c7e5782d220698a84837"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:7f67c4a6c3c28df7e1cedfb4aa2ded3b3e5682db21d84489e5c789487a1bf47e",
+          "sha256": "7f67c4a6c3c28df7e1cedfb4aa2ded3b3e5682db21d84489e5c789487a1bf47e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:480ddce68db22b97dc398206ae1c0d55c1aa1b7811c3377f160de496a2f6a908",
+          "sha256": "480ddce68db22b97dc398206ae1c0d55c1aa1b7811c3377f160de496a2f6a908"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:36bb1565a4496245c5c56194e82944b0a28529e8259faa59525445ec05898bb3",
+          "sha256": "36bb1565a4496245c5c56194e82944b0a28529e8259faa59525445ec05898bb3"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:c560f0f82664037c7132a06c20db3d32629522d79aa101f48f3f8d7e7d30af2f",
+          "sha256": "c560f0f82664037c7132a06c20db3d32629522d79aa101f48f3f8d7e7d30af2f"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/freeswitch/blobs/sha256:d36012bc99586f33f56d29f0c19356ba06b4f8984f6644e9f9dbfaab5317176f",
+          "sha256": "d36012bc99586f33f56d29f0c19356ba06b4f8984f6644e9f9dbfaab5317176f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "cmake",
+    "libtool",
+    "pkg-config",
+    "yasm"
+  ],
+  "dependencies": [
+    "ffmpeg@4",
+    "jpeg-turbo",
+    "ldns",
+    "libpq",
+    "libsndfile",
+    "libtiff",
+    "lua",
+    "openssl@3",
+    "opus",
+    "pcre",
+    "sofia-sip",
+    "speex",
+    "speexdsp",
+    "sqlite",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "libedit",
+    "libxcrypt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/freeswitch/bin/freeswitch",
+      "-nc",
+      "-nonat"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    }
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freeswitch.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c6db9776b4a0d2c0a0e6d1040251921f04bc742c987ebcf97ba769520016514"
+  },
+  "date_added": "2012-06-29T10:28:28-07:00"
+}

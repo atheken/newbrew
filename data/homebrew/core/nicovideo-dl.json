@@ -1,0 +1,75 @@
+{
+  "name": "nicovideo-dl",
+  "full_name": "nicovideo-dl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line program to download videos from www.nicovideo.jp",
+  "license": null,
+  "homepage": "https://osdn.net/projects/nicovideo-dl/",
+  "versions": {
+    "stable": "0.0.20190126",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dotsrc.dl.osdn.net/osdn/nicovideo-dl/70568/nicovideo-dl-0.0.20190126.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "886980d154953bc5ff5d44758f352ce34d814566a83ceb0b412b8d2d51f52197"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nicovideo-dl/blobs/sha256:52badfb4e41a21255af84eeb934194421b8ebe6a82e6f577f9825880345b91f8",
+          "sha256": "52badfb4e41a21255af84eeb934194421b8ebe6a82e6f577f9825880345b91f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nicovideo-dl.rb",
+  "ruby_source_checksum": {
+    "sha256": "7000019d2a06d76f3da28dcd80c55c5ba68f63613dbc451dda527e8583bf8c30"
+  },
+  "date_added": "2013-04-13T09:35:21-07:00"
+}

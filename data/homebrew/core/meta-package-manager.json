@@ -1,0 +1,110 @@
+{
+  "name": "meta-package-manager",
+  "full_name": "meta-package-manager",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Wrapper around all package managers with a unifying CLI",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://kdeldycke.github.io/meta-package-manager/",
+  "versions": {
+    "stable": "5.13.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a0/94/b9dbfbf058f40ce3c64257806ae8ae76f377fc28f627b9b40777d26a742c/meta_package_manager-5.13.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "364658a4c777725f6cccfe404c706ec514630eb15b5ac06a5a79cec6674b84ee"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:d2e4627feb344474dc711a774dfc4384d7d4d7a5536adf557aa09cd9266a3d87",
+          "sha256": "d2e4627feb344474dc711a774dfc4384d7d4d7a5536adf557aa09cd9266a3d87"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:c76e8a3b720f7fda929799745c94810fcbab1acd4a21206a8372a355201e685d",
+          "sha256": "c76e8a3b720f7fda929799745c94810fcbab1acd4a21206a8372a355201e685d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:9e60ec567bb4ddf90395c5d6418bed7a4bf99a6805b9ce20bb7a5fd6028e1cc9",
+          "sha256": "9e60ec567bb4ddf90395c5d6418bed7a4bf99a6805b9ce20bb7a5fd6028e1cc9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:82d61450ca12d329b80bb55ebaf657bb97621b60be88064ad1fd1c56c7a04ce2",
+          "sha256": "82d61450ca12d329b80bb55ebaf657bb97621b60be88064ad1fd1c56c7a04ce2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:b37519e6ee449f9f9b0c2cd44dd6e6bba733707977520f552a2ab70a14a8a706",
+          "sha256": "b37519e6ee449f9f9b0c2cd44dd6e6bba733707977520f552a2ab70a14a8a706"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:c4237b25fcc783220009e309143e93f2598df40dcbcb233dd4fad0711e927b96",
+          "sha256": "c4237b25fcc783220009e309143e93f2598df40dcbcb233dd4fad0711e927b96"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meta-package-manager/blobs/sha256:718c320a76a7dd5c9e6e9ab22ebb01e6b038dec361390f8a8fcfd730eb9850c9",
+          "sha256": "718c320a76a7dd5c9e6e9ab22ebb01e6b038dec361390f8a8fcfd730eb9850c9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "docutils",
+    "pygments",
+    "python-tabulate",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/meta-package-manager.rb",
+  "ruby_source_checksum": {
+    "sha256": "b5267c70e644fe7a9e96e83a68695ce834957fbb8599d8653d3f1f40f066ba0c"
+  },
+  "date_added": "2023-04-10T00:48:52+04:00"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "actionlint",
+  "full_name": "actionlint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Static checker for GitHub Actions workflow files",
+  "license": "MIT",
+  "homepage": "https://rhysd.github.io/actionlint/",
+  "versions": {
+    "stable": "1.6.25",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rhysd/actionlint/archive/v1.6.25.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7592aaddc49146b15a9822e97d90d917a1bd8ca33a4fb71cd98ef8c8c06eb3cf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65",
+          "sha256": "4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65",
+          "sha256": "4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65",
+          "sha256": "4a623d1bf1fb7f5dfb2ee2882d40bee9f57124c3d8d91752aedb7b05eae9bf65"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12",
+          "sha256": "b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12",
+          "sha256": "b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12",
+          "sha256": "b7e373f09ff18c1aee35403a6618030ccca7239206e9600db62a997cc269fc12"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/actionlint/blobs/sha256:a8d0dc4c6ce196df503d737db4c1986c31bd9d13f834797d113c00313f13bbeb",
+          "sha256": "a8d0dc4c6ce196df503d737db4c1986c31bd9d13f834797d113c00313f13bbeb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "ronn"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/actionlint.rb",
+  "ruby_source_checksum": {
+    "sha256": "6791ef321c30a9d74f4bc7dd40a425d1a596f7fb5db6043dca4fc411bfcbdbdb"
+  },
+  "date_added": "2021-09-17T17:43:26+00:00"
+}

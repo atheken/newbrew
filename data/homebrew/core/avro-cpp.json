@@ -1,0 +1,108 @@
+{
+  "name": "avro-cpp",
+  "full_name": "avro-cpp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Data serialization system",
+  "license": "Apache-2.0",
+  "homepage": "https://avro.apache.org/",
+  "versions": {
+    "stable": "1.11.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=avro/avro-1.11.2/cpp/avro-cpp-1.11.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4abf733b886e9469aace111573904b0d7d15b38b245adce29d5dfc4666a3c90c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:b3f08fe9f4adb2c7d738375b67bf7e8714e0545f6f06aea7e3dcd71e5a063056",
+          "sha256": "b3f08fe9f4adb2c7d738375b67bf7e8714e0545f6f06aea7e3dcd71e5a063056"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:59974b029bc5ddeb8bfda48c65654a4234eb93da7a906550bfec01bc0f0ca17f",
+          "sha256": "59974b029bc5ddeb8bfda48c65654a4234eb93da7a906550bfec01bc0f0ca17f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:ff389dcf51bea64a046460954b87aafd3c8aae34a91f0aa6abe5195fe7497b9f",
+          "sha256": "ff389dcf51bea64a046460954b87aafd3c8aae34a91f0aa6abe5195fe7497b9f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:4b716a1ad09b16035c828d56009ba448f5900b8f5d45b1a1203cb187f4915d73",
+          "sha256": "4b716a1ad09b16035c828d56009ba448f5900b8f5d45b1a1203cb187f4915d73"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:7cfdaa40cb85377a7381c36156c9170b0e9d73c74f2e9e21b6907a10d71ba4c8",
+          "sha256": "7cfdaa40cb85377a7381c36156c9170b0e9d73c74f2e9e21b6907a10d71ba4c8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:6d8c3060dc59bf18609c4460083ce0e249667841c167729fbbc78cdf849248fe",
+          "sha256": "6d8c3060dc59bf18609c4460083ce0e249667841c167729fbbc78cdf849248fe"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/avro-cpp/blobs/sha256:424e21b1c2105bd4cb1856dda9dc4ed7f94a16e666b1b58ea887345bed28dafb",
+          "sha256": "424e21b1c2105bd4cb1856dda9dc4ed7f94a16e666b1b58ea887345bed28dafb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/avro-cpp.rb",
+  "ruby_source_checksum": {
+    "sha256": "589c97caf7d23ca2c795da2cf352ea29b7114bb9dba714d0585167f66870c6b1"
+  },
+  "date_added": "2012-11-01T19:53:05-07:00"
+}

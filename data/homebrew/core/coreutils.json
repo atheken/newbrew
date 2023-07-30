@@ -1,0 +1,158 @@
+{
+  "name": "coreutils",
+  "full_name": "coreutils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNU File, Shell, and Text utilities",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/coreutils",
+  "versions": {
+    "stable": "9.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/coreutils/coreutils-9.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "adbcfcfe899235b71e8768dcf07cd532520b7f54f9a8064843f8d199a904bbaa"
+    },
+    "head": {
+      "url": "https://git.savannah.gnu.org/git/coreutils.git",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:cbc188426bc245864378bb96620243cfade681ebb64beb9149717bcb04a55b0a",
+          "sha256": "cbc188426bc245864378bb96620243cfade681ebb64beb9149717bcb04a55b0a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:2db183003c663554e8280280f64294f30d8d7819b1378914173236c2634aacc9",
+          "sha256": "2db183003c663554e8280280f64294f30d8d7819b1378914173236c2634aacc9"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:4a20d93169207bcb131c5cf8deebca08e75be30c042c7c13487a986d61bf3f16",
+          "sha256": "4a20d93169207bcb131c5cf8deebca08e75be30c042c7c13487a986d61bf3f16"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:5461d665ee6121b4f9c42e17ac6441f77c5db156d3f7a6a6eab095773a2457f9",
+          "sha256": "5461d665ee6121b4f9c42e17ac6441f77c5db156d3f7a6a6eab095773a2457f9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:a199c4d7b252b74fdcfb48dc9d9e39cfdbe3b88a9a2da0ce59dfb67d482b46a4",
+          "sha256": "a199c4d7b252b74fdcfb48dc9d9e39cfdbe3b88a9a2da0ce59dfb67d482b46a4"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:9786f8f2ae9fd345b401d089887d099c8145590934ca84d9850a3755be0b32a5",
+          "sha256": "9786f8f2ae9fd345b401d089887d099c8145590934ca84d9850a3755be0b32a5"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:376674abab0d5c19e3f3db5481a2604adac227f89036c4d58d62fc23f59076ab",
+          "sha256": "376674abab0d5c19e3f3db5481a2604adac227f89036c4d58d62fc23f59076ab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp",
+    "attr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "gperf": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "aardvark_shell_utils",
+    "b2sum",
+    "ganglia",
+    "gfold",
+    "idutils",
+    "md5sha1sum",
+    "truncate"
+  ],
+  "conflicts_with_reasons": [
+    "both install `realpath` binaries",
+    "both install `b2sum` binaries",
+    "both install `gstat` binaries",
+    "both install `gfold` binaries",
+    "both install `gid` and `gid.1`",
+    "both install `md5sum` and `sha1sum` binaries",
+    "both install `truncate` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": "All commands have been installed with the prefix \"g\".\nIf you need to use these commands with their normal names, you can add a \"gnubin\" directory to your PATH with:\n  PATH=\"$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/coreutils.rb",
+  "ruby_source_checksum": {
+    "sha256": "6c8e28d593c6e14e30b3323ae3f5b658e003ac8af633f69e8159fd461c716437"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "bison",
+      "gettext",
+      "texinfo",
+      "wget",
+      "xz"
+    ],
+    "dependencies": [
+      "gmp",
+      "attr"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "gperf": "build"
+      }
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2009-08-31T18:09:20+01:00"
+}

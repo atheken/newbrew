@@ -1,0 +1,75 @@
+{
+  "name": "tomee-webprofile",
+  "full_name": "tomee-webprofile",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "All-Apache Java EE 7 Web Profile stack",
+  "license": "Apache-2.0",
+  "homepage": "https://tomee.apache.org/",
+  "versions": {
+    "stable": "9.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=tomee/tomee-9.1.0/apache-tomee-9.1.0-webprofile.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bb30d058f683c6b0af2d19368b0985aba6ccf72cd7da175200878ed83be6e9ca"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tomee-webprofile/blobs/sha256:b128413ddae87ffba0e09885ed5ce25fa9be5230ba0562037875be1424c94aa8",
+          "sha256": "b128413ddae87ffba0e09885ed5ce25fa9be5230ba0562037875be1424c94aa8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The home of Apache TomEE Web is:\n  $HOMEBREW_PREFIX/opt/tomee-webprofile/libexec\nTo run Apache TomEE:\n  $HOMEBREW_PREFIX/opt/tomee-webprofile/libexec/bin/tomee-webprofile-startup\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tomee-webprofile.rb",
+  "ruby_source_checksum": {
+    "sha256": "3eb001b9d29bfe70905d052b2fb275a8e0f424dc0e945da0eb709601ad76dfd5"
+  },
+  "date_added": "2013-06-23T10:21:22-07:00"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "vert.x",
+  "full_name": "vert.x",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Toolkit for building reactive applications on the JVM",
+  "license": "EPL-2.0 or Apache-2.0",
+  "homepage": "https://vertx.io/",
+  "versions": {
+    "stable": "4.1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=io/vertx/vertx-stack-manager/4.1.5/vertx-stack-manager-4.1.5-full.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "67b4d6d55ffafae0e499883593b93ac132f6b199fe7c694dc177e81954689cf8"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vert.x/blobs/sha256:45b95b3679a4ec881e78b5e4a7bc1307273f7897aea04fad0684be910b233d17",
+          "sha256": "45b95b3679a4ec881e78b5e4a7bc1307273f7897aea04fad0684be910b233d17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-01-07",
+  "deprecation_reason": "cannot test",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vert.x.rb",
+  "ruby_source_checksum": {
+    "sha256": "230cf8655f75e81b4a69afeaecb188d3b1989994f811d83521d8a9aa1e6a2861"
+  },
+  "date_added": "2012-09-28T20:19:39-07:00"
+}

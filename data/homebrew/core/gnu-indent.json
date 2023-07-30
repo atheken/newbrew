@@ -1,0 +1,107 @@
+{
+  "name": "gnu-indent",
+  "full_name": "gnu-indent",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C code prettifier",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/indent/",
+  "versions": {
+    "stable": "2.2.13",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/indent/indent-2.2.13.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e64634fc4ce6797b204bcb8897ce14fdd0ab48ca57696f78767c59cae578095"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:90269c7d0cb032e8defb0ed1a46222decdf12856f47206d7290aa42f41f64dc5",
+          "sha256": "90269c7d0cb032e8defb0ed1a46222decdf12856f47206d7290aa42f41f64dc5"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:ed32867a9b921557dcbd8eab24d0bd8045f6525d9000d0034fa9ed2a14e23a54",
+          "sha256": "ed32867a9b921557dcbd8eab24d0bd8045f6525d9000d0034fa9ed2a14e23a54"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:e60464107020d08df53cf12dd388825cbeefd0d1ecf986f00cdf890d7cc58413",
+          "sha256": "e60464107020d08df53cf12dd388825cbeefd0d1ecf986f00cdf890d7cc58413"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:97399d01070ba20f588dde6cddf6a20353a1e2def99bd99d9f11d0d3c8f12748",
+          "sha256": "97399d01070ba20f588dde6cddf6a20353a1e2def99bd99d9f11d0d3c8f12748"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:ece97222820cb413acad02586561c87d8cda14370e6b4d0e2e5d47f5e7774402",
+          "sha256": "ece97222820cb413acad02586561c87d8cda14370e6b4d0e2e5d47f5e7774402"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:cf85276b497f4cf5e909ee415393207ad67c94bb9aa130e564f92f7b435d09a6",
+          "sha256": "cf85276b497f4cf5e909ee415393207ad67c94bb9aa130e564f92f7b435d09a6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnu-indent/blobs/sha256:0e3f4a54c4abad7a07b57331772f24737237413f9ad4bd67ed8827909b515ced",
+          "sha256": "0e3f4a54c4abad7a07b57331772f24737237413f9ad4bd67ed8827909b515ced"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "texinfo"
+  ],
+  "dependencies": [
+    "gettext"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gnu-indent.rb",
+  "ruby_source_checksum": {
+    "sha256": "7efca65e24c0721e61b902481358821a7640baf6866476c2332cb1644de62230"
+  },
+  "date_added": "2011-06-19T10:10:08-07:00"
+}

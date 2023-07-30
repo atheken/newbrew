@@ -1,0 +1,118 @@
+{
+  "name": "meilisearch",
+  "full_name": "meilisearch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ultra relevant, instant and typo-tolerant full-text search API",
+  "license": "MIT",
+  "homepage": "https://docs.meilisearch.com/",
+  "versions": {
+    "stable": "1.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/meilisearch/meilisearch/archive/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0f10c5939fefa7bd6e77fdbbdc21620e6d8dc11dbf3d4f65fa213a23ae24753d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:e919f19496b39fa0a3b6396f74847e417ca15ffadffc9e43cd121ba174e57656",
+          "sha256": "e919f19496b39fa0a3b6396f74847e417ca15ffadffc9e43cd121ba174e57656"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:c4233bcedd57ca7c797eba80651e39e24380e36c1101441ebeadbcfc6652205d",
+          "sha256": "c4233bcedd57ca7c797eba80651e39e24380e36c1101441ebeadbcfc6652205d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:01c0190ef2d1f4209c4b7682f41c7f0f6f9047e77843893c681ff897fd7ac274",
+          "sha256": "01c0190ef2d1f4209c4b7682f41c7f0f6f9047e77843893c681ff897fd7ac274"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:ae30df38497967d906f617edd882bd45fc2ed53d845acfb7cb6fe2e7125c44cf",
+          "sha256": "ae30df38497967d906f617edd882bd45fc2ed53d845acfb7cb6fe2e7125c44cf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:6eef1c77d8f7f234585f47dabd9a906b1137d4293168e0df79b488926af81885",
+          "sha256": "6eef1c77d8f7f234585f47dabd9a906b1137d4293168e0df79b488926af81885"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:61a7597593446dcbbae5ce40ffb2bc143c4788ec51c9f09d037f422c76436d04",
+          "sha256": "61a7597593446dcbbae5ce40ffb2bc143c4788ec51c9f09d037f422c76436d04"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meilisearch/blobs/sha256:20ba2279f46249f8ecca66599ce52e0a002f40c050056db462cc1d4f4c0ffeac",
+          "sha256": "20ba2279f46249f8ecca66599ce52e0a002f40c050056db462cc1d4f4c0ffeac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/meilisearch/bin/meilisearch",
+      "--db-path",
+      "/home/linuxbrew/.linuxbrew/var/meilisearch/data.ms"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/meilisearch.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/meilisearch.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/meilisearch.rb",
+  "ruby_source_checksum": {
+    "sha256": "80601ab6777c3a68ee76d4a28d665ddf928c59cfd6fad53247c2e8d86f92dd82"
+  },
+  "date_added": "2019-12-21T09:38:46-05:00"
+}

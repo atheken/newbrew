@@ -1,0 +1,105 @@
+{
+  "name": "babel",
+  "full_name": "babel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compiler for writing next generation JavaScript",
+  "license": "MIT",
+  "homepage": "https://babeljs.io/",
+  "versions": {
+    "stable": "7.22.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/@babel/core/-/core-7.22.9.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "695fe6f6563507089c29ac9d6a289638a17aa4ad59963a5c8876e04cf8c78416"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614",
+          "sha256": "5098d6a31f682e7718fa80d592b4d500b0165720fbe821e25946b5abc2724614"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/babel/blobs/sha256:a6c6090fc178f2d9e5ad4d84cab8d40c1f15fd359ba229f91ac79bea2cbac977",
+          "sha256": "a6c6090fc178f2d9e5ad4d84cab8d40c1f15fd359ba229f91ac79bea2cbac977"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/babel.rb",
+  "ruby_source_checksum": {
+    "sha256": "f29210ce3226ab64e9d876b6dc62be22f4352a414742a5fd0b29ff91a2d94dc3"
+  },
+  "date_added": "2017-02-07T17:10:29-05:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "sslyze",
+  "full_name": "sslyze",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SSL scanner",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/nabla-c0d3/sslyze",
+  "versions": {
+    "stable": "5.1.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/13/00/bacbb04d7d3e0d7db3cedec0b7a450a6ee9543aa4929b020a329f184daae/sslyze-5.1.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "247eeed21e57cb5bfe8bd5565f83a35988cfad5c8294120fa7b729bd5e5cf949"
+    },
+    "head": {
+      "url": "https://github.com/nabla-c0d3/sslyze.git",
+      "branch": "release"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:4b78c64baa9288800f6d3724d61680822215ac119c914fcfe88d0d07cb42e96b",
+          "sha256": "4b78c64baa9288800f6d3724d61680822215ac119c914fcfe88d0d07cb42e96b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:2bce9a22e71eca7501b53978f4c790bfe0ea918bc769815fc39db0c913949766",
+          "sha256": "2bce9a22e71eca7501b53978f4c790bfe0ea918bc769815fc39db0c913949766"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:e6db8bf038025808d83b3e44957fc1c7ae5b613b26f375181287c824c5409b35",
+          "sha256": "e6db8bf038025808d83b3e44957fc1c7ae5b613b26f375181287c824c5409b35"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:cfe2b486e6dc00fc6afa98f69eb7a077cff149589f049bfb452c3b43d2d9fbb3",
+          "sha256": "cfe2b486e6dc00fc6afa98f69eb7a077cff149589f049bfb452c3b43d2d9fbb3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:8a99c6e0c67b86b0e7095bc09253aab161e467be036c7803c2bf109922876baf",
+          "sha256": "8a99c6e0c67b86b0e7095bc09253aab161e467be036c7803c2bf109922876baf"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:c4ea5beb7f8ddfaf0f563f7f9e2015d75f475547af1aaccc79d69cf6422b09fc",
+          "sha256": "c4ea5beb7f8ddfaf0f563f7f9e2015d75f475547af1aaccc79d69cf6422b09fc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sslyze/blobs/sha256:31a88b8fcedda31ee10e6d6ab51f1693187fcecb929331896d28b64241aa73ac",
+          "sha256": "31a88b8fcedda31ee10e6d6ab51f1693187fcecb929331896d28b64241aa73ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pyinvoke",
+    "rust"
+  ],
+  "dependencies": [
+    "openssl@1.1",
+    "pycparser",
+    "python-typing-extensions",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sslyze.rb",
+  "ruby_source_checksum": {
+    "sha256": "4c354015f5b6b66bd3438bddcd4620aea2d7feec6795ed9e38378c8c701c7918"
+  },
+  "date_added": "2015-04-19T17:02:27+01:00"
+}

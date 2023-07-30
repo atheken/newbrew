@@ -1,0 +1,109 @@
+{
+  "name": "libvpx",
+  "full_name": "libvpx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VP8/VP9 video codec",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.webmproject.org/code/",
+  "versions": {
+    "stable": "1.13.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/webmproject/libvpx/archive/v1.13.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cb2a393c9c1fae7aba76b950bb0ad393ba105409fe1a147ccd61b0aaa1501066"
+    },
+    "head": {
+      "url": "https://chromium.googlesource.com/webm/libvpx.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:868daf3511cf9fb086551f407caa54103c93e149dc31d4462a8b866370dc8682",
+          "sha256": "868daf3511cf9fb086551f407caa54103c93e149dc31d4462a8b866370dc8682"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:cb9f419c82b0cef5ca968e0ba106898d4649d652f44d3fc8e7e9a2d62aa88134",
+          "sha256": "cb9f419c82b0cef5ca968e0ba106898d4649d652f44d3fc8e7e9a2d62aa88134"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:16d6cb5c255eb5cfe8d2b6959f9adabb8f42b80787fdb1bdb2f75d6c6843e849",
+          "sha256": "16d6cb5c255eb5cfe8d2b6959f9adabb8f42b80787fdb1bdb2f75d6c6843e849"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:695248793be7b9764a1673cb69921b5d7e2f2200fe1f338d35286f82418762fb",
+          "sha256": "695248793be7b9764a1673cb69921b5d7e2f2200fe1f338d35286f82418762fb"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:ee12fabeb869d1c7d42581b65aaafc10b535a8e598841fe07456ced8c0b52062",
+          "sha256": "ee12fabeb869d1c7d42581b65aaafc10b535a8e598841fe07456ced8c0b52062"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:3f5b56aeac322d74c7b21434d8e287e868511c1cb2a2aefd3b05ca17daa5c14b",
+          "sha256": "3f5b56aeac322d74c7b21434d8e287e868511c1cb2a2aefd3b05ca17daa5c14b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:a8cf342f3173238c05c54294914cac333f939ca0329edb2ecca44c5ef7f05fd8",
+          "sha256": "a8cf342f3173238c05c54294914cac333f939ca0329edb2ecca44c5ef7f05fd8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "yasm"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libvpx.rb",
+  "ruby_source_checksum": {
+    "sha256": "48a05de021ea7448244af033c8c93619ec02e406338de46a39f54dafa25569c6"
+  },
+  "date_added": "2010-08-26T20:07:32+02:00"
+}

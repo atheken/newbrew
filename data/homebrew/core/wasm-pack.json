@@ -1,0 +1,111 @@
+{
+  "name": "wasm-pack",
+  "full_name": "wasm-pack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Your favorite rust -> wasm workflow tool!",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://rustwasm.github.io/wasm-pack/",
+  "versions": {
+    "stable": "0.12.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rustwasm/wasm-pack/archive/v0.12.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "afa164fec0b119e2c47e38aad9e83351cb414e8ca3c062de292ec8008a45ac09"
+    },
+    "head": {
+      "url": "https://github.com/rustwasm/wasm-pack.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:4e205a97851b7166c70355e63b166541b44e6b419db5483ace1fc0ed2d1b87ba",
+          "sha256": "4e205a97851b7166c70355e63b166541b44e6b419db5483ace1fc0ed2d1b87ba"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:d1f73a1e067a8bc27645fdbe009a5b2bb3aa289ee88ba541cc0c6964f64add76",
+          "sha256": "d1f73a1e067a8bc27645fdbe009a5b2bb3aa289ee88ba541cc0c6964f64add76"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:13dac57eb2b6b269013ddf52a2dc0adf890a75ac511d1a347c9d0753c926c149",
+          "sha256": "13dac57eb2b6b269013ddf52a2dc0adf890a75ac511d1a347c9d0753c926c149"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:6c884e28455fec249ae4fd0d64ce9c653699a1f42e4d9df2cb21b3b4a283c077",
+          "sha256": "6c884e28455fec249ae4fd0d64ce9c653699a1f42e4d9df2cb21b3b4a283c077"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:bd3838f43dd5f2d1fece3ea22d597a019f127ea757625f946193463418c361d4",
+          "sha256": "bd3838f43dd5f2d1fece3ea22d597a019f127ea757625f946193463418c361d4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:7540592385c24534fbc9223f65a2361f26082a52f3f717dc40debfe7ae2d250d",
+          "sha256": "7540592385c24534fbc9223f65a2361f26082a52f3f717dc40debfe7ae2d250d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wasm-pack/blobs/sha256:e0a69f2bb774de2289f5f3bf2fb151d168f1ad07c7e17c2891b4cc85f53948c2",
+          "sha256": "e0a69f2bb774de2289f5f3bf2fb151d168f1ad07c7e17c2891b4cc85f53948c2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "rustup-init"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wasm-pack.rb",
+  "ruby_source_checksum": {
+    "sha256": "f0ef693e33784d2c8f6441299e30cfd8ff6e87e571895c7e8f8ebd9f34862514"
+  },
+  "date_added": "2020-05-28T12:06:34+00:00"
+}

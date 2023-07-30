@@ -1,0 +1,117 @@
+{
+  "name": "trino",
+  "full_name": "trino",
+  "tap": "homebrew/core",
+  "oldname": "prestosql",
+  "oldnames": [
+    "prestosql"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Distributed SQL query engine for big data",
+  "license": "Apache-2.0",
+  "homepage": "https://trino.io",
+  "versions": {
+    "stable": "412",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=io/trino/trino-server/412/trino-server-412.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e02a8be2034664eaa97dc3d83e11b41df9c9d573c1b20f564e2fc3d1cd4a95f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a",
+          "sha256": "f6ebb41d27a16d3fe44ae2517c134ddccf7b596d81019eb81e5bf4568caa343a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trino/blobs/sha256:080e1b7d67d173370fe5823937d264b6b4731ea7d4e76ee9eb414c84016718a1",
+          "sha256": "080e1b7d67d173370fe5823937d264b6b4731ea7d4e76ee9eb414c84016718a1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnu-tar"
+  ],
+  "dependencies": [
+    "openjdk",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/trino/bin/trino-server",
+      "run"
+    ],
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/trino/libexec"
+  },
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/trino.rb",
+  "ruby_source_checksum": {
+    "sha256": "ff7d23625b612e94d92176055d6b9d634cc17aa016180c7d4a5aaeb6484cf42b"
+  },
+  "date_added": "2021-08-16T03:01:28+00:00"
+}

@@ -1,0 +1,117 @@
+{
+  "name": "dub",
+  "full_name": "dub",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build tool for D projects",
+  "license": "MIT",
+  "homepage": "https://code.dlang.org/getting_started",
+  "versions": {
+    "stable": "1.33.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dlang/dub/archive/v1.33.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "60759c8f1d8cf81d5dfbffc7d76adc9855c5f2eeed1525a0fd523d0e79fcc88f"
+    },
+    "head": {
+      "url": "https://github.com/dlang/dub.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:bdc1c5eba01216d1b2ee7253c0ce5c9c839875d828cab1f6402a01c13ebc6938",
+          "sha256": "bdc1c5eba01216d1b2ee7253c0ce5c9c839875d828cab1f6402a01c13ebc6938"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:94b3ff9708ac2b754299c94077249873a1daf87005972c17e046ad385c9d65f0",
+          "sha256": "94b3ff9708ac2b754299c94077249873a1daf87005972c17e046ad385c9d65f0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:53e2fd829ed3c3ad4599f93fa8f64b8b4b5f9df9ecb8bdc537bea6dd6dbd0927",
+          "sha256": "53e2fd829ed3c3ad4599f93fa8f64b8b4b5f9df9ecb8bdc537bea6dd6dbd0927"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:5ef53b57a0e4e41a11e22e9f925e7fba10acb5e6bf70807e701e58de147c8031",
+          "sha256": "5ef53b57a0e4e41a11e22e9f925e7fba10acb5e6bf70807e701e58de147c8031"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:55c94be61ba6c2d1ea0d17f5717127af031f44cc68cb1b907225d0e133823d5e",
+          "sha256": "55c94be61ba6c2d1ea0d17f5717127af031f44cc68cb1b907225d0e133823d5e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:67edd1d5d02eda484128c4870f833eee349aaf51e64f4f1f55c38201d76fb978",
+          "sha256": "67edd1d5d02eda484128c4870f833eee349aaf51e64f4f1f55c38201d76fb978"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dub/blobs/sha256:97030e9b840fc6a08321c0a0e84dc008634a8d850ae45dc324b082d080d00298",
+          "sha256": "97030e9b840fc6a08321c0a0e84dc008634a8d850ae45dc324b082d080d00298"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ldc"
+  ],
+  "dependencies": [
+    "pkg-config"
+  ],
+  "test_dependencies": [
+    "ldc"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dub.rb",
+  "ruby_source_checksum": {
+    "sha256": "f27bd89acc7b012a371fe1a59746c23f3f27d0e8ac3e55235b02dbf5b59b6e29"
+  },
+  "date_added": "2013-06-20T16:01:24-07:00"
+}

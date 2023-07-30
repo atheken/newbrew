@@ -1,0 +1,85 @@
+{
+  "name": "sophus",
+  "full_name": "sophus",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ implementation of Lie Groups using Eigen",
+  "license": "MIT",
+  "homepage": "https://strasdat.github.io/Sophus/latest/",
+  "versions": {
+    "stable": "1.22.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/strasdat/Sophus/archive/refs/tags/1.22.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "eb1da440e6250c5efc7637a0611a5b8888875ce6ac22bf7ff6b6769bbc958082"
+    },
+    "head": {
+      "url": "https://github.com/strasdat/Sophus.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sophus/blobs/sha256:e444266e8c7ead4969b894a4ed37b57dba375d1eea5ecce83695d4f47812eb68",
+          "sha256": "e444266e8c7ead4969b894a4ed37b57dba375d1eea5ecce83695d4f47812eb68"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "ceres-solver",
+    "eigen",
+    "fmt"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sophus.rb",
+  "ruby_source_checksum": {
+    "sha256": "2b5190d448954b24cb187eecb62d8a07dcb2bb75cde4618874f3c7f3798d75d2"
+  },
+  "date_added": "2022-04-21T05:36:30+00:00"
+}

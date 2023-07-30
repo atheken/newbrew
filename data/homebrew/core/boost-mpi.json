@@ -1,0 +1,112 @@
+{
+  "name": "boost-mpi",
+  "full_name": "boost-mpi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ library for C++/MPI interoperability",
+  "license": "BSL-1.0",
+  "homepage": "https://www.boost.org/",
+  "versions": {
+    "stable": "1.82.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/boostorg/boost/releases/download/boost-1.82.0/boost-1.82.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fd60da30be908eff945735ac7d4d9addc7f7725b1ff6fcdcaede5262d511d21e"
+    },
+    "head": {
+      "url": "https://github.com/boostorg/boost.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:2fadb6b3e273c30ceef188f465175432be8ffa097227f4e7f220e578badd23c6",
+          "sha256": "2fadb6b3e273c30ceef188f465175432be8ffa097227f4e7f220e578badd23c6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:a91ccbcc149a0e9a63b1e35a19430fe270f97ab2f188c7546e1383fd168bbf95",
+          "sha256": "a91ccbcc149a0e9a63b1e35a19430fe270f97ab2f188c7546e1383fd168bbf95"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:2bb95f88ca16455df8605835cffbf190e0d341a3f90ceca2b7868da58b326b1e",
+          "sha256": "2bb95f88ca16455df8605835cffbf190e0d341a3f90ceca2b7868da58b326b1e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:8943122b533bfc1b9eac87018626bf6721282618d935c974c8e7950efdd63c05",
+          "sha256": "8943122b533bfc1b9eac87018626bf6721282618d935c974c8e7950efdd63c05"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:be43b7b2025bf01376b34c220d7cecae67d4bc69decb7a1afd498e551ca38b99",
+          "sha256": "be43b7b2025bf01376b34c220d7cecae67d4bc69decb7a1afd498e551ca38b99"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:50304ea86b434e855dbf014b9cf1ac55a932a21da911d735ba9d71be9108f62e",
+          "sha256": "50304ea86b434e855dbf014b9cf1ac55a932a21da911d735ba9d71be9108f62e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/boost-mpi/blobs/sha256:b46177052f005c857caa1430c501f668c585d93242fce1a31d8602fed7617ec9",
+          "sha256": "b46177052f005c857caa1430c501f668c585d93242fce1a31d8602fed7617ec9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "boost",
+    "open-mpi"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/boost-mpi.rb",
+  "ruby_source_checksum": {
+    "sha256": "009af1ca55811f72b6bb2ae515adcccb66281fd9942b2d2bcb5bac6f1a66bba0"
+  },
+  "date_added": "2017-02-12T15:28:13+00:00"
+}

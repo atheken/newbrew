@@ -1,0 +1,120 @@
+{
+  "name": "dart-sdk",
+  "full_name": "dart-sdk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dart Language SDK, including the VM, dart2js, core libraries, and more",
+  "license": "BSD-3-Clause",
+  "homepage": "https://dart.dev",
+  "versions": {
+    "stable": "3.0.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dart-lang/sdk/archive/refs/tags/3.0.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "afaffc72cc68aad63b76be1fd31a9708f8402c4d79013a4de9b082a6b1d40475"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:55801e0ac7796c5a023e4ed3bc00ed1c2bf6103f9b0ab389a804637758132f8f",
+          "sha256": "55801e0ac7796c5a023e4ed3bc00ed1c2bf6103f9b0ab389a804637758132f8f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:72473a0be99f8c8fcbf1344bf0406926558d38a1a9377056dd131e36b3e03a8b",
+          "sha256": "72473a0be99f8c8fcbf1344bf0406926558d38a1a9377056dd131e36b3e03a8b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:361f6ddb377a8764c0752649e2475239983723c464be3dc2e4688bd013ad8efa",
+          "sha256": "361f6ddb377a8764c0752649e2475239983723c464be3dc2e4688bd013ad8efa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:78d8f492b07202c284dada69dcf9f8d25f4b8daba41a46a8ff5dbbcf26107b5f",
+          "sha256": "78d8f492b07202c284dada69dcf9f8d25f4b8daba41a46a8ff5dbbcf26107b5f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:754aa0c8fb1f34d6d7eaa7d7f4dd8ebf91412c83077ccd2e562d0a58f4c02f43",
+          "sha256": "754aa0c8fb1f34d6d7eaa7d7f4dd8ebf91412c83077ccd2e562d0a58f4c02f43"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:c58babe9dddf2bdec07979dcf1ef3010b393b15746d41682720e4f41a8458753",
+          "sha256": "c58babe9dddf2bdec07979dcf1ef3010b393b15746d41682720e4f41a8458753"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dart-sdk/blobs/sha256:6df6dd77cabc946e973a5ad19776099a5732ffb3f8f3b2f15844908410ab7a12",
+          "sha256": "6df6dd77cabc946e973a5ad19776099a5732ffb3f8f3b2f15844908410ab7a12"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ninja",
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "curl": "build"
+    },
+    {
+      "python": "build"
+    },
+    {
+      "xz": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dart-sdk.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ea423b1ef79d656a32d9bd9e59c268de332828f11da31be5d402fb806862738"
+  },
+  "date_added": "2022-07-06T12:35:05+00:00"
+}

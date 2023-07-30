@@ -1,0 +1,130 @@
+{
+  "name": "libgxps",
+  "full_name": "libgxps",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GObject based library for handling and rendering XPS documents",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://wiki.gnome.org/Projects/libgxps",
+  "versions": {
+    "stable": "0.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6d27867256a35ccf9b69253eb2a88a32baca3b97d5f4ef7f82e3667fa435251c"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/libgxps.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:07d90913277ea1e2a74c547c02173058afa2588ede3e9236ff7f334c894a7b6a",
+          "sha256": "07d90913277ea1e2a74c547c02173058afa2588ede3e9236ff7f334c894a7b6a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:50c2d473739fb423b1145baaf06f7585ee9a64e5021806bff07cb1f772c1f8f1",
+          "sha256": "50c2d473739fb423b1145baaf06f7585ee9a64e5021806bff07cb1f772c1f8f1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:2dc505d1715d95510c25f98507f755490c8277324cd8b9ef008c5e8f7783488f",
+          "sha256": "2dc505d1715d95510c25f98507f755490c8277324cd8b9ef008c5e8f7783488f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:d23e0dfb5092636567f86a31839a04fc0831253eb73dc0863929c9c71d648be2",
+          "sha256": "d23e0dfb5092636567f86a31839a04fc0831253eb73dc0863929c9c71d648be2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:e523554e0a7faa5c8f0a4ff842f4b462d9cb24411d3f855cb4f7e4eaded44fe2",
+          "sha256": "e523554e0a7faa5c8f0a4ff842f4b462d9cb24411d3f855cb4f7e4eaded44fe2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:187f95bca68a60db5155a911033be4eab80537598f5dd788a3edbbb7303fe5a5",
+          "sha256": "187f95bca68a60db5155a911033be4eab80537598f5dd788a3edbbb7303fe5a5"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgxps/blobs/sha256:0fda080a2b1da025e6d6aef7a9e4934fefaabda48cc9c080088e1146cead5558",
+          "sha256": "0fda080a2b1da025e6d6aef7a9e4934fefaabda48cc9c080088e1146cead5558"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it conflicts with `ghostscript`",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "glib",
+    "jpeg-turbo",
+    "libarchive",
+    "libtiff",
+    "little-cms2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "zip": "test"
+    },
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "`ghostscript` now installs a conflicting libgxps.dylib.\nYou may need to `brew unlink libgxps` if you have both installed.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libgxps.rb",
+  "ruby_source_checksum": {
+    "sha256": "1585420079ae8b2255f112aab8707bb2726faf780e8c54d70c97d5719434c75e"
+  },
+  "date_added": "2015-01-22T17:02:44+01:00"
+}

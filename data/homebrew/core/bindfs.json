@@ -1,0 +1,109 @@
+{
+  "name": "bindfs",
+  "full_name": "bindfs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "FUSE file system for mounting to another location",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://bindfs.org/",
+  "versions": {
+    "stable": "1.17.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://bindfs.org/downloads/bindfs-1.17.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6fd4af9ba2ec2bdb603ef8eea2a9d12db2e5fe9cbe52b8640b415734a59f3dcc"
+    },
+    "head": {
+      "url": "https://github.com/mpartel/bindfs.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindfs/blobs/sha256:b7175afd04e2af48dba44575560a3e99625c681cef8349977111fd8d017ad093",
+          "sha256": "b7175afd04e2af48dba44575560a3e99625c681cef8349977111fd8d017ad093"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libfuse"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bindfs.rb",
+  "ruby_source_checksum": {
+    "sha256": "a80ea9f785c95f880128bb79f3730538436b644290735cf6233e174d29defe88"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "libfuse"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2012-01-20T12:56:52-08:00"
+}

@@ -1,0 +1,117 @@
+{
+  "name": "licenseplist",
+  "full_name": "licenseplist",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "License list generator of all your dependencies for iOS applications",
+  "license": "MIT",
+  "homepage": "https://www.slideshare.net/mono0926/licenseplist-a-license-list-generator-of-all-your-dependencies-for-ios-applications",
+  "versions": {
+    "stable": "3.24.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mono0926/LicensePlist/archive/refs/tags/3.24.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "89cecba2612c991d6ecbf3781999f57eb47e7ed2c99549cf8fa874afa31b7991"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/licenseplist/blobs/sha256:3604e39c4270ae3055df5589306ddd54ed3fb821848cfc6fa42185b5af5087b0",
+          "sha256": "3604e39c4270ae3055df5589306ddd54ed3fb821848cfc6fa42185b5af5087b0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/licenseplist/blobs/sha256:d5fca50feb2f2361dbf1737b564be3ed673db43c732adc1394520769af8e64bb",
+          "sha256": "d5fca50feb2f2361dbf1737b564be3ed673db43c732adc1394520769af8e64bb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/licenseplist/blobs/sha256:5ef64b2f632ac648ad97dcadab34b7bead4aecddb5b7ccdd0db9ae86a86838bb",
+          "sha256": "5ef64b2f632ac648ad97dcadab34b7bead4aecddb5b7ccdd0db9ae86a86838bb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/licenseplist/blobs/sha256:f13cbbf48c0e1e52616187f527be546242898d2c6456df77f09290abf3658095",
+          "sha256": "f13cbbf48c0e1e52616187f527be546242898d2c6456df77f09290abf3658095"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "swift": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": "13.3",
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    },
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/licenseplist.rb",
+  "ruby_source_checksum": {
+    "sha256": "f037ce6bdcddddd7475e74807675d12d1caef812342def4bc63395d6e010ae38"
+  },
+  "date_added": "2022-09-06T12:20:40+00:00"
+}

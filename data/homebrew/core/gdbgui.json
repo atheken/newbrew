@@ -1,0 +1,103 @@
+{
+  "name": "gdbgui",
+  "full_name": "gdbgui",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modern, browser-based frontend to gdb (gnu debugger)",
+  "license": "GPL-3.0-only",
+  "homepage": "https://www.gdbgui.com/",
+  "versions": {
+    "stable": "0.15.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d2/95/1a5d6fff8e4c8458b314dd5175944579a0f6233f963c657bc5d3c6b2f3b2/gdbgui-0.15.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "61c0f7a26ecdeb275d9b4d88b7afdf8d70ec5471b40ace3a7dd1a87f43cc2573"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gdbgui/blobs/sha256:93601eb1af66befa802f36eb45afc053f172cb6c19e5a6281c1b3f0f75d544f9",
+          "sha256": "93601eb1af66befa802f36eb45afc053f172cb6c19e5a6281c1b3f0f75d544f9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gdbgui/blobs/sha256:6cac4a7fd50072c2108068772edf1ba7e78270946c428620b47ca81139e644e2",
+          "sha256": "6cac4a7fd50072c2108068772edf1ba7e78270946c428620b47ca81139e644e2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gdbgui/blobs/sha256:d1a4536b5eb571a9ca4fcffc86a0529712ac50340131a1681c32a38af7e1a218",
+          "sha256": "d1a4536b5eb571a9ca4fcffc86a0529712ac50340131a1681c32a38af7e1a218"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gdbgui/blobs/sha256:36eb1049e48848080019c1533e14b63a43041667389e5ba0f8353adab5b3db17",
+          "sha256": "36eb1049e48848080019c1533e14b63a43041667389e5ba0f8353adab5b3db17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gdb",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-05-25",
+  "deprecation_reason": "unmaintained",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gdbgui.rb",
+  "ruby_source_checksum": {
+    "sha256": "32534a42b76ba697defd7a7cc9f0c3b6ddf15b87667b8725753e6f90194cb039"
+  },
+  "date_added": "2020-04-22T09:03:23+00:00"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "csvkit",
+  "full_name": "csvkit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Suite of command-line tools for converting to and working with CSV",
+  "license": "MIT",
+  "homepage": "https://csvkit.readthedocs.io/",
+  "versions": {
+    "stable": "1.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/f7/88/bc793b75b22b24c8876bb516002768060f0b933da13661387a55604266cb/csvkit-1.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "beddb7b78f6b22adbed6ead5ad5de4bfb31dd2c55f3211b2a2b3b65529049223"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:ca0f327bd1aa353d7577cffef8e69036dbcd109c8186639e49a0a9db1f7d1bc1",
+          "sha256": "ca0f327bd1aa353d7577cffef8e69036dbcd109c8186639e49a0a9db1f7d1bc1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:cbc315e77d2b59ff1e60be496d17dac02b48437546ef6553a7d2c479363799c1",
+          "sha256": "cbc315e77d2b59ff1e60be496d17dac02b48437546ef6553a7d2c479363799c1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:2d3fe7c39bbe404f3259abad05094728362654ef9d5406f6690e13314543f0dd",
+          "sha256": "2d3fe7c39bbe404f3259abad05094728362654ef9d5406f6690e13314543f0dd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:9f4891c0c19f290c81ff5f9c27ab1150ba71773a8418cc0a0d98b86d883309c3",
+          "sha256": "9f4891c0c19f290c81ff5f9c27ab1150ba71773a8418cc0a0d98b86d883309c3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:abe95928144483842be223b69af15b0f8a79e1441d638b6852921c62e29f7b7f",
+          "sha256": "abe95928144483842be223b69af15b0f8a79e1441d638b6852921c62e29f7b7f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:61a24baa066b0a81133629e7dd9b3f1932ee6adefc96a0043881f657c42f3eda",
+          "sha256": "61a24baa066b0a81133629e7dd9b3f1932ee6adefc96a0043881f657c42f3eda"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/csvkit/blobs/sha256:180194a1809964c842e8e8be14a5e9c7c77d1bb3a3d154ec26333a581f09e519",
+          "sha256": "180194a1809964c842e8e8be14a5e9c7c77d1bb3a3d154ec26333a581f09e519"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/csvkit.rb",
+  "ruby_source_checksum": {
+    "sha256": "3933f930348afa83aeb7274d6dcadc46bf922a2b04919af5b893b16baf70f61c"
+  },
+  "date_added": "2017-11-07T11:40:15-06:00"
+}

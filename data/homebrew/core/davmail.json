@@ -1,0 +1,93 @@
+{
+  "name": "davmail",
+  "full_name": "davmail",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "POP/IMAP/SMTP/Caldav/Carddav/LDAP exchange gateway",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://davmail.sourceforge.io/",
+  "versions": {
+    "stable": "6.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/davmail/davmail/6.1.0/davmail-6.1.0-3422.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "16721e5795abad0c6a42ab074d86ea7d6ed0799539a24be6733c4c7f8c9bc965"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/davmail/blobs/sha256:9702e80a083489ce139bf7d5d772d01dde9f5f36bbe59f1b9020cda563316a99",
+          "sha256": "9702e80a083489ce139bf7d5d772d01dde9f5f36bbe59f1b9020cda563316a99"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "netcat": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/davmail/bin/davmail",
+    "run_type": "interval",
+    "interval": 300,
+    "keep_alive": {
+      "always": false
+    },
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "log_path": "/dev/null",
+    "error_log_path": "/dev/null"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/davmail.rb",
+  "ruby_source_checksum": {
+    "sha256": "ef2a40b8bac44fe1d6aba9f66faa13f5c0b3a625d4807f2c7541d64ee2d3d51c"
+  },
+  "date_added": "2014-12-26T23:57:24-05:00"
+}

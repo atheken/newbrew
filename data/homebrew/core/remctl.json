@@ -1,0 +1,110 @@
+{
+  "name": "remctl",
+  "full_name": "remctl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Client/server application for remote execution of tasks",
+  "license": "MIT",
+  "homepage": "https://www.eyrie.org/~eagle/software/remctl/",
+  "versions": {
+    "stable": "3.18",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://archives.eyrie.org/software/kerberos/remctl-3.18.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "69980a0058c848f4d1117121cc9153f2daace5561d37bfdb061473f035fc35ef"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:a7d183ea3da3af640ed517baa9623a207098627c651d1028819c1e8c7536f2e1",
+          "sha256": "a7d183ea3da3af640ed517baa9623a207098627c651d1028819c1e8c7536f2e1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:49d5e57e353ff5342a2a915daadb5adf29d632cbf764278b3925e34480f1a0d4",
+          "sha256": "49d5e57e353ff5342a2a915daadb5adf29d632cbf764278b3925e34480f1a0d4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:67ab815bbb6094595b818fdd38d2c697a4ac6dd0a5e9ab6e9a17013cd42683fd",
+          "sha256": "67ab815bbb6094595b818fdd38d2c697a4ac6dd0a5e9ab6e9a17013cd42683fd"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:4474c52f63e68fa6cd369b00d41ee5963ab84f4f3156b94b09e3e3328c4c3037",
+          "sha256": "4474c52f63e68fa6cd369b00d41ee5963ab84f4f3156b94b09e3e3328c4c3037"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:c071e9621162fd5e00e2735f1eb10e3eba302f2f5430740b4122c0ab2800e7d2",
+          "sha256": "c071e9621162fd5e00e2735f1eb10e3eba302f2f5430740b4122c0ab2800e7d2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:c98f0e9729545d32cf87de9eeb6cb5d9d889b26978903823cb78fadd10b03713",
+          "sha256": "c98f0e9729545d32cf87de9eeb6cb5d9d889b26978903823cb78fadd10b03713"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/remctl/blobs/sha256:def6439b11bef8a6ee81d387991e0995b9fe76928e9dbd69bd65ea09b6931d1b",
+          "sha256": "def6439b11bef8a6ee81d387991e0995b9fe76928e9dbd69bd65ea09b6931d1b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libevent",
+    "pcre2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "krb5"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/remctl.rb",
+  "ruby_source_checksum": {
+    "sha256": "52fb8a57f88c7156aad02898036dfb9d4dde8949e4d9efabcc21fa7de029a23c"
+  },
+  "date_added": "2012-08-10T11:52:10-05:00"
+}

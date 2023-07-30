@@ -1,0 +1,75 @@
+{
+  "name": "localtunnel",
+  "full_name": "localtunnel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Exposes your localhost to the world for easy testing and sharing",
+  "license": "MIT",
+  "homepage": "https://theboroer.github.io/localtunnel-www/",
+  "versions": {
+    "stable": "2.0.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.2.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6fb76f0ac6b92989669a5b7bb519361e07301965ea1f5a04d813ed59ab2e0c34"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/localtunnel/blobs/sha256:c430fe4d9468d9eaeeabe3c32ffd51c2c93913c3e01bc6a41b947e1acba0bb19",
+          "sha256": "c430fe4d9468d9eaeeabe3c32ffd51c2c93913c3e01bc6a41b947e1acba0bb19"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/localtunnel.rb",
+  "ruby_source_checksum": {
+    "sha256": "a60c0e9b6a36a7f766bbce0f73b1fac87bc2306231f2bb1c3f8fc88df3b86e75"
+  },
+  "date_added": "2022-04-18T13:43:28+00:00"
+}

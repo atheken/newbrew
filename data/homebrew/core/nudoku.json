@@ -1,0 +1,118 @@
+{
+  "name": "nudoku",
+  "full_name": "nudoku",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ncurses based sudoku game",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://jubalh.github.io/nudoku/",
+  "versions": {
+    "stable": "2.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jubalh/nudoku/archive/2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "eeff7f3adea5bfe7b88bf7683d68e9a597aabd1442d1621f21760c746400b924"
+    },
+    "head": {
+      "url": "https://github.com/jubalh/nudoku.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:7af32212d5adb183528f350950913d31cb9de5644c1d8af158eef5b68bfc00de",
+          "sha256": "7af32212d5adb183528f350950913d31cb9de5644c1d8af158eef5b68bfc00de"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:b1bf18647b1f42eb7dce94d90649f314d99be5575fbc417c103a94cc9282b3b5",
+          "sha256": "b1bf18647b1f42eb7dce94d90649f314d99be5575fbc417c103a94cc9282b3b5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:6350cd17943ce3a889f193d13ca662ffdc19eef6bfa38dc5e0f97b7a193e48b9",
+          "sha256": "6350cd17943ce3a889f193d13ca662ffdc19eef6bfa38dc5e0f97b7a193e48b9"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:414db0599466260fc27e629e4f325d9bc33e6fb30f37cb99c07bcf3b450d99c8",
+          "sha256": "414db0599466260fc27e629e4f325d9bc33e6fb30f37cb99c07bcf3b450d99c8"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:8f296f4c8b2f0352e5ed7c492536c38f26c604c82c9a604559e17b75e9038685",
+          "sha256": "8f296f4c8b2f0352e5ed7c492536c38f26c604c82c9a604559e17b75e9038685"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:83449b550966a303d2095e8232d98d629abccced9f104442ca7d24ec102e1d3d",
+          "sha256": "83449b550966a303d2095e8232d98d629abccced9f104442ca7d24ec102e1d3d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nudoku/blobs/sha256:ae2f2e43eb521a04f347c59288bb2a9c68bfa8e95d2e06fa33e53e5dac693c56",
+          "sha256": "ae2f2e43eb521a04f347c59288bb2a9c68bfa8e95d2e06fa33e53e5dac693c56"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "gettext"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nudoku.rb",
+  "ruby_source_checksum": {
+    "sha256": "10f895b9c23989b2010c8332dfb5cc5a0cef692bc12ed41e18b2164ea05e5896"
+  },
+  "date_added": "2017-02-08T10:08:58+00:00"
+}

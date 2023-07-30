@@ -1,0 +1,103 @@
+{
+  "name": "nauty",
+  "full_name": "nauty",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automorphism groups of graphs and digraphs",
+  "license": "Apache-2.0",
+  "homepage": "https://pallini.di.uniroma1.it/",
+  "versions": {
+    "stable": "2.8.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://pallini.di.uniroma1.it/nauty2_8_6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f2ce98225ca8330f5bce35f7d707b629247e09dda15fc479dc00e726fee5e6fa"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:bd9fd017b2becaafc0e2951e3b881007cdb265c7afa3c4dde115278452ac8094",
+          "sha256": "bd9fd017b2becaafc0e2951e3b881007cdb265c7afa3c4dde115278452ac8094"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:75ed13b3638b9ad0f79d0acdfe3c1153556ee52bef69f3627e1b24486967e556",
+          "sha256": "75ed13b3638b9ad0f79d0acdfe3c1153556ee52bef69f3627e1b24486967e556"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:1b0b84e739762349ce679448d604299ba0ca5bd755eb5473365cfbfd88a714e5",
+          "sha256": "1b0b84e739762349ce679448d604299ba0ca5bd755eb5473365cfbfd88a714e5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:f6fae228f689c1b914e68e77b480a13e1578ce33d209119b14e8a8abd1ae138d",
+          "sha256": "f6fae228f689c1b914e68e77b480a13e1578ce33d209119b14e8a8abd1ae138d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:afd16a1cb7af80145eec65bc2a0458b1e5c011b46fb13424c704972651dc554e",
+          "sha256": "afd16a1cb7af80145eec65bc2a0458b1e5c011b46fb13424c704972651dc554e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:674ff752456a99d44ddd63bf906d1f9cebf2517022f502fbc85c14fdb2d3de64",
+          "sha256": "674ff752456a99d44ddd63bf906d1f9cebf2517022f502fbc85c14fdb2d3de64"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nauty/blobs/sha256:712e4cfba548cf16a9f95d108737fe818e1e4429ce7890a24f6bc0fcc4d9d0f3",
+          "sha256": "712e4cfba548cf16a9f95d108737fe818e1e4429ce7890a24f6bc0fcc4d9d0f3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nauty.rb",
+  "ruby_source_checksum": {
+    "sha256": "7d8d9b669317094c778f867ec0ab411ba898dc88a7816de5f847d303de96a9d4"
+  },
+  "date_added": "2012-02-18T14:28:03-08:00"
+}

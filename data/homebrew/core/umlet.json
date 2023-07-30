@@ -1,0 +1,75 @@
+{
+  "name": "umlet",
+  "full_name": "umlet",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "This UML tool aimed at providing a fast way of creating UML diagrams",
+  "license": "GPL-3.0-only",
+  "homepage": "https://www.umlet.com/",
+  "versions": {
+    "stable": "15.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.umlet.com/download/umlet_15_1/umlet-standalone-15.1.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "33aa1559b3a63c14f2812f9316463d3d6b9c15f60b0f7decb8d52e5a914b308a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/umlet/blobs/sha256:8c1f2fe34db9d230b2b4412488efa3ec266d994bd72f9df8871b320321862ce7",
+          "sha256": "8c1f2fe34db9d230b2b4412488efa3ec266d994bd72f9df8871b320321862ce7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/umlet.rb",
+  "ruby_source_checksum": {
+    "sha256": "22baefd2253b00a5e477ffa7cd21528c739f217df0c75216f7089149cbc97d2c"
+  },
+  "date_added": "2016-05-08T21:48:06+01:00"
+}

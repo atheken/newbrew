@@ -1,0 +1,112 @@
+{
+  "name": "makensis",
+  "full_name": "makensis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "nsis"
+  ],
+  "versioned_formulae": [],
+  "desc": "System to create Windows installers",
+  "license": "Zlib",
+  "homepage": "https://nsis.sourceforge.io/",
+  "versions": {
+    "stable": "3.09",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/nsis/NSIS%203/3.09/nsis-3.09-src.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "0cd846c6e9c59068020a87bfca556d4c630f2c5d554c1098024425242ddc56e2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:0e5ff651a001ea3c3afebae523d1f30b914d3054220bc9266a6101c7c134da2c",
+          "sha256": "0e5ff651a001ea3c3afebae523d1f30b914d3054220bc9266a6101c7c134da2c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:f09cd2796953aab5c3198adcde8e9ba8d284ce46891417bedc949b95dea67a7f",
+          "sha256": "f09cd2796953aab5c3198adcde8e9ba8d284ce46891417bedc949b95dea67a7f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:12c2c787c4fe84e6c72c410e7123040924ab731ab5d4659ed624a31e7a169180",
+          "sha256": "12c2c787c4fe84e6c72c410e7123040924ab731ab5d4659ed624a31e7a169180"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:a45fa4bb934cbbca70e30765ebcfb3ca4e5315f960b7a4b5ba2d4ebb6f2ff177",
+          "sha256": "a45fa4bb934cbbca70e30765ebcfb3ca4e5315f960b7a4b5ba2d4ebb6f2ff177"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:9fa2f365fd3229de093b66a3695ce4558c4822cdc61b26d8ad7a06d4fd7f79c5",
+          "sha256": "9fa2f365fd3229de093b66a3695ce4558c4822cdc61b26d8ad7a06d4fd7f79c5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:b0dcee39ebe9e01f9cc0e2119978273fc46cb0ce34dc9b4272bf3b4184531b08",
+          "sha256": "b0dcee39ebe9e01f9cc0e2119978273fc46cb0ce34dc9b4272bf3b4184531b08"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/makensis/blobs/sha256:920f67e5ec564bcfbe843661c6b12badf23fb7dcf8783719055c0fc9ed363158",
+          "sha256": "920f67e5ec564bcfbe843661c6b12badf23fb7dcf8783719055c0fc9ed363158"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "mingw-w64",
+    "scons"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/makensis.rb",
+  "ruby_source_checksum": {
+    "sha256": "2835980377a779ee048b096f95e3f9ffc0f2a4818e101c4323ccb735f56aaf3e"
+  },
+  "date_added": "2010-07-10T13:40:03-07:00"
+}

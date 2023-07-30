@@ -1,0 +1,107 @@
+{
+  "name": "locust",
+  "full_name": "locust",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scalable user load testing tool written in Python",
+  "license": "MIT",
+  "homepage": "https://locust.io/",
+  "versions": {
+    "stable": "2.15.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/b8/14/b3baf7d9d283121c44475b4f45afb6c8dbcdad27b92c75db1c850f199e21/locust-2.15.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a6307f3bf995c180f66e7caed94360b8c8ed95d64dca508614d803d5b0b39f15"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:dcbbe0725527070eff38decb6993edf3aef653615ae337ba4aafbf1892c7538c",
+          "sha256": "dcbbe0725527070eff38decb6993edf3aef653615ae337ba4aafbf1892c7538c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:6f935b0852966267cfa545644b4e1045bc51e8d6145032cb47f254b4e6c9293c",
+          "sha256": "6f935b0852966267cfa545644b4e1045bc51e8d6145032cb47f254b4e6c9293c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:1208792fcf80e5c557e97d3037758245fbc2acf06388cabf3c387b4d5c517259",
+          "sha256": "1208792fcf80e5c557e97d3037758245fbc2acf06388cabf3c387b4d5c517259"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:040afc2a31f132e682e35a6d2d721dd604ca12d5a15e6bfd81cc8ff2d07864c4",
+          "sha256": "040afc2a31f132e682e35a6d2d721dd604ca12d5a15e6bfd81cc8ff2d07864c4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:8a5368e084a89e8ad23d38d8f27aa0b748dc9bde80b205e505f58c5b3c4b2313",
+          "sha256": "8a5368e084a89e8ad23d38d8f27aa0b748dc9bde80b205e505f58c5b3c4b2313"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:862f97bcda97432b5ba4a68a19f0cf5b4ce035273e146211171a3a43b5db0457",
+          "sha256": "862f97bcda97432b5ba4a68a19f0cf5b4ce035273e146211171a3a43b5db0457"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/locust/blobs/sha256:6b94ce7ab92e29574f8d2a1cbee4e9ca7858f83ada839330edcecf759308987f",
+          "sha256": "6b94ce7ab92e29574f8d2a1cbee4e9ca7858f83ada839330edcecf759308987f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python-typing-extensions",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/locust.rb",
+  "ruby_source_checksum": {
+    "sha256": "a3d35d06b3618a1cfed8130c6c1667bfe27f9e9aef4f62c327555351338c7510"
+  },
+  "date_added": "2021-09-04T07:22:28+00:00"
+}

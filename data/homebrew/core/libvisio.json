@@ -1,0 +1,118 @@
+{
+  "name": "libvisio",
+  "full_name": "libvisio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Interpret and import Visio diagrams",
+  "license": "MPL-2.0",
+  "homepage": "https://wiki.documentfoundation.org/DLP/Libraries/libvisio",
+  "versions": {
+    "stable": "0.1.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dev-www.libreoffice.org/src/libvisio/libvisio-0.1.7.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8faf8df870cb27b09a787a1959d6c646faa44d0d8ab151883df408b7166bea4c"
+    }
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:e9c402292b9fbdf9ff47e39afbd1fe979648dd0b1ea930a151c6625a32711590",
+          "sha256": "e9c402292b9fbdf9ff47e39afbd1fe979648dd0b1ea930a151c6625a32711590"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:c0367e8d9d93e5958a61a5afdd3a637c9cf78165eb311116e27c99f27af9df3f",
+          "sha256": "c0367e8d9d93e5958a61a5afdd3a637c9cf78165eb311116e27c99f27af9df3f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:3a5903295d31adcea271eb795325b277e1c72caee3e5507a72e0c9105c0a207d",
+          "sha256": "3a5903295d31adcea271eb795325b277e1c72caee3e5507a72e0c9105c0a207d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:a069a1f73e0935188c0eb65a8a54162463d631411103088e751a50005d4f2450",
+          "sha256": "a069a1f73e0935188c0eb65a8a54162463d631411103088e751a50005d4f2450"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:0524e13f8e95af1ba8f030d932a126f9803fef489b2010e751a8b1480aaef8b3",
+          "sha256": "0524e13f8e95af1ba8f030d932a126f9803fef489b2010e751a8b1480aaef8b3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:8541e46ff41dd1d7cec5a8807d136edcd4a7dbd4efdc419d4e1d67c67701ea9b",
+          "sha256": "8541e46ff41dd1d7cec5a8807d136edcd4a7dbd4efdc419d4e1d67c67701ea9b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libvisio/blobs/sha256:a9c9445d29af37557973bc87987a09eff567e354f818727e928674cacc58f462",
+          "sha256": "a9c9445d29af37557973bc87987a09eff567e354f818727e928674cacc58f462"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cppunit",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "icu4c",
+    "librevenge"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "gperf": "build"
+    },
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libvisio.rb",
+  "ruby_source_checksum": {
+    "sha256": "fd8a1f80710c591fa5dc7cd740b2e41a81bce6c5e669b0388cccced7ba1f66de"
+  },
+  "date_added": "2014-06-22T08:26:51+01:00"
+}

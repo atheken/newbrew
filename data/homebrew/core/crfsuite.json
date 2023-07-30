@@ -1,0 +1,111 @@
+{
+  "name": "crfsuite",
+  "full_name": "crfsuite",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast implementation of conditional random fields",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.chokkan.org/software/crfsuite/",
+  "versions": {
+    "stable": "0.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/downloads/chokkan/crfsuite/crfsuite-0.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e7fc2d88353b1f4de799245f777d90f3c89a9d9744ba9fbde8c7553fa78a1ea1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:7c00ca61a741c84e661cb89f208a79105453f051fb766390ca4afb6d5cbc815c",
+          "sha256": "7c00ca61a741c84e661cb89f208a79105453f051fb766390ca4afb6d5cbc815c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:de3937f3b5caa7a27f48b183cca1a3dbe64fe0ba642f624f35a5d3e1827fa13f",
+          "sha256": "de3937f3b5caa7a27f48b183cca1a3dbe64fe0ba642f624f35a5d3e1827fa13f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:8f4faf686ec2dd149e8c55505fb18f4f2fd246cf0966ed315c19eb811855aeb1",
+          "sha256": "8f4faf686ec2dd149e8c55505fb18f4f2fd246cf0966ed315c19eb811855aeb1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:9044e7b8b91b781be38409cc180e7889fdf5430699025628726dc21919324704",
+          "sha256": "9044e7b8b91b781be38409cc180e7889fdf5430699025628726dc21919324704"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:72d451e62bf3ab7b5b2d73d9cb4757946e1c0aa75c3c5f28c1c2d899d052bdd1",
+          "sha256": "72d451e62bf3ab7b5b2d73d9cb4757946e1c0aa75c3c5f28c1c2d899d052bdd1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:72b8c9d618a16bd4287990ae6c7b46bfdfd964cbe20582d4fa10f5b4b12f09ba",
+          "sha256": "72b8c9d618a16bd4287990ae6c7b46bfdfd964cbe20582d4fa10f5b4b12f09ba"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/crfsuite/blobs/sha256:45a6dd13114c20e2a4bd3d82033e463316b635d8c7a61c582e299bca8832ec58",
+          "sha256": "45a6dd13114c20e2a4bd3d82033e463316b635d8c7a61c582e299bca8832ec58"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "liblbfgs"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/crfsuite.rb",
+  "ruby_source_checksum": {
+    "sha256": "146adba1f3e6b3b5115147cc29ba8acb4883de35e86778e5a6a3b5e8133f3b8d"
+  },
+  "date_added": "2023-02-02T07:44:48+00:00"
+}

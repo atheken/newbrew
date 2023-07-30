@@ -1,0 +1,205 @@
+{
+  "name": "octave",
+  "full_name": "octave",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-level interpreted language for numerical computing",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/octave/index.html",
+  "versions": {
+    "stable": "8.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/octave/octave-8.2.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b7b9d6e5004ff039450cfedd2a59ddbe2a3c22296df927a8af994182eb2670de"
+    },
+    "head": {
+      "url": "https://hg.savannah.gnu.org/hgweb/octave",
+      "branch": "default"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:8c87a7d72e3a385863b8ded569079d98ec18dcdbe7d2d05579a4fd24d10398dd",
+          "sha256": "8c87a7d72e3a385863b8ded569079d98ec18dcdbe7d2d05579a4fd24d10398dd"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:c239d96652d68188de1aa1c2e8e21b98dac2f7064f0e80171ccba54f8a35a5b2",
+          "sha256": "c239d96652d68188de1aa1c2e8e21b98dac2f7064f0e80171ccba54f8a35a5b2"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:38be821f47d4f25d91c51ee1c70061da19d2eaf91ca5533429cfa05069c3e7ee",
+          "sha256": "38be821f47d4f25d91c51ee1c70061da19d2eaf91ca5533429cfa05069c3e7ee"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:6c6d289b84c745d092d1aab59b4da4ea24ae659013955edd88147ea73658cd62",
+          "sha256": "6c6d289b84c745d092d1aab59b4da4ea24ae659013955edd88147ea73658cd62"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:3543fbe4d8270d793858ff5a5f49ea554e06c415e26a0a0edafad00b17c84e9c",
+          "sha256": "3543fbe4d8270d793858ff5a5f49ea554e06c415e26a0a0edafad00b17c84e9c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:77ba47e85bee07b3c2f971838cfd5338c66d97d6643572324ff6b07a55cf02d1",
+          "sha256": "77ba47e85bee07b3c2f971838cfd5338c66d97d6643572324ff6b07a55cf02d1"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/octave/blobs/sha256:1ddeaa480ce73b11541291ad0314c6a6f6449ac10082fc8bf8f07ffb6dee7578",
+          "sha256": "1ddeaa480ce73b11541291ad0314c6a6f6449ac10082fc8bf8f07ffb6dee7578"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnu-sed",
+    "openjdk",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "arpack",
+    "epstool",
+    "fftw",
+    "fig2dev",
+    "fltk",
+    "fontconfig",
+    "freetype",
+    "gcc",
+    "ghostscript",
+    "gl2ps",
+    "glpk",
+    "gnuplot",
+    "graphicsmagick",
+    "hdf5",
+    "libsndfile",
+    "libtool",
+    "openblas",
+    "pcre2",
+    "portaudio",
+    "pstoedit",
+    "qhull",
+    "qrupdate",
+    "qscintilla2",
+    "qt@5",
+    "rapidjson",
+    "readline",
+    "suite-sparse",
+    "sundials",
+    "texinfo",
+    "autoconf",
+    "automake",
+    "mesa",
+    "mesa-glu"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/octave.rb",
+  "ruby_source_checksum": {
+    "sha256": "e831d0ae78fa2675fa0d77280d34a5b509795317e155d2a6a62a8618e398ffe4"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "bison",
+      "icoutils",
+      "librsvg",
+      "gnu-sed",
+      "openjdk",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "arpack",
+      "epstool",
+      "fftw",
+      "fig2dev",
+      "fltk",
+      "fontconfig",
+      "freetype",
+      "gcc",
+      "ghostscript",
+      "gl2ps",
+      "glpk",
+      "gnuplot",
+      "graphicsmagick",
+      "hdf5",
+      "libsndfile",
+      "libtool",
+      "openblas",
+      "pcre2",
+      "portaudio",
+      "pstoedit",
+      "qhull",
+      "qrupdate",
+      "qscintilla2",
+      "qt@5",
+      "rapidjson",
+      "readline",
+      "suite-sparse",
+      "sundials",
+      "texinfo",
+      "autoconf",
+      "automake",
+      "mesa",
+      "mesa-glu"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "curl"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2011-03-12T13:30:52-08:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "hdf5@1.10",
+  "full_name": "hdf5@1.10",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "hdf5@1.8"
+  ],
+  "desc": "File format designed to store large amounts of data",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.hdfgroup.org/HDF5",
+  "versions": {
+    "stable": "1.10.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.10/src/hdf5-1.10.10.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "56bbf9577aea4f07d7ac400b59f169ab23e5887c306a63dd5cf18b49f521d28c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:1c31665b4e29c000cb2a7a8d51c419eedf0bebd58b0d82fe3201931d50b4c9b9",
+          "sha256": "1c31665b4e29c000cb2a7a8d51c419eedf0bebd58b0d82fe3201931d50b4c9b9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:16fd8ed8e1ecea75ca0e008dc26b440d89f2e2c613a884adbb1d9f5045586bc1",
+          "sha256": "16fd8ed8e1ecea75ca0e008dc26b440d89f2e2c613a884adbb1d9f5045586bc1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:d5f2614162252b0ace675a83ad5616e6df6e114b02360fd30a148e74fa70c33a",
+          "sha256": "d5f2614162252b0ace675a83ad5616e6df6e114b02360fd30a148e74fa70c33a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:e991fd4c2b5e6ab7ad64a88a5b6607dd67b26fb7de559bda0c05c6a65dc367c2",
+          "sha256": "e991fd4c2b5e6ab7ad64a88a5b6607dd67b26fb7de559bda0c05c6a65dc367c2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:bdb7eefe3aebfb8f7a52eee200edba78a75c74653426924904a60c082a8e38da",
+          "sha256": "bdb7eefe3aebfb8f7a52eee200edba78a75c74653426924904a60c082a8e38da"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:d2530f8e2d5fa6208be6c5d6d2447c7494a83aac17df571dbf94f8bafe7a6799",
+          "sha256": "d2530f8e2d5fa6208be6c5d6d2447c7494a83aac17df571dbf94f8bafe7a6799"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hdf5/1.10/blobs/sha256:c54a44fcdc0056728bc16d0b10e871547ff304fba1be123238fc8e9203930adb",
+          "sha256": "c54a44fcdc0056728bc16d0b10e871547ff304fba1be123238fc8e9203930adb"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "gcc",
+    "libaec"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hdf5@1.10.rb",
+  "ruby_source_checksum": {
+    "sha256": "8fae5de86d5449230c91abcfc3acdeca22273d171caeafadccf66b2664735d0a"
+  },
+  "date_added": "2020-03-08T21:22:50+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "ispc",
+  "full_name": "ispc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compiler for SIMD programming on the CPU",
+  "license": "BSD-3-Clause",
+  "homepage": "https://ispc.github.io",
+  "versions": {
+    "stable": "1.20.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ispc/ispc/archive/v1.20.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "28a1de948fb8b6bbe81d981a4821306167c64c305e839708423abb6322cf3b22"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:642ebcde4c69fe8037c74281ea26a75b95fd2afd0f382c4dd8c5d3cd938dd100",
+          "sha256": "642ebcde4c69fe8037c74281ea26a75b95fd2afd0f382c4dd8c5d3cd938dd100"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:a6a32ada2909684f9ae3b21306aa1ea0042bd5caad04bf375c8d08b940e4ec1f",
+          "sha256": "a6a32ada2909684f9ae3b21306aa1ea0042bd5caad04bf375c8d08b940e4ec1f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:ac260f46115bd06f5fb0bc41c4cc8d30a3834a390ab38a71d379a3b3539564af",
+          "sha256": "ac260f46115bd06f5fb0bc41c4cc8d30a3834a390ab38a71d379a3b3539564af"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:4f697f98ec17ca59cfd9f6028a8c4de4fb53eb8449525587e784cd6c40c902bb",
+          "sha256": "4f697f98ec17ca59cfd9f6028a8c4de4fb53eb8449525587e784cd6c40c902bb"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:1f71c068679fd604d45dfcb5cd4a9a3575ac7f6bcba879202abed981d43131da",
+          "sha256": "1f71c068679fd604d45dfcb5cd4a9a3575ac7f6bcba879202abed981d43131da"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:a115c3b38997b84d9b4ccc2b5dae131db1dbd3d53c31c088c82656ec73d31c63",
+          "sha256": "a115c3b38997b84d9b4ccc2b5dae131db1dbd3d53c31c088c82656ec73d31c63"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ispc/blobs/sha256:bffe5ff68fc71ff23fa4f5ba00315cc508317d464f0eb086d307deddf5224291",
+          "sha256": "bffe5ff68fc71ff23fa4f5ba00315cc508317d464f0eb086d307deddf5224291"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake",
+    "flex",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "llvm@15",
+    "tbb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ispc.rb",
+  "ruby_source_checksum": {
+    "sha256": "8608552354db94020bdc65536a98e2208a25503ce93c831f5d1f9407e96633cf"
+  },
+  "date_added": "2012-04-29T09:01:25-07:00"
+}

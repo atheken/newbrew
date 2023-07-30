@@ -1,0 +1,119 @@
+{
+  "name": "gowsdl",
+  "full_name": "gowsdl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "WSDL2Go code generation as well as its SOAP proxy",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/hooklift/gowsdl",
+  "versions": {
+    "stable": "0.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hooklift/gowsdl.git",
+      "tag": "v0.5.0",
+      "revision": "51f3ef6c0e8f41ed1bdccce4c04e86b6769da313",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/hooklift/gowsdl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:4aa45e1319557557ca74011ec372ffa4d404a3d4199d0b2c7ae78480b68cf266",
+          "sha256": "4aa45e1319557557ca74011ec372ffa4d404a3d4199d0b2c7ae78480b68cf266"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:0391c1e4a9fdbd2f14d5daff2789d490802da3b4a09a227d021dcb1a58b2f92a",
+          "sha256": "0391c1e4a9fdbd2f14d5daff2789d490802da3b4a09a227d021dcb1a58b2f92a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:1e00fdcd6cf4d9f6b4d8df22fbd7622ec946b4188944e4f5fb04aed3c29878f4",
+          "sha256": "1e00fdcd6cf4d9f6b4d8df22fbd7622ec946b4188944e4f5fb04aed3c29878f4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:03fd4af0ea805054cf29bc1156533b8540de308889d827459da3809f65cb6335",
+          "sha256": "03fd4af0ea805054cf29bc1156533b8540de308889d827459da3809f65cb6335"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:c810ea3ef7b3a12aeb84b71b71c0c67f6853857cd6fd778c65b9bb0b9fad157e",
+          "sha256": "c810ea3ef7b3a12aeb84b71b71c0c67f6853857cd6fd778c65b9bb0b9fad157e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:311386c63c7c7ffda0e89c0cf753b5ce53745909e492b2866f75c157c97e48a8",
+          "sha256": "311386c63c7c7ffda0e89c0cf753b5ce53745909e492b2866f75c157c97e48a8"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:5decccb2c1f5b9c093dc045fceede062ea21bfb0273c7cfa9d7c1cde04229e4c",
+          "sha256": "5decccb2c1f5b9c093dc045fceede062ea21bfb0273c7cfa9d7c1cde04229e4c"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:5fa5da76a1c3677059c85a6001e90b1a1d3256d7a7942133ca4824365dbc7fec",
+          "sha256": "5fa5da76a1c3677059c85a6001e90b1a1d3256d7a7942133ca4824365dbc7fec"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gowsdl/blobs/sha256:0f90850655453570875a7087b0ac6a850d059a68afba01b62a5e30e6aa7cfecc",
+          "sha256": "0f90850655453570875a7087b0ac6a850d059a68afba01b62a5e30e6aa7cfecc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gowsdl.rb",
+  "ruby_source_checksum": {
+    "sha256": "86c5d8e0f8a1672a39233c98fbd5e34e5c7b49532877c83160fff3bd485f6143"
+  },
+  "date_added": "2015-12-23T02:11:24-05:00"
+}

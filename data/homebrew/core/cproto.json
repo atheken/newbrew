@@ -1,0 +1,113 @@
+{
+  "name": "cproto",
+  "full_name": "cproto",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Generate function prototypes for functions in input files",
+  "license": "Public Domain",
+  "homepage": "https://invisible-island.net/cproto/",
+  "versions": {
+    "stable": "4.7v",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://invisible-mirror.net/archives/cproto/cproto-4.7v.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f3dec3f6102770196976459c4b44ac27355f6120da76e5231ec1323e379d1511"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:66b12ef2111da682532b6a745465a0518d9f62f225c8f721e54de879e202c9ab",
+          "sha256": "66b12ef2111da682532b6a745465a0518d9f62f225c8f721e54de879e202c9ab"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:bb92f280ed1b571d91217a48eb4b5c7369620c45d2b6a55ad6678890eb7d7b56",
+          "sha256": "bb92f280ed1b571d91217a48eb4b5c7369620c45d2b6a55ad6678890eb7d7b56"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:c48d435813db09cb41c3a478d2d0b5dcfea5798ac5f326870b4be8551f8fd4e4",
+          "sha256": "c48d435813db09cb41c3a478d2d0b5dcfea5798ac5f326870b4be8551f8fd4e4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:f43845911736c5506cc0ffe3160cb25f4806a0d78c71537d5fc26a405b3bed24",
+          "sha256": "f43845911736c5506cc0ffe3160cb25f4806a0d78c71537d5fc26a405b3bed24"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:5677c429de0a06a71ff73f2a5e2d4812f7f06a648df63752325906539da65ca0",
+          "sha256": "5677c429de0a06a71ff73f2a5e2d4812f7f06a648df63752325906539da65ca0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:b8144d5fbd994924bb14a473a26211e7c3e7d5cc45606ff82c2f6023b48fe64a",
+          "sha256": "b8144d5fbd994924bb14a473a26211e7c3e7d5cc45606ff82c2f6023b48fe64a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cproto/blobs/sha256:aef0e5ac3dd5df85888a5c06e8dbec67142174fdc95f789caa880a64655c5255",
+          "sha256": "aef0e5ac3dd5df85888a5c06e8dbec67142174fdc95f789caa880a64655c5255"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cproto.rb",
+  "ruby_source_checksum": {
+    "sha256": "8dbc6cb650fe136cdb06c68bd5bae2801612a4ba26cb6eb7dc8b309877b01a42"
+  },
+  "date_added": "2014-10-01T16:39:00-07:00"
+}

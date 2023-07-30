@@ -1,0 +1,139 @@
+{
+  "name": "cvs-fast-export",
+  "full_name": "cvs-fast-export",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Export an RCS or CVS history as a fast-import stream",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://www.catb.org/~esr/cvs-fast-export/",
+  "versions": {
+    "stable": "1.60",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.catb.org/~esr/cvs-fast-export/cvs-fast-export-1.60.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "40b301617da7dbbadc69af548acaebd9522d82d4cfbf96566ce739b4ad5517cc"
+    },
+    "head": {
+      "url": "https://gitlab.com/esr/cvs-fast-export.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:9b8d0dbd7a85889d3ca299b2b098c3a4e08569f97e397ed2d2baba4eff2b5c7e",
+          "sha256": "9b8d0dbd7a85889d3ca299b2b098c3a4e08569f97e397ed2d2baba4eff2b5c7e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:fec5ccf5b4aa1884860c7edf02e6cae2a22b000f8867583dc6905327dab2ccb9",
+          "sha256": "fec5ccf5b4aa1884860c7edf02e6cae2a22b000f8867583dc6905327dab2ccb9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:4d7eae20d8cbf1ddd0b7a74baeb95c82fb12859ac363ed2b310a7e13ae9ca908",
+          "sha256": "4d7eae20d8cbf1ddd0b7a74baeb95c82fb12859ac363ed2b310a7e13ae9ca908"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:2754cf0b2a42e0b97d66de41e215df7071cbde53f9b834ac9a551a4909762589",
+          "sha256": "2754cf0b2a42e0b97d66de41e215df7071cbde53f9b834ac9a551a4909762589"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:3126ed9071ab791e7c8f2ca7d1782af00253fa3642d91a5846c581fa15a85dc7",
+          "sha256": "3126ed9071ab791e7c8f2ca7d1782af00253fa3642d91a5846c581fa15a85dc7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:800f1507561fd1610bd960ced127820426d0df18a070fa70a8653b4b7e137e09",
+          "sha256": "800f1507561fd1610bd960ced127820426d0df18a070fa70a8653b4b7e137e09"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cvs-fast-export/blobs/sha256:ac1b6314630fe4c565e5091890266b2b28714d2c5e5ad1f879a7c8c6bacfb6a0",
+          "sha256": "ac1b6314630fe4c565e5091890266b2b28714d2c5e5ad1f879a7c8c6bacfb6a0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "asciidoc",
+    "docbook-xsl"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "cvs"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cvs-fast-export.rb",
+  "ruby_source_checksum": {
+    "sha256": "269023acad18bd134bfa86cd71a3dd8a066fef30e424443606ff0dbd162a7185"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "bison",
+      "asciidoc",
+      "docbook-xsl"
+    ],
+    "dependencies": [],
+    "test_dependencies": [
+      "cvs"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxml2",
+      "libxslt"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2020-10-15T07:16:24+00:00"
+}

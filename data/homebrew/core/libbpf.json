@@ -1,0 +1,92 @@
+{
+  "name": "libbpf",
+  "full_name": "libbpf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Berkeley Packet Filter library",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/libbpf/libbpf",
+  "versions": {
+    "stable": "1.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libbpf/libbpf/archive/refs/tags/v1.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "32b0c41eabfbbe8e0c8aea784d7495387ff9171b5a338480a8fbaceb9da8d5e5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libbpf/blobs/sha256:550513c17e3dbc0f32727c7d4b49963ba7923dca98cabbee0f495db26d6c303b",
+          "sha256": "550513c17e3dbc0f32727c7d4b49963ba7923dca98cabbee0f495db26d6c303b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "elfutils"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libbpf.rb",
+  "ruby_source_checksum": {
+    "sha256": "e9ffdc9942bce1a29b9d64e36b3797a4d4ffcea81f38a08b642b923abcccd054"
+  },
+  "date_added": "2022-07-21T08:01:31+00:00"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "jenkins-job-builder",
+  "full_name": "jenkins-job-builder",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Configure Jenkins jobs with YAML files stored in Git",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.openstack.org/infra/jenkins-job-builder/",
+  "versions": {
+    "stable": "4.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/bc/e4/fccd5e2d0b8826bc465ea98dab5196bb2f7268619efaa58a04e5527e8739/jenkins-job-builder-4.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a6f91af132cc11c973276230e222d2891d62a15ddfaf3412b4bbb6d7e9124872"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:ee8d5db9e0b31d47c2abe3c7b0a8721219fced440f9e0d537135ebe74659bcec",
+          "sha256": "ee8d5db9e0b31d47c2abe3c7b0a8721219fced440f9e0d537135ebe74659bcec"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:32500a8cfaf45202c676f27e3e1e56d4cb9add33d1c33f02a0b1c3a6970ebc24",
+          "sha256": "32500a8cfaf45202c676f27e3e1e56d4cb9add33d1c33f02a0b1c3a6970ebc24"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:1f6e054f850a8dc4106ec1f4fe13e11968d3a3162f8fb6deb869559ba3e204c2",
+          "sha256": "1f6e054f850a8dc4106ec1f4fe13e11968d3a3162f8fb6deb869559ba3e204c2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:ac76b24ad009d163cb93945f6a2d12c95ecb3b1ab57b170cb1eb5ba7d633f8b2",
+          "sha256": "ac76b24ad009d163cb93945f6a2d12c95ecb3b1ab57b170cb1eb5ba7d633f8b2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:f9c986a593b9149771b5e20e75bfa8fd623e3c441ef0aa0739a882db66ee5111",
+          "sha256": "f9c986a593b9149771b5e20e75bfa8fd623e3c441ef0aa0739a882db66ee5111"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:b3621a4bd5d8a1a0075cb57a6b22d2ce897ddbce363662df0c7e6dad12f62ae2",
+          "sha256": "b3621a4bd5d8a1a0075cb57a6b22d2ce897ddbce363662df0c7e6dad12f62ae2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins-job-builder/blobs/sha256:01ba9b2876c14f6e26a31d9c4adaae655070eaf33d66785393a572c316a8f402",
+          "sha256": "01ba9b2876c14f6e26a31d9c4adaae655070eaf33d66785393a572c316a8f402"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jenkins-job-builder.rb",
+  "ruby_source_checksum": {
+    "sha256": "1c9039acab65b810151b24eb10501dd394fcaebd3b3b4e351cde15a04320147a"
+  },
+  "date_added": "2015-03-12T09:18:12+00:00"
+}

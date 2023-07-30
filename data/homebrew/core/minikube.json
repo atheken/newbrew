@@ -1,0 +1,112 @@
+{
+  "name": "minikube",
+  "full_name": "minikube",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Run a Kubernetes cluster locally",
+  "license": "Apache-2.0",
+  "homepage": "https://minikube.sigs.k8s.io/",
+  "versions": {
+    "stable": "1.31.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes/minikube.git",
+      "tag": "v1.31.1",
+      "revision": "fd3f3801765d093a485d255043149f92ec0a695f",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/kubernetes/minikube.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:e5142cda302d12422eaa80aa03332ee08ddd43ff982a9f326de2c049fa3e2509",
+          "sha256": "e5142cda302d12422eaa80aa03332ee08ddd43ff982a9f326de2c049fa3e2509"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:da06520636fc8dc7f2c5a49bcbcf1ad48d84610151457730474bd20314e30339",
+          "sha256": "da06520636fc8dc7f2c5a49bcbcf1ad48d84610151457730474bd20314e30339"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:76944384bc97d168e27019e32d7893811179c151c469e31b312978439f0a75e5",
+          "sha256": "76944384bc97d168e27019e32d7893811179c151c469e31b312978439f0a75e5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:fd51d7d460f13936c28ed4ea873fb048fbe407ffce55b56bc3f294f9520c8b77",
+          "sha256": "fd51d7d460f13936c28ed4ea873fb048fbe407ffce55b56bc3f294f9520c8b77"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:0a1d9575babb19680192260951564ddafe54222ed7f9f9844d8078d0da8f6af4",
+          "sha256": "0a1d9575babb19680192260951564ddafe54222ed7f9f9844d8078d0da8f6af4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:bf1debd1bf215541dc2a6f16d2e1b69a8ff781cb518af3cf783b84265ca92937",
+          "sha256": "bf1debd1bf215541dc2a6f16d2e1b69a8ff781cb518af3cf783b84265ca92937"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minikube/blobs/sha256:53887f7b678d85fa88b4e8735738b3776a4db892553857255c94d53ed9900124",
+          "sha256": "53887f7b678d85fa88b4e8735738b3776a4db892553857255c94d53ed9900124"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "go-bindata"
+  ],
+  "dependencies": [
+    "kubernetes-cli"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/minikube.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4709504e5b69a59b3e79f749304fa32b4fb3414be7ae1cbe7cae4a0eac5162a"
+  },
+  "date_added": "2019-10-26T19:00:45-04:00"
+}

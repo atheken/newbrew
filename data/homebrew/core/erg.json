@@ -1,0 +1,111 @@
+{
+  "name": "erg",
+  "full_name": "erg",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Statically typed language that can deeply improve the Python ecosystem",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/erg-lang/erg",
+  "versions": {
+    "stable": "0.6.17",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/erg-lang/erg/archive/refs/tags/v0.6.17.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "70b4495ac0d158900ed8f0267ebfce7d4eeb82b9d1a8e3ae316bba9203341309"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:13629906aa18adbfa474872712d7392d9980ebebc019c9a398972111a72745a3",
+          "sha256": "13629906aa18adbfa474872712d7392d9980ebebc019c9a398972111a72745a3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:1d100f2c60fdc5af6c0e9c898ef3052fd0cb1baccd2164eca42c79cdad1f467c",
+          "sha256": "1d100f2c60fdc5af6c0e9c898ef3052fd0cb1baccd2164eca42c79cdad1f467c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:76ddadc802a3388e9f5fd61a30ae377f9ac58a8113aa9a854436d5d9c9e7fe72",
+          "sha256": "76ddadc802a3388e9f5fd61a30ae377f9ac58a8113aa9a854436d5d9c9e7fe72"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:202739cf124f09a60f84c50fd67f0ec391381e3bc86f0ea19b95f67aa2ce9a82",
+          "sha256": "202739cf124f09a60f84c50fd67f0ec391381e3bc86f0ea19b95f67aa2ce9a82"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:96e31c2e7253a31b5b5a144d64244a8a7476df58cd9fd946a547824ad28f2531",
+          "sha256": "96e31c2e7253a31b5b5a144d64244a8a7476df58cd9fd946a547824ad28f2531"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:c6b3c4e088213594f46bcf5e2b12462e924946882fb6605999fe948492c061f2",
+          "sha256": "c6b3c4e088213594f46bcf5e2b12462e924946882fb6605999fe948492c061f2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erg/blobs/sha256:20afd87bc4809dc00bd0ca73c48afe58323a1d24068f91dce45a8578e26e66bc",
+          "sha256": "20afd87bc4809dc00bd0ca73c48afe58323a1d24068f91dce45a8578e26e66bc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/erg.rb",
+  "ruby_source_checksum": {
+    "sha256": "e1c1c950ba712a9e59da3c465d636afdcd8232d2d0d71fe1ae0d12f94ed4bc4e"
+  },
+  "date_added": "2023-07-16T21:25:45-04:00"
+}

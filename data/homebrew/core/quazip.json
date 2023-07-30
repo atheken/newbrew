@@ -1,0 +1,120 @@
+{
+  "name": "quazip",
+  "full_name": "quazip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ wrapper over Gilles Vollant's ZIP/UNZIP package",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://github.com/stachenov/quazip/",
+  "versions": {
+    "stable": "1.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/stachenov/quazip/archive/v1.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "79633fd3a18e2d11a7d5c40c4c79c1786ba0c74b59ad752e8429746fe1781dd6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:29ad7c05c766208ae51d0c220e83a98313ebd55e804cac3a627e9097591bbbb6",
+          "sha256": "29ad7c05c766208ae51d0c220e83a98313ebd55e804cac3a627e9097591bbbb6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:86c13aac1ac1d25a71d4a293c1b5c4cc683cc900c12d3a0bb40f64f5e5867a5f",
+          "sha256": "86c13aac1ac1d25a71d4a293c1b5c4cc683cc900c12d3a0bb40f64f5e5867a5f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:247b7788823f0b63f6e07644478a39c44d282fd7ec1d87302549c1905bef8898",
+          "sha256": "247b7788823f0b63f6e07644478a39c44d282fd7ec1d87302549c1905bef8898"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:787aa2aad4f009e230c77c92d73c40851f82bd8711e02da3f490426adea5c5d2",
+          "sha256": "787aa2aad4f009e230c77c92d73c40851f82bd8711e02da3f490426adea5c5d2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:1ba3e44696f2612a297050db3502f0087cc41eedb4e07be65ee13af72e182a16",
+          "sha256": "1ba3e44696f2612a297050db3502f0087cc41eedb4e07be65ee13af72e182a16"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:dbc4fd05eb139a16baa6d0a1c8f3dba25d63f6272b0c2cc0e4d3b5f363911eea",
+          "sha256": "dbc4fd05eb139a16baa6d0a1c8f3dba25d63f6272b0c2cc0e4d3b5f363911eea"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quazip/blobs/sha256:b0523a1e075f87a641161a89a6b936e975923fc2e29afa9b61e40562be74f639",
+          "sha256": "b0523a1e075f87a641161a89a6b936e975923fc2e29afa9b61e40562be74f639"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "qt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/quazip.rb",
+  "ruby_source_checksum": {
+    "sha256": "dee3a43e54be0ba27fb07ae8f66a1501f423c9ae357d05a91f552836d0209385"
+  },
+  "date_added": "2014-07-18T19:00:43-05:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "serverless",
+  "full_name": "serverless",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build applications with serverless architectures",
+  "license": "MIT",
+  "homepage": "https://www.serverless.com/",
+  "versions": {
+    "stable": "3.33.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/serverless/serverless/archive/v3.33.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f1901e04694d38c3cec1709ac2877b461e0dfbd13c9a0c184cde2cfeef99b839"
+    },
+    "head": {
+      "url": "https://github.com/serverless/serverless.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb",
+          "sha256": "0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb",
+          "sha256": "0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb",
+          "sha256": "0ace3337c547dacb6c82b605f162e7a3347093c8b09d490b38b8ff3a5a5773bb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687",
+          "sha256": "d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687",
+          "sha256": "d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687",
+          "sha256": "d1fe0d6f654b13f5c2856dfeea9b79fcfda31e52ddc6ca2d83a94346a186d687"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/serverless/blobs/sha256:81a9b81d9bd4bd1f22d1ad391d2774d63f962c39f8a5fb8fd2ae5b6ec1c29d02",
+          "sha256": "81a9b81d9bd4bd1f22d1ad391d2774d63f962c39f8a5fb8fd2ae5b6ec1c29d02"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/serverless.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf1de3b3eda48dc57098be9501ff9a7bbb3b77bef200b235bf604823730b17b9"
+  },
+  "date_added": "2018-08-09T18:51:40+01:00"
+}

@@ -1,0 +1,139 @@
+{
+  "name": "zeek",
+  "full_name": "zeek",
+  "tap": "homebrew/core",
+  "oldname": "bro",
+  "oldnames": [
+    "bro"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network security monitor",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.zeek.org",
+  "versions": {
+    "stable": "5.2.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zeek/zeek.git",
+      "tag": "v5.2.2",
+      "revision": "a6f825b81da389bb2deb1cf389dbd7e88efd4a1c",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/zeek/zeek.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:2147729674a13e36581811343ef3880380f6f1cbff54ac6f3d6df09ef894ca3d",
+          "sha256": "2147729674a13e36581811343ef3880380f6f1cbff54ac6f3d6df09ef894ca3d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:5a5194f11c64daacbea20752a86627e61614bc51a3687d2e1a56418351bdef90",
+          "sha256": "5a5194f11c64daacbea20752a86627e61614bc51a3687d2e1a56418351bdef90"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:d35effe61620bda186fd6c39924e686dd3fa09460b49d45fe3aba0624525b979",
+          "sha256": "d35effe61620bda186fd6c39924e686dd3fa09460b49d45fe3aba0624525b979"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:9f54a2848fd06cf4eecc86a29f695f42d6be011c8df62a0d14a377096444bcbc",
+          "sha256": "9f54a2848fd06cf4eecc86a29f695f42d6be011c8df62a0d14a377096444bcbc"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:c2b90ef76a0603d18cf9bc34ddf890f2e1d931fb560895e200ec7fcdf92bee49",
+          "sha256": "c2b90ef76a0603d18cf9bc34ddf890f2e1d931fb560895e200ec7fcdf92bee49"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:9ee867f78cac0ef8ab99774907ad934f02377fbb0472add072167c599908cfae",
+          "sha256": "9ee867f78cac0ef8ab99774907ad934f02377fbb0472add072167c599908cfae"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zeek/blobs/sha256:17821b640c05caa7758779020d4cc896216a6ac3b40cfaa5fd979fe528e8d7e0",
+          "sha256": "17821b640c05caa7758779020d4cc896216a6ac3b40cfaa5fd979fe528e8d7e0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake",
+    "flex",
+    "swig"
+  ],
+  "dependencies": [
+    "c-ares",
+    "libmaxminddb",
+    "openssl@3",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libpcap",
+    "libxcrypt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.14",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zeek.rb",
+  "ruby_source_checksum": {
+    "sha256": "af0c0890c37f0615b037675eae01d8283202f74949a7ba0aceec9ff52095e83e"
+  },
+  "date_added": "2019-11-21T17:15:36+01:00"
+}

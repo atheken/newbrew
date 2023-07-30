@@ -1,0 +1,100 @@
+{
+  "name": "eventql",
+  "full_name": "eventql",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Database for large-scale event analytics",
+  "license": "AGPL-3.0",
+  "homepage": "https://eventql.io",
+  "versions": {
+    "stable": "0.4.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/eventql/eventql/releases/download/v0.4.1/eventql-0.4.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a61f093bc45a1f9b9b374331ab40665c0c1060a2278b2833c0b6eb6c547b4ef4"
+    },
+    "head": {
+      "url": "https://github.com/eventql/eventql.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/eventql/blobs/sha256:f14adb77f2c1a4ab8ca08a55a14884e5f87058e10895bf3558e7e5b5df6329f6",
+          "sha256": "f14adb77f2c1a4ab8ca08a55a14884e5f87058e10895bf3558e7e5b5df6329f6"
+        },
+        "mojave": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/eventql/blobs/sha256:b6f264a76ce93195c2de6708d497c59dcb7192da13038247a33b3fd7aae5ce9a",
+          "sha256": "b6f264a76ce93195c2de6708d497c59dcb7192da13038247a33b3fd7aae5ce9a"
+        },
+        "high_sierra": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/eventql/blobs/sha256:9f0440ead195557859530cfb429c82cea72b3ad7caf3dbb6e149b5959890ad4e",
+          "sha256": "9f0440ead195557859530cfb429c82cea72b3ad7caf3dbb6e149b5959890ad4e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-11-03",
+  "disable_reason": "unmaintained",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/eventql.rb",
+  "ruby_source_checksum": {
+    "sha256": "8c3ccece9c59b1971123a49931d44dd51abccc4520e9c1917a07681ed73c10dc"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2016-09-16T04:40:40-04:00"
+}

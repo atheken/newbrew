@@ -1,0 +1,133 @@
+{
+  "name": "ghc@9.2",
+  "full_name": "ghc@9.2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "ghc@8.10",
+    "ghc@8.8",
+    "ghc@8.6"
+  ],
+  "desc": "Glorious Glasgow Haskell Compilation System",
+  "license": "BSD-3-Clause and MIT and (LGPL-3.0-or-later or GPL-2.0-or-later)",
+  "homepage": "https://haskell.org/ghc/",
+  "versions": {
+    "stable": "9.2.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.haskell.org/~ghc/9.2.7/ghc-9.2.7-src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a253567a17b734a4c0dd0ffa296d33c2a5b5a54a77df988806a2a1e1ca7e88b8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:0af1db969ed72a0f25561a2054d5c67a8a15b247234a08a0fa8159e77d50a19b",
+          "sha256": "0af1db969ed72a0f25561a2054d5c67a8a15b247234a08a0fa8159e77d50a19b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:550b2f48a19740c84a7d147938084f97300a75529bd86d6d7c7cf504f7a6d2a1",
+          "sha256": "550b2f48a19740c84a7d147938084f97300a75529bd86d6d7c7cf504f7a6d2a1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:51e4d62fd94a3727f0e7215f23d6ee4b9b5200c749ec444847328cd9220e366a",
+          "sha256": "51e4d62fd94a3727f0e7215f23d6ee4b9b5200c749ec444847328cd9220e366a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:41d9d7f56277c1c754c0e886366075d3fbba7a697a01930a92ed5e047faa9a84",
+          "sha256": "41d9d7f56277c1c754c0e886366075d3fbba7a697a01930a92ed5e047faa9a84"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:b7256998d71a45df0753a2fd7f464fe7ae6e1801085136d6af6c1e2042ec4309",
+          "sha256": "b7256998d71a45df0753a2fd7f464fe7ae6e1801085136d6af6c1e2042ec4309"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:7b2ca4c7eebaea706e55a6442eb40569d784f301e5446d7adc606013808876f9",
+          "sha256": "7b2ca4c7eebaea706e55a6442eb40569d784f301e5446d7adc606013808876f9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ghc/9.2/blobs/sha256:e73d344e6e4e686a13fdbd2cdbb22658b74aec42e0eb42c27412c5fc28de8f7e",
+          "sha256": "e73d344e6e4e686a13fdbd2cdbb22658b74aec42e0eb42c27412c5fc28de8f7e"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "python@3.11",
+    "sphinx-doc",
+    "gmp"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "m4": "build"
+    },
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.15",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ghc@9.2.rb",
+  "ruby_source_checksum": {
+    "sha256": "5af653ceca89e03cbc8e1f6ca2462d2010e5eba1a7f9b8e3df49bafe063de018"
+  },
+  "date_added": "2022-12-08T09:35:25+00:00"
+}

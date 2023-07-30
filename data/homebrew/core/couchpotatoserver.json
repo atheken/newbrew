@@ -1,0 +1,83 @@
+{
+  "name": "couchpotatoserver",
+  "full_name": "couchpotatoserver",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Download movies automatically",
+  "license": "GPL-3.0",
+  "homepage": "https://couchpota.to",
+  "versions": {
+    "stable": "3.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/CouchPotato/CouchPotatoServer/archive/build/3.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f08f9c6ac02f66c6667f17ded1eea4c051a62bbcbadd2a8673394019878e92f7"
+    },
+    "head": {
+      "url": "https://github.com/CouchPotato/CouchPotatoServer.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/couchpotatoserver/blobs/sha256:f8c2e92a584c48ec2a693d5e7e4cf48ef29fe40b3501668d0205357b4c901c8c",
+          "sha256": "f8c2e92a584c48ec2a693d5e7e4cf48ef29fe40b3501668d0205357b4c901c8c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-10-19",
+  "disable_reason": "repo_archived",
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/couchpotatoserver/bin/couchpotatoserver",
+      "--quiet"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/couchpotatoserver.rb",
+  "ruby_source_checksum": {
+    "sha256": "2422308e0c55661b1ff8c5fa6493c21f7bf630166c8270a1ae7f49b0ae941490"
+  },
+  "date_added": "2013-05-27T19:01:39-07:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "ser2net",
+  "full_name": "ser2net",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Allow network connections to serial ports",
+  "license": "GPL-2.0-only",
+  "homepage": "https://ser2net.sourceforge.io",
+  "versions": {
+    "stable": "4.4.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/ser2net/ser2net/ser2net-4.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2abef00ee6481b072bdc290422983b2374cee1ccb5a565e9b378ce7428b074dd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:b77d561beaf06fc685c8d6a27efbfc5171d7b9292571fa062b0700021b1af215",
+          "sha256": "b77d561beaf06fc685c8d6a27efbfc5171d7b9292571fa062b0700021b1af215"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:42b8b9db1deeb895d7c0463a17dc22cbcc3ba84a36d638e089fa8114c2f4e285",
+          "sha256": "42b8b9db1deeb895d7c0463a17dc22cbcc3ba84a36d638e089fa8114c2f4e285"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:7582b4bfebd5fe97ce7e44b7603385e4171b695e57fab40981c9af4fbdd641e4",
+          "sha256": "7582b4bfebd5fe97ce7e44b7603385e4171b695e57fab40981c9af4fbdd641e4"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:3fe735656ff4c83aba4f273c84594a97845d80004dd103cb376c2a0a87258187",
+          "sha256": "3fe735656ff4c83aba4f273c84594a97845d80004dd103cb376c2a0a87258187"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:cb4401f9150a09f94271ef4d9ed19afeb7a98d000d957f9932afe3643aba84e5",
+          "sha256": "cb4401f9150a09f94271ef4d9ed19afeb7a98d000d957f9932afe3643aba84e5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:2e048121a8477cd717526d5f4f07160f24a0a21b479a26e56ece3433b22ba7cb",
+          "sha256": "2e048121a8477cd717526d5f4f07160f24a0a21b479a26e56ece3433b22ba7cb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ser2net/blobs/sha256:892751ba4244666c52876133f6a6bb0c74dc792d102aa9041ebd6331a3e8dc2b",
+          "sha256": "892751ba4244666c52876133f6a6bb0c74dc792d102aa9041ebd6331a3e8dc2b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To configure ser2net, edit the example configuration in $HOMEBREW_PREFIX/etc/ser2net/ser2net.yaml\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/ser2net/sbin/ser2net",
+      "-p",
+      "12345"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ser2net.rb",
+  "ruby_source_checksum": {
+    "sha256": "c029c4da4b5f8095aabd11e564320489bb71790806a6893f3575ced5786bf139"
+  },
+  "date_added": "2012-04-28T17:50:34-07:00"
+}

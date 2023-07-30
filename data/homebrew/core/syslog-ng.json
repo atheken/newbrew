@@ -1,0 +1,127 @@
+{
+  "name": "syslog-ng",
+  "full_name": "syslog-ng",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Log daemon with advanced processing pipeline and a wide range of I/O methods",
+  "license": "LGPL-2.1-or-later and GPL-2.0-or-later",
+  "homepage": "https://www.syslog-ng.com",
+  "versions": {
+    "stable": "4.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/syslog-ng/syslog-ng/releases/download/syslog-ng-4.2.0/syslog-ng-4.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "092bd17fd47002c988aebdf81d0ed3f3cfd0e82b388d2453bcaa5e67934f4dda"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:4ef97eb024a908a39221bfecee23ed2578b3846c12e62b31004feeeffddf7456",
+          "sha256": "4ef97eb024a908a39221bfecee23ed2578b3846c12e62b31004feeeffddf7456"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:fe3bcb50386bd8920f3a65b161d0300bb16f212a024cc67c664d2289dacf4971",
+          "sha256": "fe3bcb50386bd8920f3a65b161d0300bb16f212a024cc67c664d2289dacf4971"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:de9817a4897edd2784b052ea4522b8a0eadaf6412a325c190eebb221db42d630",
+          "sha256": "de9817a4897edd2784b052ea4522b8a0eadaf6412a325c190eebb221db42d630"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:eb0c417c37cd153382100bc7941a305db19b1264bd003472fc74465b0d5d41c9",
+          "sha256": "eb0c417c37cd153382100bc7941a305db19b1264bd003472fc74465b0d5d41c9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:ad846597fded4dc7bb58fc75403b3480ad113f2d55dfb3288b0ca76c459bfba8",
+          "sha256": "ad846597fded4dc7bb58fc75403b3480ad113f2d55dfb3288b0ca76c459bfba8"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:9b38e7118f424020b318f7c917fc627adc145ceefb3c93e7a38190d45c0901d0",
+          "sha256": "9b38e7118f424020b318f7c917fc627adc145ceefb3c93e7a38190d45c0901d0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/syslog-ng/blobs/sha256:169cb8db5df8ddc1298f6fed1ffa639cab1d68c70b5eaab0d554c4a5c77e40cd",
+          "sha256": "169cb8db5df8ddc1298f6fed1ffa639cab1d68c70b5eaab0d554c4a5c77e40cd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "hiredis",
+    "ivykis",
+    "json-c",
+    "libdbi",
+    "libmaxminddb",
+    "libnet",
+    "librdkafka",
+    "mongo-c-driver",
+    "openssl@3",
+    "pcre",
+    "python@3.11",
+    "riemann-client"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/syslog-ng.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d5058eb23871478e6075ce1d327f79fe8957e24436a3f6ca8ed12ba3a973979"
+  },
+  "date_added": "2010-08-12T20:45:55-07:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "blades",
+  "full_name": "blades",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Blazing fast dead simple static site generator",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://getblades.org/",
+  "versions": {
+    "stable": "0.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/grego/blades/archive/refs/tags/v0.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e9ee64ead54e1942397ea5d6fcfd6ba928a888c1f4c127b11dec9fbadd283cc2"
+    },
+    "head": {
+      "url": "https://github.com/grego/blades.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:65e48a93926a6c28a4f056a17f433ce32afcb1bc937459ca671f629294f44400",
+          "sha256": "65e48a93926a6c28a4f056a17f433ce32afcb1bc937459ca671f629294f44400"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:25a4ef2be400ac8c799eb18c9b531a4d30137f8e1d7dca05d4734ebe5bbfd213",
+          "sha256": "25a4ef2be400ac8c799eb18c9b531a4d30137f8e1d7dca05d4734ebe5bbfd213"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:b686021040a3c826a056cb55757f18ac678889ead9cd11cc6220315da4fa8f73",
+          "sha256": "b686021040a3c826a056cb55757f18ac678889ead9cd11cc6220315da4fa8f73"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:27bb16f34cfd0e165212d4e85c91f6b3f4548adfd8a6e67bde4643ff2889bd52",
+          "sha256": "27bb16f34cfd0e165212d4e85c91f6b3f4548adfd8a6e67bde4643ff2889bd52"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:ca4e983b24c5375b4b8bf65bcbd828a04035c1a54ac1dd69d5304ca243d0e6f8",
+          "sha256": "ca4e983b24c5375b4b8bf65bcbd828a04035c1a54ac1dd69d5304ca243d0e6f8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:e6c2064c05c14d57321c87cf96fc764a0b5374d2459c2e0964a675a8a58ffacd",
+          "sha256": "e6c2064c05c14d57321c87cf96fc764a0b5374d2459c2e0964a675a8a58ffacd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/blades/blobs/sha256:6c1bacb2b79fc1edf95554aafc1523ae05962bb68c651207bfeb3d8964afef62",
+          "sha256": "6c1bacb2b79fc1edf95554aafc1523ae05962bb68c651207bfeb3d8964afef62"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/blades.rb",
+  "ruby_source_checksum": {
+    "sha256": "ea9c76002ccc9659ee40f7a9719a3a205dd3645dfe3e6779c0ce557fbf9e9d07"
+  },
+  "date_added": "2023-07-04T20:00:59-04:00"
+}

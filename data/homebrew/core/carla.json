@@ -1,0 +1,115 @@
+{
+  "name": "carla",
+  "full_name": "carla",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Audio plugin host supporting LADSPA, LV2, VST2/3, SF2 and more",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://kxstudio.linuxaudio.org/Applications:Carla",
+  "versions": {
+    "stable": "2.5.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/falkTX/Carla/archive/v2.5.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e5958982b6f73d946db2334d275377a06e979e607bce7ae91738dd939cd0ee55"
+    },
+    "head": {
+      "url": "https://github.com/falkTX/Carla.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:3f74173b7813d51fec7aaf81dd94fb100e9b73e25b0accdfcb96640d5e943438",
+          "sha256": "3f74173b7813d51fec7aaf81dd94fb100e9b73e25b0accdfcb96640d5e943438"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:c91e7c711ce4eea2cdd6a057a05fca227d868b0d3941663c7b156e28667da9a5",
+          "sha256": "c91e7c711ce4eea2cdd6a057a05fca227d868b0d3941663c7b156e28667da9a5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:d0a631f48032017169293e6bc452f012c48398e36a987f418f766dc3644f27bd",
+          "sha256": "d0a631f48032017169293e6bc452f012c48398e36a987f418f766dc3644f27bd"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:e15817c0707d00c4ac4c9b9ccbb310b0a8abb76496d76fe2ccc06aa6b8537628",
+          "sha256": "e15817c0707d00c4ac4c9b9ccbb310b0a8abb76496d76fe2ccc06aa6b8537628"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:f1f3d0d01e2daab52209918b9f7845d3f490e33489bde5214b2275ca3b461f29",
+          "sha256": "f1f3d0d01e2daab52209918b9f7845d3f490e33489bde5214b2275ca3b461f29"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:856780a2e3db366485fd44aed439329038ac0b3fe4abc7df73f2c79d6f010e09",
+          "sha256": "856780a2e3db366485fd44aed439329038ac0b3fe4abc7df73f2c79d6f010e09"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/carla/blobs/sha256:159912db28e49cadc5c2158f5e48003a80f6310d3cfa21747699808e12a2c8a7",
+          "sha256": "159912db28e49cadc5c2158f5e48003a80f6310d3cfa21747699808e12a2c8a7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fluid-synth",
+    "liblo",
+    "libmagic",
+    "pyqt@5",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/carla.rb",
+  "ruby_source_checksum": {
+    "sha256": "f2b437defa8b0da48c851e6695293779109f54e48f4f325c3da0faedf7864612"
+  },
+  "date_added": "2018-09-14T12:26:41+02:00"
+}

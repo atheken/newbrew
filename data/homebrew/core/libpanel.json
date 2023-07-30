@@ -1,0 +1,116 @@
+{
+  "name": "libpanel",
+  "full_name": "libpanel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dock/panel library for GTK 4",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/libpanel",
+  "versions": {
+    "stable": "1.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libpanel/1.2/libpanel-1.2.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d9055bbbab9625f3f5ce6d1fd7132eb6ea34a6ba07a87e9938901fb8b31581e2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:ab78fc35ab586e5aea85da26354f3564884611610d918bb172799ae1e1ec001a",
+          "sha256": "ab78fc35ab586e5aea85da26354f3564884611610d918bb172799ae1e1ec001a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:475af6d89041310ad2bb8cc77b50384f81d316a4e896cc0cb0bd51ce0c936b88",
+          "sha256": "475af6d89041310ad2bb8cc77b50384f81d316a4e896cc0cb0bd51ce0c936b88"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:da26973d51a93ca6304ab634d31c03b4ec8f20fd936638cac9d8afbce4e39b6d",
+          "sha256": "da26973d51a93ca6304ab634d31c03b4ec8f20fd936638cac9d8afbce4e39b6d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:834f5e12eafc6af27cab7cb77132919510ce75ba3302b0f9c1e91fbb8ac839e3",
+          "sha256": "834f5e12eafc6af27cab7cb77132919510ce75ba3302b0f9c1e91fbb8ac839e3"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:bea4ce7bc724fd8509e6a4348bc64904b40ffe7919d5dee51a65efcf45ad743b",
+          "sha256": "bea4ce7bc724fd8509e6a4348bc64904b40ffe7919d5dee51a65efcf45ad743b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:dc0e8ebb1461f52c6a6f3f9f48bcbafdaa6454b8e5e8f510ca1eeb572d574244",
+          "sha256": "dc0e8ebb1461f52c6a6f3f9f48bcbafdaa6454b8e5e8f510ca1eeb572d574244"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libpanel/blobs/sha256:716761f1b41718a3cc393f361e7b50acf17edd52e3381eeebaa3d19d51b97c1f",
+          "sha256": "716761f1b41718a3cc393f361e7b50acf17edd52e3381eeebaa3d19d51b97c1f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "gi-docgen",
+    "gtk4",
+    "libadwaita"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/libpanel.rb",
+  "ruby_source_checksum": {
+    "sha256": "43b88a02f145e3ae329835cf962403e27613712092c1865cd18ed19d07aec02a"
+  },
+  "date_added": "2023-07-30T21:15:34-04:00"
+}

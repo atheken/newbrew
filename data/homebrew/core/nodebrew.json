@@ -1,0 +1,77 @@
+{
+  "name": "nodebrew",
+  "full_name": "nodebrew",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Node.js version manager",
+  "license": "MIT",
+  "homepage": "https://github.com/hokaccha/nodebrew",
+  "versions": {
+    "stable": "1.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hokaccha/nodebrew/archive/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6d72e39c8acc5b22f4fc7a1734cd3bb8d00b61119ab7fea6cde376810ff2005e"
+    },
+    "head": {
+      "url": "https://github.com/hokaccha/nodebrew.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nodebrew/blobs/sha256:eed2aeff4fd05a4c2969d670ce9a38bc01832ac90b65a1c773689532cb376660",
+          "sha256": "eed2aeff4fd05a4c2969d670ce9a38bc01832ac90b65a1c773689532cb376660"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "You need to manually run setup_dirs to create directories required by nodebrew:\n  $HOMEBREW_PREFIX/opt/nodebrew/bin/nodebrew setup_dirs\n\nAdd path:\n  export PATH=$HOME/.nodebrew/current/bin:$PATH\n\nTo use Homebrew's directories rather than ~/.nodebrew add to your profile:\n  export NODEBREW_ROOT=$HOMEBREW_PREFIX/var/nodebrew\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nodebrew.rb",
+  "ruby_source_checksum": {
+    "sha256": "70e8ab2845c9976333bcaac062b6cf5389b9ea9ad9daca2b514947f2c681b672"
+  },
+  "date_added": "2014-06-02T11:53:34+01:00"
+}

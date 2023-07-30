@@ -1,0 +1,107 @@
+{
+  "name": "kwok",
+  "full_name": "kwok",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters",
+  "license": "Apache-2.0",
+  "homepage": "https://kwok.sigs.k8s.io",
+  "versions": {
+    "stable": "0.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes-sigs/kwok/archive/refs/tags/v0.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e88d952645e10d482c144fb8861136d0523bbf5c45f26dc29e194766c8b1763f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:b8f95d5fa8ad473d38346ce9c6f942f3a7c36e9827a95ed03b249217b636cdb9",
+          "sha256": "b8f95d5fa8ad473d38346ce9c6f942f3a7c36e9827a95ed03b249217b636cdb9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:69e1c096f071526e5edc0ffb5d1f632e74b4b363daae71e9c0694c6c455a6f30",
+          "sha256": "69e1c096f071526e5edc0ffb5d1f632e74b4b363daae71e9c0694c6c455a6f30"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:41b6d69bbe38b409932d2fb88ecce0addecd247cc235983b0fa3f13fd0a249fb",
+          "sha256": "41b6d69bbe38b409932d2fb88ecce0addecd247cc235983b0fa3f13fd0a249fb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:b0184e5a3f43fd2ae2d08a0e31a26149279faa758b48262499f03ac0f8d407f8",
+          "sha256": "b0184e5a3f43fd2ae2d08a0e31a26149279faa758b48262499f03ac0f8d407f8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:78e53773c8dea6021b3091f41d956315d5d128f39b0e2f67fc385ec9da2db5d9",
+          "sha256": "78e53773c8dea6021b3091f41d956315d5d128f39b0e2f67fc385ec9da2db5d9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:70378dbcdd67d6a5c029f50b6fabd0f566510907692a615e17b786df13ada7e8",
+          "sha256": "70378dbcdd67d6a5c029f50b6fabd0f566510907692a615e17b786df13ada7e8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kwok/blobs/sha256:e95118535655cd6e618779a8717ad155048cb8f5044f5f271c16c05bb7d0c349",
+          "sha256": "e95118535655cd6e618779a8717ad155048cb8f5044f5f271c16c05bb7d0c349"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "docker"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kwok.rb",
+  "ruby_source_checksum": {
+    "sha256": "fcc834415c4ddc2fa46cf62960989459d9dc24528387a971d8c4624312df6f34"
+  },
+  "date_added": "2023-01-21T15:25:46+00:00"
+}

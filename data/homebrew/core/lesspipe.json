@@ -1,0 +1,103 @@
+{
+  "name": "lesspipe",
+  "full_name": "lesspipe",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Input filter for the pager less",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www-zeuthen.desy.de/~friebel/unix/lesspipe.html",
+  "versions": {
+    "stable": "2.08",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wofr06/lesspipe/archive/v2.08.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "91b1363ba9b5594fa4285717592d712a6c724ae7ee35a9543127b3d64677c0d2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72",
+          "sha256": "7d5acbe4e5584844585a9680028b6ca2fff44f32aa6cb9a28eef05c5dfba2b72"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lesspipe/blobs/sha256:3a69bc6598722e59c9fcc261d36d2baf78e90ceb85c190030aeb8aca4ba3ab68",
+          "sha256": "3a69bc6598722e59c9fcc261d36d2baf78e90ceb85c190030aeb8aca4ba3ab68"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "add the following to your shell profile e.g. ~/.profile or ~/.zshrc:\n  export LESSOPEN=\"|$HOMEBREW_PREFIX/bin/lesspipe.sh %s\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lesspipe.rb",
+  "ruby_source_checksum": {
+    "sha256": "eff951144c4d15feefedc0d07b3d575bcd3b30b34c37a79a93b0ac1782d2acf4"
+  },
+  "date_added": "2009-10-21T02:27:24+01:00"
+}

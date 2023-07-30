@@ -1,0 +1,105 @@
+{
+  "name": "run",
+  "full_name": "run",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easily manage and invoke small scripts and wrappers",
+  "license": "MIT",
+  "homepage": "https://github.com/TekWizely/run",
+  "versions": {
+    "stable": "0.11.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/TekWizely/run/archive/v0.11.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "942427701caa99a9a3a6458a121b5c80b424752ea8701b26083841de5ae43ff6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2",
+          "sha256": "9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2",
+          "sha256": "9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2",
+          "sha256": "9047620f1da5c223c4c7aa7ea33861ca346fd33335515a553fb11aa12f9505f2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb",
+          "sha256": "7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb",
+          "sha256": "7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb",
+          "sha256": "7b9ad23183cb19b835add35b5e65768ea6bd5295181c03d9ab1372996ff75fcb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/run/blobs/sha256:ab579ac93d7c9474a761d9b51e1fb347119b8f990af87d0bcd03043aa388dbe8",
+          "sha256": "ab579ac93d7c9474a761d9b51e1fb347119b8f990af87d0bcd03043aa388dbe8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/run.rb",
+  "ruby_source_checksum": {
+    "sha256": "285e1710cc6ef4b0cb86c6cc16d6c28a3500f505b7e7e45630abfea97b63d2d6"
+  },
+  "date_added": "2019-12-25T21:06:03-05:00"
+}

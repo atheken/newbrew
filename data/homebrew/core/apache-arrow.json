@@ -1,0 +1,132 @@
+{
+  "name": "apache-arrow",
+  "full_name": "apache-arrow",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Columnar in-memory analytics layer designed to accelerate big data",
+  "license": "Apache-2.0",
+  "homepage": "https://arrow.apache.org/",
+  "versions": {
+    "stable": "12.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=arrow/arrow-12.0.1/apache-arrow-12.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3481c411393aa15c75e88d93cf8315faf7f43e180fe0790128d3840d417de858"
+    },
+    "head": {
+      "url": "https://github.com/apache/arrow.git",
+      "branch": "main"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:ca657c77b7033631e3c9db74c7597fc7452e4c6fca589444becfdd5963d4c1a5",
+          "sha256": "ca657c77b7033631e3c9db74c7597fc7452e4c6fca589444becfdd5963d4c1a5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:5f283251fd1967b9cdae1892ff7598383b67ae3ce4051588ee42fe7558949486",
+          "sha256": "5f283251fd1967b9cdae1892ff7598383b67ae3ce4051588ee42fe7558949486"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:f42ebad4baf371d3f7674690aa1bcfcfa575acd9f26c9170c4a82179c684e72a",
+          "sha256": "f42ebad4baf371d3f7674690aa1bcfcfa575acd9f26c9170c4a82179c684e72a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:0f9774784cfa73cdb8a31b0313b0e2f0735726775258851e771391f245f6c542",
+          "sha256": "0f9774784cfa73cdb8a31b0313b0e2f0735726775258851e771391f245f6c542"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:292f873ce0f78687bd2d9123cd45125386836294a8debf4b310e3fdcdea3e609",
+          "sha256": "292f873ce0f78687bd2d9123cd45125386836294a8debf4b310e3fdcdea3e609"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:7cbbff3babc645a7ef227d22a68d4e5ee76f6dc88250a99c4dccb52fa9e1ba6c",
+          "sha256": "7cbbff3babc645a7ef227d22a68d4e5ee76f6dc88250a99c4dccb52fa9e1ba6c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow/blobs/sha256:c16e37e338917cfe2b62ea5785ef1900d7583f398a5090d09dbd93248342128f",
+          "sha256": "c16e37e338917cfe2b62ea5785ef1900d7583f398a5090d09dbd93248342128f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "boost",
+    "cmake",
+    "llvm@15"
+  ],
+  "dependencies": [
+    "aws-sdk-cpp",
+    "brotli",
+    "bzip2",
+    "glog",
+    "grpc",
+    "lz4",
+    "openssl@3",
+    "protobuf",
+    "rapidjson",
+    "re2",
+    "snappy",
+    "thrift",
+    "utf8proc",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apache-arrow.rb",
+  "ruby_source_checksum": {
+    "sha256": "820b36cbb8d4e5b821505f32c1fc5ad689e95effd9be3f5fa40340e6d9f0b0b8"
+  },
+  "date_added": "2017-06-29T23:13:10-04:00"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "docutils",
+  "full_name": "docutils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text processing system for reStructuredText",
+  "license": "Public Domain and BSD-2-Clause and GPL-3.0-or-later and Python-2.0",
+  "homepage": "https://docutils.sourceforge.io",
+  "versions": {
+    "stable": "0.20.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.20.1/docutils-0.20.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb",
+          "sha256": "ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/docutils.rb",
+  "ruby_source_checksum": {
+    "sha256": "ce1cb9e3eb3f1433f69e4ffd4e1adf595bcd98788952a8f156d86148908ef0f5"
+  },
+  "date_added": "2016-05-06T15:04:48-04:00"
+}

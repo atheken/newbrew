@@ -1,0 +1,77 @@
+{
+  "name": "apache-geode",
+  "full_name": "apache-geode",
+  "tap": "homebrew/core",
+  "oldname": "geode",
+  "oldnames": [
+    "geode"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "In-memory Data Grid for fast transactional data processing",
+  "license": "Apache-2.0",
+  "homepage": "https://geode.apache.org/",
+  "versions": {
+    "stable": "1.15.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=geode/1.15.1/apache-geode-1.15.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2668970982d373ef42cff5076e7073b03e82c8e2fcd7757d5799b2506e265d57"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-geode/blobs/sha256:5cf4c4a321ae1e5a768773e91021ee8d7d0c4555c2209e532b08efd26929d512",
+          "sha256": "5cf4c4a321ae1e5a768773e91021ee8d7d0c4555c2209e532b08efd26929d512"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apache-geode.rb",
+  "ruby_source_checksum": {
+    "sha256": "a64698fc2632cc69fac8709b38c79b119fe5d3fa93b3867fdf175972d87429d7"
+  },
+  "date_added": "2016-08-24T02:53:18+01:00"
+}

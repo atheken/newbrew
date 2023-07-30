@@ -1,0 +1,107 @@
+{
+  "name": "liblinear",
+  "full_name": "liblinear",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for large linear classification",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.csie.ntu.edu.tw/~cjlin/liblinear/",
+  "versions": {
+    "stable": "2.47",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.csie.ntu.edu.tw/~cjlin/liblinear/oldfiles/liblinear-2.47.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "99ce98ca3ce7cfb31f2544c42f23ba5bc6c226e536f95d6cd21fe012f94c65e0"
+    },
+    "head": {
+      "url": "https://github.com/cjlin1/liblinear.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:2f7f959e3a537760a29d4f4f4ff949bf5ef8f7206dbbb7f48492e8b733978f78",
+          "sha256": "2f7f959e3a537760a29d4f4f4ff949bf5ef8f7206dbbb7f48492e8b733978f78"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:3c2ee17592c9ff78f3b58baf9bdae899be678d7c073b471896314896c854c540",
+          "sha256": "3c2ee17592c9ff78f3b58baf9bdae899be678d7c073b471896314896c854c540"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:c0f811408e6e5d5a29d7c8d94b89d92980d1b149b1c909413bae383a0df0cf31",
+          "sha256": "c0f811408e6e5d5a29d7c8d94b89d92980d1b149b1c909413bae383a0df0cf31"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:785f3d2ae8640b9689caa8982f13119ad27b88868a432c9ccaaec6a345e2ac68",
+          "sha256": "785f3d2ae8640b9689caa8982f13119ad27b88868a432c9ccaaec6a345e2ac68"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:2b5c4306ba3b88b67d803d0b5ff4562889f1516d5e2a9b479c3c2ee3eb573a53",
+          "sha256": "2b5c4306ba3b88b67d803d0b5ff4562889f1516d5e2a9b479c3c2ee3eb573a53"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:26e5cca0e853ce2014ccf29cf38513e5a852e4c4a65b4fe1f39220f4a176d6f9",
+          "sha256": "26e5cca0e853ce2014ccf29cf38513e5a852e4c4a65b4fe1f39220f4a176d6f9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/liblinear/blobs/sha256:ed4f81487889a1f54491aed3e6ce5b492c60a16c8e59d782c94c552fc46311dd",
+          "sha256": "ed4f81487889a1f54491aed3e6ce5b492c60a16c8e59d782c94c552fc46311dd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/liblinear.rb",
+  "ruby_source_checksum": {
+    "sha256": "40eba82d51804d7385f95e2f55b058d115450ad027c2f673a862e9ca024b56c6"
+  },
+  "date_added": "2012-06-10T11:57:09-07:00"
+}

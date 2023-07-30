@@ -1,0 +1,107 @@
+{
+  "name": "ansilove",
+  "full_name": "ansilove",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ANSI/ASCII art to PNG converter",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.ansilove.org",
+  "versions": {
+    "stable": "4.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ansilove/ansilove/releases/download/4.2.0/ansilove-4.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a2f24918ffe01332ea18b2ffab2da4ccad55c7e4a4edcf1c64a1c017d2e4e930"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:b1cd439646ff1a6b8abd493458ab35b930b2182363b08b6b854674da6e9a3eaf",
+          "sha256": "b1cd439646ff1a6b8abd493458ab35b930b2182363b08b6b854674da6e9a3eaf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:8dcb347e0dfda8450ab2ecbf1b402af0e867719a58a941f486c39bd3b9a562b8",
+          "sha256": "8dcb347e0dfda8450ab2ecbf1b402af0e867719a58a941f486c39bd3b9a562b8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:4ca7754414ac25a1266238d0fd6335cfbf9b82c69c50047ec3cc0aa8e4f4c00c",
+          "sha256": "4ca7754414ac25a1266238d0fd6335cfbf9b82c69c50047ec3cc0aa8e4f4c00c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:81f39b432fe40a1d896f2cc6a29f750da131abe4abfef5ec6769acde3af70abf",
+          "sha256": "81f39b432fe40a1d896f2cc6a29f750da131abe4abfef5ec6769acde3af70abf"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:839d25308ee9997beeb39be80f64a9e77ccc47c843e0a6ee8092bee276867688",
+          "sha256": "839d25308ee9997beeb39be80f64a9e77ccc47c843e0a6ee8092bee276867688"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:53f7d9c9562a7c19d15f8ac589039f4c9e37821379bb2fca739a9b9fe6ed5ab9",
+          "sha256": "53f7d9c9562a7c19d15f8ac589039f4c9e37821379bb2fca739a9b9fe6ed5ab9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ansilove/blobs/sha256:159529146b9437684bec9aa05856f7a571950d41cc75729f75c4f760efa5c0cc",
+          "sha256": "159529146b9437684bec9aa05856f7a571950d41cc75729f75c4f760efa5c0cc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libansilove"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/ansilove.rb",
+  "ruby_source_checksum": {
+    "sha256": "a51b0b0a04060d11646b29e757794dad5f2e25d35e70f1636e3357541a49f589"
+  },
+  "date_added": "2021-08-31T14:12:18+00:00"
+}

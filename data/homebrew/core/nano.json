@@ -1,0 +1,109 @@
+{
+  "name": "nano",
+  "full_name": "nano",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Free (GNU) replacement for the Pico text editor",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.nano-editor.org/",
+  "versions": {
+    "stable": "7.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.nano-editor.org/dist/v7/nano-7.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "86f3442768bd2873cec693f83cdf80b4b444ad3cc14760b74361474fc87a4526"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:b12fe58c8d442f8f338d319d7934fe439d441cb15da40a8db25b709226cf3a3e",
+          "sha256": "b12fe58c8d442f8f338d319d7934fe439d441cb15da40a8db25b709226cf3a3e"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:f0554d184323c34a57cef42df8fd3b56afd723af5e97275a3a5628220d4e8e9a",
+          "sha256": "f0554d184323c34a57cef42df8fd3b56afd723af5e97275a3a5628220d4e8e9a"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:50fbf0b54f56afe0a05c98b393e61257c965eca162a32367583d6bf8bf34865c",
+          "sha256": "50fbf0b54f56afe0a05c98b393e61257c965eca162a32367583d6bf8bf34865c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:2a27a1f2d44f1c82388d8952f05bfcf6ffadc0d08c87a6f62bbda2eda4d50826",
+          "sha256": "2a27a1f2d44f1c82388d8952f05bfcf6ffadc0d08c87a6f62bbda2eda4d50826"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:db212d2c6de758fc9c0c213ae5285dbb3bbf6978363548cafa4ac3af356a7b75",
+          "sha256": "db212d2c6de758fc9c0c213ae5285dbb3bbf6978363548cafa4ac3af356a7b75"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:65b76ac9bce041b20a5a91d1ff21e511c28f4995f7e8a604395eed57d35c5b10",
+          "sha256": "65b76ac9bce041b20a5a91d1ff21e511c28f4995f7e8a604395eed57d35c5b10"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:e29112cb799708f597542f8bd8bb13fa0a7ba2807ec2634892e78536c08939a9",
+          "sha256": "e29112cb799708f597542f8bd8bb13fa0a7ba2807ec2634892e78536c08939a9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "ncurses",
+    "libmagic"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nano.rb",
+  "ruby_source_checksum": {
+    "sha256": "0b54a0c48d373ca5e0f02d8978374348ba75217a61525fba3347593d49d4a441"
+  },
+  "date_added": "2017-04-03T21:55:39+02:00"
+}

@@ -1,0 +1,124 @@
+{
+  "name": "mpfr",
+  "full_name": "mpfr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for multiple-precision floating-point computations",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://www.mpfr.org/",
+  "versions": {
+    "stable": "4.2.0-p12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "06a378df13501248c1b2db5aa977a2c8126ae849a9d9b7be2546fb4a9c26d993"
+    },
+    "head": {
+      "url": "https://gitlab.inria.fr/mpfr/mpfr.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:43db595106704b53119e8d45c2a28a157b78c488bd31144490338cacf5180232",
+          "sha256": "43db595106704b53119e8d45c2a28a157b78c488bd31144490338cacf5180232"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:a914ea0e50fac5f8120a2dfba9bc49d23ad81c9270f7332de3cbadb81c86ae70",
+          "sha256": "a914ea0e50fac5f8120a2dfba9bc49d23ad81c9270f7332de3cbadb81c86ae70"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:7b3a7b20653a16f26c7bf810b7fb72985dc098695657f1634fe87784dc0bedd5",
+          "sha256": "7b3a7b20653a16f26c7bf810b7fb72985dc098695657f1634fe87784dc0bedd5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:18a11c948c4c7a783165b75d31c90c5cbc58b8ebe61ad268ffe3bf92ec2ac21d",
+          "sha256": "18a11c948c4c7a783165b75d31c90c5cbc58b8ebe61ad268ffe3bf92ec2ac21d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:d6879fb531aac96a5898ee13d929d6a01d394a63906de0b2a24c1a5f67d067f5",
+          "sha256": "d6879fb531aac96a5898ee13d929d6a01d394a63906de0b2a24c1a5f67d067f5"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:1d0680b952c9789665a1deb684382d781db88fa081e53029b4e6013fbbc9f01f",
+          "sha256": "1d0680b952c9789665a1deb684382d781db88fa081e53029b4e6013fbbc9f01f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:57c89c97863cb0d08251271de84ae157b364af3b304a0c0e8a13bdd57d4f026a",
+          "sha256": "57c89c97863cb0d08251271de84ae157b364af3b304a0c0e8a13bdd57d4f026a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gmp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mpfr.rb",
+  "ruby_source_checksum": {
+    "sha256": "afe923e1205776363b33b8526f63767cb1f0fe3abcf98e7a5a7004f7ad49f34d"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [
+      "gmp"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-01-23T12:21:14+00:00"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "mapnik",
+  "full_name": "mapnik",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Toolkit for developing mapping applications",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://mapnik.org/",
+  "versions": {
+    "stable": "3.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mapnik/mapnik/releases/download/v3.1.0/mapnik-v3.1.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "43d76182d2a975212b4ad11524c74e577576c11039fdab5286b828397d8e6261"
+    },
+    "head": {
+      "url": "https://github.com/mapnik/mapnik.git",
+      "branch": "master"
+    }
+  },
+  "revision": 21,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:0dca5deae922d9f2b39fe75690dabfd20331a7449d1af97c16d16c39ece30759",
+          "sha256": "0dca5deae922d9f2b39fe75690dabfd20331a7449d1af97c16d16c39ece30759"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:098cdc2b84b8bfdaba32c5320942bd0e636e63295446dfc9cf9b7e2cfdda6010",
+          "sha256": "098cdc2b84b8bfdaba32c5320942bd0e636e63295446dfc9cf9b7e2cfdda6010"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:477d220e0bb4096d27ee3821c1c0a99b3733c4e1b6970f27e6acc6881d5adc83",
+          "sha256": "477d220e0bb4096d27ee3821c1c0a99b3733c4e1b6970f27e6acc6881d5adc83"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:17f5fab836011f04c4ee4071ccf3d233dfc27b94172487d1a20d98395ec4220a",
+          "sha256": "17f5fab836011f04c4ee4071ccf3d233dfc27b94172487d1a20d98395ec4220a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:1d5322c0b334abf0e48f55e0a891947cfc62e0c880340878d390921b5595af3e",
+          "sha256": "1d5322c0b334abf0e48f55e0a891947cfc62e0c880340878d390921b5595af3e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:0f5a5d5c01e90b51cbe47a14a1f5f86ae45d3970d9374de6ffb84cd42cf75c84",
+          "sha256": "0f5a5d5c01e90b51cbe47a14a1f5f86ae45d3970d9374de6ffb84cd42cf75c84"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mapnik/blobs/sha256:95a8d9c4faa4d700cdc75acfb01544dba0602316632ee1a8f29e18095b93bbe6",
+          "sha256": "95a8d9c4faa4d700cdc75acfb01544dba0602316632ee1a8f29e18095b93bbe6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "scons"
+  ],
+  "dependencies": [
+    "boost",
+    "cairo",
+    "freetype",
+    "gdal",
+    "harfbuzz",
+    "icu4c",
+    "jpeg-turbo",
+    "libpng",
+    "libpq",
+    "libtiff",
+    "proj",
+    "sqlite",
+    "webp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mapnik.rb",
+  "ruby_source_checksum": {
+    "sha256": "cf020db5abd0a859ea4e0a6972d138002be296fbeace04f2ec49c992deb1d9a1"
+  },
+  "date_added": "2011-03-22T09:55:53-07:00"
+}

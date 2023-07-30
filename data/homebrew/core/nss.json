@@ -1,0 +1,117 @@
+{
+  "name": "nss",
+  "full_name": "nss",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Libraries for security-enabled client and server applications",
+  "license": "MPL-2.0",
+  "homepage": "https://firefox-source-docs.mozilla.org/security/nss/index.html",
+  "versions": {
+    "stable": "3.92",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_92_RTM/src/nss-3.92.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3db192d6e882039af02ae7eaf3217ed114bb7ad83414c646772ab8021e24a254"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:fdd48a57b7a126094973dabc51ccd33a9f5ba3b9af3035889d0bfe65e08c1254",
+          "sha256": "fdd48a57b7a126094973dabc51ccd33a9f5ba3b9af3035889d0bfe65e08c1254"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:5f8a99e5f107aa7a68a2d2ff51d92e854b6a5c4461451cd495da461b811d73b9",
+          "sha256": "5f8a99e5f107aa7a68a2d2ff51d92e854b6a5c4461451cd495da461b811d73b9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:109ea46b73719daaa97521ec6d092c843b334d8c59916b690ec9cb974654eb25",
+          "sha256": "109ea46b73719daaa97521ec6d092c843b334d8c59916b690ec9cb974654eb25"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:8b55d4de10cc9b70b2789bb7e684c309cd6160ada17b9a39d0dfa33250b4524e",
+          "sha256": "8b55d4de10cc9b70b2789bb7e684c309cd6160ada17b9a39d0dfa33250b4524e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:5ac662dc198c8dee25784a8e995654774a8f2fc5fcb97a9d3e435003a91bab4e",
+          "sha256": "5ac662dc198c8dee25784a8e995654774a8f2fc5fcb97a9d3e435003a91bab4e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:474ba5071fbd78dd41d41d7f317751e33e8c0f6bbc7ffdb016d5101f27acad55",
+          "sha256": "474ba5071fbd78dd41d41d7f317751e33e8c0f6bbc7ffdb016d5101f27acad55"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nss/blobs/sha256:54102bef3cbc5e139aba465c047f9721e4abea541dd570e6008cfb9b95c08498",
+          "sha256": "54102bef3cbc5e139aba465c047f9721e4abea541dd570e6008cfb9b95c08498"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "nspr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "sqlite",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "arabica",
+    "resty"
+  ],
+  "conflicts_with_reasons": [
+    "both install `mangle` binaries",
+    "both install `pp` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nss.rb",
+  "ruby_source_checksum": {
+    "sha256": "e89cf012455f13600e538df3b5cd81a396781cbbbba9c43fd7b45ab34e120576"
+  },
+  "date_added": "2011-09-18T17:18:45-07:00"
+}

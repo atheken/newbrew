@@ -1,0 +1,109 @@
+{
+  "name": "liboqs",
+  "full_name": "liboqs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for quantum-safe cryptography",
+  "license": "MIT",
+  "homepage": "https://openquantumsafe.org/",
+  "versions": {
+    "stable": "0.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/open-quantum-safe/liboqs/archive/0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "542e2d6cd4d3013bc4f97843cb1e9521b1b8d8ea72a55c9f5f040857486b0157"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:83b8334d61410e64ce621557f9afed0dbbd6c30c751f841e0b2f8d425b44d919",
+          "sha256": "83b8334d61410e64ce621557f9afed0dbbd6c30c751f841e0b2f8d425b44d919"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:7302b3051519249325f2bdd16a2bd2ed0cb92b05017993c7f462539ee2873151",
+          "sha256": "7302b3051519249325f2bdd16a2bd2ed0cb92b05017993c7f462539ee2873151"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:dc81be5e2aef31e378a8e868310962444dd6f542d1f7c05c378f52e64329999e",
+          "sha256": "dc81be5e2aef31e378a8e868310962444dd6f542d1f7c05c378f52e64329999e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:111c3669e72047862b642d799cce817e030b155de68e39351b60e68f61f0b7e1",
+          "sha256": "111c3669e72047862b642d799cce817e030b155de68e39351b60e68f61f0b7e1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:144450ead2c1121981fa88b82a7d0314321e80c9a430eb72dab3562caf299ebe",
+          "sha256": "144450ead2c1121981fa88b82a7d0314321e80c9a430eb72dab3562caf299ebe"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:9ff10c1ca79d8f7337f7659bf2995af6e8fe6bb33884ad26a6a58ef8a5607989",
+          "sha256": "9ff10c1ca79d8f7337f7659bf2995af6e8fe6bb33884ad26a6a58ef8a5607989"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/liboqs/blobs/sha256:42d001baf8369d57f65bdeebcc5ce7d0425ecb7b01ab33ab6dadc37379fd5739",
+          "sha256": "42d001baf8369d57f65bdeebcc5ce7d0425ecb7b01ab33ab6dadc37379fd5739"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "ninja"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/liboqs.rb",
+  "ruby_source_checksum": {
+    "sha256": "da626c2d490f1183794381e5025214453fe01f333c993eab6ce56ed366f830e5"
+  },
+  "date_added": "2020-06-14T13:31:36+00:00"
+}

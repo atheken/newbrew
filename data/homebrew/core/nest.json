@@ -1,0 +1,116 @@
+{
+  "name": "nest",
+  "full_name": "nest",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Neural Simulation Tool (NEST) with Python3 bindings (PyNEST)",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.nest-simulator.org/",
+  "versions": {
+    "stable": "3.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/nest/nest-simulator/archive/v3.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4504ff7f9cfa051c91a5e85a0761bdd09d23aeeadac22c45f6be18b7fbe2db43"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:df23c97bb58253cf7ad02f5f282f3e80b44f9ac2cc8abbfbf1218e79ca03a5d7",
+          "sha256": "df23c97bb58253cf7ad02f5f282f3e80b44f9ac2cc8abbfbf1218e79ca03a5d7"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:377cd61eefe12f39600b094e04770fc3463d824fb7a78b935798ba61c8f7e555",
+          "sha256": "377cd61eefe12f39600b094e04770fc3463d824fb7a78b935798ba61c8f7e555"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:90b4e88fcd273aadb85a2cc8a6bbd4eea290ed89dad72dd61cebb05d4b35cfe4",
+          "sha256": "90b4e88fcd273aadb85a2cc8a6bbd4eea290ed89dad72dd61cebb05d4b35cfe4"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:9d0b26661d317418c7dd942fb22efacfd4ee538e35dea644b027bfc05f7ee1db",
+          "sha256": "9d0b26661d317418c7dd942fb22efacfd4ee538e35dea644b027bfc05f7ee1db"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:30d4afb77804602c8ddc7500fcb72876b3846d4420b5cff10a68830a6eaaa4f8",
+          "sha256": "30d4afb77804602c8ddc7500fcb72876b3846d4420b5cff10a68830a6eaaa4f8"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:402eb3684c5402856dece4dda8ff30d2c63dd864e4bad3bf5fb1e41174437fc2",
+          "sha256": "402eb3684c5402856dece4dda8ff30d2c63dd864e4bad3bf5fb1e41174437fc2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nest/blobs/sha256:dea095e6f50281a9904e66b8b05b9007bebb69105620fb4c6b64633a23c2bfcb",
+          "sha256": "dea095e6f50281a9904e66b8b05b9007bebb69105620fb4c6b64633a23c2bfcb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "cython"
+  ],
+  "dependencies": [
+    "gsl",
+    "libtool",
+    "numpy",
+    "python@3.11",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The PyNEST bindings and its dependencies are installed with the python@3.11 formula.\nIf you want to use PyNEST, use the Python interpreter from this path:\n\n    $HOMEBREW_PREFIX/Cellar/python@3.11/3.11.4_1/bin\n\nYou may want to add this to your PATH.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nest.rb",
+  "ruby_source_checksum": {
+    "sha256": "277094a234d4fb79145b33e082afed8e9d18e5ccf2d41b1806f1ddc977c07678"
+  },
+  "date_added": "2020-06-21T16:31:36+00:00"
+}

@@ -1,0 +1,129 @@
+{
+  "name": "dosbox",
+  "full_name": "dosbox",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DOS Emulator",
+  "license": "GPL-2.0",
+  "homepage": "https://www.dosbox.com/",
+  "versions": {
+    "stable": "0.74-3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-3/dosbox-0.74-3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c0d13dd7ed2ed363b68de615475781e891cd582e8162b5c3669137502222260a"
+    },
+    "head": {
+      "url": "https://svn.code.sf.net/p/dosbox/code-0/dosbox/trunk",
+      "branch": null
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:68a487d11fa60605b0c558718b5a03d55c299e7630237071271a4747c41f74d7",
+          "sha256": "68a487d11fa60605b0c558718b5a03d55c299e7630237071271a4747c41f74d7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:3dd3bc00e4f462681f1fdbe36d0e6a0e9304c0af255921f81b725645939c1033",
+          "sha256": "3dd3bc00e4f462681f1fdbe36d0e6a0e9304c0af255921f81b725645939c1033"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:7915a1fd2252960d61b3f7f0afdec0a0dd2fc3b3e94bed387b80042df9fa6fa2",
+          "sha256": "7915a1fd2252960d61b3f7f0afdec0a0dd2fc3b3e94bed387b80042df9fa6fa2"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:5ba4fa87bf0f348c34010b58704c0deed4f46343d1741478adb3c419c07bc26e",
+          "sha256": "5ba4fa87bf0f348c34010b58704c0deed4f46343d1741478adb3c419c07bc26e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:76e4d2f92b5a26c3adef2f93f8b888ca28dded281c19fec4e2d8b98846442974",
+          "sha256": "76e4d2f92b5a26c3adef2f93f8b888ca28dded281c19fec4e2d8b98846442974"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:e30428b22f27e51a3f09db39a743ce9244488b12969c8dbd6d7e0306cffa2ccf",
+          "sha256": "e30428b22f27e51a3f09db39a743ce9244488b12969c8dbd6d7e0306cffa2ccf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox/blobs/sha256:e6395e97359209de3a67567107030c99d2a1fd23c2a1fadf99c562ba6d9623ca",
+          "sha256": "e6395e97359209de3a67567107030c99d2a1fd23c2a1fadf99c562ba6d9623ca"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpng",
+    "sdl12-compat",
+    "sdl_net",
+    "sdl_sound"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-02-13",
+  "deprecation_reason": "uses deprecated SDL 1.2. Consider `dosbox-x`/`dosbox-staging` formulae or `dosbox` cask",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dosbox.rb",
+  "ruby_source_checksum": {
+    "sha256": "fd75eec66f5aee00a39041c1404a7e53e4e1a2f109bd24df6797f4545e177dc2"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake"
+    ],
+    "dependencies": [
+      "libpng",
+      "sdl12-compat",
+      "sdl_net",
+      "sdl_sound"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-03-09T23:35:12-08:00"
+}

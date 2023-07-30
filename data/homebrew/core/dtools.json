@@ -1,0 +1,116 @@
+{
+  "name": "dtools",
+  "full_name": "dtools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "D programming language tools",
+  "license": "BSL-1.0",
+  "homepage": "https://dlang.org/",
+  "versions": {
+    "stable": "2.104.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dlang/tools/archive/refs/tags/v2.104.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "728c3fca5197c85091a1b95e8fe2f30f9cd7b903cbab415a57264058b861e23d"
+    },
+    "head": {
+      "url": "https://github.com/dlang/tools.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:961f55647bd622f99f34fa1a94352fc33a782bba3d42960d2c8482ef71235ec0",
+          "sha256": "961f55647bd622f99f34fa1a94352fc33a782bba3d42960d2c8482ef71235ec0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:8bef779a5764aea4e0e8f2b564c5b8bb9c9095938c1acf465b048ec7d1a9a822",
+          "sha256": "8bef779a5764aea4e0e8f2b564c5b8bb9c9095938c1acf465b048ec7d1a9a822"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:c25b04db07f35e066fdd9808375aa602063a082edb453f8e4e681c4847fe81d2",
+          "sha256": "c25b04db07f35e066fdd9808375aa602063a082edb453f8e4e681c4847fe81d2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:4c39117867389a640f7120fe9190dd7eb1581c4c7bea29a4194025a72d6e0ebc",
+          "sha256": "4c39117867389a640f7120fe9190dd7eb1581c4c7bea29a4194025a72d6e0ebc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:97a3c6b28c14e25308fc632e594ac41ef8a34c10dc8ab01b51925784137d1423",
+          "sha256": "97a3c6b28c14e25308fc632e594ac41ef8a34c10dc8ab01b51925784137d1423"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:a5ad537344fb458fb66e61a63c5d8c2996c34372bbee07074caa97e9ddca5c09",
+          "sha256": "a5ad537344fb458fb66e61a63c5d8c2996c34372bbee07074caa97e9ddca5c09"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dtools/blobs/sha256:f2d7e7ce676e43bb4044567100ab5b1eafaa90a953c58345995f0c2993aeaf3f",
+          "sha256": "f2d7e7ce676e43bb4044567100ab5b1eafaa90a953c58345995f0c2993aeaf3f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "dub",
+    "ldc"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "ldc"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [
+    "bin/ddemangle",
+    "bin/dustmite",
+    "bin/rdmd"
+  ],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dtools.rb",
+  "ruby_source_checksum": {
+    "sha256": "1ff862cf13f587c03557c0772429ab680631eff2450ac45c70b649eb23a70044"
+  },
+  "date_added": "2023-04-28T10:54:13-04:00"
+}

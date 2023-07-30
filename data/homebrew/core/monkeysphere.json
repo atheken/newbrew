@@ -1,0 +1,116 @@
+{
+  "name": "monkeysphere",
+  "full_name": "monkeysphere",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Use the OpenPGP web of trust to verify ssh connections",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://tracker.debian.org/pkg/monkeysphere",
+  "versions": {
+    "stable": "0.44",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://deb.debian.org/debian/pool/main/m/monkeysphere/monkeysphere_0.44.orig.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6ac6979fa1a4a0332cbea39e408b9f981452d092ff2b14ed3549be94918707aa"
+    }
+  },
+  "revision": 6,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:728f6625c94c2f1117680043040da86964132758702159e53b28f655032fce4a",
+          "sha256": "728f6625c94c2f1117680043040da86964132758702159e53b28f655032fce4a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:d755663a07608287f1d14512c9a192907a60674456df96368ded7456b71a84c8",
+          "sha256": "d755663a07608287f1d14512c9a192907a60674456df96368ded7456b71a84c8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:b939793eb175a2d4ba85afe54360ae1c1d2e18e65bfbe48da3d3a1c1f7e4f6e9",
+          "sha256": "b939793eb175a2d4ba85afe54360ae1c1d2e18e65bfbe48da3d3a1c1f7e4f6e9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:0028241b0874b2909d437fca8628a12ecaef0b01582e444468d8c148c0c95434",
+          "sha256": "0028241b0874b2909d437fca8628a12ecaef0b01582e444468d8c148c0c95434"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:34cd3db42f71f5693572fd7033880ce59dc368902fd138fa991c0b9ad2f13282",
+          "sha256": "34cd3db42f71f5693572fd7033880ce59dc368902fd138fa991c0b9ad2f13282"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:72462262364ea78369735b4fbbbb29c41ac08d103305fcf664aa53af1df7d199",
+          "sha256": "72462262364ea78369735b4fbbbb29c41ac08d103305fcf664aa53af1df7d199"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monkeysphere/blobs/sha256:36140b1926ed1243e59776aad0dc4b0b065f0e8dc09749c31e7fac8719ae9227",
+          "sha256": "36140b1926ed1243e59776aad0dc4b0b065f0e8dc09749c31e7fac8719ae9227"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnu-sed",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gnupg",
+    "libassuan",
+    "libgcrypt",
+    "libgpg-error",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/monkeysphere.rb",
+  "ruby_source_checksum": {
+    "sha256": "e1f63680abc8e66a003abb36039857749af53ea67276c3338b24c64703d97ad1"
+  },
+  "date_added": "2013-09-16T22:00:07-07:00"
+}

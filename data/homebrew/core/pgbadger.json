@@ -1,0 +1,107 @@
+{
+  "name": "pgbadger",
+  "full_name": "pgbadger",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Log analyzer for PostgreSQL",
+  "license": "PostgreSQL",
+  "homepage": "https://pgbadger.darold.net/",
+  "versions": {
+    "stable": "12.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/darold/pgbadger/archive/v12.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4c2e43b93b72383bfc9a123d5fcda4f74147c1184e1d74c06498973b4b91629e"
+    },
+    "head": {
+      "url": "https://github.com/darold/pgbadger.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:4b76042d0c7d6aea2eef0c828d84fe5603c3157ab46425c75fcced5cef211c5e",
+          "sha256": "4b76042d0c7d6aea2eef0c828d84fe5603c3157ab46425c75fcced5cef211c5e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:4b76042d0c7d6aea2eef0c828d84fe5603c3157ab46425c75fcced5cef211c5e",
+          "sha256": "4b76042d0c7d6aea2eef0c828d84fe5603c3157ab46425c75fcced5cef211c5e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:529f6d56a5cc31782c9722a32d7613c66c156efa76bb8cc4717430b8d96ab9e0",
+          "sha256": "529f6d56a5cc31782c9722a32d7613c66c156efa76bb8cc4717430b8d96ab9e0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:140c8a00b3973c25393cc55c034b9b9411ad9a1b835f5515ec9d9d7c87468b0e",
+          "sha256": "140c8a00b3973c25393cc55c034b9b9411ad9a1b835f5515ec9d9d7c87468b0e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:140c8a00b3973c25393cc55c034b9b9411ad9a1b835f5515ec9d9d7c87468b0e",
+          "sha256": "140c8a00b3973c25393cc55c034b9b9411ad9a1b835f5515ec9d9d7c87468b0e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:8bfc5717772bd45d444fbe83bd0c39d17849d7f9271790c1f75cd8891063acdb",
+          "sha256": "8bfc5717772bd45d444fbe83bd0c39d17849d7f9271790c1f75cd8891063acdb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pgbadger/blobs/sha256:ae3029f8cb34f69c3086db58e6c24f8326cb99ec88ee9b788a0099a67d9800d0",
+          "sha256": "ae3029f8cb34f69c3086db58e6c24f8326cb99ec88ee9b788a0099a67d9800d0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "You must configure your PostgreSQL server before using pgBadger.\nEdit postgresql.conf (in $HOMEBREW_PREFIX/var/postgres if you use Homebrew's\nPostgreSQL), set the following parameters, and restart PostgreSQL:\n\n  log_destination = 'stderr'\n  log_line_prefix = '%t [%p]: [%l-1] user=%u,db=%d '\n  log_statement = 'none'\n  log_duration = off\n  log_min_duration_statement = 0\n  log_checkpoints = on\n  log_connections = on\n  log_disconnections = on\n  log_lock_waits = on\n  log_temp_files = 0\n  lc_messages = 'C'\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pgbadger.rb",
+  "ruby_source_checksum": {
+    "sha256": "46903eadedcddf92f508cfbc2fbfbcdc05c2a0e520f2c6c6716cc937d1123219"
+  },
+  "date_added": "2013-06-17T20:41:53-07:00"
+}

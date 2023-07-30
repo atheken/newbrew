@@ -1,0 +1,88 @@
+{
+  "name": "i2c-tools",
+  "full_name": "i2c-tools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Heterogeneous set of I2C tools for Linux",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+  "homepage": "https://i2c.wiki.kernel.org/index.php/I2C_Tools",
+  "versions": {
+    "stable": "4.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirrors.edge.kernel.org/pub/software/utils/i2c-tools/i2c-tools-4.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1f899e43603184fac32f34d72498fc737952dbc9c97a8dd9467fadfdf4600cf9"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/i2c-tools/blobs/sha256:b17d7eb58e6a534bc87f6ce9963032a647add81c9355020e18730722775e0bec",
+          "sha256": "b17d7eb58e6a534bc87f6ce9963032a647add81c9355020e18730722775e0bec"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/i2c-tools.rb",
+  "ruby_source_checksum": {
+    "sha256": "311a9d912b6b52950de0da85494d270375635ea464386bef9d42a839545c0d65"
+  },
+  "date_added": "2021-08-06T02:42:37+00:00"
+}

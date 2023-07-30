@@ -1,0 +1,84 @@
+{
+  "name": "kmod",
+  "full_name": "kmod",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Linux kernel module handling",
+  "license": "LGPL-2.1-or-later and GPL-2.0-or-later",
+  "homepage": "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+  "versions": {
+    "stable": "30",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-30.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f897dd72698dc6ac1ef03255cd0a5734ad932318e4adbaebc7338ef2f5202f9f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kmod/blobs/sha256:fd2381a295cd23ad7ed2c8ea088d4a23b48071cc71c8c385418fb80ee822cb1a",
+          "sha256": "fd2381a295cd23ad7ed2c8ea088d4a23b48071cc71c8c385418fb80ee822cb1a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kmod.rb",
+  "ruby_source_checksum": {
+    "sha256": "34c90a220a835b31258ed21479cd6d8b1bcc0bc598ccf264b882d4cab0eacc13"
+  },
+  "date_added": "2022-04-04T08:45:43+00:00"
+}

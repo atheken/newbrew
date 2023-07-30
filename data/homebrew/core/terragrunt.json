@@ -1,0 +1,109 @@
+{
+  "name": "terragrunt",
+  "full_name": "terragrunt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Thin wrapper for Terraform e.g. for locking state",
+  "license": "MIT",
+  "homepage": "https://terragrunt.gruntwork.io/",
+  "versions": {
+    "stable": "0.48.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gruntwork-io/terragrunt/archive/v0.48.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fcdfc3a7a1e30dcd457f807d2f3064005e7b7eb66012b8df1468539e9a9e3102"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa",
+          "sha256": "7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa",
+          "sha256": "7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa",
+          "sha256": "7b57ffb15e0a395a97f95bf486a9728f0c5b6bc8e4c0add9a2f0eca457cf34fa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570",
+          "sha256": "ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570",
+          "sha256": "ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570",
+          "sha256": "ae90ccb5bffc22f26f39fea4a8fa38d0bbd7be46065896e3e350a27e6ac58570"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terragrunt/blobs/sha256:dab0ad01921628c128f702d5849d293e31c88486edc73aed8db0a6d3a4e4ce75",
+          "sha256": "dab0ad01921628c128f702d5849d293e31c88486edc73aed8db0a6d3a4e4ce75"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "tgenv"
+  ],
+  "conflicts_with_reasons": [
+    "tgenv symlinks terragrunt binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/terragrunt.rb",
+  "ruby_source_checksum": {
+    "sha256": "32dda6cfba09054a4dd9023e7307f57b08502872b0c4af0253f8ae7906d36710"
+  },
+  "date_added": "2016-10-15T17:50:51+01:00"
+}

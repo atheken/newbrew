@@ -1,0 +1,129 @@
+{
+  "name": "sshguard",
+  "full_name": "sshguard",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Protect from brute force attacks against SSH",
+  "license": "ISC",
+  "homepage": "https://www.sshguard.net/",
+  "versions": {
+    "stable": "2.4.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/sshguard/sshguard/2.4.3/sshguard-2.4.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "64029deff6de90fdeefb1f497d414f0e4045076693a91da1a70eb7595e97efeb"
+    },
+    "head": {
+      "url": "https://bitbucket.org/sshguard/sshguard.git",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:d1f7f154a01ba3ba3e1ef3862f0ea18c2460184686dce1129b1ccc0b6dd6231e",
+          "sha256": "d1f7f154a01ba3ba3e1ef3862f0ea18c2460184686dce1129b1ccc0b6dd6231e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:0ad5eef11b004af2258151a03ee2b9802267be357da3c14e0c4cf104294d1085",
+          "sha256": "0ad5eef11b004af2258151a03ee2b9802267be357da3c14e0c4cf104294d1085"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:d3662f3a27292d8a40abb8645eed33d17ee718c877d419c61e3f44020a49a712",
+          "sha256": "d3662f3a27292d8a40abb8645eed33d17ee718c877d419c61e3f44020a49a712"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:65fce1b8916c1e589e329fd991de5d55abf25dabcd87ae6cd444a458bb4ac3f0",
+          "sha256": "65fce1b8916c1e589e329fd991de5d55abf25dabcd87ae6cd444a458bb4ac3f0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:cb3e4ad746aa9eb9d840fd332a98fe60fd71632fdf28f90e21f643dd3d92bb03",
+          "sha256": "cb3e4ad746aa9eb9d840fd332a98fe60fd71632fdf28f90e21f643dd3d92bb03"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:8fe1ac17002be39b5b190d1d98822ce397740e032cdaee6994ded17af59c954a",
+          "sha256": "8fe1ac17002be39b5b190d1d98822ce397740e032cdaee6994ded17af59c954a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sshguard/blobs/sha256:293288f8ed572eadf951168a526824663f6a4193d1a04d6b487fd41478b0ace5",
+          "sha256": "293288f8ed572eadf951168a526824663f6a4193d1a04d6b487fd41478b0ace5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Add the following lines to /etc/pf.conf to block entries in the sshguard\ntable (replace $ext_if with your WAN interface):\n\n  table <sshguard> persist\n  block in quick on $ext_if proto tcp from <sshguard> to any port 22 label \"ssh bruteforce\"\n\nThen run sudo pfctl -f /etc/pf.conf to reload the rules.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/sshguard/sbin/sshguard"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "require_root": true
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sshguard.rb",
+  "ruby_source_checksum": {
+    "sha256": "cea391c1bef41784356d191cc076c4aff862648fecc1a9e6db05c922a1306632"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "docutils"
+    ],
+    "dependencies": [],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-08-18T09:32:03-07:00"
+}

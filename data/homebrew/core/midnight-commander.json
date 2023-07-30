@@ -1,0 +1,139 @@
+{
+  "name": "midnight-commander",
+  "full_name": "midnight-commander",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "mc"
+  ],
+  "versioned_formulae": [],
+  "desc": "Terminal-based visual file manager",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.midnight-commander.org/",
+  "versions": {
+    "stable": "4.8.29",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.midnight-commander.org/downloads/mc-4.8.29.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "01d8a3b94f58180cca5bf17257b5078d1fd6fd27a9b5c0e970ec767549540ad4"
+    },
+    "head": {
+      "url": "https://github.com/MidnightCommander/mc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:84c4c8b9f0f1d7ac87e4f72edaf82a98208043bd82fab1dff79bdd4f3c8170de",
+          "sha256": "84c4c8b9f0f1d7ac87e4f72edaf82a98208043bd82fab1dff79bdd4f3c8170de"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:570da292695980caeabf0c8728bca6b5eab9a11abcd19370700f024221a743cf",
+          "sha256": "570da292695980caeabf0c8728bca6b5eab9a11abcd19370700f024221a743cf"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:e9d0b1f60c480e3351fc94002f3d5743b57d8d3098d2f84a527392618bb4ede6",
+          "sha256": "e9d0b1f60c480e3351fc94002f3d5743b57d8d3098d2f84a527392618bb4ede6"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:c8ce411cb9c92f791b2e2b516e782369196ecc75541991ca6a4c8dc66d485cdd",
+          "sha256": "c8ce411cb9c92f791b2e2b516e782369196ecc75541991ca6a4c8dc66d485cdd"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:615f4220d50caef801d175e06e0fc4e3e1db459217e76c97b8d685e0447a4321",
+          "sha256": "615f4220d50caef801d175e06e0fc4e3e1db459217e76c97b8d685e0447a4321"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:840c554ece6e30ea97d153a27df21bd207b534ec3893eda7fc4711e200c0ae6d",
+          "sha256": "840c554ece6e30ea97d153a27df21bd207b534ec3893eda7fc4711e200c0ae6d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/midnight-commander/blobs/sha256:9c43af90de0768cb38771de82d38e88ab2aac764b57bf440dc33bb7c5e82835d",
+          "sha256": "9c43af90de0768cb38771de82d38e88ab2aac764b57bf440dc33bb7c5e82835d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "libssh2",
+    "openssl@3",
+    "s-lang"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "minio-mc"
+  ],
+  "conflicts_with_reasons": [
+    "both install an `mc` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/midnight-commander.rb",
+  "ruby_source_checksum": {
+    "sha256": "b428fd1988de1843ea6846f590cc8bfedee7a73ea051f214b673427774039704"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "glib",
+      "libssh2",
+      "openssl@3",
+      "s-lang"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2009-12-05T16:32:56+00:00"
+}

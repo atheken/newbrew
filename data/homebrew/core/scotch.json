@@ -1,0 +1,119 @@
+{
+  "name": "scotch",
+  "full_name": "scotch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Package for graph partitioning, graph clustering, and sparse matrix ordering",
+  "license": "CECILL-C",
+  "homepage": "https://gitlab.inria.fr/scotch/scotch",
+  "versions": {
+    "stable": "7.0.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.inria.fr/scotch/scotch/-/archive/v7.0.3/scotch-v7.0.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "ef860d303606d79bd6cb8253d19b204bea0144417638dc905aaa8ad696fbf6b6"
+    },
+    "head": {
+      "url": "https://gitlab.inria.fr/scotch/scotch.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:01e5c17ec2ee7dcb08ddfa423adfb1571f31c2207cddf27f5818cdd2a695afe1",
+          "sha256": "01e5c17ec2ee7dcb08ddfa423adfb1571f31c2207cddf27f5818cdd2a695afe1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:e8315bea61e114622e1a49f19a7553afba54b73a17fb89a5c45306b8d449d8c3",
+          "sha256": "e8315bea61e114622e1a49f19a7553afba54b73a17fb89a5c45306b8d449d8c3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:1dda2643af1fbcf97043eef6f06372a3c40530b13f410d8aba6b3791e6542306",
+          "sha256": "1dda2643af1fbcf97043eef6f06372a3c40530b13f410d8aba6b3791e6542306"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:6a63a39cbb7d924adfb24a2ee87a83598ce74372ff545a42fd38bd58f22304c2",
+          "sha256": "6a63a39cbb7d924adfb24a2ee87a83598ce74372ff545a42fd38bd58f22304c2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:dcd96ab6445ae213cf5878bce9f1d89e2e1b8bd4f1deaa46e478738c3e3e8e72",
+          "sha256": "dcd96ab6445ae213cf5878bce9f1d89e2e1b8bd4f1deaa46e478738c3e3e8e72"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:2154b2a2b06bcc3284920e50d2f8dbd8b2b366f273dda89d53ecec1382118bbe",
+          "sha256": "2154b2a2b06bcc3284920e50d2f8dbd8b2b366f273dda89d53ecec1382118bbe"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scotch/blobs/sha256:2aaa7f2acd18cd8f9947a185e9aa363420f971373d093817e5d8400ff548360c",
+          "sha256": "2aaa7f2acd18cd8f9947a185e9aa363420f971373d093817e5d8400ff548360c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison"
+  ],
+  "dependencies": [
+    "open-mpi"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scotch.rb",
+  "ruby_source_checksum": {
+    "sha256": "ee9782a3c1f47a61f2fada835084d2e4a07cf0132769994a2eee4ddb74b2a93f"
+  },
+  "date_added": "2011-09-10T19:20:23-07:00"
+}

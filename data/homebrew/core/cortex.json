@@ -1,0 +1,117 @@
+{
+  "name": "cortex",
+  "full_name": "cortex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Long term storage for Prometheus",
+  "license": "Apache-2.0",
+  "homepage": "https://cortexmetrics.io/",
+  "versions": {
+    "stable": "1.15.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cortexproject/cortex/archive/v1.15.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0a6d52faf64216ba1d49412d2ea09650d3228fed9b0c113c5abe738a25576239"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec",
+          "sha256": "08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec",
+          "sha256": "08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec",
+          "sha256": "08cf26eef94fc949e40dbdeb5c028b4d27cb582ea5c047a61ed94f2457b95fec"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a",
+          "sha256": "d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a",
+          "sha256": "d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a",
+          "sha256": "d4727b01516c8bcdef014cd0d68cac950399b87cf5c2b59bff975a8513e30f7a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cortex/blobs/sha256:e819235ce5fc8ea63add27cd8d689bacb8a120e1ef71514b34bacc6a8f91d660",
+          "sha256": "e819235ce5fc8ea63add27cd8d689bacb8a120e1ef71514b34bacc6a8f91d660"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/cortex/bin/cortex",
+      "-config.file=/home/linuxbrew/.linuxbrew/etc/cortex.yaml"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/cortex.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/cortex.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cortex.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1ac31884fca02a066604ab42526c34614f3632ae7582f311b31eeda2ac6809d"
+  },
+  "date_added": "2010-03-19T21:10:04+01:00"
+}

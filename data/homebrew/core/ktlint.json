@@ -1,0 +1,75 @@
+{
+  "name": "ktlint",
+  "full_name": "ktlint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Anti-bikeshedding Kotlin linter with built-in formatter",
+  "license": "MIT",
+  "homepage": "https://ktlint.github.io/",
+  "versions": {
+    "stable": "0.50.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pinterest/ktlint/releases/download/0.50.0/ktlint-0.50.0.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "5674e08be591daf6b9248feed2e4aaf4626225be89430fd9f9fd0cf70ede51c7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ktlint/blobs/sha256:60dc1790cc9541b73d4b9238e1ec3f9119db2b29e9f5651e77e600eebacd8823",
+          "sha256": "60dc1790cc9541b73d4b9238e1ec3f9119db2b29e9f5651e77e600eebacd8823"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ktlint.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1f1bdd8166cbb5e42ab8e96af73f28edddee59afa9de2f691e099c4ea9a9949"
+  },
+  "date_added": "2019-04-24T11:23:30+02:00"
+}

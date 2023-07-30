@@ -1,0 +1,127 @@
+{
+  "name": "sdl_net",
+  "full_name": "sdl_net",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Sample cross-platform networking library",
+  "license": null,
+  "homepage": "https://www.libsdl.org/projects/SDL_net/release-1.2.html",
+  "versions": {
+    "stable": "1.2.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.libsdl.org/projects/SDL_net/release/SDL_net-1.2.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5f4a7a8bb884f793c278ac3f3713be41980c5eedccecff0260411347714facb4"
+    },
+    "head": {
+      "url": "https://github.com/libsdl-org/SDL_net.git",
+      "branch": "SDL-1.2"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:a540153ae627dc66c6849340986d29786b402f23342e690436fd2a66fb140d50",
+          "sha256": "a540153ae627dc66c6849340986d29786b402f23342e690436fd2a66fb140d50"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:39fb97850d76d1f75eb6563a62f18669d710961f615da885faaeb2e718f86871",
+          "sha256": "39fb97850d76d1f75eb6563a62f18669d710961f615da885faaeb2e718f86871"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:3911f2d87252dc9664b135dcb0191a76ef65a91af654b4ff6c065ede75b1b4e1",
+          "sha256": "3911f2d87252dc9664b135dcb0191a76ef65a91af654b4ff6c065ede75b1b4e1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:6a6c827253ae3de47321f8745f0a092ffe92b6094f600b8ed04e06f0c3f46076",
+          "sha256": "6a6c827253ae3de47321f8745f0a092ffe92b6094f600b8ed04e06f0c3f46076"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:8c40d00afbf4ef01f54f0256112a27e307b91cf9db0e92ba3614ab8c7addcd3b",
+          "sha256": "8c40d00afbf4ef01f54f0256112a27e307b91cf9db0e92ba3614ab8c7addcd3b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:da0b71714dcd880e45af93992e7db91119458fa6c8d10ea7c300741fbe7792b6",
+          "sha256": "da0b71714dcd880e45af93992e7db91119458fa6c8d10ea7c300741fbe7792b6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl_net/blobs/sha256:7896bfe211fa38169d1f42294df3aa94ed3d17b87525f5772607862510bcd259",
+          "sha256": "7896bfe211fa38169d1f42294df3aa94ed3d17b87525f5772607862510bcd259"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "sdl12-compat"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-02-13",
+  "deprecation_reason": "deprecated_upstream",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sdl_net.rb",
+  "ruby_source_checksum": {
+    "sha256": "56f0978d10eca6feab2b9ebb68376d7f0e222df6e0245cb4ee97630ef0fde359"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "sdl12-compat"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2009-10-01T15:17:30+01:00"
+}

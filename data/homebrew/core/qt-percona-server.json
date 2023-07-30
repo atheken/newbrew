@@ -1,0 +1,117 @@
+{
+  "name": "qt-percona-server",
+  "full_name": "qt-percona-server",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Qt SQL Database Driver",
+  "license": "GPL-2.0-only or GPL-3.0-only or LGPL-3.0-only",
+  "homepage": "https://www.qt.io/",
+  "versions": {
+    "stable": "6.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.qt.io/official_releases/qt/6.5/6.5.1/submodules/qtbase-everywhere-src-6.5.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "db56fa1f4303a1189fe33418d25d1924931c7aef237f89eea9de58e858eebfed"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:b32e9ae3cc043307ee278c449f2eb76ef85caa0c30d1c0d315cf73e9eb9c85c4",
+          "sha256": "b32e9ae3cc043307ee278c449f2eb76ef85caa0c30d1c0d315cf73e9eb9c85c4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:d918f5098cfa4131ad417aaf36fb5da2ab6e7edb016b279813634b9b74dd9244",
+          "sha256": "d918f5098cfa4131ad417aaf36fb5da2ab6e7edb016b279813634b9b74dd9244"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:da23de68a5f0a33c3c18224c028d2ec45ab36efe215defc3b78ac1fe8dd9350f",
+          "sha256": "da23de68a5f0a33c3c18224c028d2ec45ab36efe215defc3b78ac1fe8dd9350f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:6c7216393f5536a33a069ee2171d8d6b9b1098361d2892335bebed73d4a66427",
+          "sha256": "6c7216393f5536a33a069ee2171d8d6b9b1098361d2892335bebed73d4a66427"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:05d9e0fb047abbe171ecd16a3f923a10a9e286f0852b0cedb0bd5a6f747f97bb",
+          "sha256": "05d9e0fb047abbe171ecd16a3f923a10a9e286f0852b0cedb0bd5a6f747f97bb"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:b1905ee3be1127084423f54c4c958869497c7e744ee786ca6ab9cfe41531215f",
+          "sha256": "b1905ee3be1127084423f54c4c958869497c7e744ee786ca6ab9cfe41531215f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qt-percona-server/blobs/sha256:efc913d411945f1b3e8e314aee4ef92bfdf6aa216615adec6dc9e041f482aa8f",
+          "sha256": "efc913d411945f1b3e8e314aee4ef92bfdf6aa216615adec6dc9e041f482aa8f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "percona-server",
+    "qt"
+  ],
+  "test_dependencies": [
+    "cmake"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "qt-mysql",
+    "qt-mariadb"
+  ],
+  "conflicts_with_reasons": [
+    "qt-mysql, qt-mariadb, and qt-percona-server install the same binaries",
+    "qt-mysql, qt-mariadb, and qt-percona-server install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/qt-percona-server.rb",
+  "ruby_source_checksum": {
+    "sha256": "65d8935eb42787651721887d3e8b7d8d424a804de526a5c7edb5c5751d461949"
+  },
+  "date_added": "2021-03-11T10:50:10+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "epinio",
+  "full_name": "epinio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for Epinio, the Application Development Engine for Kubernetes",
+  "license": "Apache-2.0",
+  "homepage": "https://epinio.io/",
+  "versions": {
+    "stable": "1.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/epinio/epinio/archive/refs/tags/v1.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f4e8bd1daf855be98a389920a2d3ea504b7a33e01f0aa8b14a9e536e2232696e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:16cd2d8c17f264eb6212137534b47931dd67ffd30a2da04ab85cc36a7ac05a69",
+          "sha256": "16cd2d8c17f264eb6212137534b47931dd67ffd30a2da04ab85cc36a7ac05a69"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:401e58b70b09d46c901bfd3b72f401660d8e28bd542e71d114175c065f35f1d0",
+          "sha256": "401e58b70b09d46c901bfd3b72f401660d8e28bd542e71d114175c065f35f1d0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:c7c5b2965f92d18231ddde73ea7317dc4edccada95e82b967b5b365717187d05",
+          "sha256": "c7c5b2965f92d18231ddde73ea7317dc4edccada95e82b967b5b365717187d05"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:ebf1e33d33053a105300a709cee642f838c0b465bf15f659f538ba4201f3902f",
+          "sha256": "ebf1e33d33053a105300a709cee642f838c0b465bf15f659f538ba4201f3902f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:3d458af201c865412339eca336d4c6e419a420f331ef65d553af9fc376ebf640",
+          "sha256": "3d458af201c865412339eca336d4c6e419a420f331ef65d553af9fc376ebf640"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:5f75df9fe09bc8ef49532df50cf6bc721b33bf8ed1f70855734ad80cd30cb258",
+          "sha256": "5f75df9fe09bc8ef49532df50cf6bc721b33bf8ed1f70855734ad80cd30cb258"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/epinio/blobs/sha256:8bf4ea5222e2db10adc44cc698150589824d708071e26f03bd5103ab61713dbc",
+          "sha256": "8bf4ea5222e2db10adc44cc698150589824d708071e26f03bd5103ab61713dbc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/epinio.rb",
+  "ruby_source_checksum": {
+    "sha256": "b5ef19c32f21d53c8afe2ea9e9200574c9b55fa6ce73845f1465f5811fd462ea"
+  },
+  "date_added": "2022-03-21T08:59:04+00:00"
+}

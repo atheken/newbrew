@@ -1,0 +1,107 @@
+{
+  "name": "snap",
+  "full_name": "snap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to work with .snap files",
+  "license": "GPL-3.0-only",
+  "homepage": "https://snapcraft.io/",
+  "versions": {
+    "stable": "2.60.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/snapcore/snapd/releases/download/2.60.1/snapd_2.60.1.vendor.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f7b4a95501179d1aaf7e066989b3543a38eec44c623caffc2e149875def41a4b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f",
+          "sha256": "d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f",
+          "sha256": "d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f",
+          "sha256": "d582cbb07644ee0a2a6900b59875b7782f9eb3101651faabce805a0f58701b7f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679",
+          "sha256": "9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679",
+          "sha256": "9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679",
+          "sha256": "9a67fb94aa3b149ad137370903f058d5e5966bdb28057583de1d8aa21152a679"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/snap/blobs/sha256:3a11291ae4656b78a40cf13e95c746f7abaec8e30304e49684d3a73d983ddbc5",
+          "sha256": "3a11291ae4656b78a40cf13e95c746f7abaec8e30304e49684d3a73d983ddbc5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "squashfs"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/snap.rb",
+  "ruby_source_checksum": {
+    "sha256": "9dd3c6d66a197aaaa0af6866989b781b4171a4e0ea83d3f6ff230d88fd495b89"
+  },
+  "date_added": "2020-09-02T08:01:18+00:00"
+}

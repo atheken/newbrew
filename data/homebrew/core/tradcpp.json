@@ -1,0 +1,105 @@
+{
+  "name": "tradcpp",
+  "full_name": "tradcpp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "K&R-style C preprocessor",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.netbsd.org/~dholland/tradcpp/",
+  "versions": {
+    "stable": "0.5.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cdn.netbsd.org/pub/NetBSD/misc/dholland/tradcpp-0.5.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e17b9f42cf74b360d5691bc59fb53f37e41581c45b75fcd64bb965e5e2fe4c5e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:ae50daead4edf3e9669b42267182a9bae1f57720bbeb635e9dcc50341ceb27b3",
+          "sha256": "ae50daead4edf3e9669b42267182a9bae1f57720bbeb635e9dcc50341ceb27b3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:f4a656232f875bcb230883e1f5ed126b4a548d0cece88453a487a4e2cfc4dd89",
+          "sha256": "f4a656232f875bcb230883e1f5ed126b4a548d0cece88453a487a4e2cfc4dd89"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:2b8d415d6720467f22655633820ca17c596c7eb6c9e4a3251ce0d12c6b0c64b5",
+          "sha256": "2b8d415d6720467f22655633820ca17c596c7eb6c9e4a3251ce0d12c6b0c64b5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:4655462eea375707576c583c4107442cf648ed1deeebfbd64517b7058717ea66",
+          "sha256": "4655462eea375707576c583c4107442cf648ed1deeebfbd64517b7058717ea66"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:4efcf13b3cf15f4c8013ba1000f424d0a240ba16b8436a086d82a1a29edc7d2c",
+          "sha256": "4efcf13b3cf15f4c8013ba1000f424d0a240ba16b8436a086d82a1a29edc7d2c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:8818618fd35264ceb99df10c17a3af736fd91c886a1db778ad752095631523c9",
+          "sha256": "8818618fd35264ceb99df10c17a3af736fd91c886a1db778ad752095631523c9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tradcpp/blobs/sha256:825a5e3d755cd11ad9e6e7cdb2f5d499cf273b294da1c78a7488535eccad598b",
+          "sha256": "825a5e3d755cd11ad9e6e7cdb2f5d499cf273b294da1c78a7488535eccad598b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tradcpp.rb",
+  "ruby_source_checksum": {
+    "sha256": "adfb8a138f3c8d74ac67c48e0d88dd96b9b341c306299a2a1e72072207565cd0"
+  },
+  "date_added": "2022-05-09T17:36:08+00:00"
+}

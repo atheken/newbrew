@@ -1,0 +1,109 @@
+{
+  "name": "tproxy",
+  "full_name": "tproxy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool to proxy and analyze TCP connections",
+  "license": "MIT",
+  "homepage": "https://github.com/kevwan/tproxy",
+  "versions": {
+    "stable": "0.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kevwan/tproxy/archive/refs/tags/v0.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b6b226525365f3ae510e34be9cb23831a61474959235c308b5cd9fc546aecda2"
+    },
+    "head": {
+      "url": "https://github.com/kevwan/tproxy.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0",
+          "sha256": "015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0",
+          "sha256": "015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0",
+          "sha256": "015bc38f0bd8c525a46a51d13a259cef1e26644ed95a7d515749d0a877dfb3d0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d",
+          "sha256": "f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d",
+          "sha256": "f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d",
+          "sha256": "f6dca47ef57efa2caec4f07d1cfa9028bdbd2b158bd7693f4ec6b47f39ac925d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tproxy/blobs/sha256:a5f184fbc30d9a748c4671d1d21876ccc7503d54bac57b19aa1f1bcd14239f71",
+          "sha256": "a5f184fbc30d9a748c4671d1d21876ccc7503d54bac57b19aa1f1bcd14239f71"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tproxy.rb",
+  "ruby_source_checksum": {
+    "sha256": "8f1fae771abb881d66e1c1db2322554fc46869c9a92f2abd0b047f36282ecda0"
+  },
+  "date_added": "2022-12-15T01:45:29+00:00"
+}

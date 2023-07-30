@@ -1,0 +1,114 @@
+{
+  "name": "biber",
+  "full_name": "biber",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Backend processor for BibLaTeX",
+  "license": "Artistic-2.0",
+  "homepage": "https://sourceforge.net/projects/biblatex-biber/",
+  "versions": {
+    "stable": "2.19",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/plk/biber/archive/refs/tags/v2.19.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1c1266bc8adb1637c4c59e23c47d919c5a38da4e53544a3c22c21de4a68fc9fe"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:01c1decabd69bb312c9f66963bc5ec291f2ae58faa3816daa049da1a737c7a5a",
+          "sha256": "01c1decabd69bb312c9f66963bc5ec291f2ae58faa3816daa049da1a737c7a5a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:28e59f2d2151df4e629af6a7033c18c110be22b056bb165add58fd3b63176dcd",
+          "sha256": "28e59f2d2151df4e629af6a7033c18c110be22b056bb165add58fd3b63176dcd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:4523964ca7ad2640089a82e5b587ac545c7699ec995a87f54f81af03fab4c347",
+          "sha256": "4523964ca7ad2640089a82e5b587ac545c7699ec995a87f54f81af03fab4c347"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:d149e74e2f52c1e5a9fef252f557b5fa779a73580b27ff0293ce0713e685f80e",
+          "sha256": "d149e74e2f52c1e5a9fef252f557b5fa779a73580b27ff0293ce0713e685f80e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:c1b96486017e0f20ba0281fdc94364c13419556fe50a8c0b0e2030a120d856c7",
+          "sha256": "c1b96486017e0f20ba0281fdc94364c13419556fe50a8c0b0e2030a120d856c7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:aaae13cfc19ada255596c568432c0eec1ddc2bfdd567ee91c9d49bd3fe31ea48",
+          "sha256": "aaae13cfc19ada255596c568432c0eec1ddc2bfdd567ee91c9d49bd3fe31ea48"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/biber/blobs/sha256:f96402ba4db12ca9a318782e05413ae7f54a5562f57c52eca6b0be2964058e05",
+          "sha256": "f96402ba4db12ca9a318782e05413ae7f54a5562f57c52eca6b0be2964058e05"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "perl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/biber.rb",
+  "ruby_source_checksum": {
+    "sha256": "cacd82d841de79120940df8358b6b1c6cbbd955b2b0635d78ced3764c3a69b4e"
+  },
+  "date_added": "2021-12-12T01:09:42+00:00"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "libgda",
+  "full_name": "libgda",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Provides unified data access to the GNOME project",
+  "license": "LGPL-2.0-or-later",
+  "homepage": "https://www.gnome-db.org/",
+  "versions": {
+    "stable": "6.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libgda/6.0/libgda-6.0.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "995f4b420e666da5c8bac9faf55e7aedbe3789c525d634720a53be3ccf27a670"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:799870ada5491b29dfb5b8a9a0d4334f531166cc6fddb21fd82438fc08fed9b9",
+          "sha256": "799870ada5491b29dfb5b8a9a0d4334f531166cc6fddb21fd82438fc08fed9b9"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:0256d4371104f081140440e55caa0574a6a50dfaa85b959a3dbeefd595cba19c",
+          "sha256": "0256d4371104f081140440e55caa0574a6a50dfaa85b959a3dbeefd595cba19c"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:a3659901c2e025869a202521f3f002fa43dbebb2620c44991510e9ea480356f0",
+          "sha256": "a3659901c2e025869a202521f3f002fa43dbebb2620c44991510e9ea480356f0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:7d44fcfd33753ebb70cae62895997dfef29d22883eeaade00035bb7ba2dae1ae",
+          "sha256": "7d44fcfd33753ebb70cae62895997dfef29d22883eeaade00035bb7ba2dae1ae"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:4639bf64ccd60afcdad48e70a95e3fa3f6949ce206588500e59c93909fa1bc12",
+          "sha256": "4639bf64ccd60afcdad48e70a95e3fa3f6949ce206588500e59c93909fa1bc12"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:b1765e96a889c64da0b3d8c841999fff887791c1e43f919a601f025acf632903",
+          "sha256": "b1765e96a889c64da0b3d8c841999fff887791c1e43f919a601f025acf632903"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgda/blobs/sha256:ee867a6ff4b253fc4bf1f39757e68a03f4347d0856601e825e258fbefda22db5",
+          "sha256": "ee867a6ff4b253fc4bf1f39757e68a03f4347d0856601e825e258fbefda22db5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "intltool",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "glib",
+    "iso-codes",
+    "json-glib",
+    "sqlite"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libgda.rb",
+  "ruby_source_checksum": {
+    "sha256": "d8b4c4793f02e9f715af2640f6be93edac9405c7509ba4be7e072eb4f66a2c40"
+  },
+  "date_added": "2011-03-21T12:11:33+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "cloud-watch",
+  "full_name": "cloud-watch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "aws-mon"
+  ],
+  "versioned_formulae": [],
+  "desc": "Amazon CloudWatch command-line Tool",
+  "license": null,
+  "homepage": "https://aws.amazon.com/developertools/2534",
+  "versions": {
+    "stable": "1.0.20.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "7b241dc6b49ea2aafdeb66f859be9d30128fb0ab5833074f6596762c9bd84417"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cloud-watch/blobs/sha256:97caa527e08a03964f9b132cd491ab653bd0640ad4f81508aa65644a77cd711b",
+          "sha256": "97caa527e08a03964f9b132cd491ab653bd0640ad4f81508aa65644a77cd711b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Before you can use these tools you must export some variables to your $SHELL.\n  export AWS_ACCESS_KEY=\"<Your AWS Access ID>\"\n  export AWS_SECRET_KEY=\"<Your AWS Secret Key>\"\n  export AWS_CREDENTIAL_FILE=\"<Path to the credentials file>\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-05-06",
+  "deprecation_reason": "deprecated_upstream",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cloud-watch.rb",
+  "ruby_source_checksum": {
+    "sha256": "45aaade7850c31ea93a17593967fda4a245c235853c9c88c00cf859ddf5b5a35"
+  },
+  "date_added": "2010-07-16T08:54:18-07:00"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "narwhal",
+  "full_name": "narwhal",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "General purpose JavaScript platform for building applications",
+  "license": "MIT",
+  "homepage": "https://github.com/280north/narwhal",
+  "versions": {
+    "stable": "0.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/280north/narwhal/archive/v0.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a26ac20097839a5c7b5de665678fb76699371eea433d6e3b820d4d8de2ad4937"
+    },
+    "head": {
+      "url": "https://github.com/280north/narwhal.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/narwhal/blobs/sha256:74667a2b115b6ee5a337b291882a06a3df9b4292a5a2b11fb5470e38abd228bc",
+          "sha256": "74667a2b115b6ee5a337b291882a06a3df9b4292a5a2b11fb5470e38abd228bc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "spidermonkey",
+    "elixir-build"
+  ],
+  "conflicts_with_reasons": [
+    "both install a js binary",
+    "both install `json` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-02-16",
+  "deprecation_reason": "deprecated_upstream",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/narwhal.rb",
+  "ruby_source_checksum": {
+    "sha256": "07f9870f1d0621f9bdaa004c6144e98fa72395d371c054ffa59d5b932e33ffc0"
+  },
+  "date_added": "2010-05-04T21:16:24-07:00"
+}

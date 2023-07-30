@@ -1,0 +1,110 @@
+{
+  "name": "pywhat",
+  "full_name": "pywhat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Identify anything: emails, IP addresses, and more",
+  "license": "MIT",
+  "homepage": "https://github.com/bee-san/pyWhat",
+  "versions": {
+    "stable": "5.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ae/31/57bb23df3d3474c1e0a0ae207f8571e763018fa064823310a76758eaef81/pywhat-5.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8a6f2b3060f5ce9808802b9ca3eaf91e19c932e4eaa03a4c2e5255d0baad85c4"
+    },
+    "head": {
+      "url": "https://github.com/bee-san/pyWhat.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:4968c7ff6c37272afedb526e8bd71aa04c4cfe9539bb095082d65980680ab9c6",
+          "sha256": "4968c7ff6c37272afedb526e8bd71aa04c4cfe9539bb095082d65980680ab9c6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:fbf27dd5fcbee4898510b45c5aa86297d46e3a53448dbea1f330113a64526cca",
+          "sha256": "fbf27dd5fcbee4898510b45c5aa86297d46e3a53448dbea1f330113a64526cca"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:afc7dcf4f11bef07bc6d06c2195e9ac9acf641ea8a9455e586ee90a20be11b5a",
+          "sha256": "afc7dcf4f11bef07bc6d06c2195e9ac9acf641ea8a9455e586ee90a20be11b5a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:d24dfb3b8b8bb78a470907caf5a7014af1581bb796c0fec704bf73454735cd15",
+          "sha256": "d24dfb3b8b8bb78a470907caf5a7014af1581bb796c0fec704bf73454735cd15"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:33ae9b4c199197f328f6141e5900d946ab6d85712266b86200208372698bdf14",
+          "sha256": "33ae9b4c199197f328f6141e5900d946ab6d85712266b86200208372698bdf14"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:c16b928e2087cf586005ac5f7ea5671c44d69521317b0b8db9f367581c87a5f2",
+          "sha256": "c16b928e2087cf586005ac5f7ea5671c44d69521317b0b8db9f367581c87a5f2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pywhat/blobs/sha256:f453b0de5fc318d9383a4afef920a6d3b989973b60a56be616e37f51827b2332",
+          "sha256": "f453b0de5fc318d9383a4afef920a6d3b989973b60a56be616e37f51827b2332"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pywhat.rb",
+  "ruby_source_checksum": {
+    "sha256": "6c80f7b7c08943859b2728ec4ff8009b25de085fa780365d05ad01d581f79249"
+  },
+  "date_added": "2021-05-31T16:41:21+00:00"
+}

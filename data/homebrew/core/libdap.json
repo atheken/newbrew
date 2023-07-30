@@ -1,0 +1,154 @@
+{
+  "name": "libdap",
+  "full_name": "libdap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Framework for scientific data networking",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.opendap.org/",
+  "versions": {
+    "stable": "3.20.11",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.opendap.org/pub/source/libdap-3.20.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "850debf6ee6991350bf31051308093bee35ddd2121e4002be7e130a319de1415"
+    },
+    "head": {
+      "url": "https://github.com/OPENDAP/libdap4.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:c4655809997b644c2a9e628bf405a85b33681231830c5a08fee719ebc2794b09",
+          "sha256": "c4655809997b644c2a9e628bf405a85b33681231830c5a08fee719ebc2794b09"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:2a0cac8b856a1780abaabbf46b0de39682bb192eb3888ccf7e12eab1c2ffa8f0",
+          "sha256": "2a0cac8b856a1780abaabbf46b0de39682bb192eb3888ccf7e12eab1c2ffa8f0"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:ee9caecec80a9df604ed8ba59c0c828548939f974b954003147f22ddeb49bb7b",
+          "sha256": "ee9caecec80a9df604ed8ba59c0c828548939f974b954003147f22ddeb49bb7b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:4af8d55b4d9ce4e4bb3438c53f6530aa00819c3aa3410eaf67716afb3a81151e",
+          "sha256": "4af8d55b4d9ce4e4bb3438c53f6530aa00819c3aa3410eaf67716afb3a81151e"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:24d228b526d5db23c022a523d7458fc90eb14f19c9c2a448904f6987dd6b9485",
+          "sha256": "24d228b526d5db23c022a523d7458fc90eb14f19c9c2a448904f6987dd6b9485"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:6d117a85b5ab93b08e9bd688b52cff3df1a33205debe6d8924524405fe94eedf",
+          "sha256": "6d117a85b5ab93b08e9bd688b52cff3df1a33205debe6d8924524405fe94eedf"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libdap/blobs/sha256:99e9742d73185c98065998c20d97970f7a1044f42d87215745dbbb4a3f697722",
+          "sha256": "99e9742d73185c98065998c20d97970f7a1044f42d87215745dbbb4a3f697722"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "pkg-config",
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "libxml2",
+    "openssl@3",
+    "libtirpc",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdap.rb",
+  "ruby_source_checksum": {
+    "sha256": "a0f9b3575f36589c1dd79db07b77fbd2114fe616cb16264c2ef7e399e339f6ad"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "bison",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "libxml2",
+      "openssl@3",
+      "libtirpc",
+      "util-linux"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "flex": "build"
+      },
+      "curl"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2011-04-12T09:54:08-07:00"
+}

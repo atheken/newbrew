@@ -1,0 +1,106 @@
+{
+  "name": "spades",
+  "full_name": "spades",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "De novo genome sequence assembly",
+  "license": "GPL-2.0-only",
+  "homepage": "https://cab.spbu.ru/software/spades/",
+  "versions": {
+    "stable": "3.15.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ablab/spades/releases/download/v3.15.5/SPAdes-3.15.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "155c3640d571f2e7b19a05031d1fd0d19bd82df785d38870fb93bd241b12bbfa"
+    },
+    "head": {
+      "url": "https://github.com/ablab/spades.git",
+      "branch": "spades_3.15.5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/spades/blobs/sha256:04556a71583e8f9a32f8eb0e68509156ceb41f801c7c67311ed5abee49c673fd",
+          "sha256": "04556a71583e8f9a32f8eb0e68509156ceb41f801c7c67311ed5abee49c673fd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/spades/blobs/sha256:20789d391cc248d051c8370922326ed590944aaf6bbdd822ae9ba506f73cfdbb",
+          "sha256": "20789d391cc248d051c8370922326ed590944aaf6bbdd822ae9ba506f73cfdbb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/spades/blobs/sha256:57f9773581ada2f7410f4b8a75e987fdb1571a95e32361780efdbec29edb9217",
+          "sha256": "57f9773581ada2f7410f4b8a75e987fdb1571a95e32361780efdbec29edb9217"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/spades/blobs/sha256:ba08213dc4deed3d1ddc56d1a6a7c449c782f8eb1d5bc25fd8e6d50f356edb64",
+          "sha256": "ba08213dc4deed3d1ddc56d1a6a7c449c782f8eb1d5bc25fd8e6d50f356edb64"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "python@3.11",
+    "jemalloc",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/spades.rb",
+  "ruby_source_checksum": {
+    "sha256": "1c2e331d10c7cecb29e54a8a6f2c2fe89757ca5d5893135bc064b1464f0eb598"
+  },
+  "date_added": "2017-12-24T10:10:57-08:00"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "gnutls",
+  "full_name": "gnutls",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNU Transport Layer Security (TLS) Library",
+  "license": "LGPL-2.1-or-later and GPL-3.0-only",
+  "homepage": "https://gnutls.org/",
+  "versions": {
+    "stable": "3.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0ea0d11a1660a1e63f960f157b197abe6d0c8cb3255be24e1fb3815930b9bdc5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:a10227b5f3b46064fb325eb21d5103b6fad145dbbb87abd4f8ff8d76270ea32a",
+          "sha256": "a10227b5f3b46064fb325eb21d5103b6fad145dbbb87abd4f8ff8d76270ea32a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:d375f9982faad9b6664508624629c9018ecf807d34c38bb91f875557cc9aa0cf",
+          "sha256": "d375f9982faad9b6664508624629c9018ecf807d34c38bb91f875557cc9aa0cf"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:d21c45d81baaf4ea81a6ff134bad1df8575e5e7e50186e24d74d42402220a2d2",
+          "sha256": "d21c45d81baaf4ea81a6ff134bad1df8575e5e7e50186e24d74d42402220a2d2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:a41072e29a3fe9bdf8408946b7ad308b1d504e87c79d5bb39dd57172354d4e73",
+          "sha256": "a41072e29a3fe9bdf8408946b7ad308b1d504e87c79d5bb39dd57172354d4e73"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:75da330e4d73ade890aa0c998443319d07d4d63089bfd6c16bf7d87ba756bff5",
+          "sha256": "75da330e4d73ade890aa0c998443319d07d4d63089bfd6c16bf7d87ba756bff5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:d1cddbab50cd28e1e84b57bb3c08e76c204626894bebf044c80fdb3c44d8a577",
+          "sha256": "d1cddbab50cd28e1e84b57bb3c08e76c204626894bebf044c80fdb3c44d8a577"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:7a131f11110a752a7326a0b1c57dff58c7fc4eea5f2a1e4ae7de781d71532883",
+          "sha256": "7a131f11110a752a7326a0b1c57dff58c7fc4eea5f2a1e4ae7de781d71532883"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ca-certificates",
+    "gmp",
+    "libidn2",
+    "libtasn1",
+    "libunistring",
+    "nettle",
+    "p11-kit",
+    "unbound"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Guile bindings are now in the `guile-gnutls` formula.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gnutls.rb",
+  "ruby_source_checksum": {
+    "sha256": "d921a0a473cc790a84c93efcf9b838f58ec32a46edbb17fc04c061c74616d8a6"
+  },
+  "date_added": "2009-09-11T17:42:53+01:00"
+}

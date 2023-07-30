@@ -1,0 +1,120 @@
+{
+  "name": "breezy",
+  "full_name": "breezy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "brz"
+  ],
+  "versioned_formulae": [],
+  "desc": "Version control system implemented in Python with multi-format support",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.breezy-vcs.org/",
+  "versions": {
+    "stable": "3.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/f8/31/0777685b4093d5a8e42aa181da6450cc37ee4eb9e8a84900adcaff35515a/breezy-3.3.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5ab5e6c69eb7ba36b995f3c83e33e7be1d5dfcac2b9283888e1e0c61e47030e7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:c8d7d685fa6c2a0596ffc08cb1bc11331fd33289bdd837b0e263609b07ab2db6",
+          "sha256": "c8d7d685fa6c2a0596ffc08cb1bc11331fd33289bdd837b0e263609b07ab2db6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:82600d48c2d72d29c5dc5026d8c770692c0650ae7db8e6ec0612383291696be1",
+          "sha256": "82600d48c2d72d29c5dc5026d8c770692c0650ae7db8e6ec0612383291696be1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:f382ee6ccccb7c0214751db08f8b25e178cafc7b465d2560b935159b3351d44f",
+          "sha256": "f382ee6ccccb7c0214751db08f8b25e178cafc7b465d2560b935159b3351d44f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:c0b537b7162c22eac22ae8ea5053981341721515cab1481033eb4d88f1cba17d",
+          "sha256": "c0b537b7162c22eac22ae8ea5053981341721515cab1481033eb4d88f1cba17d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:edc6f671bc590c9c205aad8baf9aa92de42f4746fb9e677855a8b453a498804e",
+          "sha256": "edc6f671bc590c9c205aad8baf9aa92de42f4746fb9e677855a8b453a498804e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:3247bf62663f56711bf959b3cb484309ccd57e663f5d3cf604e54b86cd52be3f",
+          "sha256": "3247bf62663f56711bf959b3cb484309ccd57e663f5d3cf604e54b86cd52be3f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/breezy/blobs/sha256:9250d4d6f9abe6c6637ccb64255b9b09e99ccf390461490faf925fa7a732136a",
+          "sha256": "9250d4d6f9abe6c6637ccb64255b9b09e99ccf390461490faf925fa7a732136a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "rust"
+  ],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "openssl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "bazaar"
+  ],
+  "conflicts_with_reasons": [
+    "both install `bzr` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/breezy.rb",
+  "ruby_source_checksum": {
+    "sha256": "1dcc4361602a5b139f27118df2254bcec9788a3c64880f5f11c76df1fe135aa0"
+  },
+  "date_added": "2019-04-04T13:52:23+02:00"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "fakeroot",
+  "full_name": "fakeroot",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Provide a fake root environment",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://tracker.debian.org/pkg/fakeroot",
+  "versions": {
+    "stable": "1.32.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://deb.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.32.1.orig.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c072b0f65bafc4cc5b6112f7c61185f5170ce4cb0c410d1681c1af4a183e94e6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:c2c947fbda3a3f11f6ca1b213254a580921090f29a252bafe4ea081566a547cc",
+          "sha256": "c2c947fbda3a3f11f6ca1b213254a580921090f29a252bafe4ea081566a547cc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:e14ba003ef606ed05ee1f50d4ba8824641ca5c3b882e58c8952083d8e3184710",
+          "sha256": "e14ba003ef606ed05ee1f50d4ba8824641ca5c3b882e58c8952083d8e3184710"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:6c83a70fa4bf0f9d3b402ef1a26826ec1b6e8d077e2edfbe062d53c21b786c7e",
+          "sha256": "6c83a70fa4bf0f9d3b402ef1a26826ec1b6e8d077e2edfbe062d53c21b786c7e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:2c447719b73e0f9922b4f53457df40d9b38bc199189b728267e4487ad5bd9caf",
+          "sha256": "2c447719b73e0f9922b4f53457df40d9b38bc199189b728267e4487ad5bd9caf"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:71680219b0aa0cbdc4732c4e5faf4f47c1189952a77b0dd54e2c6bb658a968d2",
+          "sha256": "71680219b0aa0cbdc4732c4e5faf4f47c1189952a77b0dd54e2c6bb658a968d2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:bd41e5935ee6abcca00e902c500e4825742253367b8f006e58f70268a46f3c02",
+          "sha256": "bd41e5935ee6abcca00e902c500e4825742253367b8f006e58f70268a46f3c02"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fakeroot/blobs/sha256:8016d933ec9d8778028ff2eb56f1fd2432698488c33ca09d8c98d1b8e14427fe",
+          "sha256": "8016d933ec9d8778028ff2eb56f1fd2432698488c33ca09d8c98d1b8e14427fe"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "libcap"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fakeroot.rb",
+  "ruby_source_checksum": {
+    "sha256": "c887f97634dabf513be8f50b753642eeac4941c4beb072cdf9a51cb28614e015"
+  },
+  "date_added": "2012-06-27T21:04:43-07:00"
+}

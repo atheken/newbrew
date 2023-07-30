@@ -1,0 +1,110 @@
+{
+  "name": "gcalcli",
+  "full_name": "gcalcli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easily access your Google Calendar(s) from a command-line",
+  "license": "MIT",
+  "homepage": "https://github.com/insanum/gcalcli",
+  "versions": {
+    "stable": "4.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/e8/d9/9d1f03b9b47c3082bf664a2f789a3aded0674dca9e0b894540d754b937cc/gcalcli-4.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d00081460276027196e8fb957880b29ba4f22ea43136f9e232a9408016abc110"
+    },
+    "head": {
+      "url": "https://github.com/insanum/gcalcli.git",
+      "branch": "master"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:7f246e95721ecb4a382f003980d24319162ff4da0f75d3b505c41e535ee81d8d",
+          "sha256": "7f246e95721ecb4a382f003980d24319162ff4da0f75d3b505c41e535ee81d8d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:3ad0bf9cc0bb35e9bc57f99ddfb19aed07ae4b306ca3f2900f5f1d77f4717f73",
+          "sha256": "3ad0bf9cc0bb35e9bc57f99ddfb19aed07ae4b306ca3f2900f5f1d77f4717f73"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:fd9b9875506d02339df421f5cf39dbf4a8a422d166123efd66e917da6c02185c",
+          "sha256": "fd9b9875506d02339df421f5cf39dbf4a8a422d166123efd66e917da6c02185c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:65c6738544131dc9ce8ee5e4e8d539619d0d08e5aed6e5f5e5b6c058c2c19b4a",
+          "sha256": "65c6738544131dc9ce8ee5e4e8d539619d0d08e5aed6e5f5e5b6c058c2c19b4a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:71291260bed99af269e946dacf2cf4c37fbbdae194f704a2d532c7fb8362eec8",
+          "sha256": "71291260bed99af269e946dacf2cf4c37fbbdae194f704a2d532c7fb8362eec8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:88f5e347283d280a706f8d6e2f1442f9b44aa79c7cd45bb822b07ea801935295",
+          "sha256": "88f5e347283d280a706f8d6e2f1442f9b44aa79c7cd45bb822b07ea801935295"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gcalcli/blobs/sha256:c647103aa7fb67e6d6c9fd97a86380d87042f64fc585222e3d0b26b48c4ddd9a",
+          "sha256": "c647103aa7fb67e6d6c9fd97a86380d87042f64fc585222e3d0b26b48c4ddd9a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gcalcli.rb",
+  "ruby_source_checksum": {
+    "sha256": "3277e04d21e274fb9ad28d14822b45f0604b066189685bebc070a8bd3c2ecde8"
+  },
+  "date_added": "2020-10-18T16:40:10+00:00"
+}

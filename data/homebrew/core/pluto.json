@@ -1,0 +1,109 @@
+{
+  "name": "pluto",
+  "full_name": "pluto",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool to help discover deprecated apiVersions in Kubernetes",
+  "license": "Apache-2.0",
+  "homepage": "https://fairwinds.com",
+  "versions": {
+    "stable": "5.18.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/FairwindsOps/pluto/archive/v5.18.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6e1171107b432c3c4711ffd028aa4e5d7263b53f0c1df48f9b4bb68796d41168"
+    },
+    "head": {
+      "url": "https://github.com/FairwindsOps/pluto.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893",
+          "sha256": "7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893",
+          "sha256": "7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893",
+          "sha256": "7b53715db865d8f975cbe9bb01be31030aaca29304a394ff53447421ec1b3893"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6",
+          "sha256": "06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6",
+          "sha256": "06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6",
+          "sha256": "06d81c9e782e5490c293a947d4dfa381d76af2c03333fcb1fae39604278c78e6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pluto/blobs/sha256:65f781aa8fd2f70d8dd71a6bce0166434e8e1f61edee4bfaf0c5be9c7f58633b",
+          "sha256": "65f781aa8fd2f70d8dd71a6bce0166434e8e1f61edee4bfaf0c5be9c7f58633b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pluto.rb",
+  "ruby_source_checksum": {
+    "sha256": "c18f5bc4303bfd560fbde1e1d47dfdd824c36144adb9e9850a0be28e019d1a2d"
+  },
+  "date_added": "2022-10-29T17:23:17+00:00"
+}

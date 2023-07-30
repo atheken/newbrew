@@ -1,0 +1,126 @@
+{
+  "name": "traefik",
+  "full_name": "traefik",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "traefik@2"
+  ],
+  "versioned_formulae": [
+    "traefik@1"
+  ],
+  "desc": "Modern reverse proxy",
+  "license": "MIT",
+  "homepage": "https://traefik.io/",
+  "versions": {
+    "stable": "2.10.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/traefik/traefik/releases/download/v2.10.4/traefik-v2.10.4.src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d47d61d1a240c4502a8a467987394f10ebf97554be2a93534df3eba3e32d5788"
+    },
+    "head": {
+      "url": "https://github.com/traefik/traefik.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd",
+          "sha256": "6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd",
+          "sha256": "6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd",
+          "sha256": "6b99c383994f55a141e6694bcb64192b64d67a921327ad2596d2332a17fe5ddd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:d84b466de767b17a03e75db7f64ae3964232346b4b818f8d42b2da8be5f0e325",
+          "sha256": "d84b466de767b17a03e75db7f64ae3964232346b4b818f8d42b2da8be5f0e325"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:84cd2ebc39550ff3d0307676e5045a9b005665095a589623cb8bc5ebf77abf50",
+          "sha256": "84cd2ebc39550ff3d0307676e5045a9b005665095a589623cb8bc5ebf77abf50"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:f0cabd8e7acd22ca82fc7be8be6eddca72c3f46e1f85afde7b0199788e3dbecb",
+          "sha256": "f0cabd8e7acd22ca82fc7be8be6eddca72c3f46e1f85afde7b0199788e3dbecb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/traefik/blobs/sha256:5a8e7592fcf1d1fa12266d85e7966ef2ec36bab6566e107db365e87920aa735d",
+          "sha256": "5a8e7592fcf1d1fa12266d85e7966ef2ec36bab6566e107db365e87920aa735d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "go-bindata"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/traefik/bin/traefik",
+      "--configfile=/home/linuxbrew/.linuxbrew/etc/traefik/traefik.toml"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/traefik.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/traefik.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/traefik.rb",
+  "ruby_source_checksum": {
+    "sha256": "0268cf5f0ca22b68811ac41d59054f5bfb4cccca17d31cfc31a5fdd2e6d66bca"
+  },
+  "date_added": "2017-10-21T23:57:13-07:00"
+}

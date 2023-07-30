@@ -1,0 +1,112 @@
+{
+  "name": "onioncat",
+  "full_name": "onioncat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "VPN-adapter that provides location privacy using Tor or I2P",
+  "license": "GPL-3.0-only",
+  "homepage": "https://www.onioncat.org",
+  "versions": {
+    "stable": "4.11.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rahra/onioncat/archive/refs/tags/v4.11.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "75ff9eed332e97a9efb7999bbe48867d00e06ac20601cc72b87897d5b1859f99"
+    },
+    "head": {
+      "url": "https://github.com/rahra/onioncat.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:313d9bc109a8fdd7f9ceb5995e359e071e6ea822f4f20a550b6c84687e638894",
+          "sha256": "313d9bc109a8fdd7f9ceb5995e359e071e6ea822f4f20a550b6c84687e638894"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:d8c8dba362799a9d9646efb169e854dc964dd0f76c3837a746f074a436e0f6b9",
+          "sha256": "d8c8dba362799a9d9646efb169e854dc964dd0f76c3837a746f074a436e0f6b9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:b7b14ce567dc873d3caae2039c68b510c0311698e5d8cc89e62cd4b46d9f3258",
+          "sha256": "b7b14ce567dc873d3caae2039c68b510c0311698e5d8cc89e62cd4b46d9f3258"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:03dbf70b4079c360e0fe10e7909068bf277be34b9780402faf525697b7b7cfb0",
+          "sha256": "03dbf70b4079c360e0fe10e7909068bf277be34b9780402faf525697b7b7cfb0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:3bf2a843df22a579b0965685c779df4165d0db2be9ffeeef32e2769136fd0cb7",
+          "sha256": "3bf2a843df22a579b0965685c779df4165d0db2be9ffeeef32e2769136fd0cb7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:d3be4e31eed45930e85c8043abf03fc34ebc668bc5f9e2d8b09c4dfec8ae6090",
+          "sha256": "d3be4e31eed45930e85c8043abf03fc34ebc668bc5f9e2d8b09c4dfec8ae6090"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onioncat/blobs/sha256:b7909dd65c46856bf1ba00a9253d6b51cd4c1b23b2595a57d0018607ca02bd94",
+          "sha256": "b7909dd65c46856bf1ba00a9253d6b51cd4c1b23b2595a57d0018607ca02bd94"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [
+    "tor"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/onioncat.rb",
+  "ruby_source_checksum": {
+    "sha256": "4fbb06770ef5421d4a984813eacf2e41bd8042f2119b2cfe756937d85c2aaa1b"
+  },
+  "date_added": "2016-01-15T04:00:11+00:00"
+}

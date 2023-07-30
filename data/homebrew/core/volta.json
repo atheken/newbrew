@@ -1,0 +1,110 @@
+{
+  "name": "volta",
+  "full_name": "volta",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "JavaScript toolchain manager for reproducible environments",
+  "license": "BSD-2-Clause",
+  "homepage": "https://volta.sh",
+  "versions": {
+    "stable": "1.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/volta-cli/volta/archive/v1.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f2289274538124984bebb09b0968c2821368d8a80d60b9615e4f999f6751366d"
+    },
+    "head": {
+      "url": "https://github.com/volta-cli/volta.git",
+      "branch": "main"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:91f86479b539d9df009da79e569b1ab740f7e5ed635f537a639f7f65c446f69e",
+          "sha256": "91f86479b539d9df009da79e569b1ab740f7e5ed635f537a639f7f65c446f69e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:b8454fe11303c2d14a4e77b9dadc086bb12fa94aa71fdbec50f4e03a49d5e473",
+          "sha256": "b8454fe11303c2d14a4e77b9dadc086bb12fa94aa71fdbec50f4e03a49d5e473"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:b16b992a717720120aa9826992f4b217722b1153254a05b68afaa5f02fc8bb9d",
+          "sha256": "b16b992a717720120aa9826992f4b217722b1153254a05b68afaa5f02fc8bb9d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:ed384b28700d57dabca74fc9a34e25840e0e241b2dca4fb8a7d6261eff0a797b",
+          "sha256": "ed384b28700d57dabca74fc9a34e25840e0e241b2dca4fb8a7d6261eff0a797b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:edb4737847ade262f0f2812e599ae6e900d4a1c1d12e323307c70c971cf023ea",
+          "sha256": "edb4737847ade262f0f2812e599ae6e900d4a1c1d12e323307c70c971cf023ea"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:e56c356f2c0c914da2d98d62de1b52d118e6108eadad86fa5d8c75ec1cf64e82",
+          "sha256": "e56c356f2c0c914da2d98d62de1b52d118e6108eadad86fa5d8c75ec1cf64e82"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/volta/blobs/sha256:d0405ae0886b099de89c2b242d70c3cc2cd4f206ce5a0478fbe2635e37b16684",
+          "sha256": "d0405ae0886b099de89c2b242d70c3cc2cd4f206ce5a0478fbe2635e37b16684"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/volta.rb",
+  "ruby_source_checksum": {
+    "sha256": "1ace2bb555d24136666fa541612b70f154e11b8230730c8fea0cad16ce87e1cf"
+  },
+  "date_added": "2020-04-20T19:31:21+01:00"
+}

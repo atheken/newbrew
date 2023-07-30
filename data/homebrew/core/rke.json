@@ -1,0 +1,105 @@
+{
+  "name": "rke",
+  "full_name": "rke",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Rancher Kubernetes Engine, a Kubernetes installer that works everywhere",
+  "license": "Apache-2.0",
+  "homepage": "https://rancher.com/docs/rke/latest/en/",
+  "versions": {
+    "stable": "1.4.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rancher/rke/archive/v1.4.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3feeea43d4a53d4d1d7085c3b25549e7d2bd76570864dfaea69886d5f1c789ff"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:5183cf927c154be71ee54742c42bc67edfeabe118eaafc698fc4c6bef1acc343",
+          "sha256": "5183cf927c154be71ee54742c42bc67edfeabe118eaafc698fc4c6bef1acc343"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:4d1341ac02690e60bfe998122a4fce51b347aba0af4c41d604428323ff33dd60",
+          "sha256": "4d1341ac02690e60bfe998122a4fce51b347aba0af4c41d604428323ff33dd60"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:20280387e59d55ab446d4cd5c1f9ef514d044cc6ff4d48b4d688aabacbe3cb22",
+          "sha256": "20280387e59d55ab446d4cd5c1f9ef514d044cc6ff4d48b4d688aabacbe3cb22"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:72e596353e3c130e0b97f78a3ec5d551976399e85511250b7e2ba0b7f8891fe1",
+          "sha256": "72e596353e3c130e0b97f78a3ec5d551976399e85511250b7e2ba0b7f8891fe1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:ef9aa92f9cf8827fdc9fefc658495deb196b6f183f859a8dd146a0c0fb9144c5",
+          "sha256": "ef9aa92f9cf8827fdc9fefc658495deb196b6f183f859a8dd146a0c0fb9144c5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:79a7c419550d87a31ca2ad66c9488d0ac05d35e1849f12f8b8347a496ed65417",
+          "sha256": "79a7c419550d87a31ca2ad66c9488d0ac05d35e1849f12f8b8347a496ed65417"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rke/blobs/sha256:3a72472378d442a5d671580bc13a766606e35c69ac6e1fb70f59e32530b38dab",
+          "sha256": "3a72472378d442a5d671580bc13a766606e35c69ac6e1fb70f59e32530b38dab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rke.rb",
+  "ruby_source_checksum": {
+    "sha256": "250280788ba1401e73eb03dc40a8b92849c38f2b6469fd8162d2c196adccb6d2"
+  },
+  "date_added": "2018-10-09T12:31:00+02:00"
+}

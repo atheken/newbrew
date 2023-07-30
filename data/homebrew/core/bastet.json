@@ -1,0 +1,109 @@
+{
+  "name": "bastet",
+  "full_name": "bastet",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bastard Tetris",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://fph.altervista.org/prog/bastet.html",
+  "versions": {
+    "stable": "0.43.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fph/bastet/archive/0.43.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f219510afc1d83e4651fbffd5921b1e0b926d5311da4f8fa7df103dc7f2c403f"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:ab8917177ce7dbe0adf2ce68b2b74d931d62ac124b702a029475717e058dd5ee",
+          "sha256": "ab8917177ce7dbe0adf2ce68b2b74d931d62ac124b702a029475717e058dd5ee"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:af3f3df41a07583a6e6737c475b374a65eddb79c82d62e80f4350a0b93d206c5",
+          "sha256": "af3f3df41a07583a6e6737c475b374a65eddb79c82d62e80f4350a0b93d206c5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:62eb01fe9d32979f3f21a1e477a3808a6d0aaef5939342e2a02970b0367ffbfd",
+          "sha256": "62eb01fe9d32979f3f21a1e477a3808a6d0aaef5939342e2a02970b0367ffbfd"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:cab6773e9e5cbfce880975e6401d150d06c541064333a5aa698e25b5c0335d78",
+          "sha256": "cab6773e9e5cbfce880975e6401d150d06c541064333a5aa698e25b5c0335d78"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:fda8ed1bd078f83d4027af1852af55c1314c5b3b7eeb249a141eade4f24f2529",
+          "sha256": "fda8ed1bd078f83d4027af1852af55c1314c5b3b7eeb249a141eade4f24f2529"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:9de7d39f5e3cd635dd8f2ac0ab8e8e95967fe25f1b00c95c5411927ed760ac0e",
+          "sha256": "9de7d39f5e3cd635dd8f2ac0ab8e8e95967fe25f1b00c95c5411927ed760ac0e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bastet/blobs/sha256:758f1f3cca344de8ce227fcd021a36ac6c34a9460703e1d9d3f14a49d974b4e8",
+          "sha256": "758f1f3cca344de8ce227fcd021a36ac6c34a9460703e1d9d3f14a49d974b4e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bastet.rb",
+  "ruby_source_checksum": {
+    "sha256": "cfec9e0531df27ee423ffe487f808d554b9ab0c5acd04169eae798ac95efb232"
+  },
+  "date_added": "2017-02-08T10:08:45+00:00"
+}

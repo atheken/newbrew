@@ -1,0 +1,105 @@
+{
+  "name": "tetra",
+  "full_name": "tetra",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tetragon CLI to observe, manage and troubleshoot Tetragon instances",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/cilium/tetragon",
+  "versions": {
+    "stable": "0.10.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cilium/tetragon/archive/refs/tags/v0.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "99cc4e82367eb4ad12dc5d8b710e609f10e7950280f510ea3884caf814f8bab1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:6d694725de8b29c3fadce0d5f653add0d01b640a6ba1b631d3d780a5a7d11d61",
+          "sha256": "6d694725de8b29c3fadce0d5f653add0d01b640a6ba1b631d3d780a5a7d11d61"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:1ef7b82f4694e349a77dbff4ba03b37dca5ac4e87495cbda55b90f773ab7551c",
+          "sha256": "1ef7b82f4694e349a77dbff4ba03b37dca5ac4e87495cbda55b90f773ab7551c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:b5e9c2ec098ca6e865d330332fcf236258b93ad649356a438f5c9cdec4c8b21c",
+          "sha256": "b5e9c2ec098ca6e865d330332fcf236258b93ad649356a438f5c9cdec4c8b21c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:5899d07a9b3c2596b5cfd86c7c18fd80ed2b7dfdbd93bc341cf84a38d5458261",
+          "sha256": "5899d07a9b3c2596b5cfd86c7c18fd80ed2b7dfdbd93bc341cf84a38d5458261"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:4c3ad378e8b5de07c7777f1e389d2445d20d338ab2df29df8ca00c9a05a6aa00",
+          "sha256": "4c3ad378e8b5de07c7777f1e389d2445d20d338ab2df29df8ca00c9a05a6aa00"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:73bf29013bb21afad43dee7d0c656b52f552ab9daa79bb2d323fbd896d0487c2",
+          "sha256": "73bf29013bb21afad43dee7d0c656b52f552ab9daa79bb2d323fbd896d0487c2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tetra/blobs/sha256:ff61d5ccd98199d373588b5b4c6d1f8ed6cf11c64789739757a708d267cc6a37",
+          "sha256": "ff61d5ccd98199d373588b5b4c6d1f8ed6cf11c64789739757a708d267cc6a37"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tetra.rb",
+  "ruby_source_checksum": {
+    "sha256": "8ca2a0a7fa3dc1db06fbccce85b3f10049ef49607d9ad768ddb238ecbe18beaf"
+  },
+  "date_added": "2023-01-30T14:36:43+00:00"
+}

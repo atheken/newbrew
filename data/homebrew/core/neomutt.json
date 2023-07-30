@@ -1,0 +1,134 @@
+{
+  "name": "neomutt",
+  "full_name": "neomutt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "E-mail reader with support for Notmuch, NNTP and much more",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://neomutt.org/",
+  "versions": {
+    "stable": "20230517",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/neomutt/neomutt/archive/20230517.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4ac277b40e7ed5d67ba516338e2b26cc6810aa37564f6e9a2d45eb15b3a9213e"
+    },
+    "head": {
+      "url": "https://github.com/neomutt/neomutt.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:a377ee2883c36d7b44da59c63168771c17ced1cb642106b7fd465327ab78cbd3",
+          "sha256": "a377ee2883c36d7b44da59c63168771c17ced1cb642106b7fd465327ab78cbd3"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:3275eab7b93a7672015d3baf4809f273dbb5a366a5ef057b72244bb1592018bf",
+          "sha256": "3275eab7b93a7672015d3baf4809f273dbb5a366a5ef057b72244bb1592018bf"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:d960fc10feef5540fb53cc003f53e113594e9e84442f46690fa9be836ba538ce",
+          "sha256": "d960fc10feef5540fb53cc003f53e113594e9e84442f46690fa9be836ba538ce"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:c83efe9f4d5fb7eb1aba7e048d2b86422397e763dc5efab346d8c8f101b0bcd5",
+          "sha256": "c83efe9f4d5fb7eb1aba7e048d2b86422397e763dc5efab346d8c8f101b0bcd5"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:c60758b014d4c42ab104e38fe144cd89f8cc15f59a570910a6db421476bd95e1",
+          "sha256": "c60758b014d4c42ab104e38fe144cd89f8cc15f59a570910a6db421476bd95e1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:75d34c5cd9dc3a862a5d04d5c468b2fa54745419b5e2a96481c0a8e32184525c",
+          "sha256": "75d34c5cd9dc3a862a5d04d5c468b2fa54745419b5e2a96481c0a8e32184525c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neomutt/blobs/sha256:b26f38a24ba54b0c6cdf07d2e69346d263dddf6dec827c7e4541da2c37da5167",
+          "sha256": "b26f38a24ba54b0c6cdf07d2e69346d263dddf6dec827c7e4541da2c37da5167"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "docbook-xsl",
+    "pkg-config",
+    "tcl-tk"
+  ],
+  "dependencies": [
+    "gettext",
+    "gpgme",
+    "libidn2",
+    "lmdb",
+    "lua",
+    "ncurses",
+    "notmuch",
+    "openssl@3",
+    "pcre2",
+    "tokyo-cabinet"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxslt": "build"
+    },
+    "cyrus-sasl",
+    "krb5",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/neomutt.rb",
+  "ruby_source_checksum": {
+    "sha256": "cadaa46425daa346c2a4f84653907c4be61ecc277f3c3a1f5a9efca6dbbb3cb7"
+  },
+  "date_added": "2018-03-10T18:35:49+01:00"
+}

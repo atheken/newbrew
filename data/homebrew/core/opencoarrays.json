@@ -1,0 +1,112 @@
+{
+  "name": "opencoarrays",
+  "full_name": "opencoarrays",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open-source coarray Fortran ABI, API, and compiler wrapper",
+  "license": "BSD-3-Clause",
+  "homepage": "http://www.opencoarrays.org",
+  "versions": {
+    "stable": "2.10.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sourceryinstitute/OpenCoarrays/releases/download/2.10.1/OpenCoarrays-2.10.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b04b8fa724e7e4e5addbab68d81d701414e713ab915bafdf1597ec5dd9590cd4"
+    },
+    "head": {
+      "url": "https://github.com/sourceryinstitute/opencoarrays.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:afa986a39ef08bbf5552b8fc80df85533cfd75e5782e14acc3e5c02ca0aa4557",
+          "sha256": "afa986a39ef08bbf5552b8fc80df85533cfd75e5782e14acc3e5c02ca0aa4557"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:1286aebf495b4592259b352500d1ddcc320ebf5a2d4f9d553f5f9560936a0066",
+          "sha256": "1286aebf495b4592259b352500d1ddcc320ebf5a2d4f9d553f5f9560936a0066"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:0d295a26c5caa4a6ac5e29e4250e4ffbff77ecd53656dfd9a5516d7646412887",
+          "sha256": "0d295a26c5caa4a6ac5e29e4250e4ffbff77ecd53656dfd9a5516d7646412887"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:1a5dd670a537e4e12af2586c75de4b21f92092d01c16b3997e691563e6ff4676",
+          "sha256": "1a5dd670a537e4e12af2586c75de4b21f92092d01c16b3997e691563e6ff4676"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:6185eb86dc801389a8dda416f2bd8dace59ec190d877af1b4149f8f4917d5312",
+          "sha256": "6185eb86dc801389a8dda416f2bd8dace59ec190d877af1b4149f8f4917d5312"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:92b9cd1f3ddba89e94c3c22c724965feef82a37eff0dabe1ca8e0b7851b5adc9",
+          "sha256": "92b9cd1f3ddba89e94c3c22c724965feef82a37eff0dabe1ca8e0b7851b5adc9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opencoarrays/blobs/sha256:5427d1b24fbb5825fca6dfd65725eecacf8936db3b1b2ea49d6b53e8a0229ff1",
+          "sha256": "5427d1b24fbb5825fca6dfd65725eecacf8936db3b1b2ea49d6b53e8a0229ff1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gcc",
+    "open-mpi"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opencoarrays.rb",
+  "ruby_source_checksum": {
+    "sha256": "281267d30cc6567df7b02be88a7ac3fbb5e62ca9b8448c4e87809591d486e7bb"
+  },
+  "date_added": "2017-01-18T08:52:57+00:00"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "rocksdb",
+  "full_name": "rocksdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Embeddable, persistent key-value store for fast storage",
+  "license": "GPL-2.0-only or Apache-2.0",
+  "homepage": "https://rocksdb.org/",
+  "versions": {
+    "stable": "8.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/facebook/rocksdb/archive/refs/tags/v8.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b55d6da6f562eb79bad7fdc9c368efc9ea4bfa239e69cead37923fc845a43fba"
+    },
+    "head": {
+      "url": "https://github.com/facebook/rocksdb.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:adc6f78047a616fdaadd381b560a28592a7f6829ee8ee34351e856427b7616b1",
+          "sha256": "adc6f78047a616fdaadd381b560a28592a7f6829ee8ee34351e856427b7616b1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:b286127a21e6a24d344bb04da19200eec96035d8f200859370cc943e3b52e505",
+          "sha256": "b286127a21e6a24d344bb04da19200eec96035d8f200859370cc943e3b52e505"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:ce8eb83803c18b9d8f0dbace02787755ef3a91d0f633bc7967c0eba53898cecc",
+          "sha256": "ce8eb83803c18b9d8f0dbace02787755ef3a91d0f633bc7967c0eba53898cecc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:7ccf91b60643fd48103f59c39ccfa3bc20626b5ba15c1048800965bcfc4957e7",
+          "sha256": "7ccf91b60643fd48103f59c39ccfa3bc20626b5ba15c1048800965bcfc4957e7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:d99545fe721049dd2dabcfcde5bc4cdf6d69c8b672d9b9c138e982fbf4876e89",
+          "sha256": "d99545fe721049dd2dabcfcde5bc4cdf6d69c8b672d9b9c138e982fbf4876e89"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:0e3d3d1121b20220c3e04251e26b8ef49b998189aa94a2debdcaca943cc98a16",
+          "sha256": "0e3d3d1121b20220c3e04251e26b8ef49b998189aa94a2debdcaca943cc98a16"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rocksdb/blobs/sha256:3d07a2eba47b26126375ad5a92d0cfaa16de64418497fcbca9e8bcc8325bdf9f",
+          "sha256": "3d07a2eba47b26126375ad5a92d0cfaa16de64418497fcbca9e8bcc8325bdf9f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gflags",
+    "lz4",
+    "snappy",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rocksdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "080372a15de48f4b7cfc516a91a654b1afbbdeddd870c7196d91c33ae7d3c6e4"
+  },
+  "date_added": "2014-09-29T18:29:50-07:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "h3",
+  "full_name": "h3",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Hexagonal hierarchical geospatial indexing system",
+  "license": "Apache-2.0",
+  "homepage": "https://uber.github.io/h3/",
+  "versions": {
+    "stable": "4.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/uber/h3/archive/v4.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ec99f1f5974846bde64f4513cf8d2ea1b8d172d2218ab41803bf6a63532272bc"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:44686e792f5b905666c5200c15e31ac3023e1148b474443c0f202322620d600c",
+          "sha256": "44686e792f5b905666c5200c15e31ac3023e1148b474443c0f202322620d600c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:bf4c9ea8b3140be46dedb8aa9b91cde186835ba1cc53c720e129bb36b58bfbc8",
+          "sha256": "bf4c9ea8b3140be46dedb8aa9b91cde186835ba1cc53c720e129bb36b58bfbc8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:d3afae09e49800840dbeb968fa454c82753f8cb9d9234ac2a2887e7ff210f172",
+          "sha256": "d3afae09e49800840dbeb968fa454c82753f8cb9d9234ac2a2887e7ff210f172"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:519d67be32f5f41440a487eb85a0dc3055e9a4983fb6bb39a10aaeb388f543e3",
+          "sha256": "519d67be32f5f41440a487eb85a0dc3055e9a4983fb6bb39a10aaeb388f543e3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:6de52d5a62572d73f9e2f7fa062971c4bfb52da64265063a2528a146f0c0ecff",
+          "sha256": "6de52d5a62572d73f9e2f7fa062971c4bfb52da64265063a2528a146f0c0ecff"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:c6119a992a3e994b8b3dcb1d8cdd9a783bb000f93c9ad60ed3d24f60db1bc0ce",
+          "sha256": "c6119a992a3e994b8b3dcb1d8cdd9a783bb000f93c9ad60ed3d24f60db1bc0ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/h3/blobs/sha256:ea347ced55cef67aa8d834815798f19b7f64db12f7a76cd2f992c8047437161f",
+          "sha256": "ea347ced55cef67aa8d834815798f19b7f64db12f7a76cd2f992c8047437161f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/h3.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c61a304b2590132da73e9d0eaeb153fc1962fe40f026968a8254f7d58660e80"
+  },
+  "date_added": "2019-02-23T17:23:05+01:00"
+}

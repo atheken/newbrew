@@ -1,0 +1,79 @@
+{
+  "name": "wiremock-standalone",
+  "full_name": "wiremock-standalone",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simulator for HTTP-based APIs",
+  "license": "Apache-2.0",
+  "homepage": "https://wiremock.org/docs/running-standalone/",
+  "versions": {
+    "stable": "2.35.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=com/github/tomakehurst/wiremock-jre8-standalone/2.35.0/wiremock-jre8-standalone-2.35.0.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "ae156ae2812e3cfa470c47ed073100ef4ec77927372a4e203f0e3bd531f3eb57"
+    },
+    "head": {
+      "url": "https://github.com/tomakehurst/wiremock.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wiremock-standalone/blobs/sha256:cf5d7cfa1ff79a55030816f8569480bbedb6221bb0f7900525d29b3793c4c4d9",
+          "sha256": "cf5d7cfa1ff79a55030816f8569480bbedb6221bb0f7900525d29b3793c4c4d9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wiremock-standalone.rb",
+  "ruby_source_checksum": {
+    "sha256": "9966a47c4dbbee7b918451387fc5a83757a6506d8fa829261b13adec33aff4e7"
+  },
+  "date_added": "2018-08-10T15:39:58+02:00"
+}

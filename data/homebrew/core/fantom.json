@@ -1,0 +1,75 @@
+{
+  "name": "fantom",
+  "full_name": "fantom",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Object oriented, portable programming language",
+  "license": "AFL-3.0",
+  "homepage": "https://fantom.org/",
+  "versions": {
+    "stable": "1.0.79",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fantom-lang/fantom/releases/download/v1.0.79/fantom-1.0.79.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "d70d706b55b65c2e9abd8c970448b4e7bd28d1243724dbdea9d0f3c0fa8d5e4c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fantom/blobs/sha256:1eb3e699119225b4fb0dd6779daccf09d937a4506da9829d0dd14398f9e2c672",
+          "sha256": "1eb3e699119225b4fb0dd6779daccf09d937a4506da9829d0dd14398f9e2c672"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fantom.rb",
+  "ruby_source_checksum": {
+    "sha256": "72fc6e26fed1fde3687f5662ea08d9c56709da1cb7e25fe350807fefc421b11d"
+  },
+  "date_added": "2011-03-29T22:50:22-07:00"
+}

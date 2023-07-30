@@ -1,0 +1,109 @@
+{
+  "name": "istioctl",
+  "full_name": "istioctl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Istio configuration command-line utility",
+  "license": "Apache-2.0",
+  "homepage": "https://istio.io/",
+  "versions": {
+    "stable": "1.18.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/istio/istio/archive/refs/tags/1.18.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f0f9b7bda20cd8af7e7cebfa1704f0eca2ae32581057664d27c92f87dcd20e1e"
+    },
+    "head": {
+      "url": "https://github.com/istio/istio.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:532084c6e7c03a8ad7ecd9b9ac57c4073a0f77e4b69f15a539c3cfaa48d26b47",
+          "sha256": "532084c6e7c03a8ad7ecd9b9ac57c4073a0f77e4b69f15a539c3cfaa48d26b47"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:f8f61a551170576b6bf383df5d8d2024edc5e71d0b01ad74c09d51c9521a7562",
+          "sha256": "f8f61a551170576b6bf383df5d8d2024edc5e71d0b01ad74c09d51c9521a7562"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:f231eef7d232b7ae518bcf94020f20769d3d3fb2e6ecfb0b8a0f72046616627c",
+          "sha256": "f231eef7d232b7ae518bcf94020f20769d3d3fb2e6ecfb0b8a0f72046616627c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:8a2b23a5b7a4c75474839ae6dd23856eab84ac61e9aab130c0a7c77be251cc25",
+          "sha256": "8a2b23a5b7a4c75474839ae6dd23856eab84ac61e9aab130c0a7c77be251cc25"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:21ede30fd7a36bf71c8626b15cec4b0195571228d2cbfaf50fb8aed37174acc0",
+          "sha256": "21ede30fd7a36bf71c8626b15cec4b0195571228d2cbfaf50fb8aed37174acc0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:a689004d2dbde0dd5d74a54ef3c736434626921f3d37eb92065f7d0c41150e0c",
+          "sha256": "a689004d2dbde0dd5d74a54ef3c736434626921f3d37eb92065f7d0c41150e0c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/istioctl/blobs/sha256:38e20eb724c231f7dc5d478f1a4a05b811093d81b014f5779d5fc7d752ebbf2c",
+          "sha256": "38e20eb724c231f7dc5d478f1a4a05b811093d81b014f5779d5fc7d752ebbf2c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/istioctl.rb",
+  "ruby_source_checksum": {
+    "sha256": "5a012b921b90dd171947ffa7231bd12e5dff4f8dd0501c6302752ac6b9faff30"
+  },
+  "date_added": "2018-12-20T22:55:36+01:00"
+}

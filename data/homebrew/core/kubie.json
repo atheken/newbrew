@@ -1,0 +1,111 @@
+{
+  "name": "kubie",
+  "full_name": "kubie",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Much more powerful alternative to kubectx and kubens",
+  "license": "Zlib",
+  "homepage": "https://blog.sbstp.ca/introducing-kubie/",
+  "versions": {
+    "stable": "0.21.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sbstp/kubie/archive/v0.21.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9fed8211d38a9f2d0985cc2ba06b56f1a603f54dc4f058bb4a48b962624ae4c1"
+    },
+    "head": {
+      "url": "https://github.com/sbstp/kubie.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:7ab6c926adc3da26a26469ec6ba6c79675987c68aec8cd769730c09497ad06c0",
+          "sha256": "7ab6c926adc3da26a26469ec6ba6c79675987c68aec8cd769730c09497ad06c0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:19b38066126891528ed9e22f53a524ef575bc8e05a123673b7a204d10cdb048e",
+          "sha256": "19b38066126891528ed9e22f53a524ef575bc8e05a123673b7a204d10cdb048e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:8c8702a0e97b9d86d7ee0248a070486d3beb940fcf1027480ffecb9bfc23bcfa",
+          "sha256": "8c8702a0e97b9d86d7ee0248a070486d3beb940fcf1027480ffecb9bfc23bcfa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:3398cdd82e0713bc1c91d3d5b1af09054fce1804f6ef162ecdfbdda16b3def07",
+          "sha256": "3398cdd82e0713bc1c91d3d5b1af09054fce1804f6ef162ecdfbdda16b3def07"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:e0ca4fd40885f8214787827b2ea8d7c82db1f821249381387c415d609acb75a9",
+          "sha256": "e0ca4fd40885f8214787827b2ea8d7c82db1f821249381387c415d609acb75a9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:b63838bd413b5a6c540aea80de68ee9774e06bca861c2114c039fa94606d2b03",
+          "sha256": "b63838bd413b5a6c540aea80de68ee9774e06bca861c2114c039fa94606d2b03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubie/blobs/sha256:2a242aed25257afc676c99a8782c11297f659c422096644561665d0e82a7bd2c",
+          "sha256": "2a242aed25257afc676c99a8782c11297f659c422096644561665d0e82a7bd2c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "kubernetes-cli"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kubie.rb",
+  "ruby_source_checksum": {
+    "sha256": "543402451e7259f806858a7393f4125cdce91620930a7206fa23e2012e668926"
+  },
+  "date_added": "2020-07-16T20:23:31+00:00"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "aom",
+  "full_name": "aom",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Codec library for encoding and decoding AV1 video streams",
+  "license": "BSD-2-Clause",
+  "homepage": "https://aomedia.googlesource.com/aom",
+  "versions": {
+    "stable": "3.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://aomedia.googlesource.com/aom.git",
+      "tag": "v3.6.1",
+      "revision": "7ade96172b95adc91a5d85bf80c90989cd543ee8",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:966c8e8e10fb914ce2d6272e6f44fa6235010914bd6e1b40a6a77516bbf92949",
+          "sha256": "966c8e8e10fb914ce2d6272e6f44fa6235010914bd6e1b40a6a77516bbf92949"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:c0a1489fc018dc1a62b3668940b84bc302448d14d231500f5181fe70f742ae9d",
+          "sha256": "c0a1489fc018dc1a62b3668940b84bc302448d14d231500f5181fe70f742ae9d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:05e2be27ea35bb4393fa9e135997631163a0e03f7553b38bb2ef74c216898583",
+          "sha256": "05e2be27ea35bb4393fa9e135997631163a0e03f7553b38bb2ef74c216898583"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:130033d7682e4cfa135ea1bf441f8fa661d55ceac06be2059667bc3506f88e78",
+          "sha256": "130033d7682e4cfa135ea1bf441f8fa661d55ceac06be2059667bc3506f88e78"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:ecc7821e3e1c4aea91f74229abc28d360fda9bf9f620a048b26b85ef1d7c5523",
+          "sha256": "ecc7821e3e1c4aea91f74229abc28d360fda9bf9f620a048b26b85ef1d7c5523"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:acab19ae318c71f1c02c99fb60a2743a84396cb6cf53c51dca5f96bffdcc1971",
+          "sha256": "acab19ae318c71f1c02c99fb60a2743a84396cb6cf53c51dca5f96bffdcc1971"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:a80ca6ea6a96f353ec73175886f26d73652dbdf1a50f104b81d0775a442df24b",
+          "sha256": "a80ca6ea6a96f353ec73175886f26d73652dbdf1a50f104b81d0775a442df24b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "yasm"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aom.rb",
+  "ruby_source_checksum": {
+    "sha256": "ffb3e0625648204209f1122ec29fbec68b76fe2289e2ba6947a8f2c4edccaf83"
+  },
+  "date_added": "2018-11-27T17:19:31+01:00"
+}

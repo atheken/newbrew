@@ -1,0 +1,75 @@
+{
+  "name": "terraform_landscape",
+  "full_name": "terraform_landscape",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Improve Terraform's plan output",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/coinbase/terraform-landscape",
+  "versions": {
+    "stable": "0.3.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/coinbase/terraform-landscape/archive/v0.3.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e9b8e00aacf821fd07c9e3194e1e9f5824032dad4b12995649bcd9c59731ee1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/terraform_landscape/blobs/sha256:7275a3976bae258dff79bcee0885a4d3de430f06eb366d19f1a2415b88890d1b",
+          "sha256": "7275a3976bae258dff79bcee0885a4d3de430f06eb366d19f1a2415b88890d1b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ruby"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/terraform_landscape.rb",
+  "ruby_source_checksum": {
+    "sha256": "b30ae91b76fe5bcfee06d76cf2b27dbd9aacfe894e7614f1fd0987bb2b9fbd43"
+  },
+  "date_added": "2017-11-03T17:54:45-07:00"
+}

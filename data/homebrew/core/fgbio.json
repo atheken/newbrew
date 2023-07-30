@@ -1,0 +1,75 @@
+{
+  "name": "fgbio",
+  "full_name": "fgbio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for working with genomic and high throughput sequencing data",
+  "license": "MIT",
+  "homepage": "https://fulcrumgenomics.github.io/fgbio/",
+  "versions": {
+    "stable": "2.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fulcrumgenomics/fgbio/releases/download/2.1.0/fgbio-2.1.0.jar",
+      "tag": null,
+      "revision": null,
+      "checksum": "7a07d86b1263a89375c5796fec51ecc4bf31b3850ec205df8ae8c9ccba7ca314"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fgbio/blobs/sha256:7c81e532d95c24a74ec06c7999cc471ee4c4b7386bacc6f2e04f6d49b466de61",
+          "sha256": "7c81e532d95c24a74ec06c7999cc471ee4c4b7386bacc6f2e04f6d49b466de61"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fgbio.rb",
+  "ruby_source_checksum": {
+    "sha256": "9356b9e55b0a726bc4ebb63cbed5a6359b07ba509445e81206ee1d2e62fc1266"
+  },
+  "date_added": "2022-12-30T21:19:38+00:00"
+}

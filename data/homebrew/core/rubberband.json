@@ -1,0 +1,117 @@
+{
+  "name": "rubberband",
+  "full_name": "rubberband",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Audio time stretcher tool and library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://breakfastquay.com/rubberband/",
+  "versions": {
+    "stable": "3.3.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://breakfastquay.com/files/releases/rubberband-3.3.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "d9ef89e2b8ef9f85b13ac3c2faec30e20acf2c9f3a9c8c45ce637f2bc95e576c"
+    },
+    "head": {
+      "url": "https://hg.sr.ht/~breakfastquay/rubberband",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:206c609c7172b67789074a7cf6d7f488754c36385c8fa192be5b7d79250baa9f",
+          "sha256": "206c609c7172b67789074a7cf6d7f488754c36385c8fa192be5b7d79250baa9f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:b5f0bd10292d5ae466dbd52a08675add720790e38844439fae7539fd90ac8ab3",
+          "sha256": "b5f0bd10292d5ae466dbd52a08675add720790e38844439fae7539fd90ac8ab3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:bb6f008e5ae2b65ddc195607d321fd533fcf99a0a0e3e4438dc1f960fbf9a11f",
+          "sha256": "bb6f008e5ae2b65ddc195607d321fd533fcf99a0a0e3e4438dc1f960fbf9a11f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:b4650ed709c4c90115f039c4b0d7ad0261a68894a509607d09f1eea066f97884",
+          "sha256": "b4650ed709c4c90115f039c4b0d7ad0261a68894a509607d09f1eea066f97884"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:97ea0bae9d8ff2f4b0fd8ca64f7f1a12497f1b4c24929b39f02d5e5081da3980",
+          "sha256": "97ea0bae9d8ff2f4b0fd8ca64f7f1a12497f1b4c24929b39f02d5e5081da3980"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:7092e475181f31763ba9c7b86d00cde1913357543eb2ed3759b696e7add68650",
+          "sha256": "7092e475181f31763ba9c7b86d00cde1913357543eb2ed3759b696e7add68650"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:be989026114a7f007ae1d5dba0ba2f98bb47da7b3023ff60f4d873f1d45a1bc5",
+          "sha256": "be989026114a7f007ae1d5dba0ba2f98bb47da7b3023ff60f4d873f1d45a1bc5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libsamplerate",
+    "libsndfile",
+    "fftw",
+    "ladspa-sdk",
+    "vamp-plugin-sdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rubberband.rb",
+  "ruby_source_checksum": {
+    "sha256": "2f717e81656fb10aede4162ef4ce01bc6517d6cd03095b6ba47b3f4af1718ff7"
+  },
+  "date_added": "2015-12-06T17:53:14+00:00"
+}

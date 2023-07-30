@@ -1,0 +1,118 @@
+{
+  "name": "yle-dl",
+  "full_name": "yle-dl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Download Yle videos from the command-line",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://aajanki.github.io/yle-dl/index-en.html",
+  "versions": {
+    "stable": "20230611",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/34/40/2f3a90f891a32a16929fcca7099e874ebb0af4dfc5c06309e309d5198f65/yle_dl-20230611.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b6e26d95f5a748bb82126058b548b6515798815967fde24ffe933585a4411df6"
+    },
+    "head": {
+      "url": "https://github.com/aajanki/yle-dl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:91c9ffe658b53123216210b8c1e0e30368f75050a4e0544d2efe8658237d3e55",
+          "sha256": "91c9ffe658b53123216210b8c1e0e30368f75050a4e0544d2efe8658237d3e55"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:6e5c27cfb11d86938cee0045797890672d840cae80638b23f84da93d27255b3b",
+          "sha256": "6e5c27cfb11d86938cee0045797890672d840cae80638b23f84da93d27255b3b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:364b5ed3c8d2fa576f612cd0e92eab132b490a3154a915921c19a3ebc8fa138d",
+          "sha256": "364b5ed3c8d2fa576f612cd0e92eab132b490a3154a915921c19a3ebc8fa138d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:0a0214cd0b1ddda26462d7660f5d0b280d735f5133ad7126e1c25718bdaf4235",
+          "sha256": "0a0214cd0b1ddda26462d7660f5d0b280d735f5133ad7126e1c25718bdaf4235"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:f73650a9e2b715425d8646b6c2395e8de50103cbcea741d34bcde0e98a4ac109",
+          "sha256": "f73650a9e2b715425d8646b6c2395e8de50103cbcea741d34bcde0e98a4ac109"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:d636d0f53b2577056b209e261369537b664e087028ad8a2522f24c02707a60d4",
+          "sha256": "d636d0f53b2577056b209e261369537b664e087028ad8a2522f24c02707a60d4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yle-dl/blobs/sha256:17daafb046a9dd968deeb40364e86b3772fd38d68f7ea51265c22e5f0d7d613d",
+          "sha256": "17daafb046a9dd968deeb40364e86b3772fd38d68f7ea51265c22e5f0d7d613d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "cffi",
+    "ffmpeg",
+    "pycparser",
+    "python-certifi",
+    "python@3.11",
+    "rtmpdump"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yle-dl.rb",
+  "ruby_source_checksum": {
+    "sha256": "84803df4ab4bdc09d85224e753f3ad9c988ece07a030beb42b76cc8bffa8b04e"
+  },
+  "date_added": "2013-03-26T19:05:39+01:00"
+}

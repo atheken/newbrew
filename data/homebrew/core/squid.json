@@ -1,0 +1,143 @@
+{
+  "name": "squid",
+  "full_name": "squid",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Advanced proxy caching server for HTTP, HTTPS, FTP, and Gopher",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://www.squid-cache.org/",
+  "versions": {
+    "stable": "5.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.squid-cache.org/Versions/v5/squid-5.9.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3fe5c2007da2757446af91b6ef974f154b208120a9a39396ea681e5c4abb04b5"
+    },
+    "head": {
+      "url": "lp:squid",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:cbbdf13ee2098c32baa9bfe690f1446fbee226bf5cf0c80868a0698b467c3aa1",
+          "sha256": "cbbdf13ee2098c32baa9bfe690f1446fbee226bf5cf0c80868a0698b467c3aa1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:3537c064875681dcb687f279bd35913ce722d2fb6703fe1ebc7982aa1576bffc",
+          "sha256": "3537c064875681dcb687f279bd35913ce722d2fb6703fe1ebc7982aa1576bffc"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:ef839dc315ae730bc6fb368c9737cc93d3ad5b94ac7a9bc52718eee367024d60",
+          "sha256": "ef839dc315ae730bc6fb368c9737cc93d3ad5b94ac7a9bc52718eee367024d60"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:0c3919881cbdff7c75ceec04d543f600f2202a7c937f97834f0d7ce3268a65ec",
+          "sha256": "0c3919881cbdff7c75ceec04d543f600f2202a7c937f97834f0d7ce3268a65ec"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:da56d1913c356397fad87e2985f431c328aab8505a4a3c23bd3963b21b4bb12f",
+          "sha256": "da56d1913c356397fad87e2985f431c328aab8505a4a3c23bd3963b21b4bb12f"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:bf89451bfc3a8e21874bccc31554c74a9268d829dbe4056eab2bdea12025c5a8",
+          "sha256": "bf89451bfc3a8e21874bccc31554c74a9268d829dbe4056eab2bdea12025c5a8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/squid/blobs/sha256:d01a8a7022a0e077201d9e433224092f726834cdb1923d051c29b902dffe706a",
+          "sha256": "d01a8a7022a0e077201d9e433224092f726834cdb1923d051c29b902dffe706a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/squid/sbin/squid",
+      "-N",
+      "-d 1"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/squid.rb",
+  "ruby_source_checksum": {
+    "sha256": "269e08d363e4ce3f948444825de32bb77d4df69d6f5ff4755dbd3e46b7d05c7a"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [
+      "openssl@3"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxcrypt"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2010-05-05T20:39:30-07:00"
+}

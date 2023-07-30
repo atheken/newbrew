@@ -1,0 +1,109 @@
+{
+  "name": "yaegi",
+  "full_name": "yaegi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Yet another elegant Go interpreter",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/traefik/yaegi",
+  "versions": {
+    "stable": "0.15.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/traefik/yaegi/archive/v0.15.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4f0894158f6331153522f48065db9c87237462e08c14652c84a65e3d28e6368b"
+    },
+    "head": {
+      "url": "https://github.com/traefik/yaegi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e",
+          "sha256": "a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e",
+          "sha256": "a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e",
+          "sha256": "a9e254b5ae147e0039257b152e26d141a7de35ec7dda8055ff499c8b361ee87e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33",
+          "sha256": "fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33",
+          "sha256": "fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33",
+          "sha256": "fa07402b69b8ac8433d5790857d44ed5d5ba3002c5eb2e854c8738670445db33"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaegi/blobs/sha256:5657b3d88c8ce1d60aca7d7cf2ade108e2dda1d4ff1ab41a538d2dc2df7ccbd2",
+          "sha256": "5657b3d88c8ce1d60aca7d7cf2ade108e2dda1d4ff1ab41a538d2dc2df7ccbd2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yaegi.rb",
+  "ruby_source_checksum": {
+    "sha256": "f230d98c73097a76c87340b3a7462a507f76d31ab9e89f27023e9b9019860e1b"
+  },
+  "date_added": "2020-01-06T14:13:23+00:00"
+}

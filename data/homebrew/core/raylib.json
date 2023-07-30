@@ -1,0 +1,117 @@
+{
+  "name": "raylib",
+  "full_name": "raylib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple and easy-to-use library to learn videogames programming",
+  "license": "Zlib",
+  "homepage": "https://www.raylib.com/",
+  "versions": {
+    "stable": "4.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/raysan5/raylib/archive/4.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0df98bfc553db31356cab46a2f9ed6d932065f186a0fff24bafa05f8a60e16d1"
+    },
+    "head": {
+      "url": "https://github.com/raysan5/raylib.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:a3f03b9f6fc41dd1884d4c1694aa44a1ad0a035ddb1dc4dda690898d000cd407",
+          "sha256": "a3f03b9f6fc41dd1884d4c1694aa44a1ad0a035ddb1dc4dda690898d000cd407"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:10a1d493f6abdfd66b2d0639d848c5972e65df7a475b1e77210da59e60ff57b3",
+          "sha256": "10a1d493f6abdfd66b2d0639d848c5972e65df7a475b1e77210da59e60ff57b3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:b50c3a4cea028ce463bce5f8cd857d61c9c0ac10fcab6f491cb62c98b08c3d08",
+          "sha256": "b50c3a4cea028ce463bce5f8cd857d61c9c0ac10fcab6f491cb62c98b08c3d08"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:a5fa31296b157523b968e2ba6a913e11140a06b46600d14fff7dfca08dec16d3",
+          "sha256": "a5fa31296b157523b968e2ba6a913e11140a06b46600d14fff7dfca08dec16d3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:af0630c193767d75d93bead04d6b5ace6fa0db4f789f35a8980ec771b37face1",
+          "sha256": "af0630c193767d75d93bead04d6b5ace6fa0db4f789f35a8980ec771b37face1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:f62b1dde82d0f33e6fbda710e75b0a2f4a7559dc6588201419bce5f2f9ca4b92",
+          "sha256": "f62b1dde82d0f33e6fbda710e75b0a2f4a7559dc6588201419bce5f2f9ca4b92"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/raylib/blobs/sha256:2d9f930f5a0e98eece43c16318eaaf42e94629d7f45e07c0b6765ee36fe70ece",
+          "sha256": "2d9f930f5a0e98eece43c16318eaaf42e94629d7f45e07c0b6765ee36fe70ece"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libx11",
+    "libxcursor",
+    "libxi",
+    "libxinerama",
+    "libxrandr",
+    "mesa",
+    "mesa-glu"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/raylib.rb",
+  "ruby_source_checksum": {
+    "sha256": "f86a3f126be2d1970f9bff614e147b79623350969aff102cfed61f69935d4b1e"
+  },
+  "date_added": "2017-11-26T01:29:15-08:00"
+}

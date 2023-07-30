@@ -1,0 +1,112 @@
+{
+  "name": "jsonrpc-glib",
+  "full_name": "jsonrpc-glib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNOME library to communicate with JSON-RPC based peers",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/jsonrpc-glib",
+  "versions": {
+    "stable": "3.44.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/jsonrpc-glib/3.44/jsonrpc-glib-3.44.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "69406a0250d0cc5175408cae7eca80c0c6bfaefc4ae1830b354c0433bcd5ce06"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:81179b347f42fa5088707b190fc8c44cce5b4674a95d99124d15e17f55e07c64",
+          "sha256": "81179b347f42fa5088707b190fc8c44cce5b4674a95d99124d15e17f55e07c64"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:b9968d2db4506aa9493ae18baa2baf3606b94a270910fdc5d4a3928f6a1eb26f",
+          "sha256": "b9968d2db4506aa9493ae18baa2baf3606b94a270910fdc5d4a3928f6a1eb26f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:7a93842a0f8c1f9d2e926fbeca2ba17d176616e66b29b26fe128f5d1e68730bc",
+          "sha256": "7a93842a0f8c1f9d2e926fbeca2ba17d176616e66b29b26fe128f5d1e68730bc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:1a7c09d2663ff3df9280511655b194ced292b3fdc366fe502bfee8105978525f",
+          "sha256": "1a7c09d2663ff3df9280511655b194ced292b3fdc366fe502bfee8105978525f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:4c5889ec718dd7362a9593d3d4be9c76a12f2252e9eda92b165e945cd8883080",
+          "sha256": "4c5889ec718dd7362a9593d3d4be9c76a12f2252e9eda92b165e945cd8883080"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:5f6b0972656e86a895a4026f5738416eb37b798792adcd30edb4ad3868a8bb05",
+          "sha256": "5f6b0972656e86a895a4026f5738416eb37b798792adcd30edb4ad3868a8bb05"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jsonrpc-glib/blobs/sha256:03191c798dee38b9983e2afb84310debbbd3850b21ad675b6629aa9e8cd677cc",
+          "sha256": "03191c798dee38b9983e2afb84310debbbd3850b21ad675b6629aa9e8cd677cc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "glib",
+    "json-glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jsonrpc-glib.rb",
+  "ruby_source_checksum": {
+    "sha256": "26fabfc859c23fdd8cb1d7e16486fb855febd5775109a139a3e068ed66c6ed8d"
+  },
+  "date_added": "2018-04-03T18:31:21-07:00"
+}

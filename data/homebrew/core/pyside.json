@@ -1,0 +1,129 @@
+{
+  "name": "pyside",
+  "full_name": "pyside",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "pyside@6"
+  ],
+  "versioned_formulae": [
+    "pyside@2"
+  ],
+  "desc": "Official Python bindings for Qt",
+  "license": "GFDL-1.3-only and GPL-2.0-only and GPL-3.0-only and LGPL-3.0-only",
+  "homepage": "https://wiki.qt.io/Qt_for_Python",
+  "versions": {
+    "stable": "6.5.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.5.2-src/pyside-setup-everywhere-src-6.5.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "90dbf1d14fcd41c98a7cbea44b8a4951e10d0b798e154749756e4946654d1ba8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:9aa2c6e8e92454251f4ef2ff53ba8badabc9a55381cfb7ebea44dfbbc9fd7966",
+          "sha256": "9aa2c6e8e92454251f4ef2ff53ba8badabc9a55381cfb7ebea44dfbbc9fd7966"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:63221c34119789913be3d22d1ea3d3fe7631f60aa35880677910b56e8dfb72d6",
+          "sha256": "63221c34119789913be3d22d1ea3d3fe7631f60aa35880677910b56e8dfb72d6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:9ab03e7a12afefecd33ba2cd72e2228178d5a7de5866482d3c5a9f18a9f7543c",
+          "sha256": "9ab03e7a12afefecd33ba2cd72e2228178d5a7de5866482d3c5a9f18a9f7543c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:b76e848c2cac77f14cf96067002240b140f52b368ef74105f8584b5ec0b46a7e",
+          "sha256": "b76e848c2cac77f14cf96067002240b140f52b368ef74105f8584b5ec0b46a7e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:e480b45aa70deb7ebf47996b9dd1c186079039f740b70a075e85403af85972ed",
+          "sha256": "e480b45aa70deb7ebf47996b9dd1c186079039f740b70a075e85403af85972ed"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pyside/blobs/sha256:46a22ccaa4b50f28e519e4b9c936bcbff00a4956f4165e96432b81dc5bc234d9",
+          "sha256": "46a22ccaa4b50f28e519e4b9c936bcbff00a4956f4165e96432b81dc5bc234d9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "ninja"
+  ],
+  "dependencies": [
+    "llvm",
+    "python@3.11",
+    "qt",
+    "mesa"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pyside.rb",
+  "ruby_source_checksum": {
+    "sha256": "38d3edb73a584b6fd159892d7dcb903ce806877e3caa09d545fc4cb5d6d3dde8"
+  },
+  "date_added": "2011-08-25T17:47:22-07:00"
+}

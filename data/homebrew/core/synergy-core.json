@@ -1,0 +1,125 @@
+{
+  "name": "synergy-core",
+  "full_name": "synergy-core",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "synergy"
+  ],
+  "versioned_formulae": [],
+  "desc": "Synergy, the keyboard and mouse sharing tool",
+  "license": "Cannot Represent",
+  "homepage": "https://symless.com/synergy",
+  "versions": {
+    "stable": "1.14.6.19",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/symless/synergy-core/archive/refs/tags/1.14.6.19-stable.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "01854ec932845975cd81363bed8276b95c07a607050683fc1b74b7126199de79"
+    },
+    "head": {
+      "url": "https://github.com/symless/synergy-core.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:334248b42a57a1e655f2f4aab7772ea3b7b77ae438cfe42623e84f7583b9174d",
+          "sha256": "334248b42a57a1e655f2f4aab7772ea3b7b77ae438cfe42623e84f7583b9174d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:b55b45badf37a0c6ff570dc9bc84c684b42bd4966eea299602c6308c0d3c568b",
+          "sha256": "b55b45badf37a0c6ff570dc9bc84c684b42bd4966eea299602c6308c0d3c568b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:c8870bbda127a4b699803c45a3de12f823937c5d553219b77fc5a738bb1ec942",
+          "sha256": "c8870bbda127a4b699803c45a3de12f823937c5d553219b77fc5a738bb1ec942"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:a379d665374e700ec3447de68d9f51adc413d2df2b853ebb89d65ea4a83846ba",
+          "sha256": "a379d665374e700ec3447de68d9f51adc413d2df2b853ebb89d65ea4a83846ba"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:f0711f93ccc9180ed973f6c7168b95bc55aa91e2d45116c91e5cf97733802018",
+          "sha256": "f0711f93ccc9180ed973f6c7168b95bc55aa91e2d45116c91e5cf97733802018"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:05274d4b236f2d4e4e0037f3a9738ce1f297e88c5af4983db3efc098e46f0893",
+          "sha256": "05274d4b236f2d4e4e0037f3a9738ce1f297e88c5af4983db3efc098e46f0893"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/synergy-core/blobs/sha256:a8f9f6c071c90a720430c7a827ccc6f8bea9c244bf9a71e2f94ad746b6b49892",
+          "sha256": "a8f9f6c071c90a720430c7a827ccc6f8bea9c244bf9a71e2f94ad746b6b49892"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "pugixml",
+    "qt@5",
+    "gdk-pixbuf",
+    "glib",
+    "libnotify",
+    "libxkbfile"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Read the synergy-core license here:\n  $HOMEBREW_PREFIX/opt/synergy-core/LICENSE\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/synergy-core/bin/synergy"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/synergy-core.rb",
+  "ruby_source_checksum": {
+    "sha256": "4f9298d6b2b2af2f81d4daf9f9ebb1b99645bc376567f0390883d9055c063496"
+  },
+  "date_added": "2022-06-12T15:30:17+00:00"
+}

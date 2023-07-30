@@ -1,0 +1,114 @@
+{
+  "name": "skylighting",
+  "full_name": "skylighting",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flexible syntax highlighter using KDE XML syntax descriptions",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/jgm/skylighting",
+  "versions": {
+    "stable": "0.13.4.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jgm/skylighting/archive/0.13.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d75da64e5a9ef1b37ea7983de1baae0e9dcc95b8f3c27ac9a87c4d98d785c7f0"
+    },
+    "head": {
+      "url": "https://github.com/jgm/skylighting.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:05153ea5a5a898db3ced3c37722465ef22147a52e891f086cdea7349ea196a77",
+          "sha256": "05153ea5a5a898db3ced3c37722465ef22147a52e891f086cdea7349ea196a77"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:b970f5d1beb60c92544c3b63fb1037febd312d7a8e82d2bb2ee0704fa0a83aad",
+          "sha256": "b970f5d1beb60c92544c3b63fb1037febd312d7a8e82d2bb2ee0704fa0a83aad"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:c3c3af4d1decf23292e18372efca36c2f9fc876292d2f8f3d8779042a36cf6d1",
+          "sha256": "c3c3af4d1decf23292e18372efca36c2f9fc876292d2f8f3d8779042a36cf6d1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:b1cd5b52b258b7b7c36faba8f182baceaf622e01d9a2ee3828506369ab543e2b",
+          "sha256": "b1cd5b52b258b7b7c36faba8f182baceaf622e01d9a2ee3828506369ab543e2b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:0a4823c65e4c091aa7b833bf4089a7eee7e6333b12755d568a59d8aa19ee9661",
+          "sha256": "0a4823c65e4c091aa7b833bf4089a7eee7e6333b12755d568a59d8aa19ee9661"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:c7611a29fae5a1a785aec790bab3c32fcfd4d75d18ff9fa88de678526a871d4c",
+          "sha256": "c7611a29fae5a1a785aec790bab3c32fcfd4d75d18ff9fa88de678526a871d4c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skylighting/blobs/sha256:c8228a8537a9a998ce20224bdf88731c0198e7f0e53a5ecb58c08cce95b392a0",
+          "sha256": "c8228a8537a9a998ce20224bdf88731c0198e7f0e53a5ecb58c08cce95b392a0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cabal-install",
+    "ghc"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/skylighting.rb",
+  "ruby_source_checksum": {
+    "sha256": "68a18a4b9366654a23428b197a8c94c14acb67188e9be524f35fabbe8d0f02c0"
+  },
+  "date_added": "2020-06-29T17:43:45+00:00"
+}

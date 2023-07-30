@@ -1,0 +1,127 @@
+{
+  "name": "or-tools",
+  "full_name": "or-tools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Google's Operations Research tools",
+  "license": "Apache-2.0",
+  "homepage": "https://developers.google.com/optimization/",
+  "versions": {
+    "stable": "9.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/or-tools/archive/v9.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bc4b07dc9c23f0cca43b1f5c889f08a59c8f2515836b03d4cc7e0f8f2c879234"
+    },
+    "head": {
+      "url": "https://github.com/google/or-tools.git",
+      "branch": "stable"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:377884e4b2394b19dc13f748e4aa39a4c4d67f77ffd20ca45296f3a033bb10f8",
+          "sha256": "377884e4b2394b19dc13f748e4aa39a4c4d67f77ffd20ca45296f3a033bb10f8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:2f10817c4343154e98e1e8462408c19030bbdeb2c8c7a3e657bc50f7e943fc22",
+          "sha256": "2f10817c4343154e98e1e8462408c19030bbdeb2c8c7a3e657bc50f7e943fc22"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:6cba750eed1316bdd235742c5db675341088b8232bafe87741b4ccb2dc96ebfa",
+          "sha256": "6cba750eed1316bdd235742c5db675341088b8232bafe87741b4ccb2dc96ebfa"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:06a2aa2fdb949a0a36b9eee76afeddaebd09a109cacb70ca0ff4d1a60b70b255",
+          "sha256": "06a2aa2fdb949a0a36b9eee76afeddaebd09a109cacb70ca0ff4d1a60b70b255"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:be3ea00e6a151026e9626c6239271a12501f516b8b6724c88fdfbdf37e0c749d",
+          "sha256": "be3ea00e6a151026e9626c6239271a12501f516b8b6724c88fdfbdf37e0c749d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:fa9ebd2c1d8f0e6e321c7c8c47ff62204028131a962b01e31d3da6625c4404cc",
+          "sha256": "fa9ebd2c1d8f0e6e321c7c8c47ff62204028131a962b01e31d3da6625c4404cc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/or-tools/blobs/sha256:f4cd46165f682741913d2d47be369a3a7b5c60890800fe19a4580c6551b741c7",
+          "sha256": "f4cd46165f682741913d2d47be369a3a7b5c60890800fe19a4580c6551b741c7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "abseil",
+    "cbc",
+    "cgl",
+    "clp",
+    "coinutils",
+    "eigen",
+    "openblas",
+    "osi",
+    "protobuf",
+    "re2"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/or-tools.rb",
+  "ruby_source_checksum": {
+    "sha256": "20767324cc6a4758002821936e16aeffb5d32aa9e721a9294fb8aadeeb4b4173"
+  },
+  "date_added": "2020-10-19T12:37:51+00:00"
+}

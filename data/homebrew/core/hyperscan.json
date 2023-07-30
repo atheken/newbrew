@@ -1,0 +1,107 @@
+{
+  "name": "hyperscan",
+  "full_name": "hyperscan",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance regular expression matching library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.hyperscan.io/",
+  "versions": {
+    "stable": "5.4.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/intel/hyperscan/archive/v5.4.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "32b0f24b3113bbc46b6bfaa05cf7cf45840b6b59333d078cc1f624e4c40b2b99"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperscan/blobs/sha256:a5866b950b8b18122c144b6b6ff2ca64705861d59917a1762bef1faff1cc7b8a",
+          "sha256": "a5866b950b8b18122c144b6b6ff2ca64705861d59917a1762bef1faff1cc7b8a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperscan/blobs/sha256:d67efe0abd515b90c2fe9e10694c99f62e708ac507395aa232bbb54eac0470b6",
+          "sha256": "d67efe0abd515b90c2fe9e10694c99f62e708ac507395aa232bbb54eac0470b6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperscan/blobs/sha256:f000309c80201f6a1ced867c4d36d45a51ea980cd3ee116e853cf03625efcc77",
+          "sha256": "f000309c80201f6a1ced867c4d36d45a51ea980cd3ee116e853cf03625efcc77"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperscan/blobs/sha256:45406945a7c9c98bb01d8dc90ad045746bbe7b0146a522badbc8925dd03d0fd5",
+          "sha256": "45406945a7c9c98bb01d8dc90ad045746bbe7b0146a522badbc8925dd03d0fd5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "boost",
+    "cmake",
+    "pkg-config",
+    "python@3.11",
+    "ragel"
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hyperscan.rb",
+  "ruby_source_checksum": {
+    "sha256": "741e8a2fbc786b88aa366adbd8fd0c60695aba58a6be871d75ac34c0516a47e2"
+  },
+  "date_added": "2016-02-02T15:14:10-05:00"
+}

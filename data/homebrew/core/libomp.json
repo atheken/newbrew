@@ -1,0 +1,117 @@
+{
+  "name": "libomp",
+  "full_name": "libomp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "LLVM's OpenMP runtime library",
+  "license": "MIT",
+  "homepage": "https://openmp.llvm.org/",
+  "versions": {
+    "stable": "16.0.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-16.0.6/openmp-16.0.6.src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a2536f06373774f2829d892b72eea5f97bab20e69b26b03042d947f992eb8e38"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:5528ca5676f0cbb175e80a0d27dcf67d8001ed5025da743a464d8e22085a9b62",
+          "sha256": "5528ca5676f0cbb175e80a0d27dcf67d8001ed5025da743a464d8e22085a9b62"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:3dee22dd4f55d9bb85cc5b89ae5d99e6e2f52b151ca8768c9f71e41cf88f9986",
+          "sha256": "3dee22dd4f55d9bb85cc5b89ae5d99e6e2f52b151ca8768c9f71e41cf88f9986"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:c5c9a353ed022bd805478f108bdc62387f51ccbd4b9ca6bb2568c7e16f66bff3",
+          "sha256": "c5c9a353ed022bd805478f108bdc62387f51ccbd4b9ca6bb2568c7e16f66bff3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:30cb6ac784eaa406e43e48102d4351cb2a2acbb10687ba2b8b5ab9327e860d81",
+          "sha256": "30cb6ac784eaa406e43e48102d4351cb2a2acbb10687ba2b8b5ab9327e860d81"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:d7e7a3bc9015ad377aef9a642ca00c2e186aa740df58079cf68fafad884764e7",
+          "sha256": "d7e7a3bc9015ad377aef9a642ca00c2e186aa740df58079cf68fafad884764e7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:4ae172c013b17cde11b708443b02a88605c10789717d781de860f01737ec8e0b",
+          "sha256": "4ae172c013b17cde11b708443b02a88605c10789717d781de860f01737ec8e0b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libomp/blobs/sha256:c7c1b23acb19fe987543c327f246b4d26e1e917d9b3d2a8467e5c40d7e792117",
+          "sha256": "c7c1b23acb19fe987543c327f246b4d26e1e917d9b3d2a8467e5c40d7e792117"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it can override GCC headers and result in broken builds",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "lit"
+  ],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "llvm": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libomp.rb",
+  "ruby_source_checksum": {
+    "sha256": "bba8e9e3e294447d885e41b757e3db46a0e37dde61c4ebff77cea2ac95b90b76"
+  },
+  "date_added": "2018-02-28T06:20:51-08:00"
+}

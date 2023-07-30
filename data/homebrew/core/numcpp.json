@@ -1,0 +1,81 @@
+{
+  "name": "numcpp",
+  "full_name": "numcpp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ implementation of the Python Numpy library",
+  "license": "MIT",
+  "homepage": "https://dpilger26.github.io/NumCpp",
+  "versions": {
+    "stable": "2.11.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dpilger26/NumCpp/archive/Version_2.11.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ea675775c3535589f268224efa31ae6003a68e95a465e92c99496a0c9366bdc2"
+    },
+    "head": {
+      "url": "https://github.com/dpilger26/NumCpp.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/numcpp/blobs/sha256:d421c5d16d7a8ec7699aa1595f775894027253c1874a79ea14c0ae23a5e70b17",
+          "sha256": "d421c5d16d7a8ec7699aa1595f775894027253c1874a79ea14c0ae23a5e70b17"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/numcpp.rb",
+  "ruby_source_checksum": {
+    "sha256": "720f072e35a4c877b2134117717ec2b51a4d41d2b130d1b3d7d88a77b7b2f180"
+  },
+  "date_added": "2020-08-22T12:18:40+00:00"
+}

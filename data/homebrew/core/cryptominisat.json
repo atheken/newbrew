@@ -1,0 +1,111 @@
+{
+  "name": "cryptominisat",
+  "full_name": "cryptominisat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Advanced SAT solver",
+  "license": "MIT",
+  "homepage": "https://www.msoos.org/cryptominisat5/",
+  "versions": {
+    "stable": "5.11.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/msoos/cryptominisat/archive/5.11.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "20efedfab285293eb8c9804939b5298e43071489c8b09e135e118aec54f682bc"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:8e907ec4f33fba7ec64b46f9393189fc11bdc2192182882da7d5390db6912779",
+          "sha256": "8e907ec4f33fba7ec64b46f9393189fc11bdc2192182882da7d5390db6912779"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:f81c55dc4589092427df6780683e93b86d68094f5b62ce0afb27b01eff88d5c0",
+          "sha256": "f81c55dc4589092427df6780683e93b86d68094f5b62ce0afb27b01eff88d5c0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:c118a63a3a3b450fd6a7bfbafe4a82a343207655766b729b5bc51f6e6ccca426",
+          "sha256": "c118a63a3a3b450fd6a7bfbafe4a82a343207655766b729b5bc51f6e6ccca426"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:13e87a692679f6c3c443096ab4038de98d656e5397a9b99da1d46223ce0aeda6",
+          "sha256": "13e87a692679f6c3c443096ab4038de98d656e5397a9b99da1d46223ce0aeda6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:a8a194eccee06a03623f2a4ed913ab643ba267b4c2a1602e7ee8f6e826d397f1",
+          "sha256": "a8a194eccee06a03623f2a4ed913ab643ba267b4c2a1602e7ee8f6e826d397f1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:da9e09f77d1bcd2323232171bf8faf5dc813d33dc0e76dcab68f014280b161c8",
+          "sha256": "da9e09f77d1bcd2323232171bf8faf5dc813d33dc0e76dcab68f014280b161c8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cryptominisat/blobs/sha256:05219a8badbad06bd37007e2e2b555dd6bffc3edb7ec864a17416cc847872af8",
+          "sha256": "05219a8badbad06bd37007e2e2b555dd6bffc3edb7ec864a17416cc847872af8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python-toml",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cryptominisat.rb",
+  "ruby_source_checksum": {
+    "sha256": "ee503e60ee19e17df39ee74dc2a5f278bcc868fc39fb0e7ce8699f95d51a1267"
+  },
+  "date_added": "2019-01-10T17:16:25+01:00"
+}

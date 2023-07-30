@@ -1,0 +1,109 @@
+{
+  "name": "simdjson",
+  "full_name": "simdjson",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SIMD-accelerated C++ JSON parser",
+  "license": "Apache-2.0",
+  "homepage": "https://simdjson.org",
+  "versions": {
+    "stable": "3.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/simdjson/simdjson/archive/refs/tags/v3.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "121206c9bfe972a2202a74d4cddb8cb0561932427f96d6c4b70fb49a2a74560e"
+    },
+    "head": {
+      "url": "https://github.com/simdjson/simdjson.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:f35bdd3dace95899ac335632b630240fe5e22849d5aad32dbc9f6ecf2914c828",
+          "sha256": "f35bdd3dace95899ac335632b630240fe5e22849d5aad32dbc9f6ecf2914c828"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:c9cd0df3d7c87cb099da20ce577b591b54955d86dcba4ac266a0a71978647926",
+          "sha256": "c9cd0df3d7c87cb099da20ce577b591b54955d86dcba4ac266a0a71978647926"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:cc86de0ac9f84c8ab5cd2222594af58540b89e5b44aad8cf30d45ec5f2b80408",
+          "sha256": "cc86de0ac9f84c8ab5cd2222594af58540b89e5b44aad8cf30d45ec5f2b80408"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:b2cb4e0f5ce9f55c8c8ffae9566779d998da2516ab0289fdc41fba2182b7357c",
+          "sha256": "b2cb4e0f5ce9f55c8c8ffae9566779d998da2516ab0289fdc41fba2182b7357c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:a777711d3f0c8314ee5ec5d17a74c4f26137fd4891aa2e1c72f916969e9e13b0",
+          "sha256": "a777711d3f0c8314ee5ec5d17a74c4f26137fd4891aa2e1c72f916969e9e13b0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:30cf1063404bc53f7fe6af1255d9a25c7e935b1459228532a7af8e780bf7898f",
+          "sha256": "30cf1063404bc53f7fe6af1255d9a25c7e935b1459228532a7af8e780bf7898f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:a16a9bafdbdedc0b4eb7cb8b3994c21ee587eaf37bf92261abb1e8349fa3e6c5",
+          "sha256": "a16a9bafdbdedc0b4eb7cb8b3994c21ee587eaf37bf92261abb1e8349fa3e6c5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/simdjson.rb",
+  "ruby_source_checksum": {
+    "sha256": "dd41ce28208c8d0c85744395c9a63658034e9d0719b0efdf39598fc34744b5b1"
+  },
+  "date_added": "2020-07-18T21:18:04+00:00"
+}

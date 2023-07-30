@@ -1,0 +1,77 @@
+{
+  "name": "pastebinit",
+  "full_name": "pastebinit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Send things to pastebin from the command-line",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://launchpad.net/pastebinit",
+  "versions": {
+    "stable": "1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://launchpad.net/pastebinit/trunk/1.5/+download/pastebinit-1.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0d931dddb3744ed38aa2d319dd2d8a2f38a391011ff99db68ce7c83ab8f5b62f"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pastebinit/blobs/sha256:543364003052f07b9e34bff634ce36374e6a127009cab9f0d7705ccc4fbe0449",
+          "sha256": "543364003052f07b9e34bff634ce36374e6a127009cab9f0d7705ccc4fbe0449"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "docbook2x"
+  ],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pastebinit.rb",
+  "ruby_source_checksum": {
+    "sha256": "aca75e56e90ce427e956b31b737851a4387e4c158c4b94d630110ef0252a0ebd"
+  },
+  "date_added": "2014-03-26T16:56:01+00:00"
+}

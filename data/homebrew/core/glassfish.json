@@ -1,0 +1,109 @@
+{
+  "name": "glassfish",
+  "full_name": "glassfish",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Java EE application server",
+  "license": "EPL-2.0",
+  "homepage": "https://glassfish.org/",
+  "versions": {
+    "stable": "7.0.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.eclipse.org/ee4j/glassfish/glassfish-7.0.7.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "d6465b3e85eb9717e5934332a47648d9928f87063cdd37873c94dd1d234efad9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e",
+          "sha256": "41b0df03f99eb41938ec3ab11c644e68a6233c5d93ac687b823468a1635bce7e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/glassfish/blobs/sha256:b24f7470842debfe625465cc06ecc808abdf720a4240b1ef5804a4a7300e750f",
+          "sha256": "b24f7470842debfe625465cc06ecc808abdf720a4240b1ef5804a4a7300e750f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "payara"
+  ],
+  "conflicts_with_reasons": [
+    "both install the same scripts"
+  ],
+  "link_overwrite": [],
+  "caveats": "You may want to add the following to your .bash_profile:\n  export GLASSFISH_HOME=$HOMEBREW_PREFIX/opt/glassfish/libexec\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glassfish.rb",
+  "ruby_source_checksum": {
+    "sha256": "31f52f6744b47f7bbfd84842de7caba160a1648d7c0db539602e76018bbee5a6"
+  },
+  "date_added": "2011-04-22T07:52:19-07:00"
+}

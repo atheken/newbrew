@@ -1,0 +1,111 @@
+{
+  "name": "cocoapods",
+  "full_name": "cocoapods",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dependency manager for Cocoa projects",
+  "license": "MIT",
+  "homepage": "https://cocoapods.org/",
+  "versions": {
+    "stable": "1.12.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/CocoaPods/CocoaPods/archive/1.12.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "da018fc61694753ecb7ac33b21215fd6fb2ba660bd7d6c56245891de1a5f061c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:6f1fca1cb0df79912e10743a80522e666fe605a1eaa2aac1094c501608fb7ee4",
+          "sha256": "6f1fca1cb0df79912e10743a80522e666fe605a1eaa2aac1094c501608fb7ee4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:8f7eff899cc1807286374e29e634c1008e286c3360df6cbcb90e27b0fe5567a9",
+          "sha256": "8f7eff899cc1807286374e29e634c1008e286c3360df6cbcb90e27b0fe5567a9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:346833fef239df933ddb67341c55c9c4a7e547fc03afdc332861ac2ae8ba3372",
+          "sha256": "346833fef239df933ddb67341c55c9c4a7e547fc03afdc332861ac2ae8ba3372"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:b114ec0a11a2e472026f0f7337d17558bead2ac1122d9c2bb9278fc6b31fd744",
+          "sha256": "b114ec0a11a2e472026f0f7337d17558bead2ac1122d9c2bb9278fc6b31fd744"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:946f0282afe0000ba9e23f30ce2175bc4b1f0c6d7e27145f01be4665b9786f8a",
+          "sha256": "946f0282afe0000ba9e23f30ce2175bc4b1f0c6d7e27145f01be4665b9786f8a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:1fe6f0c45e0c13e122aa1d8bf1f9bd9496fa3bb00fe7bc19286425e029e5c278",
+          "sha256": "1fe6f0c45e0c13e122aa1d8bf1f9bd9496fa3bb00fe7bc19286425e029e5c278"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:e297731632b715118c13688acff976ce56c49df705ba2ae616445fb68cb49152",
+          "sha256": "e297731632b715118c13688acff976ce56c49df705ba2ae616445fb68cb49152"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ruby"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cocoapods.rb",
+  "ruby_source_checksum": {
+    "sha256": "18dcf6d4401345c75153fda8d2b773a62fbac95900fb7bf77abb04c8ce877e9a"
+  },
+  "date_added": "2016-04-22T09:49:14+01:00"
+}

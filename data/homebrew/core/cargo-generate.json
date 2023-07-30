@@ -1,0 +1,114 @@
+{
+  "name": "cargo-generate",
+  "full_name": "cargo-generate",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Use pre-existing git repositories as templates",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/cargo-generate/cargo-generate",
+  "versions": {
+    "stable": "0.18.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cargo-generate/cargo-generate/archive/refs/tags/v0.18.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e44e021dbc83cc862e4f52fce76ed6cfab0cf08d74505fe177bec048f981ac9b"
+    },
+    "head": {
+      "url": "https://github.com/cargo-generate/cargo-generate.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:f1423eba17a969331a6245be5750dd057993c96dd7d3f88e6e10f3775522bb44",
+          "sha256": "f1423eba17a969331a6245be5750dd057993c96dd7d3f88e6e10f3775522bb44"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:872007cf7741a8c95e571d06cae772ce30bf4b05792cb38cc3070290b88a0657",
+          "sha256": "872007cf7741a8c95e571d06cae772ce30bf4b05792cb38cc3070290b88a0657"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:a279ff568f299917443c319f901544faf7bc49e067758e6b011710a286dc95af",
+          "sha256": "a279ff568f299917443c319f901544faf7bc49e067758e6b011710a286dc95af"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:83f7d54dc2ca09ae6696e2e58e5e9601c2d4ef8404630c9772ea7a48b1145707",
+          "sha256": "83f7d54dc2ca09ae6696e2e58e5e9601c2d4ef8404630c9772ea7a48b1145707"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:99a7741c22c61bf9f48f0b0e1b565231b35f4a1f52a5836bc0f86d1dd490ff8f",
+          "sha256": "99a7741c22c61bf9f48f0b0e1b565231b35f4a1f52a5836bc0f86d1dd490ff8f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:6f7b3ce671653d4f4660943708f41d49846d0aef7f4018cdf2d076d5c96627ce",
+          "sha256": "6f7b3ce671653d4f4660943708f41d49846d0aef7f4018cdf2d076d5c96627ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-generate/blobs/sha256:7100287872bf0fabcf2a03cfa891eb83c63a780c84d8b03f07b9ba69ae6711bc",
+          "sha256": "7100287872bf0fabcf2a03cfa891eb83c63a780c84d8b03f07b9ba69ae6711bc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libgit2",
+    "libssh2",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-generate.rb",
+  "ruby_source_checksum": {
+    "sha256": "51ec86d38fbf73d12fa683404a9e409afce806fdedb4c99156be5494e57bd15c"
+  },
+  "date_added": "2023-06-20T21:34:35+08:00"
+}

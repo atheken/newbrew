@@ -1,0 +1,117 @@
+{
+  "name": "localstack",
+  "full_name": "localstack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fully functional local AWS cloud stack",
+  "license": "Apache-2.0",
+  "homepage": "https://localstack.cloud/",
+  "versions": {
+    "stable": "2.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/b3/84/f52570efd364ad562cc63889f8cd7015fd5e3e433b145aed3656842d621c/localstack-2.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3b3ed3d4e13fff791ebcc8d9e58617b7ba62b87ae3a6925645050134b1643e2d"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:2308f4abcd5a87b75b9e8f5d10ecfc71e202a7939f730e60ca134e38863ee3a2",
+          "sha256": "2308f4abcd5a87b75b9e8f5d10ecfc71e202a7939f730e60ca134e38863ee3a2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:f0188d0d80734ef39bf8eb6a42387a2d7cd7ce93f211b93efd8698f854a598c7",
+          "sha256": "f0188d0d80734ef39bf8eb6a42387a2d7cd7ce93f211b93efd8698f854a598c7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:6447d93ca4234b68f6d525fdb90eb9307a06928a21106e01f25e5bdb424d3215",
+          "sha256": "6447d93ca4234b68f6d525fdb90eb9307a06928a21106e01f25e5bdb424d3215"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:7578a29648be0bd826fbafbe83697db76de71fb32ecfcfd9cb446698c7b5eab2",
+          "sha256": "7578a29648be0bd826fbafbe83697db76de71fb32ecfcfd9cb446698c7b5eab2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:4e9a13e6c8c93d2bdeed8e4baeb1401669d92371f3fd55f936a9006896f07d38",
+          "sha256": "4e9a13e6c8c93d2bdeed8e4baeb1401669d92371f3fd55f936a9006896f07d38"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:7ed697921ce9cf38fcbf10e480072b41a9e8a058aff7c2fae9b95f9efaed7f1e",
+          "sha256": "7ed697921ce9cf38fcbf10e480072b41a9e8a058aff7c2fae9b95f9efaed7f1e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/localstack/blobs/sha256:a0b793be9e75af8d6250655565501001e8562dc7b616506a64b2b642af28f265",
+          "sha256": "a0b793be9e75af8d6250655565501001e8562dc7b616506a64b2b642af28f265"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "pygments",
+    "python-tabulate",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [
+    "docker"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/localstack.rb",
+  "ruby_source_checksum": {
+    "sha256": "e2290bcd807abd57eac338bc23821ebe651e75cdce9011e87e4f8eb64f0430bb"
+  },
+  "date_added": "2020-08-27T11:51:39+00:00"
+}

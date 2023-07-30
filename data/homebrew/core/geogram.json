@@ -1,0 +1,112 @@
+{
+  "name": "geogram",
+  "full_name": "geogram",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Programming library of geometric algorithms",
+  "license": "BSD-3-Clause and Public Domain and LGPL-3.0-or-later and MIT",
+  "homepage": "https://brunolevy.github.io/geogram/",
+  "versions": {
+    "stable": "1.8.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/BrunoLevy/geogram/releases/download/v1.8.4/geogram_1.8.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "98e9c2de1dfad795296ea62262c6b3d74000ef5d2cd903af33189592ea0a8a6f"
+    },
+    "head": {
+      "url": "https://github.com/BrunoLevy/geogram.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:e942b9e41c7318f56a28a8a9d7d299da6373a0eb7f3670d714225314dedaa754",
+          "sha256": "e942b9e41c7318f56a28a8a9d7d299da6373a0eb7f3670d714225314dedaa754"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:9a5e4c3ee1bf17f5e52588b5244a4b5f6de2bf882fe0a4c11b6fdb4e6df6561e",
+          "sha256": "9a5e4c3ee1bf17f5e52588b5244a4b5f6de2bf882fe0a4c11b6fdb4e6df6561e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:54ab46644879f7dfdd976581cd63831cd6803e45f0267f42186775c16cce95e4",
+          "sha256": "54ab46644879f7dfdd976581cd63831cd6803e45f0267f42186775c16cce95e4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:16ae176fdb0f061d782c5b7114e3f87cd155550f5af82ab79916c31f2b09d573",
+          "sha256": "16ae176fdb0f061d782c5b7114e3f87cd155550f5af82ab79916c31f2b09d573"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:b81c3f16f8f5ffff9071c29c0cb6f1ccdb181cbe5f7a8fb2d44e3290489a20d6",
+          "sha256": "b81c3f16f8f5ffff9071c29c0cb6f1ccdb181cbe5f7a8fb2d44e3290489a20d6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:03e140b0d80779b4560026a8df1fa4727ca192022063b45e8c8c56f7f86c4b27",
+          "sha256": "03e140b0d80779b4560026a8df1fa4727ca192022063b45e8c8c56f7f86c4b27"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/geogram/blobs/sha256:5c5c94c304b70df24cf669fcd0ed305c08d73c49d1db1d59f1b3d1e68e167821",
+          "sha256": "5c5c94c304b70df24cf669fcd0ed305c08d73c49d1db1d59f1b3d1e68e167821"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [
+    "glfw"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/geogram.rb",
+  "ruby_source_checksum": {
+    "sha256": "3e97ed14dfe20939f47e4bcb624325501de5d400e43498fd23ffb33ca6f7ac75"
+  },
+  "date_added": "2018-08-26T04:53:58+01:00"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "gmic",
+  "full_name": "gmic",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Full-Featured Open-Source Framework for Image Processing",
+  "license": "CECILL-2.1",
+  "homepage": "https://gmic.eu/",
+  "versions": {
+    "stable": "3.2.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gmic.eu/files/source/gmic_3.2.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "55993e55a30fe2da32f9533b9db2a3250affa2b32003b0c49c36eec2b2c6e007"
+    },
+    "head": {
+      "url": "https://github.com/GreycLab/gmic.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:af8dcc248995ba79019cd490b80258a1afb8eec7fcb7f0f317ca5860f95ccbac",
+          "sha256": "af8dcc248995ba79019cd490b80258a1afb8eec7fcb7f0f317ca5860f95ccbac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:228e98960e94ce29af2adf1d1aca78837176b7504957143d9cd15180ec5dda98",
+          "sha256": "228e98960e94ce29af2adf1d1aca78837176b7504957143d9cd15180ec5dda98"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:84bd46cd387916397daa14303877ee5b56f773bc766ebb58c164ae7ee9d34b99",
+          "sha256": "84bd46cd387916397daa14303877ee5b56f773bc766ebb58c164ae7ee9d34b99"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:970e878955061bf68a212400b9c219cc8de8776ac2d431614c0467a471a153e5",
+          "sha256": "970e878955061bf68a212400b9c219cc8de8776ac2d431614c0467a471a153e5"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:9639de0c722952bb6bea2af4a9d2e4957f0c7a95266d0ef25d7191049121f2a0",
+          "sha256": "9639de0c722952bb6bea2af4a9d2e4957f0c7a95266d0ef25d7191049121f2a0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:9eb871a19c482c244e367b7513225aba05f801bbbf595a87221ea2f96ad3c007",
+          "sha256": "9eb871a19c482c244e367b7513225aba05f801bbbf595a87221ea2f96ad3c007"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gmic/blobs/sha256:cae040fe5358ac7ce3d20e6e4c30eabef88b8f154123c5b969b80c294cc8dfe2",
+          "sha256": "cae040fe5358ac7ce3d20e6e4c30eabef88b8f154123c5b969b80c294cc8dfe2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fftw",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "openexr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gmic.rb",
+  "ruby_source_checksum": {
+    "sha256": "3884965b85b8dc0560023885098d836e36126917fad20ce22ed1151e53a3b313"
+  },
+  "date_added": "2016-11-09T11:51:30+00:00"
+}

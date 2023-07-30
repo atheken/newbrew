@@ -1,0 +1,115 @@
+{
+  "name": "ethereum",
+  "full_name": "ethereum",
+  "tap": "homebrew/core",
+  "oldname": "geth",
+  "oldnames": [
+    "geth"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Official Go implementation of the Ethereum protocol",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://geth.ethereum.org/",
+  "versions": {
+    "stable": "1.12.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ethereum/go-ethereum/archive/v1.12.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dcd73f341d89f6a195bcdd115066bc7b0ea2ca9983be351ea06a3d41e621f678"
+    },
+    "head": {
+      "url": "https://github.com/ethereum/go-ethereum.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:2b2f6488cffe7b7cbb75e846efbf6f755e0033c1bc62ab2c2b257bac1df4a1b2",
+          "sha256": "2b2f6488cffe7b7cbb75e846efbf6f755e0033c1bc62ab2c2b257bac1df4a1b2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:32efd24eecbe06732ec77cf8bba83aa16a17e41586285a1e9d841aba5a6c91f1",
+          "sha256": "32efd24eecbe06732ec77cf8bba83aa16a17e41586285a1e9d841aba5a6c91f1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:b6af2e1912b164dd8038d5856cf256837575370252d0272bf0f9e3cb4c6294dc",
+          "sha256": "b6af2e1912b164dd8038d5856cf256837575370252d0272bf0f9e3cb4c6294dc"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:106c60b66c726072c145de268b96ae23927376cd98845f4dbee61340f020988b",
+          "sha256": "106c60b66c726072c145de268b96ae23927376cd98845f4dbee61340f020988b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:aa5aa36411e3f4748bf942c8258a9ed042dd461764628509d16d19b682693ac8",
+          "sha256": "aa5aa36411e3f4748bf942c8258a9ed042dd461764628509d16d19b682693ac8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:b69331ab632e9643da9ad0c87073585f419191f8f6d89494ae2ee8a1b71b1133",
+          "sha256": "b69331ab632e9643da9ad0c87073585f419191f8f6d89494ae2ee8a1b71b1133"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ethereum/blobs/sha256:12baec581fe99ef73cb519262a9bda4b73e6dfb2adef4d119abe26fd969e1e58",
+          "sha256": "12baec581fe99ef73cb519262a9bda4b73e6dfb2adef4d119abe26fd969e1e58"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "erigon"
+  ],
+  "conflicts_with_reasons": [
+    "both install `evm` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ethereum.rb",
+  "ruby_source_checksum": {
+    "sha256": "1bf6e393cbf6ab093bee714d1a7ea93509b927264e6f0ce41ba6afccd1181342"
+  },
+  "date_added": "2018-04-19T08:18:19-07:00"
+}

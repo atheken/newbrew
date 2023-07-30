@@ -1,0 +1,109 @@
+{
+  "name": "fn",
+  "full_name": "fn",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for the fn project",
+  "license": "Apache-2.0",
+  "homepage": "https://fnproject.io",
+  "versions": {
+    "stable": "0.6.26",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fnproject/cli/archive/0.6.26.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dc57f9f93c1a4c7c8f9c88b7089b8e066cfb4ca79f48f9aa1dd972ceabb980bb"
+    },
+    "head": {
+      "url": "https://github.com/fnproject/cli.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3",
+          "sha256": "0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3",
+          "sha256": "0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3",
+          "sha256": "0b803c5a7f1f72b3369f0200c42db5075429886c5df54a1b362dc12c37af74a3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a",
+          "sha256": "52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a",
+          "sha256": "52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a",
+          "sha256": "52efc1bc9787ce872dab71ad180777e55ebc0d9ebdf11238b469e0f93793d73a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fn/blobs/sha256:d804cb9db019c4ff38e2cc3531259bd07f29f1f8256bf7f6252837dc61b8b204",
+          "sha256": "d804cb9db019c4ff38e2cc3531259bd07f29f1f8256bf7f6252837dc61b8b204"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fn.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4d70f9fad2ff6c54cebbc6e8e6666dcb59d825023e07296791d2a77412861ea"
+  },
+  "date_added": "2017-09-24T06:03:42-04:00"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "netpbm",
+  "full_name": "netpbm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Image manipulation",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://netpbm.sourceforge.io/",
+  "versions": {
+    "stable": "10.86.38",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://svn.code.sf.net/p/netpbm/code/stable",
+      "tag": null,
+      "revision": "4534",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://svn.code.sf.net/p/netpbm/code/trunk",
+      "branch": null
+    }
+  },
+  "revision": 1,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:9ff16b71c6348e3942f637886f45e5b07b27357056d587b4d2484380d90fdd97",
+          "sha256": "9ff16b71c6348e3942f637886f45e5b07b27357056d587b4d2484380d90fdd97"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:1d68b2864f75de77f1acee7cb97445ee175115cc6d03164d09381b184bb61e16",
+          "sha256": "1d68b2864f75de77f1acee7cb97445ee175115cc6d03164d09381b184bb61e16"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:e5f94b26bd98fc1777d791044b0cfe8fe15d251f89d5c21a6a126617c8d25af7",
+          "sha256": "e5f94b26bd98fc1777d791044b0cfe8fe15d251f89d5c21a6a126617c8d25af7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:23182fe0629870931c9ef21421a30896ed42c9b1300696779d9ec415977dcb41",
+          "sha256": "23182fe0629870931c9ef21421a30896ed42c9b1300696779d9ec415977dcb41"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:99818b30ee4b6ed3f70b2a6d5a3e11082a5f4ebd196c9aeb45c54ada94bc1702",
+          "sha256": "99818b30ee4b6ed3f70b2a6d5a3e11082a5f4ebd196c9aeb45c54ada94bc1702"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:68867880d23ac8fec178025a70390c43aafb1db7d8d4af782e0cff3686d724d6",
+          "sha256": "68867880d23ac8fec178025a70390c43aafb1db7d8d4af782e0cff3686d724d6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netpbm/blobs/sha256:fdf9b76989406e9a48304722230113c69d8a1b7ec6c0843d0ef6adea18ceafde",
+          "sha256": "fdf9b76989406e9a48304722230113c69d8a1b7ec6c0843d0ef6adea18ceafde"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "jasper",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "jbigkit"
+  ],
+  "conflicts_with_reasons": [
+    "both install `pbm.5` and `pgm.5` files"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/netpbm.rb",
+  "ruby_source_checksum": {
+    "sha256": "116b72d477a658a3d76a1566e169268ea6da26f44d4fdd3a9bef7ce59d8c8530"
+  },
+  "date_added": "2010-09-27T13:27:32-07:00"
+}

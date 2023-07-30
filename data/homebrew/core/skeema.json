@@ -1,0 +1,109 @@
+{
+  "name": "skeema",
+  "full_name": "skeema",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Declarative pure-SQL schema management for MySQL and MariaDB",
+  "license": "Apache-2.0",
+  "homepage": "https://www.skeema.io/",
+  "versions": {
+    "stable": "1.10.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/skeema/skeema/archive/refs/tags/v1.10.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "25191f91d9453402f938956f8ecd7cd20236382327902310792626ac95937366"
+    },
+    "head": {
+      "url": "https://github.com/skeema/skeema.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486",
+          "sha256": "83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486",
+          "sha256": "83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486",
+          "sha256": "83050c7c49a78ff10bc330103e5ad44fe02d962a20cfb9191f83669137f6e486"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71",
+          "sha256": "64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71",
+          "sha256": "64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71",
+          "sha256": "64cd57648d55e3df78b920f5a29325d20c1e4699ad6d60056ff681d321f72b71"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skeema/blobs/sha256:bc7475791b609fa4f72a5250b3b6e6738b2e24b8fae6643c294d048e8af5344f",
+          "sha256": "bc7475791b609fa4f72a5250b3b6e6738b2e24b8fae6643c294d048e8af5344f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/skeema.rb",
+  "ruby_source_checksum": {
+    "sha256": "ee496499bb17eb77d0e15835d5ba15bb30a06a1fa20cc2e1465f7b48f37ff5f4"
+  },
+  "date_added": "2022-12-15T01:53:25+00:00"
+}

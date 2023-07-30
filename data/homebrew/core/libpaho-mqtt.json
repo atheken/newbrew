@@ -1,0 +1,105 @@
+{
+  "name": "libpaho-mqtt",
+  "full_name": "libpaho-mqtt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Eclipse Paho C client library for MQTT",
+  "license": "EPL-2.0",
+  "homepage": "https://eclipse.github.io/paho.mqtt.c/",
+  "versions": {
+    "stable": "1.3.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/eclipse/paho.mqtt.c/archive/refs/tags/v1.3.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6a70a664ed3bbcc1eafdc45a5dc11f3ad70c9bac12a54c2f8cef15c0e7d0a93b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:1b1949c46f45c38beac0417ebc1d81c431a5ed725ca620eea6cfdc8a0c03990e",
+          "sha256": "1b1949c46f45c38beac0417ebc1d81c431a5ed725ca620eea6cfdc8a0c03990e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:617f7bd6f68f83473ffdb893623600f8206d8db03df74e8797ece00861de2d64",
+          "sha256": "617f7bd6f68f83473ffdb893623600f8206d8db03df74e8797ece00861de2d64"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:b7fe29b30b2e02016aa06329badbd7953a80abe9c974c26658b1fb8b9b35ad6d",
+          "sha256": "b7fe29b30b2e02016aa06329badbd7953a80abe9c974c26658b1fb8b9b35ad6d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:f9ecee90f911fc2f3209ac17130f214e583e32a0a87268b485cc2ee5acfb174b",
+          "sha256": "f9ecee90f911fc2f3209ac17130f214e583e32a0a87268b485cc2ee5acfb174b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:67f3cdaf51cb4c730facc65931f8245bb253bf560f8a444d83dfcbe976532973",
+          "sha256": "67f3cdaf51cb4c730facc65931f8245bb253bf560f8a444d83dfcbe976532973"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:fa05a2643fe2956e4a838777f34df44f8ef72d096438229c9d6c49351c2e9c9a",
+          "sha256": "fa05a2643fe2956e4a838777f34df44f8ef72d096438229c9d6c49351c2e9c9a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libpaho-mqtt/blobs/sha256:1ea31b35020c2ce8c4a3257ee8a36fbe873649f1ee8d421d5eadd22c992e9702",
+          "sha256": "1ea31b35020c2ce8c4a3257ee8a36fbe873649f1ee8d421d5eadd22c992e9702"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libpaho-mqtt.rb",
+  "ruby_source_checksum": {
+    "sha256": "0a0ed955e5eac78d8f5846aa7761e09bb717157e9ed1ad084289eae753fc3bf1"
+  },
+  "date_added": "2023-05-26T13:31:49-04:00"
+}

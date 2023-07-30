@@ -1,0 +1,122 @@
+{
+  "name": "h2o",
+  "full_name": "h2o",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "HTTP server with support for HTTP/1.x and HTTP/2",
+  "license": "MIT",
+  "homepage": "https://github.com/h2o/h2o/",
+  "versions": {
+    "stable": "2.2.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/h2o/h2o/archive/v2.2.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f8cbc1b530d85ff098f6efc2c3fdbc5e29baffb30614caac59d5c710f7bda201"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:1227fcbf6a078a4448106c6e60af24e1bb271823a50590bf201e4887784b8edb",
+          "sha256": "1227fcbf6a078a4448106c6e60af24e1bb271823a50590bf201e4887784b8edb"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:df4235fa62ee97877317730f405c523eb091f32ec9bf3ad433b9a72596a60fe3",
+          "sha256": "df4235fa62ee97877317730f405c523eb091f32ec9bf3ad433b9a72596a60fe3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:08434131f8e46623e330dbfe07d4d2010cd9c55d28b308c04a93efb6a5cfb4a2",
+          "sha256": "08434131f8e46623e330dbfe07d4d2010cd9c55d28b308c04a93efb6a5cfb4a2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:4d046c5d98b9a75b8f53bdc068f2246c7c1958e8f4863ed2f8f2610ee6674934",
+          "sha256": "4d046c5d98b9a75b8f53bdc068f2246c7c1958e8f4863ed2f8f2610ee6674934"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:bd75d169a42961123cc4791aa219572cf9181185ae0cb8679a3a10e7705a688c",
+          "sha256": "bd75d169a42961123cc4791aa219572cf9181185ae0cb8679a3a10e7705a688c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:d54fbb44713fa39e3172e0e70a224fbd67e7657357c8179a2c257b510a9bf167",
+          "sha256": "d54fbb44713fa39e3172e0e70a224fbd67e7657357c8179a2c257b510a9bf167"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/h2o/blobs/sha256:ec3f7d26e8df24768cf2953db461dcff9a5713bb79a23c553cd30016b6a7fba6",
+          "sha256": "ec3f7d26e8df24768cf2953db461dcff9a5713bb79a23c553cd30016b6a7fba6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A basic example configuration file has been placed in $HOMEBREW_PREFIX/etc/h2o.\n\nYou can find fuller, unmodified examples in $HOMEBREW_PREFIX/opt/h2o/share/h2o/examples.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/h2o/bin/h2o",
+      "-c",
+      "/home/linuxbrew/.linuxbrew/etc/h2o/h2o.conf"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    }
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/h2o.rb",
+  "ruby_source_checksum": {
+    "sha256": "b1b5d45f8dc92682bf066c100aacf0311c245f18d86fa8d3c90df444ab6570cc"
+  },
+  "date_added": "2015-01-13T13:53:54+00:00"
+}

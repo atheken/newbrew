@@ -1,0 +1,111 @@
+{
+  "name": "gf",
+  "full_name": "gf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "App development framework of Golang",
+  "license": "MIT",
+  "homepage": "https://goframe.org",
+  "versions": {
+    "stable": "2.5.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gogf/gf/archive/refs/tags/v2.5.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a15942d9d2d644a4cb9f8982a54c3ee58cb7830db14fa2c3f661164e931c8931"
+    },
+    "head": {
+      "url": "https://github.com/gogf/gf.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:13e8206c1c67974d00e9c98ef7c43b36c4077d7d46eb5038e54f4c1722ccb990",
+          "sha256": "13e8206c1c67974d00e9c98ef7c43b36c4077d7d46eb5038e54f4c1722ccb990"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:0da836294f46b8ae7c2e19fc9d7815eeb39347fa48766abedc8e29fabeb2cf90",
+          "sha256": "0da836294f46b8ae7c2e19fc9d7815eeb39347fa48766abedc8e29fabeb2cf90"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:1c7f06021c00530b6923682eb014081df33a4c2eb198104d4d3a3779b0a50770",
+          "sha256": "1c7f06021c00530b6923682eb014081df33a4c2eb198104d4d3a3779b0a50770"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:a007d763cc4c893a2171ded871b80973dbde9a944472c75d9c5032a780d8e1c6",
+          "sha256": "a007d763cc4c893a2171ded871b80973dbde9a944472c75d9c5032a780d8e1c6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:1c2855a8b090f889fe8cce5f521cb03c542f7e588ac69b225c3bea874113e052",
+          "sha256": "1c2855a8b090f889fe8cce5f521cb03c542f7e588ac69b225c3bea874113e052"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:5bca6a0521be465a237950a2f9657e58fd21e1a3124df2e6945b683c13c5ef95",
+          "sha256": "5bca6a0521be465a237950a2f9657e58fd21e1a3124df2e6945b683c13c5ef95"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gf/blobs/sha256:0a20b417ec518742314be6afd4104fd86e5c757dc6794d87f800faf7ab90886b",
+          "sha256": "0a20b417ec518742314be6afd4104fd86e5c757dc6794d87f800faf7ab90886b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "go"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gf.rb",
+  "ruby_source_checksum": {
+    "sha256": "1729c58f254d6c99e8be5849aa106d89eb76af60890a9163ce601740230e5b21"
+  },
+  "date_added": "2022-12-07T16:36:08+00:00"
+}

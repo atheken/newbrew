@@ -1,0 +1,123 @@
+{
+  "name": "asymptote",
+  "full_name": "asymptote",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Powerful descriptive vector graphics language",
+  "license": "LGPL-3.0-only",
+  "homepage": "https://asymptote.sourceforge.io",
+  "versions": {
+    "stable": "2.86",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/asymptote/2.86/asymptote-2.86.src.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c4ebad1fc3c7b3ce52d89f5fd7e731830d2e6147de7e4c04f8f5cd36cff3c91f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:c12ac4a610d83f3dcca34f349e85b7aa21c9d3d090a98bfc3f98541df182fd71",
+          "sha256": "c12ac4a610d83f3dcca34f349e85b7aa21c9d3d090a98bfc3f98541df182fd71"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:3db950622ff0f9af9e90f212bb5d432dc8cc436a5678a2ffc0558692c2077d97",
+          "sha256": "3db950622ff0f9af9e90f212bb5d432dc8cc436a5678a2ffc0558692c2077d97"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:b3ff44aa5d3df47a1066e98b704aac227f399a6539cd3ea8a2d6cb1eee1372ff",
+          "sha256": "b3ff44aa5d3df47a1066e98b704aac227f399a6539cd3ea8a2d6cb1eee1372ff"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:dc5a647b7e543ef4eae17b0b7a819be71bf5e893fdf01571b1d2e9d1c6c4560d",
+          "sha256": "dc5a647b7e543ef4eae17b0b7a819be71bf5e893fdf01571b1d2e9d1c6c4560d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:881a3aaa436253109c3321d7ec72182478c5dd2f7cdfcac3dd4fd15d416d7bef",
+          "sha256": "881a3aaa436253109c3321d7ec72182478c5dd2f7cdfcac3dd4fd15d416d7bef"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:f6206db672499eb6381f93fa308db358f6d157fb17f5c2e0662263eb570014d0",
+          "sha256": "f6206db672499eb6381f93fa308db358f6d157fb17f5c2e0662263eb570014d0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/asymptote/blobs/sha256:cef3ad12215b498c2f88690861ac8cac4b8f31d82c0917ad743bc81365fcf690",
+          "sha256": "cef3ad12215b498c2f88690861ac8cac4b8f31d82c0917ad743bc81365fcf690"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "glm"
+  ],
+  "dependencies": [
+    "fftw",
+    "ghostscript",
+    "gsl",
+    "readline",
+    "freeglut"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/asymptote.rb",
+  "ruby_source_checksum": {
+    "sha256": "cb7e14f46d61b1a7c8325e8f55836e4f605c032426a09a715dbb14a781384348"
+  },
+  "date_added": "2010-08-30T18:09:39+02:00"
+}

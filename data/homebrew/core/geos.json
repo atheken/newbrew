@@ -1,0 +1,105 @@
+{
+  "name": "geos",
+  "full_name": "geos",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Geometry Engine",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://libgeos.org/",
+  "versions": {
+    "stable": "3.12.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.osgeo.org/geos/geos-3.12.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "d96db96011259178a35555a0f6d6e75a739e52a495a6b2aa5efb3d75390fbc39"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:3ba823368eb77741222d965f954b635e779b96eb1bf646f1ec6d5c688714f4c3",
+          "sha256": "3ba823368eb77741222d965f954b635e779b96eb1bf646f1ec6d5c688714f4c3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:260454c4c2ec6ce753eed67c930e0bffb4209e5120c18b11de8526217bc01298",
+          "sha256": "260454c4c2ec6ce753eed67c930e0bffb4209e5120c18b11de8526217bc01298"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:6fde6c00108bb83d3fe7c463a8b6463f711533d243be257ae672c5f6c8b5d821",
+          "sha256": "6fde6c00108bb83d3fe7c463a8b6463f711533d243be257ae672c5f6c8b5d821"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:73ddca31e205dd9f87a713c702ff18a312522b6ffaa4983ac2fb1187111682f3",
+          "sha256": "73ddca31e205dd9f87a713c702ff18a312522b6ffaa4983ac2fb1187111682f3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:1a14c6f67d8299f354a35e3dcf3bdb60dd41a4ded646dcecff1cf0733510e4d7",
+          "sha256": "1a14c6f67d8299f354a35e3dcf3bdb60dd41a4ded646dcecff1cf0733510e4d7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:4d14d5caafcb81dbe582a4ec5174ca2ac659fd406a4cb97c52962b1314172634",
+          "sha256": "4d14d5caafcb81dbe582a4ec5174ca2ac659fd406a4cb97c52962b1314172634"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/geos/blobs/sha256:e7c3514a35b53d8ddff3598956b39bf34fe8b95a873c32117abe99764e4805db",
+          "sha256": "e7c3514a35b53d8ddff3598956b39bf34fe8b95a873c32117abe99764e4805db"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/geos.rb",
+  "ruby_source_checksum": {
+    "sha256": "8587cb36f09bf7f3244b7ff4b6516b4e58e5a8239f13f623dca222bc1401be76"
+  },
+  "date_added": "2009-10-02T11:04:48-07:00"
+}

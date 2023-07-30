@@ -1,0 +1,127 @@
+{
+  "name": "swift-protobuf",
+  "full_name": "swift-protobuf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Plugin and runtime library for using protobuf with Swift",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/apple/swift-protobuf",
+  "versions": {
+    "stable": "1.22.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/apple/swift-protobuf/archive/1.22.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a1c023c2eaf393350800e3cfadbea327c48f072626df4b12f238a52eee3a0f7b"
+    },
+    "head": {
+      "url": "https://github.com/apple/swift-protobuf.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:d0c3ad89a86fed8f23163d4fc31a5f8652ccd21640967372685670a0d9647126",
+          "sha256": "d0c3ad89a86fed8f23163d4fc31a5f8652ccd21640967372685670a0d9647126"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:c0adf4afc0fdd0ad5e3b09f8c42df914803e4c3cb844a4e9d8b656fb81aabe03",
+          "sha256": "c0adf4afc0fdd0ad5e3b09f8c42df914803e4c3cb844a4e9d8b656fb81aabe03"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:8c4be07b3f2f920a4a15b1bc7b212ed8a48b330dc872f3783940f7e0c96d14b1",
+          "sha256": "8c4be07b3f2f920a4a15b1bc7b212ed8a48b330dc872f3783940f7e0c96d14b1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:f353ecca6db6bd4a06bd45d62308720889d2f71cb0767a0079244301ee16fd6a",
+          "sha256": "f353ecca6db6bd4a06bd45d62308720889d2f71cb0767a0079244301ee16fd6a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:12fa11360a9034aadf3a63fd96bb2a30082ab9596f8a7e1449ed2d18146d2efe",
+          "sha256": "12fa11360a9034aadf3a63fd96bb2a30082ab9596f8a7e1449ed2d18146d2efe"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:5072488cfef69bd220cee4327ad46d9f39bdb49c2045798d8852c71396b473e1",
+          "sha256": "5072488cfef69bd220cee4327ad46d9f39bdb49c2045798d8852c71396b473e1"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/swift-protobuf/blobs/sha256:2109d7354d89d9faf3f5faf0d9fdb8161f2e6e9501762070467655105fe47eda",
+          "sha256": "2109d7354d89d9faf3f5faf0d9fdb8161f2e6e9501762070467655105fe47eda"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "protobuf"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "swift"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": "8.3",
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/swift-protobuf.rb",
+  "ruby_source_checksum": {
+    "sha256": "16b171dc1cb6b1d89245a03900e1035dce7f37d0b3bb941d6a2522af37955718"
+  },
+  "date_added": "2017-10-21T05:14:19-07:00"
+}

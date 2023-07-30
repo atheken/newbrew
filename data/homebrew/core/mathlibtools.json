@@ -1,0 +1,114 @@
+{
+  "name": "mathlibtools",
+  "full_name": "mathlibtools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lean prover mathlib supporting tools",
+  "license": "Apache-2.0",
+  "homepage": "https://pypi.org/project/mathlibtools",
+  "versions": {
+    "stable": "1.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ae/6a/815d7f65dc853973b13be082fefe797074e633407ef1262a62bc0be84203/mathlibtools-1.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9a49f4cb7355fda72792a5738bcc5df927b1e102efc719adfbe16db199a0ac6b"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:4886dd48fbcec4731e407ad2c899150ce2078dc06ca41790716cba6342c08958",
+          "sha256": "4886dd48fbcec4731e407ad2c899150ce2078dc06ca41790716cba6342c08958"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:6026ec4e75212ff30f1ad1cf556ba37e15ee28bc50cdf812608a1d78b811c901",
+          "sha256": "6026ec4e75212ff30f1ad1cf556ba37e15ee28bc50cdf812608a1d78b811c901"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:8f1c0e57fd57b1b0d51318ac15074803a68c070e171ce8b442966ea2cb36e727",
+          "sha256": "8f1c0e57fd57b1b0d51318ac15074803a68c070e171ce8b442966ea2cb36e727"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:f84b77512c7743ca62c5c586aa4612ae42c9ed761953ff935e928dcf0154d3ec",
+          "sha256": "f84b77512c7743ca62c5c586aa4612ae42c9ed761953ff935e928dcf0154d3ec"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:b1a0a6ae7ef313651b03a4fa604ad3fcc477acf345e50077b6b8570a8515bee3",
+          "sha256": "b1a0a6ae7ef313651b03a4fa604ad3fcc477acf345e50077b6b8570a8515bee3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:391fa1fdde496e991f53f3f5fa8ae956b3bc592b1e6e285ca95736f1f0bc0f5a",
+          "sha256": "391fa1fdde496e991f53f3f5fa8ae956b3bc592b1e6e285ca95736f1f0bc0f5a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mathlibtools/blobs/sha256:bc5008b8bb01452528439b06707376f1e6723d530222c9642ffc80d5f1b4bca4",
+          "sha256": "bc5008b8bb01452528439b06707376f1e6723d530222c9642ffc80d5f1b4bca4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [
+    "lean"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mathlibtools.rb",
+  "ruby_source_checksum": {
+    "sha256": "01f4df3dec291837b4cca223b9cec154dcf9394b2e00813fe647843dc8d9cd71"
+  },
+  "date_added": "2021-05-16T01:33:01+00:00"
+}

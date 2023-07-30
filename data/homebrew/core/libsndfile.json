@@ -1,0 +1,118 @@
+{
+  "name": "libsndfile",
+  "full_name": "libsndfile",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for files containing sampled sound",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://libsndfile.github.io/libsndfile/",
+  "versions": {
+    "stable": "1.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libsndfile/libsndfile/releases/download/1.2.0/libsndfile-1.2.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0e30e7072f83dc84863e2e55f299175c7e04a5902ae79cfb99d4249ee8f6d60a"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:d47a7f33280fbfe3cb631ca61ab171a7ffaa47034d11ba319a3c3bb5b4f0f33b",
+          "sha256": "d47a7f33280fbfe3cb631ca61ab171a7ffaa47034d11ba319a3c3bb5b4f0f33b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:0d591252ff07fa6aac8833b67fdedc5f1b32317aec3be57db3bb3f7b80e00462",
+          "sha256": "0d591252ff07fa6aac8833b67fdedc5f1b32317aec3be57db3bb3f7b80e00462"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:0cfcd4a6778e9273fed09dd99bee8dff9912a7c3a008491fb8074d94809b8eaf",
+          "sha256": "0cfcd4a6778e9273fed09dd99bee8dff9912a7c3a008491fb8074d94809b8eaf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:182c363201a8a9891ec319080b61259a0849b2cf506a0f964ae016102ade085d",
+          "sha256": "182c363201a8a9891ec319080b61259a0849b2cf506a0f964ae016102ade085d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:a5bd790aa2431212bc81a2993dcff31e11a53601d4c0882c9c52ba92e6f16dd2",
+          "sha256": "a5bd790aa2431212bc81a2993dcff31e11a53601d4c0882c9c52ba92e6f16dd2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:7653baa66df98b46cb5409303f92b6abb38d994b867c27bf3b4a474bc17469e3",
+          "sha256": "7653baa66df98b46cb5409303f92b6abb38d994b867c27bf3b4a474bc17469e3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libsndfile/blobs/sha256:4ccaf1d11b4b2120285c628d9b6b19b1e58104d7dc5a6dada00e0eab9936bdb6",
+          "sha256": "4ccaf1d11b4b2120285c628d9b6b19b1e58104d7dc5a6dada00e0eab9936bdb6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "flac",
+    "lame",
+    "libogg",
+    "libvorbis",
+    "mpg123",
+    "opus"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libsndfile.rb",
+  "ruby_source_checksum": {
+    "sha256": "393b6afe019c452888ace8e73c1cce8a838b143bc2c322f2fe47a41efbfd1a5d"
+  },
+  "date_added": "2009-12-05T17:49:08+00:00"
+}

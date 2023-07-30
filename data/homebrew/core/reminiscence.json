@@ -1,0 +1,116 @@
+{
+  "name": "reminiscence",
+  "full_name": "reminiscence",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flashback engine reimplementation",
+  "license": null,
+  "homepage": "http://cyxdown.free.fr/reminiscence/",
+  "versions": {
+    "stable": "0.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://pkg.freebsd.org/ports-distfiles/REminiscence-0.5.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "6b02b8568a75af5fbad3b123d2efe033614091d83f128bc7f3b8b533db6e4b29"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:887a653149cd8f77383f4f3ffdac106f8dcba9c52987c4a1c17157db04c33b32",
+          "sha256": "887a653149cd8f77383f4f3ffdac106f8dcba9c52987c4a1c17157db04c33b32"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:98ebed8348cdac56e1a8d02070321635fce264f93934d1f1b3f26489e7a72c05",
+          "sha256": "98ebed8348cdac56e1a8d02070321635fce264f93934d1f1b3f26489e7a72c05"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:51074efe55bd91ca2d558dee1aa8e981d10ab4701c1a6a8aabbe405805694a8e",
+          "sha256": "51074efe55bd91ca2d558dee1aa8e981d10ab4701c1a6a8aabbe405805694a8e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:31bcc080a553f05b51ed717d28d351018f4923e72c94e0fad630147b2f9be6ed",
+          "sha256": "31bcc080a553f05b51ed717d28d351018f4923e72c94e0fad630147b2f9be6ed"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:44157f3569ca1271e725be5627e8518fe6c07087045dc1a5455f5d67b2a0e9ee",
+          "sha256": "44157f3569ca1271e725be5627e8518fe6c07087045dc1a5455f5d67b2a0e9ee"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:ebeeb228a43e965ea400a36fd035b515e6b648854bbf96159042d95299173ba0",
+          "sha256": "ebeeb228a43e965ea400a36fd035b515e6b648854bbf96159042d95299173ba0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/reminiscence/blobs/sha256:55b09c3a5ffbfc0bd191c3290731350a1a341b6e48065bf60ac2c5b805a035dd",
+          "sha256": "55b09c3a5ffbfc0bd191c3290731350a1a341b6e48065bf60ac2c5b805a035dd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libmodplug",
+    "libogg",
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/reminiscence.rb",
+  "ruby_source_checksum": {
+    "sha256": "36b3479b02db38ac160344d1286297c655dfaccc5d8e6d728d36a6647c79fe1b"
+  },
+  "date_added": "2017-02-08T10:09:02+00:00"
+}

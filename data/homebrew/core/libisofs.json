@@ -1,0 +1,109 @@
+{
+  "name": "libisofs",
+  "full_name": "libisofs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library to create an ISO-9660 filesystem with various extensions",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://dev.lovelyhq.com/libburnia/libisofs",
+  "versions": {
+    "stable": "1.5.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.libburnia-project.org/releases/libisofs-1.5.6.pl01.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ac1fd338d641744ca1fb1567917188b79bc8c2506832dd56885fec98656b9f25"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:3ecb31fd37dae4b455187e9fafc86b965d76d998a011b9559bd3bf4b6a422e77",
+          "sha256": "3ecb31fd37dae4b455187e9fafc86b965d76d998a011b9559bd3bf4b6a422e77"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:3c9c7c449618b5c4325821877d77d30797b2f972c7247918efeb60456cb99c47",
+          "sha256": "3c9c7c449618b5c4325821877d77d30797b2f972c7247918efeb60456cb99c47"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:bd20a575b9908265074276c6e008a7885dda3d5818da99e4714141da1461d205",
+          "sha256": "bd20a575b9908265074276c6e008a7885dda3d5818da99e4714141da1461d205"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:c04b4a231f71dccffcca4e4fade48e05c898e22860dc73630c8326dcc5688d23",
+          "sha256": "c04b4a231f71dccffcca4e4fade48e05c898e22860dc73630c8326dcc5688d23"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:fee8ce45cc44667d25010c2fcb268e4c9e3c3a0200330618513ca3eaad19cb58",
+          "sha256": "fee8ce45cc44667d25010c2fcb268e4c9e3c3a0200330618513ca3eaad19cb58"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:30b05cc10a096c6c8ba9a04b4884a83690abe966cb9604b85fb2cd139e572b46",
+          "sha256": "30b05cc10a096c6c8ba9a04b4884a83690abe966cb9604b85fb2cd139e572b46"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libisofs/blobs/sha256:f3d23202a09bdce26182a94e00cc3c412373f30a7396dbe73d6abf2dcd21d5ec",
+          "sha256": "f3d23202a09bdce26182a94e00cc3c412373f30a7396dbe73d6abf2dcd21d5ec"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "libzip"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libisofs.rb",
+  "ruby_source_checksum": {
+    "sha256": "0da60c3fdbcaaefaefc15e224a25ea2ab29ad24d43f862622671e9339fb3d710"
+  },
+  "date_added": "2022-12-11T18:03:15+00:00"
+}

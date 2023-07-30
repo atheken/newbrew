@@ -1,0 +1,146 @@
+{
+  "name": "mesa",
+  "full_name": "mesa",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Graphics Library",
+  "license": "MIT",
+  "homepage": "https://www.mesa3d.org/",
+  "versions": {
+    "stable": "22.3.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mesa.freedesktop.org/archive/mesa-22.3.6.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4ec8ec65dbdb1ee9444dba72970890128a19543a58cf05931bd6f54f124e117f"
+    },
+    "head": {
+      "url": "https://gitlab.freedesktop.org/mesa/mesa.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:df893b97b1c0460423a0e502281bb18761e6e0700902fb6707ab4346cb8ce184",
+          "sha256": "df893b97b1c0460423a0e502281bb18761e6e0700902fb6707ab4346cb8ce184"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:c48b72bc09cefa4569a81eb625921a6d90bfaf8b234de5895bbefd638e7252c7",
+          "sha256": "c48b72bc09cefa4569a81eb625921a6d90bfaf8b234de5895bbefd638e7252c7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:7dd6a62f76a806bd3e1d8412851bf10b91b4c8b581203ce94930884c3a7dc832",
+          "sha256": "7dd6a62f76a806bd3e1d8412851bf10b91b4c8b581203ce94930884c3a7dc832"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:cdb0eae3f365ae073ec6b54bb05fbb98e6d3662b57909e30839c5d18e42ffbce",
+          "sha256": "cdb0eae3f365ae073ec6b54bb05fbb98e6d3662b57909e30839c5d18e42ffbce"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:0f48ffa01370e27b0eedad929d4fff5a39e9329feb10e9e7f741394ff9a8a2e7",
+          "sha256": "0f48ffa01370e27b0eedad929d4fff5a39e9329feb10e9e7f741394ff9a8a2e7"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:dbe917f2856aa021b0f92818e861e63b972946001a02e60fc537d297ff41f521",
+          "sha256": "dbe917f2856aa021b0f92818e861e63b972946001a02e60fc537d297ff41f521"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mesa/blobs/sha256:4b57f13f3c984072442d60c959db7952958532fde89ea0bfb629696028925b41",
+          "sha256": "4b57f13f3c984072442d60c959db7952958532fde89ea0bfb629696028925b41"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "pygments",
+    "python@3.11",
+    "xorgproto"
+  ],
+  "dependencies": [
+    "expat",
+    "libx11",
+    "libxcb",
+    "libxdamage",
+    "libxext",
+    "elfutils",
+    "glslang",
+    "gzip",
+    "libdrm",
+    "libva",
+    "libvdpau",
+    "libxfixes",
+    "libxrandr",
+    "libxshmfence",
+    "libxv",
+    "libxxf86vm",
+    "llvm@15",
+    "lm-sensors",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mesa.rb",
+  "ruby_source_checksum": {
+    "sha256": "7fe740c6335578c0acd7fb8515a88b63680fe7943adf790754d77c706be72c41"
+  },
+  "date_added": "2018-11-02T17:15:16+01:00"
+}

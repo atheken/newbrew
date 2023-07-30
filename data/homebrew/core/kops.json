@@ -1,0 +1,111 @@
+{
+  "name": "kops",
+  "full_name": "kops",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Production Grade K8s Installation, Upgrades, and Management",
+  "license": "Apache-2.0",
+  "homepage": "https://kops.sigs.k8s.io/",
+  "versions": {
+    "stable": "1.27.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes/kops/archive/v1.27.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b5d5945554e41ec335917a22710484f971c01af5df0ca5a50f2e9a91b3abfa33"
+    },
+    "head": {
+      "url": "https://github.com/kubernetes/kops.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:e89ff0530fd886be8d8e7ed3e3d675e4f9114cc07badc25a28118aeb19b0ac52",
+          "sha256": "e89ff0530fd886be8d8e7ed3e3d675e4f9114cc07badc25a28118aeb19b0ac52"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:56c76430e503f81efd5832771135a75288b94b9aa350e93bf43bf64db4e4ad9d",
+          "sha256": "56c76430e503f81efd5832771135a75288b94b9aa350e93bf43bf64db4e4ad9d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:2c215aed04d69b0ca38252831a96b3c361ed9acd862056da085fa78feab07f00",
+          "sha256": "2c215aed04d69b0ca38252831a96b3c361ed9acd862056da085fa78feab07f00"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:c50001709be6a53b5b6c548ac975f95e97cec00d2329f0e4aeaa2e29816d8d04",
+          "sha256": "c50001709be6a53b5b6c548ac975f95e97cec00d2329f0e4aeaa2e29816d8d04"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:60c2c2e7382fd02e70e37c2a972bd6204da488c4f02a36c4ddfae1904c415064",
+          "sha256": "60c2c2e7382fd02e70e37c2a972bd6204da488c4f02a36c4ddfae1904c415064"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:88a96ed71c96fb84136b3979c7b2727b6a6d4724ceef040fd669932ffa3249af",
+          "sha256": "88a96ed71c96fb84136b3979c7b2727b6a6d4724ceef040fd669932ffa3249af"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kops/blobs/sha256:0abda224246bdb1355596ff65336531a0bda7499074098190e78fa42a616cbfc",
+          "sha256": "0abda224246bdb1355596ff65336531a0bda7499074098190e78fa42a616cbfc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "kubernetes-cli"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kops.rb",
+  "ruby_source_checksum": {
+    "sha256": "2ff1c33175a14b871a785679d359fb0c81824bad43109d5a9a4c0a58787deff8"
+  },
+  "date_added": "2016-11-25T08:40:37+00:00"
+}

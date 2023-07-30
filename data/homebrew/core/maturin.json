@@ -1,0 +1,111 @@
+{
+  "name": "maturin",
+  "full_name": "maturin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build and publish Rust crates as Python packages",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/PyO3/maturin",
+  "versions": {
+    "stable": "1.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/PyO3/maturin/archive/refs/tags/v1.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "57b990348a9182897d64e7bc2b7be6e323912500c10a56174090fa8008173ad0"
+    },
+    "head": {
+      "url": "https://github.com/PyO3/maturin.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:75670dbb11b657b02ca4eb3aae14d795eec9025d1351fb56fee6b1db6809a116",
+          "sha256": "75670dbb11b657b02ca4eb3aae14d795eec9025d1351fb56fee6b1db6809a116"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:9c650f71e1efac6fe6b40f898a3dfd1b89337b567460beffb7662c8e7c71fcd5",
+          "sha256": "9c650f71e1efac6fe6b40f898a3dfd1b89337b567460beffb7662c8e7c71fcd5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:6f9c6f4d91df7e604d7e1c2e92ae851b3db3a4aa0acd90a2dcea1cc1f06fc0ee",
+          "sha256": "6f9c6f4d91df7e604d7e1c2e92ae851b3db3a4aa0acd90a2dcea1cc1f06fc0ee"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:946a65187c03c845cd6d27678b5241f6e202ecc928a456deeeb198d087137323",
+          "sha256": "946a65187c03c845cd6d27678b5241f6e202ecc928a456deeeb198d087137323"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:e0484a06d454588b4bfec11ad31fdb3e59c40cff68252d38ec0b3b8392b6db06",
+          "sha256": "e0484a06d454588b4bfec11ad31fdb3e59c40cff68252d38ec0b3b8392b6db06"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:3697fb5a060e94c1169dc245a937b88d3ede8f483033b4e58908acf7ded5c911",
+          "sha256": "3697fb5a060e94c1169dc245a937b88d3ede8f483033b4e58908acf7ded5c911"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/maturin/blobs/sha256:aeaf6dc363a32173db5523f334ffb8d3b702bb64def1179a5f2bf40bf874710c",
+          "sha256": "aeaf6dc363a32173db5523f334ffb8d3b702bb64def1179a5f2bf40bf874710c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "rust"
+  ],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/maturin.rb",
+  "ruby_source_checksum": {
+    "sha256": "c71e01d4942e2082f5f8958937b080d69a980cbdf5243d013d17514c13471fa2"
+  },
+  "date_added": "2021-06-10T11:33:52+00:00"
+}

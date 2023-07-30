@@ -1,0 +1,97 @@
+{
+  "name": "encfs",
+  "full_name": "encfs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Encrypted pass-through FUSE file system",
+  "license": "GPL-3.0",
+  "homepage": "https://vgough.github.io/encfs/",
+  "versions": {
+    "stable": "1.9.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vgough/encfs/archive/v1.9.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4709f05395ccbad6c0a5b40a4619d60aafe3473b1a79bafb3aa700b1f756fd63"
+    },
+    "head": {
+      "url": "https://github.com/vgough/encfs.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/encfs/blobs/sha256:765ec364935df8b4e7d4845cd287d70cc2eaeb6ef7634c5109fe27f0dc0bb1fd",
+          "sha256": "765ec364935df8b4e7d4845cd287d70cc2eaeb6ef7634c5109fe27f0dc0bb1fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gettext",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libfuse@2",
+    "openssl@3",
+    "tinyxml2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/encfs.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c33843bcbe06d4dde334c2595b331fca324e28baf6d0331b8f9debe8ff80f60"
+  },
+  "date_added": "2010-06-17T21:20:37-07:00"
+}

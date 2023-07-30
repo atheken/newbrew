@@ -1,0 +1,108 @@
+{
+  "name": "skaffold@1.39",
+  "full_name": "skaffold@1.39",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easy and Repeatable Kubernetes Development",
+  "license": "Apache-2.0",
+  "homepage": "https://skaffold.dev/",
+  "versions": {
+    "stable": "1.39.16",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/GoogleContainerTools/skaffold.git",
+      "tag": "v1.39.16",
+      "revision": "d697a898497e8f9224474a3866eb9523879b4619",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:71bd1d3efa3fb030467c17099e0533397862c6b17f0a96ea6aced1472f8b0a90",
+          "sha256": "71bd1d3efa3fb030467c17099e0533397862c6b17f0a96ea6aced1472f8b0a90"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:fe0ea6a1c7bb31fa3a606889b46a2528c407197b9559778e08f682c0217400eb",
+          "sha256": "fe0ea6a1c7bb31fa3a606889b46a2528c407197b9559778e08f682c0217400eb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:59c6f748a5ad851a2ebe31e82f134c9eb957a18d3f98faf91a28b26f98042c8e",
+          "sha256": "59c6f748a5ad851a2ebe31e82f134c9eb957a18d3f98faf91a28b26f98042c8e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:345a114a2640fdcebdbf396c98dea63a0601a217c8f3f2fe12ede8948f7cca21",
+          "sha256": "345a114a2640fdcebdbf396c98dea63a0601a217c8f3f2fe12ede8948f7cca21"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:3c21f3e49d65f2e2c85569670b5ee24fad47b0b075b8f2d78c7eea5259db2b43",
+          "sha256": "3c21f3e49d65f2e2c85569670b5ee24fad47b0b075b8f2d78c7eea5259db2b43"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:51e1443f05b1a8a16291d3fbfcbe224628af26bd475c82dd1fad2e6911a441ad",
+          "sha256": "51e1443f05b1a8a16291d3fbfcbe224628af26bd475c82dd1fad2e6911a441ad"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skaffold/1.39/blobs/sha256:94804f2c0e38bd4b9d63d2144d81464304b41b173aa49f20e7ddf07f870070b0",
+          "sha256": "94804f2c0e38bd4b9d63d2144d81464304b41b173aa49f20e7ddf07f870070b0"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": "2023-10-18",
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/skaffold@1.39.rb",
+  "ruby_source_checksum": {
+    "sha256": "49e4caf19f616a7c4b1abb332bbb944c633bb94289acf6c977ac9d351e0c350b"
+  },
+  "date_added": "2022-12-14T08:00:23+00:00"
+}

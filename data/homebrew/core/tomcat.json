@@ -1,0 +1,90 @@
+{
+  "name": "tomcat",
+  "full_name": "tomcat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "tomcat@10"
+  ],
+  "versioned_formulae": [
+    "tomcat@9",
+    "tomcat@8",
+    "tomcat@7"
+  ],
+  "desc": "Implementation of Java Servlet and JavaServer Pages",
+  "license": "Apache-2.0",
+  "homepage": "https://tomcat.apache.org/",
+  "versions": {
+    "stable": "10.1.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=tomcat/tomcat-10/v10.1.11/bin/apache-tomcat-10.1.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5438ab5bb82eab806a0f26b8ceafdb45ec66519b324567b052b7ca8a9e6314ac"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tomcat/blobs/sha256:71f6b54e1bfeaed15270424bddb9000df740e1ad311ed4f1f7a5ab10c7c0c0e9",
+          "sha256": "71f6b54e1bfeaed15270424bddb9000df740e1ad311ed4f1f7a5ab10c7c0c0e9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Configuration files: $HOMEBREW_PREFIX/etc/tomcat\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/tomcat/bin/catalina",
+      "run"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    }
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tomcat.rb",
+  "ruby_source_checksum": {
+    "sha256": "05a7e7d694c7ebd429212192dcce3f0473ed9f71199753ba6f4da50f21180c73"
+  },
+  "date_added": "2010-07-03T23:04:32-07:00"
+}

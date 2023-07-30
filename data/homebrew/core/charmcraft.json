@@ -1,0 +1,117 @@
+{
+  "name": "charmcraft",
+  "full_name": "charmcraft",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to build charms and publish them on Charmhub",
+  "license": "Apache-2.0",
+  "homepage": "https://charmhub.io",
+  "versions": {
+    "stable": "2.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/79/2f/14865ae1d3c6061c9e089a1577e4e946e09920eba76c1a7a8f6bc31374d7/charmcraft-2.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8acf952c0f302c67afae6755e912a3211803a7352b5b5cc588ed3bf8a5bc6b59"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:acde381ca087837b10acb81b2498e2d8dfa706ff6f3e8ecaa8cac2c4714c9d82",
+          "sha256": "acde381ca087837b10acb81b2498e2d8dfa706ff6f3e8ecaa8cac2c4714c9d82"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:2608bd8e5bf31b8262f0591f0d3ba009cf725290569deeae07d142cafd679c03",
+          "sha256": "2608bd8e5bf31b8262f0591f0d3ba009cf725290569deeae07d142cafd679c03"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:705f5fd8791c851667ff6e951f8d23572833be8347dbdf6cf3a90aee5e48b614",
+          "sha256": "705f5fd8791c851667ff6e951f8d23572833be8347dbdf6cf3a90aee5e48b614"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:b259b202576e574d7c9965c4bd8c6f926374001998b6459272447c2d925dfe7c",
+          "sha256": "b259b202576e574d7c9965c4bd8c6f926374001998b6459272447c2d925dfe7c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:84cee01d52941c6bc60e1d3e1e95c71bbdf126182ab88e867c3cf29732ede9c3",
+          "sha256": "84cee01d52941c6bc60e1d3e1e95c71bbdf126182ab88e867c3cf29732ede9c3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:77dd6fca22b60bd4e4c2bd0676ad9e216b3297289ea4514c451322af01c6ada6",
+          "sha256": "77dd6fca22b60bd4e4c2bd0676ad9e216b3297289ea4514c451322af01c6ada6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/charmcraft/blobs/sha256:674407cb9d856f4a826638db31bff531d51d61587e4009b715260c87ee108ca5",
+          "sha256": "674407cb9d856f4a826638db31bff531d51d61587e4009b715260c87ee108ca5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "keyring",
+    "libsodium",
+    "openssl@3",
+    "pycparser",
+    "python-tabulate",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/charmcraft.rb",
+  "ruby_source_checksum": {
+    "sha256": "c5782a7fabae6a129873a2aeea4c3fc9cec95e73190c5f42ad43720b9920d59f"
+  },
+  "date_added": "2021-10-25T06:27:23+00:00"
+}

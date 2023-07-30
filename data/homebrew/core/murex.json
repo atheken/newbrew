@@ -1,0 +1,109 @@
+{
+  "name": "murex",
+  "full_name": "murex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bash-like shell designed for greater command-line productivity and safer scripts",
+  "license": "GPL-2.0-only",
+  "homepage": "https://murex.rocks",
+  "versions": {
+    "stable": "4.4.9500",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lmorg/murex/archive/refs/tags/v4.4.9500.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6840c83da6dcb9a2a109982de0bf36ed9182f25e829d3e5dc0a4e0be5a1c4baa"
+    },
+    "head": {
+      "url": "https://github.com/lmorg/murex.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:a55d51722656065778528af0e7f39b33c203c6affe0c0efaf902567a2084e3ac",
+          "sha256": "a55d51722656065778528af0e7f39b33c203c6affe0c0efaf902567a2084e3ac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:54c9af5c085b5123acc799975bd6217c93f79c410dee0de2c6e68a88cdb25f4c",
+          "sha256": "54c9af5c085b5123acc799975bd6217c93f79c410dee0de2c6e68a88cdb25f4c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:aeed4c93f16e8ced663409ae444910da8627d8a84052bb3ba8b7db470a541687",
+          "sha256": "aeed4c93f16e8ced663409ae444910da8627d8a84052bb3ba8b7db470a541687"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:5f6a71edcc57b5f3ae1c385313ddbc058b9c8382aae74cd5969b0fe5e5dc6c8b",
+          "sha256": "5f6a71edcc57b5f3ae1c385313ddbc058b9c8382aae74cd5969b0fe5e5dc6c8b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:e8f9dea76ea6a84ee45f1c14bc6e3ad1b6222edcbbfa3a78f4e5caeda4bcdb2a",
+          "sha256": "e8f9dea76ea6a84ee45f1c14bc6e3ad1b6222edcbbfa3a78f4e5caeda4bcdb2a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:10f75b14d47521c295b18b60e52a36aea499d734bcb861c6442f79195374f623",
+          "sha256": "10f75b14d47521c295b18b60e52a36aea499d734bcb861c6442f79195374f623"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/murex/blobs/sha256:e0f3d15670143c2acd54a9368b3f12e342465821455af38fa961135dd078cc23",
+          "sha256": "e0f3d15670143c2acd54a9368b3f12e342465821455af38fa961135dd078cc23"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/murex.rb",
+  "ruby_source_checksum": {
+    "sha256": "6b384c3c8814ce4c5a3f7796fbd096b24bae1c21641322a9053ca89cf71cf555"
+  },
+  "date_added": "2021-09-08T02:14:59+00:00"
+}

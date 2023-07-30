@@ -1,0 +1,105 @@
+{
+  "name": "icoutils",
+  "full_name": "icoutils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Create and extract MS Windows icons and cursors",
+  "license": "GPL-3.0",
+  "homepage": "https://www.nongnu.org/icoutils/",
+  "versions": {
+    "stable": "0.32.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://savannah.nongnu.org/download/icoutils/icoutils-0.32.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "17abe02d043a253b68b47e3af69c9fc755b895db68fdc8811786125df564c6e0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:6d0b6015b32488d5eadeed7af574b0b07c8071dfaae487a41f5306585eb8510b",
+          "sha256": "6d0b6015b32488d5eadeed7af574b0b07c8071dfaae487a41f5306585eb8510b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:cca2c49761f3c0c2c4d8261af392cb156b43d49e99d16af0962584717c1e2ad3",
+          "sha256": "cca2c49761f3c0c2c4d8261af392cb156b43d49e99d16af0962584717c1e2ad3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:561bdf394863bd566ebfd0f9f5c5cb084d9eeeeb21c4013dc67f49ca2f382d68",
+          "sha256": "561bdf394863bd566ebfd0f9f5c5cb084d9eeeeb21c4013dc67f49ca2f382d68"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:bc125498f4fb92c602479703be80ef4e1870dd4f74159e1ed0d2fd801179ba75",
+          "sha256": "bc125498f4fb92c602479703be80ef4e1870dd4f74159e1ed0d2fd801179ba75"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:23f46510e0108a2342a83ba36aa2b11346d18a3f5ae29aa238cb249f3e4fa3e8",
+          "sha256": "23f46510e0108a2342a83ba36aa2b11346d18a3f5ae29aa238cb249f3e4fa3e8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:2f71fa8b1131f534d2d7d674642091a80f61108a376240bd6e19c92d436aecfe",
+          "sha256": "2f71fa8b1131f534d2d7d674642091a80f61108a376240bd6e19c92d436aecfe"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/icoutils/blobs/sha256:4bcbbfe1270c90d060baf5fe79eea7cd07daaae074c110b57e8505eac348cdb8",
+          "sha256": "4bcbbfe1270c90d060baf5fe79eea7cd07daaae074c110b57e8505eac348cdb8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpng"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/icoutils.rb",
+  "ruby_source_checksum": {
+    "sha256": "03059b49e2df951593eb798d18d4497a6e9672fbbf1b2e163b33de2192ce80ed"
+  },
+  "date_added": "2010-12-27T21:30:52+00:00"
+}

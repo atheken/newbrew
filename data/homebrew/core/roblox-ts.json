@@ -1,0 +1,105 @@
+{
+  "name": "roblox-ts",
+  "full_name": "roblox-ts",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "TypeScript-to-Luau Compiler for Roblox",
+  "license": "MIT",
+  "homepage": "https://roblox-ts.com/",
+  "versions": {
+    "stable": "2.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/roblox-ts/-/roblox-ts-2.1.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e7a96200b32c2cb718e81b34b3b41f2357133bff6eb37d68951dfb5d468c57d3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e",
+          "sha256": "e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e",
+          "sha256": "e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e",
+          "sha256": "e2d24279737b3f3ec1ea3819f6bb7e0211dee145abb7b734bb50629eec72816e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a",
+          "sha256": "e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a",
+          "sha256": "e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a",
+          "sha256": "e47198bf020979ae3f58772a80c154dfc6aabe7d22fcaf82f0b71e9c9b2acd0a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/roblox-ts/blobs/sha256:81719e82abc57fb2340dc542712915b588eeb73089f8adffd1588d9aef91522c",
+          "sha256": "81719e82abc57fb2340dc542712915b588eeb73089f8adffd1588d9aef91522c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/roblox-ts.rb",
+  "ruby_source_checksum": {
+    "sha256": "49a6b2d0aab5e79d4e320e4e3ce9135df1256c3b57af44dadd827282974a30ee"
+  },
+  "date_added": "2023-05-20T16:08:44+00:00"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "scrapy",
+  "full_name": "scrapy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web crawling & scraping framework",
+  "license": "BSD-3-Clause",
+  "homepage": "https://scrapy.org",
+  "versions": {
+    "stable": "2.9.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/eb/b0/7da031ff0ce073839984097724db2c54e8c4b7938acb9ef4691a98620ce7/Scrapy-2.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "564c972b56e54b83141f395ce3f6a25bfe2093d61d13f9b81d05384e19db98da"
+    },
+    "head": {
+      "url": "https://github.com/scrapy/scrapy.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:7f99c0cb850278525b94221a387b27d64935d3908cdf65fbe121e88714076f00",
+          "sha256": "7f99c0cb850278525b94221a387b27d64935d3908cdf65fbe121e88714076f00"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:01576e95c4476d104a96ad0884e9b5e3f63047691cf8995aa477358705b6f4bb",
+          "sha256": "01576e95c4476d104a96ad0884e9b5e3f63047691cf8995aa477358705b6f4bb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:9e8f341d147376a86d8c7aad6ee47f122d5e0ba7195039f0da7793dd1f90a9c9",
+          "sha256": "9e8f341d147376a86d8c7aad6ee47f122d5e0ba7195039f0da7793dd1f90a9c9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:f3d600b92a26ebc9f1041124e3f41653792771665073efcc8a6c718eb5eef08d",
+          "sha256": "f3d600b92a26ebc9f1041124e3f41653792771665073efcc8a6c718eb5eef08d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:f51e36a1c9aa5778fe9827c2011c6f6b16ac3b48f8a5667efe77a3634ccaace6",
+          "sha256": "f51e36a1c9aa5778fe9827c2011c6f6b16ac3b48f8a5667efe77a3634ccaace6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:799ee2e0ace7bf8693a17cc6f68caad24579f48a5ec9135d7d1fe007e69e097f",
+          "sha256": "799ee2e0ace7bf8693a17cc6f68caad24579f48a5ec9135d7d1fe007e69e097f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/scrapy/blobs/sha256:9e5976b7cf4d8a636a3e5fc157cf67fcee23a133c3e270632bc8d194efd3aa0f",
+          "sha256": "9e5976b7cf4d8a636a3e5fc157cf67fcee23a133c3e270632bc8d194efd3aa0f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "python-typing-extensions",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scrapy.rb",
+  "ruby_source_checksum": {
+    "sha256": "82f96da1958ac37afff184d7f2244560e93157cd94e9166aaab6bcf316095d2d"
+  },
+  "date_added": "2023-06-23T13:53:43-07:00"
+}

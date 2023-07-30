@@ -1,0 +1,107 @@
+{
+  "name": "psalm",
+  "full_name": "psalm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "PHP Static Analysis Tool",
+  "license": "MIT",
+  "homepage": "https://psalm.dev",
+  "versions": {
+    "stable": "5.13.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vimeo/psalm/releases/download/5.13.1/psalm.phar",
+      "tag": null,
+      "revision": null,
+      "checksum": "90c34be3831ad00dd1058c4b50697a917bcea6967c14ab761136f665aaac3ac6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48",
+          "sha256": "d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48",
+          "sha256": "d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48",
+          "sha256": "d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78",
+          "sha256": "77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78",
+          "sha256": "77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78",
+          "sha256": "77b36603304bf2336bb0741a915ce6af7fde2724663c9f8b66ed880a30234d78"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psalm/blobs/sha256:d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48",
+          "sha256": "d07c1f4b179f5e94e02abe2e01bd1312b6359160a836c1142bea57f78b027f48"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "php"
+  ],
+  "test_dependencies": [
+    "composer"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/psalm.rb",
+  "ruby_source_checksum": {
+    "sha256": "024dacac65ddc5812fee1850d4a998782fe676474a57d269bcab13ce83e2b0e7"
+  },
+  "date_added": "2021-07-17T11:44:33+00:00"
+}

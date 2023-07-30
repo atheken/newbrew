@@ -1,0 +1,111 @@
+{
+  "name": "cpl",
+  "full_name": "cpl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ISO-C libraries for developing astronomical data-reduction tasks",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.eso.org/sci/software/cpl/",
+  "versions": {
+    "stable": "7.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "ftp://ftp.eso.org/pub/dfs/pipelines/libraries/cpl/cpl-7.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a50c265a8630e61606567d153d3c70025aa958a28473a2411585b96894be7720"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:867112ff76fc10a5a8ccf3871398c4057aba8aac147f0452f4b74e60f30c1417",
+          "sha256": "867112ff76fc10a5a8ccf3871398c4057aba8aac147f0452f4b74e60f30c1417"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:dc4fd5e0d10ebb4d9d3ae0d4c2138765e28e9185f2810fa9f5397ceb6874d409",
+          "sha256": "dc4fd5e0d10ebb4d9d3ae0d4c2138765e28e9185f2810fa9f5397ceb6874d409"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:1546444c73b9c83ad97136d5fe48bcd6bee09dd72ed9de6b8ce650a6cbf28610",
+          "sha256": "1546444c73b9c83ad97136d5fe48bcd6bee09dd72ed9de6b8ce650a6cbf28610"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:fc6cfb837a591afec3369fa882e5abbd9d806f9d67ed83bd9f345ce3d89a4415",
+          "sha256": "fc6cfb837a591afec3369fa882e5abbd9d806f9d67ed83bd9f345ce3d89a4415"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:a74afb54620905b6ae184bf64d73f67713e1016e27f97a6db6b793c72b4ba646",
+          "sha256": "a74afb54620905b6ae184bf64d73f67713e1016e27f97a6db6b793c72b4ba646"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:2fff6fb7574c82deb23328136b2666cd181d864fe09eb42780bea78cf63327a1",
+          "sha256": "2fff6fb7574c82deb23328136b2666cd181d864fe09eb42780bea78cf63327a1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpl/blobs/sha256:90683dbc3fc0a9636c4fe77573a82895cd369ff2449d140a6ba5e84db6d571dc",
+          "sha256": "90683dbc3fc0a9636c4fe77573a82895cd369ff2449d140a6ba5e84db6d571dc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "cfitsio",
+    "fftw",
+    "wcslib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "gdal"
+  ],
+  "conflicts_with_reasons": [
+    "both install cpl_error.h"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cpl.rb",
+  "ruby_source_checksum": {
+    "sha256": "640e47a05ffdcc09061dafbe4b078b6e0e38fba1cd781f6c203d16fdc22fdaa7"
+  },
+  "date_added": "2019-07-17T09:52:14+02:00"
+}

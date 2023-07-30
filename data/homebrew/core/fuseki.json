@@ -1,0 +1,78 @@
+{
+  "name": "fuseki",
+  "full_name": "fuseki",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SPARQL server",
+  "license": "Apache-2.0",
+  "homepage": "https://jena.apache.org/documentation/fuseki2/",
+  "versions": {
+    "stable": "4.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=jena/binaries/apache-jena-fuseki-4.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b76e50d256fe79c475d9c0c3d69e9e667ccbc56d246693ce146be8e582bb0252"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fuseki/blobs/sha256:94eae64f668cf285722cba44fc7306c75f21dce45cfb92a84f41f13dfd6fb5d4",
+          "sha256": "94eae64f668cf285722cba44fc7306c75f21dce45cfb92a84f41f13dfd6fb5d4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/fuseki/bin/fuseki-server",
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fuseki.rb",
+  "ruby_source_checksum": {
+    "sha256": "05a9ea639952ed110181dad782578612b4b2e2bf997a9dec85c7debd78a28bb8"
+  },
+  "date_added": "2013-11-06T20:32:36-08:00"
+}

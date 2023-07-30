@@ -1,0 +1,73 @@
+{
+  "name": "xtitle",
+  "full_name": "xtitle",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Set window title and icon for your X terminal",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://kinzler.com/me/xtitle/",
+  "versions": {
+    "stable": "1.0.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://kinzler.com/me/xtitle/xtitle-1.0.4.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cadddef1389ba1c5e1dc7dd861545a5fe11cb397a3f692cd63881671340fcc15"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xtitle/blobs/sha256:c463ee3a0d4e7e17b1dbcdced8c6ed5eb50d2815a56cc28ac037848735fe1803",
+          "sha256": "c463ee3a0d4e7e17b1dbcdced8c6ed5eb50d2815a56cc28ac037848735fe1803"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xtitle.rb",
+  "ruby_source_checksum": {
+    "sha256": "5975e6d87e101455668f6b0baf1b9d32764c53f899d20955da30f1a579de4cc2"
+  },
+  "date_added": "2012-11-26T10:09:51-08:00"
+}

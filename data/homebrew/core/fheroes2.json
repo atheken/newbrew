@@ -1,0 +1,119 @@
+{
+  "name": "fheroes2",
+  "full_name": "fheroes2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Free Heroes of Might and Magic II is a recreation of HoMM2 game engine",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://ihhub.github.io/fheroes2/",
+  "versions": {
+    "stable": "1.0.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ihhub/fheroes2/archive/1.0.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c97835650a356d9e96a4157255930afe07b6e2472b605d0dbe1b902ece59d8de"
+    },
+    "head": {
+      "url": "https://github.com/ihhub/fheroes2.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:4e542412db987f54eb39e8f5bf2105fbb97505c3c53c2aef1747f030f89a547d",
+          "sha256": "4e542412db987f54eb39e8f5bf2105fbb97505c3c53c2aef1747f030f89a547d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:dd5b9f8301f312b879db8b3c0148f2b0bbbebb4e642f08bc30aa008a0b9913b4",
+          "sha256": "dd5b9f8301f312b879db8b3c0148f2b0bbbebb4e642f08bc30aa008a0b9913b4"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:10bb9499eaf3a6e953efe4493e7c93d3569aeef41d722670567ef3c118193bd2",
+          "sha256": "10bb9499eaf3a6e953efe4493e7c93d3569aeef41d722670567ef3c118193bd2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:04d0cdccc7855222e006b4b23fe871f24ddee267ba54742f39215d1e1add4900",
+          "sha256": "04d0cdccc7855222e006b4b23fe871f24ddee267ba54742f39215d1e1add4900"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:cf7394ebdc47a9653e713118b03adaf5c5e0656a383b134f523036cd8a5f781a",
+          "sha256": "cf7394ebdc47a9653e713118b03adaf5c5e0656a383b134f523036cd8a5f781a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:8233d5b58c154873d0b51221f7a7c71593c8ac57fbb1f97bcbf74622d7121061",
+          "sha256": "8233d5b58c154873d0b51221f7a7c71593c8ac57fbb1f97bcbf74622d7121061"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fheroes2/blobs/sha256:fffe15f2a012b70d8da6aa7653dba02a1cd468efdc2f535bd27262d1766b8d94",
+          "sha256": "fffe15f2a012b70d8da6aa7653dba02a1cd468efdc2f535bd27262d1766b8d94"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gettext"
+  ],
+  "dependencies": [
+    "libpng",
+    "sdl2",
+    "sdl2_image",
+    "sdl2_mixer"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Documentation is available at:\n$HOMEBREW_PREFIX/Cellar/fheroes2/1.0.6/share/doc/fheroes2/README.txt\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fheroes2.rb",
+  "ruby_source_checksum": {
+    "sha256": "d70801654d27eaf410fb60e6f9ffa7583376eb8d8aa53afde8449685302ac0ec"
+  },
+  "date_added": "2021-10-15T10:01:14+00:00"
+}

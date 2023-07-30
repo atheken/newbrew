@@ -1,0 +1,108 @@
+{
+  "name": "libxfixes",
+  "full_name": "libxfixes",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: Header files for the XFIXES extension",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "6.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/archive/individual/lib/libXfixes-6.0.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b695f93cd2499421ab02d22744458e650ccc88c1d4c8130d60200213abc02d58"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:b087b60e125d6e348292f14f9d692693a0dca7894975002fa29f754c25395bbc",
+          "sha256": "b087b60e125d6e348292f14f9d692693a0dca7894975002fa29f754c25395bbc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:515bbc38f06c142ff7cdb65b9f1401fe187241b64186b0670f4809787e288c2a",
+          "sha256": "515bbc38f06c142ff7cdb65b9f1401fe187241b64186b0670f4809787e288c2a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:5f5221e3a5687ea308dd4e0200617cbba63289476df92e6addc3928597033c3b",
+          "sha256": "5f5221e3a5687ea308dd4e0200617cbba63289476df92e6addc3928597033c3b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:ade02ac4b73db0272d8bdb95bd05f8c8c11683daa944c66a10f1e72740bac364",
+          "sha256": "ade02ac4b73db0272d8bdb95bd05f8c8c11683daa944c66a10f1e72740bac364"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:bae672517d9d8a3af7481ecb71dc13d835231b51917b6848d069550a725a09f9",
+          "sha256": "bae672517d9d8a3af7481ecb71dc13d835231b51917b6848d069550a725a09f9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:5fb3942149518881721a07646cb045b3dd0478e6333617409d3cf25a8254740e",
+          "sha256": "5fb3942149518881721a07646cb045b3dd0478e6333617409d3cf25a8254740e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libxfixes/blobs/sha256:dd98561e1f625057b34be07c81541d7759f29756d5d7272b59bd9e86af0d7d22",
+          "sha256": "dd98561e1f625057b34be07c81541d7759f29756d5d7272b59bd9e86af0d7d22"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libx11",
+    "xorgproto"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libxfixes.rb",
+  "ruby_source_checksum": {
+    "sha256": "becd87e4db67b52b0e22d108f0f19de64a91c963493b73d9e17ef3d3b3b35e81"
+  },
+  "date_added": "2020-10-04T19:17:39+00:00"
+}

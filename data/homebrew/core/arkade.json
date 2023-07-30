@@ -1,0 +1,105 @@
+{
+  "name": "arkade",
+  "full_name": "arkade",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open Source Kubernetes Marketplace",
+  "license": "MIT",
+  "homepage": "https://blog.alexellis.io/kubernetes-marketplace-two-year-update/",
+  "versions": {
+    "stable": "0.9.23",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/alexellis/arkade.git",
+      "tag": "0.9.23",
+      "revision": "3a36fb5e13bcb6455e000d3e06bcfd998e9895ef",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962",
+          "sha256": "c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962",
+          "sha256": "c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962",
+          "sha256": "c4fdd280f00a74c14dcaa6c3a7643880bbea9c408f265646570edc2352244962"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c",
+          "sha256": "7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c",
+          "sha256": "7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c",
+          "sha256": "7ecdbfe08fe137e19663d99a4dafde622149928c885b538b2e6876d1340a3c9c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arkade/blobs/sha256:eb7f3f5aa509f5ac85c4914d05759d5c0ce96f57d98bbdd65d9b3e9a94f24f43",
+          "sha256": "eb7f3f5aa509f5ac85c4914d05759d5c0ce96f57d98bbdd65d9b3e9a94f24f43"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/arkade.rb",
+  "ruby_source_checksum": {
+    "sha256": "6bcfc1570bd5395f04e59993c09f33d14b047b8b833a8b495ee2a8c9daf9144e"
+  },
+  "date_added": "2022-01-02T16:54:32+00:00"
+}

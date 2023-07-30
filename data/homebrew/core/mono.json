@@ -1,0 +1,126 @@
+{
+  "name": "mono",
+  "full_name": "mono",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross platform, open source .NET development framework",
+  "license": "MIT",
+  "homepage": "https://www.mono-project.com/",
+  "versions": {
+    "stable": "6.12.0.182",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.mono-project.com/sources/mono/mono-6.12.0.182.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "57366a6ab4f3b5ecf111d48548031615b3a100db87c679fc006e8c8a4efd9424"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:7c423e09da1607e5c80a8631fb4eb9f53869aca4c1bd702af36c3651a059f8dd",
+          "sha256": "7c423e09da1607e5c80a8631fb4eb9f53869aca4c1bd702af36c3651a059f8dd"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:1a755293d5bd0b4d646c752be882493bbd272b8502998f78b673091a9a5e78e8",
+          "sha256": "1a755293d5bd0b4d646c752be882493bbd272b8502998f78b673091a9a5e78e8"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:a86886958f62a0456623b51ceeef71304a6b5bc4e98fd3f889a269e817987ec2",
+          "sha256": "a86886958f62a0456623b51ceeef71304a6b5bc4e98fd3f889a269e817987ec2"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:26fc159d687c2c647cbdc7d54c3100d47034a1bef41ad5bcd37ed28b17f338b1",
+          "sha256": "26fc159d687c2c647cbdc7d54c3100d47034a1bef41ad5bcd37ed28b17f338b1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:c319b187b5b7881bae3139a38028af4ae09f55acdd0a23b5dfe1deb04bab4372",
+          "sha256": "c319b187b5b7881bae3139a38028af4ae09f55acdd0a23b5dfe1deb04bab4372"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mono/blobs/sha256:e147b8ae7c32cda6c96a34bdd1de6f7d15c40af36b9ae68cb2196eb7e827e0a2",
+          "sha256": "e147b8ae7c32cda6c96a34bdd1de6f7d15c40af36b9ae68cb2196eb7e827e0a2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "openssl@1.1"
+  ],
+  "dependencies": [
+    "python@3.11",
+    "ca-certificates"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "unzip": "build"
+    },
+    "krb5",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "xsd"
+  ],
+  "conflicts_with_reasons": [
+    "both install `xsd` binaries"
+  ],
+  "link_overwrite": [
+    "bin/fsharpi",
+    "bin/fsharpiAnyCpu",
+    "bin/fsharpc",
+    "bin/fssrgen",
+    "lib/mono",
+    "lib/cli"
+  ],
+  "caveats": "To use the assemblies from other formulae you need to set:\n  export MONO_GAC_PREFIX=\"$HOMEBREW_PREFIX\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mono.rb",
+  "ruby_source_checksum": {
+    "sha256": "fd86dbf1b1db5efbcf735d23fee4e6076806a5becff3bbba9eff8b14b06574ce"
+  },
+  "date_added": "2014-03-24T17:22:42+00:00"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "upx",
+  "full_name": "upx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compress/expand executable files",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://upx.github.io/",
+  "versions": {
+    "stable": "4.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/upx/upx/releases/download/v4.1.0/upx-4.1.0-src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0582f78b517ea87ba1caa6e8c111474f58edd167e5f01f074d7d9ca2f81d47d0"
+    },
+    "head": {
+      "url": "https://github.com/upx/upx.git",
+      "branch": "devel"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/upx/blobs/sha256:db18963055dd657d579824a7daaf69f79e1639a10fd1accb399e84ddcd5d649c",
+          "sha256": "db18963055dd657d579824a7daaf69f79e1639a10fd1accb399e84ddcd5d649c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/upx/blobs/sha256:8e6aa21f689985270ff1cc3857ef9848f63f3c79a96604884ee846ce76e6401b",
+          "sha256": "8e6aa21f689985270ff1cc3857ef9848f63f3c79a96604884ee846ce76e6401b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "ucl"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/upx.rb",
+  "ruby_source_checksum": {
+    "sha256": "b8e57f0bed3826bd91cad7c2825bdee52ca5e76ade5040e9cbb86208c5f4b839"
+  },
+  "date_added": "2010-06-17T21:45:19-07:00"
+}

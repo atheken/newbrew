@@ -1,0 +1,75 @@
+{
+  "name": "woof",
+  "full_name": "woof",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ad-hoc single-file webserver",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://www.home.unix-ag.org/simon/woof.html",
+  "versions": {
+    "stable": "20220202",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/simon-budig/woof/archive/woof-20220202.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cf29214aca196a1778e2f5df1f5cc653da9bee8fc2b19f01439c750c41ae83c1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/woof/blobs/sha256:6f5ec883ad9fdb67965bc8a7a08318adcc1fa5a48e1da24f56cb85697bd28e0d",
+          "sha256": "6f5ec883ad9fdb67965bc8a7a08318adcc1fa5a48e1da24f56cb85697bd28e0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/woof.rb",
+  "ruby_source_checksum": {
+    "sha256": "0378be38361df982700fccb97210e48e783d1635ce7b5d218e42983a738a21c8"
+  },
+  "date_added": "2009-12-02T12:53:00+00:00"
+}

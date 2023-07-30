@@ -1,0 +1,136 @@
+{
+  "name": "opencv",
+  "full_name": "opencv",
+  "tap": "homebrew/core",
+  "oldname": "opencv3",
+  "oldnames": [
+    "opencv3"
+  ],
+  "aliases": [
+    "opencv@4"
+  ],
+  "versioned_formulae": [
+    "opencv@3",
+    "opencv@2"
+  ],
+  "desc": "Open source computer vision library",
+  "license": "Apache-2.0",
+  "homepage": "https://opencv.org/",
+  "versions": {
+    "stable": "4.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/opencv/opencv/archive/refs/tags/4.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cbf47ecc336d2bff36b0dcd7d6c179a9bb59e805136af6b9670ca944aef889bd"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:1063bfb99f501d17c61cb4405b74e5dac225dd241b70959c1714643fa2c67e99",
+          "sha256": "1063bfb99f501d17c61cb4405b74e5dac225dd241b70959c1714643fa2c67e99"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:d56ffc2df1f236d95acd33a29006b7cca76a782992d7a5cd853a88130cd74fab",
+          "sha256": "d56ffc2df1f236d95acd33a29006b7cca76a782992d7a5cd853a88130cd74fab"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:c7ab32590a279c6111663bf1385db1697ed38f8dfcabe17bfc0fab51fd6d4fe1",
+          "sha256": "c7ab32590a279c6111663bf1385db1697ed38f8dfcabe17bfc0fab51fd6d4fe1"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:67da519a616db8e2e736d10b36c747e9315a71a2f61cebcbe724364da3d99522",
+          "sha256": "67da519a616db8e2e736d10b36c747e9315a71a2f61cebcbe724364da3d99522"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:818adc426c528ce967886bc8c16d24c1e4b7da64d73795f59d44dc43bf084af9",
+          "sha256": "818adc426c528ce967886bc8c16d24c1e4b7da64d73795f59d44dc43bf084af9"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:edd092af4ec386c130b24542d2032a1f54b2ebd1c77b0742ae68ad8834cbb065",
+          "sha256": "edd092af4ec386c130b24542d2032a1f54b2ebd1c77b0742ae68ad8834cbb065"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/opencv/blobs/sha256:4702a242e34e4fe33075975926e5af45f8b35d5a3db6105be37baf0de833c29b",
+          "sha256": "4702a242e34e4fe33075975926e5af45f8b35d5a3db6105be37baf0de833c29b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ceres-solver",
+    "eigen",
+    "ffmpeg",
+    "glog",
+    "harfbuzz",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "numpy",
+    "openblas",
+    "openexr",
+    "openjpeg",
+    "openvino",
+    "protobuf",
+    "python@3.11",
+    "tbb",
+    "vtk",
+    "webp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opencv.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c4693def675e2f3cf6a88bb6624f5039a27df33dbf5236fe357f74c2ed4c0cd"
+  },
+  "date_added": "2010-05-18T21:54:04-07:00"
+}

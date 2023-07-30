@@ -1,0 +1,131 @@
+{
+  "name": "httpd",
+  "full_name": "httpd",
+  "tap": "homebrew/core",
+  "oldname": "httpd24",
+  "oldnames": [
+    "httpd24"
+  ],
+  "aliases": [
+    "apache-httpd",
+    "apache2"
+  ],
+  "versioned_formulae": [],
+  "desc": "Apache HTTP server",
+  "license": "Apache-2.0",
+  "homepage": "https://httpd.apache.org/",
+  "versions": {
+    "stable": "2.4.57",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org/httpd/httpd-2.4.57.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "dbccb84aee95e095edfbb81e5eb926ccd24e6ada55dcd83caecb262e5cf94d2a"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:cd1df761f081f37617aa370ae5eb5920b9498f407e3b5fd13ce4292064f6e040",
+          "sha256": "cd1df761f081f37617aa370ae5eb5920b9498f407e3b5fd13ce4292064f6e040"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:9328555b146535a63b4e824793379ee2347165e13c9f9d06aa0a8898c1afd156",
+          "sha256": "9328555b146535a63b4e824793379ee2347165e13c9f9d06aa0a8898c1afd156"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:64f4a71eaa38d9df9223c6b28100539dbd14adfa94be12e83a11e06e56bfbb11",
+          "sha256": "64f4a71eaa38d9df9223c6b28100539dbd14adfa94be12e83a11e06e56bfbb11"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:cdee36e9d429a55c9e2f590c1dc63b776ac7c9c3f8b72e5ae3512822668ac2a9",
+          "sha256": "cdee36e9d429a55c9e2f590c1dc63b776ac7c9c3f8b72e5ae3512822668ac2a9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:0f8e42d107b4292af18eb2f32fe12a92f5c67aa1642be0cec768144298df3402",
+          "sha256": "0f8e42d107b4292af18eb2f32fe12a92f5c67aa1642be0cec768144298df3402"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:ec117d9e9cec8268195476b1426ac25100a3267eda333fb3cb75569a6288b219",
+          "sha256": "ec117d9e9cec8268195476b1426ac25100a3267eda333fb3cb75569a6288b219"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/httpd/blobs/sha256:aff4fd796b8e88fd96dcc9737a83735f4d49c4811226af9de50a7e1085f2a3c2",
+          "sha256": "aff4fd796b8e88fd96dcc9737a83735f4d49c4811226af9de50a7e1085f2a3c2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "brotli",
+    "libnghttp2",
+    "openssl@3",
+    "pcre2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "DocumentRoot is $HOMEBREW_PREFIX/var/www.\n\nThe default ports have been set in $HOMEBREW_PREFIX/etc/httpd/httpd.conf to 8080 and in\n$HOMEBREW_PREFIX/etc/httpd/extra/httpd-ssl.conf to 8443 so that httpd can run without sudo.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/httpd/bin/httpd",
+      "-D",
+      "FOREGROUND"
+    ],
+    "run_type": "immediate",
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/httpd.rb",
+  "ruby_source_checksum": {
+    "sha256": "7cc6b655d9706d4c3aaedc614a3df8605e1509b9a9d8e87a423a93049b5a7e9f"
+  },
+  "date_added": "2017-09-29T15:44:54+01:00"
+}

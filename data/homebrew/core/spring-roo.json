@@ -1,0 +1,73 @@
+{
+  "name": "spring-roo",
+  "full_name": "spring-roo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Rapid application development tool for Java developers",
+  "license": null,
+  "homepage": "https://projects.spring.io/spring-roo/",
+  "versions": {
+    "stable": "2.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://s3.amazonaws.com/spring-roo-repository.springsource.org/release/ROO/spring-roo-2.0.0.RELEASE.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "37819adf23b221a4544a7b1e6853b67f695fb915f5a1d433760e04fb4b5d7263"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/spring-roo/blobs/sha256:d239f3051323b948718b57a807b27953636aa764d96e4ca8ec94b0e6e83d1514",
+          "sha256": "d239f3051323b948718b57a807b27953636aa764d96e4ca8ec94b0e6e83d1514"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-11-29",
+  "disable_reason": "repo_archived",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/spring-roo.rb",
+  "ruby_source_checksum": {
+    "sha256": "ae2886046f9e2f144a59fa55575527b1d966b124227fc701e321de25c978abed"
+  },
+  "date_added": "2010-03-05T18:04:20+01:00"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "libhdhomerun",
+  "full_name": "libhdhomerun",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for controlling SiliconDust HDHomeRun TV tuners",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.silicondust.com/support/linux/",
+  "versions": {
+    "stable": "20230719",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.silicondust.com/hdhomerun/libhdhomerun_20230719.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "aa8f1c23e6d38f0d684426cdc1cbfced953a2a9dec3fbe645ab11c15a8c0b4d6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:e2bc19a2d1a355af23bc868fba14f4cc449d6ad6cc37cbcdf26682c57e313faf",
+          "sha256": "e2bc19a2d1a355af23bc868fba14f4cc449d6ad6cc37cbcdf26682c57e313faf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:05349118038344aa09623f0b63070e7e78f7668651c28f198c97a72eb8420360",
+          "sha256": "05349118038344aa09623f0b63070e7e78f7668651c28f198c97a72eb8420360"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:39f229f4a27ff97b69786eb2b1193dc067b8751aa6bb663eb37759d364bf1329",
+          "sha256": "39f229f4a27ff97b69786eb2b1193dc067b8751aa6bb663eb37759d364bf1329"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:fae16dfcd7a2d13eed9292e50cee14abd0863c821418f7c63241b4231ede1c47",
+          "sha256": "fae16dfcd7a2d13eed9292e50cee14abd0863c821418f7c63241b4231ede1c47"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:6f58450b1f3f0a00bbc8cb054989b895d58f807628adfe3f869af7c28f3395b2",
+          "sha256": "6f58450b1f3f0a00bbc8cb054989b895d58f807628adfe3f869af7c28f3395b2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:c902fa5a109d13be0f85a191a70df94f2a988e79ce340970b0d015bc3fffbd4a",
+          "sha256": "c902fa5a109d13be0f85a191a70df94f2a988e79ce340970b0d015bc3fffbd4a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libhdhomerun/blobs/sha256:e84c63fa35aca15b6d409261d68fc0beb660d5a964f0145e3dc8cc63bc01b043",
+          "sha256": "e84c63fa35aca15b6d409261d68fc0beb660d5a964f0145e3dc8cc63bc01b043"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libhdhomerun.rb",
+  "ruby_source_checksum": {
+    "sha256": "63fb267c1032fcd62c098f2205aae6184b782dbadf2bfc94f3e55d2e4f06a6bf"
+  },
+  "date_added": "2015-01-07T18:48:20+00:00"
+}

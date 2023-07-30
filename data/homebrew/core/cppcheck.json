@@ -1,0 +1,119 @@
+{
+  "name": "cppcheck",
+  "full_name": "cppcheck",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Static analysis of C and C++ code",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://sourceforge.net/projects/cppcheck/",
+  "versions": {
+    "stable": "2.11.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/danmar/cppcheck/archive/2.11.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fef6ef868d562d49136f158e1d0f7a38237e7e1c0a91d9189bdd465f1fe54316"
+    },
+    "head": {
+      "url": "https://github.com/danmar/cppcheck.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:48933b2187e98a0b70003d594042e311a354c1e782d64a7f49781374af71b635",
+          "sha256": "48933b2187e98a0b70003d594042e311a354c1e782d64a7f49781374af71b635"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:ec42be87bd74f2d27ac56a8720115f179a23c863027d8fdac992e987b7034f50",
+          "sha256": "ec42be87bd74f2d27ac56a8720115f179a23c863027d8fdac992e987b7034f50"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:32fe3a51ddccf0ac5cdc76dba7002ab00417be3b70043892e9277b42e106ea6c",
+          "sha256": "32fe3a51ddccf0ac5cdc76dba7002ab00417be3b70043892e9277b42e106ea6c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:c8a4389214138d7f729759f7fd43a8ab60ccbdf60a3431596f3d02daf5881fcb",
+          "sha256": "c8a4389214138d7f729759f7fd43a8ab60ccbdf60a3431596f3d02daf5881fcb"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:49d88ab7633210b3c5f8731ecc4fda8375801b5b9b2dedc445241efa4a7cd864",
+          "sha256": "49d88ab7633210b3c5f8731ecc4fda8375801b5b9b2dedc445241efa4a7cd864"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:54566b98f2fb96d9d8aacc8a0a21bb46857f331bbd52f08ffd3ec3d5c25d89d7",
+          "sha256": "54566b98f2fb96d9d8aacc8a0a21bb46857f331bbd52f08ffd3ec3d5c25d89d7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cppcheck/blobs/sha256:d81099bf2338bcd416ee94ad75a9a462162a6f514048e6585fa2bf271292846e",
+          "sha256": "d81099bf2338bcd416ee94ad75a9a462162a6f514048e6585fa2bf271292846e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "pcre",
+    "tinyxml2"
+  ],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cppcheck.rb",
+  "ruby_source_checksum": {
+    "sha256": "aea57655650dfdd31ae3b8540812de7147ade525d6aab101335fddcacbb3fd49"
+  },
+  "date_added": "2010-05-12T07:43:23-07:00"
+}

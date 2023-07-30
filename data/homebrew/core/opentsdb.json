@@ -1,0 +1,104 @@
+{
+  "name": "opentsdb",
+  "full_name": "opentsdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scalable, distributed Time Series Database",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "http://opentsdb.net/",
+  "versions": {
+    "stable": "2.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/OpenTSDB/opentsdb/archive/refs/tags/v2.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "70456fa8b33a9f0855105422f944d6ef14d077c4b4c9c26f8e4a86f329b247a0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opentsdb/blobs/sha256:64369af5327cbbbed6c3f3845e6e60f399a9876cacef624682e8d7cfc9d804b9",
+          "sha256": "64369af5327cbbbed6c3f3845e6e60f399a9876cacef624682e8d7cfc9d804b9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opentsdb/blobs/sha256:98c4251b26aaa0d592c976615aa53d4d4ff0a464b342421e91354a4138dcd208",
+          "sha256": "98c4251b26aaa0d592c976615aa53d4d4ff0a464b342421e91354a4138dcd208"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opentsdb/blobs/sha256:e29c00cec680bfc711c31d40aa5f04e5c62ebf9219c3adddcc84dff74b1922cc",
+          "sha256": "e29c00cec680bfc711c31d40aa5f04e5c62ebf9219c3adddcc84dff74b1922cc"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opentsdb/blobs/sha256:61cd7a6e22f917bd544d427d77e7236c82735406ea384134ba0551a70ce10b27",
+          "sha256": "61cd7a6e22f917bd544d427d77e7236c82735406ea384134ba0551a70ce10b27"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "openjdk@8",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "gnuplot",
+    "hbase",
+    "lzo",
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/opentsdb/bin/start-tsdb.sh",
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/opentsdb/opentsdb.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/opentsdb/opentsdb.err"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opentsdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "ba12a447e0c816b4c3faf48e36a21b50a8d2da5358b9a28fa0d814848d7a95ad"
+  },
+  "date_added": "2016-05-24T11:47:04+02:00"
+}

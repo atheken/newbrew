@@ -1,0 +1,117 @@
+{
+  "name": "mvt",
+  "full_name": "mvt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Mobile device forensic toolkit",
+  "license": "Cannot Represent",
+  "homepage": "https://docs.mvt.re/en/latest/",
+  "versions": {
+    "stable": "2.4.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ae/8c/5bf7d63b129e3f11a78d24861eb676e986d166e4fbf6d8eab728fd63e9b1/mvt-2.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a9033686b9ca640dbc631d0ac1db6193cdd0b2d48ea67e3c1cbf4300873ced67"
+    },
+    "head": {
+      "url": "https://github.com/mvt-project/mvt.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:4413c3de97eda72f782afa6798cdfcd385d89891fb34eac0dbf45c2a02f7ca11",
+          "sha256": "4413c3de97eda72f782afa6798cdfcd385d89891fb34eac0dbf45c2a02f7ca11"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:d26effca6b91885b27b57ed2445cc923397bc417583d40a359b5ca3471cda223",
+          "sha256": "d26effca6b91885b27b57ed2445cc923397bc417583d40a359b5ca3471cda223"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:0d51e2071bbc0a3ea7a4874b4451203ffc195982f7da1e100a6cb464ea51a856",
+          "sha256": "0d51e2071bbc0a3ea7a4874b4451203ffc195982f7da1e100a6cb464ea51a856"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:af8918517a4761c248d92a8f524c1721d1a779e3d62c9219ae6a56c0779534e9",
+          "sha256": "af8918517a4761c248d92a8f524c1721d1a779e3d62c9219ae6a56c0779534e9"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:b93bbc539736e2fb8a01e7670f4cffe8b3ec0812108eb657a3576f6237fc1927",
+          "sha256": "b93bbc539736e2fb8a01e7670f4cffe8b3ec0812108eb657a3576f6237fc1927"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:4027262be7b15b6cd943caa6029d42014bcb964d84c03609115286f826737a32",
+          "sha256": "4027262be7b15b6cd943caa6029d42014bcb964d84c03609115286f826737a32"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mvt/blobs/sha256:ea52299e0a964ee98fcd16cf2aed7cb19a7e32d6204406d40e23a4741a551385",
+          "sha256": "ea52299e0a964ee98fcd16cf2aed7cb19a7e32d6204406d40e23a4741a551385"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "pygments",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mvt.rb",
+  "ruby_source_checksum": {
+    "sha256": "055a9f6e57a27eccb22604ed5550fb3ee836a6fc7df207ebf3b3a3bb8827ee4a"
+  },
+  "date_added": "2023-07-13T15:13:13-07:00"
+}

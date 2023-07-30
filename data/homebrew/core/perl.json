@@ -1,0 +1,120 @@
+{
+  "name": "perl",
+  "full_name": "perl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "perl@5.36"
+  ],
+  "versioned_formulae": [
+    "perl@5.18"
+  ],
+  "desc": "Highly capable, feature-rich programming language",
+  "license": "Artistic-1.0-Perl or GPL-1.0-or-later",
+  "homepage": "https://www.perl.org/",
+  "versions": {
+    "stable": "5.36.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.cpan.org/src/5.0/perl-5.36.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bd91217ea8a8c8b81f21ebbb6cefdf0d13ae532013f944cdece2cd51aef4b6a7"
+    },
+    "head": {
+      "url": "https://github.com/perl/perl5.git",
+      "branch": "blead"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:95806fc97a4d19f592e9fc265e2a79a3183463306c41b665cea9f69d0d748d41",
+          "sha256": "95806fc97a4d19f592e9fc265e2a79a3183463306c41b665cea9f69d0d748d41"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:4ab6b71b6068bf7efa35d9ec0c175b2de73917b9fe3bc2e47c25f4975c102c06",
+          "sha256": "4ab6b71b6068bf7efa35d9ec0c175b2de73917b9fe3bc2e47c25f4975c102c06"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:6046f055d4e8c188726e73a5c6961618d6796c41b0f5b8ccbf874618fe546342",
+          "sha256": "6046f055d4e8c188726e73a5c6961618d6796c41b0f5b8ccbf874618fe546342"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:12a8c480c692775bf24c4ba802103982299e899c9d949ec4bc288ecab661a42d",
+          "sha256": "12a8c480c692775bf24c4ba802103982299e899c9d949ec4bc288ecab661a42d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:624ccf8b182aabb60ec7bf1ded9177e4085253c53eab3cdecb30b694efc5ca97",
+          "sha256": "624ccf8b182aabb60ec7bf1ded9177e4085253c53eab3cdecb30b694efc5ca97"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:61baac39c1834ec0f7a026d639b6008eaf893090ebb57f947068e143e29ee556",
+          "sha256": "61baac39c1834ec0f7a026d639b6008eaf893090ebb57f947068e143e29ee556"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/perl/blobs/sha256:db9590fceed0e461c2d01977d0d314f3d1696147dd1489c775e9ca415e2aee9a",
+          "sha256": "db9590fceed0e461c2d01977d0d314f3d1696147dd1489c775e9ca415e2aee9a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "berkeley-db",
+    "gdbm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat",
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "By default non-brewed cpan modules are installed to the Cellar. If you wish\nfor your modules to persist across updates we recommend using `local::lib`.\n\nYou can set that up like this:\n  PERL_MM_OPT=\"INSTALL_BASE=$HOME/perl5\" cpan local::lib\nAnd add the following to your shell profile e.g. ~/.profile or ~/.zshrc\n  eval \"$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/perl.rb",
+  "ruby_source_checksum": {
+    "sha256": "61e1d35736ae541ab08e4c7fc87c360f8fac2020998569c4535d38d7bbddd2d8"
+  },
+  "date_added": "2014-10-09T13:08:17-07:00"
+}

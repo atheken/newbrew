@@ -1,0 +1,103 @@
+{
+  "name": "cabextract",
+  "full_name": "cabextract",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Extract files from Microsoft cabinet files",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.cabextract.org.uk/",
+  "versions": {
+    "stable": "1.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.cabextract.org.uk/cabextract-1.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b5546db1155e4c718ff3d4b278573604f30dd64c3c5bfd4657cd089b823a3ac6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:8e4cd53d32db9ea97656f399dd9033eaa5ef5c8cc3226de8de09865e6c610435",
+          "sha256": "8e4cd53d32db9ea97656f399dd9033eaa5ef5c8cc3226de8de09865e6c610435"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:371a13fefca5fbd78edd570020e5f0eaf82536c55e54a8efd01fe7570103cd01",
+          "sha256": "371a13fefca5fbd78edd570020e5f0eaf82536c55e54a8efd01fe7570103cd01"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:3d71ed3ba74cc371c392104c0f9c8f2fdc8e504e046140f5c1c74e95680fd6db",
+          "sha256": "3d71ed3ba74cc371c392104c0f9c8f2fdc8e504e046140f5c1c74e95680fd6db"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:2e30506702df76799a4c685f6004e58cbf06b27a1bbb25fb401f802aa95bd80b",
+          "sha256": "2e30506702df76799a4c685f6004e58cbf06b27a1bbb25fb401f802aa95bd80b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:add98c9cb4c6d920c8acb6378ad9bec3bf1f95f531a522c07e4cfc6bf00c687f",
+          "sha256": "add98c9cb4c6d920c8acb6378ad9bec3bf1f95f531a522c07e4cfc6bf00c687f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:af25a0c0dadcae5b550953a5c2857533c65013ff65daaa67555d6bf0b204249c",
+          "sha256": "af25a0c0dadcae5b550953a5c2857533c65013ff65daaa67555d6bf0b204249c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cabextract/blobs/sha256:5631eaa72da365accb3b576606fcfcc619879e83bfdd97c74233c073f6f42374",
+          "sha256": "5631eaa72da365accb3b576606fcfcc619879e83bfdd97c74233c073f6f42374"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cabextract.rb",
+  "ruby_source_checksum": {
+    "sha256": "0e5b4b2182c6729c2b9e605ca6067f2fe5f3f3a667c86c874c6c4c6f756118a3"
+  },
+  "date_added": "2009-12-05T17:00:13+00:00"
+}

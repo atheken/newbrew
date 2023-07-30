@@ -1,0 +1,107 @@
+{
+  "name": "pcalc",
+  "full_name": "pcalc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Calculator for those working with multiple bases, sizes, and close to the bits",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/alt-romes/programmer-calculator",
+  "versions": {
+    "stable": "3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/alt-romes/programmer-calculator/archive/v3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6ede71e1442710e73edb99eb1742452e67ad5095cad328526633722850aa1136"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:8726e03985b7241593b16d00eafd49b008e479058d3bf984da595c3e4cc2195a",
+          "sha256": "8726e03985b7241593b16d00eafd49b008e479058d3bf984da595c3e4cc2195a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:8cb160f96c00151800102a58e493b8e394bfdaea743329ca7af245502185bdf5",
+          "sha256": "8cb160f96c00151800102a58e493b8e394bfdaea743329ca7af245502185bdf5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:ba2a72db4f367a3ae6dceef1eba8eb5e9ea84586acef55d163d53503a3ffddb1",
+          "sha256": "ba2a72db4f367a3ae6dceef1eba8eb5e9ea84586acef55d163d53503a3ffddb1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:7929c84fa052dc93f47b5dfe37d4332ff916e2c300739b08f721e72bea265a86",
+          "sha256": "7929c84fa052dc93f47b5dfe37d4332ff916e2c300739b08f721e72bea265a86"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:2259c04f3360d9bb7c26693fe47651972408c21d2b18a7760ecc218d2e2a33ab",
+          "sha256": "2259c04f3360d9bb7c26693fe47651972408c21d2b18a7760ecc218d2e2a33ab"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:bfef357df427a5d36419bee76ac2a65ce36e191c354d9d773f53b3ed6fd7058f",
+          "sha256": "bfef357df427a5d36419bee76ac2a65ce36e191c354d9d773f53b3ed6fd7058f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pcalc/blobs/sha256:3bfe8638f58d9b4a6b71c50f08d37b6bf10e773ff1d43946879269cf00df69d4",
+          "sha256": "3bfe8638f58d9b4a6b71c50f08d37b6bf10e773ff1d43946879269cf00df69d4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pcalc.rb",
+  "ruby_source_checksum": {
+    "sha256": "e79a5faaba8db30b130ba81b6461a6d1e7808dbebde9f164b05b69c63365e4f7"
+  },
+  "date_added": "2021-02-17T14:39:30+00:00"
+}

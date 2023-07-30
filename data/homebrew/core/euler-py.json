@@ -1,0 +1,79 @@
+{
+  "name": "euler-py",
+  "full_name": "euler-py",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Project Euler command-line tool written in Python",
+  "license": "MIT",
+  "homepage": "https://github.com/iKevinY/EulerPy",
+  "versions": {
+    "stable": "1.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/iKevinY/EulerPy/archive/v1.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0d2f633bc3985c8acfd62bc76ff3f19d0bfb2274f7873ec7e40c2caef315e46d"
+    },
+    "head": {
+      "url": "https://github.com/iKevinY/EulerPy.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/euler-py/blobs/sha256:1913cf5a79895977ea9c9bf1e6c3d2e76fb965ebb062c86087859fbd80ecc227",
+          "sha256": "1913cf5a79895977ea9c9bf1e6c3d2e76fb965ebb062c86087859fbd80ecc227"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/euler-py.rb",
+  "ruby_source_checksum": {
+    "sha256": "b74150225b4fb0ff2b47e1e457072efc9f688886391351f8df0c8adab30b3395"
+  },
+  "date_added": "2014-11-10T19:37:29+00:00"
+}

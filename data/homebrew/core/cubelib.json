@@ -1,0 +1,109 @@
+{
+  "name": "cubelib",
+  "full_name": "cubelib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cube, is a performance report explorer for Scalasca and Score-P",
+  "license": "BSD-3-Clause",
+  "homepage": "https://scalasca.org/software/cube-4.x/download.html",
+  "versions": {
+    "stable": "4.8.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://apps.fz-juelich.de/scalasca/releases/cube/4.8/dist/cubelib-4.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e4d974248963edab48c5d0fc5831146d391b0ae4632cccafe840bf5f12cd80a9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:31a4f63d6b368da9050d8f891619e9e62ea7cfe02af66f7004f12fd15bad6e04",
+          "sha256": "31a4f63d6b368da9050d8f891619e9e62ea7cfe02af66f7004f12fd15bad6e04"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:0f32c63323cb7075849dbbff312a856cd54b8e6b8854a77690f7f44f63eb5deb",
+          "sha256": "0f32c63323cb7075849dbbff312a856cd54b8e6b8854a77690f7f44f63eb5deb"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:3b65fcd3200db9f61e8982b413f7f786cdfb3c40d2109947b83f4dd4afef842d",
+          "sha256": "3b65fcd3200db9f61e8982b413f7f786cdfb3c40d2109947b83f4dd4afef842d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:f6c2ff0ca670e0446d95633e33d0f781ca99a0fa7fafa9af2d12104ce09e3506",
+          "sha256": "f6c2ff0ca670e0446d95633e33d0f781ca99a0fa7fafa9af2d12104ce09e3506"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:cb0b173a4a34539a1ba532bdd9d79ed4a9fcb989f48a3f12dd36af988822fb15",
+          "sha256": "cb0b173a4a34539a1ba532bdd9d79ed4a9fcb989f48a3f12dd36af988822fb15"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:2e10383644ad9a107aeb3349c59d92e56db6f16b5aad086deafd5864c4c6ccf7",
+          "sha256": "2e10383644ad9a107aeb3349c59d92e56db6f16b5aad086deafd5864c4c6ccf7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cubelib/blobs/sha256:c6c70544de82a4f24b4e7976141e63f16ae76b5e44ecd42a1ec0ed6077fe3b55",
+          "sha256": "c6c70544de82a4f24b4e7976141e63f16ae76b5e44ecd42a1ec0ed6077fe3b55"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cubelib.rb",
+  "ruby_source_checksum": {
+    "sha256": "352a8e53ccd5ee051cf64087f6dc1b04b45fcb7a55ff817f98e62b18d698ab6d"
+  },
+  "date_added": "2019-04-21T07:58:43-04:00"
+}

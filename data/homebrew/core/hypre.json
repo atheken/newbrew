@@ -1,0 +1,110 @@
+{
+  "name": "hypre",
+  "full_name": "hypre",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library featuring parallel multigrid methods for grid problems",
+  "license": "MIT or Apache-2.0",
+  "homepage": "https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods",
+  "versions": {
+    "stable": "2.29.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/hypre-space/hypre/archive/v2.29.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "98b72115407a0e24dbaac70eccae0da3465f8f999318b2c9241631133f42d511"
+    },
+    "head": {
+      "url": "https://github.com/hypre-space/hypre.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:57781669b62d7eb3e34d60d8e09d8c31b11d4fdd52023a8458b3826042eba12a",
+          "sha256": "57781669b62d7eb3e34d60d8e09d8c31b11d4fdd52023a8458b3826042eba12a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:96bbca9bfea390f76c8f80cb3ae2edd6a31836591951471fd281f11ce866537e",
+          "sha256": "96bbca9bfea390f76c8f80cb3ae2edd6a31836591951471fd281f11ce866537e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:a411682ec9ee101422be8c79061a2c6aea9e623b69356e762039b0885faaec7c",
+          "sha256": "a411682ec9ee101422be8c79061a2c6aea9e623b69356e762039b0885faaec7c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:d0944001c48e56187972ca23b7b473b2f426acb7155812968ccdc64145ac0599",
+          "sha256": "d0944001c48e56187972ca23b7b473b2f426acb7155812968ccdc64145ac0599"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:8ec43a3621242e4ca2b53c4f66b41e2077e60ad28c749dae3e28eb8954280e86",
+          "sha256": "8ec43a3621242e4ca2b53c4f66b41e2077e60ad28c749dae3e28eb8954280e86"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:d748f75570c4e130969b8f49910ce557eb938f9e5790bf25367e7024f99b8472",
+          "sha256": "d748f75570c4e130969b8f49910ce557eb938f9e5790bf25367e7024f99b8472"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hypre/blobs/sha256:e35eb8e4e9a9dd19fd48d36fcb5a9192e79fff31657399dbad9ec5236576ea15",
+          "sha256": "e35eb8e4e9a9dd19fd48d36fcb5a9192e79fff31657399dbad9ec5236576ea15"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gcc",
+    "open-mpi"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hypre.rb",
+  "ruby_source_checksum": {
+    "sha256": "3c5fa6adf02349ae59f4a37af476b00602f9bb004962181c1583f8e7a1029d0f"
+  },
+  "date_added": "2017-08-19T22:43:45+02:00"
+}

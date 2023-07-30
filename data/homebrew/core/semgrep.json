@@ -1,0 +1,130 @@
+{
+  "name": "semgrep",
+  "full_name": "semgrep",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easily detect and prevent bugs and anti-patterns in your codebase",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://semgrep.dev",
+  "versions": {
+    "stable": "1.34.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/returntocorp/semgrep.git",
+      "tag": "v1.34.1",
+      "revision": "8bb2770557395b25529abbb2f3f3a6c26aaee33f",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/returntocorp/semgrep.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:932e6b08de66df307ed134445e47850736fc1e023fccfb53040819189eca3deb",
+          "sha256": "932e6b08de66df307ed134445e47850736fc1e023fccfb53040819189eca3deb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:b41bb7641c8324dbcfb05a7e5e886b88bb7f16590f2c71a0ea3e0d8c067d566b",
+          "sha256": "b41bb7641c8324dbcfb05a7e5e886b88bb7f16590f2c71a0ea3e0d8c067d566b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:e32b74510493f311b31a0dcf6a26246cdd6d509ee80451fed796efce3ead7349",
+          "sha256": "e32b74510493f311b31a0dcf6a26246cdd6d509ee80451fed796efce3ead7349"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:ed2180e0a821652f5ddcd40075bfe2708e728734b84ce703c92a7d6e8c33b67c",
+          "sha256": "ed2180e0a821652f5ddcd40075bfe2708e728734b84ce703c92a7d6e8c33b67c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:f36414bd89e7fab9864d161f5fd745c7a681e1e4de88b9f544079679aabf40f6",
+          "sha256": "f36414bd89e7fab9864d161f5fd745c7a681e1e4de88b9f544079679aabf40f6"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:9391a4ba44f8aa1b52d7cc4fc6767af0045ce08fa7b09e5e637642267388cd1d",
+          "sha256": "9391a4ba44f8aa1b52d7cc4fc6767af0045ce08fa7b09e5e637642267388cd1d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/semgrep/blobs/sha256:014300a06d8c860c3c9a5c4be2adabe13a80f54f8f976805d4552a181bf207b1",
+          "sha256": "014300a06d8c860c3c9a5c4be2adabe13a80f54f8f976805d4552a181bf207b1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "cmake",
+    "coreutils",
+    "dune",
+    "ocaml",
+    "opam",
+    "pipenv",
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "gmp",
+    "pcre",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11",
+    "tree-sitter"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "rsync": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/semgrep.rb",
+  "ruby_source_checksum": {
+    "sha256": "f6f456c86f02f067cba9c4adf3508cb0164051163a2e78dd688242aa7df05ff6"
+  },
+  "date_added": "2020-05-09T20:17:07-04:00"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "mdds",
+  "full_name": "mdds",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Multi-dimensional data structure and indexing algorithm",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/mdds/mdds",
+  "versions": {
+    "stable": "2.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://kohei.us/files/mdds/src/mdds-2.1.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "8a3767f0a60c53261b5ebbaa717381446813aef8cf28fe9d0ea1371123bbe3f1"
+    },
+    "head": {
+      "url": "https://gitlab.com/mdds/mdds.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mdds/blobs/sha256:aaa2d7bc7911b603839da712738b0fdce8d5c078dbbd9fa3c375fdc2e10c3398",
+          "sha256": "aaa2d7bc7911b603839da712738b0fdce8d5c078dbbd9fa3c375fdc2e10c3398"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mdds.rb",
+  "ruby_source_checksum": {
+    "sha256": "fdfd7a5d805f3a30b7ac4365ea92f845a9bc77527628c762a50c5511adeeddca"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "automake",
+      "autoconf"
+    ],
+    "dependencies": [
+      "boost"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2015-11-03T10:52:23+01:00"
+}

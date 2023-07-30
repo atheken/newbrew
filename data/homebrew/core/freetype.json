@@ -1,0 +1,115 @@
+{
+  "name": "freetype",
+  "full_name": "freetype",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "freetype2"
+  ],
+  "versioned_formulae": [],
+  "desc": "Software library to render fonts",
+  "license": "FTL",
+  "homepage": "https://www.freetype.org/",
+  "versions": {
+    "stable": "2.13.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/freetype/freetype2/2.13.1/freetype-2.13.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ea67e3b019b1104d1667aa274f5dc307d8cbd606b399bc32df308a77f1a564bf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:87a44e9a361f9dcc531514c9e34b6da2893a4650c60419eed7331d8a92daa8a1",
+          "sha256": "87a44e9a361f9dcc531514c9e34b6da2893a4650c60419eed7331d8a92daa8a1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:99f7cb3ebf9309e1734391611c7fab4b2dfe48fe2b0dc484f2e0476b913e958e",
+          "sha256": "99f7cb3ebf9309e1734391611c7fab4b2dfe48fe2b0dc484f2e0476b913e958e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:5aad113162129820c2926641a203db43139f0bf9dc2d7ae1b8f090ab29fb7011",
+          "sha256": "5aad113162129820c2926641a203db43139f0bf9dc2d7ae1b8f090ab29fb7011"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:872745894238fce7dba35a0add31b49b7c53150d9b7ee22a010104f0795895d2",
+          "sha256": "872745894238fce7dba35a0add31b49b7c53150d9b7ee22a010104f0795895d2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:57eae05744e50fab0dd3860af6b683bce245a65721e11d745c771432c5df0629",
+          "sha256": "57eae05744e50fab0dd3860af6b683bce245a65721e11d745c771432c5df0629"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:ae5f6d23acb94cd01039a950cdcc99917641fbdb1171f5aa3c78bafc5317c3c4",
+          "sha256": "ae5f6d23acb94cd01039a950cdcc99917641fbdb1171f5aa3c78bafc5317c3c4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:07fec4ca74409c33e6d572a7027040a4acbd72527b4eb0a21e5d7e734fbcb7f0",
+          "sha256": "07fec4ca74409c33e6d572a7027040a4acbd72527b4eb0a21e5d7e734fbcb7f0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libpng"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/freetype.rb",
+  "ruby_source_checksum": {
+    "sha256": "402906af158e8842181c956345faf04f83adc7d37b3de7deb0841d5349664e6d"
+  },
+  "date_added": "2012-08-08T18:19:21+01:00"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "dronedb",
+  "full_name": "dronedb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Free and open source software for aerial data storage",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/DroneDB/DroneDB",
+  "versions": {
+    "stable": "1.0.12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/DroneDB/DroneDB.git",
+      "tag": "v1.0.12",
+      "revision": "849e92fa94dc7cf65eb756ecf3824f0fe9dbb797",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/DroneDB/DroneDB.git",
+      "branch": "master"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:fbca372fd5d4c886b635ec37fc9eadf411707a52127da818b67db2398ef6c46e",
+          "sha256": "fbca372fd5d4c886b635ec37fc9eadf411707a52127da818b67db2398ef6c46e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:ebe8500b072b2d2db44f165126ee538fc66a006e8d8780ab7ac2e517302fb240",
+          "sha256": "ebe8500b072b2d2db44f165126ee538fc66a006e8d8780ab7ac2e517302fb240"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:e6223a8453c7b65e9a32133bf0dea927eef7af85105dfbf7c07c88387e01f163",
+          "sha256": "e6223a8453c7b65e9a32133bf0dea927eef7af85105dfbf7c07c88387e01f163"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:66972a3e940b43d550da78dc48ec513a0113d7d2349c63e4998a648df651fb35",
+          "sha256": "66972a3e940b43d550da78dc48ec513a0113d7d2349c63e4998a648df651fb35"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:803a1af44b3235b1338ed5ecb5575c09dcf73723d3f28127617d05a5750af08e",
+          "sha256": "803a1af44b3235b1338ed5ecb5575c09dcf73723d3f28127617d05a5750af08e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:08855a4cb551c8b4df952d96923831cdfc0abe4692a87d388fc9d253645026eb",
+          "sha256": "08855a4cb551c8b4df952d96923831cdfc0abe4692a87d388fc9d253645026eb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dronedb/blobs/sha256:09354fb3e97fab366d197e9dd0ef3daa0d07452a208d840cc70a21331589150f",
+          "sha256": "09354fb3e97fab366d197e9dd0ef3daa0d07452a208d840cc70a21331589150f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gdal",
+    "libspatialite",
+    "libzip",
+    "pdal"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dronedb.rb",
+  "ruby_source_checksum": {
+    "sha256": "affa817a731bdef4f61c20de9532c7255f3308aeae66454472e8aca3641e049f"
+  },
+  "date_added": "2022-09-30T02:53:33+00:00"
+}

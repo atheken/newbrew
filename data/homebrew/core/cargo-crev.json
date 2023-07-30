@@ -1,0 +1,113 @@
+{
+  "name": "cargo-crev",
+  "full_name": "cargo-crev",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Code review system for the cargo package manager",
+  "license": "Apache-2.0",
+  "homepage": "https://web.crev.dev/rust-reviews/",
+  "versions": {
+    "stable": "0.24.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/crev-dev/cargo-crev/archive/refs/tags/v0.24.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fc2766dd0c18e3ab24ccbab27b5419eced418b968cf7bbf6260e7afe66bd0fcf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:948addd888f73c01f8565c3f0d469aa7431816e1d18f0a1629ee38862e68b6f0",
+          "sha256": "948addd888f73c01f8565c3f0d469aa7431816e1d18f0a1629ee38862e68b6f0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:773efd930cd69fac0869c8b3a3cc893318be7e77a6c3f06341547b983dee6ffe",
+          "sha256": "773efd930cd69fac0869c8b3a3cc893318be7e77a6c3f06341547b983dee6ffe"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:2f9e2ca476e0d39489516d59a1c7856266cf3c9a6dffb0fe9460236c38c7a9b0",
+          "sha256": "2f9e2ca476e0d39489516d59a1c7856266cf3c9a6dffb0fe9460236c38c7a9b0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:fc877dac5fd91acff9b4a03f5416a6665874aed8f35884ed8b9888d8ea1b9e7f",
+          "sha256": "fc877dac5fd91acff9b4a03f5416a6665874aed8f35884ed8b9888d8ea1b9e7f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:4ec702e04ff193c6b187d451273fc2bcf42547bd1db21d978fac48aca63fb847",
+          "sha256": "4ec702e04ff193c6b187d451273fc2bcf42547bd1db21d978fac48aca63fb847"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:58d8003d94170d361a8b74fef2a4afce12b1464b3965dc57388ea1aff2d422c1",
+          "sha256": "58d8003d94170d361a8b74fef2a4afce12b1464b3965dc57388ea1aff2d422c1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-crev/blobs/sha256:77f170481da6131ee117d300904fda1aa6b05bfd08d1294bac45ad96393f582f",
+          "sha256": "77f170481da6131ee117d300904fda1aa6b05bfd08d1294bac45ad96393f582f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [
+    "rustup-init"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-crev.rb",
+  "ruby_source_checksum": {
+    "sha256": "7314047b28074436efc249157dfe20f8253432f90a03404016e90af6c56aad44"
+  },
+  "date_added": "2022-08-06T04:06:04+00:00"
+}

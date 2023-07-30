@@ -1,0 +1,105 @@
+{
+  "name": "temporal_tables",
+  "full_name": "temporal_tables",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Temporal Tables PostgreSQL Extension",
+  "license": "BSD-2-Clause",
+  "homepage": "https://pgxn.org/dist/temporal_tables/",
+  "versions": {
+    "stable": "1.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/arkhipov/temporal_tables/archive/v1.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e3711797aa5def8f4974215bb5557204b2bc8e5e94201167eb95246a112b8138"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:25de5d67758c7f706666c46b444f41d90750c34154f37818996e7a8e587fed24",
+          "sha256": "25de5d67758c7f706666c46b444f41d90750c34154f37818996e7a8e587fed24"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:0c598c7ce24e74d75192a0f288e6999f9469a39cdbd527200cd49f148ac6212c",
+          "sha256": "0c598c7ce24e74d75192a0f288e6999f9469a39cdbd527200cd49f148ac6212c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:bde5bd8f74dcb385b456d8b3b41cd091ec2c3c8b14bd547673e15b88fbc98d8e",
+          "sha256": "bde5bd8f74dcb385b456d8b3b41cd091ec2c3c8b14bd547673e15b88fbc98d8e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:0f95f0a9ac21073ff6b19cb755107230557c219049d616fe06bcce3bbcdc661b",
+          "sha256": "0f95f0a9ac21073ff6b19cb755107230557c219049d616fe06bcce3bbcdc661b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:b927ea034755f45d616ede60bee3143b2f99eb73aed0a59b56bd678f2604e372",
+          "sha256": "b927ea034755f45d616ede60bee3143b2f99eb73aed0a59b56bd678f2604e372"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:59a11c3b8ab038ce163126367041ff0e36ccfa34feb0c2069b4ac2518fac45cc",
+          "sha256": "59a11c3b8ab038ce163126367041ff0e36ccfa34feb0c2069b4ac2518fac45cc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/temporal_tables/blobs/sha256:ebd8118d7b3a00ead2834ac1dde9550553606e004b2fb02fc53e61438260da6b",
+          "sha256": "ebd8118d7b3a00ead2834ac1dde9550553606e004b2fb02fc53e61438260da6b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "postgresql@14"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/temporal_tables.rb",
+  "ruby_source_checksum": {
+    "sha256": "69ae2e7380a6286d48d8351a315d2199abd946bc6c47f340e61f3476b3bd2f8c"
+  },
+  "date_added": "2017-01-28T13:55:17-08:00"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "musikcube",
+  "full_name": "musikcube",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Terminal-based audio engine, library, player and server",
+  "license": "BSD-3-Clause",
+  "homepage": "https://musikcube.com",
+  "versions": {
+    "stable": "3.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/clangen/musikcube/archive/3.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "94fe7e2dba60137bbfee25c037850ac064744cd8c050cc76360580b2b6790632"
+    },
+    "head": {
+      "url": "https://github.com/clangen/musikcube.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:536bdc6b3e27c7d83f2634de933e0fba13a21d0017f078a975ccdf93ac06c840",
+          "sha256": "536bdc6b3e27c7d83f2634de933e0fba13a21d0017f078a975ccdf93ac06c840"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:e49881571854ac5a280e32c2c0b3ae5344df48f334b8359ac879a983d7ec68e3",
+          "sha256": "e49881571854ac5a280e32c2c0b3ae5344df48f334b8359ac879a983d7ec68e3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:3974a891f2570db4d354d6157adf75d1be43ddc7220f5225b2d4c2afd869efe0",
+          "sha256": "3974a891f2570db4d354d6157adf75d1be43ddc7220f5225b2d4c2afd869efe0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:bffffdf3f530d78ff18bc4889d9c0cfa4c67819cb85f46dea0bad041df066b0a",
+          "sha256": "bffffdf3f530d78ff18bc4889d9c0cfa4c67819cb85f46dea0bad041df066b0a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:541d265dd774e6a2b29bd9421c98b7e31fe93fa95d369d50541d5dcb090e2944",
+          "sha256": "541d265dd774e6a2b29bd9421c98b7e31fe93fa95d369d50541d5dcb090e2944"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/musikcube/blobs/sha256:f890ef84c1d502e49f18e4b0af2d021091c0d162477798e619a69f20aa032787",
+          "sha256": "f890ef84c1d502e49f18e4b0af2d021091c0d162477798e619a69f20aa032787"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "asio",
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ffmpeg",
+    "game-music-emu",
+    "gnutls",
+    "lame",
+    "libev",
+    "libmicrohttpd",
+    "libogg",
+    "libopenmpt",
+    "libvorbis",
+    "ncurses",
+    "openssl@3",
+    "taglib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/musikcube.rb",
+  "ruby_source_checksum": {
+    "sha256": "cd7be58f18a5232f1a17d9755249262bac8522052bdd0c33b7202c42aa9c3917"
+  },
+  "date_added": "2023-03-23T06:54:36+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "z3",
+  "full_name": "z3",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance theorem prover",
+  "license": "MIT",
+  "homepage": "https://github.com/Z3Prover/z3",
+  "versions": {
+    "stable": "4.12.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Z3Prover/z3/archive/z3-4.12.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9f58f3710bd2094085951a75791550f547903d75fe7e2fcb373c5f03fc761b8f"
+    },
+    "head": {
+      "url": "https://github.com/Z3Prover/z3.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:e8006cc04b33c0d2f834c7b73f2887b9832f979600488851b7a5091d13239a7c",
+          "sha256": "e8006cc04b33c0d2f834c7b73f2887b9832f979600488851b7a5091d13239a7c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:431799c83071ea311fbaf551e6857edc93242e2858beadb8487f564575bd8128",
+          "sha256": "431799c83071ea311fbaf551e6857edc93242e2858beadb8487f564575bd8128"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:56e46cd536c280cc8fb5e960f0cae7b70cccc0c7891e658aeec1c8a8717dc7b3",
+          "sha256": "56e46cd536c280cc8fb5e960f0cae7b70cccc0c7891e658aeec1c8a8717dc7b3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:70990b1e46735ced52fe8ee0f8746982d13dbb0ba104b4af21755795e9e79cc1",
+          "sha256": "70990b1e46735ced52fe8ee0f8746982d13dbb0ba104b4af21755795e9e79cc1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:80ce63d42c4377b4e4d30299bbb9a99f3adfd2d878936ad6717e63bd73fd28d9",
+          "sha256": "80ce63d42c4377b4e4d30299bbb9a99f3adfd2d878936ad6717e63bd73fd28d9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:6bb2b22e2ac439e31e786f17b4cc6d64e2449b438fbf899b3cd9cc004351ba24",
+          "sha256": "6bb2b22e2ac439e31e786f17b4cc6d64e2449b438fbf899b3cd9cc004351ba24"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:2f947a5b0ea9e97728008bff971b390dc6140849cebe059a431a7a41dab5ea13",
+          "sha256": "2f947a5b0ea9e97728008bff971b390dc6140849cebe059a431a7a41dab5ea13"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/z3.rb",
+  "ruby_source_checksum": {
+    "sha256": "d4d7a692b39249c31ab86fedd9f0005e0aad29b07234f7d6f6e120d8b44a7596"
+  },
+  "date_added": "2015-10-15T14:26:55+01:00"
+}

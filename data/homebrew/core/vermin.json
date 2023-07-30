@@ -1,0 +1,109 @@
+{
+  "name": "vermin",
+  "full_name": "vermin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Concurrently detect the minimum Python versions needed to run code",
+  "license": "MIT",
+  "homepage": "https://github.com/netromdk/vermin",
+  "versions": {
+    "stable": "1.5.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/netromdk/vermin/archive/v1.5.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e4b6ca6f3e71b0d83a179dc4a4ba50682f60474cf8c948ba9f82e330f219ff4a"
+    },
+    "head": {
+      "url": "https://github.com/netromdk/vermin.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5",
+          "sha256": "2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5",
+          "sha256": "2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5",
+          "sha256": "2500d85571abe6515b1932b207bce6fa4ec3b72eec84ba8126695d90508b5eb5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c",
+          "sha256": "48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c",
+          "sha256": "48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c",
+          "sha256": "48e59e6f917d3487ba7c61e8b011d0b37eb19df62eb3645f53f3b51181b8398c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vermin/blobs/sha256:8453b63b554fc3c1da3b0a44f49b3e54458e48e545b39662413e3ae1a2fa5e6f",
+          "sha256": "8453b63b554fc3c1da3b0a44f49b3e54458e48e545b39662413e3ae1a2fa5e6f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vermin.rb",
+  "ruby_source_checksum": {
+    "sha256": "0a8ba58460c6dec1380f74520989765377e6f58995ce91841fbcee31dcc5479f"
+  },
+  "date_added": "2022-01-26T07:43:38+00:00"
+}

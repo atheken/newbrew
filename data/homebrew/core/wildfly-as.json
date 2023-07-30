@@ -1,0 +1,125 @@
+{
+  "name": "wildfly-as",
+  "full_name": "wildfly-as",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Managed application runtime for building applications",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.wildfly.org/",
+  "versions": {
+    "stable": "29.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wildfly/wildfly/releases/download/29.0.0.Final/wildfly-29.0.0.Final.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8916d63a32bb4a7cbd9ac63dabe4ddd34acf04feec75c1e407e6eebfa78c37f0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77",
+          "sha256": "a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77",
+          "sha256": "a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77",
+          "sha256": "a7091f7be4607ca80cefbb695b964b835e2268252636be441e5729a0ffe75a77"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47",
+          "sha256": "8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47",
+          "sha256": "8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wildfly-as/blobs/sha256:8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47",
+          "sha256": "8ca733567f1dd93d4071dd40d8849865db948e2bbe3fc85f272a8cf9e32aac47"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The home of WildFly Application Server 29.0.0 is:\n  $HOMEBREW_PREFIX/opt/wildfly-as/libexec\nYou may want to add the following to your .bash_profile:\n  export JBOSS_HOME=$HOMEBREW_PREFIX/opt/wildfly-as/libexec\n  export PATH=${PATH}:${JBOSS_HOME}/bin\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/wildfly-as/libexec/bin/standalone.sh",
+      "--server-config=standalone.xml"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "successful_exit": false,
+      "crashed": true
+    },
+    "environment_variables": {
+      "JBOSS_HOME": "/home/linuxbrew/.linuxbrew/opt/wildfly-as/libexec",
+      "WILDFLY_HOME": "/home/linuxbrew/.linuxbrew/opt/wildfly-as/libexec"
+    }
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wildfly-as.rb",
+  "ruby_source_checksum": {
+    "sha256": "915aa7f0fbbbd98f11aea6312a2cea53ec2c711c436df6469d1544ba8c14614d"
+  },
+  "date_added": "2014-02-14T17:11:21-08:00"
+}

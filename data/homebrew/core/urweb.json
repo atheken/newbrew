@@ -1,0 +1,112 @@
+{
+  "name": "urweb",
+  "full_name": "urweb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ur/Web programming language",
+  "license": "BSD-3-Clause",
+  "homepage": "http://www.impredicative.com/ur/",
+  "versions": {
+    "stable": "20200209",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/urweb/urweb/releases/download/20200209/urweb-20200209.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ac3010c57f8d90f09f49dfcd6b2dc4d5da1cdbb41cbf12cb386e96e93ae30662"
+    }
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:f357cdf31351b0fc786625edd3eaa79479d84b804dd88e457f26973c5a393a8f",
+          "sha256": "f357cdf31351b0fc786625edd3eaa79479d84b804dd88e457f26973c5a393a8f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:9f265070a97162748e9a31b24d5b00fc98addeae4b43f4adc2f439e9d008af92",
+          "sha256": "9f265070a97162748e9a31b24d5b00fc98addeae4b43f4adc2f439e9d008af92"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:cfd07853704d8ae2dc9c7a484ca35703b337adb71e0aaf24cd9e4d5ebea3fb91",
+          "sha256": "cfd07853704d8ae2dc9c7a484ca35703b337adb71e0aaf24cd9e4d5ebea3fb91"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:aed8a3f4c7dde5770c52add44e411e91b1b3c0971cda9ecb88ce41cccb0ce079",
+          "sha256": "aed8a3f4c7dde5770c52add44e411e91b1b3c0971cda9ecb88ce41cccb0ce079"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:1e5c0ddb80231c37f7c2543caa3b817877e6bacece964669e5de73e7d03d4969",
+          "sha256": "1e5c0ddb80231c37f7c2543caa3b817877e6bacece964669e5de73e7d03d4969"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:df61314f1285c3614690eef04aa483981278c7519efad267ad4032978d6f5ff9",
+          "sha256": "df61314f1285c3614690eef04aa483981278c7519efad267ad4032978d6f5ff9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/urweb/blobs/sha256:71ea50d73c6a06d67bf9500d0c8bc55fc5a3db67fdf5a9a72997e3b7f86fa2ce",
+          "sha256": "71ea50d73c6a06d67bf9500d0c8bc55fc5a3db67fdf5a9a72997e3b7f86fa2ce"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "mlton"
+  ],
+  "dependencies": [
+    "gmp",
+    "icu4c",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/urweb.rb",
+  "ruby_source_checksum": {
+    "sha256": "23c64e81549bc4ef2055f2db798e30274f454cf06fd0a3faa04d30539ff1c1dd"
+  },
+  "date_added": "2012-01-08T13:10:33-06:00"
+}

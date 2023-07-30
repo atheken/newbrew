@@ -1,0 +1,84 @@
+{
+  "name": "webkit2png",
+  "full_name": "webkit2png",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Create screenshots of webpages from the terminal",
+  "license": "MIT",
+  "homepage": "https://www.paulhammond.org/webkit2png/",
+  "versions": {
+    "stable": "0.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/paulhammond/webkit2png/archive/v0.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9b810edb6f54cc23ba86b0212f203e6c3bbafc3cbdb62b9c33887548c91015bf"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/webkit2png/blobs/sha256:ad209d841f88f9b5d3a969e2493d853237c89234bd09dfc3d1aa2106832d2d7d",
+          "sha256": "ad209d841f88f9b5d3a969e2493d853237c89234bd09dfc3d1aa2106832d2d7d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/webkit2png.rb",
+  "ruby_source_checksum": {
+    "sha256": "00479819efd4b9cbee510db97c17628ae79df346f04e772589ad8aed1990fc28"
+  },
+  "date_added": "2010-01-24T12:27:39+00:00"
+}

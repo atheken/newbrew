@@ -1,0 +1,105 @@
+{
+  "name": "vite",
+  "full_name": "vite",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Next generation frontend tooling. It's fast!",
+  "license": "MIT",
+  "homepage": "https://vitejs.dev/",
+  "versions": {
+    "stable": "4.4.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/vite/-/vite-4.4.9.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9b8223179ee7cadac78c5aef849a2526725f4924f138c5354375879fb546dfec"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1",
+          "sha256": "a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1",
+          "sha256": "a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1",
+          "sha256": "a4f8c9a070cc334d81e77c5d6f7624a39501d1738a82d279a1cfc1a559dd3ec1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998",
+          "sha256": "eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998",
+          "sha256": "eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998",
+          "sha256": "eaaa4aece89090dd6e8082fb99991b24109a9b049724d2e75eb9cbf9d5fc8998"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vite/blobs/sha256:43f6bdc6333261ba18a38dec69de2be0af6820679c8c84f38c2e2bd32852ede1",
+          "sha256": "43f6bdc6333261ba18a38dec69de2be0af6820679c8c84f38c2e2bd32852ede1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vite.rb",
+  "ruby_source_checksum": {
+    "sha256": "4af1c29927522a7580dc4c0c3799de25f65c92d4cf71937990d6c72abb3a68fc"
+  },
+  "date_added": "2021-08-27T03:37:39+00:00"
+}

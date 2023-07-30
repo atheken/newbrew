@@ -1,0 +1,118 @@
+{
+  "name": "media-info",
+  "full_name": "media-info",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "mediainfo"
+  ],
+  "versioned_formulae": [],
+  "desc": "Unified display of technical and tag data for audio/video",
+  "license": "BSD-2-Clause",
+  "homepage": "https://mediaarea.net/",
+  "versions": {
+    "stable": "23.07",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mediaarea.net/download/binary/mediainfo/23.07/MediaInfo_CLI_23.07_GNU_FromSource.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "306f1df347eacc377f6a5f5a9dca97f932eb799705cf440d0be490737e7a038b"
+    },
+    "head": {
+      "url": "https://github.com/MediaArea/MediaInfo.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:8e04fc3bb02ac65bc129ff4cb70a1565d41098198fdf32f58a1d9d32a04fa41b",
+          "sha256": "8e04fc3bb02ac65bc129ff4cb70a1565d41098198fdf32f58a1d9d32a04fa41b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:f2c444b547d3fafc5e1cd0312a1b7e40d3509ac8c5031977dc00b606a596540c",
+          "sha256": "f2c444b547d3fafc5e1cd0312a1b7e40d3509ac8c5031977dc00b606a596540c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:f7299972df26b456b15670992624c56fb305e5b835fb1ce8a8f821663c98477f",
+          "sha256": "f7299972df26b456b15670992624c56fb305e5b835fb1ce8a8f821663c98477f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:85c2450fe6c53b38db3f2839d6ad35a57ebcbf91fd31d4f044b693d575666f78",
+          "sha256": "85c2450fe6c53b38db3f2839d6ad35a57ebcbf91fd31d4f044b693d575666f78"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:be9f9e2f30961e19661f5a2c572b83edcece290aa0c715963bc17016b62b789d",
+          "sha256": "be9f9e2f30961e19661f5a2c572b83edcece290aa0c715963bc17016b62b789d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:2114f858209a73c14e2edb6cce12dbc89b6f3aee233646d97c3ae0c7f6b330b0",
+          "sha256": "2114f858209a73c14e2edb6cce12dbc89b6f3aee233646d97c3ae0c7f6b330b0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/media-info/blobs/sha256:9c2869a098330d3d9b15f73107b6a269d6b5260aa24b7b45e1973455a2285fa0",
+          "sha256": "9c2869a098330d3d9b15f73107b6a269d6b5260aa24b7b45e1973455a2285fa0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libmediainfo",
+    "libzen"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/media-info.rb",
+  "ruby_source_checksum": {
+    "sha256": "ea5fcfcc06a153f4d90c5de24713475acb85c380201e7fc117c8ebbef3a7d85c"
+  },
+  "date_added": "2010-07-16T11:12:24-07:00"
+}

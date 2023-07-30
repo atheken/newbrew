@@ -1,0 +1,91 @@
+{
+  "name": "questdb",
+  "full_name": "questdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Time Series Database",
+  "license": "Apache-2.0",
+  "homepage": "https://questdb.io",
+  "versions": {
+    "stable": "7.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/questdb/questdb/releases/download/7.1.1/questdb-7.1.1-no-jre-bin.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3b482d38d73061ba7213afd980440c4bbc5f0498bb322bd9c002e1eac7ca63c1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/questdb/blobs/sha256:8b19c9507b39da62fe82f6029eafb892e647239501dc4e23ce91837e08137178",
+          "sha256": "8b19c9507b39da62fe82f6029eafb892e647239501dc4e23ce91837e08137178"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/questdb/bin/questdb",
+      "start",
+      "-d",
+      "/home/linuxbrew/.linuxbrew/var/questdb",
+      "-n",
+      "-f"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "successful_exit": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var/questdb",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/questdb.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/questdb.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/questdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "c8c0da08ee38a8651ef5c813b931f26c2d065181c6e02eb3f8d9c0bfa6ea1271"
+  },
+  "date_added": "2016-10-15T11:15:48+01:00"
+}

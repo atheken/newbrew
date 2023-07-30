@@ -1,0 +1,88 @@
+{
+  "name": "solr@7.7",
+  "full_name": "solr@7.7",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "solr@8.11"
+  ],
+  "desc": "Enterprise search platform from the Apache Lucene project",
+  "license": "Apache-2.0",
+  "homepage": "https://solr.apache.org",
+  "versions": {
+    "stable": "7.7.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org/lucene/solr/7.7.3/solr-7.7.3.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3ec67fa430afa5b5eb43bb1cd4a659e56ee9f8541e0116d6080c0d783870baee"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/solr/7.7/blobs/sha256:2ece595725317381657387652c053d0e88069f7238c8ce9decbd91794ab5fc7e",
+          "sha256": "2ece595725317381657387652c053d0e88069f7238c8ce9decbd91794ab5fc7e"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-06-19",
+  "disable_reason": "unsupported",
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/solr@7.7/bin/solr",
+      "start",
+      "-f"
+    ],
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/solr@7.7.rb",
+  "ruby_source_checksum": {
+    "sha256": "55746c731df7266dc8094c0825d2ae679b39b19ed2f3fa9fb09bbacca93fd232"
+  },
+  "date_added": "2019-03-19T09:26:49+01:00"
+}

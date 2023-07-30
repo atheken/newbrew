@@ -1,0 +1,113 @@
+{
+  "name": "glib-networking",
+  "full_name": "glib-networking",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network related modules for glib",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/glib-networking",
+  "versions": {
+    "stable": "2.76.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/glib-networking/2.76/glib-networking-2.76.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5c698a9994dde51efdfb1026a56698a221d6250e89dc50ebcddda7b81480a42b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:b46b561fde550ffbfb0df6b595d7fe0bca4a229f40a4c4699c477dd9e849ca24",
+          "sha256": "b46b561fde550ffbfb0df6b595d7fe0bca4a229f40a4c4699c477dd9e849ca24"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:b6a9d0be29ffade351cf046ca88cba0e03c5369619b7bae442c2b0fd0afb189a",
+          "sha256": "b6a9d0be29ffade351cf046ca88cba0e03c5369619b7bae442c2b0fd0afb189a"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:ffa74c49e8137e37669f528d9bec9465dd23eb7de6311c7a9ecfa60a337d5873",
+          "sha256": "ffa74c49e8137e37669f528d9bec9465dd23eb7de6311c7a9ecfa60a337d5873"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:f1bb61332f7ae0237b407816b1819e790bed26a8792dca707709e9bd72d03183",
+          "sha256": "f1bb61332f7ae0237b407816b1819e790bed26a8792dca707709e9bd72d03183"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:bb9ad5daa35cb8aae15686a43464fd6fd454d408a7f66accb3724eef5c5e3a95",
+          "sha256": "bb9ad5daa35cb8aae15686a43464fd6fd454d408a7f66accb3724eef5c5e3a95"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:34d39743f460d9cfc4264279c5d20df69013f2d83898866464ad64137e067e64",
+          "sha256": "34d39743f460d9cfc4264279c5d20df69013f2d83898866464ad64137e067e64"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glib-networking/blobs/sha256:e81ab5a6b5937ba61990e2ddd281295f1573b3bfca49590b90ac62503a149ace",
+          "sha256": "e81ab5a6b5937ba61990e2ddd281295f1573b3bfca49590b90ac62503a149ace"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "gnutls",
+    "gsettings-desktop-schemas"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [
+    "lib/gio/modules"
+  ],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glib-networking.rb",
+  "ruby_source_checksum": {
+    "sha256": "f944919df03e4ea75a7d519c7bb9729b240e9c330423351a10ada92141226114"
+  },
+  "date_added": "2012-08-17T13:34:01-05:00"
+}

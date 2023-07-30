@@ -1,0 +1,103 @@
+{
+  "name": "xa",
+  "full_name": "xa",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "6502 cross assembler",
+  "license": "GPL-2.0",
+  "homepage": "https://www.floodgap.com/retrotech/xa/",
+  "versions": {
+    "stable": "2.3.14",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.floodgap.com/retrotech/xa/dists/xa-2.3.14.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b9bbabddbd8d3b9410b852e50a128eea41e681339e6f76c3e8076fa5420f02e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:172d4111c918fa05acf0602d2319fc82b132caa45ac28c5efb0e93b82eb31095",
+          "sha256": "172d4111c918fa05acf0602d2319fc82b132caa45ac28c5efb0e93b82eb31095"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:e36e9f9ee137f4a114d18fe00824a3ee99a79402ab8ffa5fa163e1ce727b66fb",
+          "sha256": "e36e9f9ee137f4a114d18fe00824a3ee99a79402ab8ffa5fa163e1ce727b66fb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:de1f333683f9ee7da2f97a64b2d81f7e2dd1d682c7a344226d029a9fff5b2ad6",
+          "sha256": "de1f333683f9ee7da2f97a64b2d81f7e2dd1d682c7a344226d029a9fff5b2ad6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:a7a11bcb7e77bf152fa9e7efadccb7d1f43b7deba30b230a7bea882ade915a59",
+          "sha256": "a7a11bcb7e77bf152fa9e7efadccb7d1f43b7deba30b230a7bea882ade915a59"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:dde1b4784048684759394096b4ddf2fd26eeb78824bb0a18212b8ea31335062e",
+          "sha256": "dde1b4784048684759394096b4ddf2fd26eeb78824bb0a18212b8ea31335062e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:0868d331255bc58b921606c29f0f59d484e4331cd407645de6894fc67b4f3557",
+          "sha256": "0868d331255bc58b921606c29f0f59d484e4331cd407645de6894fc67b4f3557"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xa/blobs/sha256:43df54eda0dc37af75135b339767dc19bad10aab69364abc149e32551dc031c3",
+          "sha256": "43df54eda0dc37af75135b339767dc19bad10aab69364abc149e32551dc031c3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xa.rb",
+  "ruby_source_checksum": {
+    "sha256": "18d38d79dbbb7cc92d6e11e5373959af97b289912d22c796fd085898c28943c1"
+  },
+  "date_added": "2011-04-18T22:25:39-07:00"
+}

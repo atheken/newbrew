@@ -1,0 +1,111 @@
+{
+  "name": "prestd",
+  "full_name": "prestd",
+  "tap": "homebrew/core",
+  "oldname": "prest",
+  "oldnames": [
+    "prest"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simplify and accelerate development on any Postgres application, existing or new",
+  "license": "MIT",
+  "homepage": "https://github.com/prest/prest",
+  "versions": {
+    "stable": "1.3.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/prest/prest/archive/v1.3.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "29717aea35e345e55e239cc714ede8c052bc190fcc47371dd91dce32197fa68c"
+    },
+    "head": {
+      "url": "https://github.com/prest/prest.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:f8114075e039588893ec1f0022c566a6de0ee5e9a56381f555eecde5fdcdb4f6",
+          "sha256": "f8114075e039588893ec1f0022c566a6de0ee5e9a56381f555eecde5fdcdb4f6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:1bb72ee5d80232d43569d788f2c8cce99a7b6fb88175ffb34e38d00fcf3e2089",
+          "sha256": "1bb72ee5d80232d43569d788f2c8cce99a7b6fb88175ffb34e38d00fcf3e2089"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:b24589f1ccbec98ea0adaf27831b26d02a84e79730e66eb8d17d42765d078a04",
+          "sha256": "b24589f1ccbec98ea0adaf27831b26d02a84e79730e66eb8d17d42765d078a04"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:7a2bba250f55447bb5be46b8ae09c13db6e680a254df82d6127332504dc4c08c",
+          "sha256": "7a2bba250f55447bb5be46b8ae09c13db6e680a254df82d6127332504dc4c08c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:845eb9fd0ecc7d4fb9f2976d2352daee6b633c2765e8be8e688e95cb0ed42e89",
+          "sha256": "845eb9fd0ecc7d4fb9f2976d2352daee6b633c2765e8be8e688e95cb0ed42e89"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:3139bc0f0be0650799555a40209765b3d3ea3acd538a53034e3588686c18c8ce",
+          "sha256": "3139bc0f0be0650799555a40209765b3d3ea3acd538a53034e3588686c18c8ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestd/blobs/sha256:367b436e1a9864ff58113b7957e3de2fd8910cf5eb7d9cfd1ffd864fa392d20e",
+          "sha256": "367b436e1a9864ff58113b7957e3de2fd8910cf5eb7d9cfd1ffd864fa392d20e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/prestd.rb",
+  "ruby_source_checksum": {
+    "sha256": "b058bde0130d8d96618611671b92a5da738d1ac401dbb15108ff4a4ab2c12216"
+  },
+  "date_added": "2021-01-17T13:03:45-05:00"
+}

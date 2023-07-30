@@ -1,0 +1,82 @@
+{
+  "name": "artifactory",
+  "full_name": "artifactory",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manages binaries",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://www.jfrog.com/artifactory/",
+  "versions": {
+    "stable": "6.23.42",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/6.23.42/jfrog-artifactory-oss-6.23.42.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "b7d152435df543ae50c6a0ff44208aead93ca4f1b47b6658b1825df6ddcc2292"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/artifactory/blobs/sha256:39f95a12d5e609016171cb09106bdfd211f9ac910a9c1b1ac4241fb64e0fbc8c",
+          "sha256": "39f95a12d5e609016171cb09106bdfd211f9ac910a9c1b1ac4241fb64e0fbc8c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-07-06",
+  "disable_reason": "deprecated_upstream",
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/artifactory/bin/artifactory.sh",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/artifactory/libexec"
+  },
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/artifactory.rb",
+  "ruby_source_checksum": {
+    "sha256": "a38803ef060f0af500fcaeef4cdd3d311883d0cc633f063dd665b41eea511bb9"
+  },
+  "date_added": "2014-10-01T23:29:30-07:00"
+}

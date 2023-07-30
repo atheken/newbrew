@@ -1,0 +1,90 @@
+{
+  "name": "rabbitmq",
+  "full_name": "rabbitmq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Messaging broker",
+  "license": "MPL-2.0",
+  "homepage": "https://www.rabbitmq.com",
+  "versions": {
+    "stable": "3.12.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.12.2/rabbitmq-server-generic-unix-3.12.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "60d94f1281727ba1fe89bf62dcf7761056b89d629001bc8389aaa9ca63571ad1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rabbitmq/blobs/sha256:69d810739e8bf4989ee4878ab60b3e1256b300d73aa57dc5eb5e8b5d353e8265",
+          "sha256": "69d810739e8bf4989ee4878ab60b3e1256b300d73aa57dc5eb5e8b5d353e8265"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "erlang"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Management Plugin enabled by default at http://localhost:15672\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/rabbitmq/sbin/rabbitmq-server",
+    "run_type": "immediate",
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/sbin:/usr/sbin:/usr/bin:/bin:/home/linuxbrew/.linuxbrew/bin",
+      "CONF_ENV_FILE": "/home/linuxbrew/.linuxbrew/etc/rabbitmq/rabbitmq-env.conf"
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/rabbitmq/std_out.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/rabbitmq/std_error.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rabbitmq.rb",
+  "ruby_source_checksum": {
+    "sha256": "ffc4e056856a30229a63ebcbee93d41aec4246ada17222512b757d94facc7ca8"
+  },
+  "date_added": "2009-09-30T01:24:49+01:00"
+}

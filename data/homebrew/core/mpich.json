@@ -1,0 +1,146 @@
+{
+  "name": "mpich",
+  "full_name": "mpich",
+  "tap": "homebrew/core",
+  "oldname": "mpich2",
+  "oldnames": [
+    "mpich2"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of the MPI Message Passing Interface standard",
+  "license": "mpich2",
+  "homepage": "https://www.mpich.org/",
+  "versions": {
+    "stable": "4.1.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.mpich.org/static/downloads/4.1.2/mpich-4.1.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3492e98adab62b597ef0d292fb2459b6123bc80070a8aa0a30be6962075a12f0"
+    },
+    "head": {
+      "url": "https://github.com/pmodels/mpich.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:94e8c25c5a1e3cc52e879fd2c0424cffbbfebcfca385b05e7533b0eb8c00f377",
+          "sha256": "94e8c25c5a1e3cc52e879fd2c0424cffbbfebcfca385b05e7533b0eb8c00f377"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:f9d1f4b8265e752100f68ec24a1aa43b2059db11e4076ec1bc002c55a653e5f2",
+          "sha256": "f9d1f4b8265e752100f68ec24a1aa43b2059db11e4076ec1bc002c55a653e5f2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:ef3cccd0f4d28077063514870b2eecab742735a4a90948c429c334ae646d2dd0",
+          "sha256": "ef3cccd0f4d28077063514870b2eecab742735a4a90948c429c334ae646d2dd0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:2256a222b91ab3951fc62b5166006b2c29d31165a762417cffdaf8c1718833be",
+          "sha256": "2256a222b91ab3951fc62b5166006b2c29d31165a762417cffdaf8c1718833be"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:54dacf4a4cc94dd66d44573b677313f8b59ba69526c95dc40be560155b45100a",
+          "sha256": "54dacf4a4cc94dd66d44573b677313f8b59ba69526c95dc40be560155b45100a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:a5017cd76fd00791965426990a8a817a0de034c9c4ecf29f718e3b93fe5b8668",
+          "sha256": "a5017cd76fd00791965426990a8a817a0de034c9c4ecf29f718e3b93fe5b8668"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mpich/blobs/sha256:6e8f6700fbc550d259fd8cbbffbd2a70a532bfa3076b762abb72f18bc9d90f6a",
+          "sha256": "6e8f6700fbc550d259fd8cbbffbd2a70a532bfa3076b762abb72f18bc9d90f6a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gcc",
+    "hwloc",
+    "libfabric"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "open-mpi"
+  ],
+  "conflicts_with_reasons": [
+    "both install MPI compiler wrappers"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mpich.rb",
+  "ruby_source_checksum": {
+    "sha256": "a3d118335d4b580070b8586abdb79b0a56f27025c32cd199e6faa672892fc0bd"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool"
+    ],
+    "dependencies": [
+      "gcc",
+      "hwloc",
+      "libfabric"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "python": "build"
+      }
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2015-09-06T12:37:36+01:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "ecflow-ui",
+  "full_name": "ecflow-ui",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "User interface for client/server workflow package",
+  "license": "Apache-2.0",
+  "homepage": "https://confluence.ecmwf.int/display/ECFLOW",
+  "versions": {
+    "stable": "5.11.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://confluence.ecmwf.int/download/attachments/8650755/ecFlow-5.11.3-Source.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "66f4959e88b94dfecb7901a9370916bb57fa8b2cdaa2889099a907a706b655ec"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:47fdb3e2ea890d16dc84008f169461e25bab2067ddc59751db04191dc98bcfb1",
+          "sha256": "47fdb3e2ea890d16dc84008f169461e25bab2067ddc59751db04191dc98bcfb1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:3cf0b39c84a2e81a6f4b0cb940e0b6021cd4a519b3780c1b39772ca3f8305cc1",
+          "sha256": "3cf0b39c84a2e81a6f4b0cb940e0b6021cd4a519b3780c1b39772ca3f8305cc1"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:bfff4f201ed80d7ea06a59659e3129ee913b37c26d52f97d1c802ba12c364def",
+          "sha256": "bfff4f201ed80d7ea06a59659e3129ee913b37c26d52f97d1c802ba12c364def"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:7eccdbe7ae6a4d63554297a2eecb441be77bc16753a4a39d2e518a9a03c5feed",
+          "sha256": "7eccdbe7ae6a4d63554297a2eecb441be77bc16753a4a39d2e518a9a03c5feed"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:1dc5e6bc1ba0752ac47fca7eaf3bb9e2cc3dbba7c1b3e55a748dfb9f9a904bc1",
+          "sha256": "1dc5e6bc1ba0752ac47fca7eaf3bb9e2cc3dbba7c1b3e55a748dfb9f9a904bc1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:7e07b9f55a5ca7bdc7bd997d5bbc7e0a8406c04874af4b0c7786f50df4acf3ba",
+          "sha256": "7e07b9f55a5ca7bdc7bd997d5bbc7e0a8406c04874af4b0c7786f50df4acf3ba"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ecflow-ui/blobs/sha256:8641681fdeb893419c7cc01315995c515720757588a288d10a2150f43eda1ea8",
+          "sha256": "8641681fdeb893419c7cc01315995c515720757588a288d10a2150f43eda1ea8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "boost",
+    "cmake"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "qt"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ecflow-ui.rb",
+  "ruby_source_checksum": {
+    "sha256": "1c8aeff6171d678c055d8566e6d9d6fca4ff1494ffd4fab422aa20e3b67e3f8f"
+  },
+  "date_added": "2022-04-08T10:27:13+00:00"
+}

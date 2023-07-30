@@ -1,0 +1,109 @@
+{
+  "name": "wtfutil",
+  "full_name": "wtfutil",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Personal information dashboard for your terminal",
+  "license": "MPL-2.0",
+  "homepage": "https://wtfutil.com",
+  "versions": {
+    "stable": "0.43.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wtfutil/wtf.git",
+      "tag": "v0.43.0",
+      "revision": "ea7f6ed1ce0e3a96c7ce7aa337bfdae9cfc27a93",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/wtfutil/wtf.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:3d811c8da851a06afb1aa0f1396755385a3eace99e2abdbf58719619efecdd3b",
+          "sha256": "3d811c8da851a06afb1aa0f1396755385a3eace99e2abdbf58719619efecdd3b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:2dde8a7584268f28be28e4ff1e98f8895314c2950d88d002830f7ed79ec51c52",
+          "sha256": "2dde8a7584268f28be28e4ff1e98f8895314c2950d88d002830f7ed79ec51c52"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:efb3e2fd24e639a315cc5e50acd8a20dc4b454a6a8aff0dfb2c169c9eac6afd9",
+          "sha256": "efb3e2fd24e639a315cc5e50acd8a20dc4b454a6a8aff0dfb2c169c9eac6afd9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:1c66eb6d6b8c4a9b3167163371c1d774b9df6f1dd36155b380ee83e82ac8e13d",
+          "sha256": "1c66eb6d6b8c4a9b3167163371c1d774b9df6f1dd36155b380ee83e82ac8e13d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:4183402aa957eead2c29e62f9e1d6afb0940568d6b387e360ae4e0fdcc61be35",
+          "sha256": "4183402aa957eead2c29e62f9e1d6afb0940568d6b387e360ae4e0fdcc61be35"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:717dcf43f6c5d8f55c3f0aefd8e255ef91aab685a02b668ed27ce375e1bc404a",
+          "sha256": "717dcf43f6c5d8f55c3f0aefd8e255ef91aab685a02b668ed27ce375e1bc404a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wtfutil/blobs/sha256:c46aabfdfe08b790df12e07d83d93d0b1d10c4c963315979445ec220e2463372",
+          "sha256": "c46aabfdfe08b790df12e07d83d93d0b1d10c4c963315979445ec220e2463372"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wtfutil.rb",
+  "ruby_source_checksum": {
+    "sha256": "ed49a68a54c879b38f49a64a6b074d54a1f47283b4b534f26d1d2ddf2f1932cf"
+  },
+  "date_added": "2019-07-31T22:52:41-04:00"
+}

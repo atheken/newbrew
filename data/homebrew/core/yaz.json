@@ -1,0 +1,152 @@
+{
+  "name": "yaz",
+  "full_name": "yaz",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Toolkit for Z39.50/SRW/SRU clients/servers",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.indexdata.com/resources/software/yaz/",
+  "versions": {
+    "stable": "5.34.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.indexdata.com/pub/yaz/yaz-5.34.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bcbea894599a13342910003401c17576f0fb910092aecb51cb54065d0cd2d613"
+    },
+    "head": {
+      "url": "https://github.com/indexdata/yaz.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:5dbb63de0d67f15fdfcff25147b3509b473776b06a0c9ca900a04fa3126083be",
+          "sha256": "5dbb63de0d67f15fdfcff25147b3509b473776b06a0c9ca900a04fa3126083be"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:259dbc67e9ab37dd225a2ce7606386ad5965cfb4f4aea23b7b74181dfcb9eada",
+          "sha256": "259dbc67e9ab37dd225a2ce7606386ad5965cfb4f4aea23b7b74181dfcb9eada"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:ca4e44d1099e84555de5025954533d588eaaea51677c5c8c865bb2c11e5e542a",
+          "sha256": "ca4e44d1099e84555de5025954533d588eaaea51677c5c8c865bb2c11e5e542a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:2d2ea4097b54057d5fddfec177d9bc61a2b9101d9d189caba5084048c4e1aea1",
+          "sha256": "2d2ea4097b54057d5fddfec177d9bc61a2b9101d9d189caba5084048c4e1aea1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:205f35ed6f999edd61ed575183b103ac8dff9dac0e49a560215b51eeb784594e",
+          "sha256": "205f35ed6f999edd61ed575183b103ac8dff9dac0e49a560215b51eeb784594e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:036c02f8aa3efa9715d8e948781a41b67d5c937530bd57649650f7e9b952a253",
+          "sha256": "036c02f8aa3efa9715d8e948781a41b67d5c937530bd57649650f7e9b952a253"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yaz/blobs/sha256:bae7bc3dc941e1cb1b180ed3d4aa8c2d91a70cfe8d41114e39c5dac9b09c46bd",
+          "sha256": "bae7bc3dc941e1cb1b180ed3d4aa8c2d91a70cfe8d41114e39c5dac9b09c46bd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gnutls",
+    "icu4c",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yaz.rb",
+  "ruby_source_checksum": {
+    "sha256": "e1dde7d144f34cdcc0d72e35d7005803a4335e9ea987aabd8f55faecc5c1dc4e"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "docbook-xsl",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "gnutls",
+      "icu4c",
+      "readline"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "bison": "build"
+      },
+      {
+        "tcl-tk": "build"
+      },
+      "libxml2",
+      "libxslt"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "date_added": "2009-09-29T16:26:38+01:00"
+}

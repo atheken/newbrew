@@ -1,0 +1,113 @@
+{
+  "name": "pngquant",
+  "full_name": "pngquant",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "PNG image optimizing utility",
+  "license": "Cannot Represent",
+  "homepage": "https://pngquant.org/",
+  "versions": {
+    "stable": "2.18.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://pngquant.org/pngquant-2.18.0-src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e72194b52b36f040deaec49a1ddd5dcd8d4feecc3a5fe6c5e9589a9707b233d4"
+    },
+    "head": {
+      "url": "https://github.com/kornelski/pngquant.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:55fab88e60676f665814df9e581bdf08fc702c017710b5014b62b71918cc5c5a",
+          "sha256": "55fab88e60676f665814df9e581bdf08fc702c017710b5014b62b71918cc5c5a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:2a9880d5f9082fefeaa293e839b4c4c13cf667727f25a051fdaed81d893fd343",
+          "sha256": "2a9880d5f9082fefeaa293e839b4c4c13cf667727f25a051fdaed81d893fd343"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:0ac3705e4b0be4c8fddcf74651060c9f8c4a06cf606cf29487f4c7b1cb54e92c",
+          "sha256": "0ac3705e4b0be4c8fddcf74651060c9f8c4a06cf606cf29487f4c7b1cb54e92c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:4d2a131a292a55106feb2513cada8dcbd1b8028ddc59d7bb95a189b2ce51fd6e",
+          "sha256": "4d2a131a292a55106feb2513cada8dcbd1b8028ddc59d7bb95a189b2ce51fd6e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:fc3d3fd03d19f8ff9dcf2832262cd093bb3716f2362c17e5587930b5f3b974b5",
+          "sha256": "fc3d3fd03d19f8ff9dcf2832262cd093bb3716f2362c17e5587930b5f3b974b5"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:04f276c7261989d2c5af611cc8ee54e4bd6fe50b7e1f4d5df870564ce7b7f612",
+          "sha256": "04f276c7261989d2c5af611cc8ee54e4bd6fe50b7e1f4d5df870564ce7b7f612"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pngquant/blobs/sha256:d482fb76dc638ad8271269b95af411697e9d1f1ac21abc3f19ceace8af285ea8",
+          "sha256": "d482fb76dc638ad8271269b95af411697e9d1f1ac21abc3f19ceace8af285ea8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libpng",
+    "little-cms2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pngquant.rb",
+  "ruby_source_checksum": {
+    "sha256": "05081a2c0d90c3e163d2174d3a789b04338ea07911a95c877d39f9891737ea03"
+  },
+  "date_added": "2012-08-26T13:51:43-07:00"
+}

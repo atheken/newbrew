@@ -1,0 +1,113 @@
+{
+  "name": "wpscan",
+  "full_name": "wpscan",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "WordPress security scanner",
+  "license": "Cannot Represent",
+  "homepage": "https://wpscan.com",
+  "versions": {
+    "stable": "3.8.24",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wpscanteam/wpscan/archive/refs/tags/v3.8.24.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "03d1852e9cb7e50c175f5699cd4055494ce379d6b2a931cdb8ca6000c932f767"
+    },
+    "head": {
+      "url": "https://github.com/wpscanteam/wpscan.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:061486585f55e99314f0c9c780c292068dcaec8e8a57a709219622a41df26597",
+          "sha256": "061486585f55e99314f0c9c780c292068dcaec8e8a57a709219622a41df26597"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:d7af224790e97fbe5501ca63348316b419dc5ab477e17a3417f64ad428fc54d5",
+          "sha256": "d7af224790e97fbe5501ca63348316b419dc5ab477e17a3417f64ad428fc54d5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:f9a53bdbe66814ba0fd7bd0f03c824fc32f7a55b0f6d7f51d425025d1a47029c",
+          "sha256": "f9a53bdbe66814ba0fd7bd0f03c824fc32f7a55b0f6d7f51d425025d1a47029c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:f5580ce4710e99c3a10417bffe467df192378957c614f23910c17e8c266accc6",
+          "sha256": "f5580ce4710e99c3a10417bffe467df192378957c614f23910c17e8c266accc6"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:05bcd7784f5edfa8c2e4f73f70cb27d05eda9e2977efe496a75553e2f8323382",
+          "sha256": "05bcd7784f5edfa8c2e4f73f70cb27d05eda9e2977efe496a75553e2f8323382"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:f137dee75e90db661cf3ba9ad4c6e510484723c0a1dad17369c45c356895ccc0",
+          "sha256": "f137dee75e90db661cf3ba9ad4c6e510484723c0a1dad17369c45c356895ccc0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wpscan/blobs/sha256:fee7317717fc3e11acab6c721aca52977b06f991f11e52ee2a5746f52f500a70",
+          "sha256": "fee7317717fc3e11acab6c721aca52977b06f991f11e52ee2a5746f52f500a70"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "xz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wpscan.rb",
+  "ruby_source_checksum": {
+    "sha256": "c37e5e791c05f7d726978fc2e557284c617ea2eebbc5297584f9a6d18a6777c0"
+  },
+  "date_added": "2017-07-06T10:49:16-07:00"
+}

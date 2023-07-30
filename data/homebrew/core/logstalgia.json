@@ -1,0 +1,141 @@
+{
+  "name": "logstalgia",
+  "full_name": "logstalgia",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web server access log visualizer with retro style",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://logstalgia.io/",
+  "versions": {
+    "stable": "1.1.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/acaudwell/Logstalgia/releases/download/logstalgia-1.1.4/logstalgia-1.1.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c049eff405e924035222edb26bcc6c7b5f00a08926abdb7b467e2449242790a9"
+    },
+    "head": {
+      "url": "https://github.com/acaudwell/Logstalgia.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:9b001377cd185e70644b8428ce26297a7c4ae96112a54823bb081904ea879c5d",
+          "sha256": "9b001377cd185e70644b8428ce26297a7c4ae96112a54823bb081904ea879c5d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:c9f234fcec4d06c0e9c65d26071f4408baa98f3faaf27e39782464d020cba296",
+          "sha256": "c9f234fcec4d06c0e9c65d26071f4408baa98f3faaf27e39782464d020cba296"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:2daf20ebefabb9a3e4574e1669ac4e4d07e2cc94175c3c2d0344f608f4d640a2",
+          "sha256": "2daf20ebefabb9a3e4574e1669ac4e4d07e2cc94175c3c2d0344f608f4d640a2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:d974776b03bfaf4523e459f9e4e9441cf29eef373930f770e574a84c17e70911",
+          "sha256": "d974776b03bfaf4523e459f9e4e9441cf29eef373930f770e574a84c17e70911"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:40d4ae599af8f864d33af1043f10fa51a61fd56be16cbb15dec46d9b0927741a",
+          "sha256": "40d4ae599af8f864d33af1043f10fa51a61fd56be16cbb15dec46d9b0927741a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:87e55b99f349681141a8f23263d83e233b69f75b75eb9e8288ce767955fd80e0",
+          "sha256": "87e55b99f349681141a8f23263d83e233b69f75b75eb9e8288ce767955fd80e0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/logstalgia/blobs/sha256:817b2d9dff6267ecc43d36d3e5b300586d958073f77d6bb7c827c21fca184c6b",
+          "sha256": "817b2d9dff6267ecc43d36d3e5b300586d958073f77d6bb7c827c21fca184c6b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "glm",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "freetype",
+    "glew",
+    "libpng",
+    "pcre2",
+    "sdl2",
+    "sdl2_image"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/logstalgia.rb",
+  "ruby_source_checksum": {
+    "sha256": "c70d391e45232e1cfd386b323cb013906375983a0cc187f1ab038e1be8cafc18"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "glm",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "boost",
+      "freetype",
+      "glew",
+      "libpng",
+      "pcre2",
+      "sdl2",
+      "sdl2_image"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2011-02-12T12:48:56+00:00"
+}

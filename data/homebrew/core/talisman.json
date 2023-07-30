@@ -1,0 +1,109 @@
+{
+  "name": "talisman",
+  "full_name": "talisman",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to detect and prevent secrets from getting checked in",
+  "license": "MIT",
+  "homepage": "https://thoughtworks.github.io/talisman/",
+  "versions": {
+    "stable": "1.31.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/thoughtworks/talisman/archive/refs/tags/v1.31.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7f3a04e19381b00cde566627382b4cc0fcf9c5fc08722ea6b965d9fb3b0be7ed"
+    },
+    "head": {
+      "url": "https://github.com/thoughtworks/talisman.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7",
+          "sha256": "57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7",
+          "sha256": "57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7",
+          "sha256": "57bf2a73f616e104f41a3b7a05a5752d312830493485d027da64fafe60152ee7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c",
+          "sha256": "444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c",
+          "sha256": "444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c",
+          "sha256": "444f77f5f1b89e55fca68a47bf114945e835e71948f079c72fd7b871a0ce960c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/talisman/blobs/sha256:5257fdb40f64459d31eb200005077c5fd0bf43c6506e9357dca967aec8532709",
+          "sha256": "5257fdb40f64459d31eb200005077c5fd0bf43c6506e9357dca967aec8532709"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/talisman.rb",
+  "ruby_source_checksum": {
+    "sha256": "1d4823f7388b97a86f60bbb08297349123011bf5a859e35c25a2af74a603bbed"
+  },
+  "date_added": "2019-12-27T11:55:42+01:00"
+}

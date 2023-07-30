@@ -1,0 +1,115 @@
+{
+  "name": "halide",
+  "full_name": "halide",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Language for fast, portable data-parallel computation",
+  "license": "MIT",
+  "homepage": "https://halide-lang.org",
+  "versions": {
+    "stable": "16.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/halide/Halide/archive/v16.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a0cccee762681ea697124b8172dd65595856d0fa5bd4d1af7933046b4a085b04"
+    },
+    "head": {
+      "url": "https://github.com/halide/Halide.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:1dc8e72c88d4765ca1a4c4fa0aa587be9d4791c252cb570374e902a2f402086e",
+          "sha256": "1dc8e72c88d4765ca1a4c4fa0aa587be9d4791c252cb570374e902a2f402086e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:d81f24d816d895b0f10755771bfee33a0c03ac895fc1e2a7399849c794eccb37",
+          "sha256": "d81f24d816d895b0f10755771bfee33a0c03ac895fc1e2a7399849c794eccb37"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:f356585914ef921814333752a006d9e4033163372aa50c65929c6645a344431e",
+          "sha256": "f356585914ef921814333752a006d9e4033163372aa50c65929c6645a344431e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:0f5126b08161572979ed23b87a1ce7623ee0971dd7a57f44acaebc76578936a0",
+          "sha256": "0f5126b08161572979ed23b87a1ce7623ee0971dd7a57f44acaebc76578936a0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:95166cdc80500c57799c052f255065b7fb8499c25f5f7a732587c7b8da1563da",
+          "sha256": "95166cdc80500c57799c052f255065b7fb8499c25f5f7a732587c7b8da1563da"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:727ee7167d0f2026de4f7ce5654a601e71485c56573cc766593a748b71849b70",
+          "sha256": "727ee7167d0f2026de4f7ce5654a601e71485c56573cc766593a748b71849b70"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/halide/blobs/sha256:8ff3882c4b82e3a44a92670c8579b6817447ae304efb6d27c176684e04e9200b",
+          "sha256": "8ff3882c4b82e3a44a92670c8579b6817447ae304efb6d27c176684e04e9200b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pybind11"
+  ],
+  "dependencies": [
+    "jpeg-turbo",
+    "libpng",
+    "llvm",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/halide.rb",
+  "ruby_source_checksum": {
+    "sha256": "57a4530b279c081dbbb3974697ee3fdab4227b8bd0606970a8b83d353de5f3d9"
+  },
+  "date_added": "2020-10-01T17:23:09+00:00"
+}

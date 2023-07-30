@@ -1,0 +1,77 @@
+{
+  "name": "g2",
+  "full_name": "g2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Friendly git client",
+  "license": "MIT",
+  "homepage": "https://orefalo.github.io/g2/",
+  "versions": {
+    "stable": "1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/orefalo/g2/archive/v1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bc534a4cb97be200ba4e3cc27510d8739382bb4c574e3cf121f157c6415bdfba"
+    },
+    "head": {
+      "url": "https://github.com/orefalo/g2.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/g2/blobs/sha256:0b2e6dea68767e664e437ecb4b38edf34d57673cde3e64f40b42eeca88ca233e",
+          "sha256": "0b2e6dea68767e664e437ecb4b38edf34d57673cde3e64f40b42eeca88ca233e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To complete the installation:\n  . $HOMEBREW_PREFIX/Cellar/g2/1.1/g2-install.sh\n\nNOTE: This will install a new ~/.gitconfig, backing up any existing\nfile first. For more information view:\n  $HOMEBREW_PREFIX/Cellar/g2/1.1/README.md\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/g2.rb",
+  "ruby_source_checksum": {
+    "sha256": "5a21a6e0127391799e909b4e794676a24bfb9bc1d1e66fa197f2be363b6943f7"
+  },
+  "date_added": "2013-08-05T09:51:57-07:00"
+}

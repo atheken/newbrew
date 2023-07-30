@@ -1,0 +1,111 @@
+{
+  "name": "texinfo",
+  "full_name": "texinfo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Official documentation format of the GNU project",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.gnu.org/software/texinfo/",
+  "versions": {
+    "stable": "7.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/texinfo/texinfo-7.0.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "74b420d09d7f528e84f97aa330f0dd69a98a6053e7a4e01767eed115038807bf"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:1da60ed030da20fe03388dc0a40271783c5bcc2dfb3d50710ca431f943ef48b1",
+          "sha256": "1da60ed030da20fe03388dc0a40271783c5bcc2dfb3d50710ca431f943ef48b1"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:d36424fb6c196b55f5acc459c393c8950b26cc71d05f15b7d5c7879ac438685b",
+          "sha256": "d36424fb6c196b55f5acc459c393c8950b26cc71d05f15b7d5c7879ac438685b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:f5af81647753a8f2e1f5882a7ced2d5c6a6c3b55d16a7b21d35f91951bb99eec",
+          "sha256": "f5af81647753a8f2e1f5882a7ced2d5c6a6c3b55d16a7b21d35f91951bb99eec"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:023fb6a619944667e4c1601c260f4b5d12602af3e4a0acdab615426b3856ef66",
+          "sha256": "023fb6a619944667e4c1601c260f4b5d12602af3e4a0acdab615426b3856ef66"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:b6b367a26527726756c1addb017425929b6fc5f344171366c607c842fa53e205",
+          "sha256": "b6b367a26527726756c1addb017425929b6fc5f344171366c607c842fa53e205"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:37d2829b2d1127a25cc761de8d1ae8595720c889e24ba94695dd1786abaef626",
+          "sha256": "37d2829b2d1127a25cc761de8d1ae8595720c889e24ba94695dd1786abaef626"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texinfo/blobs/sha256:ec964dfd6398ab50dd10181d0fe2df909d6475942f1e1b47b35cffada2aa3236",
+          "sha256": "ec964dfd6398ab50dd10181d0fe2df909d6475942f1e1b47b35cffada2aa3236"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gettext"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/texinfo.rb",
+  "ruby_source_checksum": {
+    "sha256": "5e9defbf2c01822fe6f957503a32360d301c3ae89df1e0bd6b3e84c1caf74679"
+  },
+  "date_added": "2010-05-01T10:29:47-07:00"
+}

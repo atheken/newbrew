@@ -1,0 +1,112 @@
+{
+  "name": "glibmm@2.66",
+  "full_name": "glibmm@2.66",
+  "tap": "homebrew/core",
+  "oldname": "glibmm@2.64",
+  "oldnames": [
+    "glibmm@2.64"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ interface to glib",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://www.gtkmm.org/",
+  "versions": {
+    "stable": "2.66.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.6.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5358742598181e5351d7bf8da072bf93e6dd5f178d27640d4e462bc8f14e152f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:23e6fa6e6598d42905277b74b509a051df603a79991127f17f3ccb8d5eba9fa1",
+          "sha256": "23e6fa6e6598d42905277b74b509a051df603a79991127f17f3ccb8d5eba9fa1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:929130f8833b167c524041f3f1eb7fddd64fa666135457d7bfdf76322d5edbe4",
+          "sha256": "929130f8833b167c524041f3f1eb7fddd64fa666135457d7bfdf76322d5edbe4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:dd3a1e08b76e300719a09e121993390e6cfa396a2c58f77a0b124b4440496987",
+          "sha256": "dd3a1e08b76e300719a09e121993390e6cfa396a2c58f77a0b124b4440496987"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:0e5e18234e4b0b9ae0bbd2d0cf1b3b5aa6dcb464db0df9e91cb4df4a63d51178",
+          "sha256": "0e5e18234e4b0b9ae0bbd2d0cf1b3b5aa6dcb464db0df9e91cb4df4a63d51178"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:5fb9029181687d058c031402d2adc4ef8cefe6ca373c1a99ceb5bfbc261c9527",
+          "sha256": "5fb9029181687d058c031402d2adc4ef8cefe6ca373c1a99ceb5bfbc261c9527"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:4ecf012c25966ef6d88647ac5c596fe50d43fd6bff2e724e8a6ed4a3f5992838",
+          "sha256": "4ecf012c25966ef6d88647ac5c596fe50d43fd6bff2e724e8a6ed4a3f5992838"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glibmm/2.66/blobs/sha256:d80a0b4f58e55b0af0e3156e822ce3b1ab699ff298328d9eb9df02c00e927fef",
+          "sha256": "d80a0b4f58e55b0af0e3156e822ce3b1ab699ff298328d9eb9df02c00e927fef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "libsigc++@2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glibmm@2.66.rb",
+  "ruby_source_checksum": {
+    "sha256": "ab329c9b4597e4a5c4947889b636792dedc78461b99ea575af33b5128b6426da"
+  },
+  "date_added": "2021-01-30T07:54:02+00:00"
+}

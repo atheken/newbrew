@@ -1,0 +1,120 @@
+{
+  "name": "grafana-agent",
+  "full_name": "grafana-agent",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Exporter for Prometheus Metrics, Loki Logs, and Tempo Traces",
+  "license": "Apache-2.0",
+  "homepage": "https://grafana.com/docs/agent/",
+  "versions": {
+    "stable": "0.35.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/grafana/agent/archive/refs/tags/v0.35.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c16a1b8330eb3db0dfb6ab8652d089713e793b4bc9357feeaa7a38f068c23633"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:69bb0dec226e36ebca76fc779e0fe893f610c1ff1034d55432aa4841c9600943",
+          "sha256": "69bb0dec226e36ebca76fc779e0fe893f610c1ff1034d55432aa4841c9600943"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:fc186694cebbac1d73e44afe498f325b90ce0b7ac828c1d9ac43d1cfdc2720cc",
+          "sha256": "fc186694cebbac1d73e44afe498f325b90ce0b7ac828c1d9ac43d1cfdc2720cc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:782e0f4fa5896b83d4da684e4de8cf808c51efdeb64d459f2131100b6c6e7a32",
+          "sha256": "782e0f4fa5896b83d4da684e4de8cf808c51efdeb64d459f2131100b6c6e7a32"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:6dc3950b22a2c953d7b7dafe4c4bba64f0050061f32035ef426de2ccf5907b2f",
+          "sha256": "6dc3950b22a2c953d7b7dafe4c4bba64f0050061f32035ef426de2ccf5907b2f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:32e4ead4474318cf9e69655c947333b7517a6f0767146ab300292d71989cc75f",
+          "sha256": "32e4ead4474318cf9e69655c947333b7517a6f0767146ab300292d71989cc75f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:c9061b3d8225dfd19c8dc4d8a7a0ab014c88ca2c1e3ef511426c67b0b5587e66",
+          "sha256": "c9061b3d8225dfd19c8dc4d8a7a0ab014c88ca2c1e3ef511426c67b0b5587e66"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana-agent/blobs/sha256:10a7be6517acd04c4e8df63afa2997a3785223dc334ea4a7ecdbb25c775149e8",
+          "sha256": "10a7be6517acd04c4e8df63afa2997a3785223dc334ea4a7ecdbb25c775149e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "node",
+    "yarn",
+    "systemd"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The agent uses a configuration file that you must customize before running:\n  $HOMEBREW_PREFIX/etc/grafana-agent/config.yml\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/grafana-agent/bin/grafana-agent",
+      "-config.file",
+      "/home/linuxbrew/.linuxbrew/etc/grafana-agent/config.yml"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/grafana-agent.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/grafana-agent.err.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/grafana-agent.rb",
+  "ruby_source_checksum": {
+    "sha256": "8d89759c199591cdcc4df78ae5977b8357970f0f10abbb9aa5afa067cbd6e1bf"
+  },
+  "date_added": "2021-12-30T09:29:22+00:00"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "molecule",
+  "full_name": "molecule",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automated testing for Ansible roles",
+  "license": "MIT",
+  "homepage": "https://molecule.readthedocs.io",
+  "versions": {
+    "stable": "5.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/e7/69/c2d5028b1cab582dd2df69d8603a6300c2f2ffeaaa14abcaed56f152a1a4/molecule-5.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fa7af89fdf9317539c3eca99cb1e5e7522d7a57e0b67f5b698e44276f98d9d82"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:64010a9e861706215744ab6d5f3665fa5224e2ec564e95365d476f66824a829c",
+          "sha256": "64010a9e861706215744ab6d5f3665fa5224e2ec564e95365d476f66824a829c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:a0c9dd326c48ff2faa63772d0b9504d208830ed4e114298c6862684320977bb3",
+          "sha256": "a0c9dd326c48ff2faa63772d0b9504d208830ed4e114298c6862684320977bb3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:132145bbaa495d30ea080f7c70022a3a6230b3d5bad84cc632b6f91c41875700",
+          "sha256": "132145bbaa495d30ea080f7c70022a3a6230b3d5bad84cc632b6f91c41875700"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:bd06f4fe3000026dabc253a0fbff413fda3403181141c3a8bd332e25d2fe66ef",
+          "sha256": "bd06f4fe3000026dabc253a0fbff413fda3403181141c3a8bd332e25d2fe66ef"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:bbdc24db6861c021bfe6eeec801bc52703bd2be5193849168d166ca24ef47525",
+          "sha256": "bbdc24db6861c021bfe6eeec801bc52703bd2be5193849168d166ca24ef47525"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:409a5eade540edec7b8845438e6ddab0ffa8ef59948c183d03e9681bf5405e89",
+          "sha256": "409a5eade540edec7b8845438e6ddab0ffa8ef59948c183d03e9681bf5405e89"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/molecule/blobs/sha256:01f294e1a5579354c116c2aaae5c282bbe7b71e86ab548bdc422337af2e8ef2a",
+          "sha256": "01f294e1a5579354c116c2aaae5c282bbe7b71e86ab548bdc422337af2e8ef2a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ansible",
+    "cffi",
+    "cookiecutter",
+    "openssl@3",
+    "pygments",
+    "python@3.11",
+    "pyyaml",
+    "six",
+    "gmp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/molecule.rb",
+  "ruby_source_checksum": {
+    "sha256": "77f10fa12ce877adcced366f2796331b2118dee2c022860098a98180034817fa"
+  },
+  "date_added": "2017-01-19T08:19:50+00:00"
+}

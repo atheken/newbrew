@@ -1,0 +1,111 @@
+{
+  "name": "gops",
+  "full_name": "gops",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to list and diagnose Go processes currently running on your system",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/google/gops",
+  "versions": {
+    "stable": "0.3.27",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/gops/archive/refs/tags/v0.3.27.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1d5b8b0979c284d29d85f44aba6d0a5175059568aa698a242c5bc1d772263746"
+    },
+    "head": {
+      "url": "https://github.com/google/gops.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:4b962ab71b74211a8cc4d421450597e73300b8a66027d8b3fa8ad55557f53de2",
+          "sha256": "4b962ab71b74211a8cc4d421450597e73300b8a66027d8b3fa8ad55557f53de2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:1c2bf5ee24c3ba38d15715d5a7e01c0aaad063fc6264303ea8522bd42be089ef",
+          "sha256": "1c2bf5ee24c3ba38d15715d5a7e01c0aaad063fc6264303ea8522bd42be089ef"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:6f0f151581fd4308ba90ec3eb1dd62171fe40e9b3a0a04258b5793cb5167c9fd",
+          "sha256": "6f0f151581fd4308ba90ec3eb1dd62171fe40e9b3a0a04258b5793cb5167c9fd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:809f885c8caf1b2f3b22dff4d33dfae0d2646c4a4b2291e4fb25d85c1fecb7df",
+          "sha256": "809f885c8caf1b2f3b22dff4d33dfae0d2646c4a4b2291e4fb25d85c1fecb7df"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:8c134a4ed12158c406cd3483f9d0802ddb7277c44597a13e8b453c0e9e482cc8",
+          "sha256": "8c134a4ed12158c406cd3483f9d0802ddb7277c44597a13e8b453c0e9e482cc8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:cc9b769c28f074605a2c2c6e58493b4cfa4e4808018cbd9725ebf13326a687ce",
+          "sha256": "cc9b769c28f074605a2c2c6e58493b4cfa4e4808018cbd9725ebf13326a687ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gops/blobs/sha256:3499eec0a4fd2cf8fd974bde8c82ed9ec0c3b49566756b5a06f5f234e3d472db",
+          "sha256": "3499eec0a4fd2cf8fd974bde8c82ed9ec0c3b49566756b5a06f5f234e3d472db"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "go"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gops.rb",
+  "ruby_source_checksum": {
+    "sha256": "f7f070c9efc9874d5e870520afc36528f256e43e742b74795efc002cfb16e12d"
+  },
+  "date_added": "2022-04-09T17:58:42+00:00"
+}

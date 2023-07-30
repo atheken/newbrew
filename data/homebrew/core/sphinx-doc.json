@@ -1,0 +1,110 @@
+{
+  "name": "sphinx-doc",
+  "full_name": "sphinx-doc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to create intelligent and beautiful documentation",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.sphinx-doc.org/",
+  "versions": {
+    "stable": "7.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/30/f6/8fbe3a9ae1b1a0e9221a49a60f728ce031f9cba7775376c8d7fe846fe71e/sphinx-7.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "59b8e391f0768a96cd233e8300fe7f0a8dc2f64f83dc2a54336a9a84f428ff4e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:a48b30bcf46db7da862ee594d19870d601352a11065d248f2dc03ca05b719360",
+          "sha256": "a48b30bcf46db7da862ee594d19870d601352a11065d248f2dc03ca05b719360"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:a6c32b5660b7b3ce3ff3ae7b025ae36c4b9ff967229a99c3fa11fabb48e73242",
+          "sha256": "a6c32b5660b7b3ce3ff3ae7b025ae36c4b9ff967229a99c3fa11fabb48e73242"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:488c602b2682dec9595f2573f32a5683a81ea7ed77fc7e897f4546ef6630456f",
+          "sha256": "488c602b2682dec9595f2573f32a5683a81ea7ed77fc7e897f4546ef6630456f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:4b7baa194a9b61a78cc95e9fc44f40d2925b8c1420f54af4c2d8553a4bb2ff00",
+          "sha256": "4b7baa194a9b61a78cc95e9fc44f40d2925b8c1420f54af4c2d8553a4bb2ff00"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:82386e7f244e3c985594c3a7e69868cef4b285a7ddf83a1a8ae63ccff3c17bd9",
+          "sha256": "82386e7f244e3c985594c3a7e69868cef4b285a7ddf83a1a8ae63ccff3c17bd9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:47a1f976e119cefab747ed7e0e2072fca931b1d257036a46de0bdc91555ec4aa",
+          "sha256": "47a1f976e119cefab747ed7e0e2072fca931b1d257036a46de0bdc91555ec4aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sphinx-doc/blobs/sha256:4bff9c18cfbe6ba37c1eaddefaf58daf92576ffbaa3513bb75f32dd140add8c4",
+          "sha256": "4bff9c18cfbe6ba37c1eaddefaf58daf92576ffbaa3513bb75f32dd140add8c4"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "this formula is mainly used internally by other formulae.\nUsers are advised to use `pip` to install sphinx-doc\n",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "docutils",
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sphinx-doc.rb",
+  "ruby_source_checksum": {
+    "sha256": "4c626ac27184cef7afa607063898a5396c47445ea0decff2e294eab2624582f2"
+  },
+  "date_added": "2015-11-16T21:12:54+08:00"
+}

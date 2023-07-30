@@ -1,0 +1,124 @@
+{
+  "name": "couchdb",
+  "full_name": "couchdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Apache CouchDB database server",
+  "license": "Apache-2.0",
+  "homepage": "https://couchdb.apache.org/",
+  "versions": {
+    "stable": "3.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=couchdb/source/3.3.2/apache-couchdb-3.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3d6823d42d10cf0d4f86c9c4fe59c9932c89d68578fcb6c4b4278dc769308daa"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:b44aacdf280a2f3c2f3af38a7f70085e235f054603da579defd71fc254fb2acc",
+          "sha256": "b44aacdf280a2f3c2f3af38a7f70085e235f054603da579defd71fc254fb2acc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:4410e98100842db4c70040e0fe36b024f4c2f84aa56a218e026f081ae85dcb21",
+          "sha256": "4410e98100842db4c70040e0fe36b024f4c2f84aa56a218e026f081ae85dcb21"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:f9ec695c49e2b460bf6ce4f65202c2f55f420dcfb2123ba4f6ef8c6c84aa1130",
+          "sha256": "f9ec695c49e2b460bf6ce4f65202c2f55f420dcfb2123ba4f6ef8c6c84aa1130"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:ef789cc239ffcd25bb447f0292c7687b7edd391df336e8c0e3999a735cc8ca35",
+          "sha256": "ef789cc239ffcd25bb447f0292c7687b7edd391df336e8c0e3999a735cc8ca35"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:207ce0c943397c513a8b8a213a723278c32d07769879ce4efadc792dac4c0c5f",
+          "sha256": "207ce0c943397c513a8b8a213a723278c32d07769879ce4efadc792dac4c0c5f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:c9c10e39919268530595ca4d5d6597527782319c7b50897b4422ce6dae0a2ef9",
+          "sha256": "c9c10e39919268530595ca4d5d6597527782319c7b50897b4422ce6dae0a2ef9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/couchdb/blobs/sha256:c7aa15ebf83c32e0cdfdaf44aa9151cec5a170462f4a999f4bd00f2b131e959d",
+          "sha256": "c7aa15ebf83c32e0cdfdaf44aa9151cec5a170462f4a999f4bd00f2b131e959d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "erlang",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "icu4c",
+    "openssl@3",
+    "spidermonkey"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "ejabberd"
+  ],
+  "conflicts_with_reasons": [
+    "both install `jiffy` lib"
+  ],
+  "link_overwrite": [],
+  "caveats": "CouchDB 3.x requires a set admin password set before startup.\nAdd one to your $HOMEBREW_PREFIX/etc/local.ini before starting CouchDB e.g.:\n  [admins]\n  admin = youradminpassword\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/couchdb/bin/couchdb",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    }
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/couchdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "77482b5e3774a4286ab55369852b53431cccfe5b2ef14e2e3a3f64e936daabf7"
+  },
+  "date_added": "2009-09-14T20:33:46+01:00"
+}

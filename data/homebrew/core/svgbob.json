@@ -1,0 +1,109 @@
+{
+  "name": "svgbob",
+  "full_name": "svgbob",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Convert your ascii diagram scribbles into happy little SVG",
+  "license": "Apache-2.0",
+  "homepage": "https://ivanceras.github.io/svgbob-editor/",
+  "versions": {
+    "stable": "0.7.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ivanceras/svgbob/archive/0.7.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0c6692bd0abb45006efd1f093bc03ede9eef7cc715b706910190ebf7cfce5336"
+    },
+    "head": {
+      "url": "https://github.com/ivanceras/svgbob.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:19b7783560ea399d6ffe1f630bda6949708a3193cd0eabbd1ef2a3ef929480ae",
+          "sha256": "19b7783560ea399d6ffe1f630bda6949708a3193cd0eabbd1ef2a3ef929480ae"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:44f4d62107b37d0cdfdfb88ec0aa00defa7dd1e3b7ddb5c27dec254ba981096c",
+          "sha256": "44f4d62107b37d0cdfdfb88ec0aa00defa7dd1e3b7ddb5c27dec254ba981096c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:668a536aa9cd8e36eb61f57db82ebbfb06efdccd7d6a4f38c9eaa0dcbc60f826",
+          "sha256": "668a536aa9cd8e36eb61f57db82ebbfb06efdccd7d6a4f38c9eaa0dcbc60f826"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:deb10cfc85f78d213fe82bfaa26dd95311dedd1fc8c772468c30097034438330",
+          "sha256": "deb10cfc85f78d213fe82bfaa26dd95311dedd1fc8c772468c30097034438330"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:4e6b88a72abfb4fe014bbdd9729c846057ebef0f6dff1ba50fa58261ddd6cebb",
+          "sha256": "4e6b88a72abfb4fe014bbdd9729c846057ebef0f6dff1ba50fa58261ddd6cebb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:b425fc9a372ebed4819bba296dedba1bfd72f39952da43b924b329506c57fc91",
+          "sha256": "b425fc9a372ebed4819bba296dedba1bfd72f39952da43b924b329506c57fc91"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/svgbob/blobs/sha256:c37174d7e24d6d86ffd2c59f945a8d624c96ba14f6cbef70663c7bcd7f20e9ff",
+          "sha256": "c37174d7e24d6d86ffd2c59f945a8d624c96ba14f6cbef70663c7bcd7f20e9ff"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/svgbob.rb",
+  "ruby_source_checksum": {
+    "sha256": "e028ede2760ca4224b9c9e7b1eb9619acefc9f7d934647beecb51f081cd7933c"
+  },
+  "date_added": "2021-07-05T23:51:28+00:00"
+}

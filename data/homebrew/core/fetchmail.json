@@ -1,0 +1,105 @@
+{
+  "name": "fetchmail",
+  "full_name": "fetchmail",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Client for fetching mail from POP, IMAP, ETRN or ODMR-capable servers",
+  "license": "LGPL-2.1-or-later and ISC and BSD-3-Clause and Public Domain and (GPL-2.0-or-later with openvpn-openssl-exception)",
+  "homepage": "https://www.fetchmail.info/",
+  "versions": {
+    "stable": "6.4.37",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/fetchmail/branch_6.4/fetchmail-6.4.37.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4a182e5d893e9abe6ac37ae71e542651fce6d606234fc735c2aaae18657e69ea"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:ccbfc5c57049d74a455b25e579332d416c822ced8dfe7f814c6dba0aeeb28a95",
+          "sha256": "ccbfc5c57049d74a455b25e579332d416c822ced8dfe7f814c6dba0aeeb28a95"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:cc9f08926e10e29fa015a543aff8e6f8cc26949bcb548011265d3d5c7cfb9199",
+          "sha256": "cc9f08926e10e29fa015a543aff8e6f8cc26949bcb548011265d3d5c7cfb9199"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:4646ca118b2cc0432b5737bc91dcac6e4583671ba54300fe44ade2c6204fc1db",
+          "sha256": "4646ca118b2cc0432b5737bc91dcac6e4583671ba54300fe44ade2c6204fc1db"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:e9973922c9a0633e5d4c8a45992db42886c7e9ed43c6ae45f24b7ee0ea1935f4",
+          "sha256": "e9973922c9a0633e5d4c8a45992db42886c7e9ed43c6ae45f24b7ee0ea1935f4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:ac1c1e07a255b9d4446d942d142729f1e572dabdb71cb39b7b5542b4e89fbb06",
+          "sha256": "ac1c1e07a255b9d4446d942d142729f1e572dabdb71cb39b7b5542b4e89fbb06"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:717c5476915d9ff3390ee9e05da0f3cd1bbb8d2d455ef338edacb84aeb1754d7",
+          "sha256": "717c5476915d9ff3390ee9e05da0f3cd1bbb8d2d455ef338edacb84aeb1754d7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fetchmail/blobs/sha256:26c20275fc354b2c2828ae3c4cbb616a23208b6cd06583f1d06e54410f183be7",
+          "sha256": "26c20275fc354b2c2828ae3c4cbb616a23208b6cd06583f1d06e54410f183be7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fetchmail.rb",
+  "ruby_source_checksum": {
+    "sha256": "9bab6f0ce93d2910c336a2c40feac9d73ab1eae856c35d282e373d2d203b9d5f"
+  },
+  "date_added": "2015-06-24T19:52:19-04:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "raxml-ng",
+  "full_name": "raxml-ng",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "RAxML Next Generation: faster, easier-to-use and more flexible",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://sco.h-its.org/exelixis/web/software/raxml/",
+  "versions": {
+    "stable": "1.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/amkozlov/raxml-ng.git",
+      "tag": "1.2.0",
+      "revision": "fd32e7f73c3ee44c526c7555a8d04e84b03bd51c",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:5dd0d18757ed8322bf8672537cceeb471282fa9b04524e3fe8585c9f791afc37",
+          "sha256": "5dd0d18757ed8322bf8672537cceeb471282fa9b04524e3fe8585c9f791afc37"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:cf0cb888b93104fffe0cced735061f7cf3a88979972dec9766c6a116368e1303",
+          "sha256": "cf0cb888b93104fffe0cced735061f7cf3a88979972dec9766c6a116368e1303"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:708f6103476f7b943910ecc3048537e44592c336e60a89c434eabed1b1794957",
+          "sha256": "708f6103476f7b943910ecc3048537e44592c336e60a89c434eabed1b1794957"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:2ea060156ee247a24ba70f338eb23d8a90563624f77418e7df55dc0586a05879",
+          "sha256": "2ea060156ee247a24ba70f338eb23d8a90563624f77418e7df55dc0586a05879"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:f126aea85e829545d56f1632354e7e12de6e62bc9b72504f63a27fc938c9d40e",
+          "sha256": "f126aea85e829545d56f1632354e7e12de6e62bc9b72504f63a27fc938c9d40e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:5a5a3ab547ff228ed8a5283ed133d2bbe498eeee5bd1735264977d6ef82b7526",
+          "sha256": "5a5a3ab547ff228ed8a5283ed133d2bbe498eeee5bd1735264977d6ef82b7526"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/raxml-ng/blobs/sha256:e69bccbc5f0a041d07a157481e885ed3bf94b31abf8d242f9313c5aa711ea14a",
+          "sha256": "e69bccbc5f0a041d07a157481e885ed3bf94b31abf8d242f9313c5aa711ea14a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake"
+  ],
+  "dependencies": [
+    "gmp",
+    "open-mpi"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/raxml-ng.rb",
+  "ruby_source_checksum": {
+    "sha256": "f7527683ba3dc96027eb57a7c6a011234f0b7d934fe26f7250c166a36ddcae0c"
+  },
+  "date_added": "2020-02-17T14:55:58+11:00"
+}

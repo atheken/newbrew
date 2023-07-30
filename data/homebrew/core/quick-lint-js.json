@@ -1,0 +1,114 @@
+{
+  "name": "quick-lint-js",
+  "full_name": "quick-lint-js",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Find bugs in your JavaScript code",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://quick-lint-js.com/",
+  "versions": {
+    "stable": "2.15.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://c.quick-lint-js.com/releases/2.15.0/source/quick-lint-js-2.15.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2e3935d4433d3699638f7b82a88058fbd6f33da64f065412e23ded65b4797f1a"
+    },
+    "head": {
+      "url": "https://github.com/quick-lint/quick-lint-js.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:acb5b5e0c65d0c5fa8de3ac30a38099bc2eaf6d7fb64364ef34278fcf657b5b2",
+          "sha256": "acb5b5e0c65d0c5fa8de3ac30a38099bc2eaf6d7fb64364ef34278fcf657b5b2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:f6e244939496b2e6bf45cbd512a81eb6464120be4577fea46706e2beafef7cd5",
+          "sha256": "f6e244939496b2e6bf45cbd512a81eb6464120be4577fea46706e2beafef7cd5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:0fd8239197cade72277b56badfec43dcc83f14780ad27d5eb432c05dd6be5eae",
+          "sha256": "0fd8239197cade72277b56badfec43dcc83f14780ad27d5eb432c05dd6be5eae"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:3690fcf6008126ae81e91fd39904eaa1b169439c44124317338aa65713fb5dd3",
+          "sha256": "3690fcf6008126ae81e91fd39904eaa1b169439c44124317338aa65713fb5dd3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:fe7c63e989e3b980e835efb3dd8e0982f1e301ecdc7caabc9fab49e89a503682",
+          "sha256": "fe7c63e989e3b980e835efb3dd8e0982f1e301ecdc7caabc9fab49e89a503682"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:eee59c092cb9b73f21ad996991013564014846627a26c0a9117c6f3e3e30625c",
+          "sha256": "eee59c092cb9b73f21ad996991013564014846627a26c0a9117c6f3e3e30625c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quick-lint-js/blobs/sha256:b4ce61a12a6c7259b543980302a71c2a47e9eea29d22faf8cbdd53131f46395c",
+          "sha256": "b4ce61a12a6c7259b543980302a71c2a47e9eea29d22faf8cbdd53131f46395c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "googletest",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "simdjson"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/quick-lint-js.rb",
+  "ruby_source_checksum": {
+    "sha256": "59f1d1522ac20ffd08bebc626bb073a7ff14748f61507d3a6ff834bb889813ed"
+  },
+  "date_added": "2022-02-28T03:08:58+00:00"
+}

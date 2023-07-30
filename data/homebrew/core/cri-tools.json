@@ -1,0 +1,109 @@
+{
+  "name": "cri-tools",
+  "full_name": "cri-tools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI and validation tools for Kubelet Container Runtime Interface (CRI)",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/kubernetes-sigs/cri-tools",
+  "versions": {
+    "stable": "1.27.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes-sigs/cri-tools/archive/v1.27.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6b8c1e64156dffb3d57d6a5d50daab3fbffec4c62850664c872c42762dd07638"
+    },
+    "head": {
+      "url": "https://github.com/kubernetes-sigs/cri-tools.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771",
+          "sha256": "fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771",
+          "sha256": "fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771",
+          "sha256": "fe1262227b7f4ea848bd9455c1cc724c764b62e64e8c6315daff217830e6c771"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3",
+          "sha256": "ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3",
+          "sha256": "ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3",
+          "sha256": "ec2d75ad41bfa42a63df17944843ec9cfcce58f644ef1f89c4cbbc10671eeaf3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cri-tools/blobs/sha256:48616fa492cdfbe75437d8db3fdbd30b2c338bdd70eff7ad3cc5cecdf2382ed2",
+          "sha256": "48616fa492cdfbe75437d8db3fdbd30b2c338bdd70eff7ad3cc5cecdf2382ed2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cri-tools.rb",
+  "ruby_source_checksum": {
+    "sha256": "c9b1151114d1d73ce8a0d330bab4ca6a175b1b5e05d0bdfd7247c8328c23c536"
+  },
+  "date_added": "2021-11-06T06:35:36+00:00"
+}

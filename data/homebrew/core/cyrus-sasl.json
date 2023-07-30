@@ -1,0 +1,115 @@
+{
+  "name": "cyrus-sasl",
+  "full_name": "cyrus-sasl",
+  "tap": "homebrew/core",
+  "oldname": "libsasl2",
+  "oldnames": [
+    "libsasl2"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple Authentication and Security Layer",
+  "license": "BSD-3-Clause-Attribution",
+  "homepage": "https://www.cyrusimap.org/sasl/",
+  "versions": {
+    "stable": "2.1.28",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cyrusimap/cyrus-sasl/releases/download/cyrus-sasl-2.1.28/cyrus-sasl-2.1.28.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7ccfc6abd01ed67c1a0924b353e526f1b766b21f42d4562ee635a8ebfc5bb38c"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:a842b727db6d438e03d495a94f5dd63e2f7a6634809cbe3b621195e180d56f64",
+          "sha256": "a842b727db6d438e03d495a94f5dd63e2f7a6634809cbe3b621195e180d56f64"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:ac7a6ac5d43047181241674de948c84e57fd26e2ae070dcb2bad243f57ffb0db",
+          "sha256": "ac7a6ac5d43047181241674de948c84e57fd26e2ae070dcb2bad243f57ffb0db"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:dfa2cf772e87d85128b4ae58ed7f6d85ff078d673e5a49496fcad0b17af7b3e4",
+          "sha256": "dfa2cf772e87d85128b4ae58ed7f6d85ff078d673e5a49496fcad0b17af7b3e4"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:b0ad0b2d1e4394623692dd7c32014677dcc364c32bae2a9a27913485ca07f91d",
+          "sha256": "b0ad0b2d1e4394623692dd7c32014677dcc364c32bae2a9a27913485ca07f91d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:1e9df5f50cc72d9561b8f8985d3a7520db0de782c45a8d32530c1cd5bf9e9db5",
+          "sha256": "1e9df5f50cc72d9561b8f8985d3a7520db0de782c45a8d32530c1cd5bf9e9db5"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:abf53f0d9551994232096d88a1e312c50ec2f9465730e734c3af75db46016103",
+          "sha256": "abf53f0d9551994232096d88a1e312c50ec2f9465730e734c3af75db46016103"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cyrus-sasl/blobs/sha256:f1bc6d528c1c0e53c2eecb599e5127070654a7bdfb9acb0232cfd08bfaf38efd",
+          "sha256": "f1bc6d528c1c0e53c2eecb599e5127070654a7bdfb9acb0232cfd08bfaf38efd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "krb5",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cyrus-sasl.rb",
+  "ruby_source_checksum": {
+    "sha256": "8eb456197489f1bf32a9e8b8506d2d75b499bb7dd89ecdc4e3f1bcefb32e92b4"
+  },
+  "date_added": "2021-03-09T16:50:56-08:00"
+}

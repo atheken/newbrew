@@ -1,0 +1,75 @@
+{
+  "name": "pmd",
+  "full_name": "pmd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Source code analyzer for Java, JavaScript, and more",
+  "license": "BSD-4-Clause",
+  "homepage": "https://pmd.github.io",
+  "versions": {
+    "stable": "6.55.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pmd/pmd/releases/download/pmd_releases/6.55.0/pmd-bin-6.55.0.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "21acf96d43cb40d591cacccc1c20a66fc796eaddf69ea61812594447bac7a11d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pmd/blobs/sha256:836acbfe2da9e6da7e6319b9c614062758a797c866fa7c675d5867ff5799e091",
+          "sha256": "836acbfe2da9e6da7e6319b9c614062758a797c866fa7c675d5867ff5799e091"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Run with `pmd` (instead of `run.sh` as described in the documentation).\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pmd.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec362d7d3746375cc33d708830ad38f333b560b1fb4d5cca7af02f5b2bf60148"
+  },
+  "date_added": "2014-03-29T09:06:17-05:00"
+}

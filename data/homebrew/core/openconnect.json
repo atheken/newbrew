@@ -1,0 +1,131 @@
+{
+  "name": "openconnect",
+  "full_name": "openconnect",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open client for Cisco AnyConnect VPN",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://www.infradead.org/openconnect/",
+  "versions": {
+    "stable": "9.12",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.infradead.org/openconnect/download/openconnect-9.12.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a2bedce3aa4dfe75e36e407e48e8e8bc91d46def5335ac9564fbf91bd4b2413e"
+    },
+    "head": {
+      "url": "git://git.infradead.org/users/dwmw2/openconnect.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:5046fefc55cc7812e1ffce03f00ff5bd3e8c08f1a743a8af59f5ab9965950806",
+          "sha256": "5046fefc55cc7812e1ffce03f00ff5bd3e8c08f1a743a8af59f5ab9965950806"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:b177be2f871aedf5f464ce3ad013de36c8873cf896447619a43b62ae9a8e8fed",
+          "sha256": "b177be2f871aedf5f464ce3ad013de36c8873cf896447619a43b62ae9a8e8fed"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:c35595ec111e4ca4decf99647017b9461531b3b8f70ab804bae311501ca6c39b",
+          "sha256": "c35595ec111e4ca4decf99647017b9461531b3b8f70ab804bae311501ca6c39b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:f8c9b328f46d39e50839fa24f7997244da7deaf2925d1a5f1f3002a88ca57bb9",
+          "sha256": "f8c9b328f46d39e50839fa24f7997244da7deaf2925d1a5f1f3002a88ca57bb9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:984e1c2b131997ad2800fb5a2a184f2b6fe08ed40c939ada2ab70c3d880b49f2",
+          "sha256": "984e1c2b131997ad2800fb5a2a184f2b6fe08ed40c939ada2ab70c3d880b49f2"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:1148d11c813378bb5b754c111564ccbf948e624a6925941e54626ea63852a0fd",
+          "sha256": "1148d11c813378bb5b754c111564ccbf948e624a6925941e54626ea63852a0fd"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openconnect/blobs/sha256:ba03e1ce32924cb034c77db27bb464661769072e31216b9d2224daf84270a394",
+          "sha256": "ba03e1ce32924cb034c77db27bb464661769072e31216b9d2224daf84270a394"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "gnutls",
+    "stoken"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A `vpnc-script` has been installed at $HOMEBREW_PREFIX/etc/vpnc/vpnc-script.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openconnect.rb",
+  "ruby_source_checksum": {
+    "sha256": "032e74fdd348cf51a1ee3b5e51d274d67bf8897fbb84988a831885d5574bc1fd"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "gettext",
+      "gnutls",
+      "stoken"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-12-30T10:32:25+00:00"
+}

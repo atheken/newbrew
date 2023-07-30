@@ -1,0 +1,108 @@
+{
+  "name": "aarch64-elf-gcc",
+  "full_name": "aarch64-elf-gcc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNU compiler collection for aarch64-elf",
+  "license": "GPL-3.0-or-later with GCC-exception-3.1",
+  "homepage": "https://gcc.gnu.org",
+  "versions": {
+    "stable": "13.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e275e76442a6067341a27f04c5c6b83d8613144004c0413528863dc6b5c743da"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:52fbab7e246024b0ab64be29079ab0d9acc2293963a9d8cb236260afc4df9179",
+          "sha256": "52fbab7e246024b0ab64be29079ab0d9acc2293963a9d8cb236260afc4df9179"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:1edf222b87033c0ba5e5e5eb6a37a4a02cfdd2eaebb16fd59d530672d9743b8f",
+          "sha256": "1edf222b87033c0ba5e5e5eb6a37a4a02cfdd2eaebb16fd59d530672d9743b8f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:335fd71e860fbed870ada71c893e520901530ba04743de7d57fe321c901efd27",
+          "sha256": "335fd71e860fbed870ada71c893e520901530ba04743de7d57fe321c901efd27"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:3f0f2a063e451533e86db1ffcebf5cbee33348e684ed4ca03c2f6154377496ed",
+          "sha256": "3f0f2a063e451533e86db1ffcebf5cbee33348e684ed4ca03c2f6154377496ed"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:b9c9ec0616f365523345ec8317f2a53f2a0de2069f83082d96e0bfe801adcca4",
+          "sha256": "b9c9ec0616f365523345ec8317f2a53f2a0de2069f83082d96e0bfe801adcca4"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:60f1e4b14e7b7c5e85f6fe0aa7cb9e63ad102993f6e9b3f75eaf4018067058ea",
+          "sha256": "60f1e4b14e7b7c5e85f6fe0aa7cb9e63ad102993f6e9b3f75eaf4018067058ea"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aarch64-elf-gcc/blobs/sha256:92db41fba79e8f057480e9223ff53cea160a6d0256d96752d5ff3a8fa2e42a58",
+          "sha256": "92db41fba79e8f057480e9223ff53cea160a6d0256d96752d5ff3a8fa2e42a58"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "aarch64-elf-binutils",
+    "gmp",
+    "libmpc",
+    "mpfr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aarch64-elf-gcc.rb",
+  "ruby_source_checksum": {
+    "sha256": "fe4f15b5b203dacfadb0ef8aa3d84701b1354b829c07ab1686a4dcf532e77300"
+  },
+  "date_added": "2022-03-02T15:28:20+00:00"
+}

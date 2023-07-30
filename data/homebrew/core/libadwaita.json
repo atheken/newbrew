@@ -1,0 +1,114 @@
+{
+  "name": "libadwaita",
+  "full_name": "libadwaita",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Building blocks for modern adaptive GNOME applications",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gnome.pages.gitlab.gnome.org/libadwaita/",
+  "versions": {
+    "stable": "1.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libadwaita/1.3/libadwaita-1.3.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3fb9f6f8f570e543ab2dafb8b4b94d8b376c59ad565efadfede44557e3f3a9e1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:46cd0d4f81a5c2d5efc63b1755a7a002ff95fa8f42007668a337327dd9970607",
+          "sha256": "46cd0d4f81a5c2d5efc63b1755a7a002ff95fa8f42007668a337327dd9970607"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:9550badfd2988da515c5ff5557014fa3d51a99e4880dd1d20412dc913e57aa2b",
+          "sha256": "9550badfd2988da515c5ff5557014fa3d51a99e4880dd1d20412dc913e57aa2b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:0bcf580842dc04a29575b36747ff63ec4456e93dca113be677b2efc610f0d65d",
+          "sha256": "0bcf580842dc04a29575b36747ff63ec4456e93dca113be677b2efc610f0d65d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:d40e0ea4a951ce312ea727f83c1127a0c2790574ddb6e7990d0dd93f5eb6baa1",
+          "sha256": "d40e0ea4a951ce312ea727f83c1127a0c2790574ddb6e7990d0dd93f5eb6baa1"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:acfb1a2fe6e8147e6e2e89fadb5890b34d8e6863d040fa39c068c10eb5d21082",
+          "sha256": "acfb1a2fe6e8147e6e2e89fadb5890b34d8e6863d040fa39c068c10eb5d21082"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:72ee89c1212e23161ab35c91faea62ee9ce2fef2e533b2269b63c8ffd0d3a1f1",
+          "sha256": "72ee89c1212e23161ab35c91faea62ee9ce2fef2e533b2269b63c8ffd0d3a1f1"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libadwaita/blobs/sha256:09ffb6416daa2e1367119e976d17d0f7a9c486940eb0b1fe6b42b0b8415fbe0d",
+          "sha256": "09ffb6416daa2e1367119e976d17d0f7a9c486940eb0b1fe6b42b0b8415fbe0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "gtk4"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libadwaita.rb",
+  "ruby_source_checksum": {
+    "sha256": "60b97dd89387e284b4750bcaff502418f9d741c57fd0779af446076eca23ab74"
+  },
+  "date_added": "2022-01-20T08:53:15+00:00"
+}

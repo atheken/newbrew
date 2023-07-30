@@ -1,0 +1,136 @@
+{
+  "name": "salt",
+  "full_name": "salt",
+  "tap": "homebrew/core",
+  "oldname": "saltstack",
+  "oldnames": [
+    "saltstack"
+  ],
+  "aliases": [
+    "saltstack"
+  ],
+  "versioned_formulae": [],
+  "desc": "Dynamic infrastructure communication bus",
+  "license": "Apache-2.0",
+  "homepage": "https://saltproject.io/",
+  "versions": {
+    "stable": "3005",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/c1/8b/f21efb024adbb6929cba84040882bf9fd6427fd786dd0596e7e23a9cf717/salt-3005.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1d200c45b88046178ea56fb5a75726dc620cc5e51411076a04df80ff52f79cd4"
+    },
+    "head": {
+      "url": "https://github.com/saltstack/salt.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:406854958146b626b40d257f76fb3f94d67304716629cfa63cc8d9db7231df7b",
+          "sha256": "406854958146b626b40d257f76fb3f94d67304716629cfa63cc8d9db7231df7b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:2df37871e126b7919843a0341b161fcf23bc17cbb20529e7f38018fb292a2059",
+          "sha256": "2df37871e126b7919843a0341b161fcf23bc17cbb20529e7f38018fb292a2059"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:8984a4bd6feaf553807ab0420daf643abd41a5911cb2cbebe060747cadb9cc7e",
+          "sha256": "8984a4bd6feaf553807ab0420daf643abd41a5911cb2cbebe060747cadb9cc7e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:6992f4390ae1af036907f422cd9151a38ae73f0b5e8f419d83ba046927ec0c01",
+          "sha256": "6992f4390ae1af036907f422cd9151a38ae73f0b5e8f419d83ba046927ec0c01"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:336585531a3a29c12744a9281d18d92cfae5157f238a2954c6293a437e0f39a4",
+          "sha256": "336585531a3a29c12744a9281d18d92cfae5157f238a2954c6293a437e0f39a4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:0c83ab569c2638c50db02096be8fb7d36be41954466eb689d794876b8b7b9794",
+          "sha256": "0c83ab569c2638c50db02096be8fb7d36be41954466eb689d794876b8b7b9794"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/salt/blobs/sha256:11180326276d6b0fb71737de857221f62f06044ce9d79124e781ef6d699bfc31",
+          "sha256": "11180326276d6b0fb71737de857221f62f06044ce9d79124e781ef6d699bfc31"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "swig",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libgit2",
+    "libyaml",
+    "openssl@3",
+    "python@3.10",
+    "six",
+    "zeromq",
+    "gmp",
+    "pcre"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Sample configuration files have been placed in $HOMEBREW_PREFIX/etc/saltstack.\nSaltstack will not use these by default.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2022-08-31",
+  "deprecation_reason": "next version will require a vendored python",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/salt/bin/salt-minion",
+      "--config-dir=/home/linuxbrew/.linuxbrew/etc/saltstack",
+      "--pid-file=/home/linuxbrew/.linuxbrew/var/run/salt-minion.pid"
+    ],
+    "run_type": "immediate",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/salt-minion.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/salt-minion.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/salt.rb",
+  "ruby_source_checksum": {
+    "sha256": "ce3ba6b296a69059a19f5d23c8dc4f093fcf657add21f5dc737df1fcb49809d1"
+  },
+  "date_added": "2011-09-08T09:14:27-07:00"
+}

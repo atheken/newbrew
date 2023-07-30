@@ -1,0 +1,105 @@
+{
+  "name": "monika",
+  "full_name": "monika",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Synthetic monitoring made easy",
+  "license": "MIT",
+  "homepage": "https://monika.hyperjump.tech",
+  "versions": {
+    "stable": "1.15.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/@hyperjumptech/monika/-/monika-1.15.3.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c0e00cbd13a44c2b59894488a2149e8d865fcf166aa530ae811d0c5e228dbef3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:64fa965dc058a23908d931558b11220ce775e74ecaaf1dd1a6a0f64ce89f465b",
+          "sha256": "64fa965dc058a23908d931558b11220ce775e74ecaaf1dd1a6a0f64ce89f465b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:a6677d80b7426a5dd9ba44591ec5bacdc6927311ec0090fa10e0d5786faa278d",
+          "sha256": "a6677d80b7426a5dd9ba44591ec5bacdc6927311ec0090fa10e0d5786faa278d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:d1619e5e1f1f56260e21ee1ad0b28504fe1cfbc5246a8daa0884c697278f6255",
+          "sha256": "d1619e5e1f1f56260e21ee1ad0b28504fe1cfbc5246a8daa0884c697278f6255"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:582844f93d217c59f347b537e2dfeeba2dcd3d4ab603e731dba07a95d23ea856",
+          "sha256": "582844f93d217c59f347b537e2dfeeba2dcd3d4ab603e731dba07a95d23ea856"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:b2ba8a8c24b54451180336ea0fe08e5d851b788b66cd784b38b7f5220e202f12",
+          "sha256": "b2ba8a8c24b54451180336ea0fe08e5d851b788b66cd784b38b7f5220e202f12"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:a2aee7ec0992c734e97f13b379b6a3426b97948f630086c88e4adc54dce73f0c",
+          "sha256": "a2aee7ec0992c734e97f13b379b6a3426b97948f630086c88e4adc54dce73f0c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monika/blobs/sha256:30007f4667592d87ff10ef04f09f8a2f4eb983340557a5290f800542278fa9fd",
+          "sha256": "30007f4667592d87ff10ef04f09f8a2f4eb983340557a5290f800542278fa9fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/monika.rb",
+  "ruby_source_checksum": {
+    "sha256": "c6b0fc77e8039e4a3028db5af26c9347db6f0f29cab841555d9c44ef918b0460"
+  },
+  "date_added": "2022-05-04T21:45:20+00:00"
+}

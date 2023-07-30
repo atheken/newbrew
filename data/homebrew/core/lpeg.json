@@ -1,0 +1,109 @@
+{
+  "name": "lpeg",
+  "full_name": "lpeg",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Parsing Expression Grammars For Lua",
+  "license": "MIT",
+  "homepage": "https://www.inf.puc-rio.br/~roberto/lpeg/",
+  "versions": {
+    "stable": "1.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.inf.puc-rio.br/~roberto/lpeg/lpeg-1.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4b155d67d2246c1ffa7ad7bc466c1ea899bbc40fef0257cc9c03cecbaed4352a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:c1682de26518f02988af37b26b82436735887d9e706a492470912d4d7d3bcf32",
+          "sha256": "c1682de26518f02988af37b26b82436735887d9e706a492470912d4d7d3bcf32"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:85261557c9e28bcc69e57a039dc37f041822ad173b12ed8929ccf3b188792a45",
+          "sha256": "85261557c9e28bcc69e57a039dc37f041822ad173b12ed8929ccf3b188792a45"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:cacf451975f7154a73f943d3cf875547b3adcae9142f8b7edf305158f2ddeb25",
+          "sha256": "cacf451975f7154a73f943d3cf875547b3adcae9142f8b7edf305158f2ddeb25"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:29f514322b45fc9cbca0e56d3c04b3e99acd493adabd124658e023aa8fd04b94",
+          "sha256": "29f514322b45fc9cbca0e56d3c04b3e99acd493adabd124658e023aa8fd04b94"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:515b7651928ec35f3f794f9d43a3a77b991e65f57b1c9f0541babec684f90c82",
+          "sha256": "515b7651928ec35f3f794f9d43a3a77b991e65f57b1c9f0541babec684f90c82"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:ba9d20b0c8e3c8310ab8b8ad6f62ac7b55a03050afa037257823962a84a40c4f",
+          "sha256": "ba9d20b0c8e3c8310ab8b8ad6f62ac7b55a03050afa037257823962a84a40c4f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:72cc4cc5e772e414daf6ca8dea191184c659eb6bd050bf42da5e100807b53d69",
+          "sha256": "72cc4cc5e772e414daf6ca8dea191184c659eb6bd050bf42da5e100807b53d69"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "lua",
+    "luajit"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "lua",
+    "luajit"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lpeg.rb",
+  "ruby_source_checksum": {
+    "sha256": "e572fc667703c8c657549215f4d97fed30f673c60de160753ab6d53389711e18"
+  },
+  "date_added": "2023-05-10T15:17:13+08:00"
+}

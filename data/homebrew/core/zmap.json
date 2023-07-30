@@ -1,0 +1,125 @@
+{
+  "name": "zmap",
+  "full_name": "zmap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network scanner for Internet-wide network studies",
+  "license": "Apache-2.0",
+  "homepage": "https://zmap.io",
+  "versions": {
+    "stable": "3.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zmap/zmap/archive/v3.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e3151cdcdf695ab7581e01a7c6ee78678717d6a62ef09849b34db39682535454"
+    },
+    "head": {
+      "url": "https://github.com/zmap/zmap.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:684a70d7b7de73b6e8f8784d371bc09f378853a8c29f87bf30ec3e3e1846e966",
+          "sha256": "684a70d7b7de73b6e8f8784d371bc09f378853a8c29f87bf30ec3e3e1846e966"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:96bd279a71f9d5e798047080f563868ca79b18a98db11edc138e20cf6eacf837",
+          "sha256": "96bd279a71f9d5e798047080f563868ca79b18a98db11edc138e20cf6eacf837"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:058c06f623a87893e4df2df875d34542935002167a7f17247a3dd6bb5d69fc24",
+          "sha256": "058c06f623a87893e4df2df875d34542935002167a7f17247a3dd6bb5d69fc24"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:5a4d3cf68235de582a225e82e78b5672af74ae1fd1ef843093232015e5c1f751",
+          "sha256": "5a4d3cf68235de582a225e82e78b5672af74ae1fd1ef843093232015e5c1f751"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:ed089861c3c552d6531cef3f75067dedb46b74ddff4d43bfb37b3dc20c4eb4b0",
+          "sha256": "ed089861c3c552d6531cef3f75067dedb46b74ddff4d43bfb37b3dc20c4eb4b0"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:259f7d1b308ae26692995457b9933fd9bb4affcf17dd4429effb503a0f1b1d73",
+          "sha256": "259f7d1b308ae26692995457b9933fd9bb4affcf17dd4429effb503a0f1b1d73"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zmap/blobs/sha256:ef0ab2fc170be2e64fc1b32b55b45b7e498d827f97c258483b399e698ecd6d61",
+          "sha256": "ef0ab2fc170be2e64fc1b32b55b45b7e498d827f97c258483b399e698ecd6d61"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "byacc",
+    "cmake",
+    "gengetopt",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gmp",
+    "json-c",
+    "libdnet",
+    "libunistring"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zmap.rb",
+  "ruby_source_checksum": {
+    "sha256": "27af4be33804d0b4a33806f467629211df8b603c1ec3bf4520dfddc36a06a9aa"
+  },
+  "date_added": "2014-03-10T19:22:05-07:00"
+}

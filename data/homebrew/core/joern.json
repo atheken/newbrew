@@ -1,0 +1,110 @@
+{
+  "name": "joern",
+  "full_name": "joern",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open-source code analysis platform based on code property graphs",
+  "license": "Apache-2.0",
+  "homepage": "https://joern.io/",
+  "versions": {
+    "stable": "2.0.30",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/joernio/joern/archive/refs/tags/v2.0.30.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b080db011709a55db406990269ff23a39c92a1dff88ea21fc9d528f63f4bffbb"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:7b9c25b8b83251977ac8008304f91583e0c4ac34f0697f7a91e30dbf844959f1",
+          "sha256": "7b9c25b8b83251977ac8008304f91583e0c4ac34f0697f7a91e30dbf844959f1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:3a39e07f8f7709614139a364386c7e5b308de3b48958828c99e6178427e51cd7",
+          "sha256": "3a39e07f8f7709614139a364386c7e5b308de3b48958828c99e6178427e51cd7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:319b7f98bf3f3cf3c60d14a5a5bbbcaa960ccde768ed69dcf28ef7eb2c2fd8d9",
+          "sha256": "319b7f98bf3f3cf3c60d14a5a5bbbcaa960ccde768ed69dcf28ef7eb2c2fd8d9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:64928a10f04ac9c717db07d07953fbdbc7f9044834f000fe6a5be0d27d3faa7c",
+          "sha256": "64928a10f04ac9c717db07d07953fbdbc7f9044834f000fe6a5be0d27d3faa7c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:8e9866c3da57f233f2f388f2cf0f011c2cfbe8eb6b413db9e9479711646ea022",
+          "sha256": "8e9866c3da57f233f2f388f2cf0f011c2cfbe8eb6b413db9e9479711646ea022"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:623593523afc5789314e16be533138a93e0d1e16c23185f03adcde29086db4f1",
+          "sha256": "623593523afc5789314e16be533138a93e0d1e16c23185f03adcde29086db4f1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/joern/blobs/sha256:a3f08a15887edadf489d6eeaba84d4b95299f4122282e76ffe9846d3cbe393af",
+          "sha256": "a3f08a15887edadf489d6eeaba84d4b95299f4122282e76ffe9846d3cbe393af"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "sbt"
+  ],
+  "dependencies": [
+    "astgen",
+    "coreutils",
+    "openjdk",
+    "php"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/joern.rb",
+  "ruby_source_checksum": {
+    "sha256": "24afe8cb3be3508c26bb030733213a528766e878aed707e168ea6e47d8c6c739"
+  },
+  "date_added": "2023-03-04T10:13:02+00:00"
+}

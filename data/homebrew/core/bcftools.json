@@ -1,0 +1,106 @@
+{
+  "name": "bcftools",
+  "full_name": "bcftools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for BCF/VCF files and variant calling from samtools",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.htslib.org/",
+  "versions": {
+    "stable": "1.18",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/samtools/bcftools/releases/download/1.18/bcftools-1.18.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "d9b9d36293e4cc62ab7473aa2539389d4e1de79b1a927d483f6e91f3c3ceac7e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:0f945c230807755c568393c051065f7c6eaf3952bca6489d7e62aa397c7f327e",
+          "sha256": "0f945c230807755c568393c051065f7c6eaf3952bca6489d7e62aa397c7f327e"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:6ee5ad3e81b57c519137d98d59737922df24be172ebf60839f36e704808453a7",
+          "sha256": "6ee5ad3e81b57c519137d98d59737922df24be172ebf60839f36e704808453a7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:fa7df4a6c18a3006a630c25358e14460ad86bbbf255b5cd1092da80a8e17f699",
+          "sha256": "fa7df4a6c18a3006a630c25358e14460ad86bbbf255b5cd1092da80a8e17f699"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:82f354a9993b8c0aba2ec76e127a0a79f6c49f5f8f810c8f25ca75e8f7ac7534",
+          "sha256": "82f354a9993b8c0aba2ec76e127a0a79f6c49f5f8f810c8f25ca75e8f7ac7534"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:59aca634bbe02041204c4d96f40b0ef71cfe5bd060163d06ad8f8809e01aa1a3",
+          "sha256": "59aca634bbe02041204c4d96f40b0ef71cfe5bd060163d06ad8f8809e01aa1a3"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:04592c369a7b5a83847340f09895ee1530c7d2f47cbcc9382fbafe74c7157c81",
+          "sha256": "04592c369a7b5a83847340f09895ee1530c7d2f47cbcc9382fbafe74c7157c81"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bcftools/blobs/sha256:37e5c41967d7eea82cfa03d1aec3b696878736ee98296d0492ed35a966fd9e7a",
+          "sha256": "37e5c41967d7eea82cfa03d1aec3b696878736ee98296d0492ed35a966fd9e7a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gsl",
+    "htslib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bcftools.rb",
+  "ruby_source_checksum": {
+    "sha256": "bea9c3567c592757f8fecc38f8cbf7f541bdf58fcf010bb416bf43ac18d759ac"
+  },
+  "date_added": "2017-12-22T15:39:01-08:00"
+}

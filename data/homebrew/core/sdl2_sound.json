@@ -1,0 +1,111 @@
+{
+  "name": "sdl2_sound",
+  "full_name": "sdl2_sound",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Abstract soundfile decoder for SDL",
+  "license": "Zlib and (Artistic-1.0-Perl or LGPL-2.1-or-later)",
+  "homepage": "https://icculus.org/SDL_sound/",
+  "versions": {
+    "stable": "2.0.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/icculus/SDL_sound/releases/download/v2.0.2/SDL2_sound-2.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "465a81d6004af731768b881b2f50383150cc58a8d346653bad85e2375829cc3a"
+    },
+    "head": {
+      "url": "https://github.com/icculus/SDL_sound.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:78efdb69dd2f29646f6e4e13ebe2b73021b16c39be323c589a9076c89431f31d",
+          "sha256": "78efdb69dd2f29646f6e4e13ebe2b73021b16c39be323c589a9076c89431f31d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:fc10f79b0f7063898408b2256c67205bf4da1b64858534b605ee4d2502812884",
+          "sha256": "fc10f79b0f7063898408b2256c67205bf4da1b64858534b605ee4d2502812884"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:bd8b8ebfe41a9635a97c6798eda4a584dc6ca4046fe5195d47d89c2bbc267205",
+          "sha256": "bd8b8ebfe41a9635a97c6798eda4a584dc6ca4046fe5195d47d89c2bbc267205"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:e7e2502eeadf23ca7327e087c6b7d7afeb12f75727a2ecbc2662bcacb0b951e1",
+          "sha256": "e7e2502eeadf23ca7327e087c6b7d7afeb12f75727a2ecbc2662bcacb0b951e1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:b4b2f9f1681928e4cc8dbe0fddbc40eb311de24144155d6b043dbb1415af3bd2",
+          "sha256": "b4b2f9f1681928e4cc8dbe0fddbc40eb311de24144155d6b043dbb1415af3bd2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:b7d96ba9534e1e3fbff4585f8994169c148c1e19da87b0bdd879bdca2211a5aa",
+          "sha256": "b7d96ba9534e1e3fbff4585f8994169c148c1e19da87b0bdd879bdca2211a5aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_sound/blobs/sha256:08026f0cdd8b3e6ff8cc66cb968a8107472fc9f6ca97ce0b9ef78e910dcbb206",
+          "sha256": "08026f0cdd8b3e6ff8cc66cb968a8107472fc9f6ca97ce0b9ef78e910dcbb206"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sdl2_sound.rb",
+  "ruby_source_checksum": {
+    "sha256": "983484e4e46c196fb244df76648e528c9cbde1ee1bbe9ac2d6a7cc5a514d1294"
+  },
+  "date_added": "2022-05-18T13:41:46+00:00"
+}

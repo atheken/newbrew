@@ -1,0 +1,119 @@
+{
+  "name": "augustus",
+  "full_name": "augustus",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Predict genes in eukaryotic genomic sequences",
+  "license": "Artistic-1.0",
+  "homepage": "https://bioinf.uni-greifswald.de/augustus/",
+  "versions": {
+    "stable": "3.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Gaius-Augustus/Augustus/archive/refs/tags/v3.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5ed6ce6106303b800c5e91d37a250baff43b20824657b853ae04d11ad8bdd686"
+    },
+    "head": {
+      "url": "https://github.com/Gaius-Augustus/Augustus.git",
+      "branch": "master"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:8c9aee5e4124894239408be9ce726e328aba6b9404fc65b285f6b177a4bb513e",
+          "sha256": "8c9aee5e4124894239408be9ce726e328aba6b9404fc65b285f6b177a4bb513e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:0ad183caab97870c9208a4340b684994c16d27cb32273f594ee99c2344ad0771",
+          "sha256": "0ad183caab97870c9208a4340b684994c16d27cb32273f594ee99c2344ad0771"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:429db38ca5d24188747ccdcc5845b2ba42f2f9ac04a676d9dc55cea5d4961e63",
+          "sha256": "429db38ca5d24188747ccdcc5845b2ba42f2f9ac04a676d9dc55cea5d4961e63"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:8e3e5e7e74a3b67fc12e5b850dfc896dcac4536eee9661f717e6536b2bd35761",
+          "sha256": "8e3e5e7e74a3b67fc12e5b850dfc896dcac4536eee9661f717e6536b2bd35761"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:310d5947d823b3a81ef01c1666d32d15d77ac426d13f0820ee3040457776f012",
+          "sha256": "310d5947d823b3a81ef01c1666d32d15d77ac426d13f0820ee3040457776f012"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:2ed0f1945427ef02649dcc4cd54391a9c69d243911e99c02b7f34dabc7fc3020",
+          "sha256": "2ed0f1945427ef02649dcc4cd54391a9c69d243911e99c02b7f34dabc7fc3020"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/augustus/blobs/sha256:ae7c05bcaaf372c82b2638b7eb4d8abbc217af98f0831577f50f5780ae8be2ae",
+          "sha256": "ae7c05bcaaf372c82b2638b7eb4d8abbc217af98f0831577f50f5780ae8be2ae"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "bamtools",
+    "boost",
+    "htslib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    },
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/augustus.rb",
+  "ruby_source_checksum": {
+    "sha256": "6605a7f213cbfe9bffdbc1facf7c72a78eb3d81c4e874ea142e057efebb2086f"
+  },
+  "date_added": "2018-01-19T06:08:53-08:00"
+}

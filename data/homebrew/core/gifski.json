@@ -1,0 +1,114 @@
+{
+  "name": "gifski",
+  "full_name": "gifski",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Highest-quality GIF encoder based on pngquant",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://gif.ski/",
+  "versions": {
+    "stable": "1.11.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ImageOptim/gifski/archive/refs/tags/1.11.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "adf9ff87c43900925ac1e0a34cfbccf01072a4b7bfac586d41902fc894a2e457"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:dafd6421e40925c2e7ac4bb5f47f87fc1eee195423dff25edfed8fc2e1f63e87",
+          "sha256": "dafd6421e40925c2e7ac4bb5f47f87fc1eee195423dff25edfed8fc2e1f63e87"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:f8f06268a843b83ec4797a032d61915351394ab9008e04f911a4e2a95c7eb810",
+          "sha256": "f8f06268a843b83ec4797a032d61915351394ab9008e04f911a4e2a95c7eb810"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:f3fda7cdeffe20e1180e5eb94be43e4eea8d4a2235398bda5ef1e01d1dfa9d4c",
+          "sha256": "f3fda7cdeffe20e1180e5eb94be43e4eea8d4a2235398bda5ef1e01d1dfa9d4c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:3f78ab9650301289019f130bd46d598cbca3809525150e546931289099d92707",
+          "sha256": "3f78ab9650301289019f130bd46d598cbca3809525150e546931289099d92707"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:1762de93993957a3e246ff6afad186fdd21574d058dfc289dc3f0f31de25dd26",
+          "sha256": "1762de93993957a3e246ff6afad186fdd21574d058dfc289dc3f0f31de25dd26"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:160d8491c520971c69517809ae0f704b53a7508bb132239b4910409418e91565",
+          "sha256": "160d8491c520971c69517809ae0f704b53a7508bb132239b4910409418e91565"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gifski/blobs/sha256:55666d678313d62f7585b9df2bccece76642be2664d4db6ce95a96d979a9ee8d",
+          "sha256": "55666d678313d62f7585b9df2bccece76642be2664d4db6ce95a96d979a9ee8d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "ffmpeg"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "llvm": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gifski.rb",
+  "ruby_source_checksum": {
+    "sha256": "382ebeba6f5e0c9210697c3780b2cec04cea4c6f7ccec8fffb4cd89b8f5241cb"
+  },
+  "date_added": "2017-12-14T14:45:31+01:00"
+}

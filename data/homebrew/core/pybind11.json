@@ -1,0 +1,110 @@
+{
+  "name": "pybind11",
+  "full_name": "pybind11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Seamless operability between C++11 and Python",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/pybind/pybind11",
+  "versions": {
+    "stable": "2.11.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pybind/pybind11/archive/v2.11.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d475978da0cdc2d43b73f30910786759d593a9d8ee05b1b6846d1eb16c6d2e0c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd",
+          "sha256": "0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd",
+          "sha256": "0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd",
+          "sha256": "0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec",
+          "sha256": "42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec",
+          "sha256": "42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec",
+          "sha256": "42b24630f5ae49b3df70947a3f763121836f43a716db2f368cbd91ce04ed94ec"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pybind11/blobs/sha256:0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd",
+          "sha256": "0057b73416f1b41f40982a2f82e787868fc90240c6e29a1cb1628d92eadd3bfd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.10",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pybind11.rb",
+  "ruby_source_checksum": {
+    "sha256": "85cdd6669d564800e1e2f0ccc58ea45d45f19b2ef00b6c194dc39fb08721c629"
+  },
+  "date_added": "2016-08-21T12:00:55+01:00"
+}

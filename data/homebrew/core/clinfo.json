@@ -1,0 +1,107 @@
+{
+  "name": "clinfo",
+  "full_name": "clinfo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Print information about OpenCL platforms and devices",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/Oblomov/clinfo",
+  "versions": {
+    "stable": "3.0.23.01.25",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Oblomov/clinfo/archive/3.0.23.01.25.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6dcdada6c115873db78c7ffc62b9fc1ee7a2d08854a3bccea396df312e7331e3"
+    },
+    "head": {
+      "url": "https://github.com/Oblomov/clinfo.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:bdab44766ca458a88c221ea4f7449b186b9fd748db904f7eefde045fb6443fb0",
+          "sha256": "bdab44766ca458a88c221ea4f7449b186b9fd748db904f7eefde045fb6443fb0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:2c1497f49082ece2d52fae1bfc65c5317e7c76a6b2d8272f95fcb69f6068a4a6",
+          "sha256": "2c1497f49082ece2d52fae1bfc65c5317e7c76a6b2d8272f95fcb69f6068a4a6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:2315c5f2eb3c44d67eed92f81680c2b0baef3d4a9d1e95a230b0e8a1664eecfb",
+          "sha256": "2315c5f2eb3c44d67eed92f81680c2b0baef3d4a9d1e95a230b0e8a1664eecfb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:f1d18a57e2dd034e082d5df7b51ace021b656d6ea8539462a63ed11d8c2157b4",
+          "sha256": "f1d18a57e2dd034e082d5df7b51ace021b656d6ea8539462a63ed11d8c2157b4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:86e27c2acbdf720693e142d25e82f1ccd76a4445d9ed2e25901382735b28d6c6",
+          "sha256": "86e27c2acbdf720693e142d25e82f1ccd76a4445d9ed2e25901382735b28d6c6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clinfo/blobs/sha256:0e7cd2b464087fe9304644a1c6ba611a3b95ff37387eb85ffa1b495d88030b70",
+          "sha256": "0e7cd2b464087fe9304644a1c6ba611a3b95ff37387eb85ffa1b495d88030b70"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "opencl-headers"
+  ],
+  "dependencies": [
+    "opencl-icd-loader",
+    "pocl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/clinfo.rb",
+  "ruby_source_checksum": {
+    "sha256": "534e54026e6247c063541265ae5985dbbe3eb030b761c45c62e77180c92a2c1d"
+  },
+  "date_added": "2017-08-20T17:09:41+02:00"
+}

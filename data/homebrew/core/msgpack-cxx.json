@@ -1,0 +1,83 @@
+{
+  "name": "msgpack-cxx",
+  "full_name": "msgpack-cxx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "msgpack-cpp"
+  ],
+  "versioned_formulae": [],
+  "desc": "MessagePack implementation for C++ / msgpack.org[C++]",
+  "license": "BSL-1.0",
+  "homepage": "https://msgpack.org/",
+  "versions": {
+    "stable": "6.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/msgpack/msgpack-c/releases/download/cpp-6.1.0/msgpack-cxx-6.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "23ede7e93c8efee343ad8c6514c28f3708207e5106af3b3e4969b3a9ed7039e7"
+    },
+    "head": {
+      "url": "https://github.com/msgpack/msgpack-c.git",
+      "branch": "cpp_master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack-cxx/blobs/sha256:f7c820135c11949305392b6bd00db7bfbbb47ffeaf7477cf30ce2e6b8283eac1",
+          "sha256": "f7c820135c11949305392b6bd00db7bfbbb47ffeaf7477cf30ce2e6b8283eac1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/msgpack-cxx.rb",
+  "ruby_source_checksum": {
+    "sha256": "cfed5053ac1cfba43a5923c446850664678b35b450c6c3b6cdc8f471360e67f0"
+  },
+  "date_added": "2021-08-31T15:43:15+00:00"
+}

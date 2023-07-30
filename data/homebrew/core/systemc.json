@@ -1,0 +1,105 @@
+{
+  "name": "systemc",
+  "full_name": "systemc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Core SystemC language and examples",
+  "license": "Apache-2.0",
+  "homepage": "https://accellera.org/",
+  "versions": {
+    "stable": "2.3.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/accellera-official/systemc/archive/refs/tags/2.3.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bfb309485a8ad35a08ee78827d1647a451ec5455767b25136e74522a6f41e0ea"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:86a338b268c08838c1c081c3b90ea2aadc8f6bfe6554dc6eddc68bc93878a619",
+          "sha256": "86a338b268c08838c1c081c3b90ea2aadc8f6bfe6554dc6eddc68bc93878a619"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:eb2010d067c45efd303bac411973243c0ff936c23b7da1c8a13b80ecf348e68c",
+          "sha256": "eb2010d067c45efd303bac411973243c0ff936c23b7da1c8a13b80ecf348e68c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:102bfe8370777ea864c7e0c9713b02f36b72d2577119072b57b6140748c2af2a",
+          "sha256": "102bfe8370777ea864c7e0c9713b02f36b72d2577119072b57b6140748c2af2a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:0ab40c9b44e333f064980bcc37b5b99573a1d373415cb3786f4d95a9d3696a82",
+          "sha256": "0ab40c9b44e333f064980bcc37b5b99573a1d373415cb3786f4d95a9d3696a82"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:68dd6cdb933b8a1ae004b3213d4c1fbeb6069f0db396997a2aec5dcc2ed25dc8",
+          "sha256": "68dd6cdb933b8a1ae004b3213d4c1fbeb6069f0db396997a2aec5dcc2ed25dc8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:df1f9591f00390b027cb6885c74fa7ae119c9984beadafe93a58bd81d3688f4a",
+          "sha256": "df1f9591f00390b027cb6885c74fa7ae119c9984beadafe93a58bd81d3688f4a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/systemc/blobs/sha256:2905eb9b4d3717295d134ee90c72811a5949ce6ba445801e1a17280e81e9238d",
+          "sha256": "2905eb9b4d3717295d134ee90c72811a5949ce6ba445801e1a17280e81e9238d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/systemc.rb",
+  "ruby_source_checksum": {
+    "sha256": "c1755ac4f19b00480fdb345127f75e7c8cb8b59c4d103b35e85590e29115e0a9"
+  },
+  "date_added": "2015-12-14T14:08:06+01:00"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "python-gdbm@3.11",
+  "full_name": "python-gdbm@3.11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "python-gdbm"
+  ],
+  "versioned_formulae": [],
+  "desc": "Python interface to gdbm",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.11.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "85c37a265e5c9dd9f75b35f954e31fbfc10383162417285e30ad25cc073a0d63"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:cd3c8cab66cc6b498cfaaa36a287928cf6b1750f21e9b8709348b7d5fa6265c6",
+          "sha256": "cd3c8cab66cc6b498cfaaa36a287928cf6b1750f21e9b8709348b7d5fa6265c6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:efea710a7077d6fb6ebdc4db37579d864b3a3b91e85e3e7241524a1c019561d6",
+          "sha256": "efea710a7077d6fb6ebdc4db37579d864b3a3b91e85e3e7241524a1c019561d6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:21e200dc93934debef789bc03272611dcc46bbbf150aea9633b263915dc6e16c",
+          "sha256": "21e200dc93934debef789bc03272611dcc46bbbf150aea9633b263915dc6e16c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:8fac5348dce6939beb81f558a635400d35bc24d6e02678c42dd01a88ebfe8bcd",
+          "sha256": "8fac5348dce6939beb81f558a635400d35bc24d6e02678c42dd01a88ebfe8bcd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:e0a9334176f13e41a20b644f14746f400a30fa7ac3ed1b3ecba3b2104321ddcd",
+          "sha256": "e0a9334176f13e41a20b644f14746f400a30fa7ac3ed1b3ecba3b2104321ddcd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:4b5793d4fadb235a3de4b3bd78d3ce3569c2760ccceb218730aab0c3c727ce0b",
+          "sha256": "4b5793d4fadb235a3de4b3bd78d3ce3569c2760ccceb218730aab0c3c727ce0b"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python-gdbm/3.11/blobs/sha256:4f744ab9025676bf5200efa1dab888efa8cc994288285591c1eca17d77546168",
+          "sha256": "4f744ab9025676bf5200efa1dab888efa8cc994288285591c1eca17d77546168"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gdbm",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/python-gdbm@3.11.rb",
+  "ruby_source_checksum": {
+    "sha256": "25d65fc39d4049a45563db8008f0f3018a9b49415fed9ad99b6f3610d253bc4f"
+  },
+  "date_added": "2022-10-26T14:39:08+00:00"
+}

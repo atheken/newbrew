@@ -1,0 +1,110 @@
+{
+  "name": "git-cola",
+  "full_name": "git-cola",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Highly caffeinated git GUI",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://git-cola.github.io/",
+  "versions": {
+    "stable": "4.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/1d/08/828a1ae7bf54452b3cd849f4b062f4089c63f3ee48cdc7b4a070277cdfd3/git-cola-4.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "187fa9003d74a8fb3d110207b37c6bbe44043dafda06ce111e1922d0f0f06213"
+    },
+    "head": {
+      "url": "https://github.com/git-cola/git-cola.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:132fc9104b54d56fcbb3e6c05e8971487641dca460b189094a131b4c0595d04e",
+          "sha256": "132fc9104b54d56fcbb3e6c05e8971487641dca460b189094a131b4c0595d04e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:0fbf971068f677d8689b2ea250f9904757b67ec6f24859b789f45498d67a2040",
+          "sha256": "0fbf971068f677d8689b2ea250f9904757b67ec6f24859b789f45498d67a2040"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:1fe3b8bdd3d8d7ac87b82686943ee84599d75b65b4a8c5e9e608102fad1099d6",
+          "sha256": "1fe3b8bdd3d8d7ac87b82686943ee84599d75b65b4a8c5e9e608102fad1099d6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:44f3a73733e5e6de836969b2d050ca7c6c54d0fcbfb9ee863ce6208086988181",
+          "sha256": "44f3a73733e5e6de836969b2d050ca7c6c54d0fcbfb9ee863ce6208086988181"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:af93e14f3ed6e42f871d8f9110b49f1dd1e0340e39fd195dcfd40be7ae52c0dd",
+          "sha256": "af93e14f3ed6e42f871d8f9110b49f1dd1e0340e39fd195dcfd40be7ae52c0dd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:52acf5960546c38af6414804f0bd6de60bccefa2a093cd307a974bd02349812c",
+          "sha256": "52acf5960546c38af6414804f0bd6de60bccefa2a093cd307a974bd02349812c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-cola/blobs/sha256:88fda1fe2446c397c6953fb574f740d3d3dfec76589a83b3a1cac4033fbeb8d1",
+          "sha256": "88fda1fe2446c397c6953fb574f740d3d3dfec76589a83b3a1cac4033fbeb8d1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pyqt@5",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-cola.rb",
+  "ruby_source_checksum": {
+    "sha256": "ca14a1dc6fb02fe6d9ff97a86c8c332b02df750cdb95a2258f15ecac03ae22eb"
+  },
+  "date_added": "2011-04-13T14:38:14-07:00"
+}

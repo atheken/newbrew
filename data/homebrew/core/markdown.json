@@ -1,0 +1,79 @@
+{
+  "name": "markdown",
+  "full_name": "markdown",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text-to-HTML conversion tool",
+  "license": "BSD-3-Clause",
+  "homepage": "https://daringfireball.net/projects/markdown/",
+  "versions": {
+    "stable": "1.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://daringfireball.net/projects/downloads/Markdown_1.0.1.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "6520e9b6a58c5555e381b6223d66feddee67f675ed312ec19e9cee1b92bc0137"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/markdown/blobs/sha256:a52d03ea9f6a735b12194788f335bff854523af6bfb9303391ae583c65fd7001",
+          "sha256": "a52d03ea9f6a735b12194788f335bff854523af6bfb9303391ae583c65fd7001"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "discount",
+    "multimarkdown"
+  ],
+  "conflicts_with_reasons": [
+    "both install `markdown` binaries",
+    "both install `markdown` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/markdown.rb",
+  "ruby_source_checksum": {
+    "sha256": "ebbd97ee8ea563e86c4e74fca7c7dc112cb067b7c29b21d9656cc677e36fad4f"
+  },
+  "date_added": "2010-03-09T12:37:41+00:00"
+}

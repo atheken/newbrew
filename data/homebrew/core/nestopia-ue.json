@@ -1,0 +1,120 @@
+{
+  "name": "nestopia-ue",
+  "full_name": "nestopia-ue",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "NES emulator",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://0ldsk00l.ca/nestopia/",
+  "versions": {
+    "stable": "1.52.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/0ldsk00l/nestopia/archive/1.52.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "eae1d2f536ae8585edb8d723caf905f4ae65349edee4ffbee45f9f52b5e3b06c"
+    },
+    "head": {
+      "url": "https://github.com/0ldsk00l/nestopia.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:4ce6ef1bf01bff15104f1e53ba5ec042e3a461e75b194eda957f876bdbf6549e",
+          "sha256": "4ce6ef1bf01bff15104f1e53ba5ec042e3a461e75b194eda957f876bdbf6549e"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:ba6b9aac85e420c98c2100f74a91252681de9d87434b8e6ab4d95fe759ec9f21",
+          "sha256": "ba6b9aac85e420c98c2100f74a91252681de9d87434b8e6ab4d95fe759ec9f21"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:dcb04201bec25835b346096661f9a64bd8d69aa3935b878b298c5b5e7d6eca11",
+          "sha256": "dcb04201bec25835b346096661f9a64bd8d69aa3935b878b298c5b5e7d6eca11"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:9c01e56c7cd81c3493ee4f77cf5f37f9bfe70e7b3fc820d9056b63fe7e03eabe",
+          "sha256": "9c01e56c7cd81c3493ee4f77cf5f37f9bfe70e7b3fc820d9056b63fe7e03eabe"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:7c768b5fd6adbe764f3ce6ce57d2f58fa43838223d60e8ba4ad7b2a0cd760aa6",
+          "sha256": "7c768b5fd6adbe764f3ce6ce57d2f58fa43838223d60e8ba4ad7b2a0cd760aa6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:0f819600c7711eb7602ccf9d1305e25d25f6ae0e6759414b7bf95e7aaf4684d8",
+          "sha256": "0f819600c7711eb7602ccf9d1305e25d25f6ae0e6759414b7bf95e7aaf4684d8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nestopia-ue/blobs/sha256:d4d4cbc4d8ec82be9811d0ac13203506c478c7a191300af5da1e86e55e8f6f4a",
+          "sha256": "d4d4cbc4d8ec82be9811d0ac13203506c478c7a191300af5da1e86e55e8f6f4a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fltk",
+    "libarchive",
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nestopia-ue.rb",
+  "ruby_source_checksum": {
+    "sha256": "203ce72f7cf3c710ec9775a8a7fd2b2c7ab6b920c277197744e1ceed1a826ef6"
+  },
+  "date_added": "2017-02-08T10:08:57+00:00"
+}

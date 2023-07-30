@@ -1,0 +1,118 @@
+{
+  "name": "ldapvi",
+  "full_name": "ldapvi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Update LDAP entries with a text editor",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://www.lichteblau.com/ldapvi/",
+  "versions": {
+    "stable": "1.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.lichteblau.com/download/ldapvi-1.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6f62e92d20ff2ac0d06125024a914b8622e5b8a0a0c2d390bf3e7990cbd2e153"
+    }
+  },
+  "revision": 9,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:a3ad41b60a3da8e819b1abec997f49b3912addab32ffde4c5e12b7b747c5e86f",
+          "sha256": "a3ad41b60a3da8e819b1abec997f49b3912addab32ffde4c5e12b7b747c5e86f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:63919baa17c57b8a12fa108dbfe0f4c8dbf3c591be3b8fad01f0750cca17be95",
+          "sha256": "63919baa17c57b8a12fa108dbfe0f4c8dbf3c591be3b8fad01f0750cca17be95"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:5489222c138f0e9d354ab8aa153d30baa870a2c15410bb18a134a396563c1645",
+          "sha256": "5489222c138f0e9d354ab8aa153d30baa870a2c15410bb18a134a396563c1645"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:2f876c4180027df3eb3f619f62a72b46969292b348f8c8944d3adb99117746ea",
+          "sha256": "2f876c4180027df3eb3f619f62a72b46969292b348f8c8944d3adb99117746ea"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:d0a155ea5d43cf0f5917acd48cccd30383cab9b9dd7754eeca465da2b15da8dc",
+          "sha256": "d0a155ea5d43cf0f5917acd48cccd30383cab9b9dd7754eeca465da2b15da8dc"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:e7738f50126f4a4b5890215ddb63e85d246729a31e1cd8a260e7dfc45251db9d",
+          "sha256": "e7738f50126f4a4b5890215ddb63e85d246729a31e1cd8a260e7dfc45251db9d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ldapvi/blobs/sha256:3b2deb6f280d0b64a18c53e61aa77b2e46d0907ffe56f30ca81e71ae4447e3a5",
+          "sha256": "3b2deb6f280d0b64a18c53e61aa77b2e46d0907ffe56f30ca81e71ae4447e3a5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "xz"
+  ],
+  "dependencies": [
+    "gettext",
+    "glib",
+    "openssl@3",
+    "popt",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt",
+    "openldap"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ldapvi.rb",
+  "ruby_source_checksum": {
+    "sha256": "409049ab814ef117456397b81f18929da49d40c298e32f91ba96b6fbf0cd88d9"
+  },
+  "date_added": "2010-03-15T10:02:52-07:00"
+}

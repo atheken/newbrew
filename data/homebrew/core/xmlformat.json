@@ -1,0 +1,73 @@
+{
+  "name": "xmlformat",
+  "full_name": "xmlformat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Format XML documents",
+  "license": "BSD-3-Clause",
+  "homepage": "http://www.kitebird.com/software/xmlformat/",
+  "versions": {
+    "stable": "1.04",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.kitebird.com/software/xmlformat/xmlformat-1.04.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "71a70397e44760d67645007ad85fea99736f4b6f8679067a3b5f010589fd8fef"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmlformat/blobs/sha256:65b8ac9770d3a9b885318529fd73469a4c341d790174568baba41f0b72c25b7f",
+          "sha256": "65b8ac9770d3a9b885318529fd73469a4c341d790174568baba41f0b72c25b7f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xmlformat.rb",
+  "ruby_source_checksum": {
+    "sha256": "039ebe219dfa46fb36d23ab87e90a5cfd280bc7afef3c4c4c89a537869fbffa9"
+  },
+  "date_added": "2010-03-26T12:51:15-07:00"
+}

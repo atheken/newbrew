@@ -1,0 +1,122 @@
+{
+  "name": "visp",
+  "full_name": "visp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Visual Servoing Platform library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://visp.inria.fr/",
+  "versions": {
+    "stable": "3.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://visp-doc.inria.fr/download/releases/visp-3.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "494a648b2570da2a200ba326ed61a14e785eb9ee08ef12d3ad178b2f384d3d30"
+    }
+  },
+  "revision": 9,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:0e0bba5de3673f6414707d4f387dbde600ef2122ba5e1f88c85d11a0dd6db9e6",
+          "sha256": "0e0bba5de3673f6414707d4f387dbde600ef2122ba5e1f88c85d11a0dd6db9e6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:0adad66a23d024372d09ac46fdb4785e89c8d2ebe053cdf7c52440cc276f48de",
+          "sha256": "0adad66a23d024372d09ac46fdb4785e89c8d2ebe053cdf7c52440cc276f48de"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:2d0cb5f830558f0dca0771d3929732e57d27ebe9cf5344f157b578dfe6e4a450",
+          "sha256": "2d0cb5f830558f0dca0771d3929732e57d27ebe9cf5344f157b578dfe6e4a450"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:89c6e65399dd047f50a99384022b61fbf828f3419b2dd51601f1d73ef81a017c",
+          "sha256": "89c6e65399dd047f50a99384022b61fbf828f3419b2dd51601f1d73ef81a017c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:6593ddf36c07cc67cf35c256641308dd5f3c7e89d817f85fa7184dc12ac72f37",
+          "sha256": "6593ddf36c07cc67cf35c256641308dd5f3c7e89d817f85fa7184dc12ac72f37"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:49287f7440399abfaa7b57d24651336127b82bed5ecae19d37b58832a6064d02",
+          "sha256": "49287f7440399abfaa7b57d24651336127b82bed5ecae19d37b58832a6064d02"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/visp/blobs/sha256:9ad6d0f418c178812c2c3384f90cfd31da77ce019129293ce1d1344b06be3c2a",
+          "sha256": "9ad6d0f418c178812c2c3384f90cfd31da77ce019129293ce1d1344b06be3c2a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "eigen",
+    "gsl",
+    "jpeg-turbo",
+    "libdc1394",
+    "libpng",
+    "opencv",
+    "pcl",
+    "zbar",
+    "libnsl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/visp.rb",
+  "ruby_source_checksum": {
+    "sha256": "ff8fb54444a729b7522698e4ef596768cf6ef875b6e8235e29d9986cbe662ee0"
+  },
+  "date_added": "2018-01-03T23:37:37-08:00"
+}

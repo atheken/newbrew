@@ -1,0 +1,122 @@
+{
+  "name": "docbook",
+  "full_name": "docbook",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Standard SGML representation system for technical documents",
+  "license": "Cannot Represent",
+  "homepage": "https://docbook.org/",
+  "versions": {
+    "stable": "5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://docbook.org/xml/5.1/docbook-v5.1-os.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "b3f3413654003c1e773360d7fc60ebb8abd0e8c9af8e7d6c4b55f124f34d1e7f"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332",
+          "sha256": "dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332",
+          "sha256": "dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:53a9dc79db8b2d06dc75009d5d09fc797ddcd5eb4ca040d606efd35ae4fa3829",
+          "sha256": "53a9dc79db8b2d06dc75009d5d09fc797ddcd5eb4ca040d606efd35ae4fa3829"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332",
+          "sha256": "dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332",
+          "sha256": "dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:2c4e8398b5548cef2830169aadaf6221ac9ee7e6733547642ccee1ea81e07e99",
+          "sha256": "2c4e8398b5548cef2830169aadaf6221ac9ee7e6733547642ccee1ea81e07e99"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3",
+          "sha256": "8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3"
+        },
+        "mojave": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3",
+          "sha256": "8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3"
+        },
+        "high_sierra": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3",
+          "sha256": "8152e5356c47a7b8282f3ed84ee3f29565e8ce620bddeaeaf23dfd1f5ef111a3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docbook/blobs/sha256:dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332",
+          "sha256": "dcab543bb0e0ae56e0aa106b61f77a111d52aa002c0418aae93f9fe6ac3cb332"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use the DocBook package in your XML toolchain,\nyou need to add the following to your ~/.bashrc:\n\nexport XML_CATALOG_FILES=\"$HOMEBREW_PREFIX/etc/xml/catalog\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/docbook.rb",
+  "ruby_source_checksum": {
+    "sha256": "d2b5a579bdfd39d65e40a7935011f593399815418023e33f58e58d90b4700c27"
+  },
+  "date_added": "2010-07-03T09:29:54-07:00"
+}

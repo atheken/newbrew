@@ -1,0 +1,92 @@
+{
+  "name": "xmount",
+  "full_name": "xmount",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Convert between multiple input & output disk image types",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.pinguin.lu/xmount/",
+  "versions": {
+    "stable": "0.7.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pinguin.lu/xmount-0.7.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "76e544cd55edc2dae32c42a38a04e11336f4985e1d59cec9dd41e9f9af9b0008"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/xmount/blobs/sha256:c61ddafea43cbd071198031f80f4893a2fc90266a9daf1999e78a1b6211d748a",
+          "sha256": "c61ddafea43cbd071198031f80f4893a2fc90266a9daf1999e78a1b6211d748a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "afflib",
+    "libewf",
+    "libfuse@2",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xmount.rb",
+  "ruby_source_checksum": {
+    "sha256": "0555584d599b50c758b7c6e652b24d622fd60d5d54fac518054706aa3573b2e3"
+  },
+  "date_added": "2014-02-08T08:37:04-08:00"
+}

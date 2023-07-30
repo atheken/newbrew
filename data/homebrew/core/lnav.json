@@ -1,0 +1,138 @@
+{
+  "name": "lnav",
+  "full_name": "lnav",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Curses-based tool for viewing and analyzing log files",
+  "license": "BSD-2-Clause",
+  "homepage": "https://lnav.org/",
+  "versions": {
+    "stable": "0.11.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tstack/lnav/releases/download/v0.11.2/lnav-0.11.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3aae3b0cc3dbcf877ecaf7d92bb73867f1aa8c5ad46bd30163dcd6d787c57864"
+    },
+    "head": {
+      "url": "https://github.com/tstack/lnav.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:72ea556b487ece4eb5f9d2b36e671734c04c9611c82568a2339689fb774d612f",
+          "sha256": "72ea556b487ece4eb5f9d2b36e671734c04c9611c82568a2339689fb774d612f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:0fcbccc2ae277a0f5b021d698ffe97a2082b52f7fced94de0658dc2cd57f2e72",
+          "sha256": "0fcbccc2ae277a0f5b021d698ffe97a2082b52f7fced94de0658dc2cd57f2e72"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:0a0992ba6d8778820f08c3868235ffc1deeb1a6b440a20ad84053c8834032ab4",
+          "sha256": "0a0992ba6d8778820f08c3868235ffc1deeb1a6b440a20ad84053c8834032ab4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:b8938d17b779daddb7323d645a3ec90c33b6bdebd6c79ad01b49164cd5e9ed47",
+          "sha256": "b8938d17b779daddb7323d645a3ec90c33b6bdebd6c79ad01b49164cd5e9ed47"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:82e0a6cbba5b3970195a42524f8dd92e7915d5493074b0953a8269b6e17aae70",
+          "sha256": "82e0a6cbba5b3970195a42524f8dd92e7915d5493074b0953a8269b6e17aae70"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:25aa2c49fbe0cece51da03b4b5a85d6a79ce94ff7868b4628be31f6f842dfc75",
+          "sha256": "25aa2c49fbe0cece51da03b4b5a85d6a79ce94ff7868b4628be31f6f842dfc75"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lnav/blobs/sha256:e714c076b1375b6b33e37d974e85be3c52e25c089ec3d1ad79ce2966a0b964bf",
+          "sha256": "e714c076b1375b6b33e37d974e85be3c52e25c089ec3d1ad79ce2966a0b964bf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libarchive",
+    "pcre2",
+    "readline",
+    "sqlite"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lnav.rb",
+  "ruby_source_checksum": {
+    "sha256": "9d54e53cdea2f79b963ad5b404a3212f8b56825d320e6b6984b8a2b1ccff55c9"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "re2c"
+    ],
+    "dependencies": [
+      "libarchive",
+      "pcre2",
+      "readline",
+      "sqlite"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "curl"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2013-08-06T08:57:19-07:00"
+}

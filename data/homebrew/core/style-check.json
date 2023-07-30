@@ -1,0 +1,77 @@
+{
+  "name": "style-check",
+  "full_name": "style-check",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Parses latex-formatted text in search of forbidden phrases",
+  "license": "GPL-2.0",
+  "homepage": "https://www.cs.umd.edu/~nspring/software/style-check-readme.html",
+  "versions": {
+    "stable": "0.14",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.cs.umd.edu/~nspring/software/style-check-0.14.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2ae806fcce9e3b80162c64634422dc32d7f0e6f8a81ba5bc7879358744b4e119"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/style-check/blobs/sha256:0e16c4ab38be982971253cf502fea88db6ee637c3dcdee98c5256ac663ab7dad",
+          "sha256": "0e16c4ab38be982971253cf502fea88db6ee637c3dcdee98c5256ac663ab7dad"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ruby"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/style-check.rb",
+  "ruby_source_checksum": {
+    "sha256": "bab6120f2d803310fa77e845cd54a52b337a5847f9a14d120de8fa9a6e141b72"
+  },
+  "date_added": "2010-07-29T13:03:25-07:00"
+}

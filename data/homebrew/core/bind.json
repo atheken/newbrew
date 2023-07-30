@@ -1,0 +1,128 @@
+{
+  "name": "bind",
+  "full_name": "bind",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of the DNS protocols",
+  "license": "MPL-2.0",
+  "homepage": "https://www.isc.org/bind/",
+  "versions": {
+    "stable": "9.18.17",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.isc.org/isc/bind9/9.18.17/bind-9.18.17.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bde1c5017b81d1d79c69eb8f537f2e5032fd3623acdd5ee830d4f74bc2483458"
+    },
+    "head": {
+      "url": "https://gitlab.isc.org/isc-projects/bind9.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:4a3ba092e4091750dd9afc40ff31adbb5ad46c8953e8747c4a3f6f5851912423",
+          "sha256": "4a3ba092e4091750dd9afc40ff31adbb5ad46c8953e8747c4a3f6f5851912423"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:0fc5bdc0132c1b03033f340f5393fc924a39a4b67b6e82833b0b70e2cb07cf01",
+          "sha256": "0fc5bdc0132c1b03033f340f5393fc924a39a4b67b6e82833b0b70e2cb07cf01"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:0e0238d6d7fa8744a37d2609f0a4577ceb3f9111d15b116dd292e7c173b71f7f",
+          "sha256": "0e0238d6d7fa8744a37d2609f0a4577ceb3f9111d15b116dd292e7c173b71f7f"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:702113cfc4609f494fbbaf1251a5212a6da36e82f2651b933ebd260c035ec861",
+          "sha256": "702113cfc4609f494fbbaf1251a5212a6da36e82f2651b933ebd260c035ec861"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:d826d3aa6601b0ed8245635e2487e798a2c1c28eedf76247b46f4babf693edb6",
+          "sha256": "d826d3aa6601b0ed8245635e2487e798a2c1c28eedf76247b46f4babf693edb6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:7078b295f09a4f4168fc21fc8695722fd52e7496c4a4aeae3ec1c2ee42403fc3",
+          "sha256": "7078b295f09a4f4168fc21fc8695722fd52e7496c4a4aeae3ec1c2ee42403fc3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bind/blobs/sha256:e9035711485366f4afdb9c27fb1b74ea2d478dec7f4232002c12c5ae92116a0d",
+          "sha256": "e9035711485366f4afdb9c27fb1b74ea2d478dec7f4232002c12c5ae92116a0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "json-c",
+    "libidn2",
+    "libnghttp2",
+    "libuv",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/bind/sbin/named",
+      "-f",
+      "-L",
+      "/home/linuxbrew/.linuxbrew/var/log/named/named.log"
+    ],
+    "run_type": "immediate",
+    "require_root": true
+  },
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bind.rb",
+  "ruby_source_checksum": {
+    "sha256": "ac7483846e4db8b9906788af77afd023ce18c6735bd7c210dd238c8dbc407724"
+  },
+  "date_added": "2012-04-08T15:45:46-07:00"
+}

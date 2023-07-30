@@ -1,0 +1,109 @@
+{
+  "name": "cmctl",
+  "full_name": "cmctl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool to manage cert-manager",
+  "license": "Apache-2.0",
+  "homepage": "https://cert-manager.io",
+  "versions": {
+    "stable": "1.12.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cert-manager/cert-manager.git",
+      "tag": "v1.12.3",
+      "revision": "9479c8157dd876e2fc828850b429a4b4f734c871",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/cert-manager/cert-manager.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:94dc21ab3d08eb5751657545dfde3ccbf286ee990a8f1b93e7546b3d868b5368",
+          "sha256": "94dc21ab3d08eb5751657545dfde3ccbf286ee990a8f1b93e7546b3d868b5368"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:f421251ac093a28d18bab71f66d8a5e9cb0f40470d365bf9978a8a5027fd3215",
+          "sha256": "f421251ac093a28d18bab71f66d8a5e9cb0f40470d365bf9978a8a5027fd3215"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:4840dcf91305d01bdfa53d52dfa01ff2e7b59ca57ef441ce7dc5f2b9ba354eae",
+          "sha256": "4840dcf91305d01bdfa53d52dfa01ff2e7b59ca57ef441ce7dc5f2b9ba354eae"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:e7086bfe09a0d1334dee37d0b0b27a00d93c8db828134edc601a4b27f436e70b",
+          "sha256": "e7086bfe09a0d1334dee37d0b0b27a00d93c8db828134edc601a4b27f436e70b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:b17502dff16ff5ddba753cdf720770fbcfb7363f2dba1070adaffaad95c2c980",
+          "sha256": "b17502dff16ff5ddba753cdf720770fbcfb7363f2dba1070adaffaad95c2c980"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:cf8f21a6e5edc37824235bfcbc2a48239356b280fa997ac0ff5b547510a1636e",
+          "sha256": "cf8f21a6e5edc37824235bfcbc2a48239356b280fa997ac0ff5b547510a1636e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmctl/blobs/sha256:bb7c13c790ca0c53ebd456afe6095030a018bad6578f675ef9dda61a8123b4f8",
+          "sha256": "bb7c13c790ca0c53ebd456afe6095030a018bad6578f675ef9dda61a8123b4f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cmctl.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d4a855baf9ce399bae291e23d7bb01297dc9e4418766a90a60d61146679e339"
+  },
+  "date_added": "2022-11-06T15:20:34+00:00"
+}

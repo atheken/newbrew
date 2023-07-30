@@ -1,0 +1,111 @@
+{
+  "name": "flux",
+  "full_name": "flux",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight scripting language for querying databases",
+  "license": "MIT",
+  "homepage": "https://www.influxdata.com/products/flux/",
+  "versions": {
+    "stable": "0.194.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/influxdata/flux.git",
+      "tag": "v0.194.3",
+      "revision": "d8995bbfb3ad23bbd166a4daaea7a5d9e967dce6",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/influxdata/flux.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:9fd5f5a00b55f3f3440f9210d48ce155a9f965fff7728d0336c8ef5b8a725c77",
+          "sha256": "9fd5f5a00b55f3f3440f9210d48ce155a9f965fff7728d0336c8ef5b8a725c77"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:61551fb9307b35168d1897e5aabb75c5f8d47c5ebe4d6f2864d566c312e7720d",
+          "sha256": "61551fb9307b35168d1897e5aabb75c5f8d47c5ebe4d6f2864d566c312e7720d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:201a77449a44cbc675c6601437d855ef1480d6338bb31296d6903f8c5d2aad13",
+          "sha256": "201a77449a44cbc675c6601437d855ef1480d6338bb31296d6903f8c5d2aad13"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:d5d78c9fa3f721964cd9631c0fedb46b3967d28347d5e058c3618016ad1e25db",
+          "sha256": "d5d78c9fa3f721964cd9631c0fedb46b3967d28347d5e058c3618016ad1e25db"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:0c2c8661e17b95573a8733981e7bc503c4dbb72f4b30b43bce905bf8e9c71301",
+          "sha256": "0c2c8661e17b95573a8733981e7bc503c4dbb72f4b30b43bce905bf8e9c71301"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:7afbaf738fc20a543cda526aec0eb5f0ab0c446f224c7dc85a76475c6f31b819",
+          "sha256": "7afbaf738fc20a543cda526aec0eb5f0ab0c446f224c7dc85a76475c6f31b819"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flux/blobs/sha256:ddccd7824b7152dd2931eb11f66643261a21feef071eceb9a572658be9319c32",
+          "sha256": "ddccd7824b7152dd2931eb11f66643261a21feef071eceb9a572658be9319c32"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/flux.rb",
+  "ruby_source_checksum": {
+    "sha256": "9111fdb992014dc9f65c80d5c84844e12c41944f8eb1cc1b9f00c5cad13d7192"
+  },
+  "date_added": "2020-11-12T08:32:39+00:00"
+}

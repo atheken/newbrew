@@ -1,0 +1,127 @@
+{
+  "name": "karchive",
+  "full_name": "karchive",
+  "tap": "homebrew/core",
+  "oldname": "kde-karchive",
+  "oldnames": [
+    "kde-karchive"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Reading, creating, and manipulating file archives",
+  "license": "BSD-2-Clause and LGPL-2.0-only and LGPL-2.0-or-later and (LGPL-2.0-only or LGPL-3.0-only)",
+  "homepage": "https://api.kde.org/frameworks/karchive/html/index.html",
+  "versions": {
+    "stable": "5.108.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.kde.org/stable/frameworks/5.108/karchive-5.108.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9e9049551ec7e21dbf173e27390d5ce919d34bf31f395bebb467bfec348075e5"
+    },
+    "head": {
+      "url": "https://invent.kde.org/frameworks/karchive.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:554bf87bc6c318b6508c07173bd2321ddb284e613fc3c4187e088dd4c40cd41d",
+          "sha256": "554bf87bc6c318b6508c07173bd2321ddb284e613fc3c4187e088dd4c40cd41d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:b5b2a0941728c89b62d75804f824c7597d15f2d329e3737d4a2ee27fab2ea509",
+          "sha256": "b5b2a0941728c89b62d75804f824c7597d15f2d329e3737d4a2ee27fab2ea509"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:e67f45b726b2f62d7eda5663c6c9d30afca66d40465143fb606d8757d1296f8f",
+          "sha256": "e67f45b726b2f62d7eda5663c6c9d30afca66d40465143fb606d8757d1296f8f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:0d540a3bf82150b29b4ab3e717af7e07efa1cadd0ff7df5e13ff31433014bc8a",
+          "sha256": "0d540a3bf82150b29b4ab3e717af7e07efa1cadd0ff7df5e13ff31433014bc8a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:aadde4c78d6b00fdda38e98dff55a577aeea8a88b4693e65221b4b957b95af82",
+          "sha256": "aadde4c78d6b00fdda38e98dff55a577aeea8a88b4693e65221b4b957b95af82"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:3b4448543fe7dac7444a6d3b22a54157c9cadee02657d5633e07a5f7aa4ea6a6",
+          "sha256": "3b4448543fe7dac7444a6d3b22a54157c9cadee02657d5633e07a5f7aa4ea6a6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/karchive/blobs/sha256:0a77baea224eec7a52e2da5f845da5ffa500531d2d55a3541af8c5706a0b7f5a",
+          "sha256": "0a77baea224eec7a52e2da5f845da5ffa500531d2d55a3541af8c5706a0b7f5a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "extra-cmake-modules",
+    "graphviz"
+  ],
+  "dependencies": [
+    "qt@5",
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [
+    "cmake",
+    "extra-cmake-modules"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/karchive.rb",
+  "ruby_source_checksum": {
+    "sha256": "a5ad18619f31ca4857d8526a37a8d4f1d1fac2827e8403aa2e6e5ff1e07dac4c"
+  },
+  "date_added": "2021-03-20T09:32:53+00:00"
+}

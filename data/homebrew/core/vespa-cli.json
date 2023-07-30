@@ -1,0 +1,105 @@
+{
+  "name": "vespa-cli",
+  "full_name": "vespa-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for Vespa.ai",
+  "license": "Apache-2.0",
+  "homepage": "https://vespa.ai",
+  "versions": {
+    "stable": "8.198.18",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vespa-engine/vespa/archive/v8.198.18.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f6d68bf6bbb3089d9ee32d2acc439b7a50ac9a99c5872d06164e4f5bcf10ae71"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:a50edafd9219b352c97092094c8e6f0071ebbfeb95941a8c0d02232e90ffd8fb",
+          "sha256": "a50edafd9219b352c97092094c8e6f0071ebbfeb95941a8c0d02232e90ffd8fb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:c241a8fef463803397d4449e9ee37ff93206b2979c173347f71671699c2871b4",
+          "sha256": "c241a8fef463803397d4449e9ee37ff93206b2979c173347f71671699c2871b4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:cf6e3124dda583bb8b47c82a897047b0fc2574f5a157f42d6ed8572507dc19ac",
+          "sha256": "cf6e3124dda583bb8b47c82a897047b0fc2574f5a157f42d6ed8572507dc19ac"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:57ffc154de4398e7f3c1fd5d9cdca4b80a29dec82317d407f02699a82427cc5b",
+          "sha256": "57ffc154de4398e7f3c1fd5d9cdca4b80a29dec82317d407f02699a82427cc5b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:3a3ca37f7282a3da77a8c5ddc3458efef5c480965acc92845477df181b424cfb",
+          "sha256": "3a3ca37f7282a3da77a8c5ddc3458efef5c480965acc92845477df181b424cfb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:623fbec299f476b45c70b5327f81f71139867be84e9f6e3e1fcdebe86621ce7b",
+          "sha256": "623fbec299f476b45c70b5327f81f71139867be84e9f6e3e1fcdebe86621ce7b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/vespa-cli/blobs/sha256:578c2839e8e380ec2ef19877cfe1f71602ae7020b076a3bebdab4e2fa824389a",
+          "sha256": "578c2839e8e380ec2ef19877cfe1f71602ae7020b076a3bebdab4e2fa824389a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vespa-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "c98cac4fa8a3696891b8f4ab2672066699abbfadca3edb025cf2d4750111f2c9"
+  },
+  "date_added": "2021-09-10T13:10:13+00:00"
+}

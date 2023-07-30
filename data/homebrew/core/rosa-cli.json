@@ -1,0 +1,111 @@
+{
+  "name": "rosa-cli",
+  "full_name": "rosa-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "RedHat OpenShift Service on AWS (ROSA) command-line interface",
+  "license": "Apache-2.0",
+  "homepage": "https://www.openshift.com/products/amazon-openshift",
+  "versions": {
+    "stable": "1.2.24",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openshift/rosa/archive/refs/tags/v1.2.24.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a7d428ed3288b4c67df69346f0e7f1fbdb61c6abda9e8dafb15023f47cb24529"
+    },
+    "head": {
+      "url": "https://github.com/openshift/rosa.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9",
+          "sha256": "171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9",
+          "sha256": "171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9",
+          "sha256": "171e3496da9bea3fec35226647ab204d9d6e75b0113fde6e82c717c84b63fcb9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc",
+          "sha256": "2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc",
+          "sha256": "2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc",
+          "sha256": "2db5e863296ced2f399811020bfe6bb6d9b239c612db68c3656c16265073a6fc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rosa-cli/blobs/sha256:6209eb0da6c441888c2e70e915060090fc99baedef2ed76b12fd946946a55c0d",
+          "sha256": "6209eb0da6c441888c2e70e915060090fc99baedef2ed76b12fd946946a55c0d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "awscli"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rosa-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "73e5aebc9f60b2013a2da987031ac0ce47d5958a7167a7665545b7bb5e10f17a"
+  },
+  "date_added": "2021-03-26T15:51:11+00:00"
+}

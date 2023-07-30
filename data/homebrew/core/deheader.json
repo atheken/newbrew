@@ -1,0 +1,92 @@
+{
+  "name": "deheader",
+  "full_name": "deheader",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Analyze C/C++ files for unnecessary headers",
+  "license": "BSD-2-Clause",
+  "homepage": "http://www.catb.org/~esr/deheader/",
+  "versions": {
+    "stable": "1.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.catb.org/~esr/deheader/deheader-1.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "909d2683a3e62da54bfc660814b4d8af93f582e23858810cc41bfa081571f593"
+    },
+    "head": {
+      "url": "https://gitlab.com/esr/deheader.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/deheader/blobs/sha256:67fb3c4990162be0ba10c9c6a934d6826a43fcf17bcd876d91777e408ad7258c",
+          "sha256": "67fb3c4990162be0ba10c9c6a934d6826a43fcf17bcd876d91777e408ad7258c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/deheader.rb",
+  "ruby_source_checksum": {
+    "sha256": "641b4b9047885449a2112a5f1869622fe0b47511941132cd2cf852cd2afb58d0"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "xmlto"
+    ],
+    "dependencies": [
+      "python@3.11"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2014-03-04T20:13:40-08:00"
+}

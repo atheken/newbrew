@@ -1,0 +1,113 @@
+{
+  "name": "openshift-cli",
+  "full_name": "openshift-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OpenShift command-line interface tools",
+  "license": "Apache-2.0",
+  "homepage": "https://www.openshift.com/",
+  "versions": {
+    "stable": "4.13.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.13.5/openshift-client-src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a3c0be9664c9cc4239c9bca20cf67a369c02224fe7d7f8177c9d67ed230599da"
+    },
+    "head": {
+      "url": "https://github.com/openshift/oc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:d182390f0977b1ededae46a421e5888cf8374ffb621bfc96af0fdd99ff011336",
+          "sha256": "d182390f0977b1ededae46a421e5888cf8374ffb621bfc96af0fdd99ff011336"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:7b1e2c148e866a622cb3ae846b54e6b7a7a10a8887f7332590dd0c7ba0430f5a",
+          "sha256": "7b1e2c148e866a622cb3ae846b54e6b7a7a10a8887f7332590dd0c7ba0430f5a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:e314787ecac1b0922c149f211f1e8c08ef73999d3f0dfbad35816e2ae609ebae",
+          "sha256": "e314787ecac1b0922c149f211f1e8c08ef73999d3f0dfbad35816e2ae609ebae"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:f58fc125419ee638c03cdbb8333e391f89fe4c256747462d09266a0011dd0160",
+          "sha256": "f58fc125419ee638c03cdbb8333e391f89fe4c256747462d09266a0011dd0160"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:88062669efdbda446455da3b97189c1a7477b35ad619617515a99d1f761d3896",
+          "sha256": "88062669efdbda446455da3b97189c1a7477b35ad619617515a99d1f761d3896"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:a48e6b6ba2ea3a58bd3ef8458c5c061937bfe5aab242fe90ea04d51df0d2f26f",
+          "sha256": "a48e6b6ba2ea3a58bd3ef8458c5c061937bfe5aab242fe90ea04d51df0d2f26f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openshift-cli/blobs/sha256:21d67519bd737c992ac1a096f6c0744f367d314e98f5f0708b9395042679a470",
+          "sha256": "21d67519bd737c992ac1a096f6c0744f367d314e98f5f0708b9395042679a470"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "krb5"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openshift-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "396fc9c3ade1a0880677bf3197e237a4f7e3d0add44760aece537b5575e96e1f"
+  },
+  "date_added": "2016-01-21T11:08:02+01:00"
+}

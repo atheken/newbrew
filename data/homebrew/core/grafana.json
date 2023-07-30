@@ -1,0 +1,138 @@
+{
+  "name": "grafana",
+  "full_name": "grafana",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Gorgeous metric visualizations and dashboards for timeseries databases",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://grafana.com",
+  "versions": {
+    "stable": "10.0.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/grafana/grafana/archive/refs/tags/v10.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9c1a1e3a9133abe4140aabad0d968f43ec2b3b14309f0dff80da367220bf58ff"
+    },
+    "head": {
+      "url": "https://github.com/grafana/grafana.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:3eb58c37af402257cf38e6cf6fe87a93b71fce100a8f7707201535027711814b",
+          "sha256": "3eb58c37af402257cf38e6cf6fe87a93b71fce100a8f7707201535027711814b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:a818c696fc744150ce6a5344c364c0f24fc5a3478332dfa6f68b364518733bed",
+          "sha256": "a818c696fc744150ce6a5344c364c0f24fc5a3478332dfa6f68b364518733bed"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:74f4305b113d8946e487d053a593dd88e07006d3580d367fa8f98c5de22b3844",
+          "sha256": "74f4305b113d8946e487d053a593dd88e07006d3580d367fa8f98c5de22b3844"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:6c563479abc0c8d85064bdc701261e46512f7b98fc2af09dc565992273b3ad88",
+          "sha256": "6c563479abc0c8d85064bdc701261e46512f7b98fc2af09dc565992273b3ad88"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:4d0faa7a07ef8d3e1e7a48c1705ba5a248c773d612c1c778ca167b85998cfcfd",
+          "sha256": "4d0faa7a07ef8d3e1e7a48c1705ba5a248c773d612c1c778ca167b85998cfcfd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:bc5ead7618cb7b0a962c6c6c8a449866ef8833ff6c10495b7ce74b62ca5b88fc",
+          "sha256": "bc5ead7618cb7b0a962c6c6c8a449866ef8833ff6c10495b7ce74b62ca5b88fc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/grafana/blobs/sha256:4cdfc162317ea00eac4ae091028ef5339fceafcf6b267d8c147d9eadedb6c8b9",
+          "sha256": "4cdfc162317ea00eac4ae091028ef5339fceafcf6b267d8c147d9eadedb6c8b9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "node",
+    "yarn"
+  ],
+  "dependencies": [
+    "fontconfig",
+    "freetype"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/grafana/bin/grafana",
+      "server",
+      "--config",
+      "/home/linuxbrew/.linuxbrew/etc/grafana/grafana.ini",
+      "--homepath",
+      "/home/linuxbrew/.linuxbrew/opt/grafana/share/grafana",
+      "--packaging=brew",
+      "cfg:default.paths.logs=/home/linuxbrew/.linuxbrew/var/log/grafana",
+      "cfg:default.paths.data=/home/linuxbrew/.linuxbrew/var/lib/grafana",
+      "cfg:default.paths.plugins=/home/linuxbrew/.linuxbrew/var/lib/grafana/plugins"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var/lib/grafana",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/grafana-stdout.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/grafana-stderr.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/grafana.rb",
+  "ruby_source_checksum": {
+    "sha256": "abf711af3a65b8980ce2a858845096fc150bcbe117986726e2a2d6d70cda1b17"
+  },
+  "date_added": "2016-08-09T08:43:21+01:00"
+}

@@ -1,0 +1,137 @@
+{
+  "name": "audacious",
+  "full_name": "audacious",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight and versatile audio player",
+  "license": "BSD-2-Clause",
+  "homepage": "https://audacious-media-player.org/",
+  "versions": {
+    "stable": "4.3.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://distfiles.audacious-media-player.org/audacious-4.3.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "85e9e26841505b51e342ee72a2d05f19bef894f567a029ebb3f3e0c1adb42042"
+    },
+    "head": {
+      "url": "https://github.com/audacious-media-player/audacious.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:25f3142a4ca788ca2b4d57853ac8d98c4ee1d8229b728462af226323720339b8",
+          "sha256": "25f3142a4ca788ca2b4d57853ac8d98c4ee1d8229b728462af226323720339b8"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:1f5a9d58989dbcdf06ae5732091ee93ebc6b29398d8cea949cf30dd7c90ddae3",
+          "sha256": "1f5a9d58989dbcdf06ae5732091ee93ebc6b29398d8cea949cf30dd7c90ddae3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:c1e294e3fbe48409e07f1b924003f764bb70943ff1added3bb4d0dafe75b113d",
+          "sha256": "c1e294e3fbe48409e07f1b924003f764bb70943ff1added3bb4d0dafe75b113d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:0f3c9cacff3ff240a13e88f08055f3a3bfc0cfda6ba46200286f355f5f421fca",
+          "sha256": "0f3c9cacff3ff240a13e88f08055f3a3bfc0cfda6ba46200286f355f5f421fca"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:23828385f46ff08c4149b36923b564d6a2696e74ebc48d86a4ddbd3da5b1639e",
+          "sha256": "23828385f46ff08c4149b36923b564d6a2696e74ebc48d86a4ddbd3da5b1639e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:ab1f11e873c42f1f75645724dffaa80c828c6d26532383c5c69fc96f13036a8c",
+          "sha256": "ab1f11e873c42f1f75645724dffaa80c828c6d26532383c5c69fc96f13036a8c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/audacious/blobs/sha256:d51a93f3d472cf7bd0814dda1f99ab25b4bbdf7fd01c886150aadbeda1b3dad7",
+          "sha256": "d51a93f3d472cf7bd0814dda1f99ab25b4bbdf7fd01c886150aadbeda1b3dad7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "faad2",
+    "ffmpeg",
+    "flac",
+    "fluid-synth",
+    "glib",
+    "lame",
+    "libbs2b",
+    "libcue",
+    "libmodplug",
+    "libnotify",
+    "libopenmpt",
+    "libsamplerate",
+    "libsoxr",
+    "libvorbis",
+    "mpg123",
+    "neon",
+    "opusfile",
+    "qt",
+    "sdl2",
+    "wavpack"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "audtool does not work due to a broken dbus implementation on macOS, so it is not built.\nGTK+ GUI is not built by default as the Qt GUI has better integration with macOS, and the GTK GUI would take precedence if present.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/audacious.rb",
+  "ruby_source_checksum": {
+    "sha256": "4da7dce90f3285a63b9672795560f380e70bbe31815bb45cf7fb06e3792a45ef"
+  },
+  "date_added": "2017-05-17T12:17:48+02:00"
+}

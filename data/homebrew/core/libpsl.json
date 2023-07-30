@@ -1,0 +1,110 @@
+{
+  "name": "libpsl",
+  "full_name": "libpsl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for the Public Suffix List",
+  "license": "MIT",
+  "homepage": "https://rockdaboot.github.io/libpsl",
+  "versions": {
+    "stable": "0.21.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rockdaboot/libpsl/releases/download/0.21.2/libpsl-0.21.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e35991b6e17001afa2c0ca3b10c357650602b92596209b7492802f3768a6285f"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:54e6c05ff0b41c160db7087ee741d616c899c63a74e157e4a74007be055bc4b4",
+          "sha256": "54e6c05ff0b41c160db7087ee741d616c899c63a74e157e4a74007be055bc4b4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:29b19583775b9a640685e24bd453f16a3e5be86546b828561a6ecd338a662e80",
+          "sha256": "29b19583775b9a640685e24bd453f16a3e5be86546b828561a6ecd338a662e80"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:f6f58b4348f12016325eb53fa4e1cfd35dc558a42147c16498560c7337ef24e0",
+          "sha256": "f6f58b4348f12016325eb53fa4e1cfd35dc558a42147c16498560c7337ef24e0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:cc6122f645807aaa12528f23f94a006e2cc0f826a0640ec05c1fd5549fa48f49",
+          "sha256": "cc6122f645807aaa12528f23f94a006e2cc0f826a0640ec05c1fd5549fa48f49"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:d37094a8cd209afbab03e05ce8cd0e0300639a1ac368317a2cd1f50a09edffd5",
+          "sha256": "d37094a8cd209afbab03e05ce8cd0e0300639a1ac368317a2cd1f50a09edffd5"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:ba7c45172edcb181c9865cb0f607945f8f01905aa8b01e36d83930141873f461",
+          "sha256": "ba7c45172edcb181c9865cb0f607945f8f01905aa8b01e36d83930141873f461"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libpsl/blobs/sha256:9eea17163910178315e7448318bb74b70fc69eec179c44dbdbb64183b32f777d",
+          "sha256": "9eea17163910178315e7448318bb74b70fc69eec179c44dbdbb64183b32f777d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "icu4c"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libpsl.rb",
+  "ruby_source_checksum": {
+    "sha256": "ca39923f0828dc9805c334905fa740505ffc223ef3bd55836e1bb32b187c0dd5"
+  },
+  "date_added": "2018-09-04T14:04:49+08:00"
+}

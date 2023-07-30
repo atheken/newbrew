@@ -1,0 +1,116 @@
+{
+  "name": "krb5",
+  "full_name": "krb5",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Network authentication protocol",
+  "license": "Cannot Represent",
+  "homepage": "https://web.mit.edu/kerberos/",
+  "versions": {
+    "stable": "1.21.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://kerberos.org/dist/krb5/1.21/krb5-1.21.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7881c3aaaa1b329bd27dbc6bf2bf1c85c5d0b6c7358aff2b35d513ec2d50fa1f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:fa17fb49aa0363f2de649bd8b6ca370d3a97dee5e7299bc07e6b7b344d4ccc59",
+          "sha256": "fa17fb49aa0363f2de649bd8b6ca370d3a97dee5e7299bc07e6b7b344d4ccc59"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:5760aac9f37d8500d50bb598a30f359c634a50fac8938dfae30dde196eea7b78",
+          "sha256": "5760aac9f37d8500d50bb598a30f359c634a50fac8938dfae30dde196eea7b78"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:4451b71c7ba7ee3ba0672902e5f144868a44b9e2b94254cc0d283c092f3a0940",
+          "sha256": "4451b71c7ba7ee3ba0672902e5f144868a44b9e2b94254cc0d283c092f3a0940"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:96ea0626a36b769ed4bc56a8c2e4eca44892426edcfa7661964bd29d57b80d14",
+          "sha256": "96ea0626a36b769ed4bc56a8c2e4eca44892426edcfa7661964bd29d57b80d14"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:cb3da2bf3c62782d5795c89f30cc5fccf675307df276ac17f0d0c6ae8a62845b",
+          "sha256": "cb3da2bf3c62782d5795c89f30cc5fccf675307df276ac17f0d0c6ae8a62845b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:f133bd49a4feb6dabddc22667bdcf8663c7a1be2ff5e5f4feee8de63a1c32244",
+          "sha256": "f133bd49a4feb6dabddc22667bdcf8663c7a1be2ff5e5f4feee8de63a1c32244"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:eb9b6638eeac1834e233fffef4e1ac145c5d38ae2f00c7844fe06afad26195ba",
+          "sha256": "eb9b6638eeac1834e233fffef4e1ac145c5d38ae2f00c7844fe06afad26195ba"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    "libedit"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/krb5.rb",
+  "ruby_source_checksum": {
+    "sha256": "cc1a226c26d7bb8b58e1fcad1f93ec2dee5dc7589dd1036103f45fabf1247785"
+  },
+  "date_added": "2017-04-03T18:39:56+01:00"
+}

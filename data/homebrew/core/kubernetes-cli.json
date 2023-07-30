@@ -1,0 +1,123 @@
+{
+  "name": "kubernetes-cli",
+  "full_name": "kubernetes-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "kubectl",
+    "kubectl@1.27",
+    "kubernetes-cli@1.27"
+  ],
+  "versioned_formulae": [
+    "kubernetes-cli@1.22"
+  ],
+  "desc": "Kubernetes command-line interface",
+  "license": "Apache-2.0",
+  "homepage": "https://kubernetes.io/",
+  "versions": {
+    "stable": "1.27.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kubernetes/kubernetes.git",
+      "tag": "v1.27.4",
+      "revision": "fa3d7990104d7c1f16943a67f11b154b71f6a132",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/kubernetes/kubernetes.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:9f9e22602963585f9415691fd23c5603d194b9e4cdfb9187e8b38a451aeb9a67",
+          "sha256": "9f9e22602963585f9415691fd23c5603d194b9e4cdfb9187e8b38a451aeb9a67"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:922f33e2f38e660e8e8a36188bfefb42682e3883df306e625dc3f990d8b08daf",
+          "sha256": "922f33e2f38e660e8e8a36188bfefb42682e3883df306e625dc3f990d8b08daf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:020a9b8763cf2864ff28f5f92d8380f9a3809cb30431ab8a36aef4c3a85e2a19",
+          "sha256": "020a9b8763cf2864ff28f5f92d8380f9a3809cb30431ab8a36aef4c3a85e2a19"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:edc6ced447d957b366526978d201d962aba11bb2555cfa160012eb56d15c13e5",
+          "sha256": "edc6ced447d957b366526978d201d962aba11bb2555cfa160012eb56d15c13e5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:2c0eb9dccb44d8f636c4f06e823329e8c24b94e88a5f3f2b72fa603e94ba8ad2",
+          "sha256": "2c0eb9dccb44d8f636c4f06e823329e8c24b94e88a5f3f2b72fa603e94ba8ad2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:5811cd0ddeee8a0bd155e843b29a65260e4cd3a0fd0a9750acc562f1a60a76ec",
+          "sha256": "5811cd0ddeee8a0bd155e843b29a65260e4cd3a0fd0a9750acc562f1a60a76ec"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubernetes-cli/blobs/sha256:a9d2d80152b16d4c6438b4f7075e43b3cd3cc5b03bf5ff1d76abb0b2b766c730",
+          "sha256": "a9d2d80152b16d4c6438b4f7075e43b3cd3cc5b03bf5ff1d76abb0b2b766c730"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bash",
+    "coreutils",
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "rsync": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kubernetes-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "27944ebaa1aa525e18afeea0185e49d455d51291936fddba824ec7cfe429dd2d"
+  },
+  "date_added": "2015-02-22T15:41:14+00:00"
+}

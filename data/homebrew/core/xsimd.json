@@ -1,0 +1,75 @@
+{
+  "name": "xsimd",
+  "full_name": "xsimd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modern, portable C++ wrappers for SIMD intrinsics",
+  "license": "BSD-3-Clause",
+  "homepage": "https://xsimd.readthedocs.io/en/latest/",
+  "versions": {
+    "stable": "11.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/xtensor-stack/xsimd/archive/refs/tags/11.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "aa54dba8daade472656eba0d27154f072fec06ee3831aefcac69a5f6c7dbbae7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xsimd/blobs/sha256:dc4048240f762b6da21aab8faccd18c3a6924f0a3842c04aedcf5b80c7a27e0e",
+          "sha256": "dc4048240f762b6da21aab8faccd18c3a6924f0a3842c04aedcf5b80c7a27e0e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xsimd.rb",
+  "ruby_source_checksum": {
+    "sha256": "96509b8a9a6546b48195391cdd696027bfe80e38b54270a8d4f4cef0f64b6b66"
+  },
+  "date_added": "2018-08-10T05:39:52+01:00"
+}

@@ -1,0 +1,131 @@
+{
+  "name": "jupyterlab",
+  "full_name": "jupyterlab",
+  "tap": "homebrew/core",
+  "oldname": "jupyter",
+  "oldnames": [
+    "jupyter"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Interactive environments for writing and running code",
+  "license": "BSD-3-Clause and MIT",
+  "homepage": "https://jupyter.org/",
+  "versions": {
+    "stable": "4.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/83/a6/1f518719e924189d56e77cd02dde0675a0473f3c5b5e8c7294b2bbaf9c49/jupyterlab-4.0.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e14d1ce46a613028111d0d476a1d7d6b094003b7462bac669f5b478317abcb39"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:1da2e1a5978f4c058bafdfb086d7f4cc94f186ebda650475cb60d5ca1645b3cd",
+          "sha256": "1da2e1a5978f4c058bafdfb086d7f4cc94f186ebda650475cb60d5ca1645b3cd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:6852e0964cf4682d37d610458ba195c5b47dd3474e00670862a870131f52dccd",
+          "sha256": "6852e0964cf4682d37d610458ba195c5b47dd3474e00670862a870131f52dccd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:af91d23f8aedcd6d815735b968cb594bcdb52ada68cdbfaa90ab516caf19c65b",
+          "sha256": "af91d23f8aedcd6d815735b968cb594bcdb52ada68cdbfaa90ab516caf19c65b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:c1f7cf1827532ea387fc115c105766c38ffe79375354f173852cabcdca6f2736",
+          "sha256": "c1f7cf1827532ea387fc115c105766c38ffe79375354f173852cabcdca6f2736"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:c37720dbd34e47b8af97fcb6de6d042538996a620bf7404ac1f8432ae3556bfd",
+          "sha256": "c37720dbd34e47b8af97fcb6de6d042538996a620bf7404ac1f8432ae3556bfd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:cfe808bda6e85321fd01a97553c245d9db19dda5939b5cb687f3a02af24f0b5c",
+          "sha256": "cfe808bda6e85321fd01a97553c245d9db19dda5939b5cb687f3a02af24f0b5c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jupyterlab/blobs/sha256:2fc1617de7cc3763570467f48a97aece82888bb0b8cd9ba4426c35ece859c809",
+          "sha256": "2fc1617de7cc3763570467f48a97aece82888bb0b8cd9ba4426c35ece859c809"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "hatch",
+    "python-build",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "ipython",
+    "node",
+    "pandoc",
+    "pycparser",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six",
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    },
+    "libxml2",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Additional kernels can be installed into the shared jupyter directory\n  $HOMEBREW_PREFIX/etc/jupyter\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jupyterlab.rb",
+  "ruby_source_checksum": {
+    "sha256": "018cd3f24974e680b0d3103496a442f94833894bb8e70ed60dc27ed3808ac399"
+  },
+  "date_added": "2019-11-02T19:42:05-04:00"
+}

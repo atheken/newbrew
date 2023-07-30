@@ -1,0 +1,91 @@
+{
+  "name": "dysk",
+  "full_name": "dysk",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Linux utility to get information on filesystems, like df but better",
+  "license": "MIT",
+  "homepage": "https://dystroy.org/dysk/",
+  "versions": {
+    "stable": "2.7.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Canop/dysk/archive/refs/tags/v2.7.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ac744a595a742067403e76e6b47dea4ecda89880a636265ab6ca2cd0f128fcbf"
+    },
+    "head": {
+      "url": "https://github.com/Canop/dysk.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dysk/blobs/sha256:a5790eae48a6b66dd811301e209f694246612ecbff94e39857a1b5f73c8a3771",
+          "sha256": "a5790eae48a6b66dd811301e209f694246612ecbff94e39857a1b5f73c8a3771"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dysk.rb",
+  "ruby_source_checksum": {
+    "sha256": "9dff9576bec3459221e28dffb8b4534773003a4a2a1167ff0e1beca2b81b8e2f"
+  },
+  "date_added": "2023-07-16T20:06:15-04:00"
+}

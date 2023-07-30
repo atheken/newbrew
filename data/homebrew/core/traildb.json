@@ -1,0 +1,114 @@
+{
+  "name": "traildb",
+  "full_name": "traildb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Blazingly-fast database for log-structured data",
+  "license": "MIT",
+  "homepage": "https://traildb.io/",
+  "versions": {
+    "stable": "0.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/traildb/traildb/archive/0.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f73515fe56c547f861296cf8eecc98b8e8bf00d175ad9fb7f4b981ad7cf8b67c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:fc31267f2145da6af9f4cf19609bebd1e4e5f7e468549bb2adbdfd40bd3b50ad",
+          "sha256": "fc31267f2145da6af9f4cf19609bebd1e4e5f7e468549bb2adbdfd40bd3b50ad"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:f34fd4ae7821c7f82a44e374e4c07603a63ec224c5ddb441c38e0defcaaeb4a7",
+          "sha256": "f34fd4ae7821c7f82a44e374e4c07603a63ec224c5ddb441c38e0defcaaeb4a7"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:1889bda4c138dbcf3d7a7229a47705631f2c5880f20a23e3612685c8a1ad7208",
+          "sha256": "1889bda4c138dbcf3d7a7229a47705631f2c5880f20a23e3612685c8a1ad7208"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:0534a5fd56705faf95c68bd3a4e0ab4b401baaef55d4e8fc37f88126643e5f16",
+          "sha256": "0534a5fd56705faf95c68bd3a4e0ab4b401baaef55d4e8fc37f88126643e5f16"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:f973d38d9cfe84c422bf98fc4c91265b2d3865efde148fe9b32a2a3af75d44e9",
+          "sha256": "f973d38d9cfe84c422bf98fc4c91265b2d3865efde148fe9b32a2a3af75d44e9"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:c86da6038d5ffb50fac4db5af5e0e4cb91c93814fcd712fc4e2697747db2a0a8",
+          "sha256": "c86da6038d5ffb50fac4db5af5e0e4cb91c93814fcd712fc4e2697747db2a0a8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/traildb/blobs/sha256:eacba47e211b4e29a1a44507087e2fc1cb501f00c853ee406a0c954c8ba4c47e",
+          "sha256": "eacba47e211b4e29a1a44507087e2fc1cb501f00c853ee406a0c954c8ba4c47e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "judy",
+    "libarchive"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/traildb.rb",
+  "ruby_source_checksum": {
+    "sha256": "100dcea54100530f2a6e00b6a9b155d68f824f9d7ce5afae34e02a126a43b76d"
+  },
+  "date_added": "2016-06-04T15:52:27+01:00"
+}

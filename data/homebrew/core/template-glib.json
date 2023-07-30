@@ -1,0 +1,116 @@
+{
+  "name": "template-glib",
+  "full_name": "template-glib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNOME templating library for GLib",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gitlab.gnome.org/GNOME/template-glib",
+  "versions": {
+    "stable": "3.36.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/template-glib/3.36/template-glib-3.36.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3b167a17385ad745afbe20fadf8106c66d30c5bd746d5aa1d9bdb7e803f6a503"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:774bc15db0c2b5e299f8e4d76ae83fc37204259beae21a5c8801c646f2b50c33",
+          "sha256": "774bc15db0c2b5e299f8e4d76ae83fc37204259beae21a5c8801c646f2b50c33"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:df91f7944d110734160bcddd075cacb63080a9840204dc0a5b1878d0cdfca8c7",
+          "sha256": "df91f7944d110734160bcddd075cacb63080a9840204dc0a5b1878d0cdfca8c7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:323d025d1978534f458a7f877c9e4d8ea482b3fe50a00d36686b6ebb65922fd7",
+          "sha256": "323d025d1978534f458a7f877c9e4d8ea482b3fe50a00d36686b6ebb65922fd7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:c07351a7b8832768973284fff89386299773e20fd07eb8def24d887005bf0b7d",
+          "sha256": "c07351a7b8832768973284fff89386299773e20fd07eb8def24d887005bf0b7d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:c54b5045304c7098837709210ebd74a584a9c1565c9a654fa4fc6771e7912e6f",
+          "sha256": "c54b5045304c7098837709210ebd74a584a9c1565c9a654fa4fc6771e7912e6f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:4dead442226961da575f6d5c1a9745822baab6e874217375b29cabbf579ca33d",
+          "sha256": "4dead442226961da575f6d5c1a9745822baab6e874217375b29cabbf579ca33d"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/template-glib/blobs/sha256:20c6c8571b256ebcd3e6d76f1ea10241a87d60bb6f9ddf0e91dae900e7d7b7f9",
+          "sha256": "20c6c8571b256ebcd3e6d76f1ea10241a87d60bb6f9ddf0e91dae900e7d7b7f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "glib",
+    "gobject-introspection"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "flex"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/template-glib.rb",
+  "ruby_source_checksum": {
+    "sha256": "6d21b3cc850364d53368ba338974e5c8e3496a2d2a3c1d0bfbd2b0b65f220982"
+  },
+  "date_added": "2018-04-03T18:35:45-07:00"
+}

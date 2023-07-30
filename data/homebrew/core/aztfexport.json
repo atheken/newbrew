@@ -1,0 +1,111 @@
+{
+  "name": "aztfexport",
+  "full_name": "aztfexport",
+  "tap": "homebrew/core",
+  "oldname": "aztfy",
+  "oldnames": [
+    "aztfy"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bring your existing Azure resources under the management of Terraform",
+  "license": "MPL-2.0",
+  "homepage": "https://azure.github.io/aztfexport/",
+  "versions": {
+    "stable": "0.13.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Azure/aztfexport.git",
+      "tag": "v0.13.1",
+      "revision": "c690456672104b905d7ccdf703d056d6785a9bc9",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/Azure/aztfexport.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b",
+          "sha256": "a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b",
+          "sha256": "a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b",
+          "sha256": "a5516289353798b0e5d7693e60921eaa646bc1ad94134ef3784ea9a027c0dc8b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970",
+          "sha256": "07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970",
+          "sha256": "07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970",
+          "sha256": "07cc454845dd6f24e68a9d446cf02369d14b451c4e5c799f965edb38b9cab970"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aztfexport/blobs/sha256:9056b7aa993abb3ce43d89abebeecd26a049e28da7489429488a62521b881fd7",
+          "sha256": "9056b7aa993abb3ce43d89abebeecd26a049e28da7489429488a62521b881fd7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aztfexport.rb",
+  "ruby_source_checksum": {
+    "sha256": "a4320aba3cb70c76b69a3be2b9b244877f441c43d15844490098f21c1d4ea898"
+  },
+  "date_added": "2023-03-08T05:14:28+00:00"
+}

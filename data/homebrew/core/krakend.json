@@ -1,0 +1,105 @@
+{
+  "name": "krakend",
+  "full_name": "krakend",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ultra-High performance API Gateway built in Go",
+  "license": "Apache-2.0",
+  "homepage": "https://www.krakend.io/",
+  "versions": {
+    "stable": "2.4.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/krakendio/krakend-ce/archive/refs/tags/v2.4.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "71cd0094aa0b65aad4634ede3e8443839d279461342697855582c1712a5cb5b3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:8f177f258b90812573c13fb9abe7a6b79c5e421fa32328d2dc065b8715ae00fe",
+          "sha256": "8f177f258b90812573c13fb9abe7a6b79c5e421fa32328d2dc065b8715ae00fe"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:b7ec19f4bbc12779b2e22b6c252b5a9968d89958514ddc1394438330d2cbcf41",
+          "sha256": "b7ec19f4bbc12779b2e22b6c252b5a9968d89958514ddc1394438330d2cbcf41"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:5bde8120cceddc6e5122ef71e8d7e030468aa0337cbfc46ec9e7915d817cd67b",
+          "sha256": "5bde8120cceddc6e5122ef71e8d7e030468aa0337cbfc46ec9e7915d817cd67b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:aceaf8463c1e0227611cc7c8808459ac442c82b2cd1ce1fe16ee5dd514e48cc8",
+          "sha256": "aceaf8463c1e0227611cc7c8808459ac442c82b2cd1ce1fe16ee5dd514e48cc8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:d5ff63f7988d26281046b049dd3eac01f3ca503a81a2158fc8e46dd88c7e9627",
+          "sha256": "d5ff63f7988d26281046b049dd3eac01f3ca503a81a2158fc8e46dd88c7e9627"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:60c389fb6fd8dceabb3d84107d126dbbd93e511915d9cc6bbf88136de93dd138",
+          "sha256": "60c389fb6fd8dceabb3d84107d126dbbd93e511915d9cc6bbf88136de93dd138"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/krakend/blobs/sha256:70921de2c04c3bf0aa3690162a6f95e1a99bbfe268714f02695b113ad0542204",
+          "sha256": "70921de2c04c3bf0aa3690162a6f95e1a99bbfe268714f02695b113ad0542204"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/krakend.rb",
+  "ruby_source_checksum": {
+    "sha256": "c04077bc8c704d22a7df266bc15c0822827c95cc1398d6cee231eec602721d59"
+  },
+  "date_added": "2018-02-02T08:59:21-08:00"
+}

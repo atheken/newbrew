@@ -1,0 +1,116 @@
+{
+  "name": "getdns",
+  "full_name": "getdns",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modern asynchronous DNS API",
+  "license": "BSD-3-Clause",
+  "homepage": "https://getdnsapi.net",
+  "versions": {
+    "stable": "1.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://getdnsapi.net/releases/getdns-1-7-3/getdns-1.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f1404ca250f02e37a118aa00cf0ec2cbe11896e060c6d369c6761baea7d55a2c"
+    },
+    "head": {
+      "url": "https://github.com/getdnsapi/getdns.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:c2f1f059c36f76d0e32acfee307bc6f02a8bb91f850f666704dfe503b79e6035",
+          "sha256": "c2f1f059c36f76d0e32acfee307bc6f02a8bb91f850f666704dfe503b79e6035"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:78497b3d08f57ad15ff67fc0834e7d087b2660fa81863f4f5dd4c7e208de5db8",
+          "sha256": "78497b3d08f57ad15ff67fc0834e7d087b2660fa81863f4f5dd4c7e208de5db8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:546421d61bf0ed25dddf21496983fd8e93031e4665eeff8fe6badff4fec8c7b4",
+          "sha256": "546421d61bf0ed25dddf21496983fd8e93031e4665eeff8fe6badff4fec8c7b4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:118a3e9288aa2b65bb29d034d97c25813ec762d3edd9ccaed34d38df05e8356b",
+          "sha256": "118a3e9288aa2b65bb29d034d97c25813ec762d3edd9ccaed34d38df05e8356b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:9a2d1783c4dfe96711732586d68105f9e4d4eca95baefe335bf63f17e04740f9",
+          "sha256": "9a2d1783c4dfe96711732586d68105f9e4d4eca95baefe335bf63f17e04740f9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:1e8c18958a4bcf70bbcaa0a9014c28176fbb02b7ca477033f2315e8535c39b6d",
+          "sha256": "1e8c18958a4bcf70bbcaa0a9014c28176fbb02b7ca477033f2315e8535c39b6d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/getdns/blobs/sha256:bd16047c9d5d64db4bc99b8390c6fc80bffe45ca2a1f8c1b7d244d8262babbb0",
+          "sha256": "bd16047c9d5d64db4bc99b8390c6fc80bffe45ca2a1f8c1b7d244d8262babbb0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libev",
+    "libevent",
+    "libidn2",
+    "libuv",
+    "openssl@3",
+    "unbound"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/getdns.rb",
+  "ruby_source_checksum": {
+    "sha256": "8abc562362db0a91595b324f5977c89f1f2d72772fcdb5760c3f65646d98e0d0"
+  },
+  "date_added": "2014-02-28T13:46:50+00:00"
+}

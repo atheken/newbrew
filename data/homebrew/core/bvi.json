@@ -1,0 +1,107 @@
+{
+  "name": "bvi",
+  "full_name": "bvi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vi-like binary file (hex) editor",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://bvi.sourceforge.io",
+  "versions": {
+    "stable": "1.4.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/bvi/bvi/1.4.2/bvi-1.4.2.src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4bba16c2b496963a9b939336c0abcc8d488664492080ae43a86da18cf4ce94f2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:9ecba9b40b9d8684f4f0e60ec9a75b25b4eae26064a1eabf44d23d6a1476f17d",
+          "sha256": "9ecba9b40b9d8684f4f0e60ec9a75b25b4eae26064a1eabf44d23d6a1476f17d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:a429b07fde21a16b3fb9352affee6ff4f8687f791e552e8fb1555ff762e620d0",
+          "sha256": "a429b07fde21a16b3fb9352affee6ff4f8687f791e552e8fb1555ff762e620d0"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:a00ec7c79ca7cf4e51681b426345a49a9ea94496086535e4a6e561a06a74af3f",
+          "sha256": "a00ec7c79ca7cf4e51681b426345a49a9ea94496086535e4a6e561a06a74af3f"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:e364c299057027e146cf7cd1679636ad001baf22f0eef95af5522508015ffb7e",
+          "sha256": "e364c299057027e146cf7cd1679636ad001baf22f0eef95af5522508015ffb7e"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:36075283de952bc4eed2c3a24e8836352356c89d2d9ca4626c05b7ad8b4e8c1a",
+          "sha256": "36075283de952bc4eed2c3a24e8836352356c89d2d9ca4626c05b7ad8b4e8c1a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:e3862607efcfcf5a04da6b8bccfe6ad539866ceed49bb186e6d345c3e77d353f",
+          "sha256": "e3862607efcfcf5a04da6b8bccfe6ad539866ceed49bb186e6d345c3e77d353f"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/bvi/blobs/sha256:77dc1f016b3d7d4ac604688521fe4f49938af1a7c0fd783181e6199deb2af0d7",
+          "sha256": "77dc1f016b3d7d4ac604688521fe4f49938af1a7c0fd783181e6199deb2af0d7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/bvi.rb",
+  "ruby_source_checksum": {
+    "sha256": "c8ac6bff570a01c275836d17a82b340f8c99e2214bdcbced0a592e7f00f334db"
+  },
+  "date_added": "2010-01-30T23:18:16-08:00"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "coredns",
+  "full_name": "coredns",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DNS server that chains plugins",
+  "license": "Apache-2.0",
+  "homepage": "https://coredns.io/",
+  "versions": {
+    "stable": "1.10.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/coredns/coredns/archive/v1.10.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f47186452e5f2925e2c71135669afd9e03b9b55831417d33d612ef2fa69924a7"
+    },
+    "head": {
+      "url": "https://github.com/coredns/coredns.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:90174107c61e9ce290ab14b954292a2fc8620a342debc09ee764d3dd37564a65",
+          "sha256": "90174107c61e9ce290ab14b954292a2fc8620a342debc09ee764d3dd37564a65"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:ba15a73065ae027c910ae5f8ecc38879611abaacb7c2b8501783955a208c1882",
+          "sha256": "ba15a73065ae027c910ae5f8ecc38879611abaacb7c2b8501783955a208c1882"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:949e84820bb33065bcc76c3bfe9c30b947d3a3bb0d644075d1c61cc622c647b7",
+          "sha256": "949e84820bb33065bcc76c3bfe9c30b947d3a3bb0d644075d1c61cc622c647b7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:8dd7bd8f6639c524c3578d169271ce5290bb0824615d57f1a26df97c31f160ac",
+          "sha256": "8dd7bd8f6639c524c3578d169271ce5290bb0824615d57f1a26df97c31f160ac"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:19eb6ea8035710973836bec703f08a594d793d72a93af585172b01be924cb36f",
+          "sha256": "19eb6ea8035710973836bec703f08a594d793d72a93af585172b01be924cb36f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:a4951058901e8ca332a831826e52dd64ff30f9996e1871bb24c23651df740bbf",
+          "sha256": "a4951058901e8ca332a831826e52dd64ff30f9996e1871bb24c23651df740bbf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/coredns/blobs/sha256:c5dda235c5ce6012160636941ee9244319f65a60e9c18263a950c91078c6ba76",
+          "sha256": "c5dda235c5ce6012160636941ee9244319f65a60e9c18263a950c91078c6ba76"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "bind"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/coredns/bin/coredns",
+      "-conf",
+      "/home/linuxbrew/.linuxbrew/etc/coredns/Corefile"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "require_root": true,
+    "working_dir": "/home/linuxbrew/.linuxbrew",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/coredns.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/coredns.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/coredns.rb",
+  "ruby_source_checksum": {
+    "sha256": "0eb958e30690746aed7c6428f120df14a544cb8fa46f575ce9379064562c5abe"
+  },
+  "date_added": "2020-06-03T09:28:12+00:00"
+}

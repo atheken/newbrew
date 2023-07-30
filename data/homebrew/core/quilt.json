@@ -1,0 +1,115 @@
+{
+  "name": "quilt",
+  "full_name": "quilt",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Work with series of patches",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://savannah.nongnu.org/projects/quilt",
+  "versions": {
+    "stable": "0.67",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.savannah.gnu.org/releases/quilt/quilt-0.67.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3be3be0987e72a6c364678bb827e3e1fcc10322b56bc5f02b576698f55013cc2"
+    },
+    "head": {
+      "url": "https://git.savannah.gnu.org/git/quilt.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:7dc018071ad510cf518a434ab4111cbe7c9818ce7e128cb0db45c9b070f28999",
+          "sha256": "7dc018071ad510cf518a434ab4111cbe7c9818ce7e128cb0db45c9b070f28999"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:fc016251e7f6e00724b265762408f2f71c3414690f8c7e3e9b680af3f78240ef",
+          "sha256": "fc016251e7f6e00724b265762408f2f71c3414690f8c7e3e9b680af3f78240ef"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:0a0dd81f8d4dadfd624bd4cdaf6521e7530c722938856ed515b25ee43d48c70b",
+          "sha256": "0a0dd81f8d4dadfd624bd4cdaf6521e7530c722938856ed515b25ee43d48c70b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:7dc018071ad510cf518a434ab4111cbe7c9818ce7e128cb0db45c9b070f28999",
+          "sha256": "7dc018071ad510cf518a434ab4111cbe7c9818ce7e128cb0db45c9b070f28999"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:fc016251e7f6e00724b265762408f2f71c3414690f8c7e3e9b680af3f78240ef",
+          "sha256": "fc016251e7f6e00724b265762408f2f71c3414690f8c7e3e9b680af3f78240ef"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:0a0dd81f8d4dadfd624bd4cdaf6521e7530c722938856ed515b25ee43d48c70b",
+          "sha256": "0a0dd81f8d4dadfd624bd4cdaf6521e7530c722938856ed515b25ee43d48c70b"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:d8bd4472f644e650e62b719bbae716c2f2c40c159dd6155e2d6fe74cbb02448e",
+          "sha256": "d8bd4472f644e650e62b719bbae716c2f2c40c159dd6155e2d6fe74cbb02448e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/quilt/blobs/sha256:a674930a170db7d564dea2f5a6cfa90efbb59dbf3d6d801f7554c6306a5905c8",
+          "sha256": "a674930a170db7d564dea2f5a6cfa90efbb59dbf3d6d801f7554c6306a5905c8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "coreutils",
+    "gnu-sed"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/quilt.rb",
+  "ruby_source_checksum": {
+    "sha256": "9c2f89ac889de6272e7df57d44e2a6b1b1721ad3328af4816d6422a332b01698"
+  },
+  "date_added": "2010-10-30T08:30:41-07:00"
+}

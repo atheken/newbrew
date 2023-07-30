@@ -1,0 +1,162 @@
+{
+  "name": "texlive",
+  "full_name": "texlive",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Free software distribution for the TeX typesetting system",
+  "license": "Public Domain",
+  "homepage": "https://www.tug.org/texlive/",
+  "versions": {
+    "stable": "20230313",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2023/texlive-20230313-source.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3878aa0e1ed0301c053b0e2ee4e9ad999c441345f4882e79bdd1c8f4ce9e79b9"
+    },
+    "head": {
+      "url": "https://github.com/TeX-Live/texlive-source.git",
+      "branch": "trunk"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:7c4424d7dbda8aa023b5a4c4d07ddf604ccf872a2241967bae24c3b05e65e08c",
+          "sha256": "7c4424d7dbda8aa023b5a4c4d07ddf604ccf872a2241967bae24c3b05e65e08c"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:42560a30b4731c8db5f74e6bbefb17075b68aba0c83899733c703997f62f6b33",
+          "sha256": "42560a30b4731c8db5f74e6bbefb17075b68aba0c83899733c703997f62f6b33"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:091fa3f73856f3c2fdffb6402925de126c1773ec734c90700d27af6c791849ea",
+          "sha256": "091fa3f73856f3c2fdffb6402925de126c1773ec734c90700d27af6c791849ea"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:3b82d7b12355a116decb003b11ab06f2e65c582ba83daa0d20c187c0320f91dc",
+          "sha256": "3b82d7b12355a116decb003b11ab06f2e65c582ba83daa0d20c187c0320f91dc"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:9e82bafde878de14292757dfe00038d03f500639ee873d22da31a5fc7bd81882",
+          "sha256": "9e82bafde878de14292757dfe00038d03f500639ee873d22da31a5fc7bd81882"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:8618d95d4161d83e59e2ea99d35c5cb389789d48ba2227a5bcb578d963c98b20",
+          "sha256": "8618d95d4161d83e59e2ea99d35c5cb389789d48ba2227a5bcb578d963c98b20"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/texlive/blobs/sha256:7c68fa0c6ba0f08acf5af865cecd5dd5f1f822438cd6e9bfb38e866163416d0b",
+          "sha256": "7c68fa0c6ba0f08acf5af865cecd5dd5f1f822438cd6e9bfb38e866163416d0b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "clisp",
+    "fontconfig",
+    "freetype",
+    "gd",
+    "ghostscript",
+    "gmp",
+    "graphite2",
+    "harfbuzz",
+    "libpng",
+    "libxft",
+    "lua",
+    "luajit",
+    "mpfr",
+    "openjdk",
+    "openssl@3",
+    "perl",
+    "pixman",
+    "potrace",
+    "pstoedit",
+    "pygments",
+    "python@3.11",
+    "libice",
+    "libnsl",
+    "libsm",
+    "libx11",
+    "libxaw",
+    "libxext",
+    "libxmu",
+    "libxpm",
+    "libxt",
+    "mesa"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "icu4c",
+    "ncurses",
+    "ruby",
+    "tcl-tk",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {
+      "since": "monterey"
+    },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "cweb",
+    "lcdf-typetools"
+  ],
+  "conflicts_with_reasons": [
+    "both install `cweb` binaries",
+    "both install a `cfftot1` executable"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/texlive.rb",
+  "ruby_source_checksum": {
+    "sha256": "9c4431997d912f3ac2e1b69b2865df6531d1777af5d2f6884f4d8f0022cf1f7d"
+  },
+  "date_added": "2021-10-02T17:23:04-07:00"
+}

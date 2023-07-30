@@ -1,0 +1,194 @@
+{
+  "name": "gstreamer",
+  "full_name": "gstreamer",
+  "tap": "homebrew/core",
+  "oldname": "gst-devtools",
+  "oldnames": [
+    "gst-devtools",
+    "gst-editing-services",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-rs",
+    "gst-plugins-ugly",
+    "gst-python",
+    "gst-rtsp-server",
+    "gst-validate"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Development framework for multimedia applications",
+  "license": "LGPL-2.0-or-later and LGPL-2.1-or-later and MIT",
+  "homepage": "https://gstreamer.freedesktop.org/",
+  "versions": {
+    "stable": "1.22.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer/-/archive/1.22.5/gstreamer-1.22.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4da4bd28c41768035509f6d57dca989cdc29262d0b327b9fb5e6c45fccceacf5"
+    },
+    "head": {
+      "url": "https://gitlab.freedesktop.org/gstreamer/gstreamer.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:b724d18df7bf0f8e814d4df9db5fe5b8038ede3962848c46677fbd7d072cd785",
+          "sha256": "b724d18df7bf0f8e814d4df9db5fe5b8038ede3962848c46677fbd7d072cd785"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:f8a4a291d93165d234017dfe3bfdca7dee5ff85d390daa75014e3f235126c1f2",
+          "sha256": "f8a4a291d93165d234017dfe3bfdca7dee5ff85d390daa75014e3f235126c1f2"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:ffbc7ec5362887021323d804d6cae0853d1177e4bac40c59292ea56f22101db7",
+          "sha256": "ffbc7ec5362887021323d804d6cae0853d1177e4bac40c59292ea56f22101db7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:b2c4688a6d226e177d72147b2937d4123be4b8bfdca71889cd3ac005819526a0",
+          "sha256": "b2c4688a6d226e177d72147b2937d4123be4b8bfdca71889cd3ac005819526a0"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:804cdfc773e3c3a6688253989eb71039d477043fab079e43eaa0b4d590c25be9",
+          "sha256": "804cdfc773e3c3a6688253989eb71039d477043fab079e43eaa0b4d590c25be9"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:77b89cd5b8bcc3f4858bb974e2c9b99ed6a9b2e20d4c7705f6206ac9be88d47a",
+          "sha256": "77b89cd5b8bcc3f4858bb974e2c9b99ed6a9b2e20d4c7705f6206ac9be88d47a"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gstreamer/blobs/sha256:9c3c729dd627fef8a89db5d13c26115c1d9c4b866f7ad487468c5b9e68b01720",
+          "sha256": "9c3c729dd627fef8a89db5d13c26115c1d9c4b866f7ad487468c5b9e68b01720"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cargo-c",
+    "gobject-introspection",
+    "meson",
+    "nasm",
+    "ninja",
+    "pkg-config",
+    "rust",
+    "yasm"
+  ],
+  "dependencies": [
+    "cairo",
+    "dav1d",
+    "faac",
+    "faad2",
+    "fdk-aac",
+    "ffmpeg",
+    "flac",
+    "gettext",
+    "glib",
+    "glib-networking",
+    "graphene",
+    "gtk+3",
+    "gtk4",
+    "jpeg-turbo",
+    "json-glib",
+    "lame",
+    "libogg",
+    "libpng",
+    "libpthread-stubs",
+    "libshout",
+    "libsoup",
+    "libusrsctp",
+    "libvorbis",
+    "libvpx",
+    "openexr",
+    "openssl@3",
+    "opus",
+    "orc",
+    "pango",
+    "pygobject3",
+    "python@3.11",
+    "rav1e",
+    "rtmpdump",
+    "speex",
+    "srtp",
+    "taglib",
+    "theora",
+    "x264",
+    "xz",
+    "freeglut"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "flex": "build"
+    },
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [
+    "bin/gst-*",
+    "lib/ligst*",
+    "lib/libges*",
+    "lib/girepository-1.0/Gst*-1.0.typelib",
+    "lib/girepository-1.0/GES-1.0.typelib",
+    "lib/gst-validate-launcher/*",
+    "lib/gstreamer-1.0/*",
+    "lib/pkgconfig/gst*.pc",
+    "lib/python3.11/site-packages/gi/overrides/*",
+    "include/gstreamer-1.0/*",
+    "share/gir-1.0/Gst*.gir",
+    "share/gir-1.0/GES-1.0.gir",
+    "share/gstreamer-1.0/*",
+    "share/locale/*/LC_MESSAGES/gst-*.mo",
+    "share/man/man1/g*"
+  ],
+  "caveats": "All gst-* GStreamer plugins are now bundled in this formula.\nFor GStreamer to find your own plugins, add their paths to `GST_PLUGIN_PATH`.\nFor example, if you have plugins in `~/.local/lib/gstreamer-1.0`:\n  export GST_PLUGIN_PATH=\"~/.local/lib/gstreamer-1.0\"\n\nDo not install plugins into GStreamer's prefix. They will be deleted\nby `brew upgrade`.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gstreamer.rb",
+  "ruby_source_checksum": {
+    "sha256": "3e1978de567bf6713bdff79e4e9c5947b803b9974d423e3324566d9cf944848f"
+  },
+  "date_added": "2010-07-14T15:46:22-07:00"
+}

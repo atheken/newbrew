@@ -1,0 +1,109 @@
+{
+  "name": "msmtp",
+  "full_name": "msmtp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SMTP client that can be used as an SMTP plugin for Mutt",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://marlam.de/msmtp/",
+  "versions": {
+    "stable": "1.8.24",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://marlam.de/msmtp/releases/msmtp-1.8.24.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bd6644b1aaab17d61b86647993e3efad860b23c54283b00ddc579c1f5110aa59"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:5f5d5357335fe1c163aff3daede12982893e0510345d9a7fb1b2ffb9e9b312da",
+          "sha256": "5f5d5357335fe1c163aff3daede12982893e0510345d9a7fb1b2ffb9e9b312da"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:6c7e4cca084ef1440c202a24e1bc2bbd4e87fb144b20614b90f0f4dec33283c3",
+          "sha256": "6c7e4cca084ef1440c202a24e1bc2bbd4e87fb144b20614b90f0f4dec33283c3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:c2244185a32bc16bb6cac7f7094cb379fc925f9d0e3dedfef4761f0a012f0fba",
+          "sha256": "c2244185a32bc16bb6cac7f7094cb379fc925f9d0e3dedfef4761f0a012f0fba"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:6cdea01606ab43764a97082cac4e486e693b557a739ab0c5b0865a9d0bac7f51",
+          "sha256": "6cdea01606ab43764a97082cac4e486e693b557a739ab0c5b0865a9d0bac7f51"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:28aa80afe8886e3d60f6b5e08bf63fb0c94e8937f0d422a3e265d76f44405620",
+          "sha256": "28aa80afe8886e3d60f6b5e08bf63fb0c94e8937f0d422a3e265d76f44405620"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:04424ed650cf2330a5ff7e3cf65e2476dfae18d9b2bb961d99c2a83fea8ad8aa",
+          "sha256": "04424ed650cf2330a5ff7e3cf65e2476dfae18d9b2bb961d99c2a83fea8ad8aa"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/msmtp/blobs/sha256:286904b8002879ca37c1d52a30b823e137322115989c1049363c830f4a449a78",
+          "sha256": "286904b8002879ca37c1d52a30b823e137322115989c1049363c830f4a449a78"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "gnutls",
+    "libidn2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/msmtp.rb",
+  "ruby_source_checksum": {
+    "sha256": "927fd280ab269a336793fd83883a607513986d0ae4a7764d1c4bedcaa7095eaf"
+  },
+  "date_added": "2009-12-05T16:35:36+00:00"
+}

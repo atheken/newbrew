@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+set -ue
+
+workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
+
+build_graph=0
+
+for arg in "$@"; do
+    if [ $arg == 'build_graph' ]; then
+        build_graph=1
+        echo "The commit graph will be built for each tap."
+    fi
+    if [ $arg == 'update' ]; then
+        echo "Updating homebrew"
+        brew update
+    fi
+done
+
+pushd $workdir
+
+taps=('homebrew/core')
+
+for tap in "${taps[@]}"; do
+    echo making $tap dir.
+    target=./data/$tap
+    # make the target directory if it does not exist, but ignore if it already exists (|| true)
+    mkdir -p $target || true
+
+    formula_path=$(brew --repo $tap)/Formula
+
+    pushd $(brew --repo $tap)
+
+    # this is an optimization when doing a full tap build, if the data is relatively up to date,
+    # it can be skipped and will save a few minutes of build time.
+    if [[ $build_graph -ne 0 ]]; then
+        git commit-graph write --reachable --changed-paths
+    fi
+
+    popd
+
+    for i in $(comm -23 <(ls $formula_path | sed -E 's#[.]rb$##g' | sort) <(ls $target | sed -E 's#[.]json$##g' | sort)); do
+        if [ -f $formula_path/$i.rb ]; then
+            pkg=$i
+            echo "Constructing entry for '$pkg'..."
+            create_date=$(git -C $formula_path log --diff-filter=A --oneline --format='.date_added="%cI"' --date=iso -- $pkg.rb | tail -n1)
+            echo $create_date
+            brew info $pkg --json | jq ".[] | $create_date" >$target/$pkg.json
+        else
+            echo "'$i' is not a file, skipping."
+        fi
+    done
+done
+
+popd

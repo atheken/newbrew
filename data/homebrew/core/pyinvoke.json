@@ -1,0 +1,109 @@
+{
+  "name": "pyinvoke",
+  "full_name": "pyinvoke",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Pythonic task management & command execution",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.pyinvoke.org/",
+  "versions": {
+    "stable": "2.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/f9/42/127e6d792884ab860defc3f4d80a8f9812e48ace584ffc5a346de58cdc6c/invoke-2.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ee6cbb101af1a859c7fe84f2a264c059020b0cb7fe3535f9424300ab568f6bd5"
+    },
+    "head": {
+      "url": "https://github.com/pyinvoke/invoke.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:c4c4ca02173cd7d45a5073e54cb7991df5c35d136107e86f9ed934c3966da1d8",
+          "sha256": "c4c4ca02173cd7d45a5073e54cb7991df5c35d136107e86f9ed934c3966da1d8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:ea4e0d267ed304dcec06e7ae263ffe4d68a5cc6efed96b3f6d9f4762c284ea7f",
+          "sha256": "ea4e0d267ed304dcec06e7ae263ffe4d68a5cc6efed96b3f6d9f4762c284ea7f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:1ef0097c5c6b6d9e8be9850348fc174ecc9d067a1c2a2996649ba8070efab527",
+          "sha256": "1ef0097c5c6b6d9e8be9850348fc174ecc9d067a1c2a2996649ba8070efab527"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:47949f4685ff99283411f9f6e7b240d377f1083b1ba29f2360fcebcf7aa3c739",
+          "sha256": "47949f4685ff99283411f9f6e7b240d377f1083b1ba29f2360fcebcf7aa3c739"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:de61a6509ce2ea09784280ee603b0d6855488e88bf0d464f1683c3a0205a93ec",
+          "sha256": "de61a6509ce2ea09784280ee603b0d6855488e88bf0d464f1683c3a0205a93ec"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:0e5417e2d615606e48d0e99043ee86729d937c37b53945afeb85755a8b4e7f19",
+          "sha256": "0e5417e2d615606e48d0e99043ee86729d937c37b53945afeb85755a8b4e7f19"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pyinvoke/blobs/sha256:a43a0061420c032e0bd06fb36ca360332a5f2048ac6f5a6fc7f95ec64fd53d59",
+          "sha256": "a43a0061420c032e0bd06fb36ca360332a5f2048ac6f5a6fc7f95ec64fd53d59"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pyinvoke.rb",
+  "ruby_source_checksum": {
+    "sha256": "81b13c8908c97ed139bc29c89289abb6171285b2378828b5c5d2c9a6b2398e55"
+  },
+  "date_added": "2016-10-15T14:08:45+01:00"
+}

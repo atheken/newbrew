@@ -1,0 +1,112 @@
+{
+  "name": "diff-pdf",
+  "full_name": "diff-pdf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Visually compare two PDF files",
+  "license": "GPL-2.0-only",
+  "homepage": "https://vslavik.github.io/diff-pdf/",
+  "versions": {
+    "stable": "0.5.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vslavik/diff-pdf/releases/download/v0.5.1/diff-pdf-0.5.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "017d52cb7ddabdbf63c6a47f39b2e5a1790022b95295b0d047817904e093245c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:9fc1ea109410089a83a21c5770ea6cefbbe762959b0178d48d62e4e6bb508023",
+          "sha256": "9fc1ea109410089a83a21c5770ea6cefbbe762959b0178d48d62e4e6bb508023"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:b7704e32dfe82cb80b0a578fe941ec061b57f4c15687688205ac4ae4a38f00da",
+          "sha256": "b7704e32dfe82cb80b0a578fe941ec061b57f4c15687688205ac4ae4a38f00da"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:5a608fdeff544f69792c006b8f037f5f8d7dc2d4d892dba6b32cd6bd74359fc8",
+          "sha256": "5a608fdeff544f69792c006b8f037f5f8d7dc2d4d892dba6b32cd6bd74359fc8"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:42d8c52bc1a90264e14765db5d8e88ef955e67d16e83c19d66a0fee413cb6687",
+          "sha256": "42d8c52bc1a90264e14765db5d8e88ef955e67d16e83c19d66a0fee413cb6687"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:9dfa37086b2fe582102413702f8c6f32cc5f34e6ceb444701bdda93dca3358b4",
+          "sha256": "9dfa37086b2fe582102413702f8c6f32cc5f34e6ceb444701bdda93dca3358b4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:14ff56d93303382cf6969c50bd772a0b142379ae3f0261441fa4fb8e8dff4095",
+          "sha256": "14ff56d93303382cf6969c50bd772a0b142379ae3f0261441fa4fb8e8dff4095"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/diff-pdf/blobs/sha256:c0d010012f000f666a8e5f398333f8e5ea4f6db43a3f6cb8bebbca3c9c94e66f",
+          "sha256": "c0d010012f000f666a8e5f398333f8e5ea4f6db43a3f6cb8bebbca3c9c94e66f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "poppler",
+    "wxwidgets"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/diff-pdf.rb",
+  "ruby_source_checksum": {
+    "sha256": "b7b67a984ece8026cd1f89b60f7aa26e61f6b4966d1c71bccca6936d6369afc2"
+  },
+  "date_added": "2014-05-18T23:23:45-05:00"
+}

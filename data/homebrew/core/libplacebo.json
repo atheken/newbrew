@@ -1,0 +1,117 @@
+{
+  "name": "libplacebo",
+  "full_name": "libplacebo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Reusable library for GPU-accelerated image/video processing primitives",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://code.videolan.org/videolan/libplacebo",
+  "versions": {
+    "stable": "6.292.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://code.videolan.org/videolan/libplacebo/-/archive/v6.292.0/libplacebo-v6.292.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "9182be99fc5e27f64e9193ba371380b10d5f78d09836c0afad1d3998f275e72b"
+    },
+    "head": {
+      "url": "https://code.videolan.org/videolan/libplacebo.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:ef2cdb463d5cc6883c9aca3ad6f82553137dfb66a95a32f4abc6225590fc891f",
+          "sha256": "ef2cdb463d5cc6883c9aca3ad6f82553137dfb66a95a32f4abc6225590fc891f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:4dd86c5be068fa21dade9e0633f245825f8da0131d130dcf2316a88f935c63d7",
+          "sha256": "4dd86c5be068fa21dade9e0633f245825f8da0131d130dcf2316a88f935c63d7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:d694a3ea2c6e1ff63461fc6870436c03ca21d0ce6f9d870c1b3d57dac30f9ccf",
+          "sha256": "d694a3ea2c6e1ff63461fc6870436c03ca21d0ce6f9d870c1b3d57dac30f9ccf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:9d0263916c5e0b94553ae8429b567eb62264cdc17eabfaa6195d1757ef265b41",
+          "sha256": "9d0263916c5e0b94553ae8429b567eb62264cdc17eabfaa6195d1757ef265b41"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:deec8934c543463786e7b79e65fa9c436b63849bb7396dbea3c238db2f9db0c1",
+          "sha256": "deec8934c543463786e7b79e65fa9c436b63849bb7396dbea3c238db2f9db0c1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:a87b28f82b5c9a2de7295524649836dceea54c705be1f3cfd1bcdaa34d782278",
+          "sha256": "a87b28f82b5c9a2de7295524649836dceea54c705be1f3cfd1bcdaa34d782278"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libplacebo/blobs/sha256:b0045d06759773a7066e824330255ad8c6a64dc68d621194003e5eccd56c2fad",
+          "sha256": "b0045d06759773a7066e824330255ad8c6a64dc68d621194003e5eccd56c2fad"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "python@3.11",
+    "vulkan-headers"
+  ],
+  "dependencies": [
+    "glslang",
+    "little-cms2",
+    "sdl2",
+    "vulkan-loader"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libplacebo.rb",
+  "ruby_source_checksum": {
+    "sha256": "88543d027d9f53290c94b98dab7e4ca8a4d94f28f91ddd934284cd7a83a69b89"
+  },
+  "date_added": "2022-08-31T15:46:44+00:00"
+}

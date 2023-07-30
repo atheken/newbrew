@@ -1,0 +1,115 @@
+{
+  "name": "fabric",
+  "full_name": "fabric",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library and command-line tool for SSH",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.fabfile.org/",
+  "versions": {
+    "stable": "3.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d8/b0/fc6880fd6e24b60ccb5e3e1b673cec847d56b8176311f77c63f542fe9fd4/fabric-3.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ea1c5ea3956d196b5990ba720cc8ee457fa1b9c6f265ab3b643ff63b05e8970a"
+    },
+    "head": {
+      "url": "https://github.com/fabric/fabric.git",
+      "branch": "main"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:86ea126a435790a9e070fedeec75cabcfb9b7047ee15c0f8c72275ec48c5c161",
+          "sha256": "86ea126a435790a9e070fedeec75cabcfb9b7047ee15c0f8c72275ec48c5c161"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:c78340a8f94272360a3252856e0963cdfe6d1e66fc2cdd6d77b090ce6e10237e",
+          "sha256": "c78340a8f94272360a3252856e0963cdfe6d1e66fc2cdd6d77b090ce6e10237e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:86d8c7b876e04e7327f3a9f16de271811fe075a2f60c84d464dc2f21d6e2cdb1",
+          "sha256": "86d8c7b876e04e7327f3a9f16de271811fe075a2f60c84d464dc2f21d6e2cdb1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:70dc9143e740b7e2916a2bdb063b11cc61c793073195449636352a6683aa4f39",
+          "sha256": "70dc9143e740b7e2916a2bdb063b11cc61c793073195449636352a6683aa4f39"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:d53bf5cea491fa0c531666bec234e159529d7efe535240c0c389a040a718d800",
+          "sha256": "d53bf5cea491fa0c531666bec234e159529d7efe535240c0c389a040a718d800"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:2a4c7b649d2f0c9d3be4aa41f6db068894675db81b022657f282fc3283ab7d69",
+          "sha256": "2a4c7b649d2f0c9d3be4aa41f6db068894675db81b022657f282fc3283ab7d69"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fabric/blobs/sha256:f6b1e81636327d79bf7a6ced387d1570367084dedfb38b826917bdc07ef22cae",
+          "sha256": "f6b1e81636327d79bf7a6ced387d1570367084dedfb38b826917bdc07ef22cae"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pyinvoke",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fabric.rb",
+  "ruby_source_checksum": {
+    "sha256": "530f5e197d2c414278e61cc14f3baf56c778a528a2ba6a7dca22a3b6269c0e1c"
+  },
+  "date_added": "2015-01-03T20:49:12+00:00"
+}

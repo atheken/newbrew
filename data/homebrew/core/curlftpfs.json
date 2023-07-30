@@ -1,0 +1,98 @@
+{
+  "name": "curlftpfs",
+  "full_name": "curlftpfs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Filesystem for accessing FTP hosts based on FUSE and libcurl",
+  "license": "GPL-2.0-only",
+  "homepage": "https://curlftpfs.sourceforge.io/",
+  "versions": {
+    "stable": "0.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/curlftpfs/curlftpfs/0.9.2/curlftpfs-0.9.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4eb44739c7078ba0edde177bdd266c4cfb7c621075f47f64c85a06b12b3c6958"
+    },
+    "head": {
+      "url": ":pserver:anonymous:@curlftpfs.cvs.sourceforge.net:/cvsroot/curlftpfs",
+      "branch": null
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/curlftpfs/blobs/sha256:e852eed1a4b62dcf25f16c5cbbb1b32e023f40cb61b27498eab4f7ee569d6c39",
+          "sha256": "e852eed1a4b62dcf25f16c5cbbb1b32e023f40cb61b27498eab4f7ee569d6c39"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "curl",
+    "glib",
+    "libfuse@2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/curlftpfs.rb",
+  "ruby_source_checksum": {
+    "sha256": "d01f4f3a46c966909579fdd56caecd16813b591eeaad23944469f5c2b5699277"
+  },
+  "date_added": "2012-03-31T12:54:15-07:00"
+}

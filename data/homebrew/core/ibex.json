@@ -1,0 +1,103 @@
+{
+  "name": "ibex",
+  "full_name": "ibex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ library for constraint processing over real numbers",
+  "license": "LGPL-3.0-only",
+  "homepage": "https://web.archive.org/web/20190826220512/www.ibex-lib.org/",
+  "versions": {
+    "stable": "2.8.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ibex-team/ibex-lib/archive/ibex-2.8.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fee448b3fa3929a50d36231ff2f14e5480a0b82506594861536e3905801a6571"
+    },
+    "head": {
+      "url": "https://github.com/ibex-team/ibex-lib.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ibex/blobs/sha256:eea592d2c1c13bde0a000ca8705cabce4e11aeabb76a30dc8baf09931b9a22dd",
+          "sha256": "eea592d2c1c13bde0a000ca8705cabce4e11aeabb76a30dc8baf09931b9a22dd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ibex/blobs/sha256:5fe0810e9f6ef9b72c7d1e9ceba7b6b9c37410dd93f9801ac37e9738ec245005",
+          "sha256": "5fe0810e9f6ef9b72c7d1e9ceba7b6b9c37410dd93f9801ac37e9738ec245005"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ibex/blobs/sha256:dbe9f4d68e4a406bd4926d6c821887e32af2d323f1d7ecd9a729ee0957c3e120",
+          "sha256": "dbe9f4d68e4a406bd4926d6c821887e32af2d323f1d7ecd9a729ee0957c3e120"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ibex/blobs/sha256:1b64c5e784e7585d8a70179625a1a10a9b1c6926bd224c3d165abaed3db66c78",
+          "sha256": "1b64c5e784e7585d8a70179625a1a10a9b1c6926bd224c3d165abaed3db66c78"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake",
+    "flex",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ibex.rb",
+  "ruby_source_checksum": {
+    "sha256": "0a6dffc2a2561a7d3edd4c8cc9d40dedf24016a806bfbbb97da4ae101405d687"
+  },
+  "date_added": "2015-08-29T00:22:18+01:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "netlify-cli",
+  "full_name": "netlify-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Netlify command-line tool",
+  "license": "MIT",
+  "homepage": "https://www.netlify.com/docs/cli",
+  "versions": {
+    "stable": "15.9.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/netlify-cli/-/netlify-cli-15.9.1.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5785bcc5d39f39a5db2aa9d279a8e27e162cd11a47ec8e55855a75a6c076cfe1"
+    },
+    "head": {
+      "url": "https://github.com/netlify/cli.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:3c1b7205bc1c4e5a2261f4febfaa77f77cc16764f9c30c1f8c5ecd16f35b6c0d",
+          "sha256": "3c1b7205bc1c4e5a2261f4febfaa77f77cc16764f9c30c1f8c5ecd16f35b6c0d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:e5bc202e84c7561680f11ea9502e53f352f50828b85bab587a807aba18088a08",
+          "sha256": "e5bc202e84c7561680f11ea9502e53f352f50828b85bab587a807aba18088a08"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:4f4b206d0b25760dabb455812e7c14cd8dafd920f35786f7155b558e133d407e",
+          "sha256": "4f4b206d0b25760dabb455812e7c14cd8dafd920f35786f7155b558e133d407e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:c0769e09f8bfa96b219f0532f5c3f891c4041f15d8bdc2691fc6471a0ea390f7",
+          "sha256": "c0769e09f8bfa96b219f0532f5c3f891c4041f15d8bdc2691fc6471a0ea390f7"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:987b345e76ea36f20e7331a8f36b712a760098b84eb70eb1625fdd0c098d38bb",
+          "sha256": "987b345e76ea36f20e7331a8f36b712a760098b84eb70eb1625fdd0c098d38bb"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:df9dc0942da9f65b0fe119660756927346934101b2189162bb352b5129860c98",
+          "sha256": "df9dc0942da9f65b0fe119660756927346934101b2189162bb352b5129860c98"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/netlify-cli/blobs/sha256:2dada69bd6d984a2f6abac4105452d413d13b43e6d8111824c5c7e9a51d0a726",
+          "sha256": "2dada69bd6d984a2f6abac4105452d413d13b43e6d8111824c5c7e9a51d0a726"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/netlify-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "710845c2496ce061863688de9502000b0556f17cd8d9dc4c080436b95d787179"
+  },
+  "date_added": "2019-07-02T08:36:42+02:00"
+}

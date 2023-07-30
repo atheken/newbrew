@@ -1,0 +1,114 @@
+{
+  "name": "awslogs",
+  "full_name": "awslogs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple command-line tool to read AWS CloudWatch logs",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/jorgebastida/awslogs",
+  "versions": {
+    "stable": "0.14.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/96/7b/20bff9839d6679e25d989f94ca4320466ec94f3441972aadaafbad50560f/awslogs-0.14.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b249f87fa2adfae39b9867f3066ac00b9baf401f4783583ab28fcdea338f77e"
+    },
+    "head": {
+      "url": "https://github.com/jorgebastida/awslogs.git",
+      "branch": "master"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:9d903b045b2d7f2b6240eefd864cccfe0438c2ad36018d2d61079d9254203575",
+          "sha256": "9d903b045b2d7f2b6240eefd864cccfe0438c2ad36018d2d61079d9254203575"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:1efe03135ba5ff520a19fbe02d27510b7c1a04b77052a00994407a2e04ef3553",
+          "sha256": "1efe03135ba5ff520a19fbe02d27510b7c1a04b77052a00994407a2e04ef3553"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:cb58f1336ed1a9d4c8b393390e00e9ff85f01ec99d6ae561cf6103e2171d6a6d",
+          "sha256": "cb58f1336ed1a9d4c8b393390e00e9ff85f01ec99d6ae561cf6103e2171d6a6d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:050eb23a706b239e08b4ca6e8cbcec2d158351aebfb7e17d771f163dffc9ae16",
+          "sha256": "050eb23a706b239e08b4ca6e8cbcec2d158351aebfb7e17d771f163dffc9ae16"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:e0546faa28ea19e19406712f90f96e7f4e9a5205383825f0f634106e782b3574",
+          "sha256": "e0546faa28ea19e19406712f90f96e7f4e9a5205383825f0f634106e782b3574"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:e9c85e3d53f2f3a715cfaa91165b4e722cf57197d09b2fc0341833ba6307221c",
+          "sha256": "e9c85e3d53f2f3a715cfaa91165b4e722cf57197d09b2fc0341833ba6307221c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awslogs/blobs/sha256:355a36b81ab65751d6c9b9389b7e3e86c2506bae285916fab7ac61bf84b3575c",
+          "sha256": "355a36b81ab65751d6c9b9389b7e3e86c2506bae285916fab7ac61bf84b3575c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/awslogs.rb",
+  "ruby_source_checksum": {
+    "sha256": "0f6ddc9d63b930945d9bc2e501f38a83b77b747a2e62cf513f4714370c7a6da5"
+  },
+  "date_added": "2017-03-23T18:58:46+01:00"
+}

@@ -1,0 +1,165 @@
+{
+  "name": "ntopng",
+  "full_name": "ntopng",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Next generation version of the original ntop",
+  "license": "GPL-3.0-only",
+  "homepage": "https://www.ntop.org/products/traffic-analysis/ntop/",
+  "versions": {
+    "stable": "5.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ntop/ntopng/archive/5.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "67404ccd87202864d2c3c44426e60cb59cc2e87d746c704b27e6a63d61ec7644"
+    },
+    "head": {
+      "url": "https://github.com/ntop/ntopng.git",
+      "branch": "dev"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:b9d9c200f7fd53afb6a4b1aceb0d7bead7acc4cfc2f0f124490c2d710ca7b1bd",
+          "sha256": "b9d9c200f7fd53afb6a4b1aceb0d7bead7acc4cfc2f0f124490c2d710ca7b1bd"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:f80fe91d1bf208b29756939d80273318035dde0c9529fbc3e933d81b58f7dfe8",
+          "sha256": "f80fe91d1bf208b29756939d80273318035dde0c9529fbc3e933d81b58f7dfe8"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:eabf1734108899d494af15d59a30aa8415b6ad097e14310601bd8ce6dbeffb56",
+          "sha256": "eabf1734108899d494af15d59a30aa8415b6ad097e14310601bd8ce6dbeffb56"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:9a6815c5ecf1ec997d950b0a9c5ea1b7fa1d6870156a9dccc688a72d72231549",
+          "sha256": "9a6815c5ecf1ec997d950b0a9c5ea1b7fa1d6870156a9dccc688a72d72231549"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:4bb602c8dc1f89810d1b4eef901a107bc3a107e411690e8a6eb52bd0d92ce688",
+          "sha256": "4bb602c8dc1f89810d1b4eef901a107bc3a107e411690e8a6eb52bd0d92ce688"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:b10afdc4ac28240a997e1da555ad58bdc6f6180878c3a9741d52c5c6c4d8376e",
+          "sha256": "b10afdc4ac28240a997e1da555ad58bdc6f6180878c3a9741d52c5c6c4d8376e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ntopng/blobs/sha256:bcc479ef95a00817cbbf049cefe2cace7f7cdf0e01a777d4c493c3fdad4619ba",
+          "sha256": "bcc479ef95a00817cbbf049cefe2cace7f7cdf0e01a777d4c493c3fdad4619ba"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "gnutls",
+    "json-glib",
+    "libtool",
+    "lua",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "ndpi",
+    "geoip",
+    "json-c",
+    "libmaxminddb",
+    "mysql-client",
+    "openssl@3",
+    "redis",
+    "rrdtool",
+    "sqlite",
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ntopng.rb",
+  "ruby_source_checksum": {
+    "sha256": "c21a62875c19b82b64feb643f2a9d8c131e4c320d0b8d9f9939c581e49bfbd0f"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "gnutls",
+      "json-glib",
+      "libtool",
+      "lua",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "geoip",
+      "json-c",
+      "libmaxminddb",
+      "mysql-client",
+      "openssl@3",
+      "redis",
+      "rrdtool",
+      "sqlite",
+      "zeromq"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "curl",
+      "libpcap"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {}
+    ]
+  },
+  "date_added": "2014-09-10T15:26:49+01:00"
+}

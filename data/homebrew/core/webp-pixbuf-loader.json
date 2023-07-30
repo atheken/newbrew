@@ -1,0 +1,116 @@
+{
+  "name": "webp-pixbuf-loader",
+  "full_name": "webp-pixbuf-loader",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "WebP Image format GdkPixbuf loader",
+  "license": "LGPL-2.0-or-later",
+  "homepage": "https://github.com/aruiz/webp-pixbuf-loader",
+  "versions": {
+    "stable": "0.2.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aruiz/webp-pixbuf-loader/archive/0.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "54f448383d1c384409bd1690cdde9b44535c346855902e29bd37a18a7237c547"
+    },
+    "head": {
+      "url": "https://github.com/aruiz/webp-pixbuf-loader.git",
+      "branch": "mainline"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:d5d42134ea2ca02f53b231777b0027c7265f95820bb33fdc034a376b5b26bb87",
+          "sha256": "d5d42134ea2ca02f53b231777b0027c7265f95820bb33fdc034a376b5b26bb87"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:f3cb479094f5cbd4f6f15926b1ef4f2b0b20bc5c5cd3965cca92d9f1ddb98a1a",
+          "sha256": "f3cb479094f5cbd4f6f15926b1ef4f2b0b20bc5c5cd3965cca92d9f1ddb98a1a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:eb9c71706217fea7e4199fb1d2f8ff7652c0ce0bb2fff96835c3999813698918",
+          "sha256": "eb9c71706217fea7e4199fb1d2f8ff7652c0ce0bb2fff96835c3999813698918"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:dba630af9d61b17ee0718e00819f6a690c4d9317fee54720cf7ef64cdbcbaa83",
+          "sha256": "dba630af9d61b17ee0718e00819f6a690c4d9317fee54720cf7ef64cdbcbaa83"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:81594183c7d2167be7d22ef9997cb4e4b46e1dd97a78baa8914697b430bc1a9c",
+          "sha256": "81594183c7d2167be7d22ef9997cb4e4b46e1dd97a78baa8914697b430bc1a9c"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:4c268b88d45a04ad088bb79bcfa83ea6dcfba972ddd2c89ccc263c0f19b187d3",
+          "sha256": "4c268b88d45a04ad088bb79bcfa83ea6dcfba972ddd2c89ccc263c0f19b187d3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/webp-pixbuf-loader/blobs/sha256:c83f234b8e215fb9042569612ea61a058610765d7e49c4f138f9346b998acd68",
+          "sha256": "c83f234b8e215fb9042569612ea61a058610765d7e49c4f138f9346b998acd68"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdk-pixbuf",
+    "webp"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/webp-pixbuf-loader.rb",
+  "ruby_source_checksum": {
+    "sha256": "3466b02bbb8b2a57bea9d2f9d79edb6ea46c4b5418755cb979fb6931bdd53c5b"
+  },
+  "date_added": "2022-02-10T15:09:46+00:00"
+}

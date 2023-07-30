@@ -1,0 +1,117 @@
+{
+  "name": "tnftp",
+  "full_name": "tnftp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "lukemftp"
+  ],
+  "versioned_formulae": [],
+  "desc": "NetBSD's FTP client",
+  "license": "BSD-4-Clause",
+  "homepage": "https://cdn.netbsd.org/pub/NetBSD/misc/tnftp/",
+  "versions": {
+    "stable": "20230507",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cdn.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20230507.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "be0134394bd7d418a3b34892b0709eeb848557e86474e1786f0d1a887d3a6580"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:d9e3947ab41a6dd004ec70c6126d4ba9c7c34816e8a8c984f67f0d80617852ac",
+          "sha256": "d9e3947ab41a6dd004ec70c6126d4ba9c7c34816e8a8c984f67f0d80617852ac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:e744b3ad973c717d4d41d5b81629d3ee5239a8ac72a4ff7dafd5269da4ee574b",
+          "sha256": "e744b3ad973c717d4d41d5b81629d3ee5239a8ac72a4ff7dafd5269da4ee574b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:6cfed88dfedf303ba5559466fe67a0308d2a6793e9641ace8ce28d3876970bd7",
+          "sha256": "6cfed88dfedf303ba5559466fe67a0308d2a6793e9641ace8ce28d3876970bd7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:d1870a97a281b50e44b59a8132f2876d938b9602151eba9b7930ffc03326e849",
+          "sha256": "d1870a97a281b50e44b59a8132f2876d938b9602151eba9b7930ffc03326e849"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:f0df715364120f87c986db305942d7cc09f5088a7fd9ca3180348456818a3148",
+          "sha256": "f0df715364120f87c986db305942d7cc09f5088a7fd9ca3180348456818a3148"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:5eff3aa4503a383db733447beddd456f2a53fe3fa7cb09c72805a55bd1a5ad8f",
+          "sha256": "5eff3aa4503a383db733447beddd456f2a53fe3fa7cb09c72805a55bd1a5ad8f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tnftp/blobs/sha256:270f4da016155138c1d305eedd0d82a600396cf39f011ba42ef0456b898ca198",
+          "sha256": "270f4da016155138c1d305eedd0d82a600396cf39f011ba42ef0456b898ca198"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "inetutils"
+  ],
+  "conflicts_with_reasons": [
+    "both install `ftp' binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tnftp.rb",
+  "ruby_source_checksum": {
+    "sha256": "9803ccb25ccfb62014d72f1bfc26ace12b8b1994f70dba2cfafed9e163d7b6c6"
+  },
+  "date_added": "2017-12-20T17:58:48-05:00"
+}

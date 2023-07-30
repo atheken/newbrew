@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+@{
+    var doc = Model as IDocument;
+    var data = doc.Get<PageData<Formula>>("data")!;
+
+    var isLatest = data.isLatest;
+    var page = data.current;
+    var totalPages = data.totalPages;
+    var first = data.items.First()!;
+    var feedLocation = $"https://newbrew.andrewtheken.com/{first.tap}/atom.xml";
+    IgnoreBody();
+}
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Recent Additions to Homebrew (@first.tap)</title>
+    <link href=@feedLocation />
+    <updated>@System.DateTime.UtcNow.ToString("O")</updated>
+    <author>
+        <name>Andrew Theken</name>
+    </author>
+    <id>@feedLocation</id>
+
+    @foreach (var item in data.items)
+    {
+        <entry>
+            <title>@item.name</title>
+            <link href="@item.homepage" />
+            <id>@($"{item.tap}/{item.name}")</id>
+            <updated>@item.date_added.ToUniversalTime().ToString("O")</updated>
+            <summary>@item.desc</summary>
+        </entry>
+    }
+
+</feed>

@@ -1,0 +1,145 @@
+{
+  "name": "trafficserver",
+  "full_name": "trafficserver",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "HTTP/1.1 compliant caching proxy server",
+  "license": "Apache-2.0",
+  "homepage": "https://trafficserver.apache.org/",
+  "versions": {
+    "stable": "9.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.apache.org/trafficserver/trafficserver-9.2.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "c9080a521758f258391ff7ceb99b824bcc652b3fd9125a3580697bb2e5eb43b2"
+    },
+    "head": {
+      "url": "https://github.com/apache/trafficserver.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:3a89e7e8cdf9b043958d59d5e8b95864f6f6bb081210502551ea557f7aa4266a",
+          "sha256": "3a89e7e8cdf9b043958d59d5e8b95864f6f6bb081210502551ea557f7aa4266a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:6294230662c1db435293a0a8e32df00ad125a080f331cb66fd37d0aeaaed9730",
+          "sha256": "6294230662c1db435293a0a8e32df00ad125a080f331cb66fd37d0aeaaed9730"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:ca2283b06906400a6f063e25a3dbbcb5c3a1889b1ac5e4d766fcab23be3ea2aa",
+          "sha256": "ca2283b06906400a6f063e25a3dbbcb5c3a1889b1ac5e4d766fcab23be3ea2aa"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:56279bf0d054a6f12ed0af3eba599f2854e22add255a196aa732c6e6460c3efa",
+          "sha256": "56279bf0d054a6f12ed0af3eba599f2854e22add255a196aa732c6e6460c3efa"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:cceadc78b480fb33a9da7462fa7e9149500aaf53aa290bfbc564caf43f13e6cb",
+          "sha256": "cceadc78b480fb33a9da7462fa7e9149500aaf53aa290bfbc564caf43f13e6cb"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:a5eeb644895ae0501d08a8ae84d73305792ce093194d6fac9384cc9f7baeb140",
+          "sha256": "a5eeb644895ae0501d08a8ae84d73305792ce093194d6fac9384cc9f7baeb140"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/trafficserver/blobs/sha256:8635f815f52c6695883857799cf7bff966133ab657bfe275d5b3135874a6ceb8",
+          "sha256": "8635f815f52c6695883857799cf7bff966133ab657bfe275d5b3135874a6ceb8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "hwloc",
+    "openssl@3",
+    "pcre",
+    "yaml-cpp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.14",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/trafficserver.rb",
+  "ruby_source_checksum": {
+    "sha256": "4fc4002acbb93c1baaf146e81f843ad1685f917b3e06423c95e7c7379a877289"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "hwloc",
+      "openssl@3",
+      "pcre",
+      "yaml-cpp"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2012-01-29T17:48:33+00:00"
+}

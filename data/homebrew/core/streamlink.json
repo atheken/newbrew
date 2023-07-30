@@ -1,0 +1,120 @@
+{
+  "name": "streamlink",
+  "full_name": "streamlink",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for extracting streams from various websites to a video player",
+  "license": "BSD-2-Clause",
+  "homepage": "https://streamlink.github.io/",
+  "versions": {
+    "stable": "6.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/64/95/e9456f9936ba088b68f2ac1a5dbc207fdb277d7ee7caf6247838532e68d3/streamlink-6.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "05e3fe60e06d4f3d43fff2c304c85afb4ef25577600477cce2fe1a54d1f3c00c"
+    },
+    "head": {
+      "url": "https://github.com/streamlink/streamlink.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:c6c937e361797715930fdcaf55ca5e55a7c9528fa48b1aed9212ac35ccc85311",
+          "sha256": "c6c937e361797715930fdcaf55ca5e55a7c9528fa48b1aed9212ac35ccc85311"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:b34cfc44bb1f1d440f78087f95be0aefcbd5fb05c8e5f0841c8321a5005a1260",
+          "sha256": "b34cfc44bb1f1d440f78087f95be0aefcbd5fb05c8e5f0841c8321a5005a1260"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:d2ccffd7ddb051aa7459e6897c5123e7648668e7e9d5fd5153985a7935256823",
+          "sha256": "d2ccffd7ddb051aa7459e6897c5123e7648668e7e9d5fd5153985a7935256823"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:0a7a29de5bd3f0c58a9c59072adb699e5781cf05505bca176134be63d9d64bda",
+          "sha256": "0a7a29de5bd3f0c58a9c59072adb699e5781cf05505bca176134be63d9d64bda"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:ecd04521687612dd3ca4357b823593bf1cdccd27f9bb1ccec4d71b532a59ce8f",
+          "sha256": "ecd04521687612dd3ca4357b823593bf1cdccd27f9bb1ccec4d71b532a59ce8f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:febdba84b2110011c9f7beddd467d0bc7983eea801a2fc5ab6b2dcdb285e5823",
+          "sha256": "febdba84b2110011c9f7beddd467d0bc7983eea801a2fc5ab6b2dcdb285e5823"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/streamlink/blobs/sha256:0eadadbe142f4034d4803b93c4d614397065d8a1e5ddac33c289ef053ee390c1",
+          "sha256": "0eadadbe142f4034d4803b93c4d614397065d8a1e5ddac33c289ef053ee390c1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libxml2",
+    "python-typing-extensions",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi",
+    "libxslt"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/streamlink.rb",
+  "ruby_source_checksum": {
+    "sha256": "5b36a50d73422ddb0b5e3f0304b9fbe9ba5a762f053982f94cc629aad1534d3c"
+  },
+  "date_added": "2017-03-25T15:41:34+01:00"
+}

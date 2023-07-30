@@ -1,0 +1,78 @@
+{
+  "name": "cppzmq",
+  "full_name": "cppzmq",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Header-only C++ binding for libzmq",
+  "license": "MIT",
+  "homepage": "https://www.zeromq.org",
+  "versions": {
+    "stable": "4.10.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zeromq/cppzmq/archive/v4.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c81c81bba8a7644c84932225f018b5088743a22999c6d82a2b5f5cd1e6942b74"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cppzmq/blobs/sha256:d454ccf680d7bada36024214a31369dc301c2a0aeeae0852b8d23d97b6457a36",
+          "sha256": "d454ccf680d7bada36024214a31369dc301c2a0aeeae0852b8d23d97b6457a36"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cppzmq.rb",
+  "ruby_source_checksum": {
+    "sha256": "d90fc174b979e273736527866468de2d091f6bcc45b1b60f97d5442ed5b4018d"
+  },
+  "date_added": "2021-09-07T00:10:29+00:00"
+}

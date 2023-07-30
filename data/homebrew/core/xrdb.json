@@ -1,0 +1,109 @@
+{
+  "name": "xrdb",
+  "full_name": "xrdb",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X resource database utility",
+  "license": "MIT-open-group",
+  "homepage": "https://gitlab.freedesktop.org/xorg/app/xrdb",
+  "versions": {
+    "stable": "1.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/releases/individual/app/xrdb-1.2.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "31f5fcab231b38f255b00b066cf7ea3b496df712c9eb2d0d50c670b63e5033f4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:1b32536870feb4f744ec01f9b09dcc2b5a612b742ab527563ba5661f1f1777ee",
+          "sha256": "1b32536870feb4f744ec01f9b09dcc2b5a612b742ab527563ba5661f1f1777ee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:dcb8e3ddd3e7c5fb5d362c5b761477029956d6ab1f2a7952e7a3e6e1112dc70b",
+          "sha256": "dcb8e3ddd3e7c5fb5d362c5b761477029956d6ab1f2a7952e7a3e6e1112dc70b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:c7aeb1ca86ab70fd43c32152c2200677446f7e7b0f376c118c7642cf5aa218bf",
+          "sha256": "c7aeb1ca86ab70fd43c32152c2200677446f7e7b0f376c118c7642cf5aa218bf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:7ef65e0a0e3951b600d7587ef5015ca44606cd5f225ca2c33735979633176fc3",
+          "sha256": "7ef65e0a0e3951b600d7587ef5015ca44606cd5f225ca2c33735979633176fc3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:0681e2deb75be4bcf436002d036f7dafbdabc2401f571255c0c8f225e2cf7728",
+          "sha256": "0681e2deb75be4bcf436002d036f7dafbdabc2401f571255c0c8f225e2cf7728"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:ea5920dfb84ff9ff1d35090dfcd39aa4995163a0bbb515f0396be1137c2d20be",
+          "sha256": "ea5920dfb84ff9ff1d35090dfcd39aa4995163a0bbb515f0396be1137c2d20be"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xrdb/blobs/sha256:b387dbe59b86aad4b9e297ed43cb2bfc07b7a5c893fa22cf36e8e8712cb722fa",
+          "sha256": "b387dbe59b86aad4b9e297ed43cb2bfc07b7a5c893fa22cf36e8e8712cb722fa"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libxmu"
+  ],
+  "test_dependencies": [
+    "xorg-server"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xrdb.rb",
+  "ruby_source_checksum": {
+    "sha256": "3830f76eab6a35a2ffdb9a31392f8f5aa57de93ae0f0935c146321b778a7cc23"
+  },
+  "date_added": "2023-01-07T04:19:44+00:00"
+}

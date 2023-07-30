@@ -1,0 +1,113 @@
+{
+  "name": "ansible-lint",
+  "full_name": "ansible-lint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Checks ansible playbooks for practices and behaviour",
+  "license": "MIT and GPL-3.0-or-later",
+  "homepage": "https://ansible-lint.readthedocs.io/",
+  "versions": {
+    "stable": "6.17.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/10/04/e71f1698a113d4bfdde5d71fe227fc85f70281cf193dc2621180d102448f/ansible-lint-6.17.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9df62535f4228c67947548d6498884d5fa7b22ee3e947372e64ed0e5fcaba038"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:4aa6070b07a2e16237ca72e1c53ec70c0ce368db817d47e6e366f7ed0a7dcca7",
+          "sha256": "4aa6070b07a2e16237ca72e1c53ec70c0ce368db817d47e6e366f7ed0a7dcca7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:3b26a25775dc7b0ea68dc89ad23ef92546135d4024b00c5e0b0bf5c8d20a3a0c",
+          "sha256": "3b26a25775dc7b0ea68dc89ad23ef92546135d4024b00c5e0b0bf5c8d20a3a0c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:18cd86127b332a1a2f070abb70de6b30ac5b64f7a3e479583255de1607569b7d",
+          "sha256": "18cd86127b332a1a2f070abb70de6b30ac5b64f7a3e479583255de1607569b7d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:206be5bed4250c9f277dba72e547d2ec450e3121b20683c6215ead70f794a4a1",
+          "sha256": "206be5bed4250c9f277dba72e547d2ec450e3121b20683c6215ead70f794a4a1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:03110651b4aa415f2a0baf9c0b85f0b8c1420d6d4a208bafcb7262d5f7d7abed",
+          "sha256": "03110651b4aa415f2a0baf9c0b85f0b8c1420d6d4a208bafcb7262d5f7d7abed"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:b696f5caea2c58fd5e4ebe1dbc1c0a6cb8a3702ff366be419099efed5d7aa722",
+          "sha256": "b696f5caea2c58fd5e4ebe1dbc1c0a6cb8a3702ff366be419099efed5d7aa722"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ansible-lint/blobs/sha256:3cd7ff7521a5308ddf0046e4a670a69b39009e2f662836a2a05ed38d8f29af05",
+          "sha256": "3cd7ff7521a5308ddf0046e4a670a69b39009e2f662836a2a05ed38d8f29af05"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "ansible",
+    "black",
+    "pygments",
+    "python@3.11",
+    "pyyaml",
+    "yamllint"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/ansible-lint.rb",
+  "ruby_source_checksum": {
+    "sha256": "469ee1c9c22999fef4d55209f7f33f96953a71118fd2d2b988a7ec235dd9c8be"
+  },
+  "date_added": "2017-04-28T12:32:30+02:00"
+}

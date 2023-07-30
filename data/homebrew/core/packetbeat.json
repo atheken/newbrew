@@ -1,0 +1,118 @@
+{
+  "name": "packetbeat",
+  "full_name": "packetbeat",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight Shipper for Network Data",
+  "license": "Apache-2.0",
+  "homepage": "https://www.elastic.co/products/beats/packetbeat",
+  "versions": {
+    "stable": "8.9.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/elastic/beats.git",
+      "tag": "v8.9.0",
+      "revision": "dd50d49baeb99e0d21a31adb621908a7f0091046",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/elastic/beats.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:b6116e99a7d7e1850ae9c48eb6e8709609ebfb2ba546a696dadb1c3f1141fb59",
+          "sha256": "b6116e99a7d7e1850ae9c48eb6e8709609ebfb2ba546a696dadb1c3f1141fb59"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:b51a4e724d6b7a6340d4a1dca2a3c11266751ac78b1ca9f7f209698a369a025d",
+          "sha256": "b51a4e724d6b7a6340d4a1dca2a3c11266751ac78b1ca9f7f209698a369a025d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:9d68e6d3be027f769732414f625f41a48e24573e96658016fb49cee0e7b4a19c",
+          "sha256": "9d68e6d3be027f769732414f625f41a48e24573e96658016fb49cee0e7b4a19c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:4febc2285083cd9ad0160c1c6e36fcb68b1e21401acbcb2e2b03125f478896d8",
+          "sha256": "4febc2285083cd9ad0160c1c6e36fcb68b1e21401acbcb2e2b03125f478896d8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:7ed0456fac926db1b79424539a04120b1152facb1c21003d40a8991852ed58ab",
+          "sha256": "7ed0456fac926db1b79424539a04120b1152facb1c21003d40a8991852ed58ab"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:a5a53abb7ff90f6b2b19e1291f67fd761b2fa519f20c123ac7a439600c4229b6",
+          "sha256": "a5a53abb7ff90f6b2b19e1291f67fd761b2fa519f20c123ac7a439600c4229b6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/packetbeat/blobs/sha256:e88cb65e8262c6c8606198956a914bbf1328b919351395fb29f56ca4e7dbca3f",
+          "sha256": "e88cb65e8262c6c8606198956a914bbf1328b919351395fb29f56ca4e7dbca3f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "mage",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/packetbeat/bin/packetbeat",
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/packetbeat.rb",
+  "ruby_source_checksum": {
+    "sha256": "106688ae7937eeb764a4bd53864dcf130a58d9b003e2e85702e2e3b61870fd22"
+  },
+  "date_added": "2016-11-23T13:31:39+00:00"
+}

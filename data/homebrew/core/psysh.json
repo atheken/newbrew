@@ -1,0 +1,105 @@
+{
+  "name": "psysh",
+  "full_name": "psysh",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Runtime developer console, interactive debugger and REPL for PHP",
+  "license": "MIT",
+  "homepage": "https://psysh.org/",
+  "versions": {
+    "stable": "0.11.19",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/bobthecow/psysh/releases/download/v0.11.19/psysh-v0.11.19.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "48613e1b2507315ea0ce4646c1fed30e70c106751e2c18254b01b1ffe6885a4e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70",
+          "sha256": "d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70",
+          "sha256": "d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70",
+          "sha256": "d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773",
+          "sha256": "a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773",
+          "sha256": "a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773",
+          "sha256": "a4f71d81f2bc4385fffa2596c7e9c538b1b1bed201e8d3ac664e9b8f7c9d1773"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/psysh/blobs/sha256:d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70",
+          "sha256": "d0cca835d8312319bbf2f627f80929026d62154bc5c4bcc50f08ef87328fbe70"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "php"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/psysh.rb",
+  "ruby_source_checksum": {
+    "sha256": "2ab0c364f14d0ddd688c366b4393cc6b9302d166798811ad07a0858569eff1a2"
+  },
+  "date_added": "2022-12-20T14:00:38+00:00"
+}

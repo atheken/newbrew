@@ -1,0 +1,105 @@
+{
+  "name": "go-bindata",
+  "full_name": "go-bindata",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Small utility that generates Go code from any file",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/kevinburke/go-bindata",
+  "versions": {
+    "stable": "4.0.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kevinburke/go-bindata/archive/v4.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ac343c4b316b234b8ea354d86eb3c7ded2da4fe8f40d45f60391d289c66cd950"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135",
+          "sha256": "76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135",
+          "sha256": "76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135",
+          "sha256": "76617a44d91e752b9bd01f180ae617a0ae71d8109c376162a0a7c7b5a830f135"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4",
+          "sha256": "e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4",
+          "sha256": "e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4",
+          "sha256": "e5e4f74424a4bc23bdba3c3bd8b74031b8b7c1c3ebcd46cfec1fdca526fbd1b4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-bindata/blobs/sha256:fc06d08b284da8bc9425c70ed2b7d8463799f0ec962c15904a8bb6a84b9eef18",
+          "sha256": "fc06d08b284da8bc9425c70ed2b7d8463799f0ec962c15904a8bb6a84b9eef18"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "go"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/go-bindata.rb",
+  "ruby_source_checksum": {
+    "sha256": "f44fd0ee4196ad9f88ac1e8af878c507c1854549e7b9aad7ae4f0d7a47d8e110"
+  },
+  "date_added": "2018-03-03T10:38:39-08:00"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "glibc",
+  "full_name": "glibc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "glibc@2.35"
+  ],
+  "versioned_formulae": [
+    "glibc@2.13"
+  ],
+  "desc": "GNU C Library",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+  "homepage": "https://www.gnu.org/software/libc/",
+  "versions": {
+    "stable": "2.35",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3e8e0c6195da8dfbd31d77c56fb8d99576fb855fafd47a9e0a895e51fd5942d4"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/glibc/blobs/sha256:274dd06ae6ecaee3025d6bf21cf4c7641df9a1cc3973e162911a1f4a76000a24",
+          "sha256": "274dd06ae6ecaee3025d6bf21cf4c7641df9a1cc3973e162911a1f4a76000a24"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it can shadow system glibc if linked",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "linux-headers@5.15"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The Homebrew's Glibc has been installed with the following executables:\n  $HOMEBREW_PREFIX/opt/glibc/bin/ldd\n  $HOMEBREW_PREFIX/opt/glibc/bin/ld.so\n  $HOMEBREW_PREFIX/opt/glibc/sbin/ldconfig\n\nBy default, Homebrew's linker will not search for the system's libraries. If you\nwant Homebrew to do so, run:\n\n  cp \"$HOMEBREW_PREFIX/etc/ld.so.conf.d/99-system-ld.so.conf.example\" \"$HOMEBREW_PREFIX/etc/ld.so.conf.d/99-system-ld.so.conf\"\n  brew postinstall glibc\n\nto append the system libraries to Homebrew's ld search paths. This is risky and\n**highly not recommended**, because it may cause linkage to Homebrew libraries\nmixed with system libraries.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/glibc.rb",
+  "ruby_source_checksum": {
+    "sha256": "2ea9f8037ff1e460651f74c61f741aea53b5bf3a132c12d90161eadfa6e758e4"
+  },
+  "date_added": "2021-03-12T21:28:14+01:00"
+}

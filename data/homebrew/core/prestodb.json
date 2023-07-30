@@ -1,0 +1,111 @@
+{
+  "name": "prestodb",
+  "full_name": "prestodb",
+  "tap": "homebrew/core",
+  "oldname": "presto",
+  "oldnames": [
+    "presto"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Distributed SQL query engine for big data",
+  "license": "Apache-2.0",
+  "homepage": "https://prestodb.io",
+  "versions": {
+    "stable": "0.282",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=com/facebook/presto/presto-server/0.282/presto-server-0.282.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b0e48b553eb87063c61dd2dc4450a3f7904b31ea83df533dc94aa1e2340a78d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestodb/blobs/sha256:c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914",
+          "sha256": "c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestodb/blobs/sha256:c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914",
+          "sha256": "c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestodb/blobs/sha256:c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914",
+          "sha256": "c11deac7f3e58767430d34537f610a988dcac8d64a8a78f8d7b44df242c50914"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prestodb/blobs/sha256:5ac26114b32df174319344867696e745ee13fb5d8e59326cef6717f96269303a",
+          "sha256": "5ac26114b32df174319344867696e745ee13fb5d8e59326cef6717f96269303a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Add connectors to $HOMEBREW_PREFIX/opt/prestodb/libexec/etc/catalog/. See:\nhttps://prestodb.io/docs/current/connector.html\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/prestodb/bin/presto-server",
+      "run"
+    ],
+    "run_type": "immediate",
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/prestodb/libexec"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/prestodb.rb",
+  "ruby_source_checksum": {
+    "sha256": "c377058b46fd92581e2ba4ff2287b9b903c687643c7484bacd56daa0ae52bdc3"
+  },
+  "date_added": "2019-10-30T09:38:25+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "snownews",
+  "full_name": "snownews",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text mode RSS newsreader",
+  "license": "GPL-3.0-only",
+  "homepage": "https://sourceforge.net/projects/snownews/",
+  "versions": {
+    "stable": "1.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/snownews/snownews-1.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "afd4db7c770f461a49e78bc36e97711f3066097b485319227e313ba253902467"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:ab994b373b5e6a36f4c05d128dd2b4aff607a093d4bedbda6e0c3a38e63de933",
+          "sha256": "ab994b373b5e6a36f4c05d128dd2b4aff607a093d4bedbda6e0c3a38e63de933"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:5e86f2dcc050b2bcb052eb43a4d8e146ff2f226d5c62476e356720c3b38484ff",
+          "sha256": "5e86f2dcc050b2bcb052eb43a4d8e146ff2f226d5c62476e356720c3b38484ff"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:62bf089ff62731aff7786cbc262f644d8c1e6f9027e30c3d23e515281c2343c7",
+          "sha256": "62bf089ff62731aff7786cbc262f644d8c1e6f9027e30c3d23e515281c2343c7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:35c17b0d8809918731e6f942a4ffabacf6f765bc0c28f0349cfde4fdccc76e01",
+          "sha256": "35c17b0d8809918731e6f942a4ffabacf6f765bc0c28f0349cfde4fdccc76e01"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:84d7beb8653c713161180127550d58c277ccdc9253941fd1bce3bbb2d86419a2",
+          "sha256": "84d7beb8653c713161180127550d58c277ccdc9253941fd1bce3bbb2d86419a2"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:36c1b6a9f496f530d31eb71cb50c74f57075f73e4a5a101e2c81be5bb9698940",
+          "sha256": "36c1b6a9f496f530d31eb71cb50c74f57075f73e4a5a101e2c81be5bb9698940"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/snownews/blobs/sha256:dfd5d4c92583abd0e7b299f6ac41eb728e814f6aba8a7ebf9fca9e8392d80f9e",
+          "sha256": "dfd5d4c92583abd0e7b299f6ac41eb728e814f6aba8a7ebf9fca9e8392d80f9e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "coreutils",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "ncurses",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/snownews.rb",
+  "ruby_source_checksum": {
+    "sha256": "c1c30679da466aa7f335ee6299bb97ea90b7fc3f71087d651e47ddb05d9ae1ea"
+  },
+  "date_added": "2013-07-09T09:45:02-07:00"
+}

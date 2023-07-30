@@ -1,0 +1,148 @@
+{
+  "name": "protobuf",
+  "full_name": "protobuf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "protobuf@23"
+  ],
+  "versioned_formulae": [
+    "protobuf@21",
+    "protobuf@3"
+  ],
+  "desc": "Protocol buffers (Google's data interchange format)",
+  "license": "BSD-3-Clause",
+  "homepage": "https://protobuf.dev/",
+  "versions": {
+    "stable": "23.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protobuf-23.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a700a49470d301f1190a487a923b5095bf60f08f4ae4cac9f5f7c36883d17971"
+    },
+    "head": {
+      "url": "https://github.com/protocolbuffers/protobuf.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:eb86d06abace7c985b21ccac17ea418131e17689c9fdeddbcaa998d7088c89de",
+          "sha256": "eb86d06abace7c985b21ccac17ea418131e17689c9fdeddbcaa998d7088c89de"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:0e365713a94a259dbfae77917bb9b0c29ba76d46a733aa4ee81429fc6a4af935",
+          "sha256": "0e365713a94a259dbfae77917bb9b0c29ba76d46a733aa4ee81429fc6a4af935"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:71c787b14039d8c5d7120dfcfea969b5abb6cb4e69a6f9259a7590d7ab6065d0",
+          "sha256": "71c787b14039d8c5d7120dfcfea969b5abb6cb4e69a6f9259a7590d7ab6065d0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:fac1164097c4e09a76db297feaa7d525d12bd1845e250225ff32ea9f43eaef2d",
+          "sha256": "fac1164097c4e09a76db297feaa7d525d12bd1845e250225ff32ea9f43eaef2d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:79ed16a88a2630392fc9726794875d88aada2ddec2a5f43b00d2b43cca8ee313",
+          "sha256": "79ed16a88a2630392fc9726794875d88aada2ddec2a5f43b00d2b43cca8ee313"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:774b921c6373919e653637f28fe9b485505ecc4f46852c547898d585af599dbc",
+          "sha256": "774b921c6373919e653637f28fe9b485505ecc4f46852c547898d585af599dbc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/protobuf/blobs/sha256:6376391a61c411ad6cb76936abb98c1e0fb3e368a3fa9bb2668a8d169a4581d6",
+          "sha256": "6376391a61c411ad6cb76936abb98c1e0fb3e368a3fa9bb2668a8d169a4581d6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.10",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "abseil"
+  ],
+  "test_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/protobuf.rb",
+  "ruby_source_checksum": {
+    "sha256": "626f85d2c7d6b604aa7b970bdd32cd8a50b386fa4e645a43ffd13d62b7a58e4f"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "cmake",
+      "python@3.10",
+      "python@3.11"
+    ],
+    "dependencies": [
+      "jsoncpp",
+      "abseil"
+    ],
+    "test_dependencies": [
+      "python@3.10",
+      "python@3.11"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2009-09-21T13:06:21-07:00"
+}

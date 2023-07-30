@@ -1,0 +1,112 @@
+{
+  "name": "python-tk@3.10",
+  "full_name": "python-tk@3.10",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "python-tk@3.11",
+    "python-tk@3.9"
+  ],
+  "desc": "Python interface to Tcl/Tk",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.10.12",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a43cd383f3999a6f4a7db2062b2fc9594fefa73e175b3aedafa295a51a7bb65c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:12050efc6d9c9298b23bb976fd4a266b45dc0a9f4681d99d79d869cceb1e0a15",
+          "sha256": "12050efc6d9c9298b23bb976fd4a266b45dc0a9f4681d99d79d869cceb1e0a15"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:f62bdd3499ded4bc014b7bd9af3d29a49047b9c2c7664b7d81963e768ec2adaa",
+          "sha256": "f62bdd3499ded4bc014b7bd9af3d29a49047b9c2c7664b7d81963e768ec2adaa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:d92880cd78e20c2510f02de489bc5ee517b76b0eab4b80c0108505dac28b85da",
+          "sha256": "d92880cd78e20c2510f02de489bc5ee517b76b0eab4b80c0108505dac28b85da"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:4cb74f1480de294572abbab0a5ad00c27cc057019b56bdc5427f0eab313be888",
+          "sha256": "4cb74f1480de294572abbab0a5ad00c27cc057019b56bdc5427f0eab313be888"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:4862c3bfc2cc2feea37ef36d3bbdda58f6135e590bf12c5f369f120746d96d02",
+          "sha256": "4862c3bfc2cc2feea37ef36d3bbdda58f6135e590bf12c5f369f120746d96d02"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:8e3168c438ef62039ff2f2aa69a76e74f46fb0ee9477bcf5e9ec50565f2656a3",
+          "sha256": "8e3168c438ef62039ff2f2aa69a76e74f46fb0ee9477bcf5e9ec50565f2656a3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-tk/3.10/blobs/sha256:2ce8a2177780709a364a5fb1ab9b0c71d648e1e407a73230f874fd3a1c2f8f6d",
+          "sha256": "2ce8a2177780709a364a5fb1ab9b0c71d648e1e407a73230f874fd3a1c2f8f6d"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.10",
+    "tcl-tk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/python-tk@3.10.rb",
+  "ruby_source_checksum": {
+    "sha256": "4024ca141444eb715336ec5388740c4183fbe7d20af1f70cbcfbee9531f96110"
+  },
+  "date_added": "2021-10-05T03:31:30+00:00"
+}

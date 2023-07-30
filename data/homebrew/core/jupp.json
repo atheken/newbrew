@@ -1,0 +1,119 @@
+{
+  "name": "jupp",
+  "full_name": "jupp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Professional screen editor for programmers",
+  "license": "GPL-1.0-or-later",
+  "homepage": "http://www.mirbsd.org/jupp.htm",
+  "versions": {
+    "stable": "3.1jupp41",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://www.mirbsd.org/MirOS/dist/jupp/joe-3.1jupp41.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7bb8ea8af519befefff93ec3c9e32108d7f2b83216c9bc7b01aef5098861c82f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:821daf3c2f840c5a9942de15a4b0c226928e35808079db3f0d48e686a474f08d",
+          "sha256": "821daf3c2f840c5a9942de15a4b0c226928e35808079db3f0d48e686a474f08d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:b5732141fc6bfe41e312ee4492c2680a3dcfba4a3951c8f6ab590b2e6c887a01",
+          "sha256": "b5732141fc6bfe41e312ee4492c2680a3dcfba4a3951c8f6ab590b2e6c887a01"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:f50e0562ad9f204659b90c6fe30d96708bcb59100e049770ca1da0c8668ebf0a",
+          "sha256": "f50e0562ad9f204659b90c6fe30d96708bcb59100e049770ca1da0c8668ebf0a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:df22aefb2425b9730ca87ff48af85ef2a6660e8b2e6e6d8c68be5a20690553e7",
+          "sha256": "df22aefb2425b9730ca87ff48af85ef2a6660e8b2e6e6d8c68be5a20690553e7"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:d4a1370a276e3e6dbe6194ec7d99a488cf79e9a03e7bdef06a347c9210c4f365",
+          "sha256": "d4a1370a276e3e6dbe6194ec7d99a488cf79e9a03e7bdef06a347c9210c4f365"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:c2666e8966b8fc4322e70d4b5ccfe363b30ebb0166fc619cc354214bad9718f1",
+          "sha256": "c2666e8966b8fc4322e70d4b5ccfe363b30ebb0166fc619cc354214bad9718f1"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jupp/blobs/sha256:903a19653cafcf340fce69eff4be1d4a5574dde54d87c5934aa269cb25050311",
+          "sha256": "903a19653cafcf340fce69eff4be1d4a5574dde54d87c5934aa269cb25050311"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    },
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "joe"
+  ],
+  "conflicts_with_reasons": [
+    "both install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jupp.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c135a8fa5cfb65b6ebb7d967614c98a73fed7824120202e962b6f2e84bce5ca"
+  },
+  "date_added": "2022-07-25T11:03:23+00:00"
+}

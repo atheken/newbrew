@@ -1,0 +1,86 @@
+{
+  "name": "riemann",
+  "full_name": "riemann",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Event stream processor",
+  "license": "EPL-1.0",
+  "homepage": "https://riemann.io/",
+  "versions": {
+    "stable": "0.3.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/riemann/riemann/releases/download/0.3.8/riemann-0.3.8.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "3234d4aea762f4aef53e1a4bcd1de5a9d3a234cec896687c1d67f70543abf9bd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/riemann/blobs/sha256:4164ea42f3e41494cb1bf28ae6d9f1645999794f570018cf0b72c0172ee88c37",
+          "sha256": "4164ea42f3e41494cb1bf28ae6d9f1645999794f570018cf0b72c0172ee88c37"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "You may also wish to install these Ruby gems:\n  riemann-client\n  riemann-tools\n  riemann-dash\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/riemann/bin/riemann",
+      "/home/linuxbrew/.linuxbrew/etc/riemann.config"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/riemann.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/riemann.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/riemann.rb",
+  "ruby_source_checksum": {
+    "sha256": "ab16179facf0eaae08a346aeb76fa588632e3baaec5586d5324045e489618df1"
+  },
+  "date_added": "2012-03-12T21:42:09-07:00"
+}

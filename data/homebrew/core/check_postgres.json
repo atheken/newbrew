@@ -1,0 +1,113 @@
+{
+  "name": "check_postgres",
+  "full_name": "check_postgres",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Monitor Postgres databases",
+  "license": "BSD-2-Clause",
+  "homepage": "https://bucardo.org/wiki/Check_postgres",
+  "versions": {
+    "stable": "2.26.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://bucardo.org/downloads/check_postgres-2.26.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a3b135c1a205179410ee7b694e528704ebc12358781c98d3763d835872366995"
+    },
+    "head": {
+      "url": "https://github.com/bucardo/check_postgres.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:af79787c77281d36ab2852d98a020ed94c4360e494ad58ac8fff38852c0f9cab",
+          "sha256": "af79787c77281d36ab2852d98a020ed94c4360e494ad58ac8fff38852c0f9cab"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:af79787c77281d36ab2852d98a020ed94c4360e494ad58ac8fff38852c0f9cab",
+          "sha256": "af79787c77281d36ab2852d98a020ed94c4360e494ad58ac8fff38852c0f9cab"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:b229c41507d787d0783e608304dedc416e9a5b7b343fd2cce91a12c9aa92d4b4",
+          "sha256": "b229c41507d787d0783e608304dedc416e9a5b7b343fd2cce91a12c9aa92d4b4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:f4023f4278d08648ad51b4c531a72e961e648736578efb14e6d44296af328496",
+          "sha256": "f4023f4278d08648ad51b4c531a72e961e648736578efb14e6d44296af328496"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:f4023f4278d08648ad51b4c531a72e961e648736578efb14e6d44296af328496",
+          "sha256": "f4023f4278d08648ad51b4c531a72e961e648736578efb14e6d44296af328496"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:b37868aa190bf21cf2272f588d4e815b0621c873d824e1a13ab15bea6ceb2d4e",
+          "sha256": "b37868aa190bf21cf2272f588d4e815b0621c873d824e1a13ab15bea6ceb2d4e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/check_postgres/blobs/sha256:15350f09487ed7fd501105b3abd217be8287cfdb4075b71673e179b1ba24cacc",
+          "sha256": "15350f09487ed7fd501105b3abd217be8287cfdb4075b71673e179b1ba24cacc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/check_postgres.rb",
+  "ruby_source_checksum": {
+    "sha256": "4296b466f457c03ed9b6d9b5e9bc0333b3dddca68b454161e7af52a1db456c64"
+  },
+  "date_added": "2014-06-27T15:48:03+01:00"
+}

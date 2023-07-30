@@ -1,0 +1,118 @@
+{
+  "name": "stgit",
+  "full_name": "stgit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manage Git commits as a stack of patches",
+  "license": "GPL-2.0-only",
+  "homepage": "https://stacked-git.github.io",
+  "versions": {
+    "stable": "2.3.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/stacked-git/stgit/releases/download/v2.3.1/stgit-2.3.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "edf590f9ffaea1c235aec11c411cee12486f354b3235fa9e84bec26e735f997c"
+    },
+    "head": {
+      "url": "https://github.com/stacked-git/stgit.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:e59422279e47bb2c8e5588fcd3c4a5bad9233b962d43cbd282178bfa2b611d73",
+          "sha256": "e59422279e47bb2c8e5588fcd3c4a5bad9233b962d43cbd282178bfa2b611d73"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:196d21bd030bebbd02d0befa148fb0a291309a5e21206c25ac8ded5d76a424d0",
+          "sha256": "196d21bd030bebbd02d0befa148fb0a291309a5e21206c25ac8ded5d76a424d0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:ca1029ca82063955c2deaffc9a5a9acc6d319b410ca176a4e0cfb4d316715ee0",
+          "sha256": "ca1029ca82063955c2deaffc9a5a9acc6d319b410ca176a4e0cfb4d316715ee0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:1864ebccbfeda15d42bcab878d86239ea7b65b2023e763b7cda7ec5cd21f8055",
+          "sha256": "1864ebccbfeda15d42bcab878d86239ea7b65b2023e763b7cda7ec5cd21f8055"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:736d2826f52a65411fc4c80536d71abf9150f9f5b10eed5ff25f017755cf2224",
+          "sha256": "736d2826f52a65411fc4c80536d71abf9150f9f5b10eed5ff25f017755cf2224"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:f77fee3ab160b6b00e157dea4fc814fbfba27ae60679d730876540a4278c8ba7",
+          "sha256": "f77fee3ab160b6b00e157dea4fc814fbfba27ae60679d730876540a4278c8ba7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:07a1f37b5afcc59ece49f8a13edeb037eb16a11368346d9b5ab0d6ec07041f5a",
+          "sha256": "07a1f37b5afcc59ece49f8a13edeb037eb16a11368346d9b5ab0d6ec07041f5a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "git"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stgit.rb",
+  "ruby_source_checksum": {
+    "sha256": "6376ebef4d7d3b47fa376d4f36ff4a88ae1c411362404c905c2b9e581ac466d8"
+  },
+  "date_added": "2010-08-22T10:50:49-07:00"
+}

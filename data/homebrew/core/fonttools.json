@@ -1,0 +1,109 @@
+{
+  "name": "fonttools",
+  "full_name": "fonttools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for manipulating fonts",
+  "license": "MIT",
+  "homepage": "https://github.com/fonttools/fonttools",
+  "versions": {
+    "stable": "4.41.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/e5/55/86c43d626bbe12fb384e61152ded4f76a280d30a022968c471f850cdb0d5/fonttools-4.41.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e16a9449f21a93909c5be2f5ed5246420f2316e94195dbfccb5238aaa38f9751"
+    },
+    "head": {
+      "url": "https://github.com/fonttools/fonttools.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:413a977a85604ab05490211ecbe2000e27bf0afb6cfffa9860c4d1fadb5b7541",
+          "sha256": "413a977a85604ab05490211ecbe2000e27bf0afb6cfffa9860c4d1fadb5b7541"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:15145fee081bfae216e6a0487821abf15bcc531a97a9cf47b4b5e0137f087706",
+          "sha256": "15145fee081bfae216e6a0487821abf15bcc531a97a9cf47b4b5e0137f087706"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:c6298830a7650f8614ac2fccde31894e0505d27a4366781f36d873fd69ed6864",
+          "sha256": "c6298830a7650f8614ac2fccde31894e0505d27a4366781f36d873fd69ed6864"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:1c64b514f6a89d03ebab166cbac6f49b04ac1b1debc45ecd91963fd2c9d259e2",
+          "sha256": "1c64b514f6a89d03ebab166cbac6f49b04ac1b1debc45ecd91963fd2c9d259e2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:56594396da2d57b9f5747f811724737231ab155bb1b3fbfbb2b8db1b86415307",
+          "sha256": "56594396da2d57b9f5747f811724737231ab155bb1b3fbfbb2b8db1b86415307"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:b69cb3763f34a0e81c792e9157c2ebcfbab076b0f689841854048d2713c17c03",
+          "sha256": "b69cb3763f34a0e81c792e9157c2ebcfbab076b0f689841854048d2713c17c03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fonttools/blobs/sha256:ba35761b3cb10cdfdf8ae304c0cc641f65c2750b676dd489893257456a02a41b",
+          "sha256": "ba35761b3cb10cdfdf8ae304c0cc641f65c2750b676dd489893257456a02a41b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fonttools.rb",
+  "ruby_source_checksum": {
+    "sha256": "e46552ba979c02db96b0b82b1d71a9c8d63e009d2964e6d362e53c2885fc620d"
+  },
+  "date_added": "2015-06-28T07:43:08+01:00"
+}

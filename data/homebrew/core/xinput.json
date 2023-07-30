@@ -1,0 +1,112 @@
+{
+  "name": "xinput",
+  "full_name": "xinput",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Utility to configure and test X input devices",
+  "license": "MIT",
+  "homepage": "https://gitlab.freedesktop.org/xorg/app/xinput",
+  "versions": {
+    "stable": "1.6.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/pub/individual/app/xinput-1.6.4.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ad04d00d656884d133110eeddc34e9c69e626ebebbbab04dc95791c2907057c8"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:751c32f1673020bda208c9885345be27da828cc2028e90e76e6ccc26f7d30d39",
+          "sha256": "751c32f1673020bda208c9885345be27da828cc2028e90e76e6ccc26f7d30d39"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:44bad70ccc176511f7a5d965d028b3ff27b66b820fec7d46c40bf8f72d0d14cd",
+          "sha256": "44bad70ccc176511f7a5d965d028b3ff27b66b820fec7d46c40bf8f72d0d14cd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:0cc93fd8d5b16c85a027871ddaeb81d25e72eea433f4bd16ea60d30ea75ecac6",
+          "sha256": "0cc93fd8d5b16c85a027871ddaeb81d25e72eea433f4bd16ea60d30ea75ecac6"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:fc941b892085cf448f2fb8f560d0f7bf4b1ae9d50bd3fde91c09618cfb38ddbc",
+          "sha256": "fc941b892085cf448f2fb8f560d0f7bf4b1ae9d50bd3fde91c09618cfb38ddbc"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:dfc3f16159f75487037348ee85a29d539376fd3e168417174403b4a3c0942a13",
+          "sha256": "dfc3f16159f75487037348ee85a29d539376fd3e168417174403b4a3c0942a13"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:e21d1963e880afe1acc8001912fc0d091797e664a5dce9d8e9738700139aea3f",
+          "sha256": "e21d1963e880afe1acc8001912fc0d091797e664a5dce9d8e9738700139aea3f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xinput/blobs/sha256:48811518afc1be944c7f11606493feeffa4acd7653ad98f80e2dd583e6144bf0",
+          "sha256": "48811518afc1be944c7f11606493feeffa4acd7653ad98f80e2dd583e6144bf0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "xorgproto"
+  ],
+  "dependencies": [
+    "libx11",
+    "libxext",
+    "libxi",
+    "libxinerama",
+    "libxrandr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xinput.rb",
+  "ruby_source_checksum": {
+    "sha256": "4bfefba1424bdfa549a33cb823031bb962158ea64978c5d84d0d6587aaa173cf"
+  },
+  "date_added": "2020-11-20T06:28:31+00:00"
+}

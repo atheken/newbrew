@@ -1,0 +1,149 @@
+{
+  "name": "groonga",
+  "full_name": "groonga",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fulltext search engine and column store",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://groonga.org/",
+  "versions": {
+    "stable": "13.0.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/groonga/groonga/releases/download/v13.0.4/groonga-13.0.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "38687ab060001aeabe0c0e05de5b90289543eeb98504fdde53c682e937a3d077"
+    },
+    "head": {
+      "url": "https://github.com/groonga/groonga.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:bca75923fa9fa35efec47d24c74a1b9a93cb1816960ed4ed3537ac73fbdb4f31",
+          "sha256": "bca75923fa9fa35efec47d24c74a1b9a93cb1816960ed4ed3537ac73fbdb4f31"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:a664ecba4fc0a5edcc729c14f6cd5b157d6b0f7b48e3451cd88b93a7e34bce38",
+          "sha256": "a664ecba4fc0a5edcc729c14f6cd5b157d6b0f7b48e3451cd88b93a7e34bce38"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:23f0f3a45a687251f5584bf05498e8e7e06efe05450a0e3ee8baad164c3d59fd",
+          "sha256": "23f0f3a45a687251f5584bf05498e8e7e06efe05450a0e3ee8baad164c3d59fd"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:7df6af58064e6f66cca74d19c6dce039877c4bac7785e6c25745793e721b6553",
+          "sha256": "7df6af58064e6f66cca74d19c6dce039877c4bac7785e6c25745793e721b6553"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:d81be17ee937b5a1c1a5fc9fe8e22fbe47726c0a93c81198a452bcf5bc396b9f",
+          "sha256": "d81be17ee937b5a1c1a5fc9fe8e22fbe47726c0a93c81198a452bcf5bc396b9f"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:e11b2766537cc0d008b8651f01b795521e359e1b37646b0e0038d4336b948470",
+          "sha256": "e11b2766537cc0d008b8651f01b795521e359e1b37646b0e0038d4336b948470"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/groonga/blobs/sha256:262da9bf93061a5bdb108fda4a85d6feda0250cd725da808196e1d35008561a1",
+          "sha256": "262da9bf93061a5bdb108fda4a85d6feda0250cd725da808196e1d35008561a1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "mecab",
+    "mecab-ipadic",
+    "msgpack",
+    "openssl@3",
+    "pcre",
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [
+    "lib/groonga/plugins/normalizers/",
+    "share/doc/groonga-normalizer-mysql/",
+    "lib/pkgconfig/groonga-normalizer-mysql.pc"
+  ],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/groonga.rb",
+  "ruby_source_checksum": {
+    "sha256": "687a08a96845ad2e9131cb67d1b14d0a3191e566dfceb7151d62ab8ad0a800d9"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "mecab",
+      "mecab-ipadic",
+      "msgpack",
+      "openssl@3",
+      "pcre",
+      "glib"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxcrypt"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2010-08-08T12:22:24-07:00"
+}

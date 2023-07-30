@@ -1,0 +1,109 @@
+{
+  "name": "bindgen",
+  "full_name": "bindgen",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automatically generates Rust FFI bindings to C (and some C++) libraries",
+  "license": "BSD-3-Clause",
+  "homepage": "https://rust-lang.github.io/rust-bindgen/",
+  "versions": {
+    "stable": "0.66.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.66.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "adedec96f2a00ce835a7c31656e09d6aae6ef55df9ca3d8d65d995f8f2542388"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:e314054f6b8dde2a61c23da989b1326be0837c0dfa5d9beb3cdfbb0f776fec62",
+          "sha256": "e314054f6b8dde2a61c23da989b1326be0837c0dfa5d9beb3cdfbb0f776fec62"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:57bbc2f94c859311e7cc50c39705c5c3742ae147fd5faa35bfdf33cbc5244f3f",
+          "sha256": "57bbc2f94c859311e7cc50c39705c5c3742ae147fd5faa35bfdf33cbc5244f3f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:85624edeb85739ad89ee0491cdc3c1e682b097443dafffe28e9ff48969730d4a",
+          "sha256": "85624edeb85739ad89ee0491cdc3c1e682b097443dafffe28e9ff48969730d4a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:b0e37f547dc0a121244eb71d200c0771551c09285f23174fe65c96306bd2869d",
+          "sha256": "b0e37f547dc0a121244eb71d200c0771551c09285f23174fe65c96306bd2869d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:c224c1f9347367bfeeb7ff56d7b6e90238276cb8385c1c4922d5d0df055e91b3",
+          "sha256": "c224c1f9347367bfeeb7ff56d7b6e90238276cb8385c1c4922d5d0df055e91b3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:476dc1854e0834c3d900a1932ad2d0c0d637220c5180aa065881a0a5bbc018f7",
+          "sha256": "476dc1854e0834c3d900a1932ad2d0c0d637220c5180aa065881a0a5bbc018f7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bindgen/blobs/sha256:a816fca8364e5092f0adea7dc6e3bdf041eff2099880267925a81f4d119739e4",
+          "sha256": "a816fca8364e5092f0adea7dc6e3bdf041eff2099880267925a81f4d119739e4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "llvm"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bindgen.rb",
+  "ruby_source_checksum": {
+    "sha256": "558a3660f728379143cfafd8294210470120b20d2eb165cfe918df853f3cc50f"
+  },
+  "date_added": "2022-11-15T03:21:09+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "ngspice",
+  "full_name": "ngspice",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Spice circuit simulator",
+  "license": "Cannot Represent",
+  "homepage": "https://ngspice.sourceforge.io/",
+  "versions": {
+    "stable": "40",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/40/ngspice-40.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e303ca7bc0f594e2d6aa84f68785423e6bf0c8dad009bb20be4d5742588e890d"
+    },
+    "head": {
+      "url": "https://git.code.sf.net/p/ngspice/ngspice.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:b50abb56b1275031efec85f77040673e06863541a8e6614e87ab230454641f22",
+          "sha256": "b50abb56b1275031efec85f77040673e06863541a8e6614e87ab230454641f22"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:dbcb4e346292bde2427661ffb4116b3a9b2cea0292ea44be8210d45fb5f4cb16",
+          "sha256": "dbcb4e346292bde2427661ffb4116b3a9b2cea0292ea44be8210d45fb5f4cb16"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:e29ab21f16e3e16f7412291c7c0cad9c812ae2496e59c150b759a8b3d4e84195",
+          "sha256": "e29ab21f16e3e16f7412291c7c0cad9c812ae2496e59c150b759a8b3d4e84195"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:4c3901f4a2e557787ede17558af36d3a9854a890c8110170c300c37adc5c1d40",
+          "sha256": "4c3901f4a2e557787ede17558af36d3a9854a890c8110170c300c37adc5c1d40"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:23023b8b6d7077f0f32a16cf8564efa4ffcb059b05fc985ec2432e804f2126ed",
+          "sha256": "23023b8b6d7077f0f32a16cf8564efa4ffcb059b05fc985ec2432e804f2126ed"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:4910cf0ed17fa9d0e237848b525a72879c1222229f2385ea84dc25f4db671776",
+          "sha256": "4910cf0ed17fa9d0e237848b525a72879c1222229f2385ea84dc25f4db671776"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ngspice/blobs/sha256:0492961d5b4fc1aabb0d9ad7be95f8018236e0ed683d7e8e522877fed1495d7d",
+          "sha256": "0492961d5b4fc1aabb0d9ad7be95f8018236e0ed683d7e8e522877fed1495d7d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "bison",
+    "libtool"
+  ],
+  "dependencies": [
+    "fftw",
+    "libngspice",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ngspice.rb",
+  "ruby_source_checksum": {
+    "sha256": "92d5561d0bb6a570158f6c1649959157c7306ab7716b2bc828411578ca73a2c0"
+  },
+  "date_added": "2010-10-31T16:44:12-07:00"
+}

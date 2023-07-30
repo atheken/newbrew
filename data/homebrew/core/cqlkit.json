@@ -1,0 +1,75 @@
+{
+  "name": "cqlkit",
+  "full_name": "cqlkit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool to export Cassandra query as CSV and JSON format",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/tenmax/cqlkit",
+  "versions": {
+    "stable": "0.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tenmax/cqlkit/releases/download/v0.3.3/cqlkit-0.3.3.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "0574b4b6fe893078e993a80f95a183b89955129ab8929f5032b7faacf611952c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cqlkit/blobs/sha256:779b43c2485ff60acb753002f28e2d8f0efa87088ab29da8e1214ffe704d63ef",
+          "sha256": "779b43c2485ff60acb753002f28e2d8f0efa87088ab29da8e1214ffe704d63ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cqlkit.rb",
+  "ruby_source_checksum": {
+    "sha256": "a76e7258fbcad7780d465b3cc420abca01393a6ab0490e9aa05e6eb53ada6ccc"
+  },
+  "date_added": "2020-05-20T22:42:01-04:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "influxdb-cli",
+  "full_name": "influxdb-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for managing resources in InfluxDB v2",
+  "license": "MIT",
+  "homepage": "https://influxdata.com/time-series-platform/influxdb/",
+  "versions": {
+    "stable": "2.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/influxdata/influx-cli.git",
+      "tag": "v2.7.3",
+      "revision": "8b962c7e750559f784dd2028633e5f324d4a8da2",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/influxdata/influx-cli.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11",
+          "sha256": "fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11",
+          "sha256": "fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11",
+          "sha256": "fae964b628ac9c22bcc64aaa7c94cf3a06ad49287d0de020cf83f595a6749c11"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431",
+          "sha256": "b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431",
+          "sha256": "b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431",
+          "sha256": "b42f314bf4427a447671806c3a2aef9d38d719ca20dd1f4bb119c9a6ea7ce431"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/influxdb-cli/blobs/sha256:2d401f88c1c460971c1813ac0003490d29440ffa9a056cc50e7a693328c18314",
+          "sha256": "2d401f88c1c460971c1813ac0003490d29440ffa9a056cc50e7a693328c18314"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "influxdb"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/influxdb-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "e17932d176408512119a146aae07a9e4e6153399e60403e105d851ad2d9bb2bb"
+  },
+  "date_added": "2021-07-30T16:17:58+00:00"
+}

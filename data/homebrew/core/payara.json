@@ -1,0 +1,105 @@
+{
+  "name": "payara",
+  "full_name": "payara",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Java EE application server forked from GlassFish",
+  "license": "CDDL-1.1 or (GPL-2.0-only with Classpath-exception-2.0)",
+  "homepage": "https://www.payara.fish",
+  "versions": {
+    "stable": "6.2023.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://search.maven.org/remotecontent?filepath=fish/payara/distributions/payara/6.2023.7/payara-6.2023.7.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "485d14bb54ba945fa5ad2e7b5fac125ba2de8bf2b1c872c48d0d8c4e6fcba545"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/payara/blobs/sha256:973909898bf2adff02959d6c842dc909d0f38201fa12d8264ff26b193909ed01",
+          "sha256": "973909898bf2adff02959d6c842dc909d0f38201fa12d8264ff26b193909ed01"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [
+    "glassfish"
+  ],
+  "conflicts_with_reasons": [
+    "both install the same scripts"
+  ],
+  "link_overwrite": [],
+  "caveats": "You may want to add the following to your .bash_profile:\n  export GLASSFISH_HOME=$HOMEBREW_PREFIX/opt/payara/libexec/glassfish\n  export PATH=${PATH}:${GLASSFISH_HOME}/bin\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/payara/libexec/glassfish/bin/asadmin",
+      "start-domain",
+      "--verbose",
+      "domain1"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "environment_variables": {
+      "GLASSFISH_HOME": "/home/linuxbrew/.linuxbrew/opt/payara/libexec/glassfish"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/opt/payara/libexec/glassfish"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/payara.rb",
+  "ruby_source_checksum": {
+    "sha256": "084864b780888917cb959cdfd7f72f4915833763edb5319756054c084d8e727e"
+  },
+  "date_added": "2017-08-06T08:23:00+02:00"
+}

@@ -1,0 +1,119 @@
+{
+  "name": "jigdo",
+  "full_name": "jigdo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to distribute very large files over the internet",
+  "license": "GPL-2.0-only with openvpn-openssl-exception",
+  "homepage": "https://www.einval.com/~steve/software/jigdo/",
+  "versions": {
+    "stable": "0.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.einval.com/~steve/software/jigdo/download/jigdo-0.8.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b1f08c802dd7977d90ea809291eb0a63888b3984cc2bf4c920ecc2a1952683da"
+    },
+    "head": {
+      "url": "https://git.einval.com/git/jigdo.git",
+      "branch": "upstream"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:7f40b31d3cbf93164a64189389a044f453c780696768bfc8003b8ab991dbcbce",
+          "sha256": "7f40b31d3cbf93164a64189389a044f453c780696768bfc8003b8ab991dbcbce"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:6e9590cc36dc2f0f3d75d565a1c5f99582c25ee41297d8ef67b04480c56e4bf5",
+          "sha256": "6e9590cc36dc2f0f3d75d565a1c5f99582c25ee41297d8ef67b04480c56e4bf5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:2a751d087e93881f023139a101fc21e7c9ee3d54fa24d0b210d64128271b3ad0",
+          "sha256": "2a751d087e93881f023139a101fc21e7c9ee3d54fa24d0b210d64128271b3ad0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:0b5a19248f88195a2c8b260d2c6645b2b9036f70de0270079b596c640bc982f7",
+          "sha256": "0b5a19248f88195a2c8b260d2c6645b2b9036f70de0270079b596c640bc982f7"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:500f02c729d51da1d7e1515111efc02adf900638c70980cfdadcd693f9c41726",
+          "sha256": "500f02c729d51da1d7e1515111efc02adf900638c70980cfdadcd693f9c41726"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:f57af0993dfde16f88d148b15f22fae331798b82a518515d9b8f4e53f93aabe8",
+          "sha256": "f57af0993dfde16f88d148b15f22fae331798b82a518515d9b8f4e53f93aabe8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/jigdo/blobs/sha256:132117193141114c71df0b3f4c0c193c754b9b70865190237b65424c79b30f50",
+          "sha256": "132117193141114c71df0b3f4c0c193c754b9b70865190237b65424c79b30f50"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "gettext"
+  ],
+  "dependencies": [
+    "berkeley-db@5",
+    "wget"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jigdo.rb",
+  "ruby_source_checksum": {
+    "sha256": "fdaf17ba5e3fc7866d75f3c6fa79cbecffc6b2ebe6ab7a1412a3f865b98cc158"
+  },
+  "date_added": "2012-03-21T06:50:52-07:00"
+}

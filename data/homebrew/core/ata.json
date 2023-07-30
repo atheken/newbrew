@@ -1,0 +1,105 @@
+{
+  "name": "ata",
+  "full_name": "ata",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ChatGPT in the terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/rikhuijzer/ata",
+  "versions": {
+    "stable": "2.0.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rikhuijzer/ata/archive/refs/tags/v2.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f3fa2d3d8b3098a6b765feb5cda341ef88b8749036230a5ff31b6287321009c3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:2b4786a053d334dcd765a3e17230417797e1b5115bbd363d1ff4f9524481ffb8",
+          "sha256": "2b4786a053d334dcd765a3e17230417797e1b5115bbd363d1ff4f9524481ffb8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:e714105c5a2ec7a527de714d4293c7651f2079b9748f11008f4668a9b11c784f",
+          "sha256": "e714105c5a2ec7a527de714d4293c7651f2079b9748f11008f4668a9b11c784f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:63a5d9625d26933f4a55c55dea6d63ed62ad5677637f06024e7a84ff09663dba",
+          "sha256": "63a5d9625d26933f4a55c55dea6d63ed62ad5677637f06024e7a84ff09663dba"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:376411fff331be6554e83c3c033ddb5015a37cafa25e5cb2562553338c543811",
+          "sha256": "376411fff331be6554e83c3c033ddb5015a37cafa25e5cb2562553338c543811"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:87f3a58a275e3dd6a7323dbb082c697b13bcb7de9cae932b3eed072857dd4885",
+          "sha256": "87f3a58a275e3dd6a7323dbb082c697b13bcb7de9cae932b3eed072857dd4885"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:bb61f5f197eebbaad4518ee4f7a68d3e93b89e486460092008ba52f862a45a2e",
+          "sha256": "bb61f5f197eebbaad4518ee4f7a68d3e93b89e486460092008ba52f862a45a2e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ata/blobs/sha256:89afa6c333f06af26f722b06e14bce766a39a463c9b1d7888989913da18c3c90",
+          "sha256": "89afa6c333f06af26f722b06e14bce766a39a463c9b1d7888989913da18c3c90"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/ata.rb",
+  "ruby_source_checksum": {
+    "sha256": "37bd789890bd91e56e5a3b44fa8c161ff21d478991b4fefff91eb6114026738a"
+  },
+  "date_added": "2023-04-18T14:37:30-04:00"
+}

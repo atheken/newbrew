@@ -1,0 +1,124 @@
+{
+  "name": "openvino",
+  "full_name": "openvino",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open Visual Inference And Optimization toolkit for AI inference",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.openvino.ai",
+  "versions": {
+    "stable": "2023.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openvinotoolkit/openvino/archive/refs/tags/2023.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c14cb22f5191a75ea15659c62baceb71333dc9ecf62139ce513f3e81e4544651"
+    },
+    "head": {
+      "url": "https://github.com/openvinotoolkit/openvino.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:3f7bbabe333d7afc837bbd54f21c0cc30c9c7dc454499eb0b58fa47a22890118",
+          "sha256": "3f7bbabe333d7afc837bbd54f21c0cc30c9c7dc454499eb0b58fa47a22890118"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:9eb9724ca57d169e782cc07938884aafee0069eeeff29040a7dc3ddcbdcb91dd",
+          "sha256": "9eb9724ca57d169e782cc07938884aafee0069eeeff29040a7dc3ddcbdcb91dd"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:61eff0e8a0dadf9ae05ccfabb0deca82c3371a0b6258171c3e9088d57a6b8278",
+          "sha256": "61eff0e8a0dadf9ae05ccfabb0deca82c3371a0b6258171c3e9088d57a6b8278"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:8cdad4c684e240c92b7cd7e06e332f3eeb701ae99697cd25f7409560b86d5bf1",
+          "sha256": "8cdad4c684e240c92b7cd7e06e332f3eeb701ae99697cd25f7409560b86d5bf1"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:e1ecce849119504607ab5087eb170b5c70d11701f7dc967e72841b609633b945",
+          "sha256": "e1ecce849119504607ab5087eb170b5c70d11701f7dc967e72841b609633b945"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:86344a31e0019f2deddec87d1490490956f648648a15e3b61fc34b8ce4526746",
+          "sha256": "86344a31e0019f2deddec87d1490490956f648648a15e3b61fc34b8ce4526746"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/openvino/blobs/sha256:6697d3ab9dbc74074b347d95042f9175a64b1a1228d1c830a5300c914bb66c35",
+          "sha256": "6697d3ab9dbc74074b347d95042f9175a64b1a1228d1c830a5300c914bb66c35"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "flatbuffers",
+    "pkg-config",
+    "protobuf@21",
+    "python@3.11",
+    "xbyak"
+  ],
+  "dependencies": [
+    "pugixml",
+    "snappy",
+    "tbb",
+    "opencl-clhpp-headers",
+    "opencl-headers",
+    "opencl-icd-loader"
+  ],
+  "test_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/openvino.rb",
+  "ruby_source_checksum": {
+    "sha256": "d60323b01ae1f548449169704e86e4228ab4e4a6fa380a49a5a26502ca6140a6"
+  },
+  "date_added": "2023-01-11T01:34:53+00:00"
+}

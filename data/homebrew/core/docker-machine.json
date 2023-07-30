@@ -1,0 +1,130 @@
+{
+  "name": "docker-machine",
+  "full_name": "docker-machine",
+  "tap": "homebrew/core",
+  "oldname": "boot2docker",
+  "oldnames": [
+    "boot2docker"
+  ],
+  "aliases": [
+    "boot2docker",
+    "boot2docker-cli"
+  ],
+  "versioned_formulae": [],
+  "desc": "Create Docker hosts locally and on cloud providers",
+  "license": "Apache-2.0",
+  "homepage": "https://docs.docker.com/machine",
+  "versions": {
+    "stable": "0.16.2-gitlab.21",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.com/gitlab-org/ci-cd/docker-machine.git",
+      "tag": "v0.16.2-gitlab.21",
+      "revision": "77bd8f5891e9808ae1cbda2e7cbfc7f661bfed77",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://gitlab.com/gitlab-org/ci-cd/docker-machine.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:5ab4a365a81c6d62f36a845275303001c4cd46a3399dc771aec48d9d42a88ded",
+          "sha256": "5ab4a365a81c6d62f36a845275303001c4cd46a3399dc771aec48d9d42a88ded"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:bf02b61e39fca0d55566c3bf256336bdfd1eb7a75a242ebcff9c7b1900525491",
+          "sha256": "bf02b61e39fca0d55566c3bf256336bdfd1eb7a75a242ebcff9c7b1900525491"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:b055697fe03a7756e31c7c85cdc102e8a2939497d991064b9f41c2bec8d3a8bb",
+          "sha256": "b055697fe03a7756e31c7c85cdc102e8a2939497d991064b9f41c2bec8d3a8bb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:9c123239926ffaf547194617a53a7ee6dcb07d3224c2cc991659e216d08a9ab1",
+          "sha256": "9c123239926ffaf547194617a53a7ee6dcb07d3224c2cc991659e216d08a9ab1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:8b85222137a669dcf3def6be8fd52693be915d441201dc7050f1cdc19c149470",
+          "sha256": "8b85222137a669dcf3def6be8fd52693be915d441201dc7050f1cdc19c149470"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:7f61fa7c797d4e65eac94618c15689084c415dc6e9abe9b0018c935dabb48f99",
+          "sha256": "7f61fa7c797d4e65eac94618c15689084c415dc6e9abe9b0018c935dabb48f99"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-machine/blobs/sha256:9522c86150d8741bdad3f9452975fecf4b4767108e85bd0416264e3b90a6fed7",
+          "sha256": "9522c86150d8741bdad3f9452975fecf4b4767108e85bd0416264e3b90a6fed7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "automake",
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "docker-machine-completion"
+  ],
+  "conflicts_with_reasons": [
+    "docker-machine already includes completion scripts"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/docker-machine/bin/docker-machine",
+      "start",
+      "default"
+    ],
+    "run_type": "immediate",
+    "environment_variables": {
+      "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/docker-machine.rb",
+  "ruby_source_checksum": {
+    "sha256": "74cd3294e080d4b94382b87101058606ef2cb1fe55c8ccb543040a8f82cb1fa3"
+  },
+  "date_added": "2015-03-31T01:07:22-07:00"
+}

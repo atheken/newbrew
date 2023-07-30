@@ -1,0 +1,109 @@
+{
+  "name": "datree",
+  "full_name": "datree",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool to run policies against Kubernetes manifests YAML files or Helm charts",
+  "license": "Apache-2.0",
+  "homepage": "https://datree.io/",
+  "versions": {
+    "stable": "1.9.19",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/datreeio/datree/archive/1.9.19.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a8b6bf3d3cf0e325590ba3901db6a00e1a268f4a0652f9892af3c7c98efe196b"
+    },
+    "head": {
+      "url": "https://github.com/datreeio/datree.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:275cf0f3c28393d717867f2d22a04bf626d1b819bec4e49e90e8f93ebf32da9e",
+          "sha256": "275cf0f3c28393d717867f2d22a04bf626d1b819bec4e49e90e8f93ebf32da9e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:313779ac5a9953737346a6b4ffd0f33b1992a406bf065f92db9cb3658e64de77",
+          "sha256": "313779ac5a9953737346a6b4ffd0f33b1992a406bf065f92db9cb3658e64de77"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:9abf7cc92fcbd039333ff189b6ddd620b3be7cabd7078c60e254c0667fee21a1",
+          "sha256": "9abf7cc92fcbd039333ff189b6ddd620b3be7cabd7078c60e254c0667fee21a1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:e8dbc00a2dc36b8e3aef0802b5cdb7ff93a28de799ce708f64a9ad1a1f1db254",
+          "sha256": "e8dbc00a2dc36b8e3aef0802b5cdb7ff93a28de799ce708f64a9ad1a1f1db254"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:299cb372940354ddb7b9849ba09e6bf777c541f703d1d4a892452bbb58f56f47",
+          "sha256": "299cb372940354ddb7b9849ba09e6bf777c541f703d1d4a892452bbb58f56f47"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:7ceb9370ceecf72744d60f1705df1bf65514f5a17ee3eed4b582587c66a3e10f",
+          "sha256": "7ceb9370ceecf72744d60f1705df1bf65514f5a17ee3eed4b582587c66a3e10f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/datree/blobs/sha256:6a786ae16a4d3a8ae959cdc9f6571df8e528822389f852c5ddaacb9c27995492",
+          "sha256": "6a786ae16a4d3a8ae959cdc9f6571df8e528822389f852c5ddaacb9c27995492"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/datree.rb",
+  "ruby_source_checksum": {
+    "sha256": "b0a1fd8a055391ad97a05c83adcbfcb3845bca41ec3bdbf8028f83d581c6a52e"
+  },
+  "date_added": "2021-08-23T16:03:35+00:00"
+}

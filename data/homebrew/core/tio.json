@@ -1,0 +1,113 @@
+{
+  "name": "tio",
+  "full_name": "tio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple TTY terminal I/O application",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://tio.github.io",
+  "versions": {
+    "stable": "2.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tio/tio/releases/download/v2.6/tio-2.6.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2ce4e8810eb620a40b2a69c4e89ed42df7e48a9ee70cba04d84c5a31aaf5764c"
+    },
+    "head": {
+      "url": "https://github.com/tio/tio.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:34f93f5534867425afa045aded22e02f39d1afeb5a9b6c0a434d781ff1dabe95",
+          "sha256": "34f93f5534867425afa045aded22e02f39d1afeb5a9b6c0a434d781ff1dabe95"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:f8cdd8d7a484523698a6f0833a956abe150f18fe8fa9f3baed626ab0781fece3",
+          "sha256": "f8cdd8d7a484523698a6f0833a956abe150f18fe8fa9f3baed626ab0781fece3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:2d3865ec09ff36c2acdeeb9c0cb5c3c98938c0c95601682b1a4c8e5f08d30497",
+          "sha256": "2d3865ec09ff36c2acdeeb9c0cb5c3c98938c0c95601682b1a4c8e5f08d30497"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:07604c84c5d3f8fe0d82ac0c398c347a3887ed21315ab90696d79ece745506e6",
+          "sha256": "07604c84c5d3f8fe0d82ac0c398c347a3887ed21315ab90696d79ece745506e6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:96e46463daad5d5dcc68c7615ed5f46d39f3ddbb59ff9ad3a7b4cf0919454d1a",
+          "sha256": "96e46463daad5d5dcc68c7615ed5f46d39f3ddbb59ff9ad3a7b4cf0919454d1a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:46f9024952364369fd038d6477802fa94cdc893beb24e6d3ae5bfdc079dd1b1a",
+          "sha256": "46f9024952364369fd038d6477802fa94cdc893beb24e6d3ae5bfdc079dd1b1a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tio/blobs/sha256:5fe8cb37bc544469f1ee03fc2fc6550b9131fe6e3c9bc070df1c0b154eef748f",
+          "sha256": "5fe8cb37bc544469f1ee03fc2fc6550b9131fe6e3c9bc070df1c0b154eef748f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "inih"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tio.rb",
+  "ruby_source_checksum": {
+    "sha256": "443e559887481d96d62d35c5fbea25ab2881ec301f15195168b9548f95c01119"
+  },
+  "date_added": "2019-11-26T00:18:32+00:00"
+}

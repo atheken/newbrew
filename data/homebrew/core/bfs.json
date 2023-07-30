@@ -1,0 +1,107 @@
+{
+  "name": "bfs",
+  "full_name": "bfs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Breadth-first version of find",
+  "license": "0BSD",
+  "homepage": "https://tavianator.com/projects/bfs.html",
+  "versions": {
+    "stable": "3.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tavianator/bfs/archive/3.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a38bb704201ed29f4e0b989fb2ab3791ca51c3eff90acfc31fff424579bbf962"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:367342e005ccaa8c3a575ec567ffd8dda530f9ced0b13f2a796297178d3def47",
+          "sha256": "367342e005ccaa8c3a575ec567ffd8dda530f9ced0b13f2a796297178d3def47"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:dcf63dc3886001cdb6caf9c97369751cc2b26e805d2dddd31622b82c5ffaa35b",
+          "sha256": "dcf63dc3886001cdb6caf9c97369751cc2b26e805d2dddd31622b82c5ffaa35b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:33ca6d4da0ab1a292b5370449545afa81f02106ff2764c49aab632bc20d242b7",
+          "sha256": "33ca6d4da0ab1a292b5370449545afa81f02106ff2764c49aab632bc20d242b7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:a3e74b2597fce21e2e36e787214b3d9832c22db22c58d3987b718436d9bae564",
+          "sha256": "a3e74b2597fce21e2e36e787214b3d9832c22db22c58d3987b718436d9bae564"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:29d42f0e8b5acc752998bf9e2b89fbe6ac8f3ef9b4b6941cf6c1e0dead449a85",
+          "sha256": "29d42f0e8b5acc752998bf9e2b89fbe6ac8f3ef9b4b6941cf6c1e0dead449a85"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:ab33de3d13063eb59c205d1e7ef2579020f5024bd71e17e2258b55d87e581ccd",
+          "sha256": "ab33de3d13063eb59c205d1e7ef2579020f5024bd71e17e2258b55d87e581ccd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bfs/blobs/sha256:c1c9c28b895956c0f81272ad5ab9c73bc93999fde4d7fa987f889f4250163123",
+          "sha256": "c1c9c28b895956c0f81272ad5ab9c73bc93999fde4d7fa987f889f4250163123"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "oniguruma",
+    "acl",
+    "libcap"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bfs.rb",
+  "ruby_source_checksum": {
+    "sha256": "1d8829bc2fe834af801b2e74c7a65e676e31a8b4fbd4b46f38b893a9d9e4a7df"
+  },
+  "date_added": "2023-07-20T13:07:17-07:00"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "cf4ocl",
+  "full_name": "cf4ocl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C Framework for OpenCL",
+  "license": "LGPL-3.0",
+  "homepage": "https://nunofachada.github.io/cf4ocl/",
+  "versions": {
+    "stable": "2.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/nunofachada/cf4ocl/archive/v2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "662c2cc4e035da3e0663be54efaab1c7fedc637955a563a85c332ac195d72cfa"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:918ad2b60fb6b57e75f4ed4c5d39e00be444540b6d6acf2ebd4a3aca65b2f379",
+          "sha256": "918ad2b60fb6b57e75f4ed4c5d39e00be444540b6d6acf2ebd4a3aca65b2f379"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:1dd45839fde1e811c48f46dbb2341aa58523b7b383fe63dd9455bac0b6341c44",
+          "sha256": "1dd45839fde1e811c48f46dbb2341aa58523b7b383fe63dd9455bac0b6341c44"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:fef74ca6cee236243b8f1a17567b92dab6a7c8d8409bfe70cc25af3c62046c11",
+          "sha256": "fef74ca6cee236243b8f1a17567b92dab6a7c8d8409bfe70cc25af3c62046c11"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:0fbae4ce46da802207e1ec4bc0c950505e19fa8c26e1d6cd214a02bbaaa7b3b4",
+          "sha256": "0fbae4ce46da802207e1ec4bc0c950505e19fa8c26e1d6cd214a02bbaaa7b3b4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:cc8b6ca2880efe29c48df37e31c72dc16e3826444ab73491e15ce4e17de0b7c6",
+          "sha256": "cc8b6ca2880efe29c48df37e31c72dc16e3826444ab73491e15ce4e17de0b7c6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cf4ocl/blobs/sha256:24717beaa49876d58f32115ed8ce7d6d9e25b298dcf96ce4170b58dd13f062b3",
+          "sha256": "24717beaa49876d58f32115ed8ce7d6d9e25b298dcf96ce4170b58dd13f062b3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "opencl-headers"
+  ],
+  "dependencies": [
+    "glib",
+    "opencl-icd-loader",
+    "pocl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cf4ocl.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1aaa16f88a64a7f27ff01be76da3d5e36f093cd0dea1ce3d3e786adabd459a3"
+  },
+  "date_added": "2016-07-16T07:13:16+01:00"
+}

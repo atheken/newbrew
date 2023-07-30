@@ -1,0 +1,116 @@
+{
+  "name": "yorkie",
+  "full_name": "yorkie",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Document store for collaborative applications",
+  "license": "Apache-2.0",
+  "homepage": "https://yorkie.dev/",
+  "versions": {
+    "stable": "0.4.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/yorkie-team/yorkie.git",
+      "tag": "v0.4.5",
+      "revision": "1b557be51471337d3c6949d5f9ed5634b3a677e2",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/yorkie-team/yorkie.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:5313b8aa6be605f7a303e1cca7707e2c3214e2f59a5473e7a346e2f2ad55c5de",
+          "sha256": "5313b8aa6be605f7a303e1cca7707e2c3214e2f59a5473e7a346e2f2ad55c5de"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:d443433d5c5de4ac7413020870b4dcbfc1ee1f48dbe0e77fac386a9854d9640c",
+          "sha256": "d443433d5c5de4ac7413020870b4dcbfc1ee1f48dbe0e77fac386a9854d9640c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:bf61f8d26ece55d46153c0c1528e4b0cb4825781c2456c19d679c7a4f80615b1",
+          "sha256": "bf61f8d26ece55d46153c0c1528e4b0cb4825781c2456c19d679c7a4f80615b1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:a366a4d408528c3892b85d996d93044f328d1ddc256cbed89345126bca7d009a",
+          "sha256": "a366a4d408528c3892b85d996d93044f328d1ddc256cbed89345126bca7d009a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:5c5d51e15463c279ffefe3ed6ac57c56748ca8ddeb3c7fe3b9faba300b164b4c",
+          "sha256": "5c5d51e15463c279ffefe3ed6ac57c56748ca8ddeb3c7fe3b9faba300b164b4c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:7a4fc95537c0c0c2b35739bf1e7f77c03268f33477cac850db48d00b2ef00133",
+          "sha256": "7a4fc95537c0c0c2b35739bf1e7f77c03268f33477cac850db48d00b2ef00133"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yorkie/blobs/sha256:992c71cdf1d367b5167b28c444db2da2e51caafbb146088e9d88d5cb2e72132d",
+          "sha256": "992c71cdf1d367b5167b28c444db2da2e51caafbb146088e9d88d5cb2e72132d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/yorkie/bin/yorkie",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var"
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yorkie.rb",
+  "ruby_source_checksum": {
+    "sha256": "ce3d93e8c7e230808bc6e5f134ca3ef708072708917f4f0e8d7abd9e6acb7f2a"
+  },
+  "date_added": "2022-05-30T09:06:00+00:00"
+}

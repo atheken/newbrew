@@ -1,0 +1,126 @@
+{
+  "name": "awscli",
+  "full_name": "awscli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "awscli@2"
+  ],
+  "versioned_formulae": [
+    "awscli@1"
+  ],
+  "desc": "Official Amazon AWS command-line interface",
+  "license": "Apache-2.0",
+  "homepage": "https://aws.amazon.com/cli/",
+  "versions": {
+    "stable": "2.13.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aws/aws-cli/archive/2.13.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "be48763e396d3b343098663bcf95aa8031d7e458b655e46a85537a09b30e6e2d"
+    },
+    "head": {
+      "url": "https://github.com/aws/aws-cli.git",
+      "branch": "v2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:70c224c92315f810a2aadb4860c33ab5a57d5a6b5b301d28ebb16f58bba0312e",
+          "sha256": "70c224c92315f810a2aadb4860c33ab5a57d5a6b5b301d28ebb16f58bba0312e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6547c15c2f5e18a79699cabce3551fd13923f904a1e10f28b64598f4b570c506",
+          "sha256": "6547c15c2f5e18a79699cabce3551fd13923f904a1e10f28b64598f4b570c506"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:b3386fc3401b3da56abc4347a2d2ecd306fd8628c7891024b396590bed908cda",
+          "sha256": "b3386fc3401b3da56abc4347a2d2ecd306fd8628c7891024b396590bed908cda"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:d3e35b6367578f872136051ed54274f3d27832aa3395d1e9910952c9966b007b",
+          "sha256": "d3e35b6367578f872136051ed54274f3d27832aa3395d1e9910952c9966b007b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:c2bb38d9da00d55e332cc870fb98f5d52cb0656281dc08513fa36de96169b5a4",
+          "sha256": "c2bb38d9da00d55e332cc870fb98f5d52cb0656281dc08513fa36de96169b5a4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:9991c79945e663dc05b079cdc846e0f219ea1b246c7644079ac43630980e1866",
+          "sha256": "9991c79945e663dc05b079cdc846e0f219ea1b246c7644079ac43630980e1866"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:83adf645eaf367de62f104016b857f8b9a77e682c0d2bb06e3dc1cd955844f86",
+          "sha256": "83adf645eaf367de62f104016b857f8b9a77e682c0d2bb06e3dc1cd955844f86"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "docutils",
+    "openssl@3",
+    "pycparser",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "mandoc"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The \"examples\" directory has been installed to:\n  $HOMEBREW_PREFIX/share/awscli/examples\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/awscli.rb",
+  "ruby_source_checksum": {
+    "sha256": "328dabb8e4865147999a6ffe8525d16be8d44819597ba790bf7e616ff2fecff7"
+  },
+  "date_added": "2014-03-28T13:17:14-07:00"
+}

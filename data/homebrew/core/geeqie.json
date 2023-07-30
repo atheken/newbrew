@@ -1,0 +1,136 @@
+{
+  "name": "geeqie",
+  "full_name": "geeqie",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight Gtk+ based image viewer",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.geeqie.org/",
+  "versions": {
+    "stable": "2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/BestImageViewer/geeqie/releases/download/v2.1/geeqie-2.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d0511b7840169d37e457880d1ab2a787c52b609a0ab8fa1a8a391e841fdd2dde"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:5dc3d8108dc89c601254d03d2fb205ff913677d3a510aab498a54002d508e2b6",
+          "sha256": "5dc3d8108dc89c601254d03d2fb205ff913677d3a510aab498a54002d508e2b6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:6eca40757daafea7f1f3263f8c77ce86a338a72a4f80dfa5be46d437d142ee17",
+          "sha256": "6eca40757daafea7f1f3263f8c77ce86a338a72a4f80dfa5be46d437d142ee17"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:70c05cc4f22c37536d25349b014107476ff280e11424f4775425de3cecf71e7a",
+          "sha256": "70c05cc4f22c37536d25349b014107476ff280e11424f4775425de3cecf71e7a"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:7666cdb78780d0c00bacebc4a31009ca5fea4bfdd4b0cbca759eb8503a44b84e",
+          "sha256": "7666cdb78780d0c00bacebc4a31009ca5fea4bfdd4b0cbca759eb8503a44b84e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:b666a29f80ff281e9ec6911462a2bc61e2dd0108d272829e5448c017e588f23b",
+          "sha256": "b666a29f80ff281e9ec6911462a2bc61e2dd0108d272829e5448c017e588f23b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:17265308454403a649990cb8fc949e5fdbd46197ad9c9f3ef8d8a4befa87ac94",
+          "sha256": "17265308454403a649990cb8fc949e5fdbd46197ad9c9f3ef8d8a4befa87ac94"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/geeqie/blobs/sha256:2cdba76dac3d5aff7cd0941b825b4e333ceec0096e7c17f1bc92319851d85a90",
+          "sha256": "2cdba76dac3d5aff7cd0941b825b4e333ceec0096e7c17f1bc92319851d85a90"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pandoc",
+    "pkg-config",
+    "yelp-tools"
+  ],
+  "dependencies": [
+    "adwaita-icon-theme",
+    "atk",
+    "cairo",
+    "evince",
+    "exiv2",
+    "ffmpegthumbnailer",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gspell",
+    "gtk+3",
+    "imagemagick",
+    "jpeg-turbo",
+    "libarchive",
+    "libtiff",
+    "libx11",
+    "little-cms2",
+    "pango",
+    "poppler",
+    "webp-pixbuf-loader"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "vim": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/geeqie.rb",
+  "ruby_source_checksum": {
+    "sha256": "674b1b9c6bf6e480a09015f6cba3f68cb897fe2a99544485f851838461fa6d88"
+  },
+  "date_added": "2010-05-28T12:30:29-07:00"
+}

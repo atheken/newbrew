@@ -1,0 +1,103 @@
+{
+  "name": "byacc",
+  "full_name": "byacc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "(Arguably) the best yacc variant",
+  "license": "Public Domain",
+  "homepage": "https://invisible-island.net/byacc/",
+  "versions": {
+    "stable": "20230521",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://invisible-mirror.net/archives/byacc/byacc-20230521.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5ad915a7d5833aa38a5e31bd077505666029c35e365dff8569fe4598eaa9fef2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:38ce343287827cb635395e53d6335d31022e05e07cded481ace466889c003615",
+          "sha256": "38ce343287827cb635395e53d6335d31022e05e07cded481ace466889c003615"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:9c0cda08a52207ffec61486dd83aab12002b67f0e650cd7eb9170dc3596016fa",
+          "sha256": "9c0cda08a52207ffec61486dd83aab12002b67f0e650cd7eb9170dc3596016fa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:f2498ba1b3d8beb6c7c29f11763f1971707f708bd56c0dcdb2fe058f66cce3cc",
+          "sha256": "f2498ba1b3d8beb6c7c29f11763f1971707f708bd56c0dcdb2fe058f66cce3cc"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:559fd17c57ee319a5f0ffa0b04b2f42ffc3a0a6dbf0e85e3a42dc9cda059218f",
+          "sha256": "559fd17c57ee319a5f0ffa0b04b2f42ffc3a0a6dbf0e85e3a42dc9cda059218f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:309accb76b2f5daa03813ccf640da8396bec1d0540f83a13e85ed41d6b64b4ea",
+          "sha256": "309accb76b2f5daa03813ccf640da8396bec1d0540f83a13e85ed41d6b64b4ea"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:420f2b6d7799a77f32c8ad2cd86b5a00218ad2019e2daa07f2d8f87559d3c242",
+          "sha256": "420f2b6d7799a77f32c8ad2cd86b5a00218ad2019e2daa07f2d8f87559d3c242"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/byacc/blobs/sha256:55dff71ab67cd1fc94db04da4501a5fe110d27bc18ce6918fa014c3ee1e423e3",
+          "sha256": "55dff71ab67cd1fc94db04da4501a5fe110d27bc18ce6918fa014c3ee1e423e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/byacc.rb",
+  "ruby_source_checksum": {
+    "sha256": "928d2f47d3881c2e68479d75a98e2a588d7b12253972727d43d6f5dc23ae74b3"
+  },
+  "date_added": "2012-06-28T22:16:46-07:00"
+}

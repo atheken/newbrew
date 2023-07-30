@@ -1,0 +1,103 @@
+{
+  "name": "html-xml-utils",
+  "full_name": "html-xml-utils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for manipulating HTML and XML files",
+  "license": "W3C",
+  "homepage": "https://www.w3.org/Tools/HTML-XML-utils/",
+  "versions": {
+    "stable": "8.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.w3.org/Tools/HTML-XML-utils/html-xml-utils-8.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5e84729ef36ccd3924d2872ed4ee6954c63332dca5400ba8eb4eaef1f2db4fb2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:61a7fa1820b923739046d869de9ecfbc5c13c5ac073da1a6e4fd63d6a61b25af",
+          "sha256": "61a7fa1820b923739046d869de9ecfbc5c13c5ac073da1a6e4fd63d6a61b25af"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:0148c9b6bfd501d437d0533c79aba9166bcace206b938b852186b08ec4702008",
+          "sha256": "0148c9b6bfd501d437d0533c79aba9166bcace206b938b852186b08ec4702008"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:4c6702650ee3b2a69abf343e531dde2ec22ccef5bee275f2715aa68536470f1a",
+          "sha256": "4c6702650ee3b2a69abf343e531dde2ec22ccef5bee275f2715aa68536470f1a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:596832bcf2700b76b8d35f4b1e973f6bf3a67c5f999015215582154aa2402684",
+          "sha256": "596832bcf2700b76b8d35f4b1e973f6bf3a67c5f999015215582154aa2402684"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:7f4d59ddda6304638418dc439db6d5c278443bf8a9d700e6bea06627116b33c3",
+          "sha256": "7f4d59ddda6304638418dc439db6d5c278443bf8a9d700e6bea06627116b33c3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:c1b0270881457aa0b1ca7092f6be52476e4c67cd2056cb4b9597f2cde1d36fb0",
+          "sha256": "c1b0270881457aa0b1ca7092f6be52476e4c67cd2056cb4b9597f2cde1d36fb0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/html-xml-utils/blobs/sha256:d263a0a8834c74df434744a26b09e44687b32fd8e5dd5940ebd58101afb2c6e0",
+          "sha256": "d263a0a8834c74df434744a26b09e44687b32fd8e5dd5940ebd58101afb2c6e0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/html-xml-utils.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec24e21b511d89347394e63054638b715f3ed664f3667c26b3ad4476c66512ab"
+  },
+  "date_added": "2010-04-06T18:34:19-07:00"
+}

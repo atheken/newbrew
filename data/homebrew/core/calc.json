@@ -1,0 +1,106 @@
+{
+  "name": "calc",
+  "full_name": "calc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Arbitrary precision calculator",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "http://www.isthe.com/chongo/tech/comp/calc/",
+  "versions": {
+    "stable": "2.14.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/calc/calc/2.14.2.0/calc-2.14.2.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "6ef6499b128f409bea7e819d98a1a36efba0ef6a80e68ae691b481832166e74d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:6ba5afb8adfbe3f3f11b0c20f1954cd51eda24950d2d0fea8078c5464715c09c",
+          "sha256": "6ba5afb8adfbe3f3f11b0c20f1954cd51eda24950d2d0fea8078c5464715c09c"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:e68eeea4a6d9a1dd02ef1a2cb2b2375234d21854bad1c89d398b4278762b5044",
+          "sha256": "e68eeea4a6d9a1dd02ef1a2cb2b2375234d21854bad1c89d398b4278762b5044"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:a464d08a162eab21f5a218f41a792bde13e5060921b48710e23c9a0e38d4af59",
+          "sha256": "a464d08a162eab21f5a218f41a792bde13e5060921b48710e23c9a0e38d4af59"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:ab2d44a8039808a37d83faca228391a9dbe4876ccb62897a12d862197bffccea",
+          "sha256": "ab2d44a8039808a37d83faca228391a9dbe4876ccb62897a12d862197bffccea"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:7fc7dc0cdbe3213e731db40d508bdce22ed07001b0c03e0ded9134a20a84bec0",
+          "sha256": "7fc7dc0cdbe3213e731db40d508bdce22ed07001b0c03e0ded9134a20a84bec0"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:b527eee4ab821fe04123d61a5d700e3717a3abc5a055d3056b4f22ad2feb2c6e",
+          "sha256": "b527eee4ab821fe04123d61a5d700e3717a3abc5a055d3056b4f22ad2feb2c6e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/calc/blobs/sha256:51a38cd1ed3eea3b1de20f5a4073b82c944c92ecdb72cd1ce60ce9efd9e84354",
+          "sha256": "51a38cd1ed3eea3b1de20f5a4073b82c944c92ecdb72cd1ce60ce9efd9e84354"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "readline",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/calc.rb",
+  "ruby_source_checksum": {
+    "sha256": "583c0c618b95a0fad3b1baf233f995bfc11fad3c9a1d1f5fc66c7989a1405539"
+  },
+  "date_added": "2010-01-17T09:11:51+00:00"
+}

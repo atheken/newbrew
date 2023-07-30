@@ -1,0 +1,105 @@
+{
+  "name": "brev",
+  "full_name": "brev",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool for managing workspaces provided by brev.dev",
+  "license": "MIT",
+  "homepage": "https://docs.brev.dev",
+  "versions": {
+    "stable": "0.6.252",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/brevdev/brev-cli/archive/refs/tags/v0.6.252.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7a95d51322008cd7e65905b79de3781035fc5626f08d90192f250bd69ce5146b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:79679ddf3aa740fc5610574ff2da4e36185c66f6a11460c250f9d13ed63294dd",
+          "sha256": "79679ddf3aa740fc5610574ff2da4e36185c66f6a11460c250f9d13ed63294dd"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:dab0ae7fbf626de33bdf9d52639171a6980a2d0badfabadd7155141b83ebe359",
+          "sha256": "dab0ae7fbf626de33bdf9d52639171a6980a2d0badfabadd7155141b83ebe359"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:f38fbed349106945a79a111f7e86f8d65c383994dd72d78d955c544a2a94f1bd",
+          "sha256": "f38fbed349106945a79a111f7e86f8d65c383994dd72d78d955c544a2a94f1bd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:96282d6cb8a201aa2d4e2fe374f73ce9b02f7eea87c02b56fd1561aa8a46211a",
+          "sha256": "96282d6cb8a201aa2d4e2fe374f73ce9b02f7eea87c02b56fd1561aa8a46211a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:be57e2c073d98f37720f1c4ce38e6bdc9a0ca5b434f131e553a8dfbf5b810a86",
+          "sha256": "be57e2c073d98f37720f1c4ce38e6bdc9a0ca5b434f131e553a8dfbf5b810a86"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:e18a5471a38eec89791b94869883eae95a685e6dfdedd8a9ad9b6bd85a441070",
+          "sha256": "e18a5471a38eec89791b94869883eae95a685e6dfdedd8a9ad9b6bd85a441070"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brev/blobs/sha256:b9658daa67b02c2fe7e3848900aa8958e6ea07c211e4130a77df29ed2ee371b0",
+          "sha256": "b9658daa67b02c2fe7e3848900aa8958e6ea07c211e4130a77df29ed2ee371b0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/brev.rb",
+  "ruby_source_checksum": {
+    "sha256": "d44ff9a5005d8e3c7415c6559cf5d0d6fcdf7b34ca0f896be99ac17de77dd7f8"
+  },
+  "date_added": "2022-02-16T02:35:26+00:00"
+}

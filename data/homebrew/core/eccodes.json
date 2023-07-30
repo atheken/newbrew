@@ -1,0 +1,110 @@
+{
+  "name": "eccodes",
+  "full_name": "eccodes",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Decode and encode messages in the GRIB 1/2 and BUFR 3/4 formats",
+  "license": "Apache-2.0",
+  "homepage": "https://confluence.ecmwf.int/display/ECC",
+  "versions": {
+    "stable": "2.31.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://confluence.ecmwf.int/download/attachments/45757960/eccodes-2.31.0-Source.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "808ecd2c11fbf2c3f9fc7a36f8c2965b343f3151011b58a1d6e7cc2e6b3cac5d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:f096f5b6cc3368263f87f2045febc8f16ceee16243f0f11993011315aa2e192c",
+          "sha256": "f096f5b6cc3368263f87f2045febc8f16ceee16243f0f11993011315aa2e192c"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:30cee1db8c83cc01ca33a8155218872686603c4069df2d096b7bc368ce8323c6",
+          "sha256": "30cee1db8c83cc01ca33a8155218872686603c4069df2d096b7bc368ce8323c6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:b56b7d22f554dcad15d693e6f4329cbc11732580c1648e62ba57a066fc3f2171",
+          "sha256": "b56b7d22f554dcad15d693e6f4329cbc11732580c1648e62ba57a066fc3f2171"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:e54e9c95ac0d7178bbfb0e27c03f487ac0c2b70b81f2bb34d5de67aba0d4af69",
+          "sha256": "e54e9c95ac0d7178bbfb0e27c03f487ac0c2b70b81f2bb34d5de67aba0d4af69"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:134bf4b2d228e6b05b72bfb43685fbe2b7fabd391ab4909a29c6d109fd8476d1",
+          "sha256": "134bf4b2d228e6b05b72bfb43685fbe2b7fabd391ab4909a29c6d109fd8476d1"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:713e7df8253e9632a64c6554212ae418fe1ec3f80aa19fa0623b7151cc19cd45",
+          "sha256": "713e7df8253e9632a64c6554212ae418fe1ec3f80aa19fa0623b7151cc19cd45"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/eccodes/blobs/sha256:8b0f7a231651764a349c061dd59769897ddc800831eeca8bdb2c8055c8a8d924",
+          "sha256": "8b0f7a231651764a349c061dd59769897ddc800831eeca8bdb2c8055c8a8d924"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gcc",
+    "libpng",
+    "netcdf",
+    "openjpeg"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/eccodes.rb",
+  "ruby_source_checksum": {
+    "sha256": "6bbb943d163e6c0f665b0a876cf4ebe8a782937962d3c8004c31697b312b85a2"
+  },
+  "date_added": "2018-05-13T14:21:39-04:00"
+}

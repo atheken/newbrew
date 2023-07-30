@@ -1,0 +1,113 @@
+{
+  "name": "dbhash",
+  "full_name": "dbhash",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Computes the SHA1 hash of schema and content of a SQLite database",
+  "license": "blessing",
+  "homepage": "https://www.sqlite.org/dbhash.html",
+  "versions": {
+    "stable": "3.42.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.sqlite.org/2023/sqlite-src-3420000.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "38ca56a317be37fb00bd92bc280d9b9209bd4008b297d483c41ec1f6079bfb6d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:97e299f95f672c0bcc64592cb156da5d7a1a61e7c3eaa1cf216aaab350bb0fb2",
+          "sha256": "97e299f95f672c0bcc64592cb156da5d7a1a61e7c3eaa1cf216aaab350bb0fb2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:1369d0255fabfcd24a5a2995735755615bc8cee92adb394ca98c82ba5839378c",
+          "sha256": "1369d0255fabfcd24a5a2995735755615bc8cee92adb394ca98c82ba5839378c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:9cb6d6c0473765280634f4dae8449d452f91bd547e00b55fc17d591db0428fde",
+          "sha256": "9cb6d6c0473765280634f4dae8449d452f91bd547e00b55fc17d591db0428fde"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:bb5f9004ffdac465c1e77b3404147c2b3f5f24d7255354fbcac405578c33e05d",
+          "sha256": "bb5f9004ffdac465c1e77b3404147c2b3f5f24d7255354fbcac405578c33e05d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:c7a53839b8377e23932d147335e8cb13e6600eafa01b20c3b62499d0d08a5a15",
+          "sha256": "c7a53839b8377e23932d147335e8cb13e6600eafa01b20c3b62499d0d08a5a15"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:a5b675011a297b720d27c4fbfae89b4b24fe1e3b65a99fb985072aac3b3523a2",
+          "sha256": "a5b675011a297b720d27c4fbfae89b4b24fe1e3b65a99fb985072aac3b3523a2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dbhash/blobs/sha256:40bdafc1b8525af0b0bade4dc48a24ce30fb4b3bb703006eec4a4f37b4e8cacc",
+          "sha256": "40bdafc1b8525af0b0bade4dc48a24ce30fb4b3bb703006eec4a4f37b4e8cacc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "tcl-tk": "build"
+    },
+    {
+      "sqlite": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dbhash.rb",
+  "ruby_source_checksum": {
+    "sha256": "d067a736bf711d90919c504710f4ad4e00ff9bf0a3dc56e81bc644a4be39a58b"
+  },
+  "date_added": "2016-10-07T16:53:15-07:00"
+}

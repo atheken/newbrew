@@ -1,0 +1,77 @@
+{
+  "name": "objc-run",
+  "full_name": "objc-run",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Use Objective-C files for shell script-like tasks",
+  "license": "MIT",
+  "homepage": "https://github.com/iljaiwas/objc-run",
+  "versions": {
+    "stable": "1.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/iljaiwas/objc-run/archive/1.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6d02a31764c457c4a6a9f5df0963d733d611ba873fc32672151ee02a05acd6f2"
+    },
+    "head": {
+      "url": "https://github.com/iljaiwas/objc-run.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/objc-run/blobs/sha256:951d50ad3ee4ebb9d0717b4df365870b44626195378b9d5c64bcf7b320e8cc14",
+          "sha256": "951d50ad3ee4ebb9d0717b4df365870b44626195378b9d5c64bcf7b320e8cc14"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/objc-run.rb",
+  "ruby_source_checksum": {
+    "sha256": "e4c6803f749577fb48849a1444cfc38dbf0ce2f2464929dbd5d523dd8d1dd2c4"
+  },
+  "date_added": "2014-01-20T11:07:26-08:00"
+}

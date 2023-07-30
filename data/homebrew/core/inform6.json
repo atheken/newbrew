@@ -1,0 +1,107 @@
+{
+  "name": "inform6",
+  "full_name": "inform6",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Design system for interactive fiction",
+  "license": "Artistic-2.0",
+  "homepage": "https://inform-fiction.org/inform6.html",
+  "versions": {
+    "stable": "6.41-r6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://ifarchive.org/if-archive/infocom/compilers/inform6/source/inform-6.41-r6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "609de4f5cfae611cc8e6f3333d7016bdb2e802fe39096c59db50c5b31e14b557"
+    },
+    "head": {
+      "url": "https://gitlab.com/DavidGriffith/inform6unix.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:3f375c1af6d193350be16319b80c545e53985b38cdc1988939c191ce45478703",
+          "sha256": "3f375c1af6d193350be16319b80c545e53985b38cdc1988939c191ce45478703"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:364bd6fa090ec1ca128cf678e2066e1aa3620df42b6d2b8bcf955206b9baa157",
+          "sha256": "364bd6fa090ec1ca128cf678e2066e1aa3620df42b6d2b8bcf955206b9baa157"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:492008bc56dc0468c0994dac47501a91ee02d179d747544b7e1cd1183b785d9c",
+          "sha256": "492008bc56dc0468c0994dac47501a91ee02d179d747544b7e1cd1183b785d9c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:368a1105afc2be3fa8448b91ee93f1d4e13a90e7f2236711a1f1f6bd88662613",
+          "sha256": "368a1105afc2be3fa8448b91ee93f1d4e13a90e7f2236711a1f1f6bd88662613"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:0aeaa2879d6ea06fb1373117115e239059da2ed04e68d9a647a13fcb34bea1e0",
+          "sha256": "0aeaa2879d6ea06fb1373117115e239059da2ed04e68d9a647a13fcb34bea1e0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:a7c8ba8cad52b5652188721bb5c7a98b490d6f23f2479a374d8784b80cdd9fa0",
+          "sha256": "a7c8ba8cad52b5652188721bb5c7a98b490d6f23f2479a374d8784b80cdd9fa0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/inform6/blobs/sha256:74616af11d9700f2ca7f0de9661ace30b5883d728fbb8bc8b91cdca9ffdc5f77",
+          "sha256": "74616af11d9700f2ca7f0de9661ace30b5883d728fbb8bc8b91cdca9ffdc5f77"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/inform6.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf256931417211e6167d711abe4d0a174cf1791497ecff01a0f205ab0d4db101"
+  },
+  "date_added": "2010-08-15T13:30:42-07:00"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "tailor",
+  "full_name": "tailor",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross-platform static analyzer and linter for Swift",
+  "license": "MIT",
+  "homepage": "https://sleekbyte.github.io/tailor/",
+  "versions": {
+    "stable": "0.12.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sleekbyte/tailor/releases/download/v0.12.0/tailor-0.12.0.tar",
+      "tag": null,
+      "revision": null,
+      "checksum": "ec3810b27e9a35ecdf3a21987f17cad86918240d773172264e9abbb1a7efc415"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tailor/blobs/sha256:44e1ad8a024ce513684ef98d5cf0087a0c89b7aebbbc3cf2d5905ab71771db54",
+          "sha256": "44e1ad8a024ce513684ef98d5cf0087a0c89b7aebbbc3cf2d5905ab71771db54"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tailor.rb",
+  "ruby_source_checksum": {
+    "sha256": "c379d70c8ece712da1ce024c835e843548eac061f37bda81783db5db3264eb6b"
+  },
+  "date_added": "2015-11-01T14:24:52-08:00"
+}

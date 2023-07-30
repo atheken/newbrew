@@ -1,0 +1,108 @@
+{
+  "name": "huggingface-cli",
+  "full_name": "huggingface-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Client library for huggingface.co hub",
+  "license": "Apache-2.0",
+  "homepage": "https://huggingface.co/docs/huggingface_hub/index",
+  "versions": {
+    "stable": "0.16.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/38/a5/eac7345cff754bfe84933a99811d720e892671cccfcac5ac023f66efdc5f/huggingface_hub-0.16.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "608c7d4f3d368b326d1747f91523dbd1f692871e8e2e7a4750314a2dd8b63e14"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:eec07b9196ccf36b6166292f51145f2987ee716a065f9148cd3d156333bb1a3c",
+          "sha256": "eec07b9196ccf36b6166292f51145f2987ee716a065f9148cd3d156333bb1a3c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:a55325e197c9464ab3f9b820e21c7a4bd1f6bbf7d34fa6d1d73822456bdc4ab5",
+          "sha256": "a55325e197c9464ab3f9b820e21c7a4bd1f6bbf7d34fa6d1d73822456bdc4ab5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:85b7ab22808ae9466d9977af8839907cad78ac0b151f7ab6ba802f620711185f",
+          "sha256": "85b7ab22808ae9466d9977af8839907cad78ac0b151f7ab6ba802f620711185f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:f3db41e3a10b4535bb92069b8d23e6391d0366dcce2ab891b9ae6b92335b57bf",
+          "sha256": "f3db41e3a10b4535bb92069b8d23e6391d0366dcce2ab891b9ae6b92335b57bf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:6f24225394678155b17bbfcbcbe997abbc4ab70f25378801b9f0e7e1ea449d01",
+          "sha256": "6f24225394678155b17bbfcbcbe997abbc4ab70f25378801b9f0e7e1ea449d01"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:58b9aa4b2ecfab65a83b676f64dfc797e192416a41f9a49a99dbf8933a1aa259",
+          "sha256": "58b9aa4b2ecfab65a83b676f64dfc797e192416a41f9a49a99dbf8933a1aa259"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/huggingface-cli/blobs/sha256:b5f5cbc2c8a08a28ba7d65f7a977ab3dd0f3e358d8c358c71936ef55091f5591",
+          "sha256": "b5f5cbc2c8a08a28ba7d65f7a977ab3dd0f3e358d8c358c71936ef55091f5591"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "git-lfs",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/huggingface-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "4c96300f2bd7f092951e79c572b0927aac5a4175dc7f566ab957df8935f56cba"
+  },
+  "date_added": "2022-10-29T17:46:45+00:00"
+}

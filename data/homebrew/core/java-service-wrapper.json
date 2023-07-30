@@ -1,0 +1,107 @@
+{
+  "name": "java-service-wrapper",
+  "full_name": "java-service-wrapper",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simplify the deployment, launch and monitoring of Java applications",
+  "license": "GPL-2.0-only",
+  "homepage": "https://wrapper.tanukisoftware.com/",
+  "versions": {
+    "stable": "3.5.54",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/wrapper/wrapper_src/Wrapper_3.5.54_20230512/wrapper_3.5.54_src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b75ea2d56aaf0eaaf8279b0395d79493af8303237fea858657a78c139ca3fa2e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:963631c202195828963a0e4f51084c653932146cc4f7a07df6d71c3093385a24",
+          "sha256": "963631c202195828963a0e4f51084c653932146cc4f7a07df6d71c3093385a24"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:978679a0359ccff57bd4c390ca3b177769d6ad7a0696e318456d467166dce13d",
+          "sha256": "978679a0359ccff57bd4c390ca3b177769d6ad7a0696e318456d467166dce13d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:8bbc33e86bc1420382447510fc97ed045646cfdd0e9926aa9671a2ddcdb1a78c",
+          "sha256": "8bbc33e86bc1420382447510fc97ed045646cfdd0e9926aa9671a2ddcdb1a78c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:c6dbfbdfb09a5403b653648ece2f749d074b22b1d45168801f209469c74f1d9e",
+          "sha256": "c6dbfbdfb09a5403b653648ece2f749d074b22b1d45168801f209469c74f1d9e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:364d3b98e673d49034f8cef5ef18392d22e9053c064a54906cba8f3549f6b481",
+          "sha256": "364d3b98e673d49034f8cef5ef18392d22e9053c064a54906cba8f3549f6b481"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:d6e62d97d66dcd8fc9a6fc48ea07b15cc0f049f160760dff6363959f3839dbfa",
+          "sha256": "d6e62d97d66dcd8fc9a6fc48ea07b15cc0f049f160760dff6363959f3839dbfa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/java-service-wrapper/blobs/sha256:36f48798bf4a7f995c03626fd3ed94267fb3847c112d804da52a1fd45403aab6",
+          "sha256": "36f48798bf4a7f995c03626fd3ed94267fb3847c112d804da52a1fd45403aab6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ant",
+    "openjdk@11",
+    "cunit"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/java-service-wrapper.rb",
+  "ruby_source_checksum": {
+    "sha256": "483f439c0139e21e94b19edf0911e69d93743384fdc83c0a70b2db3777024104"
+  },
+  "date_added": "2021-11-28T12:34:03+00:00"
+}

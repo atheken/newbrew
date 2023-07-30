@@ -1,0 +1,106 @@
+{
+  "name": "easyengine",
+  "full_name": "easyengine",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line control panel to manage WordPress sites",
+  "license": "MIT",
+  "homepage": "https://easyengine.io/",
+  "versions": {
+    "stable": "4.6.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/EasyEngine/easyengine/releases/download/v4.6.6/easyengine.phar",
+      "tag": null,
+      "revision": null,
+      "checksum": "4831c9bd224b1dca1cb40d1a519c3578d2c508cb55fb8464f3d1e5224aef5583"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c",
+          "sha256": "082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c",
+          "sha256": "082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c",
+          "sha256": "082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a",
+          "sha256": "d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a",
+          "sha256": "d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a",
+          "sha256": "d2ab3a3af702e3c2ae9424cdf5deb6f991782db76d2d47b2046fe2f57cb45b8a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/easyengine/blobs/sha256:082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c",
+          "sha256": "082306fcc2974440b5d709e6d21b39c8f1f435ef7540c87826425fade1100c2c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "dnsmasq",
+    "php"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/easyengine.rb",
+  "ruby_source_checksum": {
+    "sha256": "0aa43a9ff847ef2fbb3f586979019755b8fbd43018d0c1ecce8b96bbe23f50e6"
+  },
+  "date_added": "2018-11-28T06:23:45+01:00"
+}

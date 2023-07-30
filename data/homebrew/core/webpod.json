@@ -1,0 +1,75 @@
+{
+  "name": "webpod",
+  "full_name": "webpod",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Deploy websites and apps anywhere",
+  "license": "MIT",
+  "homepage": "https://webpod.dev",
+  "versions": {
+    "stable": "1.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/webpod/-/webpod-1.0.0.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "99b123e8d9f49b06d2dd0b886b81d2c2c64e510ba50eac2ba229e60b36719a7e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/webpod/blobs/sha256:711340b7e1ecf3cdf3f1b38d05abc4b2ab17831b172839bb9b5a9c5d0e6ff5fe",
+          "sha256": "711340b7e1ecf3cdf3f1b38d05abc4b2ab17831b172839bb9b5a9c5d0e6ff5fe"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/webpod.rb",
+  "ruby_source_checksum": {
+    "sha256": "72dcd6eadf22dd141e19bd9a9650de290acb80b4232540b967d1002af873df4b"
+  },
+  "date_added": "2023-07-14T09:23:25+02:00"
+}

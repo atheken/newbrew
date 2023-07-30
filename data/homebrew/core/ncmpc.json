@@ -1,0 +1,112 @@
+{
+  "name": "ncmpc",
+  "full_name": "ncmpc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Curses Music Player Daemon (MPD) client",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.musicpd.org/clients/ncmpc/",
+  "versions": {
+    "stable": "0.48",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.musicpd.org/download/ncmpc/0/ncmpc-0.48.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b4b2d27e518096de2a145ef5ddf86cf46f8ba1f849bf45c6d81183a38869b90c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:d972a5b7762fe82d28479c70396c5059a8f71d952839a365f76fc5e38624f611",
+          "sha256": "d972a5b7762fe82d28479c70396c5059a8f71d952839a365f76fc5e38624f611"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:75dd544ffb559ceeea3e7aef066f3ee12486864c982617db2e04a549976f5ef9",
+          "sha256": "75dd544ffb559ceeea3e7aef066f3ee12486864c982617db2e04a549976f5ef9"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:50707de0c5e3f299b813276238ffc657abdcde50e39af764775b7e375b9c5449",
+          "sha256": "50707de0c5e3f299b813276238ffc657abdcde50e39af764775b7e375b9c5449"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:f10ff27801dfd881e27dbdc4907f6d215e7f57c7a550c377639451ec17bb4d2a",
+          "sha256": "f10ff27801dfd881e27dbdc4907f6d215e7f57c7a550c377639451ec17bb4d2a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:76ada885150f68be3c5d0c470416afdccb09cb8ba640e67b0207e95804a830c3",
+          "sha256": "76ada885150f68be3c5d0c470416afdccb09cb8ba640e67b0207e95804a830c3"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:cd991f46b58f4975b1ed32f7403e9d09bbc6062de9d6f266a329c0be829417c7",
+          "sha256": "cd991f46b58f4975b1ed32f7403e9d09bbc6062de9d6f266a329c0be829417c7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncmpc/blobs/sha256:925a1263a32ebf02c6f23e886010b44e13158062d7ed1dadc13371b8b4350cd0",
+          "sha256": "925a1263a32ebf02c6f23e886010b44e13158062d7ed1dadc13371b8b4350cd0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "boost",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "libmpdclient",
+    "pcre2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ncmpc.rb",
+  "ruby_source_checksum": {
+    "sha256": "9a13cb5f374128c1ae33dd8dfe42554ba256ea954009608b0929dcddd0408831"
+  },
+  "date_added": "2010-01-31T15:30:00+01:00"
+}

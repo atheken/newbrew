@@ -1,0 +1,116 @@
+{
+  "name": "erofs-utils",
+  "full_name": "erofs-utils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Utilities for Enhanced Read-Only File System",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git",
+  "versions": {
+    "stable": "1.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git/snapshot/erofs-utils-1.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dbf1adaeff1bb8532b29a72c8a9e191938c9389946770dc763d3c59e6f320571"
+    },
+    "head": {
+      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:f69f0cd0038c11fb2aea11bcc4ea64efea05a9bd59dc7cd11a3cd0391643e9c1",
+          "sha256": "f69f0cd0038c11fb2aea11bcc4ea64efea05a9bd59dc7cd11a3cd0391643e9c1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:33abf25e1673da43ea17e8ec42865ee17a6a14a6561c98a8082da0c7dc20ab72",
+          "sha256": "33abf25e1673da43ea17e8ec42865ee17a6a14a6561c98a8082da0c7dc20ab72"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:188dbabd138c3adaddbb98dfc7b7d8aee02f2a2df29fa0a922a92dc49989a205",
+          "sha256": "188dbabd138c3adaddbb98dfc7b7d8aee02f2a2df29fa0a922a92dc49989a205"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:219bc7d4452196d2b7c16e25048d1c0094c5777a4a187fd4a54e1c216fb574f9",
+          "sha256": "219bc7d4452196d2b7c16e25048d1c0094c5777a4a187fd4a54e1c216fb574f9"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:a2e7466b73754bf949d77c3bf1498638cd00f08b008cab3e052849886cd3dc99",
+          "sha256": "a2e7466b73754bf949d77c3bf1498638cd00f08b008cab3e052849886cd3dc99"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:184bab00df67946bc8a2ce5b66fc6ada971d3548ca05d432f60f0db3c8b44607",
+          "sha256": "184bab00df67946bc8a2ce5b66fc6ada971d3548ca05d432f60f0db3c8b44607"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erofs-utils/blobs/sha256:147da6559e52fecb5054a9072821df9f76192903bf800eeccde257f8a45fca76",
+          "sha256": "147da6559e52fecb5054a9072821df9f76192903bf800eeccde257f8a45fca76"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "lz4",
+    "util-linux",
+    "libfuse@2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/erofs-utils.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf27540138976cb1ac8d382e3bf87eaed8b85a5e090846cc5d7df9728b7ba0a7"
+  },
+  "date_added": "2022-01-09T13:12:30+00:00"
+}

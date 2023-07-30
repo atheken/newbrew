@@ -1,0 +1,109 @@
+{
+  "name": "xmake",
+  "full_name": "xmake",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross-platform build utility based on Lua",
+  "license": "Apache-2.0",
+  "homepage": "https://xmake.io/",
+  "versions": {
+    "stable": "2.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/xmake-io/xmake/releases/download/v2.8.1/xmake-v2.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9ccd0b57709568b35b07510a8dcf98c22af6690ff15a0113d82bbe921f74f25f"
+    },
+    "head": {
+      "url": "https://github.com/xmake-io/xmake.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:8478eedd56e7059ba1096a27536b11d74619654112c46e19f25655fbfe959a4e",
+          "sha256": "8478eedd56e7059ba1096a27536b11d74619654112c46e19f25655fbfe959a4e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:a5025f899eb83ca524d4e8f9b44de00dc2841f4ad5be7c03af6e39035ff4810f",
+          "sha256": "a5025f899eb83ca524d4e8f9b44de00dc2841f4ad5be7c03af6e39035ff4810f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:cd13d9706445bca3d122f97e2e6956b995591a819fbb66d4b37eea648fa3a97c",
+          "sha256": "cd13d9706445bca3d122f97e2e6956b995591a819fbb66d4b37eea648fa3a97c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:508f5de2bf3585dfc9f43f140714b67c5308ce938ca2ae3f0d87d6d56cffa12b",
+          "sha256": "508f5de2bf3585dfc9f43f140714b67c5308ce938ca2ae3f0d87d6d56cffa12b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:a491484438c0bb35d92ff692f039cd348a49d9b3b5fa96702485c2e3229616b6",
+          "sha256": "a491484438c0bb35d92ff692f039cd348a49d9b3b5fa96702485c2e3229616b6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:49be2ecd0c67dcdbf50a60967df546ef43ebe585f0de6644f2ae14654ec55d24",
+          "sha256": "49be2ecd0c67dcdbf50a60967df546ef43ebe585f0de6644f2ae14654ec55d24"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xmake/blobs/sha256:524366ae366501074e9b50c07b5a2cc50ec054aba3e5e93997f7eb913cdd8a4c",
+          "sha256": "524366ae366501074e9b50c07b5a2cc50ec054aba3e5e93997f7eb913cdd8a4c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xmake.rb",
+  "ruby_source_checksum": {
+    "sha256": "309823fdffe530301ad5fde2b38e5ffe08d606fda257416ac2851b7cf9d134a1"
+  },
+  "date_added": "2016-01-11T09:47:47+00:00"
+}

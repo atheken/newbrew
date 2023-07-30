@@ -1,0 +1,122 @@
+{
+  "name": "ki18n",
+  "full_name": "ki18n",
+  "tap": "homebrew/core",
+  "oldname": "kde-ki18n",
+  "oldnames": [
+    "kde-ki18n"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "KDE Gettext-based UI text internationalization",
+  "license": "BSD-3-Clause and LGPL-2.0-or-later and (LGPL-2.1-only or LGPL-3.0-only)",
+  "homepage": "https://api.kde.org/frameworks/ki18n/html/index.html",
+  "versions": {
+    "stable": "5.108.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.kde.org/stable/frameworks/5.108/ki18n-5.108.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "59ef5eaf705478f498511b696b31db269861129d11987684a34802902c50ff4e"
+    },
+    "head": {
+      "url": "https://invent.kde.org/frameworks/ki18n.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:108783e584c1844712a64d5de1d3108b77c483e73e705cb1fef8b226d82b838b",
+          "sha256": "108783e584c1844712a64d5de1d3108b77c483e73e705cb1fef8b226d82b838b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:5da42df881893877dd99408c9a9bc196615dbbb7756bbd8f68473340d635adae",
+          "sha256": "5da42df881893877dd99408c9a9bc196615dbbb7756bbd8f68473340d635adae"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:aeb3bfea14add920845e057ac3611730458971c5404cf0c857ead8811b01fc97",
+          "sha256": "aeb3bfea14add920845e057ac3611730458971c5404cf0c857ead8811b01fc97"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:b1835e7d3890b4c45ea88fe954d222ab9183062f5b38605b0f636c9612717f25",
+          "sha256": "b1835e7d3890b4c45ea88fe954d222ab9183062f5b38605b0f636c9612717f25"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:a404f6cfbf36aa207584bbd4543b192286e468538db5b5234f5b20ee2be060fe",
+          "sha256": "a404f6cfbf36aa207584bbd4543b192286e468538db5b5234f5b20ee2be060fe"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:7997657796576cb71a8066f14de6184d08cca1cbafaefe3b7cdb34c7884ba567",
+          "sha256": "7997657796576cb71a8066f14de6184d08cca1cbafaefe3b7cdb34c7884ba567"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ki18n/blobs/sha256:f661c853e88c1325d336ae5efd44a203b20ad272a3c54d1fc28ce0674b698b5d",
+          "sha256": "f661c853e88c1325d336ae5efd44a203b20ad272a3c54d1fc28ce0674b698b5d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "extra-cmake-modules",
+    "graphviz",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "gettext",
+    "iso-codes",
+    "qt@5"
+  ],
+  "test_dependencies": [
+    "cmake",
+    "extra-cmake-modules"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ki18n.rb",
+  "ruby_source_checksum": {
+    "sha256": "e013e73673be386df04c004fcb593dcd6bb04ae4b47824451086aa46a5d624eb"
+  },
+  "date_added": "2021-03-20T09:32:53+00:00"
+}

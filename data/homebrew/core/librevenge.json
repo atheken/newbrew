@@ -1,0 +1,107 @@
+{
+  "name": "librevenge",
+  "full_name": "librevenge",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Base library for writing document import filters",
+  "license": "LGPL-2.1-or-later or MPL-2.0",
+  "homepage": "https://sourceforge.net/p/libwpd/wiki/librevenge/",
+  "versions": {
+    "stable": "0.0.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/libwpd/librevenge/librevenge-0.0.5/librevenge-0.0.5.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "106d0c44bb6408b1348b9e0465666fa83b816177665a22cd017e886c1aaeeb34"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:113a4ee5774cf6c3a58e4ea202b3ff39ef2d25f0500236b202d0d164b302dc8c",
+          "sha256": "113a4ee5774cf6c3a58e4ea202b3ff39ef2d25f0500236b202d0d164b302dc8c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:39b114185ac16a714309ebfbeb02264016a9b72b75d1a1da33bdd0cba42d8ba6",
+          "sha256": "39b114185ac16a714309ebfbeb02264016a9b72b75d1a1da33bdd0cba42d8ba6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:e46e76a7ca6022277a6d8be2d267ff2496434992b91c149dd59e70a79b31c9cc",
+          "sha256": "e46e76a7ca6022277a6d8be2d267ff2496434992b91c149dd59e70a79b31c9cc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:cf1a9383368a1c4a7c54c978815fcef64a1e2c64e66183a45e12be72ad8f3ab4",
+          "sha256": "cf1a9383368a1c4a7c54c978815fcef64a1e2c64e66183a45e12be72ad8f3ab4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:636e3e8ce0e3e775e9ccfaec62c22cd1987db4c50f56e5671cc3eb4bcb002b23",
+          "sha256": "636e3e8ce0e3e775e9ccfaec62c22cd1987db4c50f56e5671cc3eb4bcb002b23"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:64e6213d3ef01f6ace0b4e4f46e9b4098ddabe735eafb07a213a21454c47bca9",
+          "sha256": "64e6213d3ef01f6ace0b4e4f46e9b4098ddabe735eafb07a213a21454c47bca9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/librevenge/blobs/sha256:11fd00b1110acb46392ccc91a6fbb54261834a53e256e3d48d6c268e71d7c4b5",
+          "sha256": "11fd00b1110acb46392ccc91a6fbb54261834a53e256e3d48d6c268e71d7c4b5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/librevenge.rb",
+  "ruby_source_checksum": {
+    "sha256": "afb66d59834955de3c6a87155d6abffd2edafd3e7561a6e91aec56ea2707f1d6"
+  },
+  "date_added": "2014-06-14T20:44:17+01:00"
+}

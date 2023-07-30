@@ -1,0 +1,114 @@
+{
+  "name": "brpc",
+  "full_name": "brpc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Better RPC framework",
+  "license": "Apache-2.0",
+  "homepage": "https://brpc.apache.org/",
+  "versions": {
+    "stable": "1.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dlcdn.apache.org/brpc/1.5.0/apache-brpc-1.5.0-src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8afa1367d0c0ddb471decc8660ab7bdbfd45a027f7dfb6d18303990954f70105"
+    },
+    "head": {
+      "url": "https://github.com/apache/brpc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:1c075c56a2de92f802881875fea1734d63719f491f925ca9623e3d75b99293b2",
+          "sha256": "1c075c56a2de92f802881875fea1734d63719f491f925ca9623e3d75b99293b2"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:2e72aa583dc38d463318c54318800ab334e4d8880720c9f8835461e96a9bcced",
+          "sha256": "2e72aa583dc38d463318c54318800ab334e4d8880720c9f8835461e96a9bcced"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:77d272b5f9f6601bbd9ef7489fc374dec749345beae026ca9216a850d99f1a85",
+          "sha256": "77d272b5f9f6601bbd9ef7489fc374dec749345beae026ca9216a850d99f1a85"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:7dcc503d9307030e9c1c2bc57b4a361fc018b22a13fbb1d002a935dab6e66f96",
+          "sha256": "7dcc503d9307030e9c1c2bc57b4a361fc018b22a13fbb1d002a935dab6e66f96"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:f3dffdcfb518f908ab18d95921bec72fcc4897d569d315c273b3e5fef4777b26",
+          "sha256": "f3dffdcfb518f908ab18d95921bec72fcc4897d569d315c273b3e5fef4777b26"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:20f3c293101cc84726a8cd7770e8bf8138207e10d68675af63377aef62b62d32",
+          "sha256": "20f3c293101cc84726a8cd7770e8bf8138207e10d68675af63377aef62b62d32"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/brpc/blobs/sha256:e5c6a6661ec461a171a2590a98d7062f0b029a5a91dac68672c36884a3234674",
+          "sha256": "e5c6a6661ec461a171a2590a98d7062f0b029a5a91dac68672c36884a3234674"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "gflags",
+    "leveldb",
+    "openssl@3",
+    "protobuf@21"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/brpc.rb",
+  "ruby_source_checksum": {
+    "sha256": "c0400808556be2e0ea64dcd19d2a90a6f02985f0819eae6d24f59608d902da73"
+  },
+  "date_added": "2022-12-07T23:32:26+00:00"
+}

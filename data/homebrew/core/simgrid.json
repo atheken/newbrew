@@ -1,0 +1,110 @@
+{
+  "name": "simgrid",
+  "full_name": "simgrid",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Studies behavior of large-scale distributed systems",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://simgrid.org/",
+  "versions": {
+    "stable": "3.34",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.inria.fr/simgrid/simgrid/uploads/9bdf42319806680ee59c56210287ee1e/simgrid-3.34.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "161f1c6c0ebb588c587aea6388114307bb31b3c6d5332fa3dc678151f1d0564d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:2f33ab2f6763de557371c73e031f905cede78edb13d05e4303ddf8460bd06fea",
+          "sha256": "2f33ab2f6763de557371c73e031f905cede78edb13d05e4303ddf8460bd06fea"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:d1123201b2ca0a05c204f7656e66a70e13ad113d1076878118005c3340005b7f",
+          "sha256": "d1123201b2ca0a05c204f7656e66a70e13ad113d1076878118005c3340005b7f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:ced3f4e5ed8965eb888e99ba0d5decbcfc696a72c8b633af482ddeb5d92ddfb0",
+          "sha256": "ced3f4e5ed8965eb888e99ba0d5decbcfc696a72c8b633af482ddeb5d92ddfb0"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:3b9ef7cb555fc6d93e9bd2592e8d6b726ec442342283c2ce2736f57688995131",
+          "sha256": "3b9ef7cb555fc6d93e9bd2592e8d6b726ec442342283c2ce2736f57688995131"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:706004fb650b0b65fa61016fe1eeff690dec5614e1cecbc47deda950749a1e97",
+          "sha256": "706004fb650b0b65fa61016fe1eeff690dec5614e1cecbc47deda950749a1e97"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:596008e36e2b953ee077927c8116eefa4cfb5887b05aae0620f83b8303a047e3",
+          "sha256": "596008e36e2b953ee077927c8116eefa4cfb5887b05aae0620f83b8303a047e3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/simgrid/blobs/sha256:062b75f9346f437ef26f5c844c478d67b43bc9288c7511b626b245a671ed68eb",
+          "sha256": "062b75f9346f437ef26f5c844c478d67b43bc9288c7511b626b245a671ed68eb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [
+    "boost",
+    "graphviz",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/simgrid.rb",
+  "ruby_source_checksum": {
+    "sha256": "914ac3c5e27006fb59029e7ea53825af83700083f35688cc781859287a77cade"
+  },
+  "date_added": "2012-04-01T08:58:59-07:00"
+}

@@ -1,0 +1,124 @@
+{
+  "name": "ruby@3.0",
+  "full_name": "ruby@3.0",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "ruby@3.1",
+    "ruby@2.7",
+    "ruby@2.6",
+    "ruby@2.5",
+    "ruby@2.4"
+  ],
+  "desc": "Powerful, clean, object-oriented scripting language",
+  "license": "Ruby",
+  "homepage": "https://www.ruby-lang.org/",
+  "versions": {
+    "stable": "3.0.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.6.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b5cbee93e62d85cfb2a408c49fa30a74231ae8409c2b3858e5f5ea254d7ddbd1"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:52953d12f76fe563c57615b4e84b236fe7a27ec1fcfd52981dd26dd8d5235c42",
+          "sha256": "52953d12f76fe563c57615b4e84b236fe7a27ec1fcfd52981dd26dd8d5235c42"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:4926d6df56a8426bf6fac8eb35c08797c499e3c31ee74105e3ace0db2e323ca0",
+          "sha256": "4926d6df56a8426bf6fac8eb35c08797c499e3c31ee74105e3ace0db2e323ca0"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:cfb4c748ea9d6d8d93e7dba7c579648388925076e55cb2f2682af992cfdf247e",
+          "sha256": "cfb4c748ea9d6d8d93e7dba7c579648388925076e55cb2f2682af992cfdf247e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:dd9ea7b06117f1833d32b713f1d6e910a4faffa901defa9dde9caca4f8f6100f",
+          "sha256": "dd9ea7b06117f1833d32b713f1d6e910a4faffa901defa9dde9caca4f8f6100f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:d65fe8a1b8f789524510c3de2063e3cad8e406bde945f1ab976ee04de551f391",
+          "sha256": "d65fe8a1b8f789524510c3de2063e3cad8e406bde945f1ab976ee04de551f391"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:35a8757d94631d28ed89d2ba9e5d2e072d6abcd707dd275585e08cb145a189ed",
+          "sha256": "35a8757d94631d28ed89d2ba9e5d2e072d6abcd707dd275585e08cb145a189ed"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:d04b41e0aeb4155e22d69dc8fabc8d6fbf09703476b552b3de2de88322ec0654",
+          "sha256": "d04b41e0aeb4155e22d69dc8fabc8d6fbf09703476b552b3de2de88322ec0654"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libyaml",
+    "openssl@3",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "By default, binaries installed by gem will be placed into:\n  $HOMEBREW_PREFIX/lib/ruby/gems/3.0.0/bin\n\nYou may want to add this to your PATH.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ruby@3.0.rb",
+  "ruby_source_checksum": {
+    "sha256": "ddf4b93fc40f3ef20bd6115e324da3e2c722836086da745c59104a9ffe447289"
+  },
+  "date_added": "2022-02-07T11:54:24+00:00"
+}

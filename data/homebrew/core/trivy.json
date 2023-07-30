@@ -1,0 +1,109 @@
+{
+  "name": "trivy",
+  "full_name": "trivy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vulnerability scanner for container images, file systems, and Git repos",
+  "license": "Apache-2.0",
+  "homepage": "https://aquasecurity.github.io/trivy/",
+  "versions": {
+    "stable": "0.44.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aquasecurity/trivy/archive/refs/tags/v0.44.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "15914adfd0e86b35cde9f10afc23c0d12950768420de03ee82ecdd78d4cf3fec"
+    },
+    "head": {
+      "url": "https://github.com/aquasecurity/trivy.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:30a9f43dc95569a8848fd8925fd9fc56e2312470c844c14541280478d378ad92",
+          "sha256": "30a9f43dc95569a8848fd8925fd9fc56e2312470c844c14541280478d378ad92"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:94c7a0f32f4a97d0ecadb2b22c0b3e54253edd7c3e63e5f045629254c6fa8d57",
+          "sha256": "94c7a0f32f4a97d0ecadb2b22c0b3e54253edd7c3e63e5f045629254c6fa8d57"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:a8435be081e7cde712df105773e27709c3da22428163a0deee4f479fc7ffbc89",
+          "sha256": "a8435be081e7cde712df105773e27709c3da22428163a0deee4f479fc7ffbc89"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:066b746d292cfcafbab2735cebd5a241b857557446519ae1635e05c6b3919952",
+          "sha256": "066b746d292cfcafbab2735cebd5a241b857557446519ae1635e05c6b3919952"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:d3edde6d81881bfc3aad900ca5d89af15b1f6787c749ad42638cb8706522c5d3",
+          "sha256": "d3edde6d81881bfc3aad900ca5d89af15b1f6787c749ad42638cb8706522c5d3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:f48c7bc853190c300a587c858b08650e5b09a5b3d01ad4b715be74ed8b4ab281",
+          "sha256": "f48c7bc853190c300a587c858b08650e5b09a5b3d01ad4b715be74ed8b4ab281"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/trivy/blobs/sha256:8d0a3e4a6a3f970d37f3841baeed6c34a727a33dad69f2670e3fb313771ba9e3",
+          "sha256": "8d0a3e4a6a3f970d37f3841baeed6c34a727a33dad69f2670e3fb313771ba9e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/trivy.rb",
+  "ruby_source_checksum": {
+    "sha256": "ca3563bedc0bd5266d43c7a1ea8ceac78f529407726ceba82a71c956b044854d"
+  },
+  "date_added": "2022-03-15T01:37:44+00:00"
+}

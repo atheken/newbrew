@@ -1,0 +1,114 @@
+{
+  "name": "weasyprint",
+  "full_name": "weasyprint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Convert HTML to PDF",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.courtbouillon.org/weasyprint",
+  "versions": {
+    "stable": "59.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/1d/69/11343bbb46d4f2a311677058e19cc2f7bc55a769b64c547a64ea1e2b6045/weasyprint-59.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "223a76636b3744eaa4ab8a2885f50cf46cf8ebb1acb99b5276d02feccf507492"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:72a379987efd129d2d90b83a643332114d2c3e99047c89bda9952341a24c77d8",
+          "sha256": "72a379987efd129d2d90b83a643332114d2c3e99047c89bda9952341a24c77d8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:e86bfb868b1fe9da6538dc082cf129269a4de8275b75a9983601731ed6722940",
+          "sha256": "e86bfb868b1fe9da6538dc082cf129269a4de8275b75a9983601731ed6722940"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:b433a97422844a8ebc39d48f281831d8086a4f7e37a72c1620b7d76e92f75939",
+          "sha256": "b433a97422844a8ebc39d48f281831d8086a4f7e37a72c1620b7d76e92f75939"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:2b300d6980b0ad9dad544194ed56a94bcbba7b72b625ff76a6453e1abe47fdaa",
+          "sha256": "2b300d6980b0ad9dad544194ed56a94bcbba7b72b625ff76a6453e1abe47fdaa"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:838004b1ea224acc51e0281744faa3539ebc35e31b710df90f5a692d609acaf6",
+          "sha256": "838004b1ea224acc51e0281744faa3539ebc35e31b710df90f5a692d609acaf6"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:59a5d3de132056fd79c761b17bc18972587ac6d88fa5911d9d9c35f945c5e252",
+          "sha256": "59a5d3de132056fd79c761b17bc18972587ac6d88fa5911d9d9c35f945c5e252"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weasyprint/blobs/sha256:42d971021c83213e6617f8d93b95a7d1c0eddd2fd87459afb31ac45203dd2c8e",
+          "sha256": "42d971021c83213e6617f8d93b95a7d1c0eddd2fd87459afb31ac45203dd2c8e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "cffi",
+    "fonttools",
+    "pango",
+    "pillow",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/weasyprint.rb",
+  "ruby_source_checksum": {
+    "sha256": "5cd118255158319d5f961beb4cdb8a0cc94b3a2cb69c9c58f163d59253abd68b"
+  },
+  "date_added": "2022-09-16T04:20:28+00:00"
+}

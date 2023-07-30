@@ -1,0 +1,113 @@
+{
+  "name": "libngspice",
+  "full_name": "libngspice",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Spice circuit simulator as shared library",
+  "license": "Cannot Represent",
+  "homepage": "https://ngspice.sourceforge.io/",
+  "versions": {
+    "stable": "40",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/40/ngspice-40.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e303ca7bc0f594e2d6aa84f68785423e6bf0c8dad009bb20be4d5742588e890d"
+    },
+    "head": {
+      "url": "https://git.code.sf.net/p/ngspice/ngspice.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:94c62857772079959572fb5531bfaff1760587ee6ffdeffd347a2e0ae6d0dba3",
+          "sha256": "94c62857772079959572fb5531bfaff1760587ee6ffdeffd347a2e0ae6d0dba3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:809effc0b4ace2682dd7a7fdabcbb944a165d186371ce07caf1c9b829a28db7b",
+          "sha256": "809effc0b4ace2682dd7a7fdabcbb944a165d186371ce07caf1c9b829a28db7b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:1a7a9bc7bc98c0f12139ff6b1c2fe17640a80fef7dffb9ecd733083d3ef91c6c",
+          "sha256": "1a7a9bc7bc98c0f12139ff6b1c2fe17640a80fef7dffb9ecd733083d3ef91c6c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:a5ac75e3210913fa6e0fcd797b4e0b4751726a2c135534ed2155aca06bf64e2f",
+          "sha256": "a5ac75e3210913fa6e0fcd797b4e0b4751726a2c135534ed2155aca06bf64e2f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:bd9f509b6afc0bbf420425e81ce28f91da99a6eacda3e78f786a29ad60de6808",
+          "sha256": "bd9f509b6afc0bbf420425e81ce28f91da99a6eacda3e78f786a29ad60de6808"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:ea8c715b7aa3f06b1e00d5737a382850eb478aedd9a1b910b78b343211b83cb4",
+          "sha256": "ea8c715b7aa3f06b1e00d5737a382850eb478aedd9a1b910b78b343211b83cb4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libngspice/blobs/sha256:8fc02026eee4e3b859bb0d931915f14b1d4972dc6e472a5bca4d03bfafc841ce",
+          "sha256": "8fc02026eee4e3b859bb0d931915f14b1d4972dc6e472a5bca4d03bfafc841ce"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "bison",
+    "flex",
+    "libtool"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libngspice.rb",
+  "ruby_source_checksum": {
+    "sha256": "99d5ec33ca41824ade9b77430080b0e966f47562a4cdd9c2f33e81f5247ebb25"
+  },
+  "date_added": "2016-09-02T07:44:29+01:00"
+}

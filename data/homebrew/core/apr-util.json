@@ -1,0 +1,119 @@
+{
+  "name": "apr-util",
+  "full_name": "apr-util",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Companion library to apr, the Apache Portable Runtime library",
+  "license": "Apache-2.0",
+  "homepage": "https://apr.apache.org/",
+  "versions": {
+    "stable": "1.6.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=apr/apr-util-1.6.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:cb73075171b2079d2b8e8028f42766dffa5db08882261c3f5aff59d8eb9638a9",
+          "sha256": "cb73075171b2079d2b8e8028f42766dffa5db08882261c3f5aff59d8eb9638a9"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:e4a7a42c82ae44bb192b2f718af4ced48d34560325b63d5c653a5c569edf759f",
+          "sha256": "e4a7a42c82ae44bb192b2f718af4ced48d34560325b63d5c653a5c569edf759f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:689fd5b76d98449ae31a78ac1380412248ce10a91409c7c1e16d4e2efbd2a32e",
+          "sha256": "689fd5b76d98449ae31a78ac1380412248ce10a91409c7c1e16d4e2efbd2a32e"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:127d4d4523d49a73e7dbf610f3e439ac2051a383edbf28cc18438faf78945ef0",
+          "sha256": "127d4d4523d49a73e7dbf610f3e439ac2051a383edbf28cc18438faf78945ef0"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:1d6b4a8fed8cbec1e7056432a378b27455454f7b69de61a227d452a7b4671551",
+          "sha256": "1d6b4a8fed8cbec1e7056432a378b27455454f7b69de61a227d452a7b4671551"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:92bfab4310f0b384081f1997054f207e0d03c97e067407a328e19148a0132375",
+          "sha256": "92bfab4310f0b384081f1997054f207e0d03c97e067407a328e19148a0132375"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apr-util/blobs/sha256:5ad68f7525d3368b7e1fae3157c0338fffad2d33a907413c87ce8728c2e19378",
+          "sha256": "5ad68f7525d3368b7e1fae3157c0338fffad2d33a907413c87ce8728c2e19378"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":shadowed_by_macos",
+    "explanation": "Apple's CLT provides apr (but not apr-util)"
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "apr",
+    "openssl@3",
+    "mawk",
+    "unixodbc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "expat",
+    "libxcrypt",
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apr-util.rb",
+  "ruby_source_checksum": {
+    "sha256": "378f2c61679efe52e8de487e481f9f9b00866b0e2a1ecea4ea84bea2a4c770c8"
+  },
+  "date_added": "2015-01-06T17:29:06+00:00"
+}

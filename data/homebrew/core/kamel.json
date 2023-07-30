@@ -1,0 +1,109 @@
+{
+  "name": "kamel",
+  "full_name": "kamel",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Apache Camel K CLI",
+  "license": "Apache-2.0",
+  "homepage": "https://camel.apache.org/",
+  "versions": {
+    "stable": "2.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/apache/camel-k/archive/refs/tags/v2.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "74ae95ef3e21d0241ffd54024780b913aad08b10c41a2af94f017c38a5c68220"
+    },
+    "head": {
+      "url": "https://github.com/apache/camel-k.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090",
+          "sha256": "ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090",
+          "sha256": "ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090",
+          "sha256": "ea26b459df7510c41a7bd6ac1a4156db3bd65f8fe865892189d91e597bbb4090"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03",
+          "sha256": "77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03",
+          "sha256": "77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03",
+          "sha256": "77f94e969a0a5b5a50df9cb468636f1fa37fc4e664b3d6f66d42f7378b2d2c03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kamel/blobs/sha256:5d06ff06c79216ea04423f85d9861e41904676e01ac75b5c642745ec1674038b",
+          "sha256": "5d06ff06c79216ea04423f85d9861e41904676e01ac75b5c642745ec1674038b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kamel.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ef1605d24d59497508e5bb9805d4cb40902f1f6939152eed517abf3d8bd5276"
+  },
+  "date_added": "2020-05-05T11:46:34+00:00"
+}

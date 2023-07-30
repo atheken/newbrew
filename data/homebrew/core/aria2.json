@@ -1,0 +1,116 @@
+{
+  "name": "aria2",
+  "full_name": "aria2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Download with resuming and segmented downloading",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://aria2.github.io/",
+  "versions": {
+    "stable": "1.36.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aria2/aria2/releases/download/release-1.36.0/aria2-1.36.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "58d1e7608c12404f0229a3d9a4953d0d00c18040504498b483305bcb3de907a5"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:731a149db13b22d75a8b83822eabefabe3242208db9e683f5124cdd0d0c72411",
+          "sha256": "731a149db13b22d75a8b83822eabefabe3242208db9e683f5124cdd0d0c72411"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:1c89b3ecb3198cb66b0ee42205f237380115ee593c7af6c13d977f79c4c2ba9d",
+          "sha256": "1c89b3ecb3198cb66b0ee42205f237380115ee593c7af6c13d977f79c4c2ba9d"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:565453d34817d8a867db81957c96bbcc810e3fa3837926aa170ff11f03dfe001",
+          "sha256": "565453d34817d8a867db81957c96bbcc810e3fa3837926aa170ff11f03dfe001"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:b81e1f4fd082425ded765ee045a5c398d3fb8dc2ed2419938ce4c6ae2f58e376",
+          "sha256": "b81e1f4fd082425ded765ee045a5c398d3fb8dc2ed2419938ce4c6ae2f58e376"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:ac0d8d8b627ff85c9aae7b56dc26cde0bae0c5641e4fe6b7381b9205b3e84b6a",
+          "sha256": "ac0d8d8b627ff85c9aae7b56dc26cde0bae0c5641e4fe6b7381b9205b3e84b6a"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:43bdd51855a48f06ee8d8c891575ca7cf5329147c706a0c8f70db6c6f45680b3",
+          "sha256": "43bdd51855a48f06ee8d8c891575ca7cf5329147c706a0c8f70db6c6f45680b3"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aria2/blobs/sha256:2a6786075c3cfb617e3691f193a7a8450b10b211022326b56d0aebc42f44d22f",
+          "sha256": "2a6786075c3cfb617e3691f193a7a8450b10b211022326b56d0aebc42f44d22f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gettext",
+    "libssh2",
+    "openssl@3",
+    "sqlite"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aria2.rb",
+  "ruby_source_checksum": {
+    "sha256": "57256718f6c5ec4b13f913bc4efd27d6e0e35e9db6b8f1cf4f802d8a730a00e5"
+  },
+  "date_added": "2009-09-14T20:33:46+01:00"
+}

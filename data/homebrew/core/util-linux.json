@@ -1,0 +1,124 @@
+{
+  "name": "util-linux",
+  "full_name": "util-linux",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Collection of Linux utilities",
+  "license": "BSD-3-Clause and BSD-4-Clause-UC and GPL-2.0-only and GPL-2.0-or-later and GPL-3.0-or-later and LGPL-2.1-or-later and Public Domain",
+  "homepage": "https://github.com/util-linux/util-linux",
+  "versions": {
+    "stable": "2.39.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.39/util-linux-2.39.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "890ae8ff810247bd19e274df76e8371d202cda01ad277681b0ea88eeaa00286b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:787858de2dbf1a9e70b34cb214a1e2bcea78956d66ec48fc2269d4dc298d5cc0",
+          "sha256": "787858de2dbf1a9e70b34cb214a1e2bcea78956d66ec48fc2269d4dc298d5cc0"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:3dc196981c4f5a365dce73b2bdc2db63ac8d3c4c346668fde95b18ce4fb1e6b1",
+          "sha256": "3dc196981c4f5a365dce73b2bdc2db63ac8d3c4c346668fde95b18ce4fb1e6b1"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:ac346347e235e1794febabacbb3ee532050ed03ffbf0283c46547ee0ba08d003",
+          "sha256": "ac346347e235e1794febabacbb3ee532050ed03ffbf0283c46547ee0ba08d003"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:469c8797e9e9fd36e797513005c4ff5e79ed64b35a2eedacb2df995e8d3c0a93",
+          "sha256": "469c8797e9e9fd36e797513005c4ff5e79ed64b35a2eedacb2df995e8d3c0a93"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:cf96a78ccd4bdfcbaca3d6eb34eddcf28a73b4196705e5748c5271480fe2e4b6",
+          "sha256": "cf96a78ccd4bdfcbaca3d6eb34eddcf28a73b4196705e5748c5271480fe2e4b6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:f38b58e76ce1975773a2b2c076813d8ab60b8219d28b5c426c592ce85a8d42e2",
+          "sha256": "f38b58e76ce1975773a2b2c076813d8ab60b8219d28b5c426c592ce85a8d42e2"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/util-linux/blobs/sha256:3e38d81b856507fb126b26eaba4d20459dbe06993e26e798786954de730052ab",
+          "sha256": "3e38d81b856507fb126b26eaba4d20459dbe06993e26e798786954de730052ab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":shadowed_by_macos",
+    "explanation": "macOS provides the uuid.h header"
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "bash-completion",
+    "flock",
+    "rename"
+  ],
+  "conflicts_with_reasons": [
+    "both install `mount`, `rfkill`, and `rtcwake` completions",
+    "both install `flock` binaries",
+    "both install `rename` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/util-linux.rb",
+  "ruby_source_checksum": {
+    "sha256": "36c4515224a02a81831e4d3b5a7040728851b82c1ea0f697ffc87c5417772230"
+  },
+  "date_added": "2018-04-10T14:23:19+02:00"
+}

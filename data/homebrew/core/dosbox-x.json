@@ -1,0 +1,134 @@
+{
+  "name": "dosbox-x",
+  "full_name": "dosbox-x",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DOSBox with accurate emulation and wide testing",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://dosbox-x.com/",
+  "versions": {
+    "stable": "2023.05.01",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/joncampbell123/dosbox-x/archive/refs/tags/dosbox-x-v2023.05.01.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0aa75b873978aec41ecfee62bb103d8a17fe3566a3ebf5415245cee0dd032ebb"
+    },
+    "head": {
+      "url": "https://github.com/joncampbell123/dosbox-x.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:89dae5ac74ff447c36d42c31853f4e508ba2b29fc298922731b3a323eae4cf2d",
+          "sha256": "89dae5ac74ff447c36d42c31853f4e508ba2b29fc298922731b3a323eae4cf2d"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:28fe74aaed1dc8e5e6821dbb0824fb9169cd8a3988f5eae3f964af96d09ea1ce",
+          "sha256": "28fe74aaed1dc8e5e6821dbb0824fb9169cd8a3988f5eae3f964af96d09ea1ce"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:d47e4223e48dcb353844fe1248c9f8fd87fed18effdf9a503ac6f90c165104c6",
+          "sha256": "d47e4223e48dcb353844fe1248c9f8fd87fed18effdf9a503ac6f90c165104c6"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:9fee80e8182e9bf33964199007aa18e9350a7641b72f738448f5f2dffad3c72d",
+          "sha256": "9fee80e8182e9bf33964199007aa18e9350a7641b72f738448f5f2dffad3c72d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:bd64240e9131f534bf6c9cbf9773d644036870b5ea0a34898eec7dbec2918b28",
+          "sha256": "bd64240e9131f534bf6c9cbf9773d644036870b5ea0a34898eec7dbec2918b28"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:a351f7daf2be8a72c1976cd050c38519c0227c7807d6282622e552b06bc6aceb",
+          "sha256": "a351f7daf2be8a72c1976cd050c38519c0227c7807d6282622e552b06bc6aceb"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dosbox-x/blobs/sha256:271467270b225ed90b3883c583b7e2d2e5e68aa86ae6c5173e00e5d16f567f9d",
+          "sha256": "271467270b225ed90b3883c583b7e2d2e5e68aa86ae6c5173e00e5d16f567f9d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config",
+    "linux-headers@5.15"
+  ],
+  "dependencies": [
+    "fluid-synth",
+    "freetype",
+    "libpng",
+    "libslirp",
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.13",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dosbox-x.rb",
+  "ruby_source_checksum": {
+    "sha256": "c38d5ec975e66b9ed08b34522b644c8a413f87ba05b255c81f2290c0870c8a8a"
+  },
+  "date_added": "2017-02-08T10:08:47+00:00"
+}

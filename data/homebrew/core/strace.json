@@ -1,0 +1,105 @@
+{
+  "name": "strace",
+  "full_name": "strace",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Diagnostic, instructional, and debugging tool for the Linux kernel",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://strace.io/",
+  "versions": {
+    "stable": "6.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/strace/strace/releases/download/v6.4/strace-6.4.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "27987dbac57fdfd260c6db4dc8328df35c95c6867c8a3d4371d59cdcf4eb9238"
+    },
+    "head": {
+      "url": "https://github.com/strace/strace.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/strace/blobs/sha256:7c05161241a19f9f0ec846ac82755a0f22169cf463214053661f073ed58d9f4e",
+          "sha256": "7c05161241a19f9f0ec846ac82755a0f22169cf463214053661f073ed58d9f4e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "linux-headers@5.15"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/strace.rb",
+  "ruby_source_checksum": {
+    "sha256": "46d1662aa8f5922d7c8f3ed4c8acd0ba6cf99f244fd1e4acdefed38e152ecac1"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake"
+    ],
+    "dependencies": [
+      "linux-headers@5.15"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2020-11-06T19:51:53+01:00"
+}

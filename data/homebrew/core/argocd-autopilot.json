@@ -1,0 +1,105 @@
+{
+  "name": "argocd-autopilot",
+  "full_name": "argocd-autopilot",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Opinionated way of installing Argo CD and managing GitOps repositories",
+  "license": "Apache-2.0",
+  "homepage": "https://argoproj.io",
+  "versions": {
+    "stable": "0.4.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/argoproj-labs/argocd-autopilot.git",
+      "tag": "v0.4.15",
+      "revision": "8d3b2c7467167ff031b86b7562c128e981428e0e",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:63944e65104404301dbc74f51440599ecf28ca5488feb20a600c356858c93f26",
+          "sha256": "63944e65104404301dbc74f51440599ecf28ca5488feb20a600c356858c93f26"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:2ee63d1d3924e38ff7bb0b6f9aac44a863c31691a16811fae47713d0d6ad5bf0",
+          "sha256": "2ee63d1d3924e38ff7bb0b6f9aac44a863c31691a16811fae47713d0d6ad5bf0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:e15c00d28de569f11523bfc3442b2d22de356d361271660f44529378a0925a78",
+          "sha256": "e15c00d28de569f11523bfc3442b2d22de356d361271660f44529378a0925a78"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:72eff96e6e24ea224064dc0ccd7daff2eb30a0e207fdf25bf2f433cea3c36229",
+          "sha256": "72eff96e6e24ea224064dc0ccd7daff2eb30a0e207fdf25bf2f433cea3c36229"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:fd49c76e314be3964cff4681ecbd945a06f9bbb710935036f13c2ecf3665db89",
+          "sha256": "fd49c76e314be3964cff4681ecbd945a06f9bbb710935036f13c2ecf3665db89"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:2bbcc402e2763bea6b34314d17e8f8d48432bca26e0bb132ffc880ce8c852624",
+          "sha256": "2bbcc402e2763bea6b34314d17e8f8d48432bca26e0bb132ffc880ce8c852624"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/argocd-autopilot/blobs/sha256:103a8dfe674803d754e3dc87e245f5467784053166cdd5e73317309b5d21d8b8",
+          "sha256": "103a8dfe674803d754e3dc87e245f5467784053166cdd5e73317309b5d21d8b8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/argocd-autopilot.rb",
+  "ruby_source_checksum": {
+    "sha256": "6d9341ef0be6f0980f83ae4d32df75347db16eba5a68298e311350e6653172bb"
+  },
+  "date_added": "2021-06-02T21:45:07+00:00"
+}

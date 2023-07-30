@@ -1,0 +1,110 @@
+{
+  "name": "xonsh",
+  "full_name": "xonsh",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Python-powered, cross-platform, Unix-gazing shell language and command prompt",
+  "license": "BSD-2-Clause-Views",
+  "homepage": "https://xon.sh/",
+  "versions": {
+    "stable": "0.14.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ab/4f/e8ce49c5582ccf43d9b968ebc4cc8fe24c3ece2900afaed927db65453a70/xonsh-0.14.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "45a8aaabb17ce0d6d4eca9b709ecfd7ce1c8fb92162decd29a45bf88a60e9bf1"
+    },
+    "head": {
+      "url": "https://github.com/xonsh/xonsh.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:32e7e8cc95646c36a0f59bc23e81c96e9127ccff274bc1adbbad90a4f7ff0353",
+          "sha256": "32e7e8cc95646c36a0f59bc23e81c96e9127ccff274bc1adbbad90a4f7ff0353"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:b5ba7bbe00c1322639718965d897b9a5da1adc7dd5342e600f04ca99b10f477a",
+          "sha256": "b5ba7bbe00c1322639718965d897b9a5da1adc7dd5342e600f04ca99b10f477a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:6aaa2b0d94166e765753a608514e42680f8d90c8aedc4cf463301af7155c0f00",
+          "sha256": "6aaa2b0d94166e765753a608514e42680f8d90c8aedc4cf463301af7155c0f00"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:51501f254c119ea97f769bd5fe5b5ffe4ff078a7c461d42320bb480d5c713ac2",
+          "sha256": "51501f254c119ea97f769bd5fe5b5ffe4ff078a7c461d42320bb480d5c713ac2"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:a8eff699c4f9372914c3a595276e05e72f31595e685c254b33f7ed5da1717af0",
+          "sha256": "a8eff699c4f9372914c3a595276e05e72f31595e685c254b33f7ed5da1717af0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:9125f57f4199a2b324b65a58fbf132cebd6788489cb140aaa9d538b594713b21",
+          "sha256": "9125f57f4199a2b324b65a58fbf132cebd6788489cb140aaa9d538b594713b21"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xonsh/blobs/sha256:a4ea7bc9a92a2e7f784f15126b60e5253d9874ac985dfebd06b09ae4703c05fa",
+          "sha256": "a4ea7bc9a92a2e7f784f15126b60e5253d9874ac985dfebd06b09ae4703c05fa"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pygments",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xonsh.rb",
+  "ruby_source_checksum": {
+    "sha256": "5304756ab1f6910b4251e13458a4207d56204bf1884b2509138022acf12c4a6f"
+  },
+  "date_added": "2015-05-03T20:01:42-07:00"
+}

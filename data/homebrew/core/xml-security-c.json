@@ -1,0 +1,108 @@
+{
+  "name": "xml-security-c",
+  "full_name": "xml-security-c",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of primary security standards for XML",
+  "license": "Apache-2.0",
+  "homepage": "https://santuario.apache.org/",
+  "versions": {
+    "stable": "2.0.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=santuario/c-library/xml-security-c-2.0.4.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "c83ed1b7c0189cce27a49caa81986938e76807bf35597e6056259af30726beca"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:fdb50f5de05f8d23f82c401d5e2a7bd948d66805c443fffcc13db9abce41d558",
+          "sha256": "fdb50f5de05f8d23f82c401d5e2a7bd948d66805c443fffcc13db9abce41d558"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:56b183bc43fcb0b7b06c5a8ef52ee47134bdc46c254bcc5a28582d7c6036762e",
+          "sha256": "56b183bc43fcb0b7b06c5a8ef52ee47134bdc46c254bcc5a28582d7c6036762e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:4becfaae51067f844587b674f6bb46653f1923e723acc3f3ac8b6d1993d7d4a5",
+          "sha256": "4becfaae51067f844587b674f6bb46653f1923e723acc3f3ac8b6d1993d7d4a5"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:bbf7e9efb91480a35ff315ba9dc7126ff77b6091b32d5037867a2e02984cf866",
+          "sha256": "bbf7e9efb91480a35ff315ba9dc7126ff77b6091b32d5037867a2e02984cf866"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:91834747f036480abdf6df45bdbafd5eac50e4ad18c8abf4dfdfbd2f7d731f07",
+          "sha256": "91834747f036480abdf6df45bdbafd5eac50e4ad18c8abf4dfdfbd2f7d731f07"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:32d2ddd61821d3b0f9327f8a7c21154889b15ee74e599e6f9e88896ce9e2f14b",
+          "sha256": "32d2ddd61821d3b0f9327f8a7c21154889b15ee74e599e6f9e88896ce9e2f14b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xml-security-c/blobs/sha256:401bcb0a42250c10513897bb2b53412ec82d5f8cdebe16c3780d7c1f835f40d9",
+          "sha256": "401bcb0a42250c10513897bb2b53412ec82d5f8cdebe16c3780d7c1f835f40d9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "xerces-c"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xml-security-c.rb",
+  "ruby_source_checksum": {
+    "sha256": "fbf4642ecefcad05dc3d65ab1b1e6e90a89a33527f029ca140ce4a6f8c6714b8"
+  },
+  "date_added": "2010-02-13T19:16:23+01:00"
+}

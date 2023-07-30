@@ -1,0 +1,75 @@
+{
+  "name": "skinny",
+  "full_name": "skinny",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Full-stack web app framework in Scala",
+  "license": "MIT",
+  "homepage": "https://skinny-framework.github.io",
+  "versions": {
+    "stable": "4.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/skinny-framework/skinny-framework/releases/download/4.0.1/skinny-4.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2382ba97f799bfc772ee79b2c084c63a1278ddd89de8dacd4ba6433f41294812"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/skinny/blobs/sha256:97cc1387283607f82657290b059c45d22018c2b2a93abe4ce14cf771af450def",
+          "sha256": "97cc1387283607f82657290b059c45d22018c2b2a93abe4ce14cf771af450def"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/skinny.rb",
+  "ruby_source_checksum": {
+    "sha256": "3f98dd9eac5537787be30f77ceb963e3ca7c12355907015d1d4aec77e745d675"
+  },
+  "date_added": "2014-10-22T18:27:35+01:00"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "libgr",
+  "full_name": "libgr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GR framework: a graphics library for visualisation applications",
+  "license": "MIT",
+  "homepage": "https://gr-framework.org/",
+  "versions": {
+    "stable": "0.72.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sciapp/gr/archive/refs/tags/v0.72.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b8b86302be706bef5e04223f5bf52c1bbd6299339b6615276676e84405a6311"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:079944b07c50d7b3f53ec93b057d3a1f743b95ec1eb20da8eb955ea06a5d4af2",
+          "sha256": "079944b07c50d7b3f53ec93b057d3a1f743b95ec1eb20da8eb955ea06a5d4af2"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:6d0188cf27c1b419ce2f2bab9249847b2fe810d8bc355aaf6b48f06ac1dc5003",
+          "sha256": "6d0188cf27c1b419ce2f2bab9249847b2fe810d8bc355aaf6b48f06ac1dc5003"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:09ee9877276d9c9214a4240f041ee84faafcba542180201e308b6a684641396c",
+          "sha256": "09ee9877276d9c9214a4240f041ee84faafcba542180201e308b6a684641396c"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:d6ba79f3eae86f745d8ef1698bd1488966a4079e82b3a491cad98a6b3ac7c0b9",
+          "sha256": "d6ba79f3eae86f745d8ef1698bd1488966a4079e82b3a491cad98a6b3ac7c0b9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:b4a57685de4a8fca8e01b579411807fe84f1e8daad1aa4a0d7f0c98eadcee4ab",
+          "sha256": "b4a57685de4a8fca8e01b579411807fe84f1e8daad1aa4a0d7f0c98eadcee4ab"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libgr/blobs/sha256:308dcf6126b0e8ea2d1784c17c4dc8473fb13d2483636b42e536a76e8e449a37",
+          "sha256": "308dcf6126b0e8ea2d1784c17c4dc8473fb13d2483636b42e536a76e8e449a37"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "cairo",
+    "glfw",
+    "libtiff",
+    "qhull",
+    "qt",
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libgr.rb",
+  "ruby_source_checksum": {
+    "sha256": "09a7d2304550931f7911b7905cea88cf814a1d78a22bf2a289e846a4389565b7"
+  },
+  "date_added": "2019-04-18T13:11:50+02:00"
+}

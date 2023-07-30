@@ -1,0 +1,113 @@
+{
+  "name": "fits",
+  "full_name": "fits",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "File Information Tool Set",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://projects.iq.harvard.edu/fits",
+  "versions": {
+    "stable": "1.6.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/harvard-lts/fits/releases/download/1.6.0/fits-1.6.0.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "32e436effe7251c5b067ec3f02321d5baf4944b3f0d1010fb8ec42039d9e3b73"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:83066fb495a516bd75b4d36e08b5861a0b1520d3803e650a111db6a235f73b12",
+          "sha256": "83066fb495a516bd75b4d36e08b5861a0b1520d3803e650a111db6a235f73b12"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:83066fb495a516bd75b4d36e08b5861a0b1520d3803e650a111db6a235f73b12",
+          "sha256": "83066fb495a516bd75b4d36e08b5861a0b1520d3803e650a111db6a235f73b12"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:9285f4607050a49b97d5a76565d75e706b5b376967eda49516e40aa0d8b1bdfe",
+          "sha256": "9285f4607050a49b97d5a76565d75e706b5b376967eda49516e40aa0d8b1bdfe"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269",
+          "sha256": "6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269",
+          "sha256": "6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fits/blobs/sha256:6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269",
+          "sha256": "6113f4769d039c7e57371e31ddaf5acf0382a0f65d37232ae2aecb35ca3ec269"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "exiftool",
+    "libmediainfo",
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fits.rb",
+  "ruby_source_checksum": {
+    "sha256": "c88977cfdcf18b13c36218acde82be52194d2c86470c4bbcf16ede6c5ab625ef"
+  },
+  "date_added": "2010-09-21T18:54:41-07:00"
+}

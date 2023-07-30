@@ -1,0 +1,109 @@
+{
+  "name": "sip",
+  "full_name": "sip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool to create Python bindings for C and C++ libraries",
+  "license": "GPL-2.0-only or GPL-3.0-only",
+  "homepage": "https://www.riverbankcomputing.com/software/sip/intro",
+  "versions": {
+    "stable": "6.7.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/50/3a/ae9b9e36c7f1db92675b25f722ff7a8c3f6efd50817d5c946a7637dacd88/sip-6.7.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "398aeb84ee03f3a953947cac70e60d3b02dceba3c4f4dd46c5383e9dbe3936bb"
+    },
+    "head": {
+      "url": "https://www.riverbankcomputing.com/hg/sip",
+      "branch": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:127bf4229369ddb1b9a6cc641739c6bad37b868dfbb274c64000672500f34ffc",
+          "sha256": "127bf4229369ddb1b9a6cc641739c6bad37b868dfbb274c64000672500f34ffc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:8f72a9d4ba398556bc8ecdf12d6802decdb0e87403929c2b667b5e2a1464e59c",
+          "sha256": "8f72a9d4ba398556bc8ecdf12d6802decdb0e87403929c2b667b5e2a1464e59c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:9d9352ac90bf804afc09a0933ab4a243569160d26809ced8cd19812817c67ef3",
+          "sha256": "9d9352ac90bf804afc09a0933ab4a243569160d26809ced8cd19812817c67ef3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:c5f3b4aa08612a340f03a80146d8b0fd065c837ff3346cb8253c9d8dcae9ee1b",
+          "sha256": "c5f3b4aa08612a340f03a80146d8b0fd065c837ff3346cb8253c9d8dcae9ee1b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:21f8ccfa0a185aaf888beb7a21f5587270bcb910c4634f8133a6f8d2dad02787",
+          "sha256": "21f8ccfa0a185aaf888beb7a21f5587270bcb910c4634f8133a6f8d2dad02787"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:5d04de7805781ed5f505ed13502e6ede2fb2de33f6d349074682200c2ec4b035",
+          "sha256": "5d04de7805781ed5f505ed13502e6ede2fb2de33f6d349074682200c2ec4b035"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sip/blobs/sha256:b2a1ee1f1f8818a760ca6523a4b29dbf5f30d973f572501d6f9a2bd3998e6fc1",
+          "sha256": "b2a1ee1f1f8818a760ca6523a4b29dbf5f30d973f572501d6f9a2bd3998e6fc1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sip.rb",
+  "ruby_source_checksum": {
+    "sha256": "e20a06ba6a580dd39e67deff2a87ba0c1829c5ec67bf0d3453d91d7d1b23d908"
+  },
+  "date_added": "2009-11-07T18:22:34+00:00"
+}

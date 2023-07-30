@@ -1,0 +1,121 @@
+{
+  "name": "erlang@25",
+  "full_name": "erlang@25",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "erlang@24",
+    "erlang@23",
+    "erlang@22",
+    "erlang@21"
+  ],
+  "desc": "Programming language for highly scalable real-time systems",
+  "license": "Apache-2.0",
+  "homepage": "https://www.erlang.org/",
+  "versions": {
+    "stable": "25.3.2.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/erlang/otp/releases/download/OTP-25.3.2.4/otp_src_25.3.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9d224c098abbb48fbe42abb81bd04765efa2190d9eae4898f78183d9725a676b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:35b966eee14a03693484490d08930e1efcd400c35cb4c8fe1b4f0642f0d00214",
+          "sha256": "35b966eee14a03693484490d08930e1efcd400c35cb4c8fe1b4f0642f0d00214"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:7f557a7f5197c5aab9cb5db4e15ac230a201dd6f95d146e40d5bb3d7561a6064",
+          "sha256": "7f557a7f5197c5aab9cb5db4e15ac230a201dd6f95d146e40d5bb3d7561a6064"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:d4170f4c8caac5e651db3c732c2ef03c5c43dbb1272cb878e9f62a39fc108444",
+          "sha256": "d4170f4c8caac5e651db3c732c2ef03c5c43dbb1272cb878e9f62a39fc108444"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:b2b9eae4da6615757f0b8fe7a46b53bebb5792e0ca22e3a216e5ef327d1297fc",
+          "sha256": "b2b9eae4da6615757f0b8fe7a46b53bebb5792e0ca22e3a216e5ef327d1297fc"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:4512c373d527dae4cc9cad4d45435b37d97e84cc466ca124b03eb94ba79d219a",
+          "sha256": "4512c373d527dae4cc9cad4d45435b37d97e84cc466ca124b03eb94ba79d219a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:538731778577d292815c8fa12bee6aa1a6a68b8c5953634b1c17512f6b1ea4f6",
+          "sha256": "538731778577d292815c8fa12bee6aa1a6a68b8c5953634b1c17512f6b1ea4f6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/erlang/25/blobs/sha256:e0c3e903e5d2e9033fd547dbe738cdc1262d49c26b1b3ee8e55706da7dded829",
+          "sha256": "e0c3e903e5d2e9033fd547dbe738cdc1262d49c26b1b3ee8e55706da7dded829"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3",
+    "unixodbc",
+    "wxwidgets"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxslt": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Man pages can be found in:\n  $HOMEBREW_PREFIX/opt/erlang@25/lib/erlang/man\n\nAccess them with `erl -man`, or add this directory to MANPATH.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/erlang@25.rb",
+  "ruby_source_checksum": {
+    "sha256": "c97d89edf6f309fdacce552efd8b5dc09abc60a7295a5c0353090f177704a0a0"
+  },
+  "date_added": "2023-06-30T23:20:54+08:00"
+}

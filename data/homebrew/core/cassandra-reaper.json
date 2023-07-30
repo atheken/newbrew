@@ -1,0 +1,113 @@
+{
+  "name": "cassandra-reaper",
+  "full_name": "cassandra-reaper",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Management interface for Cassandra",
+  "license": "Apache-2.0",
+  "homepage": "https://cassandra-reaper.io/",
+  "versions": {
+    "stable": "3.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/thelastpickle/cassandra-reaper/releases/download/3.3.3/cassandra-reaper-3.3.3-release.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "001293154fa81f2d360f0c4dfcf71ce71500433a3279e77450c407b4677597be"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a",
+          "sha256": "3ca65d24a4519c6542176b0e2b2f994cc74dfc779ea4886ed40ae1cfcd2e629a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cassandra-reaper/blobs/sha256:48efe146d440177527b7b2ae8649a2a6c146bfb724702477449b672af851eb39",
+          "sha256": "48efe146d440177527b7b2ae8649a2a6c146bfb724702477449b672af851eb39"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/cassandra-reaper/bin/cassandra-reaper",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/cassandra-reaper/service.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/cassandra-reaper/service.err"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cassandra-reaper.rb",
+  "ruby_source_checksum": {
+    "sha256": "5fb3590e0bfe11b91c64a75cc67a2b34774e1860857bff22972b765fc83822e8"
+  },
+  "date_added": "2019-02-09T19:59:07+01:00"
+}

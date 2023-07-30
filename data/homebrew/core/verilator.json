@@ -1,0 +1,127 @@
+{
+  "name": "verilator",
+  "full_name": "verilator",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Verilog simulator",
+  "license": "LGPL-3.0-only or Artistic-2.0",
+  "homepage": "https://www.veripool.org/wiki/verilator",
+  "versions": {
+    "stable": "5.014",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/verilator/verilator/archive/refs/tags/v5.014.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "36e16c8a7c4b376f88d87411cea6ee68710e6d1382a13faf21f35d65b54df4a7"
+    },
+    "head": {
+      "url": "https://github.com/verilator/verilator.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:c7e1c43bfdc0a7ed4190ceb982c70e3f1111bdf14bdc28ffcab75e2930678529",
+          "sha256": "c7e1c43bfdc0a7ed4190ceb982c70e3f1111bdf14bdc28ffcab75e2930678529"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:2a08514d4611648409375222e9d8e1841f7f799525512c9c90e4a6fca411feb2",
+          "sha256": "2a08514d4611648409375222e9d8e1841f7f799525512c9c90e4a6fca411feb2"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:afab46195a7a9d1186380a49cc769b0f5ffabc236596be89e8f63d0e7262f7d8",
+          "sha256": "afab46195a7a9d1186380a49cc769b0f5ffabc236596be89e8f63d0e7262f7d8"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:bd6c1f2848626ac7d36befa527b86070a72594c22a7ec9bc3acc8ebd4bfe4847",
+          "sha256": "bd6c1f2848626ac7d36befa527b86070a72594c22a7ec9bc3acc8ebd4bfe4847"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:9f95d8f8a9b1ba5e6cb4667e422d4bfee202c85a1986d58d9e55da7e1ef6cbf7",
+          "sha256": "9f95d8f8a9b1ba5e6cb4667e422d4bfee202c85a1986d58d9e55da7e1ef6cbf7"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:a25bebc5dddae09f92f1407f478d05b6478f5b5518f0d445163b334cab682af6",
+          "sha256": "a25bebc5dddae09f92f1407f478d05b6478f5b5518f0d445163b334cab682af6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verilator/blobs/sha256:725a96af88e568f4f460c88dabbf967717ef051226d073ecf72558094ace8e07",
+          "sha256": "725a96af88e568f4f460c88dabbf967717ef051226d073ecf72558094ace8e07"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "help2man"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    "perl",
+    "python"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {
+      "since": "catalina"
+    }
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/verilator.rb",
+  "ruby_source_checksum": {
+    "sha256": "496ca83eeef5931bb3ea5596137f9ed4362257c215076bfaf18f7685472921b5"
+  },
+  "date_added": "2012-07-23T13:12:47-07:00"
+}

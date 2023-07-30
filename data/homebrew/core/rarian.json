@@ -1,0 +1,114 @@
+{
+  "name": "rarian",
+  "full_name": "rarian",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Documentation metadata library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://rarian.freedesktop.org/",
+  "versions": {
+    "stable": "0.8.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.freedesktop.org/rarian/rarian/-/releases/0.8.4/downloads/assets/rarian-0.8.4.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "55624f9001fce8f6c8032d7d57bf2acfe7c150bafb3b1bb715319a1b2eb9b2c5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:eda0147443cb518888be9c20fa4ff238097be7be79aaee194571e497ceae778a",
+          "sha256": "eda0147443cb518888be9c20fa4ff238097be7be79aaee194571e497ceae778a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:d20a0dbb13100d47eca91cb31325d73f15fa3830204232c663bb3abd762a43b4",
+          "sha256": "d20a0dbb13100d47eca91cb31325d73f15fa3830204232c663bb3abd762a43b4"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:70ac2150b3510f9ba5d7f268be40ecd8b4eebd20db220662e3b7090b5cff58bc",
+          "sha256": "70ac2150b3510f9ba5d7f268be40ecd8b4eebd20db220662e3b7090b5cff58bc"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:c4330088c8052bb965deb144e17971c787d8b3ad05f377af68d0de4659832280",
+          "sha256": "c4330088c8052bb965deb144e17971c787d8b3ad05f377af68d0de4659832280"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:80dc622fecf306b992ecc05271a7c9e9997db3cb88a7a60243d495e97507b71d",
+          "sha256": "80dc622fecf306b992ecc05271a7c9e9997db3cb88a7a60243d495e97507b71d"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:485eaddd1330015597331ce44b76d210bf714aae93764525f9f5f22c374f8f59",
+          "sha256": "485eaddd1330015597331ce44b76d210bf714aae93764525f9f5f22c374f8f59"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/rarian/blobs/sha256:bf0d04b4bfcc1868a63864a24107ac20c00c4eddd30ffe737a6ff15100b4aa4b",
+          "sha256": "bf0d04b4bfcc1868a63864a24107ac20c00c4eddd30ffe737a6ff15100b4aa4b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "tinyxml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "scrollkeeper"
+  ],
+  "conflicts_with_reasons": [
+    "rarian and scrollkeeper install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rarian.rb",
+  "ruby_source_checksum": {
+    "sha256": "a5e142915d21d16fce415d1f0be84f4c81d5a6b41bd5606abe9339553a162984"
+  },
+  "date_added": "2012-02-18T15:32:27-08:00"
+}

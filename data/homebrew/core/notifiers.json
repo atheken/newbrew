@@ -1,0 +1,107 @@
+{
+  "name": "notifiers",
+  "full_name": "notifiers",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easy way to send notifications",
+  "license": "MIT",
+  "homepage": "https://pypi.org/project/notifiers/",
+  "versions": {
+    "stable": "1.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/54/fc/aa5de032cc8d9ee41ceba7bbea98e2ed7090d7d95465dfe0179eb937146f/notifiers-1.3.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9fd8d95ab1ebcd3852423755aa90cbb0f72a805ca77af0d8c9ad7af445f58399"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:ba35c23c11292637fcd01e3d66bd52cfcaaf52efa24cb1198d616921a04e5f93",
+          "sha256": "ba35c23c11292637fcd01e3d66bd52cfcaaf52efa24cb1198d616921a04e5f93"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:08f38782ba4e0397652b86ae1485a4bcc0087a4b01e1d28cfac951718ea5cf91",
+          "sha256": "08f38782ba4e0397652b86ae1485a4bcc0087a4b01e1d28cfac951718ea5cf91"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:d3ee67cb9dfeefd60ba9b185420bbee1312da9db90af5556ab0bb920a717b033",
+          "sha256": "d3ee67cb9dfeefd60ba9b185420bbee1312da9db90af5556ab0bb920a717b033"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:6dec188027d801480c738332cbbc1fd51a4854fe7456fc22101184c1efc7e8df",
+          "sha256": "6dec188027d801480c738332cbbc1fd51a4854fe7456fc22101184c1efc7e8df"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:e9973438652308182bfe3e6157b70fd6179a676d552552ea33ffbdf18a1ee162",
+          "sha256": "e9973438652308182bfe3e6157b70fd6179a676d552552ea33ffbdf18a1ee162"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:03de5da0376867cc91f952cd295b69127a0377d306434c5529e2797120431f9b",
+          "sha256": "03de5da0376867cc91f952cd295b69127a0377d306434c5529e2797120431f9b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/notifiers/blobs/sha256:df9023e4b643b6f2f373899b1121487316b05e95098392af8bbec74ea62f77f9",
+          "sha256": "df9023e4b643b6f2f373899b1121487316b05e95098392af8bbec74ea62f77f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/notifiers.rb",
+  "ruby_source_checksum": {
+    "sha256": "05f5264def82bade4bcc647a6678ce56b7b0a7dbd2979bbc91526258a3a8006f"
+  },
+  "date_added": "2019-10-07T19:17:21-04:00"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "python@3.7",
+  "full_name": "python@3.7",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "python@3.11",
+    "python@3.10",
+    "python@3.9",
+    "python@3.8"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.7.17",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7911051ed0422fd54b8f59ffc030f7cf2ae30e0f61bda191800bb040dce4f9d2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.7/blobs/sha256:c9d94658425309c0782eab93feec0c9e23d2816b99e9a4b1b4e5643686137221",
+          "sha256": "c9d94658425309c0782eab93feec0c9e23d2816b99e9a4b1b4e5643686137221"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.7/blobs/sha256:1b7b4f086a7fd1ecdb440be1bf85718f6c1409f71ec443545218cf4e52f73762",
+          "sha256": "1b7b4f086a7fd1ecdb440be1bf85718f6c1409f71ec443545218cf4e52f73762"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.7/blobs/sha256:02118436c3c726ec36189193fe689272885987010e969f2603e35224f8141a5c",
+          "sha256": "02118436c3c726ec36189193fe689272885987010e969f2603e35224f8141a5c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.7/blobs/sha256:d83548a6f033a128a27ab5cc14e61c289908fbd53c068a16bd88b24c6b143521",
+          "sha256": "d83548a6f033a128a27ab5cc14e61c289908fbd53c068a16bd88b24c6b143521"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdbm",
+    "mpdecimal",
+    "openssl@1.1",
+    "readline",
+    "sqlite",
+    "xz",
+    "libnsl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "libffi",
+    "libxcrypt",
+    "ncurses",
+    "xz",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.7\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.7`, `python3.7-config`, `pip3.7` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.7/libexec/bin\n\nYou can install Python packages with\n  pip3.7 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.7/site-packages\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-06-27",
+  "disable_reason": "deprecated_upstream",
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/python@3.7.rb",
+  "ruby_source_checksum": {
+    "sha256": "1bb25920c9de9ccfb6133412c61d638eaed90c751a9625c93a787522ac928f2c"
+  },
+  "date_added": "2020-07-08T08:12:59+00:00"
+}

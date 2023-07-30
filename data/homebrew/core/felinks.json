@@ -1,0 +1,162 @@
+{
+  "name": "felinks",
+  "full_name": "felinks",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text mode browser and Gemini, NNTP, FTP, Gopher, Finger, and BitTorrent client",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/rkd77/elinks#readme",
+  "versions": {
+    "stable": "0.16.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rkd77/elinks/releases/download/v0.16.1.1/elinks-0.16.1.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "303c6f830b98658dcb813b68432ecde27d3857ccf1e765109fb6b0edb89f5095"
+    },
+    "head": {
+      "url": "https://github.com/rkd77/elinks.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:a6115add8e76c8dacc68deb68ca62f97a491d42eec37c325555e4b928cf9f571",
+          "sha256": "a6115add8e76c8dacc68deb68ca62f97a491d42eec37c325555e4b928cf9f571"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:7022a233634adae1b93d4e6d8796dff37666ae11a6cd01d1e2fca859090822aa",
+          "sha256": "7022a233634adae1b93d4e6d8796dff37666ae11a6cd01d1e2fca859090822aa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:a7d6126a3fb6fa700cefc46ba323b94bcc93ad479a59e7dc41deedbad3c35130",
+          "sha256": "a7d6126a3fb6fa700cefc46ba323b94bcc93ad479a59e7dc41deedbad3c35130"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:0834b3a35b8f5a8c1760f0d63cc2bf3bd2ae49c9c8da68320df8486e0c34a34e",
+          "sha256": "0834b3a35b8f5a8c1760f0d63cc2bf3bd2ae49c9c8da68320df8486e0c34a34e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:830cc73a8e8dfad7aaae3271636f1646d60292b0e42ee398d59944d20e61add2",
+          "sha256": "830cc73a8e8dfad7aaae3271636f1646d60292b0e42ee398d59944d20e61add2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:2e48a8a05c023118d94094dfa8e3c0065fe51746e54fa16cb182a88be269ff90",
+          "sha256": "2e48a8a05c023118d94094dfa8e3c0065fe51746e54fa16cb182a88be269ff90"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/felinks/blobs/sha256:b3f9f998591f4be38178e2fc160a43192e5b369c16628269f281a2e66bf76a59",
+          "sha256": "b3f9f998591f4be38178e2fc160a43192e5b369c16628269f281a2e66bf76a59"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "brotli",
+    "libidn2",
+    "openssl@3",
+    "tre",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    "bzip2",
+    "expat",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "elinks"
+  ],
+  "conflicts_with_reasons": [
+    "both install the same binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/felinks.rb",
+  "ruby_source_checksum": {
+    "sha256": "d45739c109a9cd975b06777d029704716d29cdf0fd3ff8a931450fed90fa0927"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "brotli",
+      "libidn2",
+      "openssl@3",
+      "tre",
+      "zstd"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "bison": "build"
+      },
+      "bzip2",
+      "expat",
+      "zlib"
+    ],
+    "uses_from_macos_bounds": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "date_added": "2022-07-25T11:04:16+00:00"
+}

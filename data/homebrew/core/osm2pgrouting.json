@@ -1,0 +1,116 @@
+{
+  "name": "osm2pgrouting",
+  "full_name": "osm2pgrouting",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Import OSM data into pgRouting database",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://pgrouting.org/docs/tools/osm2pgrouting.html",
+  "versions": {
+    "stable": "2.3.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pgRouting/osm2pgrouting/archive/v2.3.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e3a58bcacf0c8811e0dcf3cf3791a4a7cc5ea2a901276133eacf227b30fd8355"
+    },
+    "head": {
+      "url": "https://github.com/pgRouting/osm2pgrouting.git",
+      "branch": "main"
+    }
+  },
+  "revision": 8,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:b3fdaf7736e3f57e03ee5ab6deea261ff05e170f762449150c8bee8ea6cca162",
+          "sha256": "b3fdaf7736e3f57e03ee5ab6deea261ff05e170f762449150c8bee8ea6cca162"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:e14af470561defe1a20cf4525a6e40216ee20930ec01ee57f4d41590245450bf",
+          "sha256": "e14af470561defe1a20cf4525a6e40216ee20930ec01ee57f4d41590245450bf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:66bdaeeb3d7413ffaffe445c9b20ef3476695ef07f2ec5c11c50a0c0d52fd6bd",
+          "sha256": "66bdaeeb3d7413ffaffe445c9b20ef3476695ef07f2ec5c11c50a0c0d52fd6bd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:fd4b01a6522b2dab4095605369523d6d91cf6916a76f12cc10ce27a2c9ac96a3",
+          "sha256": "fd4b01a6522b2dab4095605369523d6d91cf6916a76f12cc10ce27a2c9ac96a3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:c0cf0ba86c28ef807a0f28c5afc68b7ef84efbe1da1c6a08d1ab8d2a6c199495",
+          "sha256": "c0cf0ba86c28ef807a0f28c5afc68b7ef84efbe1da1c6a08d1ab8d2a6c199495"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:cc040dc98abdf5ebf358dbc4993c1aa473fcd63b4b59a30814682655815a94e6",
+          "sha256": "cc040dc98abdf5ebf358dbc4993c1aa473fcd63b4b59a30814682655815a94e6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/osm2pgrouting/blobs/sha256:0ff316a52c203ad1d7ce333198f5c77ad0f86e1ef3ac6ab35fb8017496e5f128",
+          "sha256": "0ff316a52c203ad1d7ce333198f5c77ad0f86e1ef3ac6ab35fb8017496e5f128"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "expat",
+    "libpq",
+    "libpqxx",
+    "pgrouting",
+    "postgis"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/osm2pgrouting.rb",
+  "ruby_source_checksum": {
+    "sha256": "cbd16d4d35fa556feaf2182d66f8eb9eb4762609dd12e01e7fcb7ed792e836c7"
+  },
+  "date_added": "2014-02-01T12:53:15-08:00"
+}

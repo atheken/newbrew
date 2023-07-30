@@ -1,0 +1,114 @@
+{
+  "name": "tree-sitter",
+  "full_name": "tree-sitter",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Parser generator tool and incremental parsing library",
+  "license": "MIT",
+  "homepage": "https://tree-sitter.github.io/",
+  "versions": {
+    "stable": "0.20.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tree-sitter/tree-sitter/archive/v0.20.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6181ede0b7470bfca37e293e7d5dc1d16469b9485d13f13a605baec4a8b1f791"
+    },
+    "head": {
+      "url": "https://github.com/tree-sitter/tree-sitter.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:80f5d110450dfa623f0ff043bfb9279a03e760aafa8b67a8f919f8371a8a4282",
+          "sha256": "80f5d110450dfa623f0ff043bfb9279a03e760aafa8b67a8f919f8371a8a4282"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:d65d3a05944e834d25950b9fa1d3d79a306af2c28b209aaac043e546c0577965",
+          "sha256": "d65d3a05944e834d25950b9fa1d3d79a306af2c28b209aaac043e546c0577965"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:20c1f77800a47d9fd3f055a9b33e06f1782e5b897541b6935262efb831d29c45",
+          "sha256": "20c1f77800a47d9fd3f055a9b33e06f1782e5b897541b6935262efb831d29c45"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:0b96dc12579c8693392a737e0939c5956f88d9d7beddb18ee045e127d359096b",
+          "sha256": "0b96dc12579c8693392a737e0939c5956f88d9d7beddb18ee045e127d359096b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:84af6fb8f8980273ecc06099ad359dc100a13e0535c2f5ffe5380e7e4a50baed",
+          "sha256": "84af6fb8f8980273ecc06099ad359dc100a13e0535c2f5ffe5380e7e4a50baed"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:b025e1d6e7ed804c5cf099b4a6bea0dbbf09752aef4582916678dd88f2cd0ab0",
+          "sha256": "b025e1d6e7ed804c5cf099b4a6bea0dbbf09752aef4582916678dd88f2cd0ab0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:d413c47e7b8641aae812d19b39c3f927088e450eabde992f3d7cc32de7d29aa9",
+          "sha256": "d413c47e7b8641aae812d19b39c3f927088e450eabde992f3d7cc32de7d29aa9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "emscripten",
+    "node",
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "emscripten",
+    "node"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/tree-sitter.rb",
+  "ruby_source_checksum": {
+    "sha256": "2e53cc7290116fa5e62849ff10ecabdf44c93b846e1701d6e41058a234fbf6ec"
+  },
+  "date_added": "2020-11-04T00:46:08+00:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "fend",
+  "full_name": "fend",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Arbitrary-precision unit-aware calculator",
+  "license": "MIT",
+  "homepage": "https://printfn.github.io/fend",
+  "versions": {
+    "stable": "1.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/printfn/fend/archive/refs/tags/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d2781dfdbaed22b38fabea6897ff2249ac804f9021c921cd67603f3b609994e2"
+    },
+    "head": {
+      "url": "https://github.com/printfn/fend.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:2ce955e9c59ac7e1695716dfd30a7e9c6552b3b53d79b56bff0425afc8b02d8c",
+          "sha256": "2ce955e9c59ac7e1695716dfd30a7e9c6552b3b53d79b56bff0425afc8b02d8c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:1ef77429b8d67557d60340f543c7dd1e0ec43eb5b21219fc34909d04eb4aed47",
+          "sha256": "1ef77429b8d67557d60340f543c7dd1e0ec43eb5b21219fc34909d04eb4aed47"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:65e3c6cf88d6c77d5172ebfb13d8c7253df47fc84224b91ba3c88ddfadf49838",
+          "sha256": "65e3c6cf88d6c77d5172ebfb13d8c7253df47fc84224b91ba3c88ddfadf49838"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:8f5b6703a886f77a60a90d0b87601c2f056bde942e0468c60f007eaf13f5b39b",
+          "sha256": "8f5b6703a886f77a60a90d0b87601c2f056bde942e0468c60f007eaf13f5b39b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:24c6241de0cc348c041aabb33d92451fdbf796e52e7e5edc20043e2e681ca809",
+          "sha256": "24c6241de0cc348c041aabb33d92451fdbf796e52e7e5edc20043e2e681ca809"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:6fc8bd151ddb2f542c06d42dbb78e336b2c35e40295f01435c226e0c9e156002",
+          "sha256": "6fc8bd151ddb2f542c06d42dbb78e336b2c35e40295f01435c226e0c9e156002"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fend/blobs/sha256:681fdad46dd43f0136d34197cfd7863b8068f4bc3d0140652b1243130853f547",
+          "sha256": "681fdad46dd43f0136d34197cfd7863b8068f4bc3d0140652b1243130853f547"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pandoc",
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fend.rb",
+  "ruby_source_checksum": {
+    "sha256": "1a28d45bd8efec567a8aa586267ce2eb77e1f5af64685c4f82edbb7686116d35"
+  },
+  "date_added": "2022-10-10T16:00:59+00:00"
+}

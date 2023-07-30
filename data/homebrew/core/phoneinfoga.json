@@ -1,0 +1,112 @@
+{
+  "name": "phoneinfoga",
+  "full_name": "phoneinfoga",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Information gathering framework for phone numbers",
+  "license": "GPL-3.0-only",
+  "homepage": "https://sundowndev.github.io/phoneinfoga/",
+  "versions": {
+    "stable": "2.10.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sundowndev/phoneinfoga/archive/v2.10.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "14dc41ec4a2c3f8a97e4ea7bf99736e94a94b2e04b36075171f482a6f0873127"
+    },
+    "head": {
+      "url": "https://github.com/sundowndev/phoneinfoga.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:bf74cd5fb71e8b2a1d3920eea406447493ef8806871feeae388ccc9682500daf",
+          "sha256": "bf74cd5fb71e8b2a1d3920eea406447493ef8806871feeae388ccc9682500daf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:f9100c5e0ba78209bb4580f74d02d695383135ebe4df0a90fb3837917cfa4815",
+          "sha256": "f9100c5e0ba78209bb4580f74d02d695383135ebe4df0a90fb3837917cfa4815"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:5a5c0ea3a3feb9b467a364a1da080bc0f2e57a92cecc594390173d14cf5b5f63",
+          "sha256": "5a5c0ea3a3feb9b467a364a1da080bc0f2e57a92cecc594390173d14cf5b5f63"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:3a2a6f3bb2c5fe8b1114fc7e34a0df1f2898f0f680fd7674c71cf47f5eb920a6",
+          "sha256": "3a2a6f3bb2c5fe8b1114fc7e34a0df1f2898f0f680fd7674c71cf47f5eb920a6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:2110257f4ca48f0871c0c5e4950079e349b75a20e9f1a67328a470ac9c581054",
+          "sha256": "2110257f4ca48f0871c0c5e4950079e349b75a20e9f1a67328a470ac9c581054"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:b470203c50643f8066c43578503ebc17196ddd75979b0fb6c66c6a20f345037d",
+          "sha256": "b470203c50643f8066c43578503ebc17196ddd75979b0fb6c66c6a20f345037d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/phoneinfoga/blobs/sha256:a05f43ad897b28377cf8043cc9021ffa61a3ae1ab33a4aaeddd826d5a4cffcf6",
+          "sha256": "a05f43ad897b28377cf8043cc9021ffa61a3ae1ab33a4aaeddd826d5a4cffcf6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "yarn"
+  ],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/phoneinfoga.rb",
+  "ruby_source_checksum": {
+    "sha256": "950d0e65169765ecad43e6d61dc21637fc7af6a681ee1a42d61ea55f57ee6df8"
+  },
+  "date_added": "2023-03-17T03:58:24+00:00"
+}

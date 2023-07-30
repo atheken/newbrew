@@ -1,0 +1,120 @@
+{
+  "name": "xhyve",
+  "full_name": "xhyve",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight macOS virtualization solution based on FreeBSD's bhyve",
+  "license": null,
+  "homepage": "https://github.com/machyve/xhyve",
+  "versions": {
+    "stable": "0.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/machyve/xhyve/archive/v0.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "32c390529a73c8eb33dbc1aede7baab5100c314f726cac14627d2204ad9d3b3c"
+    },
+    "head": {
+      "url": "https://github.com/machyve/xhyve.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xhyve/blobs/sha256:b81d7e54464f0870eabe1fead9d31627ad5342fd2e9aaff47535a7bcc738751f",
+          "sha256": "b81d7e54464f0870eabe1fead9d31627ad5342fd2e9aaff47535a7bcc738751f"
+        },
+        "mojave": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xhyve/blobs/sha256:babcee304193c68f484434c551732e5657878095f00c4149fc88867317f9252e",
+          "sha256": "babcee304193c68f484434c551732e5657878095f00c4149fc88867317f9252e"
+        },
+        "high_sierra": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xhyve/blobs/sha256:9643b72b869ec57653668f1ed2db0c3a2c7fad77d8000931933824622032d476",
+          "sha256": "9643b72b869ec57653668f1ed2db0c3a2c7fad77d8000931933824622032d476"
+        },
+        "sierra": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xhyve/blobs/sha256:edc2e17147d4ae9333033e7317590a48b752b418df689a6dae45bd29a12eaca8",
+          "sha256": "edc2e17147d4ae9333033e7317590a48b752b418df689a6dae45bd29a12eaca8"
+        },
+        "el_capitan": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xhyve/blobs/sha256:b0a94f72b09c71aa3bfbbf55669cd9e64ea309d6be8c838f6bc98aeaf8a6895c",
+          "sha256": "b0a94f72b09c71aa3bfbbf55669cd9e64ea309d6be8c838f6bc98aeaf8a6895c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    },
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2022-11-04",
+  "deprecation_reason": "does_not_build",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xhyve.rb",
+  "ruby_source_checksum": {
+    "sha256": "49b9933c6f31fbe89544ea01148eb9b6ae707fd92b3410a94a435f1bc7997b2a"
+  },
+  "date_added": "2015-06-25T01:56:20+01:00"
+}

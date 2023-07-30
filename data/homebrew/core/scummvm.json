@@ -1,0 +1,122 @@
+{
+  "name": "scummvm",
+  "full_name": "scummvm",
+  "tap": "homebrew/core",
+  "oldname": "xu4",
+  "oldnames": [
+    "xu4"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Graphic adventure game interpreter",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.scummvm.org/",
+  "versions": {
+    "stable": "2.7.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "444b1ffd61774fe867824e57bb3033c9998ffa8a4ed3a13246b01611d5cf9993"
+    },
+    "head": {
+      "url": "https://github.com/scummvm/scummvm.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:550a1b394b3ce96aa23f5c06730a9ffb94af558ff5064878af1c4ebeedc5ec94",
+          "sha256": "550a1b394b3ce96aa23f5c06730a9ffb94af558ff5064878af1c4ebeedc5ec94"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:6a3e4f2670f4bfe040618dca252120b1946148056c22d9548d5eebdb0fcaa072",
+          "sha256": "6a3e4f2670f4bfe040618dca252120b1946148056c22d9548d5eebdb0fcaa072"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:f568c1d596748d76b628ed548bbbe8b17edf8fb780eca5deb5099a74841b9db5",
+          "sha256": "f568c1d596748d76b628ed548bbbe8b17edf8fb780eca5deb5099a74841b9db5"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:b6b91116e0bc3a6aba9ffcc8ce427d0492bc38277d83c00b3d72c4df4d84f5e8",
+          "sha256": "b6b91116e0bc3a6aba9ffcc8ce427d0492bc38277d83c00b3d72c4df4d84f5e8"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:9f491464ff065d629b7c355a1c50c21b751d7631c5bcc164fbb8f2be13531078",
+          "sha256": "9f491464ff065d629b7c355a1c50c21b751d7631c5bcc164fbb8f2be13531078"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:517a01101d6a3c71ce9409433e8ca5f5cf05cc91cc07a2c472d48d4ff6cbb3e8",
+          "sha256": "517a01101d6a3c71ce9409433e8ca5f5cf05cc91cc07a2c472d48d4ff6cbb3e8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/scummvm/blobs/sha256:50ba6a89f7ac6eed4f33180a58d19385fb9253f795b5e201056fe84a5c81f84f",
+          "sha256": "50ba6a89f7ac6eed4f33180a58d19385fb9253f795b5e201056fe84a5c81f84f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "a52dec",
+    "faad2",
+    "flac",
+    "fluid-synth",
+    "freetype",
+    "jpeg-turbo",
+    "libmpeg2",
+    "libpng",
+    "libvorbis",
+    "mad",
+    "sdl2",
+    "theora"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/scummvm.rb",
+  "ruby_source_checksum": {
+    "sha256": "eb752f109353f4e342f467fcfbc722974ddd4d693276f9c431202ee72dc4da8e"
+  },
+  "date_added": "2009-08-31T01:46:19+01:00"
+}

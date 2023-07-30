@@ -1,0 +1,112 @@
+{
+  "name": "ncdu",
+  "full_name": "ncdu",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "NCurses Disk Usage",
+  "license": "MIT",
+  "homepage": "https://dev.yorhel.nl/ncdu",
+  "versions": {
+    "stable": "2.2.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://dev.yorhel.nl/download/ncdu-2.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "90d920024e752318b469776ce57e03b3c702d49329ad9825aeeab36c3babf993"
+    },
+    "head": {
+      "url": "https://g.blicky.net/ncdu.git",
+      "branch": "zig"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:6e33f53d26ed222046069f2adcfb1085d8b9a554b1d95150554fb5663d70cac0",
+          "sha256": "6e33f53d26ed222046069f2adcfb1085d8b9a554b1d95150554fb5663d70cac0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:407ef3a5dc0b76d04b42480ab24fb708d0316043f322079621c73e67ccd3bd54",
+          "sha256": "407ef3a5dc0b76d04b42480ab24fb708d0316043f322079621c73e67ccd3bd54"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:3489200d1a842fb13e09c41c3b4aee3a23efa495be76769f4217b3c2ed042e2f",
+          "sha256": "3489200d1a842fb13e09c41c3b4aee3a23efa495be76769f4217b3c2ed042e2f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:bceb9e170df5981294a320a027299278b1f5921fb0329b1b52b841014be3856f",
+          "sha256": "bceb9e170df5981294a320a027299278b1f5921fb0329b1b52b841014be3856f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:4719611c107098d06107643b57105c7fc4a9b65a478a9bd5de554e814f38a17a",
+          "sha256": "4719611c107098d06107643b57105c7fc4a9b65a478a9bd5de554e814f38a17a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:eb5904a48c0e57d42b9149f95f0fa6ac455d1cee24c19eb05aad4405b61da9a8",
+          "sha256": "eb5904a48c0e57d42b9149f95f0fa6ac455d1cee24c19eb05aad4405b61da9a8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:85a0bf75cf77e3bca24b48653e71603c798c7d8a39195406a6351c2dfbe58e26",
+          "sha256": "85a0bf75cf77e3bca24b48653e71603c798c7d8a39195406a6351c2dfbe58e26"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "zig"
+  ],
+  "dependencies": [
+    "ncurses"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ncdu.rb",
+  "ruby_source_checksum": {
+    "sha256": "aa014aafaa6a199151cec7ea2577024373d7d082c29cadabc4546c1f66d386bb"
+  },
+  "date_added": "2010-02-08T15:50:29+01:00"
+}

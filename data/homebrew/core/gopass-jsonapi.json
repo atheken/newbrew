@@ -1,0 +1,102 @@
+{
+  "name": "gopass-jsonapi",
+  "full_name": "gopass-jsonapi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Gopass Browser Bindings",
+  "license": "MIT",
+  "homepage": "https://github.com/gopasspw/gopass-jsonapi",
+  "versions": {
+    "stable": "1.15.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.15.5/gopass-jsonapi-1.15.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "62d8df839014bad51d1b791837bc8348f7fdcafab0d04f0b7bf2b5d6f0dfc789"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:2144d6478f58e8a2f3445d0df39b113d010e13d34d5e3ac2d7577e9df0d2e678",
+          "sha256": "2144d6478f58e8a2f3445d0df39b113d010e13d34d5e3ac2d7577e9df0d2e678"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:24e6056d727c53c72f9a99cc4777060cb98401f94210834f55fcb5ed8206fa91",
+          "sha256": "24e6056d727c53c72f9a99cc4777060cb98401f94210834f55fcb5ed8206fa91"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:9b16dcd697d2f3f46a427b44fb3a8e16c159e9260f1c406be48c1d7c5ab5e3ac",
+          "sha256": "9b16dcd697d2f3f46a427b44fb3a8e16c159e9260f1c406be48c1d7c5ab5e3ac"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:184be6e31a1a355e872bc8148da6ceae2495957f4c0bd149cada086e8c5da34b",
+          "sha256": "184be6e31a1a355e872bc8148da6ceae2495957f4c0bd149cada086e8c5da34b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:9830a062979eb88c428c5aa5375bb20d2a5b0f7cc4d9935c1c3fb7574fbb0318",
+          "sha256": "9830a062979eb88c428c5aa5375bb20d2a5b0f7cc4d9935c1c3fb7574fbb0318"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gopass-jsonapi/blobs/sha256:65626fee34841070b540c0cfb328b5d4531a463a7c11983febc96a065d9fb604",
+          "sha256": "65626fee34841070b540c0cfb328b5d4531a463a7c11983febc96a065d9fb604"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "gopass"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gopass-jsonapi.rb",
+  "ruby_source_checksum": {
+    "sha256": "25ddb0461dfedf2ece001a7d88474d1dd33f0ea3b4fe2da084a946d10fe0284d"
+  },
+  "date_added": "2021-03-10T15:49:19+00:00"
+}

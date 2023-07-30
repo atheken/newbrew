@@ -1,0 +1,120 @@
+{
+  "name": "neovide",
+  "full_name": "neovide",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "No Nonsense Neovim Client in Rust",
+  "license": "MIT",
+  "homepage": "https://github.com/neovide/neovide",
+  "versions": {
+    "stable": "0.10.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/neovide/neovide/archive/tags/0.10.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d3dd58884b0724db25f5d95ce8d0130689866a82ab20ee602e5ce852465a05a8"
+    },
+    "head": {
+      "url": "https://github.com/neovide/neovide.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:53f6653ba07240b5556f1ffd7316da13c6ce42ce9058de63f781a8712b2c4eab",
+          "sha256": "53f6653ba07240b5556f1ffd7316da13c6ce42ce9058de63f781a8712b2c4eab"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:26b8c020ded5c68e8ed22fad358b78ff3931a8caf74b46831d0fc914449a0dbc",
+          "sha256": "26b8c020ded5c68e8ed22fad358b78ff3931a8caf74b46831d0fc914449a0dbc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:3c753b8fa4c81190201fb155a3d92d7f7d6e1953f7d13ca767eb631d08322be5",
+          "sha256": "3c753b8fa4c81190201fb155a3d92d7f7d6e1953f7d13ca767eb631d08322be5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:4059d660f957851cfd27cd1d345156af0107361769b5dc635cdd9d10f91837c6",
+          "sha256": "4059d660f957851cfd27cd1d345156af0107361769b5dc635cdd9d10f91837c6"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:8036c4aa9eded5c2ffc1f7d940b9a3bfbd1df875ddb2665510342e7d9aaa9fc9",
+          "sha256": "8036c4aa9eded5c2ffc1f7d940b9a3bfbd1df875ddb2665510342e7d9aaa9fc9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:4252db5cb4745079dcd359699d87f702f04623dacc8676d87e561bd496b55f62",
+          "sha256": "4252db5cb4745079dcd359699d87f702f04623dacc8676d87e561bd496b55f62"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/neovide/blobs/sha256:b82811eb83d6834822163801665e7e6c119a52bf5851df752cfbff9c1ac400f9",
+          "sha256": "b82811eb83d6834822163801665e7e6c119a52bf5851df752cfbff9c1ac400f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "neovim",
+    "fontconfig",
+    "freetype",
+    "libxcb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/neovide.rb",
+  "ruby_source_checksum": {
+    "sha256": "b47ca281df65d27ae636bf571b83dfd5573c6b2dfe4a86b25952af9d17b38117"
+  },
+  "date_added": "2022-07-06T00:34:24+00:00"
+}

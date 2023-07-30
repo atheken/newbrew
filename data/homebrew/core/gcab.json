@@ -1,0 +1,112 @@
+{
+  "name": "gcab",
+  "full_name": "gcab",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Windows installer (.MSI) tool",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://wiki.gnome.org/msitools",
+  "versions": {
+    "stable": "1.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/gcab/1.6/gcab-1.6.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2f0c9615577c4126909e251f9de0626c3ee7a152376c15b5544df10fc87e560b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:1bba0eb507e8f2d7b64ad8c1a28c12dc74a785747a4683baa60437c2a4b015a6",
+          "sha256": "1bba0eb507e8f2d7b64ad8c1a28c12dc74a785747a4683baa60437c2a4b015a6"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:6bb87009bd9a5f53529273af07389d8cf4a3aae0c55a9dd51c617b598d5f7fc6",
+          "sha256": "6bb87009bd9a5f53529273af07389d8cf4a3aae0c55a9dd51c617b598d5f7fc6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:abeac675d359f49d72372bb3e829a4abae65dddb5e2e92087cf0db14596b8040",
+          "sha256": "abeac675d359f49d72372bb3e829a4abae65dddb5e2e92087cf0db14596b8040"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:d8cdcdfd05260f7ea32808b2b58f6711b2d1288bdd57b003dae112c99bc67a7d",
+          "sha256": "d8cdcdfd05260f7ea32808b2b58f6711b2d1288bdd57b003dae112c99bc67a7d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:3ccbb8269e8171382a3e9a3de7805a96f7c64e402eed4a0a277eb57978485c22",
+          "sha256": "3ccbb8269e8171382a3e9a3de7805a96f7c64e402eed4a0a277eb57978485c22"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:2f7491f5f92549e9f9d23e42091f4dc24e36a921284a540a79665c6073e663f4",
+          "sha256": "2f7491f5f92549e9f9d23e42091f4dc24e36a921284a540a79665c6073e663f4"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gcab/blobs/sha256:88ce4ede127ca2477d6939b9053f9474bb8c23c3cee2cf53c6a4f003d2b8ea63",
+          "sha256": "88ce4ede127ca2477d6939b9053f9474bb8c23c3cee2cf53c6a4f003d2b8ea63"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gettext",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gcab.rb",
+  "ruby_source_checksum": {
+    "sha256": "27c2b47bda56f2f626ab64bcca58c1b03dcbd7ca6416bb010c5ad2881cfa7b52"
+  },
+  "date_added": "2013-09-19T07:42:33-07:00"
+}

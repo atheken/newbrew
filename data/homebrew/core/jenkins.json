@@ -1,0 +1,136 @@
+{
+  "name": "jenkins",
+  "full_name": "jenkins",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "hudson"
+  ],
+  "versioned_formulae": [],
+  "desc": "Extendable open source continuous integration server",
+  "license": "MIT",
+  "homepage": "https://www.jenkins.io/",
+  "versions": {
+    "stable": "2.416",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://get.jenkins.io/war/2.416/jenkins.war",
+      "tag": null,
+      "revision": null,
+      "checksum": "ceb3c171e25728b47645848dae263e41a12c4911ac71154985f0653e7fa211c8"
+    },
+    "head": {
+      "url": "https://github.com/jenkinsci/jenkins.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371",
+          "sha256": "8a99b0abfefb4201fd6c9a5a3903e14d0ebfc06e9a2799d8a06e1a4c77a89371"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jenkins/blobs/sha256:6260a2cda1d3ac22f79625cd2030d3794a18112497e54fb0a917aeb1f6332318",
+          "sha256": "6260a2cda1d3ac22f79625cd2030d3794a18112497e54fb0a917aeb1f6332318"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@17"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Note: When using launchctl the port will be 8080.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/jenkins/bin/jenkins",
+      "--httpListenAddress=127.0.0.1",
+      "--httpPort=8080"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/jenkins/output.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/jenkins/error.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jenkins.rb",
+  "ruby_source_checksum": {
+    "sha256": "22e1e24ffd7db0343459c6acda917f13138f3ba84c36e062a8e41cc2c3c84638"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "maven"
+    ],
+    "dependencies": [
+      "openjdk@17"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2011-02-05T12:33:02-08:00"
+}

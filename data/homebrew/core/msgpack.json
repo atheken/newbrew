@@ -1,0 +1,111 @@
+{
+  "name": "msgpack",
+  "full_name": "msgpack",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "msgpack-c"
+  ],
+  "versioned_formulae": [],
+  "desc": "Library for a binary-based efficient data interchange format",
+  "license": "BSL-1.0",
+  "homepage": "https://msgpack.org/",
+  "versions": {
+    "stable": "6.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/msgpack/msgpack-c/releases/download/c-6.0.0/msgpack-c-6.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3654f5e2c652dc52e0a993e270bb57d5702b262703f03771c152bba51602aeba"
+    },
+    "head": {
+      "url": "https://github.com/msgpack/msgpack-c.git",
+      "branch": "c_master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:e41b85a88da3012d8a7819799333410558cca1ef59663fda84718be0856002e6",
+          "sha256": "e41b85a88da3012d8a7819799333410558cca1ef59663fda84718be0856002e6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:1d14abff9537f4d85dee74c10ce6f73fafa8e8719c5be05bfda9a836cbe732ad",
+          "sha256": "1d14abff9537f4d85dee74c10ce6f73fafa8e8719c5be05bfda9a836cbe732ad"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:f3842a4dd94cf91e0259f5cf95e325314c664fe5b68b0a15d1a45739096b62e9",
+          "sha256": "f3842a4dd94cf91e0259f5cf95e325314c664fe5b68b0a15d1a45739096b62e9"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:7abad795d8f0b89d7927db89147ba2a5273e04cdfdcda30d9bc402fef4352ce6",
+          "sha256": "7abad795d8f0b89d7927db89147ba2a5273e04cdfdcda30d9bc402fef4352ce6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:7b02d0690b3ca73cacf020eb6de303370b7d6def89b9769f0bd18222722e4903",
+          "sha256": "7b02d0690b3ca73cacf020eb6de303370b7d6def89b9769f0bd18222722e4903"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:e422e0f9f84e2fa558e75e5145abcba59ef61c72dacdf757eb185694a58c08a7",
+          "sha256": "e422e0f9f84e2fa558e75e5145abcba59ef61c72dacdf757eb185694a58c08a7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:d3dfeade8b72c260d4745892f254ceb72535502293f6ddd04d04f19cb7affa35",
+          "sha256": "d3dfeade8b72c260d4745892f254ceb72535502293f6ddd04d04f19cb7affa35"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/msgpack.rb",
+  "ruby_source_checksum": {
+    "sha256": "6638591bc81446d8778adad54c0ea03b3b54c45e537448fafc79dd22e356f898"
+  },
+  "date_added": "2010-03-22T15:56:32-07:00"
+}

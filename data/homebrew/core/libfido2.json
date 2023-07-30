@@ -1,0 +1,111 @@
+{
+  "name": "libfido2",
+  "full_name": "libfido2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Provides library functionality for FIDO U2F & FIDO 2.0, including USB",
+  "license": "BSD-2-Clause",
+  "homepage": "https://developers.yubico.com/libfido2/",
+  "versions": {
+    "stable": "1.13.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Yubico/libfido2/archive/1.13.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "51d43727e2a1c4544c7fd0ee47786f443e39f1388ada735a509ad4af0a2459ca"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:92ec60d842d0f283bf1d5f3e063aee439cbe1bfdb3b458556caa0dabeed3d0e1",
+          "sha256": "92ec60d842d0f283bf1d5f3e063aee439cbe1bfdb3b458556caa0dabeed3d0e1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:ad03ed8928436cf37260a365287c0f5fc0b82379a31ebf59b2500e7ef04aa0ec",
+          "sha256": "ad03ed8928436cf37260a365287c0f5fc0b82379a31ebf59b2500e7ef04aa0ec"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:62bc2844dfe47bd9c5a05b61b4e8e6d4ca765c5ae15679406fa21f1c17aae031",
+          "sha256": "62bc2844dfe47bd9c5a05b61b4e8e6d4ca765c5ae15679406fa21f1c17aae031"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:e3f26a2f2a3ed809d521960ab19f6cd7165a6c8ef634dafec625f4574f692365",
+          "sha256": "e3f26a2f2a3ed809d521960ab19f6cd7165a6c8ef634dafec625f4574f692365"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:965c77b9c1fa018c00421affc54cf9e291733a7f945044977c1118e7f984c060",
+          "sha256": "965c77b9c1fa018c00421affc54cf9e291733a7f945044977c1118e7f984c060"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:fbc2977a46a8a2cd67003d6481c124407eb154f477f5b1bd558a71673319739f",
+          "sha256": "fbc2977a46a8a2cd67003d6481c124407eb154f477f5b1bd558a71673319739f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libfido2/blobs/sha256:54a0268ea3f24f5d9f0c4bfbe997d425d7f2f133c4df6f8ebe8c87bf7e76372f",
+          "sha256": "54a0268ea3f24f5d9f0c4bfbe997d425d7f2f133c4df6f8ebe8c87bf7e76372f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "mandoc",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libcbor",
+    "openssl@3",
+    "systemd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libfido2.rb",
+  "ruby_source_checksum": {
+    "sha256": "543ef6971c6bb3f0a2fbe6278bde09d76391ac20bd25076ebcf5f7820916ae3c"
+  },
+  "date_added": "2020-02-22T12:27:24+11:00"
+}

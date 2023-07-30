@@ -1,0 +1,103 @@
+{
+  "name": "mpage",
+  "full_name": "mpage",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Many to one page printing utility",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://mesa.nl/pub/mpage/README",
+  "versions": {
+    "stable": "2.5.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mesa.nl/pub/mpage/mpage-2.5.8.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2351e91d25794b358df6618f17a7013a28d350ec20408fe06f8123dc4673fe93"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:73e7baeaab7049ad6283a84d4ded710eee5597bf08afaf91fe9d3e63fa254b28",
+          "sha256": "73e7baeaab7049ad6283a84d4ded710eee5597bf08afaf91fe9d3e63fa254b28"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:0a67c5c240e36df17b8133621bc3a620a8bbd211a44f3971edff3d81a363d652",
+          "sha256": "0a67c5c240e36df17b8133621bc3a620a8bbd211a44f3971edff3d81a363d652"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:ab9465239a6f52df582be02ff654c4d5f64cf84b0674bb8326e104119dbc185a",
+          "sha256": "ab9465239a6f52df582be02ff654c4d5f64cf84b0674bb8326e104119dbc185a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:fe00986658cf5c208b1335724d6856090f9b957c1bc937c016270cbc132d506a",
+          "sha256": "fe00986658cf5c208b1335724d6856090f9b957c1bc937c016270cbc132d506a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:a030ebbb33d31ab4620835a6d6fbdd335f5d9570198ed652c8cab55831a5b29b",
+          "sha256": "a030ebbb33d31ab4620835a6d6fbdd335f5d9570198ed652c8cab55831a5b29b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:77f4a54443d7d8f6ee681d061c1e30aabc9021ceb6a5ff6a26bc85d992824f11",
+          "sha256": "77f4a54443d7d8f6ee681d061c1e30aabc9021ceb6a5ff6a26bc85d992824f11"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mpage/blobs/sha256:6a4e4a8c70d9b83690c2e0c3bd94574f8e3e6a0cadcf12cc80ba197d79186c56",
+          "sha256": "6a4e4a8c70d9b83690c2e0c3bd94574f8e3e6a0cadcf12cc80ba197d79186c56"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mpage.rb",
+  "ruby_source_checksum": {
+    "sha256": "10e6b276eb36405750eea5b2b3d25f18bde2059050720f50394a1f80fee026b9"
+  },
+  "date_added": "2016-09-18T01:03:02-04:00"
+}

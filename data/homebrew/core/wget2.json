@@ -1,0 +1,139 @@
+{
+  "name": "wget2",
+  "full_name": "wget2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Successor of GNU Wget, a file and recursive website downloader",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://gitlab.com/gnuwget/wget2",
+  "versions": {
+    "stable": "2.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://gitlab.com/gnuwget/wget2/uploads/83752270de83e103306576e67a1c7c80/wget2-2.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0bb7fa03697bb5b8d05e1b5e15b863440826eb845874c4ffb5e32330f9845db1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:fa4432f5f7ce4d83c9fe0a9e89b45f5c9f53c78915538081f8316232f16d363a",
+          "sha256": "fa4432f5f7ce4d83c9fe0a9e89b45f5c9f53c78915538081f8316232f16d363a"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:1d39d7e9074e73dd041b3c87e7461c39a9a077239cd6209b2b5cfe6ccfdb1b6e",
+          "sha256": "1d39d7e9074e73dd041b3c87e7461c39a9a077239cd6209b2b5cfe6ccfdb1b6e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:11191e2efde22f9e98b6f3eb2e1640e720d795b0af23651d65ae4e542eb3a4f7",
+          "sha256": "11191e2efde22f9e98b6f3eb2e1640e720d795b0af23651d65ae4e542eb3a4f7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:b0a0dd524e72ca51c58433fd4f5371b1c7b9ad42a00709a29e9a1c6232f2813a",
+          "sha256": "b0a0dd524e72ca51c58433fd4f5371b1c7b9ad42a00709a29e9a1c6232f2813a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:e1e86a64b8229d64fc73a56cee68e281ea3f93465d1b22f2653704fed0e3f683",
+          "sha256": "e1e86a64b8229d64fc73a56cee68e281ea3f93465d1b22f2653704fed0e3f683"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:95703ee9f7a7c55fd50b3fbe4e77321d1db04ff77dfbae5f080099fa54b672eb",
+          "sha256": "95703ee9f7a7c55fd50b3fbe4e77321d1db04ff77dfbae5f080099fa54b672eb"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/wget2/blobs/sha256:7e240a02462644bc2da043b1c90332b62702115338b41eb55463b47620e3df4f",
+          "sha256": "7e240a02462644bc2da043b1c90332b62702115338b41eb55463b47620e3df4f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "doxygen",
+    "gnu-sed",
+    "graphviz",
+    "lzip",
+    "pandoc",
+    "pkg-config",
+    "texinfo"
+  ],
+  "dependencies": [
+    "brotli",
+    "gettext",
+    "gnutls",
+    "gpgme",
+    "libassuan",
+    "libgpg-error",
+    "libidn2",
+    "libmicrohttpd",
+    "libnghttp2",
+    "libpsl",
+    "libtasn1",
+    "lzlib",
+    "nettle",
+    "p11-kit",
+    "pcre2",
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "icu4c",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {
+      "since": "monterey"
+    },
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wget2.rb",
+  "ruby_source_checksum": {
+    "sha256": "2af2c1e1a0f2e16ba511aeba9634b5ebcc105d1702ede17ee9234eeaa8110376"
+  },
+  "date_added": "2023-07-01T01:17:01+08:00"
+}

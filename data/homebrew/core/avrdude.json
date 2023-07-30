@@ -1,0 +1,126 @@
+{
+  "name": "avrdude",
+  "full_name": "avrdude",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Atmel AVR MCU programmer",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.nongnu.org/avrdude/",
+  "versions": {
+    "stable": "7.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/avrdudes/avrdude/archive/refs/tags/v7.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "beb4e0b0a07f8d47e550329ab93c345d5252350de6f833afde51b4d8bd934674"
+    },
+    "head": {
+      "url": "https://github.com/avrdudes/avrdude.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:ef1c67093428501338afc705c0a81440cfc5c8d99d8fe2351fe85f3ca227e922",
+          "sha256": "ef1c67093428501338afc705c0a81440cfc5c8d99d8fe2351fe85f3ca227e922"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:d31e478fa3320f2ea482ee2c7d57faec909e5ef2096d9853d8bef629084d2d1e",
+          "sha256": "d31e478fa3320f2ea482ee2c7d57faec909e5ef2096d9853d8bef629084d2d1e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:829d499cf793631d0f67f518056717849dfff7b307900b0882f9cab93929f204",
+          "sha256": "829d499cf793631d0f67f518056717849dfff7b307900b0882f9cab93929f204"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:6b43827f0b3c2c287ae61260bbc35c11cedb54a4cd29668595cac7430114312f",
+          "sha256": "6b43827f0b3c2c287ae61260bbc35c11cedb54a4cd29668595cac7430114312f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:f7dc255c04fcfa3edafc24e9c06ae34d02056b48a942d54cbd694fe7ea681b96",
+          "sha256": "f7dc255c04fcfa3edafc24e9c06ae34d02056b48a942d54cbd694fe7ea681b96"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:47de68ccf21cc64b8f79c4ef3b829d51aaa65a6df771cdb92401540adcabf619",
+          "sha256": "47de68ccf21cc64b8f79c4ef3b829d51aaa65a6df771cdb92401540adcabf619"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avrdude/blobs/sha256:46e4de78eef44a5ed518a5ccc622c146449352ebe169b626cecefda53ba7dcb3",
+          "sha256": "46e4de78eef44a5ed518a5ccc622c146449352ebe169b626cecefda53ba7dcb3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "hidapi",
+    "libftdi",
+    "libusb",
+    "libusb-compat",
+    "elfutils",
+    "readline"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/avrdude.rb",
+  "ruby_source_checksum": {
+    "sha256": "aa5178f459cd235c7c531786a9f7a3c0c387492e554bf49fef2a870948d85259"
+  },
+  "date_added": "2010-03-29T17:10:10-07:00"
+}

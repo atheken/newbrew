@@ -1,0 +1,100 @@
+{
+  "name": "avahi",
+  "full_name": "avahi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Service Discovery for Linux using mDNS/DNS-SD",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://avahi.org",
+  "versions": {
+    "stable": "0.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lathiat/avahi/archive/v0.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c15e750ef7c6df595fb5f2ce10cac0fee2353649600e6919ad08ae8871e4945f"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/avahi/blobs/sha256:81bf418f84a33bff333ec46728bfd2780e6935560b173527a25946bc11db1617",
+          "sha256": "81bf418f84a33bff333ec46728bfd2780e6935560b173527a25946bc11db1617"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "intltool",
+    "libtool",
+    "m4",
+    "perl",
+    "pkg-config",
+    "xmltoman"
+  ],
+  "dependencies": [
+    "dbus",
+    "gdbm",
+    "glib",
+    "libdaemon"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/avahi.rb",
+  "ruby_source_checksum": {
+    "sha256": "bbb74cb2f0bc06ce26052ac9f0c19ae01163d0c97505321fdd943294d2fbcea7"
+  },
+  "date_added": "2021-06-02T17:52:44-07:00"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "botan@2",
+  "full_name": "botan@2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cryptographic algorithms and formats library in C++",
+  "license": "BSD-2-Clause",
+  "homepage": "https://botan.randombit.net/",
+  "versions": {
+    "stable": "2.19.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://botan.randombit.net/releases/Botan-2.19.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "dae047f399c5a47f087db5d3d9d9e8f11ae4985d14c928d71da1aff801802d55"
+    },
+    "head": {
+      "url": "https://github.com/randombit/botan.git",
+      "branch": "release-2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:db87e45ec9a5f29624c37869d7f85f194d882df98857cd5998b3cf6945c6a668",
+          "sha256": "db87e45ec9a5f29624c37869d7f85f194d882df98857cd5998b3cf6945c6a668"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:264a52093b9e5766f7355a02d7edc225950cbf7934beedad55fba151993e9d10",
+          "sha256": "264a52093b9e5766f7355a02d7edc225950cbf7934beedad55fba151993e9d10"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:04571b6d81d868fd8c2ace48c8880ea2b8a706c1497783df4a191179aaf08136",
+          "sha256": "04571b6d81d868fd8c2ace48c8880ea2b8a706c1497783df4a191179aaf08136"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:671661b12c35740b7dfdd3c1fd5685e0c395169c6004dce01f36dd6810b17708",
+          "sha256": "671661b12c35740b7dfdd3c1fd5685e0c395169c6004dce01f36dd6810b17708"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:f89027a21ad80555283428ebab8849168e643bdf22c7df8155024b5a128d515e",
+          "sha256": "f89027a21ad80555283428ebab8849168e643bdf22c7df8155024b5a128d515e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:5a55196bc320904ac4195f49211ee897776efa44c677e85a9e8f30e85e54eec0",
+          "sha256": "5a55196bc320904ac4195f49211ee897776efa44c677e85a9e8f30e85e54eec0"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/botan/2/blobs/sha256:b001bf81ca13d97035ee74a7192c41eb68cd573110bacc56f1ed58686a23bda4",
+          "sha256": "b001bf81ca13d97035ee74a7192c41eb68cd573110bacc56f1ed58686a23bda4"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "python@3.11",
+    "sqlite"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/botan@2.rb",
+  "ruby_source_checksum": {
+    "sha256": "65181bbd11b63080c289c4a13aca41a2ed860018dd9e645608cabfc61b2d626b"
+  },
+  "date_added": "2023-07-11T19:20:08+08:00"
+}

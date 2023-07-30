@@ -1,0 +1,130 @@
+{
+  "name": "itstool",
+  "full_name": "itstool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Make XML documents translatable through PO files",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://itstool.org/",
+  "versions": {
+    "stable": "2.0.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.itstool.org/itstool/itstool-2.0.7.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "6b9a7cd29a12bb95598f5750e8763cee78836a1a207f85b74d8b3275b27e87ca"
+    },
+    "head": {
+      "url": "https://github.com/itstool/itstool.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690",
+          "sha256": "63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690",
+          "sha256": "63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690",
+          "sha256": "63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29",
+          "sha256": "d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29",
+          "sha256": "d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29",
+          "sha256": "d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29"
+        },
+        "catalina": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29",
+          "sha256": "d7df12dd9d64c70c59da80ea8e65bdc10a2cb3f74e5cd701a48f9958c62def29"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/itstool/blobs/sha256:63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690",
+          "sha256": "63d15cf95366fdd8d62b26b7105d8c097d9c715ac080d04118ba5c8eba8c4690"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libxml2",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/itstool.rb",
+  "ruby_source_checksum": {
+    "sha256": "662870c23078edfe7eee92a4fb34f5ff34e43d06b5c993256b027b5fe6c70c6a"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake"
+    ],
+    "dependencies": [
+      "libxml2",
+      "python@3.11"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2013-01-04T14:37:18-08:00"
+}

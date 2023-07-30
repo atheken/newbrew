@@ -1,0 +1,112 @@
+{
+  "name": "onednn",
+  "full_name": "onednn",
+  "tap": "homebrew/core",
+  "oldname": "mkl-dnn",
+  "oldnames": [
+    "mkl-dnn"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Basic building blocks for deep learning applications",
+  "license": "Apache-2.0",
+  "homepage": "https://01.org/oneDNN",
+  "versions": {
+    "stable": "3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/oneapi-src/oneDNN/archive/v3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8b1db9cc5799ae39c2a567eb836962de0346d79fbc3d8e6f7090a3d9f8729129"
+    },
+    "head": {
+      "url": "https://github.com/oneapi-src/onednn.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:7587594a2ed6e0af2f222b0215eb7296054888c5905ad5fc49d6cb8645f2a763",
+          "sha256": "7587594a2ed6e0af2f222b0215eb7296054888c5905ad5fc49d6cb8645f2a763"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:bdcc8636c8ee00829047ebfed6b9f99f295555590584e9f2352b2b01ac7301ff",
+          "sha256": "bdcc8636c8ee00829047ebfed6b9f99f295555590584e9f2352b2b01ac7301ff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:6695e3ffc894d08f1a94403d741525e698029cf7238776ce112ce3ea969fee24",
+          "sha256": "6695e3ffc894d08f1a94403d741525e698029cf7238776ce112ce3ea969fee24"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:a2822f32e6dfbfb2b43e559af60010e86d1bca594a2222ec0d4627a77b029aa2",
+          "sha256": "a2822f32e6dfbfb2b43e559af60010e86d1bca594a2222ec0d4627a77b029aa2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:2dcdc5e2ae13b21534094b5fcdb9d179bcbb8f3c6194f025a6ea6879b04a1298",
+          "sha256": "2dcdc5e2ae13b21534094b5fcdb9d179bcbb8f3c6194f025a6ea6879b04a1298"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:8d4125e5c102722a80b157166ba07f9c056cb1e85f02dcfa08b2a31b57d6c46d",
+          "sha256": "8d4125e5c102722a80b157166ba07f9c056cb1e85f02dcfa08b2a31b57d6c46d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/onednn/blobs/sha256:2a5e7eea97a45068f6fc8f856173c178af8b951d3d80c6ab40570409bfa6506a",
+          "sha256": "2a5e7eea97a45068f6fc8f856173c178af8b951d3d80c6ab40570409bfa6506a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/onednn.rb",
+  "ruby_source_checksum": {
+    "sha256": "8fabcfc3066ec58617f9736b7774cd4a3754f8b2da00bf101aa0c4585665113f"
+  },
+  "date_added": "2020-06-22T12:08:24+00:00"
+}

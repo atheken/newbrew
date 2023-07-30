@@ -1,0 +1,109 @@
+{
+  "name": "dcm2niix",
+  "full_name": "dcm2niix",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DICOM to NIfTI converter",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage",
+  "versions": {
+    "stable": "1.0.20230411",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rordenlab/dcm2niix/archive/v1.0.20230411.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "990368e627a7d972a607ef965161e4ab0ddc5b0be35d659c1ce387c8ddae8301"
+    },
+    "head": {
+      "url": "https://github.com/rordenlab/dcm2niix.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:646b444246653c09158281f1eadc660dabaed791f61167c4975c9a964aa41986",
+          "sha256": "646b444246653c09158281f1eadc660dabaed791f61167c4975c9a964aa41986"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:5cbf4e3e61a81ff0ac4daed870f71653c9a40b92ec85d640db9b6ff293787152",
+          "sha256": "5cbf4e3e61a81ff0ac4daed870f71653c9a40b92ec85d640db9b6ff293787152"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:1e250cdb698d8db5e365a0f6a752904f80140e02e8d59daae195a604a0589917",
+          "sha256": "1e250cdb698d8db5e365a0f6a752904f80140e02e8d59daae195a604a0589917"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:bac453b5a1f5fce0fa171f60740b1d67518f3ad16f3b957ee828f55700ca450a",
+          "sha256": "bac453b5a1f5fce0fa171f60740b1d67518f3ad16f3b957ee828f55700ca450a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:5a06eac1f532dc970fd53c7032179f24bf279ad9aad3430cceee3859013bc5b7",
+          "sha256": "5a06eac1f532dc970fd53c7032179f24bf279ad9aad3430cceee3859013bc5b7"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:7a6e9abfd7048110de17f69b436c3262cde76888aa4041b535fbf02fc056da56",
+          "sha256": "7a6e9abfd7048110de17f69b436c3262cde76888aa4041b535fbf02fc056da56"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dcm2niix/blobs/sha256:7c262a91f2cb0ce4dfa0716e36ae9963d4ed92652f8cae06f91a0bc7eae5d6c0",
+          "sha256": "7c262a91f2cb0ce4dfa0716e36ae9963d4ed92652f8cae06f91a0bc7eae5d6c0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dcm2niix.rb",
+  "ruby_source_checksum": {
+    "sha256": "9064a9f2992930addee29265d42cb268aee3d0bfe2ad6169aac07643d2ed2b35"
+  },
+  "date_added": "2017-06-10T15:08:27-07:00"
+}

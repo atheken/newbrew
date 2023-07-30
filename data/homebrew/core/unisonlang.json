@@ -1,0 +1,120 @@
+{
+  "name": "unisonlang",
+  "full_name": "unisonlang",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "ucm"
+  ],
+  "versioned_formulae": [],
+  "desc": "Friendly programming language from the future",
+  "license": "MIT",
+  "homepage": "https://unison-lang.org/",
+  "versions": {
+    "stable": "M4h",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/unisonweb/unison.git",
+      "tag": "release/M4h",
+      "revision": "b5fca58162798dc8635bedd200eb735a707a7fe8",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/unisonweb/unison.git",
+      "branch": "trunk"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:6b9fb7bcd2579fa83e38e192bca8458f9d64a69e340872070b958b3c8ba2ccff",
+          "sha256": "6b9fb7bcd2579fa83e38e192bca8458f9d64a69e340872070b958b3c8ba2ccff"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:51ef67afce4c2f5c19129fdd06101f142db9feb3c2be56388bb96cd8502b1bba",
+          "sha256": "51ef67afce4c2f5c19129fdd06101f142db9feb3c2be56388bb96cd8502b1bba"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:2f85c99bf33b350380933fa67a222827ef2eaba16a5fcb6b206dee303c875fd7",
+          "sha256": "2f85c99bf33b350380933fa67a222827ef2eaba16a5fcb6b206dee303c875fd7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:e60accc2a84b3d8fa001fb7da9132b9d82fd6d2607e8d3ded872d1d4eeef7114",
+          "sha256": "e60accc2a84b3d8fa001fb7da9132b9d82fd6d2607e8d3ded872d1d4eeef7114"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:166c193bb3c83c683b6df7f8c4a48d3d46c960103b403107590154d3cd615ddf",
+          "sha256": "166c193bb3c83c683b6df7f8c4a48d3d46c960103b403107590154d3cd615ddf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/unisonlang/blobs/sha256:ae23dafd3afa7e35fe6c3c98d1db200fd0b1a8ff4a23e0dd40263e20397558be",
+          "sha256": "ae23dafd3afa7e35fe6c3c98d1db200fd0b1a8ff4a23e0dd40263e20397558be"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ghc@8.10",
+    "haskell-stack",
+    "node@18"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    },
+    {
+      "xz": "build"
+    },
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/unisonlang.rb",
+  "ruby_source_checksum": {
+    "sha256": "0941af2055cc531475795a5b66cb08a9cb9e64914dcb528a40b3a90b9e48bf82"
+  },
+  "date_added": "2022-07-01T14:27:50+00:00"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "libzip",
+  "full_name": "libzip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for reading, creating, and modifying zip archives",
+  "license": "BSD-3-Clause",
+  "homepage": "https://libzip.org/",
+  "versions": {
+    "stable": "1.10.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://libzip.org/download/libzip-1.10.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd2a7ac9f1fb5bfa6218272d9929955dc7237515bba6e14b5ad0e1d1e2212b43"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:7396ff8c885b5b409971c8f1327d8f5053d8d06e840e6bc6b993150c77cb663f",
+          "sha256": "7396ff8c885b5b409971c8f1327d8f5053d8d06e840e6bc6b993150c77cb663f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:5bf073278ba871965559111f2f8be014817649c92059a46b3f9b82162d5163f9",
+          "sha256": "5bf073278ba871965559111f2f8be014817649c92059a46b3f9b82162d5163f9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:43a494470436568645796a9387c1693c23123928bb87a85c404e5760456ab4be",
+          "sha256": "43a494470436568645796a9387c1693c23123928bb87a85c404e5760456ab4be"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:c7260f05af8676b4556a4f8257d04f0e88a49d6ea5a515abd4a4902bba8fef48",
+          "sha256": "c7260f05af8676b4556a4f8257d04f0e88a49d6ea5a515abd4a4902bba8fef48"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:c1d53223d07bea7473df733d36b446a80498b06c719e70403b619f969075235f",
+          "sha256": "c1d53223d07bea7473df733d36b446a80498b06c719e70403b619f969075235f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:87f5c908912692fe28e548d51d96c8659d500bfb991784796ec149201a9a9e79",
+          "sha256": "87f5c908912692fe28e548d51d96c8659d500bfb991784796ec149201a9a9e79"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:3eb7d9dff36b2fe8809015f1b1bf3f8cc6635a4b8db3b86ec6cdf7bc4e4858e2",
+          "sha256": "3eb7d9dff36b2fe8809015f1b1bf3f8cc6635a4b8db3b86ec6cdf7bc4e4858e2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "zstd",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "zip": "test"
+    },
+    "bzip2",
+    "xz",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "libtcod",
+    "minizip-ng"
+  ],
+  "conflicts_with_reasons": [
+    "libtcod, libzip and minizip-ng install a `zip.h` header",
+    "libtcod, libzip and minizip-ng install a `zip.h` header"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libzip.rb",
+  "ruby_source_checksum": {
+    "sha256": "8ed005e5b95bac73dda206191ba5f1d567021e02d6e32f3d53e99c02419d176c"
+  },
+  "date_added": "2011-02-02T22:04:54+00:00"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "prometheus",
+  "full_name": "prometheus",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Service monitoring system and time series database",
+  "license": "Apache-2.0",
+  "homepage": "https://prometheus.io/",
+  "versions": {
+    "stable": "2.46.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/prometheus/prometheus/archive/v2.46.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1b01b087a61318f32239345c9cc02a79a163418fe5eab63041754e4fb5db787d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:cdacfae60493c042563567d5ad87794f66eb152d3b4cf07e4cc1e012ce3fb833",
+          "sha256": "cdacfae60493c042563567d5ad87794f66eb152d3b4cf07e4cc1e012ce3fb833"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:a6cfb188dca460b9b54d3f9adc65c9f34936d3d34a549e4eb93daad6136ddab3",
+          "sha256": "a6cfb188dca460b9b54d3f9adc65c9f34936d3d34a549e4eb93daad6136ddab3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:c64c3473264d5d9bafa3b196ffc6abe412e82994478c48bf231b76bfe887c86d",
+          "sha256": "c64c3473264d5d9bafa3b196ffc6abe412e82994478c48bf231b76bfe887c86d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:8d52e9962c1dbd344e8f190facc808b17eba37974a7c7ae7d4d24b8ea4d88bb0",
+          "sha256": "8d52e9962c1dbd344e8f190facc808b17eba37974a7c7ae7d4d24b8ea4d88bb0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:36e183c008c6e36cc870392933febffe192ddd48f9dd87d70b4678029376def0",
+          "sha256": "36e183c008c6e36cc870392933febffe192ddd48f9dd87d70b4678029376def0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:720fb12ebc71f3b64a2194f6d66f1474f31a6c349ceb808111e8aec24ad85fbe",
+          "sha256": "720fb12ebc71f3b64a2194f6d66f1474f31a6c349ceb808111e8aec24ad85fbe"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/prometheus/blobs/sha256:421a712506a8aeacf35ecfdedd20cd9f8fb5ec25a8eefe83f9309a86a39f960f",
+          "sha256": "421a712506a8aeacf35ecfdedd20cd9f8fb5ec25a8eefe83f9309a86a39f960f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnu-tar",
+    "go",
+    "node",
+    "yarn"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "When run from `brew services`, `prometheus` is run from\n`prometheus_brew_services` and uses the flags in:\n   $HOMEBREW_PREFIX/etc/prometheus.args\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/prometheus/bin/prometheus_brew_services"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/prometheus.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/prometheus.err.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/prometheus.rb",
+  "ruby_source_checksum": {
+    "sha256": "e4561ef2d641160f4ef047502085152af688812c127a0f91f869eea09294fb94"
+  },
+  "date_added": "2016-03-07T19:28:38+08:00"
+}

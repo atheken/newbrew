@@ -1,0 +1,112 @@
+{
+  "name": "biosig",
+  "full_name": "biosig",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for biomedical signal processing and data conversion",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://biosig.sourceforge.io",
+  "versions": {
+    "stable": "2.5.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/biosig/BioSig%20for%20C_C%2B%2B/src/biosig-2.5.2.src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3c87fa4ae6d69e1a75477f85451b6f16480418a0018d59e1586a2e3e8954ec47"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:83d191f0a0ac811bcf64c0c5112eed21d6a259f05d0b34be1e796e76a758d7f4",
+          "sha256": "83d191f0a0ac811bcf64c0c5112eed21d6a259f05d0b34be1e796e76a758d7f4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:a4f03b4dd7ed99343a9c38635a032b18062d7987994a0771f366b365a3198665",
+          "sha256": "a4f03b4dd7ed99343a9c38635a032b18062d7987994a0771f366b365a3198665"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:08a1fd1b2ed45e852c449dec1fa31acfba84647102b686aa7dd80b2fc011dfd3",
+          "sha256": "08a1fd1b2ed45e852c449dec1fa31acfba84647102b686aa7dd80b2fc011dfd3"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:2f62a6de7d6d95332d5786db95bd128a4f1e622588eb2484059ec11016cae52d",
+          "sha256": "2f62a6de7d6d95332d5786db95bd128a4f1e622588eb2484059ec11016cae52d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:16b28c2c2d7a6c51a5d36f2213cfb64fcbbfe0255aedfa98ff77c260dad8e107",
+          "sha256": "16b28c2c2d7a6c51a5d36f2213cfb64fcbbfe0255aedfa98ff77c260dad8e107"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:ad212b7f5f76da51d0ef8b33c8b9d8a2e47e015f0cc218056d753e023fe0d267",
+          "sha256": "ad212b7f5f76da51d0ef8b33c8b9d8a2e47e015f0cc218056d753e023fe0d267"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/biosig/blobs/sha256:1a39f2773b2ddf64ffa46b897c77cb09e2ba38ba93b274c2b4e49ba9d5ed4c20",
+          "sha256": "1a39f2773b2ddf64ffa46b897c77cb09e2ba38ba93b274c2b4e49ba9d5ed4c20"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gawk",
+    "libarchive"
+  ],
+  "dependencies": [
+    "dcmtk",
+    "libb64",
+    "numpy",
+    "suite-sparse",
+    "tinyxml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/biosig.rb",
+  "ruby_source_checksum": {
+    "sha256": "711428e3417dc56c81eedba9b1881580f75c0d3da613913a1b609935abc56483"
+  },
+  "date_added": "2020-02-23T13:46:42-05:00"
+}

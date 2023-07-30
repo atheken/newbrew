@@ -1,0 +1,113 @@
+{
+  "name": "sqldiff",
+  "full_name": "sqldiff",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Displays the differences between SQLite databases",
+  "license": "blessing",
+  "homepage": "https://www.sqlite.org/sqldiff.html",
+  "versions": {
+    "stable": "3.42.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.sqlite.org/2023/sqlite-src-3420000.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "38ca56a317be37fb00bd92bc280d9b9209bd4008b297d483c41ec1f6079bfb6d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:e77cf1c3b7494e7453918b4c2b80ef93b3fdc07a34f9604489d8afd311c43111",
+          "sha256": "e77cf1c3b7494e7453918b4c2b80ef93b3fdc07a34f9604489d8afd311c43111"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:97ac7bcdbde502a48e6715564b22277ed628ed04964c9b365255818d0b9babcf",
+          "sha256": "97ac7bcdbde502a48e6715564b22277ed628ed04964c9b365255818d0b9babcf"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:b8dd59b40a8592fce276005b534ac8e8a9c951f8db1ef279001dda839c5a7851",
+          "sha256": "b8dd59b40a8592fce276005b534ac8e8a9c951f8db1ef279001dda839c5a7851"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:fa978652a8b4d6bd62b35ccab977a2f191bea8e4055a638014eed598eb762ebe",
+          "sha256": "fa978652a8b4d6bd62b35ccab977a2f191bea8e4055a638014eed598eb762ebe"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:8dfddf54fb1d531d4c7b5a53dd3cc034d6eb139b9574ce2394d82b6f38ec53d1",
+          "sha256": "8dfddf54fb1d531d4c7b5a53dd3cc034d6eb139b9574ce2394d82b6f38ec53d1"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:b80fb04865a77ce4295d8e2d7b4a1a9a9f321ad7444919bbe851899db002c412",
+          "sha256": "b80fb04865a77ce4295d8e2d7b4a1a9a9f321ad7444919bbe851899db002c412"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqldiff/blobs/sha256:1a3a4d57c21c653ff1d4b61ef8afd0f416776c808263917c1d508fe84e8ab0e8",
+          "sha256": "1a3a4d57c21c653ff1d4b61ef8afd0f416776c808263917c1d508fe84e8ab0e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "tcl-tk": "build"
+    },
+    {
+      "sqlite": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sqldiff.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf761785465e1a442d7e7531fd24d86df7d135ef90f954bf7164900d8df46d45"
+  },
+  "date_added": "2016-10-03T21:07:18+01:00"
+}

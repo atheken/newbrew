@@ -1,0 +1,106 @@
+{
+  "name": "cdparanoia",
+  "full_name": "cdparanoia",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Audio extraction tool for sampling CDs",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+  "homepage": "https://www.xiph.org/paranoia/",
+  "versions": {
+    "stable": "10.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "005db45ef4ee017f5c32ec124f913a0546e77014266c6a1c50df902a55fe64df"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:5fce8011bf8533e069b7f6047defb5ef911f63ba9da06d6675091c97a7e7e227",
+          "sha256": "5fce8011bf8533e069b7f6047defb5ef911f63ba9da06d6675091c97a7e7e227"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:5d8b1e73627d9349a554277257c4307708cb545241de318059226c30ddaff163",
+          "sha256": "5d8b1e73627d9349a554277257c4307708cb545241de318059226c30ddaff163"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:7f6df3210edceca8bc7efb2ad83d51bbb07df9d114dff57d0907f8a095eb6317",
+          "sha256": "7f6df3210edceca8bc7efb2ad83d51bbb07df9d114dff57d0907f8a095eb6317"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:baa6da0e6a60da3c6a3417c48e967bee871661dcdd0fee3fa5d05463b0ae9623",
+          "sha256": "baa6da0e6a60da3c6a3417c48e967bee871661dcdd0fee3fa5d05463b0ae9623"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:947c11b5f0535b78e5917e3c37ab1e1669bb5984df3e8a833656463a66a4bc9b",
+          "sha256": "947c11b5f0535b78e5917e3c37ab1e1669bb5984df3e8a833656463a66a4bc9b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:3254c96c3809aed7f6190abe33cfb95056532cc932de14591435e2dddb1d8cd2",
+          "sha256": "3254c96c3809aed7f6190abe33cfb95056532cc932de14591435e2dddb1d8cd2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cdparanoia/blobs/sha256:3b198eb38176c050af6da82d82ef25035dc43a1bfc94a02f064b9103b85a5593",
+          "sha256": "3b198eb38176c050af6da82d82ef25035dc43a1bfc94a02f064b9103b85a5593"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-05-15",
+  "deprecation_reason": "unmaintained",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cdparanoia.rb",
+  "ruby_source_checksum": {
+    "sha256": "6b6c7ecdf1d92eaddcfc6310fe9c7ae45f79a9d9a3fcd39dbd54e1a6cd30bae9"
+  },
+  "date_added": "2010-08-29T12:20:10+02:00"
+}

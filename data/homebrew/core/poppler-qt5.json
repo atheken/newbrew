@@ -1,0 +1,135 @@
+{
+  "name": "poppler-qt5",
+  "full_name": "poppler-qt5",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "PDF rendering library (based on the xpdf-3.0 code base)",
+  "license": "GPL-2.0-only",
+  "homepage": "https://poppler.freedesktop.org/",
+  "versions": {
+    "stable": "23.07.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://poppler.freedesktop.org/poppler-23.07.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f29b4b4bf47572611176454c8f21506d71d27eca5011a39aa44038b30b957db0"
+    },
+    "head": {
+      "url": "https://gitlab.freedesktop.org/poppler/poppler.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:fc844eeb14bae4cb6d833fa8266cb95cfb6eee69d6155532cf12aa512ab2f5a3",
+          "sha256": "fc844eeb14bae4cb6d833fa8266cb95cfb6eee69d6155532cf12aa512ab2f5a3"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:4df43820f85b02583e151e610187000606be0b109356af78fd050012332fd4d3",
+          "sha256": "4df43820f85b02583e151e610187000606be0b109356af78fd050012332fd4d3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:e9e8351a66d316a62e1b7ca00f4782068e389a3ea1cf15c96aa0804283ea4923",
+          "sha256": "e9e8351a66d316a62e1b7ca00f4782068e389a3ea1cf15c96aa0804283ea4923"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:aa5d6b149ea0fcf70846cc6b90bfa9edbb66e660077d35d1b65711ce452ea3b9",
+          "sha256": "aa5d6b149ea0fcf70846cc6b90bfa9edbb66e660077d35d1b65711ce452ea3b9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:b7e0f455a79c674c4d4dd67d80a7d443f271c23d714c2be233e5a0f5e3409850",
+          "sha256": "b7e0f455a79c674c4d4dd67d80a7d443f271c23d714c2be233e5a0f5e3409850"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:f66967fb7f9f88fb12b13a791e1958779766c2ac736e035f50c24933d02a3f1b",
+          "sha256": "f66967fb7f9f88fb12b13a791e1958779766c2ac736e035f50c24933d02a3f1b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/poppler-qt5/blobs/sha256:a1300c03c57f4bfc0336b6b66c95e1a58f4e43bfa7b8387d316e3e919ccfb1c2",
+          "sha256": "a1300c03c57f4bfc0336b6b66c95e1a58f4e43bfa7b8387d316e3e919ccfb1c2"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it conflicts with poppler",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gobject-introspection",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cairo",
+    "fontconfig",
+    "freetype",
+    "gettext",
+    "glib",
+    "jpeg-turbo",
+    "libpng",
+    "libtiff",
+    "little-cms2",
+    "nss",
+    "openjpeg",
+    "qt@5"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "gperf": "build"
+    },
+    "curl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/poppler-qt5.rb",
+  "ruby_source_checksum": {
+    "sha256": "69d37f2f73f0ff558c8848f8a2585b39da44e5f58d3ecb1653f896754a44579c"
+  },
+  "date_added": "2021-07-16T04:09:29+00:00"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "odpi",
+  "full_name": "odpi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Oracle Database Programming Interface for Drivers and Applications",
+  "license": "Apache-2.0 or UPL-1.0",
+  "homepage": "https://oracle.github.io/odpi/",
+  "versions": {
+    "stable": "4.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/oracle/odpi/archive/v4.6.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "30a50f831436528dcd5c8409e0c5e493838e0626c7718c8ec2c8f3e4f2e4b4ab"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:29c0aefa5550a599fc2547e5a2fa78be214880e84fc9e5a9b4c4cdab27009426",
+          "sha256": "29c0aefa5550a599fc2547e5a2fa78be214880e84fc9e5a9b4c4cdab27009426"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:e113d66087633f040ea6196f00674ffd0973ff033b2bdcef2bf322df1d6abda0",
+          "sha256": "e113d66087633f040ea6196f00674ffd0973ff033b2bdcef2bf322df1d6abda0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:5bd09af65c636f9f5ce46116e3dfabc8fe1d5533c72fbd479598146a4c8723fc",
+          "sha256": "5bd09af65c636f9f5ce46116e3dfabc8fe1d5533c72fbd479598146a4c8723fc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:5a658bfc7ef147112a666391048fb3be2a546316df8662d3df025f99ebc2c006",
+          "sha256": "5a658bfc7ef147112a666391048fb3be2a546316df8662d3df025f99ebc2c006"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:05dfb6bfaa79212ec76f959aeeccd05aa721157431fcad4509a790f8dbf90916",
+          "sha256": "05dfb6bfaa79212ec76f959aeeccd05aa721157431fcad4509a790f8dbf90916"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:f4d457db5ebecd652759d18b3a050e1b76606a6515c2d9578071a32a08dac826",
+          "sha256": "f4d457db5ebecd652759d18b3a050e1b76606a6515c2d9578071a32a08dac826"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odpi/blobs/sha256:5acc9a1232a419c84587cb40dcd8b5e1adc86d2415294cb7cbba03fe4773a830",
+          "sha256": "5acc9a1232a419c84587cb40dcd8b5e1adc86d2415294cb7cbba03fe4773a830"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/odpi.rb",
+  "ruby_source_checksum": {
+    "sha256": "c1a2f50af56d24c166f50f869a5a632583338ebb11c4f47b8891815b52b03091"
+  },
+  "date_added": "2018-02-14T16:26:59+01:00"
+}

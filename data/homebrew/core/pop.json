@@ -1,0 +1,105 @@
+{
+  "name": "pop",
+  "full_name": "pop",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Send emails from your terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/charmbracelet/pop",
+  "versions": {
+    "stable": "0.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/charmbracelet/pop/archive/v0.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d5cedd18327131df4e3857ddbc0d98326cab619630eb89f7ce2f2d03a3f4e723"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591",
+          "sha256": "bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591",
+          "sha256": "bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591",
+          "sha256": "bca42bc3e76cf9252753557f2c422a27548f83b1f63f1f200be7e769c0a77591"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68",
+          "sha256": "e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68",
+          "sha256": "e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68",
+          "sha256": "e17ee0449fb0463193f8ac28bf000977e16aff41c2f4e55e804659302c7c9d68"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pop/blobs/sha256:c7b7a91d27becd83aad04f8ccbf56945d52358c29546a481fac725c249d039a8",
+          "sha256": "c7b7a91d27becd83aad04f8ccbf56945d52358c29546a481fac725c249d039a8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pop.rb",
+  "ruby_source_checksum": {
+    "sha256": "4ad6ceed0fcd76175540909ba434af02aed9f68a76179846dd34df1711f75372"
+  },
+  "date_added": "2023-07-17T19:23:59+00:00"
+}

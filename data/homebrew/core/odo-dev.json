@@ -1,0 +1,113 @@
+{
+  "name": "odo-dev",
+  "full_name": "odo-dev",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Developer-focused CLI for Kubernetes and OpenShift",
+  "license": "Apache-2.0",
+  "homepage": "https://odo.dev",
+  "versions": {
+    "stable": "3.13.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/redhat-developer/odo.git",
+      "tag": "v3.13.0",
+      "revision": "0d1cf6e3656348ed7996d33e0a0109e37097d62f",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/redhat-developer/odo.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:1f8119de72fe1f0ecf9978ad52c6b4984a55e3a60f0e169773ab1f6f16e8b5ec",
+          "sha256": "1f8119de72fe1f0ecf9978ad52c6b4984a55e3a60f0e169773ab1f6f16e8b5ec"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:1a6d2da041915ea029108b76c68308de46fac43981a729c76c346f64a41bc4ba",
+          "sha256": "1a6d2da041915ea029108b76c68308de46fac43981a729c76c346f64a41bc4ba"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:c4e048b34cf0d23a148f8b49949c1384f86c2da0fc9547a935c456239851839f",
+          "sha256": "c4e048b34cf0d23a148f8b49949c1384f86c2da0fc9547a935c456239851839f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:75faed9f0695b57284bfd41258a007b01d8e3a8a05224f53b939f9361f06e912",
+          "sha256": "75faed9f0695b57284bfd41258a007b01d8e3a8a05224f53b939f9361f06e912"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:92358b23a5ac9688bab898595969f58634c7cf92b3d983a93729f14ffc2585c8",
+          "sha256": "92358b23a5ac9688bab898595969f58634c7cf92b3d983a93729f14ffc2585c8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:689e91520adfc47172ce826a636a74048b14aad5f1c2535facabbf037745a985",
+          "sha256": "689e91520adfc47172ce826a636a74048b14aad5f1c2535facabbf037745a985"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/odo-dev/blobs/sha256:10ad0d964982afb6700b082f73a8a5fd5bfc5c96ebfbf3571ff9311e1c176d3f",
+          "sha256": "10ad0d964982afb6700b082f73a8a5fd5bfc5c96ebfbf3571ff9311e1c176d3f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "odo"
+  ],
+  "conflicts_with_reasons": [
+    "odo also ships 'odo' binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/odo-dev.rb",
+  "ruby_source_checksum": {
+    "sha256": "5606738140255a25180ee767cbe30aaea8ccce9a32f5e04d81caae1408a50601"
+  },
+  "date_added": "2022-01-27T13:30:02+00:00"
+}

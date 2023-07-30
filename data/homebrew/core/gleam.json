@@ -1,0 +1,109 @@
+{
+  "name": "gleam",
+  "full_name": "gleam",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Statically typed language for the Erlang VM",
+  "license": "Apache-2.0",
+  "homepage": "https://gleam.run",
+  "versions": {
+    "stable": "0.30.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gleam-lang/gleam/archive/v0.30.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8c2d8155e4f4cf4d3ca3e85892b6e5bed0930c491a1384b1018a39afec7949e0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:1927fd55091f5fca5b4a11cd1cf558c21d057509b25d312ab04676a9403d2b27",
+          "sha256": "1927fd55091f5fca5b4a11cd1cf558c21d057509b25d312ab04676a9403d2b27"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:ff4cede4df7c41143a77f2d37a8df992c7c26430d9b4dc7a66d1b2d3403b86a5",
+          "sha256": "ff4cede4df7c41143a77f2d37a8df992c7c26430d9b4dc7a66d1b2d3403b86a5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:2c0c5da0309f2b0248da149b928e60e2878896dca532ccdadffab864a0f80644",
+          "sha256": "2c0c5da0309f2b0248da149b928e60e2878896dca532ccdadffab864a0f80644"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:34957daab322030948dfcd8a9d3d552025e2043cd09ca47f794ab2f7c37c12b9",
+          "sha256": "34957daab322030948dfcd8a9d3d552025e2043cd09ca47f794ab2f7c37c12b9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:de0b0c018dc9c02420513d8f444ea19616903ca3f1469b072e2a68cb7276faee",
+          "sha256": "de0b0c018dc9c02420513d8f444ea19616903ca3f1469b072e2a68cb7276faee"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:51a3d78b082e499592ca8254a3a2bba9e51f6e3a1f2d9d479641102e52f32950",
+          "sha256": "51a3d78b082e499592ca8254a3a2bba9e51f6e3a1f2d9d479641102e52f32950"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gleam/blobs/sha256:13fa5ea7cbdad829a2f0be6c8467ebd61448352f6216c18068f7d88a985f9a3e",
+          "sha256": "13fa5ea7cbdad829a2f0be6c8467ebd61448352f6216c18068f7d88a985f9a3e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "erlang",
+    "rebar3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gleam.rb",
+  "ruby_source_checksum": {
+    "sha256": "68ece33bce4d40aae0a9015fbe7fe6c4c77a159ad995c8006db27cbcf68c7e70"
+  },
+  "date_added": "2019-10-02T22:38:13-04:00"
+}

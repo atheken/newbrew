@@ -1,0 +1,121 @@
+{
+  "name": "libchamplain",
+  "full_name": "libchamplain",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "ClutterActor for displaying maps",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://wiki.gnome.org/Projects/libchamplain",
+  "versions": {
+    "stable": "0.12.21",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/libchamplain/0.12/libchamplain-0.12.21.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a915cd172a0c52944c5579fcb4683f8a878c571bf5e928254b5dafefc727e5a7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:5178bf3638a2027f1d5664fa78e2347879e0882d7a3181166dbad9b49121dab9",
+          "sha256": "5178bf3638a2027f1d5664fa78e2347879e0882d7a3181166dbad9b49121dab9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:2f252ae4637021bb9f29636cfc2b20d3dab10b04207d06152b4a47d812c52058",
+          "sha256": "2f252ae4637021bb9f29636cfc2b20d3dab10b04207d06152b4a47d812c52058"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:33c868d4bc619d31a4938952dece38e447aee5e4c18f89994b29d41eb3dd411d",
+          "sha256": "33c868d4bc619d31a4938952dece38e447aee5e4c18f89994b29d41eb3dd411d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:9962bd6ca9db0599c17a63e2f207342e88d7cdafc6230a982c2e91cfc26ac92d",
+          "sha256": "9962bd6ca9db0599c17a63e2f207342e88d7cdafc6230a982c2e91cfc26ac92d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:c5c68414f285b6ffc0ce1c3f2cf160083d45596ad64454e7260bb266812730c3",
+          "sha256": "c5c68414f285b6ffc0ce1c3f2cf160083d45596ad64454e7260bb266812730c3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:2945d61373d9f1d984c48b40be8718b79defe25033f65d8ad70662a143328b01",
+          "sha256": "2945d61373d9f1d984c48b40be8718b79defe25033f65d8ad70662a143328b01"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:2b4c4d1e01b47b3598b56d92b27a42b944a56c83b73f1e175e6854210dfe465e",
+          "sha256": "2b4c4d1e01b47b3598b56d92b27a42b944a56c83b73f1e175e6854210dfe465e"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libchamplain/blobs/sha256:5a616be881e0a1a0cd3a9c1064006c14f5e909df6366abbf5527523b380ef3e3",
+          "sha256": "5a616be881e0a1a0cd3a9c1064006c14f5e909df6366abbf5527523b380ef3e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gnome-common",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "vala"
+  ],
+  "dependencies": [
+    "clutter",
+    "clutter-gtk",
+    "gtk+3",
+    "libsoup",
+    "sqlite"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2022-09-21",
+  "deprecation_reason": "unmaintained",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libchamplain.rb",
+  "ruby_source_checksum": {
+    "sha256": "dce9a97be5f4c05bd9a445eb86e4ef1813f1d5c4317df711717c0067d661d582"
+  },
+  "date_added": "2015-09-09T22:35:22+01:00"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "mosquitto",
+  "full_name": "mosquitto",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Message broker implementing the MQTT protocol",
+  "license": "EPL-1.0",
+  "homepage": "https://mosquitto.org/",
+  "versions": {
+    "stable": "2.0.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mosquitto.org/files/source/mosquitto-2.0.15.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4735b1d32e3f91c7a8896741d88a3022e89730a1ee897946decfa0df27039ac6"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:11d453a758710e8bab026178dacce23bf9585df446beba8ad130159a5bbefc6c",
+          "sha256": "11d453a758710e8bab026178dacce23bf9585df446beba8ad130159a5bbefc6c"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:6c04405cb9719bc16b60fc10aac9ae3aa4394cea6a3e59f06b1f5999b66f4909",
+          "sha256": "6c04405cb9719bc16b60fc10aac9ae3aa4394cea6a3e59f06b1f5999b66f4909"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:1eca680ea93f7023cb3b94a906bbc612536a57810021ea5e27ee60a178a8f07d",
+          "sha256": "1eca680ea93f7023cb3b94a906bbc612536a57810021ea5e27ee60a178a8f07d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:42ce86124cf4eca533db7615e47fb568392d3078af9a6efbda3e2883b193d93e",
+          "sha256": "42ce86124cf4eca533db7615e47fb568392d3078af9a6efbda3e2883b193d93e"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:9d996c8555a24dbda8786a9d094142a7f245aa7e6563c26e50c6b757be8cd396",
+          "sha256": "9d996c8555a24dbda8786a9d094142a7f245aa7e6563c26e50c6b757be8cd396"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:1baedd5c20794771215a66f5708038a495d724ce8192ffe8fbdaf56bf64c3119",
+          "sha256": "1baedd5c20794771215a66f5708038a495d724ce8192ffe8fbdaf56bf64c3119"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mosquitto/blobs/sha256:ce4e52637ec2ec0fe38afa6388375fba7122a788e6433f039c7354c047bd72e7",
+          "sha256": "ce4e52637ec2ec0fe38afa6388375fba7122a788e6433f039c7354c047bd72e7"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cjson",
+    "libwebsockets",
+    "openssl@3",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxslt": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "mosquitto has been installed with a default configuration file.\nYou can make changes to the configuration by editing:\n    $HOMEBREW_PREFIX/etc/mosquitto/mosquitto.conf\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/mosquitto/sbin/mosquitto",
+      "-c",
+      "/home/linuxbrew/.linuxbrew/etc/mosquitto/mosquitto.conf"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var/mosquitto"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mosquitto.rb",
+  "ruby_source_checksum": {
+    "sha256": "a06fea72d6ca80cdce0593c705970c7f1018b380564f107444cebb8824763e4c"
+  },
+  "date_added": "2011-03-22T11:39:55-07:00"
+}

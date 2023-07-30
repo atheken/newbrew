@@ -1,0 +1,109 @@
+{
+  "name": "php-cs-fixer",
+  "full_name": "php-cs-fixer",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "php-cs-fixer@3"
+  ],
+  "versioned_formulae": [
+    "php-cs-fixer@2"
+  ],
+  "desc": "Tool to automatically fix PHP coding standards issues",
+  "license": "MIT",
+  "homepage": "https://cs.symfony.com/",
+  "versions": {
+    "stable": "3.22.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases/download/v3.22.0/php-cs-fixer.phar",
+      "tag": null,
+      "revision": null,
+      "checksum": "88fe5d98991867f1354c09b8a0b382090e4309ce3e23709c12bf2d39ecf30ade"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa",
+          "sha256": "a5555951036af7394c3b874e915b7aa8eeb8740b3b5673d5e69b66b0d76c13aa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/php-cs-fixer/blobs/sha256:9d373d9c718bcdcf1042fe6a7bc71c4125b9216b4ade68135c12586a96581100",
+          "sha256": "9d373d9c718bcdcf1042fe6a7bc71c4125b9216b4ade68135c12586a96581100"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "php"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/php-cs-fixer.rb",
+  "ruby_source_checksum": {
+    "sha256": "d088c01f170dec1ccc23090b3461d5571884e137eb3e47398781b00a23ec61b5"
+  },
+  "date_added": "2018-03-28T04:47:23-07:00"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "cppinsights",
+  "full_name": "cppinsights",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "See your source code with the eyes of a compiler",
+  "license": "MIT",
+  "homepage": "https://cppinsights.io/",
+  "versions": {
+    "stable": "0.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/andreasfertig/cppinsights/archive/refs/tags/v_0.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cebb6a062677ee3975ff757e4300a17f42e3fab6da02ad01f3f141fb91f09301"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:36e2fd7b9fb0284e398a64ac0c9f6d7ffc2e2617626d8f876fc4227852afa28f",
+          "sha256": "36e2fd7b9fb0284e398a64ac0c9f6d7ffc2e2617626d8f876fc4227852afa28f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:2f250a6e21b88c228c715e63ae1de66196859fc5751fb29a9a2ce585b2c39738",
+          "sha256": "2f250a6e21b88c228c715e63ae1de66196859fc5751fb29a9a2ce585b2c39738"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:333f575048c3bb485369a0a1aa09a063bc7af150acca21c38f0faccfabd3d3da",
+          "sha256": "333f575048c3bb485369a0a1aa09a063bc7af150acca21c38f0faccfabd3d3da"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:0cb4815ffc527add05af26c1b88c4c9da8e5a2f6558c263dc877e8ef151b6d97",
+          "sha256": "0cb4815ffc527add05af26c1b88c4c9da8e5a2f6558c263dc877e8ef151b6d97"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:f2bfdbca4a6fc6ef1c2268f4b9824312f97f5a5492b25be8913f1b5ac27bef52",
+          "sha256": "f2bfdbca4a6fc6ef1c2268f4b9824312f97f5a5492b25be8913f1b5ac27bef52"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:2c80068af4fec4b7cb3c9a13c4665e3c6c6edf1ba328d35d333e0365af03fceb",
+          "sha256": "2c80068af4fec4b7cb3c9a13c4665e3c6c6edf1ba328d35d333e0365af03fceb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cppinsights/blobs/sha256:930267fb74d358f9e7267975019bd186208e11556de1c5011363055646440018",
+          "sha256": "930267fb74d358f9e7267975019bd186208e11556de1c5011363055646440018"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "llvm@15"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cppinsights.rb",
+  "ruby_source_checksum": {
+    "sha256": "b239ec73dede37e32f38728186fcc4ac4af1c413b4d456bc04bf205d240f1414"
+  },
+  "date_added": "2023-06-27T09:21:37+08:00"
+}

@@ -1,0 +1,99 @@
+{
+  "name": "viewvc",
+  "full_name": "viewvc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Browser interface for CVS and Subversion repositories",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.viewvc.org",
+  "versions": {
+    "stable": "1.2.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/viewvc/viewvc/releases/download/1.2.3/viewvc-1.2.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9960fc072201c581735da6eaf589f2129f8bfdf8ff41bef32cf7bbccce10ec60"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/viewvc/blobs/sha256:064b7a31c1d2d2679a71c206fde995f01b28e6e38d0cfca699492f37cd130297",
+          "sha256": "064b7a31c1d2d2679a71c206fde995f01b28e6e38d0cfca699492f37cd130297"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/viewvc/blobs/sha256:50ae5ca9505d4f6ee810972360c6538fdf6e1e028ee3bea7c7b40d7000867ad0",
+          "sha256": "50ae5ca9505d4f6ee810972360c6538fdf6e1e028ee3bea7c7b40d7000867ad0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    },
+    {
+      "name": "maximum_macos",
+      "cask": null,
+      "download": null,
+      "version": "11",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2022-10-27",
+  "deprecation_reason": "has no python 3 support",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/viewvc.rb",
+  "ruby_source_checksum": {
+    "sha256": "2b6ad7ea240128420e919996bd9720dcd1b682e7b2f59d1c125b95bef4cb479f"
+  },
+  "date_added": "2015-10-02T19:22:11-07:00"
+}

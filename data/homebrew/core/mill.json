@@ -1,0 +1,75 @@
+{
+  "name": "mill",
+  "full_name": "mill",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scala build tool",
+  "license": "MIT",
+  "homepage": "https://com-lihaoyi.github.io/mill/mill/Intro_to_Mill.html",
+  "versions": {
+    "stable": "0.11.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/com-lihaoyi/mill/releases/download/0.11.1/0.11.1-assembly",
+      "tag": null,
+      "revision": null,
+      "checksum": "a86f83767d011d4657d555f984ef387b1811cfc62e520605fdf1fa326824ad71"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mill/blobs/sha256:ca3f300dc468ab7790ad51e97cb7ff9fda41396a06068586538f5186e2cfba81",
+          "sha256": "ca3f300dc468ab7790ad51e97cb7ff9fda41396a06068586538f5186e2cfba81"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mill.rb",
+  "ruby_source_checksum": {
+    "sha256": "73f8807784d57af126a79f688540fb0d94c3492a94e2962c85d7b639bfbfe45f"
+  },
+  "date_added": "2018-03-10T19:14:26+01:00"
+}

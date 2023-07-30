@@ -1,0 +1,114 @@
+{
+  "name": "inspircd",
+  "full_name": "inspircd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modular C++ Internet Relay Chat daemon",
+  "license": "GPL-2.0-only",
+  "homepage": "https://www.inspircd.org/",
+  "versions": {
+    "stable": "3.16.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/inspircd/inspircd/archive/refs/tags/v3.16.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cee0eca7b0c91ac0665199fdfb8ed4edb436a08b8b850b35e19da607c102aec0"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:36e1bf08ed3b6e5b510ff9195a3a5a744e738315290ca4f3297871720c0cde3b",
+          "sha256": "36e1bf08ed3b6e5b510ff9195a3a5a744e738315290ca4f3297871720c0cde3b"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:13461c5b2a0c267a3e33fa3e1387a89faac2a7c99906c7043ec82f6f4e6c12fd",
+          "sha256": "13461c5b2a0c267a3e33fa3e1387a89faac2a7c99906c7043ec82f6f4e6c12fd"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:064f9d0d2a9f7f460a3a091f15cf2b61a35357798894b491e2c8e1aef8764063",
+          "sha256": "064f9d0d2a9f7f460a3a091f15cf2b61a35357798894b491e2c8e1aef8764063"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:376c231e8fd2c8a0f538974b27f2b876110fc05265694a5154e28abc79313e10",
+          "sha256": "376c231e8fd2c8a0f538974b27f2b876110fc05265694a5154e28abc79313e10"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:993e8e39a0c3cef513587fde5926832bc3d0f527e4b5188eae47a4ce801dee6c",
+          "sha256": "993e8e39a0c3cef513587fde5926832bc3d0f527e4b5188eae47a4ce801dee6c"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:92d102d7ac66e6f08160a5ab89516a45352b1b1835991b79403201206efbd1f9",
+          "sha256": "92d102d7ac66e6f08160a5ab89516a45352b1b1835991b79403201206efbd1f9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/inspircd/blobs/sha256:71c844eeacfb4248ca89cc6747856130c1929c8940890626c42acc5da8e21ceb",
+          "sha256": "71c844eeacfb4248ca89cc6747856130c1929c8940890626c42acc5da8e21ceb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "argon2",
+    "gnutls",
+    "libpq",
+    "mysql-client"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "openldap"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/inspircd.rb",
+  "ruby_source_checksum": {
+    "sha256": "f17be9a49531d835406ffd3e1639132b8172d8c4efcab275061a1e966abeb15d"
+  },
+  "date_added": "2012-10-02T19:56:03-07:00"
+}

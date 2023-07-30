@@ -1,0 +1,113 @@
+{
+  "name": "cadence-workflow",
+  "full_name": "cadence-workflow",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Distributed, scalable, durable, and highly available orchestration engine",
+  "license": "MIT",
+  "homepage": "https://cadenceworkflow.io/",
+  "versions": {
+    "stable": "1.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/uber/cadence.git",
+      "tag": "v1.0.0",
+      "revision": "8e81044769ddd11a10db66795b98146687beeb41",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/uber/cadence.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:6ce961c1122cdc0732910ec4fbc06fd7c096d0c37b1d65afd09b9fc0342a296d",
+          "sha256": "6ce961c1122cdc0732910ec4fbc06fd7c096d0c37b1d65afd09b9fc0342a296d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:5022de5575b51b8cb3a0e9813807d3a11bde1ea278dcb9f8bfc3cbe73e8364d6",
+          "sha256": "5022de5575b51b8cb3a0e9813807d3a11bde1ea278dcb9f8bfc3cbe73e8364d6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:44040ca896a9935700ed223beeab382585035ac042318a7039c9dbf1a2db46cb",
+          "sha256": "44040ca896a9935700ed223beeab382585035ac042318a7039c9dbf1a2db46cb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:0730212aa8a3b72c8629bbfb11aff5f946a42c83e0826c3fcd54ab2f06167e34",
+          "sha256": "0730212aa8a3b72c8629bbfb11aff5f946a42c83e0826c3fcd54ab2f06167e34"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:5bca930b8af208fa04d4da776ae0760128f6f2132be11a7410c28ab679e54aa2",
+          "sha256": "5bca930b8af208fa04d4da776ae0760128f6f2132be11a7410c28ab679e54aa2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:46e3cdae35e96ddced80e4634cf9c6db0883ac60574568ed4726d7bcdc99b49a",
+          "sha256": "46e3cdae35e96ddced80e4634cf9c6db0883ac60574568ed4726d7bcdc99b49a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cadence-workflow/blobs/sha256:e9d005b5fd4eb46630e4d51e70328c573bfda1c117f27009782c950a44755535",
+          "sha256": "e9d005b5fd4eb46630e4d51e70328c573bfda1c117f27009782c950a44755535"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "cadence"
+  ],
+  "conflicts_with_reasons": [
+    "both install an `cadence` executable"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cadence-workflow.rb",
+  "ruby_source_checksum": {
+    "sha256": "547d11e826a543c193bb9df985bf8a4ef270512a31043b2e5631e982a7393127"
+  },
+  "date_added": "2021-04-08T12:54:07+00:00"
+}

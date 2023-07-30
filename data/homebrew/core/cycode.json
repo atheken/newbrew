@@ -1,0 +1,107 @@
+{
+  "name": "cycode",
+  "full_name": "cycode",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Boost software development security via secret scanning, SAST, SCA, and IaC",
+  "license": "MIT",
+  "homepage": "https://github.com/cycodehq-public/cycode-cli",
+  "versions": {
+    "stable": "1.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/f1/29/5225ef43f33e036a01f11a236c66f9247a6ec45c04177692a7ea6de42ee5/cycode-1.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f5740497337504b167d6d8e976f300dbb67cc3de0d123ef64ff7778016902029"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:e3892a40cf178653cfa91c5226442209723654729c60df78d5d70a4748a168ee",
+          "sha256": "e3892a40cf178653cfa91c5226442209723654729c60df78d5d70a4748a168ee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:7a49ce30e81f65f21dc9c274aee5112dc7da34d83e83ad1d55a67b0a9ee4864c",
+          "sha256": "7a49ce30e81f65f21dc9c274aee5112dc7da34d83e83ad1d55a67b0a9ee4864c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:4d374e59761af920faeda7e2e431f67e2e1f605e363501ef922575115c8d5c3c",
+          "sha256": "4d374e59761af920faeda7e2e431f67e2e1f605e363501ef922575115c8d5c3c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:88d0682528d5bc01092de5f98581ec332e75669953ab3bb0d78bda4676bbdb9e",
+          "sha256": "88d0682528d5bc01092de5f98581ec332e75669953ab3bb0d78bda4676bbdb9e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:09e97887dd131fbf4ef8dac2152e291f4265e624f283dc53182d183db7244aa8",
+          "sha256": "09e97887dd131fbf4ef8dac2152e291f4265e624f283dc53182d183db7244aa8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:dca03f86ec879b6f908cd81b1acc6ca332b11438a52cb6eec4568dd8e72823eb",
+          "sha256": "dca03f86ec879b6f908cd81b1acc6ca332b11438a52cb6eec4568dd8e72823eb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cycode/blobs/sha256:98e4f3ccfab199ba941b974edad318d5fc6a24eb429a48f32c1c1a7c560ad5c8",
+          "sha256": "98e4f3ccfab199ba941b974edad318d5fc6a24eb429a48f32c1c1a7c560ad5c8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cycode.rb",
+  "ruby_source_checksum": {
+    "sha256": "9f44954883b5ac04c57c2c6271c87e81ccb2800fa4788bac085a5ff05bc7f86c"
+  },
+  "date_added": "2023-07-03T15:50:58+02:00"
+}

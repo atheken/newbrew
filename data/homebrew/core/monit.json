@@ -1,0 +1,120 @@
+{
+  "name": "monit",
+  "full_name": "monit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manage and monitor processes, files, directories, and devices",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://mmonit.com/monit/",
+  "versions": {
+    "stable": "5.33.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mmonit.com/monit/dist/monit-5.33.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1ace889c0183473a9d70160df6533bb6e1338dc1354f5928507803e1e2a863b5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:f1024bae43bfcca2a3ee00b7187697e5a77a50e23463002c36e82f7132658ba0",
+          "sha256": "f1024bae43bfcca2a3ee00b7187697e5a77a50e23463002c36e82f7132658ba0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:7c7a32d75f6734a2b2a61cac1d0e59b0ad1c3d71620a54224065ac4014f85a12",
+          "sha256": "7c7a32d75f6734a2b2a61cac1d0e59b0ad1c3d71620a54224065ac4014f85a12"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:5d74012f14f185b8629a51a39806c14812c4263b006cb5d0ed9c94d072c5e176",
+          "sha256": "5d74012f14f185b8629a51a39806c14812c4263b006cb5d0ed9c94d072c5e176"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:48f72f14abe8dcf2ddb1098941cd95dc93d12f0edc9f0dca5e14db4ff7f87a43",
+          "sha256": "48f72f14abe8dcf2ddb1098941cd95dc93d12f0edc9f0dca5e14db4ff7f87a43"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:90e39aed578138b6aaeb76543ad4cece92eb6dac1df97a76477d1937e55f4515",
+          "sha256": "90e39aed578138b6aaeb76543ad4cece92eb6dac1df97a76477d1937e55f4515"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:84f5b178be718b9b352a8dcff77050eddfd5ae91b19f995fbd845e785fdab8d8",
+          "sha256": "84f5b178be718b9b352a8dcff77050eddfd5ae91b19f995fbd845e785fdab8d8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/monit/blobs/sha256:0a446fd373c8ede9475f583ce8f491cf4b122b7519ca4fb87189af7be3dec345",
+          "sha256": "0a446fd373c8ede9475f583ce8f491cf4b122b7519ca4fb87189af7be3dec345"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxcrypt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/monit/bin/monit",
+      "-I",
+      "-c",
+      "/home/linuxbrew/.linuxbrew/etc/monitrc"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/monit.rb",
+  "ruby_source_checksum": {
+    "sha256": "488ef58996cb21d5bdcac71e34c19f033d92ed460b65d0cce7aa989bc16d7036"
+  },
+  "date_added": "2009-09-30T01:24:36+01:00"
+}

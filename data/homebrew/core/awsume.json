@@ -1,0 +1,115 @@
+{
+  "name": "awsume",
+  "full_name": "awsume",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Utility for easily assuming AWS IAM roles from the command-line",
+  "license": "MIT",
+  "homepage": "https://awsu.me",
+  "versions": {
+    "stable": "4.5.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/2f/d4/2f9621851aa22e06b0242d1c5dc2fbeb6267d5beca92c0adf875438793c2/awsume-4.5.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e94cc4c1d0f3cc0db8270572e2880c0641ce14cf226355bf42440b726bf453ef"
+    },
+    "head": {
+      "url": "https://github.com/trek10inc/awsume.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 3,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:34cc433dbf4dd082d192a7862cb3e67b04552e55b3ebc14543b74d87833af34b",
+          "sha256": "34cc433dbf4dd082d192a7862cb3e67b04552e55b3ebc14543b74d87833af34b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:1ed015b727191d782e1c4141b4c7daf098df5a0ad09d106db91890b725c8ed78",
+          "sha256": "1ed015b727191d782e1c4141b4c7daf098df5a0ad09d106db91890b725c8ed78"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:eb9b656e36b784a100ab2271b8c1a749cff32f50b74cacfabf165134145e6af6",
+          "sha256": "eb9b656e36b784a100ab2271b8c1a749cff32f50b74cacfabf165134145e6af6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:cf65963314679dfb6443327920402a9b63d23474a9a29a036addcb2a0bc09a7c",
+          "sha256": "cf65963314679dfb6443327920402a9b63d23474a9a29a036addcb2a0bc09a7c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:e29cbf8fed2726d1f43723ab239d9892b0ff129b182e40c287e52b49bbdd6cf2",
+          "sha256": "e29cbf8fed2726d1f43723ab239d9892b0ff129b182e40c287e52b49bbdd6cf2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:9e09f9f12828086b892e57cc1295aa84bdc74bb4b1182757ba48639ff0873f5e",
+          "sha256": "9e09f9f12828086b892e57cc1295aa84bdc74bb4b1182757ba48639ff0873f5e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/awsume/blobs/sha256:9ab02ad5f98ce499784d7601b8cf4304544a17247f286764c14a3919d3688037",
+          "sha256": "9ab02ad5f98ce499784d7601b8cf4304544a17247f286764c14a3919d3688037"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "sqlite"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/awsume.rb",
+  "ruby_source_checksum": {
+    "sha256": "dbc3f35bf0dc7bc8bec90ec7ad79a8bb5e9533069cb00e2ec585e3d511301e58"
+  },
+  "date_added": "2019-10-26T18:56:43-04:00"
+}

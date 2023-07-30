@@ -1,0 +1,116 @@
+{
+  "name": "luv",
+  "full_name": "luv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bare libuv bindings for lua",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/luvit/luv",
+  "versions": {
+    "stable": "1.45.0-0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/luvit/luv/archive/1.45.0-0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "97e89940f9eeaa8dfb34f1c19f80dd373299c42719d15228ec790f415d4e4965"
+    },
+    "head": {
+      "url": "https://github.com/luvit/luv.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:bc38c2dbc804c17b0a4896f4723ded25e18c2a935363ecb65d1a28c6382442d6",
+          "sha256": "bc38c2dbc804c17b0a4896f4723ded25e18c2a935363ecb65d1a28c6382442d6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:7835da93f476691806ff0417a9ff5a7406843f0e4137b8dec0a764931108cfa6",
+          "sha256": "7835da93f476691806ff0417a9ff5a7406843f0e4137b8dec0a764931108cfa6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:7cccaa909a9ecfbac491aaa0fc00d294d46d6fd3eea6b789e3dc607e73abb09f",
+          "sha256": "7cccaa909a9ecfbac491aaa0fc00d294d46d6fd3eea6b789e3dc607e73abb09f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:c00db5a8ec11d0c36eb1052da3f44959f0f14378bb2a0737decbc4d400ba8da0",
+          "sha256": "c00db5a8ec11d0c36eb1052da3f44959f0f14378bb2a0737decbc4d400ba8da0"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:801b05eb51a0a988a21233a0230fa21ff135255e8253cf07e6aa5a08c5719424",
+          "sha256": "801b05eb51a0a988a21233a0230fa21ff135255e8253cf07e6aa5a08c5719424"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:fb2f8280793423f81065a62eec51b377062e8f50d1ffbdcd468150be632a80d4",
+          "sha256": "fb2f8280793423f81065a62eec51b377062e8f50d1ffbdcd468150be632a80d4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:32cc9dc86b05ccb035107f6836a9c7374792c4a1a2438eab15f104d9626b3a73",
+          "sha256": "32cc9dc86b05ccb035107f6836a9c7374792c4a1a2438eab15f104d9626b3a73"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "lua",
+    "luajit"
+  ],
+  "dependencies": [
+    "libuv"
+  ],
+  "test_dependencies": [
+    "lua",
+    "luajit"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/luv.rb",
+  "ruby_source_checksum": {
+    "sha256": "018f38d885fa1b0953c38e14a154aba28f7ed0e8d5ebe04659a7e0a162a39b24"
+  },
+  "date_added": "2021-01-20T06:38:54+00:00"
+}

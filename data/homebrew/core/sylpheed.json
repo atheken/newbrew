@@ -1,0 +1,109 @@
+{
+  "name": "sylpheed",
+  "full_name": "sylpheed",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple, lightweight email-client",
+  "license": null,
+  "homepage": "https://sylpheed.sraoss.jp/en/",
+  "versions": {
+    "stable": "3.7.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://sylpheed.sraoss.jp/sylpheed/v3.7/sylpheed-3.7.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "eb23e6bda2c02095dfb0130668cf7c75d1f256904e3a7337815b4da5cb72eb04"
+    }
+  },
+  "revision": 5,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:bb7261752ea2aa71d885be5958619a4c29ce7695c9e1283ef20d511e5cf72612",
+          "sha256": "bb7261752ea2aa71d885be5958619a4c29ce7695c9e1283ef20d511e5cf72612"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:8a86432333e80c75bf6bc4130c3a025147bd24537db18999c648cb0d1c68db8e",
+          "sha256": "8a86432333e80c75bf6bc4130c3a025147bd24537db18999c648cb0d1c68db8e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:c592c4608ad89aaba66c8e5e4616f82a8618816074a577d8f804ade18a96823b",
+          "sha256": "c592c4608ad89aaba66c8e5e4616f82a8618816074a577d8f804ade18a96823b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:7727583d3d171cc0f9ad91a06f8b8b132243adf1abb99ff75177b30d2ebe4fc9",
+          "sha256": "7727583d3d171cc0f9ad91a06f8b8b132243adf1abb99ff75177b30d2ebe4fc9"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:858ccb14e9acb6829826f318c907bc591a16b323af88f0d6d44ad064e2b4fda3",
+          "sha256": "858ccb14e9acb6829826f318c907bc591a16b323af88f0d6d44ad064e2b4fda3"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:73b567343fcab79f4ce085937e4a4aaf34045299927aa6ec71fe2e8d8ba38176",
+          "sha256": "73b567343fcab79f4ce085937e4a4aaf34045299927aa6ec71fe2e8d8ba38176"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/sylpheed/blobs/sha256:2473c806a8960f5b3b190e4836bde47bac4e7276463310b6c3e5d6cc090442bc",
+          "sha256": "2473c806a8960f5b3b190e4836bde47bac4e7276463310b6c3e5d6cc090442bc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gpgme",
+    "gtk+",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sylpheed.rb",
+  "ruby_source_checksum": {
+    "sha256": "999ccec17dd6faee19f0ce00e2d9358a285501d7a8bef6e6a6f460c46cc97b0b"
+  },
+  "date_added": "2013-01-03T08:42:44-08:00"
+}

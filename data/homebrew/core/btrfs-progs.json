@@ -1,0 +1,97 @@
+{
+  "name": "btrfs-progs",
+  "full_name": "btrfs-progs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Userspace utilities to manage btrfs filesystems",
+  "license": "GPL-2.0-only and LGPL-2.1-or-later",
+  "homepage": "https://btrfs.wiki.kernel.org/index.php/Main_Page",
+  "versions": {
+    "stable": "6.3.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://mirrors.edge.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v6.3.3.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4be30015760270d081642cc0023a8bfee7cb657a2aa055644e6a56d68695b96e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/btrfs-progs/blobs/sha256:b38844787c5ee0c1424ede59a128bcddc246284938347f10703c3f2b6e18149e",
+          "sha256": "b38844787c5ee0c1424ede59a128bcddc246284938347f10703c3f2b6e18149e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "python@3.11",
+    "sphinx-doc"
+  ],
+  "dependencies": [
+    "e2fsprogs",
+    "lzo",
+    "systemd",
+    "util-linux",
+    "zlib",
+    "zstd"
+  ],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/btrfs-progs.rb",
+  "ruby_source_checksum": {
+    "sha256": "78043c12c7241a971668388fe40307b234498efc9bd131d4cb9c35f4c95b3e8a"
+  },
+  "date_added": "2022-11-06T11:37:48+00:00"
+}

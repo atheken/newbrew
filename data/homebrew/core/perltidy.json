@@ -1,0 +1,107 @@
+{
+  "name": "perltidy",
+  "full_name": "perltidy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Indents and reformats Perl scripts to make them easier to read",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://perltidy.sourceforge.io/",
+  "versions": {
+    "stable": "20230701",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/perltidy/20230701/Perl-Tidy-20230701.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e04922ba34a0c0c8dca7d6897a70399e1b1358441f66d3abd0f021a413869743"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:2baa88eb66068fe80bd0d21eadbdb37a0c2d8040f363028cf34fa1102bafd38d",
+          "sha256": "2baa88eb66068fe80bd0d21eadbdb37a0c2d8040f363028cf34fa1102bafd38d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:2baa88eb66068fe80bd0d21eadbdb37a0c2d8040f363028cf34fa1102bafd38d",
+          "sha256": "2baa88eb66068fe80bd0d21eadbdb37a0c2d8040f363028cf34fa1102bafd38d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:b3712cc2f73ef65af02c1614605bb4ecacb8b859be414ff998359cefd8086543",
+          "sha256": "b3712cc2f73ef65af02c1614605bb4ecacb8b859be414ff998359cefd8086543"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:dca53a649e44861660cda665a20d878fe7c71071ac51cdfdaa84422c7398d8d8",
+          "sha256": "dca53a649e44861660cda665a20d878fe7c71071ac51cdfdaa84422c7398d8d8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:dca53a649e44861660cda665a20d878fe7c71071ac51cdfdaa84422c7398d8d8",
+          "sha256": "dca53a649e44861660cda665a20d878fe7c71071ac51cdfdaa84422c7398d8d8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:89b39502c2562080271056845553768dfa690869fcb6cd8d61788592b6a21fff",
+          "sha256": "89b39502c2562080271056845553768dfa690869fcb6cd8d61788592b6a21fff"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perltidy/blobs/sha256:a67c87894b9108d481f38ccde1fac60707e777cf2101029f3515ccd032abd499",
+          "sha256": "a67c87894b9108d481f38ccde1fac60707e777cf2101029f3515ccd032abd499"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/perltidy.rb",
+  "ruby_source_checksum": {
+    "sha256": "309f42a7e067dd57cc4b4c981acb0c8c9141972b7ed54ba8c289451b1961bfd9"
+  },
+  "date_added": "2018-08-19T21:18:55+01:00"
+}

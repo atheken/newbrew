@@ -1,0 +1,134 @@
+{
+  "name": "zbar",
+  "full_name": "zbar",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Suite of barcodes-reading tools",
+  "license": "LGPL-2.1-only",
+  "homepage": "https://github.com/mchehab/zbar",
+  "versions": {
+    "stable": "0.23.90",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://linuxtv.org/downloads/zbar/zbar-0.23.90.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "9152c8fb302b3891e1cb9cc719883d2f4ccd2483e3430783a2cf2d93bd5901ad"
+    },
+    "head": {
+      "url": "https://github.com/mchehab/zbar.git",
+      "branch": "master"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:a556e1d3761eef86b007225b17c1e2e3bd3d8f5c0586c96b9db95261012623e5",
+          "sha256": "a556e1d3761eef86b007225b17c1e2e3bd3d8f5c0586c96b9db95261012623e5"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:ecb4a7174906195486f0f9badabc2e5affd732022fc9e3b832c1b7a462a3e203",
+          "sha256": "ecb4a7174906195486f0f9badabc2e5affd732022fc9e3b832c1b7a462a3e203"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:2e7a16f085ca08bd70c1ab3b8d88683281ea51481c3f1c26402c2b59f949fa6d",
+          "sha256": "2e7a16f085ca08bd70c1ab3b8d88683281ea51481c3f1c26402c2b59f949fa6d"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:8349004627c6741ecc50f1e9410be7ac4149ec7ad326c2c8e6896f23986d2f70",
+          "sha256": "8349004627c6741ecc50f1e9410be7ac4149ec7ad326c2c8e6896f23986d2f70"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:853aa15556c0ccd130dd35074cfd67840720583d3e8564f7c9c1fee101c5d9ac",
+          "sha256": "853aa15556c0ccd130dd35074cfd67840720583d3e8564f7c9c1fee101c5d9ac"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:3b8169dcfeaed1f704084073f93c619510c415b37454d1a0858d5bd689b89911",
+          "sha256": "3b8169dcfeaed1f704084073f93c619510c415b37454d1a0858d5bd689b89911"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/zbar/blobs/sha256:ef7a2cf8345087907b68a3ba10874aca3bcc9a8f8f3bafcd30dc8df4c5255fab",
+          "sha256": "ef7a2cf8345087907b68a3ba10874aca3bcc9a8f8f3bafcd30dc8df4c5255fab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "xmlto"
+  ],
+  "dependencies": [
+    "imagemagick",
+    "jpeg-turbo",
+    "dbus"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zbar.rb",
+  "ruby_source_checksum": {
+    "sha256": "e475ef065aeb4e2fe9bb50060500bdfa4665d7baeb0224b264467c90c3b90adb"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "gettext",
+      "libtool",
+      "pkg-config",
+      "xmlto"
+    ],
+    "dependencies": [
+      "imagemagick",
+      "jpeg-turbo",
+      "dbus"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2010-06-18T10:49:40-07:00"
+}

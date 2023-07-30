@@ -1,0 +1,117 @@
+{
+  "name": "aspell",
+  "full_name": "aspell",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Spell checker with better logic than ispell",
+  "license": "LGPL-2.1-only",
+  "homepage": "http://aspell.net/",
+  "versions": {
+    "stable": "0.60.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/aspell/aspell-0.60.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f9b77e515334a751b2e60daab5db23499e26c9209f5e7b7443b05235ad0226f2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:f00a63fb34af5c118d0a44b6847e012905f7abf6749a6e71b16cb09057774793",
+          "sha256": "f00a63fb34af5c118d0a44b6847e012905f7abf6749a6e71b16cb09057774793"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:d75d3b4e2929123244786e9adb7ff335ec75943617e7dbd855d71c7ce3035173",
+          "sha256": "d75d3b4e2929123244786e9adb7ff335ec75943617e7dbd855d71c7ce3035173"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:bdd761d4454523f1bc8c0adba2db1a23c215c01371e348cd162b573347791159",
+          "sha256": "bdd761d4454523f1bc8c0adba2db1a23c215c01371e348cd162b573347791159"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:6ed92805d3beaacead9501572e63105d2129f99450e0a8081b98fe935aa51f66",
+          "sha256": "6ed92805d3beaacead9501572e63105d2129f99450e0a8081b98fe935aa51f66"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:91f9e3083f86a059d0db046aa78e3ddf95a3c6cf531c982b7ca470dd0e57db3b",
+          "sha256": "91f9e3083f86a059d0db046aa78e3ddf95a3c6cf531c982b7ca470dd0e57db3b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:abf04f9f474e21d070e22667204cd122e7e099e90e60110dc7639fdaa5f5a66f",
+          "sha256": "abf04f9f474e21d070e22667204cd122e7e099e90e60110dc7639fdaa5f5a66f"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:86b7d31eff12742ccb73464c088c8313998bd4c1e37f108754f936d51b6f49dd",
+          "sha256": "86b7d31eff12742ccb73464c088c8313998bd4c1e37f108754f936d51b6f49dd"
+        },
+        "mojave": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:aeded9b9861145353ad13bbf85772f23e556fe6dc0b263beebd555cf19762197",
+          "sha256": "aeded9b9861145353ad13bbf85772f23e556fe6dc0b263beebd555cf19762197"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/aspell/blobs/sha256:5154c4a1e76b1f9ab21325d442cd9eaf80b83314792142ff837f84bcfb8cbb4a",
+          "sha256": "5154c4a1e76b1f9ab21325d442cd9eaf80b83314792142ff837f84bcfb8cbb4a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aspell.rb",
+  "ruby_source_checksum": {
+    "sha256": "31ae20e9b97c9ccb8818a3acb1708c1a926d6a03e20dcd4da659ac590699e15d"
+  },
+  "date_added": "2009-09-30T01:24:28+01:00"
+}

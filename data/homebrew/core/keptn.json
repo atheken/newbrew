@@ -1,0 +1,105 @@
+{
+  "name": "keptn",
+  "full_name": "keptn",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for keptn.sh, a message-driven control-plane for application delivery",
+  "license": "Apache-2.0",
+  "homepage": "https://keptn.sh",
+  "versions": {
+    "stable": "1.4.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/keptn/keptn/archive/1.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8bc226cac50ca3a42918f6c8cb60747d7adb94efd79ece660d2327cd05077838"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:5ab5c1018700e0e4c6aeca75d32673d7852fe34f1bf352d4fd800ca546db1094",
+          "sha256": "5ab5c1018700e0e4c6aeca75d32673d7852fe34f1bf352d4fd800ca546db1094"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:b4a52bacd3dbf542f5c0024a78edcb8176bafcd934e1f4ebbb65e52746c38728",
+          "sha256": "b4a52bacd3dbf542f5c0024a78edcb8176bafcd934e1f4ebbb65e52746c38728"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:329eff36cfe2198ae3ed73193ea52d80f952f7556c244e4d0b2d9ed649082444",
+          "sha256": "329eff36cfe2198ae3ed73193ea52d80f952f7556c244e4d0b2d9ed649082444"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:4ba0c36e86a110f51b86c0699bf94ece7f505d0d65b399fc7d49fc0c65512537",
+          "sha256": "4ba0c36e86a110f51b86c0699bf94ece7f505d0d65b399fc7d49fc0c65512537"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:16d91fa3bcbbd748d1e5706b8f67fb12bc404ec4d822966f0bf22cd7833b9d3d",
+          "sha256": "16d91fa3bcbbd748d1e5706b8f67fb12bc404ec4d822966f0bf22cd7833b9d3d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:b12fc15f9cc619c2eeeb3d6eb57d9881a63e141b1febaa24819dedb3dd6d9004",
+          "sha256": "b12fc15f9cc619c2eeeb3d6eb57d9881a63e141b1febaa24819dedb3dd6d9004"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keptn/blobs/sha256:812fbc2eda7d3547dc5e618bc5c92b0c2ceb958c736d41e6c153fff5fe67953e",
+          "sha256": "812fbc2eda7d3547dc5e618bc5c92b0c2ceb958c736d41e6c153fff5fe67953e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/keptn.rb",
+  "ruby_source_checksum": {
+    "sha256": "bf4c063951370d3420ce54c2e28e5a6f609b424e10aca7969b3adbe0221d1801"
+  },
+  "date_added": "2020-12-31T00:27:10+00:00"
+}

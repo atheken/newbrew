@@ -1,0 +1,119 @@
+{
+  "name": "rdkit",
+  "full_name": "rdkit",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open-source chemoinformatics library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://rdkit.org/",
+  "versions": {
+    "stable": "2023.03.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rdkit/rdkit/archive/Release_2023_03_2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bb43216b075b93b767e6cbaecd5e95d087da887bcdc51afd36d940d8bd9f9819"
+    },
+    "head": {
+      "url": "https://github.com/rdkit/rdkit.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:fce3ba4d7f821e83ae0aeea1f0e26c0d7a84ac36f8e96d3aa7529a7c5166417c",
+          "sha256": "fce3ba4d7f821e83ae0aeea1f0e26c0d7a84ac36f8e96d3aa7529a7c5166417c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:fa969c1995ddb271cd9bf4f6669e10ce0e522cd4ca6309c174154d9d6a67673e",
+          "sha256": "fa969c1995ddb271cd9bf4f6669e10ce0e522cd4ca6309c174154d9d6a67673e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:8666b34ce2e94f8d05c898ff1749c61cf99905eb5571836a566f5086a5e1d13c",
+          "sha256": "8666b34ce2e94f8d05c898ff1749c61cf99905eb5571836a566f5086a5e1d13c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:f30d84f01122b7e1a905ba9f25f4b823231bb31ef8c236aa636c3643ece3c420",
+          "sha256": "f30d84f01122b7e1a905ba9f25f4b823231bb31ef8c236aa636c3643ece3c420"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:7fcaed8304df200aa430f7372d93ee19421f6882fcfb9ffe607c7cecc0e7a85a",
+          "sha256": "7fcaed8304df200aa430f7372d93ee19421f6882fcfb9ffe607c7cecc0e7a85a"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:d6dfe801541283b501e5090e0a45541940d18ed12aeb8b56e29837024efa832d",
+          "sha256": "d6dfe801541283b501e5090e0a45541940d18ed12aeb8b56e29837024efa832d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rdkit/blobs/sha256:1f16b153f190444990eb02370f45a0dcbf6589f485ec784e29f11111411dde2c",
+          "sha256": "1f16b153f190444990eb02370f45a0dcbf6589f485ec784e29f11111411dde2c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "swig"
+  ],
+  "dependencies": [
+    "boost",
+    "boost-python3",
+    "eigen",
+    "freetype",
+    "numpy",
+    "postgresql@15",
+    "py3cairo",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "You may need to add RDBASE to your environment variables.\nFor Bash, put something like this in your $HOME/.bashrc:\n  export RDBASE=$HOMEBREW_PREFIX/opt/rdkit/share/RDKit\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rdkit.rb",
+  "ruby_source_checksum": {
+    "sha256": "345574660707943b33f1ab1285ecaa8908e4a23a10ee7ba25f367e36e0ee77bc"
+  },
+  "date_added": "2021-02-24T23:58:09+00:00"
+}

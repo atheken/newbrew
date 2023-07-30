@@ -1,0 +1,113 @@
+{
+  "name": "keepkey-agent",
+  "full_name": "keepkey-agent",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Keepkey Hardware-based SSH/GPG agent",
+  "license": "LGPL-3.0-only",
+  "homepage": "https://github.com/romanz/trezor-agent",
+  "versions": {
+    "stable": "0.9.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/65/72/4bf47a7bc8dc93d2ac21672a0db4bc58a78ec5cee3c4bcebd0b4092a9110/keepkey_agent-0.9.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "47c85de0c2ffb53c5d7bd2f4d2230146a416e82511259fad05119c4ef74be70c"
+    }
+  },
+  "revision": 7,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:b24e0b0adc47e73232b625dfb0fcada42b3f4075b784b640d999b4b7190ebc46",
+          "sha256": "b24e0b0adc47e73232b625dfb0fcada42b3f4075b784b640d999b4b7190ebc46"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:e15107caac75189dd84abb0fb947ada153c385f54ca3e677726f99ef7b49132e",
+          "sha256": "e15107caac75189dd84abb0fb947ada153c385f54ca3e677726f99ef7b49132e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:450aef2ddb82eba5eede13723d8716dd3a3b65c9d8305c8a5aa7c748da608a53",
+          "sha256": "450aef2ddb82eba5eede13723d8716dd3a3b65c9d8305c8a5aa7c748da608a53"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:c31059abd3d74075d524733d6bbac585dfa0c40575ebffbd45fdd1c28e567b5d",
+          "sha256": "c31059abd3d74075d524733d6bbac585dfa0c40575ebffbd45fdd1c28e567b5d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:96a0afd351289ba37315fde718220740da93081a0fd67e729d5ebd9248c5610d",
+          "sha256": "96a0afd351289ba37315fde718220740da93081a0fd67e729d5ebd9248c5610d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:18dd8e8f929e1d4b2d1054f0593317e8e14091126badcf6efcb471c7376144c2",
+          "sha256": "18dd8e8f929e1d4b2d1054f0593317e8e14091126badcf6efcb471c7376144c2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/keepkey-agent/blobs/sha256:398a5139373cea7805b82802e54eacf5460e001b82956d96a375566b31f63581",
+          "sha256": "398a5139373cea7805b82802e54eacf5460e001b82956d96a375566b31f63581"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "docutils",
+    "libusb",
+    "openssl@3",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/keepkey-agent.rb",
+  "ruby_source_checksum": {
+    "sha256": "98f7efc4b76bf1bce4d7cb489a03cf0248bd36aaf5002d3a4fa86b9f033e3481"
+  },
+  "date_added": "2018-05-24T03:55:13-07:00"
+}

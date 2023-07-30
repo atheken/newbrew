@@ -1,0 +1,105 @@
+{
+  "name": "esbuild",
+  "full_name": "esbuild",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Extremely fast JavaScript bundler and minifier",
+  "license": "MIT",
+  "homepage": "https://esbuild.github.io/",
+  "versions": {
+    "stable": "0.18.17",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.18.17.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2fc790d1aea2996ced439227f1cc99f13ea858c9f364e915d3110465713b33a7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a",
+          "sha256": "d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a",
+          "sha256": "d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a",
+          "sha256": "d3c7dd4ae2d74966a54191d5fb4c8bc5d3e0b0ef92d5ff296e3ba74b0bd8977a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476",
+          "sha256": "258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476",
+          "sha256": "258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476",
+          "sha256": "258b4eaf04c3f2d09729fb9e4c3995e943c4d057fa8fcf9d6ef3cb04aa74b476"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/esbuild/blobs/sha256:cda87a06497a9a48bfc088c7e489232399f988b7d75d4794ac2327ec40f19abc",
+          "sha256": "cda87a06497a9a48bfc088c7e489232399f988b7d75d4794ac2327ec40f19abc"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/esbuild.rb",
+  "ruby_source_checksum": {
+    "sha256": "3634d6dcc572eea4309af8d49177c27066937277ab7dc209e2e4a1762a7ca989"
+  },
+  "date_added": "2021-08-27T03:13:16+00:00"
+}

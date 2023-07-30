@@ -1,0 +1,111 @@
+{
+  "name": "watson",
+  "full_name": "watson",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool to track (your) time",
+  "license": "MIT",
+  "homepage": "https://tailordev.github.io/Watson/",
+  "versions": {
+    "stable": "2.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a9/61/868892a19ad9f7e74f9821c259702c3630138ece45bab271e876b24bb381/td-watson-2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "204384dc04653e0dbe8f833243bb833beda3d79b387fe173bfd33faecdd087c8"
+    },
+    "head": {
+      "url": "https://github.com/TailorDev/Watson.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:9a49bb663f5754f6c48efaa796e52da88947ee4859a3431f7dc0ddfc342225b5",
+          "sha256": "9a49bb663f5754f6c48efaa796e52da88947ee4859a3431f7dc0ddfc342225b5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:ebc300c1bea8d6c1fa24023ee0b03b20d4e96cd202ad6655df1777997b4c3dac",
+          "sha256": "ebc300c1bea8d6c1fa24023ee0b03b20d4e96cd202ad6655df1777997b4c3dac"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:82529e1e4ab72e0afb728aeb860aace2c6c8cf141aa694a2bd937fb8ff62894f",
+          "sha256": "82529e1e4ab72e0afb728aeb860aace2c6c8cf141aa694a2bd937fb8ff62894f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:6299cb9603b6d92df078dcad6335d9e0a2c0f168152f943f33c18fa8ab78d160",
+          "sha256": "6299cb9603b6d92df078dcad6335d9e0a2c0f168152f943f33c18fa8ab78d160"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:75c274f6c607e113dfbca8ec5c1233ea7998078f6dff734951caa51247a62147",
+          "sha256": "75c274f6c607e113dfbca8ec5c1233ea7998078f6dff734951caa51247a62147"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:fd88430fdf3a321c7c8b689ae07970592fc2d7a4920357b29345afc451a1bc42",
+          "sha256": "fd88430fdf3a321c7c8b689ae07970592fc2d7a4920357b29345afc451a1bc42"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/watson/blobs/sha256:8bcaea26d29b856fcabe61586a819c6e0e7570e4fbc0eb7be46e73d6eecd211a",
+          "sha256": "8bcaea26d29b856fcabe61586a819c6e0e7570e4fbc0eb7be46e73d6eecd211a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python-certifi",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/watson.rb",
+  "ruby_source_checksum": {
+    "sha256": "d83b92169ca94940c959e4c2be5857ff4a4c77b6f1c4e8f569e97dcc01d103fa"
+  },
+  "date_added": "2016-02-13T02:27:32+00:00"
+}

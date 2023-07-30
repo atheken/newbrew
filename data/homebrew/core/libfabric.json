@@ -1,0 +1,111 @@
+{
+  "name": "libfabric",
+  "full_name": "libfabric",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OpenFabrics libfabric",
+  "license": "BSD-2-Clause or GPL-2.0-only",
+  "homepage": "https://ofiwg.github.io/libfabric/",
+  "versions": {
+    "stable": "1.18.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ofiwg/libfabric/releases/download/v1.18.1/libfabric-1.18.1.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "4615ae1e22009e59c72ae03c20adbdbd4a3dce95aeefbc86cc2bf1acc81c9e38"
+    },
+    "head": {
+      "url": "https://github.com/ofiwg/libfabric.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:aa139bf21677b846cdeef941f6dc1523e85356a707ec81bf02f7210cce00a9d8",
+          "sha256": "aa139bf21677b846cdeef941f6dc1523e85356a707ec81bf02f7210cce00a9d8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:0cd9af45539d17f33d1a8513bdc07fbb434cf6a08114e3929e70e3c5b56fce24",
+          "sha256": "0cd9af45539d17f33d1a8513bdc07fbb434cf6a08114e3929e70e3c5b56fce24"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:eb6fb70777a9f2ddb0f88b8034c1ff80b8b4a7cd9704166f83b9e40bbf36fc9c",
+          "sha256": "eb6fb70777a9f2ddb0f88b8034c1ff80b8b4a7cd9704166f83b9e40bbf36fc9c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:02506fe3395582dc5545c839a9e68f136dd677e4cb519f6d9a54feae5c6f2b2e",
+          "sha256": "02506fe3395582dc5545c839a9e68f136dd677e4cb519f6d9a54feae5c6f2b2e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:73b68d4c765f28d948a7dc3f438c64639d76f86525b48716f10eedae1691a872",
+          "sha256": "73b68d4c765f28d948a7dc3f438c64639d76f86525b48716f10eedae1691a872"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:a40eff1dcae0d84217799f6380a50b51d0549aa31d8b80542ed954640687185c",
+          "sha256": "a40eff1dcae0d84217799f6380a50b51d0549aa31d8b80542ed954640687185c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libfabric/blobs/sha256:c75b21612e1a667fd5a918bac971817952b580f7f3ac85eb5fb8a1b7be74b79e",
+          "sha256": "c75b21612e1a667fd5a918bac971817952b580f7f3ac85eb5fb8a1b7be74b79e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libfabric.rb",
+  "ruby_source_checksum": {
+    "sha256": "25bcff55f1808301145af14c9f43944921f9dc4e0c564dac36adc4f58389070a"
+  },
+  "date_added": "2015-10-14T20:31:32+01:00"
+}

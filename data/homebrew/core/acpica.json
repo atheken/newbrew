@@ -1,0 +1,111 @@
+{
+  "name": "acpica",
+  "full_name": "acpica",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OS-independent implementation of the ACPI specification",
+  "license": "Intel-ACPI or GPL-2.0-only or BSD-3-Clause",
+  "homepage": "https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/overview.html",
+  "versions": {
+    "stable": "20230628",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloadmirror.intel.com/783534/acpica-unix-20230628.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "86876a745e3d224dcfd222ed3de465b47559e85811df2db9820ef09a9dff5cce"
+    },
+    "head": {
+      "url": "https://github.com/acpica/acpica.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/acpica/blobs/sha256:2ddd72091b044be0051b3af6fa48c80e41203670c385960f7b500fc4b14b6eb9",
+          "sha256": "2ddd72091b044be0051b3af6fa48c80e41203670c385960f7b500fc4b14b6eb9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/acpica/blobs/sha256:c2811142ad47f32e3595a02897667e8dbee50df06ecf5c252dc584e08fef0947",
+          "sha256": "c2811142ad47f32e3595a02897667e8dbee50df06ecf5c252dc584e08fef0947"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/acpica/blobs/sha256:717e438aa297171b45e25d52f2436957df19c164c9b6496bd43307483a5dc839",
+          "sha256": "717e438aa297171b45e25d52f2436957df19c164c9b6496bd43307483a5dc839"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/acpica/blobs/sha256:30bc6c4eb2da2abc6f981eac5d93dc07dcb3c9f1932501b7aa6aa1595ed0b1d7",
+          "sha256": "30bc6c4eb2da2abc6f981eac5d93dc07dcb3c9f1932501b7aa6aa1595ed0b1d7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/acpica/blobs/sha256:8e001787a56236df6a2513bde3bb5444378da2df357d08f9aa1fdcc83161c0f0",
+          "sha256": "8e001787a56236df6a2513bde3bb5444378da2df357d08f9aa1fdcc83161c0f0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    {
+      "m4": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/acpica.rb",
+  "ruby_source_checksum": {
+    "sha256": "a20801be5400d6d1328adc13fba78ee9481a3edd6599f75fd63c1a86f4fa51c9"
+  },
+  "date_added": "2013-05-23T09:40:01-07:00"
+}

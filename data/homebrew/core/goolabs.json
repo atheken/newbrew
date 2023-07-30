@@ -1,0 +1,106 @@
+{
+  "name": "goolabs",
+  "full_name": "goolabs",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for morphologically analyzing Japanese language",
+  "license": "MIT",
+  "homepage": "https://pypi.python.org/pypi/goolabs",
+  "versions": {
+    "stable": "0.4.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/ce/86/2d3b5bd85311ee3a7ae7a661b3619095431503cd0cae03048c646b700cad/goolabs-0.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4f768a5b98960c507f5ba4e1ca14d45e3139388669148a2750d415c312281527"
+    }
+  },
+  "revision": 6,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:07491c55a405e103578678ab43f4925febea8624fa3f64675a3606e6a60845c6",
+          "sha256": "07491c55a405e103578678ab43f4925febea8624fa3f64675a3606e6a60845c6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:ca23a9f545848b5de84257b55b5eee4e039a2d702364c218a5258ad38979c6ab",
+          "sha256": "ca23a9f545848b5de84257b55b5eee4e039a2d702364c218a5258ad38979c6ab"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:a29d8eb9dd0259f96e74bae26c5d07c86693949027e294d3cdeb4af2cf536ac5",
+          "sha256": "a29d8eb9dd0259f96e74bae26c5d07c86693949027e294d3cdeb4af2cf536ac5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:2af708e99bd66dc651915f81bc107a1389c87bc085746f721dffd0afdecfb4b9",
+          "sha256": "2af708e99bd66dc651915f81bc107a1389c87bc085746f721dffd0afdecfb4b9"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:448faf5dd61a9634e912decebf9941b1bfdbc4ff8a2c0edc0da0b51eca6e79bd",
+          "sha256": "448faf5dd61a9634e912decebf9941b1bfdbc4ff8a2c0edc0da0b51eca6e79bd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:5e23739c6303b72cd28449f05bd83a2bc33c894d3c3b0022c91f11d9f2416fb4",
+          "sha256": "5e23739c6303b72cd28449f05bd83a2bc33c894d3c3b0022c91f11d9f2416fb4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/goolabs/blobs/sha256:c31baa603f9fe53dbb80734be888d049b89b14ca3c8b4a60fd35d725fdfc6dd9",
+          "sha256": "c31baa603f9fe53dbb80734be888d049b89b14ca3c8b4a60fd35d725fdfc6dd9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/goolabs.rb",
+  "ruby_source_checksum": {
+    "sha256": "e26c0024a974e02eb0e90b37ad50331e7e1988670ed20989e3afd34ce08e41ab"
+  },
+  "date_added": "2015-02-19T16:00:14+00:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "apache-arrow-glib",
+  "full_name": "apache-arrow-glib",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GLib bindings for Apache Arrow",
+  "license": "Apache-2.0",
+  "homepage": "https://arrow.apache.org/",
+  "versions": {
+    "stable": "12.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.apache.org/dyn/closer.lua?path=arrow/arrow-12.0.1/apache-arrow-12.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3481c411393aa15c75e88d93cf8315faf7f43e180fe0790128d3840d417de858"
+    },
+    "head": {
+      "url": "https://github.com/apache/arrow.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:a6adf9bcdacacc197e0a7f133b9d60bd9f7dfee6e01ee922340109cd23e04480",
+          "sha256": "a6adf9bcdacacc197e0a7f133b9d60bd9f7dfee6e01ee922340109cd23e04480"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:6bd32f1271fe76064db9d7aa2ea17490232d32f6cac10154485293fa54086107",
+          "sha256": "6bd32f1271fe76064db9d7aa2ea17490232d32f6cac10154485293fa54086107"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:3692e580cc146b6234e03fc2b458441c9f352652b9c6a740d8d19edda867ad00",
+          "sha256": "3692e580cc146b6234e03fc2b458441c9f352652b9c6a740d8d19edda867ad00"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:1ef649611b358abb8b13420614077482f4c96229285fd0a32cb40578a92a0aba",
+          "sha256": "1ef649611b358abb8b13420614077482f4c96229285fd0a32cb40578a92a0aba"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:095a82a7c0aaf064beec224455a22b7534685d6b3f433266fa72889e7a007bbc",
+          "sha256": "095a82a7c0aaf064beec224455a22b7534685d6b3f433266fa72889e7a007bbc"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:f540a87468492fb34873e5707710a89d81ea7cf588350ca22e8fb18cabfbc8fc",
+          "sha256": "f540a87468492fb34873e5707710a89d81ea7cf588350ca22e8fb18cabfbc8fc"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/apache-arrow-glib/blobs/sha256:7a5217162da3d065ca4089a16f18804eff00ba52f381130607b704bdd931f097",
+          "sha256": "7a5217162da3d065ca4089a16f18804eff00ba52f381130607b704bdd931f097"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "apache-arrow",
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/apache-arrow-glib.rb",
+  "ruby_source_checksum": {
+    "sha256": "dc1f20ef6fdde6f5d6ea70cb78154180eb04cedec0344bfc76e94307fab84693"
+  },
+  "date_added": "2018-04-09T22:51:43-07:00"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "aws-sam-cli",
+  "full_name": "aws-sam-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+  "license": "Apache-2.0",
+  "homepage": "https://aws.amazon.com/serverless/sam/",
+  "versions": {
+    "stable": "1.94.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/39/29/6bd9fa7ae1f1c8307979d1bc457d72e5d006777a445c1416a55bd03c28a8/aws-sam-cli-1.94.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "93fd0139b0333487cd0f3dccd1703b570b5122027fbbdc3e7c10add9f7858c5c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:8a56219d99aaaea90e2b6722e9ed7278e6c2b44cdbd528a0494f3785dbbc7f85",
+          "sha256": "8a56219d99aaaea90e2b6722e9ed7278e6c2b44cdbd528a0494f3785dbbc7f85"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:a9d34aa04f33e4c485f2d450e0d99e6d5ad0f5edb6d4fe0f3bf24e56a9d71384",
+          "sha256": "a9d34aa04f33e4c485f2d450e0d99e6d5ad0f5edb6d4fe0f3bf24e56a9d71384"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:e7bb80d21d42ddc407936f72eec979753c9f5fb39dcd96ac25cdd17f435ac6e7",
+          "sha256": "e7bb80d21d42ddc407936f72eec979753c9f5fb39dcd96ac25cdd17f435ac6e7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:b9f4bc1583f8d400528069a6970578befcb92acb0313d07dfc5183cf01470d4f",
+          "sha256": "b9f4bc1583f8d400528069a6970578befcb92acb0313d07dfc5183cf01470d4f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:0af3f71f9335d907135c359249b3ebd12aafa7ad0cfc238ac0b212489068b914",
+          "sha256": "0af3f71f9335d907135c359249b3ebd12aafa7ad0cfc238ac0b212489068b914"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:f85f4b599ed8f0ce1667d609ea9e29000addf3ea7c291b4b637a617087441176",
+          "sha256": "f85f4b599ed8f0ce1667d609ea9e29000addf3ea7c291b4b637a617087441176"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/aws-sam-cli/blobs/sha256:41f197259d53ceae498756d1018948d1ab0c9a95b5a9e84772199e0e6532ab53",
+          "sha256": "41f197259d53ceae498756d1018948d1ab0c9a95b5a9e84772199e0e6532ab53"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "cffi",
+    "openssl@3",
+    "pycparser",
+    "pygments",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/aws-sam-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "6b17aa3e97379252752d349f8175b3c9fdf85cbe778bac9d6e6bb5bfad88b3f2"
+  },
+  "date_added": "2023-01-16T02:06:10+00:00"
+}

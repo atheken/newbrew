@@ -1,0 +1,131 @@
+{
+  "name": "hwloc",
+  "full_name": "hwloc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Portable abstraction of the hierarchical topology of modern architectures",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.open-mpi.org/projects/hwloc/",
+  "versions": {
+    "stable": "2.9.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.open-mpi.org/release/hwloc/v2.9/hwloc-2.9.2.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "0a87fdf677f8b00b567d229b6320bf6b25c693edaa43e0b85268d999d6b060cf"
+    },
+    "head": {
+      "url": "https://github.com/open-mpi/hwloc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:0c98fc19c69ec0df1e2271aad05ac922fcaead091349745094db941aab134f2c",
+          "sha256": "0c98fc19c69ec0df1e2271aad05ac922fcaead091349745094db941aab134f2c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:a369daeeb4fdfadc77a4522c2e7a23b88918ace52cae98ff323beb1639f3eac9",
+          "sha256": "a369daeeb4fdfadc77a4522c2e7a23b88918ace52cae98ff323beb1639f3eac9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:7a2d09c1a4d11296f42d5f758957ed973ca7961e0edd9a16c1573ccdfa36b84f",
+          "sha256": "7a2d09c1a4d11296f42d5f758957ed973ca7961e0edd9a16c1573ccdfa36b84f"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:865974e303ac705663c46b300190e3d6c9a113e89e7aeb5f8f944418e6ff149d",
+          "sha256": "865974e303ac705663c46b300190e3d6c9a113e89e7aeb5f8f944418e6ff149d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:2b3088fc7ba96787b64c7d40c3ba030c510281b3c5cc7c18f6ae3992e5fb2ef7",
+          "sha256": "2b3088fc7ba96787b64c7d40c3ba030c510281b3c5cc7c18f6ae3992e5fb2ef7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:2e72696343db02e16dd6af2e68c85bd6aa5c5a64219b85ae912c72cae576f2ca",
+          "sha256": "2e72696343db02e16dd6af2e68c85bd6aa5c5a64219b85ae912c72cae576f2ca"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hwloc/blobs/sha256:7ac1f1e73b3380275b31e2f12f25f297fe6689f9cefe6a0bceeb535ebc576648",
+          "sha256": "7ac1f1e73b3380275b31e2f12f25f297fe6689f9cefe6a0bceeb535ebc576648"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hwloc.rb",
+  "ruby_source_checksum": {
+    "sha256": "48978866e4cafde7c923c29490da74c29eda29dd77bc8a0b91b6fbca3e0287a0"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      "libxml2"
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "date_added": "2012-06-28T21:14:40-07:00"
+}

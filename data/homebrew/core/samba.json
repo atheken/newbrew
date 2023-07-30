@@ -1,0 +1,140 @@
+{
+  "name": "samba",
+  "full_name": "samba",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "SMB/CIFS file, print, and login server for UNIX",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.samba.org/",
+  "versions": {
+    "stable": "4.18.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.samba.org/pub/samba/stable/samba-4.18.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "095256ac332e1d9fbf9b7ff7823f92a3233d3ed658ce7fc9b33905c2243f447f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:72eaca2f10717e487921d5125eb16206bf850707bc3996cd0a74827ac04e45da",
+          "sha256": "72eaca2f10717e487921d5125eb16206bf850707bc3996cd0a74827ac04e45da"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:4052445bd235f857e728874f4fb5bed6e05438d60c2d6cfc0d18ff58b6c3af83",
+          "sha256": "4052445bd235f857e728874f4fb5bed6e05438d60c2d6cfc0d18ff58b6c3af83"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:8800b0ed74b2c79e1ebffc421f0903bec105a480558148e233b6b77576af4907",
+          "sha256": "8800b0ed74b2c79e1ebffc421f0903bec105a480558148e233b6b77576af4907"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:b4261ec7f6ceff5dc1d2b712d7f087dc160319489be4f7e03e3805a8d0cd0557",
+          "sha256": "b4261ec7f6ceff5dc1d2b712d7f087dc160319489be4f7e03e3805a8d0cd0557"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:eabfb486667ed0c36ae80176d6843c0988858c2ae5180ad6da815bd8e51c1b31",
+          "sha256": "eabfb486667ed0c36ae80176d6843c0988858c2ae5180ad6da815bd8e51c1b31"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:8d35508a4fa8a006b6e2d3e8a23719b482003002d49f62dcfd9688f130722eae",
+          "sha256": "8d35508a4fa8a006b6e2d3e8a23719b482003002d49f62dcfd9688f130722eae"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/samba/blobs/sha256:cb5460e0aaaf8d980efc9670a7415e1398fd5bbc217704503d0a428ef6d84375",
+          "sha256": "cb5460e0aaaf8d980efc9670a7415e1398fd5bbc217704503d0a428ef6d84375"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmocka",
+    "pkg-config",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "gnutls",
+    "icu4c",
+    "krb5",
+    "libtasn1",
+    "popt",
+    "readline",
+    "talloc",
+    "libtirpc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    {
+      "perl": "build"
+    },
+    "libxcrypt",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "jena",
+    "puzzles"
+  ],
+  "conflicts_with_reasons": [
+    "both install `tdbbackup` binaries",
+    "both install `net` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/samba.rb",
+  "ruby_source_checksum": {
+    "sha256": "712e8c9796c5e7a3781424a362dae86c58392373a395b88a5c5de9fe1bf36007"
+  },
+  "date_added": "2012-06-10T09:05:46-07:00"
+}

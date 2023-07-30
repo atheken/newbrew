@@ -1,0 +1,111 @@
+{
+  "name": "dar",
+  "full_name": "dar",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Backup directory tree and files",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://dar.linux.free.fr/doc/index.html",
+  "versions": {
+    "stable": "2.7.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/dar/dar/2.7.10/dar-2.7.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2b091480858d774e3f15f4e8eb69c4e2ccc405f80f25cc073d389a228b3a9623"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:4480b7ae75d3ebccb96d1958faae7c48662ac6c8bdef67997285818449742acf",
+          "sha256": "4480b7ae75d3ebccb96d1958faae7c48662ac6c8bdef67997285818449742acf"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:bb77870777624db18c573f18cce90d721346d22d4df6fa374d48477242189cf5",
+          "sha256": "bb77870777624db18c573f18cce90d721346d22d4df6fa374d48477242189cf5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:edcc26605485f3f1cf23349f14f522a7b0d8ec8e5a16125e721b3b0caa2dcd26",
+          "sha256": "edcc26605485f3f1cf23349f14f522a7b0d8ec8e5a16125e721b3b0caa2dcd26"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:ae626bcb9245928c66b321e1edcd1b04f6ee208cdaa48df3123d495b02203d76",
+          "sha256": "ae626bcb9245928c66b321e1edcd1b04f6ee208cdaa48df3123d495b02203d76"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:379aa7e4a6e5a7c8783821c029420c7ac6ab5d6f0904691821d1c7097c57fa72",
+          "sha256": "379aa7e4a6e5a7c8783821c029420c7ac6ab5d6f0904691821d1c7097c57fa72"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:c124dda55fa4e7d893068e91198d527d50e3c6621c8613fa139b4a5eda40cdaf",
+          "sha256": "c124dda55fa4e7d893068e91198d527d50e3c6621c8613fa139b4a5eda40cdaf"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/dar/blobs/sha256:a52e94d88fca64daa5a61d8868ed6d761b1951bcc49b7bef3fbfd4ccfc2ed8db",
+          "sha256": "a52e94d88fca64daa5a61d8868ed6d761b1951bcc49b7bef3fbfd4ccfc2ed8db"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "argon2",
+    "libgcrypt",
+    "lzo"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dar.rb",
+  "ruby_source_checksum": {
+    "sha256": "a6ffc9395c77f2b51ecf6f0002c628500a4fe2c451c206b7f2cbef3c0701cd4f"
+  },
+  "date_added": "2011-01-16T15:25:51+00:00"
+}

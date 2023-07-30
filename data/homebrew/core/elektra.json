@@ -1,0 +1,110 @@
+{
+  "name": "elektra",
+  "full_name": "elektra",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Framework to access config settings in a global key database",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.libelektra.org/home",
+  "versions": {
+    "stable": "0.10.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.libelektra.org/ftp/elektra/releases/elektra-0.10.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cb56e40b37c42e1e235cf9e76c9250024f912cbb61cca1a2888f9305f5228dcd"
+    },
+    "head": {
+      "url": "https://github.com/ElektraInitiative/libelektra.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:1c7f7a338c04ae3cd098f34da692b29fb6c140a7649f6e5085d2c7422d81f05f",
+          "sha256": "1c7f7a338c04ae3cd098f34da692b29fb6c140a7649f6e5085d2c7422d81f05f"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:1e00a8c15469ddb41ed19199d70f45bf5f9860462624d85d995201955f7d40f6",
+          "sha256": "1e00a8c15469ddb41ed19199d70f45bf5f9860462624d85d995201955f7d40f6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:61dcdf0bde9f91b645ee62fb249773bf4b5329f2cc73a560a61b1faf05a6db74",
+          "sha256": "61dcdf0bde9f91b645ee62fb249773bf4b5329f2cc73a560a61b1faf05a6db74"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:08c98ad46aa2c3bca188e2a0ce868143b6268e14f51f4b6745647dd72fd812c6",
+          "sha256": "08c98ad46aa2c3bca188e2a0ce868143b6268e14f51f4b6745647dd72fd812c6"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:d1839fcfc1adc74a6c34c38a1e4a3fae8863b95709ccaf870f738b9e15f79504",
+          "sha256": "d1839fcfc1adc74a6c34c38a1e4a3fae8863b95709ccaf870f738b9e15f79504"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:cdc726ab4def7a1ad1b94d73d79ec20f5c7288e9519bd8511bfb39776354f668",
+          "sha256": "cdc726ab4def7a1ad1b94d73d79ec20f5c7288e9519bd8511bfb39776354f668"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/elektra/blobs/sha256:e9684e27e8002cb22554442f47fba4dcf00cb0bd0d1483d746c9946647235072",
+          "sha256": "e9684e27e8002cb22554442f47fba4dcf00cb0bd0d1483d746c9946647235072"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/elektra.rb",
+  "ruby_source_checksum": {
+    "sha256": "7009fb024ef4250a696b950b6c2261d21b0488b5d2bf6cdca9b2ec1b17f6901b"
+  },
+  "date_added": "2018-01-04T04:31:56-08:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "evtx",
+  "full_name": "evtx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Windows XML Event Log parser",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/omerbenamram/evtx",
+  "versions": {
+    "stable": "0.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/omerbenamram/evtx/archive/refs/tags/v0.8.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a42133deecbe47ade28e14ed55e4e87a2c9b5d9400867eacec8b32070a2cd95e"
+    },
+    "head": {
+      "url": "https://github.com/omerbenamram/evtx.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:c89cce02eb42c8ffeff871f32f50bce01ca94d822dab012aa27cf138579665e1",
+          "sha256": "c89cce02eb42c8ffeff871f32f50bce01ca94d822dab012aa27cf138579665e1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:3e750b8532e6e8c3b08ee0b20f373b1f5baeef338ecead535efd37f59e8a29b3",
+          "sha256": "3e750b8532e6e8c3b08ee0b20f373b1f5baeef338ecead535efd37f59e8a29b3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:be9205c5372de648dd450bf3c8a8517900a4f1a92cfaeaa1f83bdc126e4244f7",
+          "sha256": "be9205c5372de648dd450bf3c8a8517900a4f1a92cfaeaa1f83bdc126e4244f7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:ddac9599c1e47f77ee5ae33494d613a2fdc2a96ac64afc29990c0429c640107d",
+          "sha256": "ddac9599c1e47f77ee5ae33494d613a2fdc2a96ac64afc29990c0429c640107d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:8e624562b6931b531fb1911296f3d404376b1cf14a61b7bb7e768a6c5698d98d",
+          "sha256": "8e624562b6931b531fb1911296f3d404376b1cf14a61b7bb7e768a6c5698d98d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:aae2a058428541d793bc5cbdd31b9c01b30d7add7f19e12532ae5158dbfe4366",
+          "sha256": "aae2a058428541d793bc5cbdd31b9c01b30d7add7f19e12532ae5158dbfe4366"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evtx/blobs/sha256:14305e3adbec154630f7de1e926f3a27b36d7fa091b0ca9b11cf1a0d2e772a7f",
+          "sha256": "14305e3adbec154630f7de1e926f3a27b36d7fa091b0ca9b11cf1a0d2e772a7f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/evtx.rb",
+  "ruby_source_checksum": {
+    "sha256": "8e646df390d83406b41a7f01ece7c317634abb1c323097c62666a7ba2a749fba"
+  },
+  "date_added": "2022-12-13T05:31:45+00:00"
+}

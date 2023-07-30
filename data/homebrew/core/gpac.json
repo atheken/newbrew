@@ -1,0 +1,121 @@
+{
+  "name": "gpac",
+  "full_name": "gpac",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "mp4box"
+  ],
+  "versioned_formulae": [],
+  "desc": "Multimedia framework for research and academic purposes",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://gpac.wp.mines-telecom.fr/",
+  "versions": {
+    "stable": "2.2.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gpac/gpac/archive/v2.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8173ecc4143631d7f2c59f77e1144b429ccadb8de0d53a4e254389fb5948d8b8"
+    },
+    "head": {
+      "url": "https://github.com/gpac/gpac.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:a84de69ae0466a5dbd0ac4b72467f8c5b3c014f7f1dd28f7d0f92ebd0b9d5d08",
+          "sha256": "a84de69ae0466a5dbd0ac4b72467f8c5b3c014f7f1dd28f7d0f92ebd0b9d5d08"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:726e848f614718e84bdb1334a728bef9a3223a2988796f375fcac990c2984752",
+          "sha256": "726e848f614718e84bdb1334a728bef9a3223a2988796f375fcac990c2984752"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:6922542eff06034e5c339e3024d4dfe5b7777fe45b2974c8fc27933d8a53c3f1",
+          "sha256": "6922542eff06034e5c339e3024d4dfe5b7777fe45b2974c8fc27933d8a53c3f1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:39aad91d3b061ddfcfea25275ec4424b1ef7587c96d4d5b983dbde3432648ab9",
+          "sha256": "39aad91d3b061ddfcfea25275ec4424b1ef7587c96d4d5b983dbde3432648ab9"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:2471afe10295b7c46c43f1d96cfb138ad0aafe151e434b15c429388ea996141f",
+          "sha256": "2471afe10295b7c46c43f1d96cfb138ad0aafe151e434b15c429388ea996141f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:0ef3b2c3a0fcb8b1d6c0b180a1115258464b9c6117f5c047b5aca776244301b4",
+          "sha256": "0ef3b2c3a0fcb8b1d6c0b180a1115258464b9c6117f5c047b5aca776244301b4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gpac/blobs/sha256:16457bcbb191b392f7511ccacfa7cdb83499bbdaff5b1bd34fa68d9f28737d16",
+          "sha256": "16457bcbb191b392f7511ccacfa7cdb83499bbdaff5b1bd34fa68d9f28737d16"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "bento4"
+  ],
+  "conflicts_with_reasons": [
+    "both install `mp42ts` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gpac.rb",
+  "ruby_source_checksum": {
+    "sha256": "216dc6b1ccee61842c3c307182e4ace0e1e75ea837a6e0f9ded172afc5720857"
+  },
+  "date_added": "2010-08-12T07:42:04-07:00"
+}

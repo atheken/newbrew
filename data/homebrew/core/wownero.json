@@ -1,0 +1,127 @@
+{
+  "name": "wownero",
+  "full_name": "wownero",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Official wallet and node software for the Wownero cryptocurrency",
+  "license": "BSD-3-Clause",
+  "homepage": "https://wownero.org",
+  "versions": {
+    "stable": "0.11.0.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://git.wownero.com/wownero/wownero.git",
+      "tag": "v0.11.0.3",
+      "revision": "e921c3b8a35bc497ef92c4735e778e918b4c4f99",
+      "checksum": null
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:e9c6d64810d53ccd2fa82a0f641fc4fbf594ce632b18186801083493bf6be222",
+          "sha256": "e9c6d64810d53ccd2fa82a0f641fc4fbf594ce632b18186801083493bf6be222"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:d53bd08ebda04811356689c342d35fc0344f0906a540d83a43f9b41df447e971",
+          "sha256": "d53bd08ebda04811356689c342d35fc0344f0906a540d83a43f9b41df447e971"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:7af4e0940aaa43a7d70d3a8cb1970f744f71acdf67e8c7de8e9db913c682adff",
+          "sha256": "7af4e0940aaa43a7d70d3a8cb1970f744f71acdf67e8c7de8e9db913c682adff"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:16d4dc784619f6a70f0a017abe08d321a9555218ee4c6330589d6cb6f18d9234",
+          "sha256": "16d4dc784619f6a70f0a017abe08d321a9555218ee4c6330589d6cb6f18d9234"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:e8337a5e74fceca5739b0579aac2c1829dca2ed5379bf50d2e2ec7a3eb7897bb",
+          "sha256": "e8337a5e74fceca5739b0579aac2c1829dca2ed5379bf50d2e2ec7a3eb7897bb"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:bd746ee84a9474879ea9cb224c150d000e7802c5837e1a7ef0d4193d20ca75c0",
+          "sha256": "bd746ee84a9474879ea9cb224c150d000e7802c5837e1a7ef0d4193d20ca75c0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/wownero/blobs/sha256:5e700986a65ce429419bcdf44fa0339a2b2f01182c9138915df5b7e50dec44a0",
+          "sha256": "5e700986a65ce429419bcdf44fa0339a2b2f01182c9138915df5b7e50dec44a0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "miniupnpc",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "boost",
+    "hidapi",
+    "libsodium",
+    "libusb",
+    "openssl@3",
+    "protobuf@21",
+    "readline",
+    "unbound",
+    "zeromq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "monero"
+  ],
+  "conflicts_with_reasons": [
+    "both install a wallet2_api.h header"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/wownero/bin/wownerod",
+      "--non-interactive"
+    ],
+    "run_type": "immediate"
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/wownero.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ab981129fe15572ee91ecf41569002ee3d673dc464c34b56c801d9ea7482dbd"
+  },
+  "date_added": "2020-08-18T10:55:16+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "name": "abseil",
+  "full_name": "abseil",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ Common Libraries",
+  "license": "Apache-2.0",
+  "homepage": "https://abseil.io",
+  "versions": {
+    "stable": "20230125.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/20230125.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5366d7e7fa7ba0d915014d387b66d0d002c03236448e1ba9ef98122c13b35c36"
+    },
+    "head": {
+      "url": "https://github.com/abseil/abseil-cpp.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:c789ff211d0d81fba211ffa4abc0a0e5ce430698ae0e590057cbeeb73d620d15",
+          "sha256": "c789ff211d0d81fba211ffa4abc0a0e5ce430698ae0e590057cbeeb73d620d15"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:69def86118e5c3fad60816d0747ddb7909f7da1cfe7f4ed4f2373d2e4ac27fb2",
+          "sha256": "69def86118e5c3fad60816d0747ddb7909f7da1cfe7f4ed4f2373d2e4ac27fb2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:6f935264ca89f8cd343e01c38cf3806ec98e8e7c616bcbcfc921082af7320f03",
+          "sha256": "6f935264ca89f8cd343e01c38cf3806ec98e8e7c616bcbcfc921082af7320f03"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:365fd4fef0e37db61c1ae3c83e21c0a6d178a180a8ff94eaa61cce25c6ef84c4",
+          "sha256": "365fd4fef0e37db61c1ae3c83e21c0a6d178a180a8ff94eaa61cce25c6ef84c4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:42d1faa5ff28d113705a651d57edcdc29580c8b7c941a9db5f3f06c97306966f",
+          "sha256": "42d1faa5ff28d113705a651d57edcdc29580c8b7c941a9db5f3f06c97306966f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:a621f54dec9a4f409592536179c78e62ca67add70b6a06956a3b2802240a7f98",
+          "sha256": "a621f54dec9a4f409592536179c78e62ca67add70b6a06956a3b2802240a7f98"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/abseil/blobs/sha256:447174d63faf184ec9f0c0b5dcf6cc926a619f74b3a130809383f6ee8b4bb316",
+          "sha256": "447174d63faf184ec9f0c0b5dcf6cc926a619f74b3a130809383f6ee8b4bb316"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/abseil.rb",
+  "ruby_source_checksum": {
+    "sha256": "29c540125bf6b97046698c915edcfcc27725062a8b03ff23677a5d1cf6695199"
+  },
+  "date_added": "2020-03-04T00:17:16+00:00"
+}

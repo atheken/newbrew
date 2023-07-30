@@ -1,0 +1,113 @@
+{
+  "name": "standardese",
+  "full_name": "standardese",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Next-gen documentation generator for C++",
+  "license": "MIT",
+  "homepage": "https://standardese.github.io",
+  "versions": {
+    "stable": "0.5.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/standardese/standardese.git",
+      "tag": "0.5.2",
+      "revision": "0b23537e235690e01ba7f8362a22d45125e7b675",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/standardese/standardese.git",
+      "branch": "master"
+    }
+  },
+  "revision": 15,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:d70779cd237b4c18330977418d41349f2e19c708b9928a675816d8f7ae855179",
+          "sha256": "d70779cd237b4c18330977418d41349f2e19c708b9928a675816d8f7ae855179"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:db40d8808507f679b37aed32cfcac9bd451098f70574a2448deadd0269f69cd3",
+          "sha256": "db40d8808507f679b37aed32cfcac9bd451098f70574a2448deadd0269f69cd3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:dcb784cdd4d1ef8dc56735500dc7d936d5d3080012f43165a44e4bc78885f3a7",
+          "sha256": "dcb784cdd4d1ef8dc56735500dc7d936d5d3080012f43165a44e4bc78885f3a7"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:02a1b1c16993c683b59baaa2082016ecd6c6c3aa2b9c65db04350e7a3fdcf9be",
+          "sha256": "02a1b1c16993c683b59baaa2082016ecd6c6c3aa2b9c65db04350e7a3fdcf9be"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:e49513abcbee20979a5353149428067e3b6094c79c58d87bbad1a903df93379f",
+          "sha256": "e49513abcbee20979a5353149428067e3b6094c79c58d87bbad1a903df93379f"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:59f7d73ae05fb94512ac40e7d864f63862c7cc9b4366cd7ccb42c02a3c7cf753",
+          "sha256": "59f7d73ae05fb94512ac40e7d864f63862c7cc9b4366cd7ccb42c02a3c7cf753"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/standardese/blobs/sha256:34e3d14bbacf5a4619d513305a7765b610598c2cb009d66fd5c06d616b8307d5",
+          "sha256": "34e3d14bbacf5a4619d513305a7765b610598c2cb009d66fd5c06d616b8307d5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "boost",
+    "cmark-gfm",
+    "llvm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/standardese.rb",
+  "ruby_source_checksum": {
+    "sha256": "1783f1fe1d071c3d3c458921e3cdf89f800589204e477207ff7375b7f8e1480c"
+  },
+  "date_added": "2020-07-06T13:27:51+00:00"
+}

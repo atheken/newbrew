@@ -1,0 +1,112 @@
+{
+  "name": "llm",
+  "full_name": "llm",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Access large language models from the command-line",
+  "license": "Apache-2.0",
+  "homepage": "https://llm.datasette.io/",
+  "versions": {
+    "stable": "0.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a4/27/99003e30e646346e3beb160edb9d8554aa6a3aaa2b62168f665776d06d16/llm-0.6.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f4470292202abb57871b6ee373c1397b9da6271044094b01afd8efdb7f0770ca"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:2dcb0deb7fbcae9c8918b74a0aadb046e9dc13c07753473a957e84a7dbe6707a",
+          "sha256": "2dcb0deb7fbcae9c8918b74a0aadb046e9dc13c07753473a957e84a7dbe6707a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:d29bc9b6ad0fc95f9d26183c3326b113f7e994e7fd37e057e4b15f7ec3c3e50c",
+          "sha256": "d29bc9b6ad0fc95f9d26183c3326b113f7e994e7fd37e057e4b15f7ec3c3e50c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:0fab633749f23f76a326d58379cdee517c8e00cbc7b3c44a2ff477909868d542",
+          "sha256": "0fab633749f23f76a326d58379cdee517c8e00cbc7b3c44a2ff477909868d542"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:2c9553253be6be57534839985666c8f75fbd8e784b37fe38a7cbadd105245136",
+          "sha256": "2c9553253be6be57534839985666c8f75fbd8e784b37fe38a7cbadd105245136"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:bffd01c98f8fbc73870b63267a9a5699a56a7493a0f96d52b2a29907efe10899",
+          "sha256": "bffd01c98f8fbc73870b63267a9a5699a56a7493a0f96d52b2a29907efe10899"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:5f53153ab66114a0b00fd99c05b47d6e8fadfec66fb0f7d3a28ed9b2710dc98a",
+          "sha256": "5f53153ab66114a0b00fd99c05b47d6e8fadfec66fb0f7d3a28ed9b2710dc98a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/llm/blobs/sha256:e5143f3397139afa4ad17878276a51534e9e8ef070c2eccfe83dc072059688df",
+          "sha256": "e5143f3397139afa4ad17878276a51534e9e8ef070c2eccfe83dc072059688df"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "pygments",
+    "python-tabulate",
+    "python-typing-extensions",
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/llm.rb",
+  "ruby_source_checksum": {
+    "sha256": "d0dc421edf9fb05e4d29935c208364c671b22f2f0b224f3af9310b0bdef59c7d"
+  },
+  "date_added": "2023-07-23T19:13:46-04:00"
+}

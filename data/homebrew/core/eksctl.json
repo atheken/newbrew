@@ -1,0 +1,115 @@
+{
+  "name": "eksctl",
+  "full_name": "eksctl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple command-line tool for creating clusters on Amazon EKS",
+  "license": "Apache-2.0",
+  "homepage": "https://eksctl.io",
+  "versions": {
+    "stable": "0.150.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/weaveworks/eksctl.git",
+      "tag": "0.150.0",
+      "revision": "cdcf906b76728da669738accc15c118125408c5d",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/weaveworks/eksctl.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:a4c503b629a1d94aba36b6ed9ac2bf6d305f0da54f17a6539aaa32c0b62b5571",
+          "sha256": "a4c503b629a1d94aba36b6ed9ac2bf6d305f0da54f17a6539aaa32c0b62b5571"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:650483bce88cc31d93baa63bedc000850c32a02c3b870841586ffffbc26c578f",
+          "sha256": "650483bce88cc31d93baa63bedc000850c32a02c3b870841586ffffbc26c578f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:38d239fdd826543a11eb80603b91d8e9fcdfdf51a92fe4f73322f78d67a74d5c",
+          "sha256": "38d239fdd826543a11eb80603b91d8e9fcdfdf51a92fe4f73322f78d67a74d5c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:236b79d6b3513ce23d92139be8c7d504baaa440a1108d77115d4dc0d4b6a0f7f",
+          "sha256": "236b79d6b3513ce23d92139be8c7d504baaa440a1108d77115d4dc0d4b6a0f7f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:a93d3f26d80179c8b81d35c174b83bf0582009ed592493ef2d2a012b6e1ed5b1",
+          "sha256": "a93d3f26d80179c8b81d35c174b83bf0582009ed592493ef2d2a012b6e1ed5b1"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:9740c104276b1103c1745b21e9ba611edc5826335b77512e550bb9e087f80eb6",
+          "sha256": "9740c104276b1103c1745b21e9ba611edc5826335b77512e550bb9e087f80eb6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/eksctl/blobs/sha256:a87e2058a5e5d9b56cc158b4d31ec070bcf847bf17b28d57b3c4a6c7a5d94b07",
+          "sha256": "a87e2058a5e5d9b56cc158b4d31ec070bcf847bf17b28d57b3c4a6c7a5d94b07"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "counterfeiter",
+    "go",
+    "go-bindata",
+    "ifacemaker",
+    "mockery"
+  ],
+  "dependencies": [
+    "aws-iam-authenticator"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/eksctl.rb",
+  "ruby_source_checksum": {
+    "sha256": "5c1d21c1751b9fbe7dac34582641d9258fa5e940f5c84e88eaaf00e8a5909201"
+  },
+  "date_added": "2020-07-22T08:14:43+00:00"
+}

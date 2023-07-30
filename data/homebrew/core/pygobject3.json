@@ -1,0 +1,115 @@
+{
+  "name": "pygobject3",
+  "full_name": "pygobject3",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GNOME Python bindings (based on GObject Introspection)",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://wiki.gnome.org/Projects/PyGObject",
+  "versions": {
+    "stable": "3.44.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gnome.org/sources/pygobject/3.44/pygobject-3.44.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3c6805d1321be90cc32e648215a562430e0d3d6edcda8f4c5e7a9daffcad5710"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:370d24f45caf90e69b19ec1f44449adaba007ae77daff824f42afa342b664986",
+          "sha256": "370d24f45caf90e69b19ec1f44449adaba007ae77daff824f42afa342b664986"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:8b79722c80c7f47cda8be7574d11e175a21eb38408d3a781c6ff1422870c4768",
+          "sha256": "8b79722c80c7f47cda8be7574d11e175a21eb38408d3a781c6ff1422870c4768"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:e35223a5803615e6e2b8e1d331a0e2c5c4b2d60596d2a338a578dbdeb543add6",
+          "sha256": "e35223a5803615e6e2b8e1d331a0e2c5c4b2d60596d2a338a578dbdeb543add6"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:44c25386ff91ca3358a26d4262353d7af36864ae848eec12ca63d639cfaffad7",
+          "sha256": "44c25386ff91ca3358a26d4262353d7af36864ae848eec12ca63d639cfaffad7"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:4d8039bdbc683872d9a053d414c8073ffff9de4b997478d77928efbe0acb5a7d",
+          "sha256": "4d8039bdbc683872d9a053d414c8073ffff9de4b997478d77928efbe0acb5a7d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:a23536b141c8a9b2ec56baf959448aa1a61fd82e10db2c0c2a2e471bd51f55d8",
+          "sha256": "a23536b141c8a9b2ec56baf959448aa1a61fd82e10db2c0c2a2e471bd51f55d8"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pygobject3/blobs/sha256:312dff876344160d22f3ba86f57a1c2587bf5a290155b66480b2083fb52f35be",
+          "sha256": "312dff876344160d22f3ba86f57a1c2587bf5a290155b66480b2083fb52f35be"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python@3.10",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "gobject-introspection",
+    "py3cairo"
+  ],
+  "test_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pygobject3.rb",
+  "ruby_source_checksum": {
+    "sha256": "8daa061f7c20712e7d87e6457d9c51777246743686ebc1c005961df8a4339373"
+  },
+  "date_added": "2013-11-16T23:18:35-06:00"
+}

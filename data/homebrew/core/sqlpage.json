@@ -1,0 +1,105 @@
+{
+  "name": "sqlpage",
+  "full_name": "sqlpage",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Web application framework, for creation of websites with simple database queries",
+  "license": "MIT",
+  "homepage": "https://sql.ophir.dev/",
+  "versions": {
+    "stable": "0.8.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lovasoa/SQLpage/archive/refs/tags/v0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "833e01ce88f309887810ce8697f45d7b65007f840805a5536ce8dddaac6ca076"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:47f25f39a018f06c2c78f791067fc487bdf588f01f40b7d87f3e11ae484824e4",
+          "sha256": "47f25f39a018f06c2c78f791067fc487bdf588f01f40b7d87f3e11ae484824e4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:b94b29d2146b7d3348c218d5b83cd238f7311c853b26a35828cd911227b7b391",
+          "sha256": "b94b29d2146b7d3348c218d5b83cd238f7311c853b26a35828cd911227b7b391"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:4e489842b032ba84e3e98fcec5a4783faaec8c472a35dcc27d32f43a511388ba",
+          "sha256": "4e489842b032ba84e3e98fcec5a4783faaec8c472a35dcc27d32f43a511388ba"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:fa3bffd95538a916018795be00859d9bb507ff073053a1cfeba4328ad8c27e26",
+          "sha256": "fa3bffd95538a916018795be00859d9bb507ff073053a1cfeba4328ad8c27e26"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:8d081ad8e6d262079724d55580bf580c9c74d10c18cf93eb990a0548e2a4a72c",
+          "sha256": "8d081ad8e6d262079724d55580bf580c9c74d10c18cf93eb990a0548e2a4a72c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:fdcaf9ee7cdac96758b9f8c1b27d327d8891954ff2b526768a2f584dfc714d69",
+          "sha256": "fdcaf9ee7cdac96758b9f8c1b27d327d8891954ff2b526768a2f584dfc714d69"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlpage/blobs/sha256:c2e098ef8112c5ac3858438fface4fd9d1708c29d3a77e4596902257360381b3",
+          "sha256": "c2e098ef8112c5ac3858438fface4fd9d1708c29d3a77e4596902257360381b3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sqlpage.rb",
+  "ruby_source_checksum": {
+    "sha256": "c93458c34cbb4f78ce5f022f424e8850da8496667b64d6188f3e84b5e866ee68"
+  },
+  "date_added": "2023-07-14T04:09:28+01:00"
+}

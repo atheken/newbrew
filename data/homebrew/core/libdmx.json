@@ -1,0 +1,109 @@
+{
+  "name": "libdmx",
+  "full_name": "libdmx",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: X Window System DMX (Distributed Multihead X) extension library",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "1.1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/archive/individual/lib/libdmx-1.1.5.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "35a4e26a8b0b2b4fe36441dca463645c3fa52d282ac3520501a38ea942cbf74f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:bd69993016d92420d1f32df152e891cadf75c3693e2d4d6573e4f651ca6dab10",
+          "sha256": "bd69993016d92420d1f32df152e891cadf75c3693e2d4d6573e4f651ca6dab10"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:62fcb302aec2c914524a9d00e43ccc8846f259b4a018fde0d8ef95fc32941058",
+          "sha256": "62fcb302aec2c914524a9d00e43ccc8846f259b4a018fde0d8ef95fc32941058"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:e824b4f937e2c9a730247a738046126f1c8e8b51dac6e51cccee49bdf9f5e4e4",
+          "sha256": "e824b4f937e2c9a730247a738046126f1c8e8b51dac6e51cccee49bdf9f5e4e4"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:b8a120ca8adc82fa6710b97eafb56d98d33dca6d74a08945dbabe23f16d52b5f",
+          "sha256": "b8a120ca8adc82fa6710b97eafb56d98d33dca6d74a08945dbabe23f16d52b5f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:93a1a47cac82b6c89aca67977bd4cad5ee431645f21a95a5cf887bae551e93ee",
+          "sha256": "93a1a47cac82b6c89aca67977bd4cad5ee431645f21a95a5cf887bae551e93ee"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:a64715d90ff7d190ce1e5dd29620c267363349bb46f5fc6749faaee4c950b628",
+          "sha256": "a64715d90ff7d190ce1e5dd29620c267363349bb46f5fc6749faaee4c950b628"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libdmx/blobs/sha256:0296a0ca6fde5ca5ba12b45505db769743916188a47d0b876049488f31185833",
+          "sha256": "0296a0ca6fde5ca5ba12b45505db769743916188a47d0b876049488f31185833"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libx11",
+    "libxext",
+    "xorgproto"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdmx.rb",
+  "ruby_source_checksum": {
+    "sha256": "f9ebcbe177644c12310328d7bb74405366d8cee853152408dc3a1367844e4160"
+  },
+  "date_added": "2020-10-04T19:17:39+00:00"
+}

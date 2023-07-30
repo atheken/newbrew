@@ -1,0 +1,113 @@
+{
+  "name": "go-task",
+  "full_name": "go-task",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Task is a task runner/build tool that aims to be simpler and easier to use",
+  "license": "MIT",
+  "homepage": "https://taskfile.dev/",
+  "versions": {
+    "stable": "3.28.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/go-task/task/archive/refs/tags/v3.28.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3627c72b9a8f21568793e6d9b74646c61fb23a55fe2abed285194f37f21c39ff"
+    },
+    "head": {
+      "url": "https://github.com/go-task/task.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac",
+          "sha256": "af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac",
+          "sha256": "af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac",
+          "sha256": "af77641174253e9f36179836fa2ae2ad6fc0efe0b13afd366d4a6bbb6d3c6cac"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4",
+          "sha256": "a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4",
+          "sha256": "a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4",
+          "sha256": "a9b2d28d202bb559b7b244327324735a8ca21b23e0fd6489557691cbcc1ed6d4"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/go-task/blobs/sha256:9d7e69e959d9dafb4004c92e0f6b226a4703b044bbef6786e3d1da18fc04d34d",
+          "sha256": "9d7e69e959d9dafb4004c92e0f6b226a4703b044bbef6786e3d1da18fc04d34d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "task"
+  ],
+  "conflicts_with_reasons": [
+    "both install `task` binaries"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/go-task.rb",
+  "ruby_source_checksum": {
+    "sha256": "afa6012e18285a00ed7469eda8d20b43bc21ebbcadc42aad2e14ae25f6ceea5c"
+  },
+  "date_added": "2022-12-12T06:10:48+00:00"
+}

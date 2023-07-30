@@ -1,0 +1,111 @@
+{
+  "name": "cargo-watch",
+  "full_name": "cargo-watch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Watches over your Cargo project's source",
+  "license": "CC0-1.0",
+  "homepage": "https://watchexec.github.io/#cargo-watch",
+  "versions": {
+    "stable": "8.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/watchexec/cargo-watch/archive/v8.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8da79b5e4606d609af4d995038e9edb2425466bc162f3b0f7f2b2f6133a2e01d"
+    },
+    "head": {
+      "url": "https://github.com/watchexec/cargo-watch.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:df33d8699fb08d9cfdfbbb322ba4b2df6cba56359d982d9ff6f423feb3091fe5",
+          "sha256": "df33d8699fb08d9cfdfbbb322ba4b2df6cba56359d982d9ff6f423feb3091fe5"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:6b026540dfe8c52c5db3405664cfb19cf95a16a7d85de4e5743a2cfafa8228bc",
+          "sha256": "6b026540dfe8c52c5db3405664cfb19cf95a16a7d85de4e5743a2cfafa8228bc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:03a56ee4026cebc75860a012b1654de8ead3cebda64b025015b51ed96e77d2e8",
+          "sha256": "03a56ee4026cebc75860a012b1654de8ead3cebda64b025015b51ed96e77d2e8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:159049ba4e19577a1aca768cd5deda9e4bc64de7a1912f1a279d27a5e6e7b5f7",
+          "sha256": "159049ba4e19577a1aca768cd5deda9e4bc64de7a1912f1a279d27a5e6e7b5f7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:ffea6b7a206c00128198baebd8190ce3ad64086fdd3ed2ba0015c973ed6a52c4",
+          "sha256": "ffea6b7a206c00128198baebd8190ce3ad64086fdd3ed2ba0015c973ed6a52c4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:888762acb567adda23fc8125534da9e03508f62092a2f4020bf3889f073c7ec2",
+          "sha256": "888762acb567adda23fc8125534da9e03508f62092a2f4020bf3889f073c7ec2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-watch/blobs/sha256:bf393e4cc41dc9197704302ace85ba0b9b7e9bf5652538a545ac948733ced841",
+          "sha256": "bf393e4cc41dc9197704302ace85ba0b9b7e9bf5652538a545ac948733ced841"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "rustup-init"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-watch.rb",
+  "ruby_source_checksum": {
+    "sha256": "0387d63f8dfb3c096448ca85a55292a2e5e7e77c13582868bd19966963f0b8ea"
+  },
+  "date_added": "2020-12-27T04:35:08+00:00"
+}

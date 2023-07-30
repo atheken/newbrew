@@ -1,0 +1,73 @@
+{
+  "name": "idnits",
+  "full_name": "idnits",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Looks for problems in internet draft formatting",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/ietf-tools/idnits",
+  "versions": {
+    "stable": "2.17.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ietf-tools/idnits/archive/refs/tags/2.17.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "195ed8c9bfd38fbaf1ecb674a894f98f43be774dfecc37da5ef953ccba99ce76"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/idnits/blobs/sha256:795ae8cca769fdcb2511087eef9634d4bfff8242364c34a28fc9ef7b36be2bd6",
+          "sha256": "795ae8cca769fdcb2511087eef9634d4bfff8242364c34a28fc9ef7b36be2bd6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/idnits.rb",
+  "ruby_source_checksum": {
+    "sha256": "68e7ae9e02cbc7469605f2dabb739522b5f51ed3693df415f53a18df09586c43"
+  },
+  "date_added": "2010-04-16T14:43:24-07:00"
+}

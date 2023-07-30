@@ -1,0 +1,112 @@
+{
+  "name": "libcython",
+  "full_name": "libcython",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compiler for writing C extensions for the Python language",
+  "license": "Apache-2.0",
+  "homepage": "https://cython.org/",
+  "versions": {
+    "stable": "3.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/7f/a2/fd5ced5dd33597ef291861bfadd46820de417b41bcb6ca2fa0b5f6fa8152/Cython-3.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "350b18f9673e63101dbbfcf774ee2f57c20ac4636d255741d76ca79016b1bd82"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:ac5d6f50b1733204c1081a4f281cbd764c9c54da360dc947dd8342a1e35885ae",
+          "sha256": "ac5d6f50b1733204c1081a4f281cbd764c9c54da360dc947dd8342a1e35885ae"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:39d73ba299bbe56052c78e1985aa86a859f06bf5d3309b64a798e457b7694343",
+          "sha256": "39d73ba299bbe56052c78e1985aa86a859f06bf5d3309b64a798e457b7694343"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:c92bb4753d1616112242f376dc79fd17aeddcd46fdbaa8f6eff2d8d2242ac1dd",
+          "sha256": "c92bb4753d1616112242f376dc79fd17aeddcd46fdbaa8f6eff2d8d2242ac1dd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:f066474b198d21f3a5aeafaa64c043f40541e308ff8c041b1c5a53242630e2be",
+          "sha256": "f066474b198d21f3a5aeafaa64c043f40541e308ff8c041b1c5a53242630e2be"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:f8adf04a82bc3f4f9ecc1af1b9bd423e34a435189bd6ddea26dbe59635bc8552",
+          "sha256": "f8adf04a82bc3f4f9ecc1af1b9bd423e34a435189bd6ddea26dbe59635bc8552"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:9916538d6f7d53fa62a80e1d79dc26ca61ea16a5623ca20bcacce7dd2cfb4222",
+          "sha256": "9916538d6f7d53fa62a80e1d79dc26ca61ea16a5623ca20bcacce7dd2cfb4222"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libcython/blobs/sha256:4621bf731ee0e86c5c538d199975d029538bb97b76f45eb7cb89708c1407db3a",
+          "sha256": "4621bf731ee0e86c5c538d199975d029538bb97b76f45eb7cb89708c1407db3a"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "this formula is mainly used internally by other formulae.\nUsers are advised to use `pip` to install cython\n",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "python@3.10",
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libcython.rb",
+  "ruby_source_checksum": {
+    "sha256": "02e4b3c4117eb11c8ea7dd87bff68db248a265c94c5d3c874da25e94ce8bd5e5"
+  },
+  "date_added": "2022-04-05T17:20:34+00:00"
+}

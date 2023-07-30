@@ -1,0 +1,109 @@
+{
+  "name": "libogg",
+  "full_name": "libogg",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ogg Bitstream Library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.xiph.org/ogg/",
+  "versions": {
+    "stable": "1.3.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.osuosl.org/pub/xiph/releases/ogg/libogg-1.3.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0eb4b4b9420a0f51db142ba3f9c64b333f826532dc0f48c6410ae51f4799b664"
+    },
+    "head": {
+      "url": "https://gitlab.xiph.org/xiph/ogg.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:d241e81018d3b64ec0d491d5d43f5409496747d57fb8d0eff75c534bd84dd19a",
+          "sha256": "d241e81018d3b64ec0d491d5d43f5409496747d57fb8d0eff75c534bd84dd19a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:aa2b793e007a3eb86a8b225b91561ecf1dc941071596d23f810ca41e83904d5d",
+          "sha256": "aa2b793e007a3eb86a8b225b91561ecf1dc941071596d23f810ca41e83904d5d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:e528165137cd229e4ac1147bd9c5f6de5aafb815c25d00682a923baaa621bc1d",
+          "sha256": "e528165137cd229e4ac1147bd9c5f6de5aafb815c25d00682a923baaa621bc1d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:517e16f78d047709c010bd3f31e6497c93c562db71f9b2022395f0a2fcb4c62d",
+          "sha256": "517e16f78d047709c010bd3f31e6497c93c562db71f9b2022395f0a2fcb4c62d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:6e8d8540b1cd602e3ed6f6713fcb82c423a69ca1620f447f4c67b03fe04589c2",
+          "sha256": "6e8d8540b1cd602e3ed6f6713fcb82c423a69ca1620f447f4c67b03fe04589c2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:7871f4d805f54347ab3ac20a7dbd31d78a122bf0cd2da441a45a2b1cf732551c",
+          "sha256": "7871f4d805f54347ab3ac20a7dbd31d78a122bf0cd2da441a45a2b1cf732551c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libogg/blobs/sha256:be528587bb8d4c822dfbee4bb30705c9511908d86ae5f5859eb9c59eb7459ef3",
+          "sha256": "be528587bb8d4c822dfbee4bb30705c9511908d86ae5f5859eb9c59eb7459ef3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libogg.rb",
+  "ruby_source_checksum": {
+    "sha256": "2126cac93b31a5ef311a01afe3d7e9b94309aeb20c9abb66994c2f060469f091"
+  },
+  "date_added": "2009-06-04T19:36:58+01:00"
+}

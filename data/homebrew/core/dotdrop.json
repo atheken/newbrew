@@ -1,0 +1,106 @@
+{
+  "name": "dotdrop",
+  "full_name": "dotdrop",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Save your dotfiles once, deploy them everywhere",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://deadc0de.re/dotdrop",
+  "versions": {
+    "stable": "1.13.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/2d/13/34fa31d4da9c05918185cd7dd58cc258b7751c270f3d8e84502807cfc3eb/dotdrop-1.13.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f2fee9d67d21ac2a6fcd60a31dc69ade29e08b8e91db0970b87bfa530961853a"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:b7522e3a530fe7bee0f789bf5204cfb1e58c0d7e4d1cb626e9be48d1c396393b",
+          "sha256": "b7522e3a530fe7bee0f789bf5204cfb1e58c0d7e4d1cb626e9be48d1c396393b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:3eb8a5261860d3665b03fb45f9dde1218398a9ffdc3fef4f42a28cc2daba0b2c",
+          "sha256": "3eb8a5261860d3665b03fb45f9dde1218398a9ffdc3fef4f42a28cc2daba0b2c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:448fa7bdb0f526ff7549b998a8196d5cd8c905447d2ee00d1eb894cb6dc14998",
+          "sha256": "448fa7bdb0f526ff7549b998a8196d5cd8c905447d2ee00d1eb894cb6dc14998"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:b50dcb37ac791d289a1b5415c5a20913ec011b67a9870f1f95f70727bcc1bbc5",
+          "sha256": "b50dcb37ac791d289a1b5415c5a20913ec011b67a9870f1f95f70727bcc1bbc5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:ba1612fd423da14d58cc0e407fc2dc8bd4ba3956e085a1403b65c276b21a01be",
+          "sha256": "ba1612fd423da14d58cc0e407fc2dc8bd4ba3956e085a1403b65c276b21a01be"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:d75dc677536920b9574243443617f553c082bea0d34a8f4cdb60a502badc6489",
+          "sha256": "d75dc677536920b9574243443617f553c082bea0d34a8f4cdb60a502badc6489"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dotdrop/blobs/sha256:aafab8909f13b20b40d3c2a226401a33bb55048916f24bb7dbcf260cad09aa8e",
+          "sha256": "aafab8909f13b20b40d3c2a226401a33bb55048916f24bb7dbcf260cad09aa8e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libmagic",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dotdrop.rb",
+  "ruby_source_checksum": {
+    "sha256": "20977d9489d76ea2fa5317cc6705c76902c968ec13567c69ff1c2f52915d0684"
+  },
+  "date_added": "2022-05-17T17:32:21+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "docker-clean",
+  "full_name": "docker-clean",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Clean Docker containers, images, networks, and volumes",
+  "license": "MIT",
+  "homepage": "https://github.com/ZZROTDesign/docker-clean",
+  "versions": {
+    "stable": "2.0.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ZZROTDesign/docker-clean/archive/v2.0.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4b636fd7391358b60c05b65ba7e89d27eaf8dd56cc516f3c786b59cadac52740"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docker-clean/blobs/sha256:d23f5d1c32f2bd4a758bf8111008d0f6111080de861ca24abd0f8d5cd6ee6b86",
+          "sha256": "d23f5d1c32f2bd4a758bf8111008d0f6111080de861ca24abd0f8d5cd6ee6b86"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/docker-clean.rb",
+  "ruby_source_checksum": {
+    "sha256": "8585f4abdaac9dec84751b9275b54d55da10acd6d87764a3bec4581334658849"
+  },
+  "date_added": "2016-05-11T03:37:59+02:00"
+}

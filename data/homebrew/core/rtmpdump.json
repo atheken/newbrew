@@ -1,0 +1,117 @@
+{
+  "name": "rtmpdump",
+  "full_name": "rtmpdump",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for downloading RTMP streaming media",
+  "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+  "homepage": "https://rtmpdump.mplayerhq.hu/",
+  "versions": {
+    "stable": "2.4+20151223",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://deb.debian.org/debian/pool/main/r/rtmpdump/rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5c032f5c8cc2937eb55a81a94effdfed3b0a0304b6376147b86f951e225e3ab5"
+    },
+    "head": {
+      "url": "https://git.ffmpeg.org/rtmpdump.git",
+      "branch": "master"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:572f37c44c4f32aa13dcd2bbf4770ec3e95ac469301044e61b1e36504c272f4e",
+          "sha256": "572f37c44c4f32aa13dcd2bbf4770ec3e95ac469301044e61b1e36504c272f4e"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:9485c20cdb3af897739b7f96d1277b067f8942ec56319d63723f553c9bba83b2",
+          "sha256": "9485c20cdb3af897739b7f96d1277b067f8942ec56319d63723f553c9bba83b2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:296c88c93a14ef83e9423e17c6a68ab4433b40f52c298a638fad8b04d8a47d00",
+          "sha256": "296c88c93a14ef83e9423e17c6a68ab4433b40f52c298a638fad8b04d8a47d00"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:d55211ce185ffec9901ae510de102b69e210e2b978e0cef81e0ea4e7de9f8266",
+          "sha256": "d55211ce185ffec9901ae510de102b69e210e2b978e0cef81e0ea4e7de9f8266"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:92ff849dd16c09569ede4c04e8cab4679366c4d3fabe47dc97733ae89aee24bb",
+          "sha256": "92ff849dd16c09569ede4c04e8cab4679366c4d3fabe47dc97733ae89aee24bb"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:898c06791665ad0c74e4b7ba99451b47402b3a22c02f98166ffb7d2258d77a35",
+          "sha256": "898c06791665ad0c74e4b7ba99451b47402b3a22c02f98166ffb7d2258d77a35"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rtmpdump/blobs/sha256:d051297b563e80fbcff1a9006ae9fa0ce66280716322fa58a669298d73407e6f",
+          "sha256": "d051297b563e80fbcff1a9006ae9fa0ce66280716322fa58a669298d73407e6f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "flvstreamer"
+  ],
+  "conflicts_with_reasons": [
+    "both install 'rtmpsrv', 'rtmpsuck' and 'streams' binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rtmpdump.rb",
+  "ruby_source_checksum": {
+    "sha256": "e9635806a25ca8efc4f75dcea4147bca2349d971fdafa38e5929e39fd5f67e09"
+  },
+  "date_added": "2010-04-07T09:33:36-07:00"
+}

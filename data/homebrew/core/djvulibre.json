@@ -1,0 +1,110 @@
+{
+  "name": "djvulibre",
+  "full_name": "djvulibre",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DjVu viewer",
+  "license": null,
+  "homepage": "https://djvu.sourceforge.io/",
+  "versions": {
+    "stable": "3.5.28",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/djvu/djvulibre-3.5.28.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fcd009ea7654fde5a83600eb80757bd3a76998e47d13c66b54c8db849f8f2edc"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:03c2b8a0fd889f5286436b3b2b1b8b10ceec29ed133756d8bb64ac20f867d0bf",
+          "sha256": "03c2b8a0fd889f5286436b3b2b1b8b10ceec29ed133756d8bb64ac20f867d0bf"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:f39559ac1a9d9e3351dcc2d77384875434a8aa7d84406d0f5214dd42e86759e5",
+          "sha256": "f39559ac1a9d9e3351dcc2d77384875434a8aa7d84406d0f5214dd42e86759e5"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:b2c030948a6296ea93065ac207b7d71effd08a1126abc9a8365186cf4d04bf73",
+          "sha256": "b2c030948a6296ea93065ac207b7d71effd08a1126abc9a8365186cf4d04bf73"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:437c4982f64bf9f3c17d3dc6e07a204770a8028ee924f23ddd0f09af9cd4fbc4",
+          "sha256": "437c4982f64bf9f3c17d3dc6e07a204770a8028ee924f23ddd0f09af9cd4fbc4"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:5c208fecddc8a56aae519f38d52a06c2b6f261b094077e05b43cebc9d452f3cd",
+          "sha256": "5c208fecddc8a56aae519f38d52a06c2b6f261b094077e05b43cebc9d452f3cd"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:d325152b1930974548997efcf819595fefcddd23cebaee2e22718cc3296d1957",
+          "sha256": "d325152b1930974548997efcf819595fefcddd23cebaee2e22718cc3296d1957"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/djvulibre/blobs/sha256:16b50bba79b4dba1593db9633d8a396633e02dd015f5858f19eb8ad9aff3142f",
+          "sha256": "16b50bba79b4dba1593db9633d8a396633e02dd015f5858f19eb8ad9aff3142f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [
+    "jpeg-turbo",
+    "libtiff"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/djvulibre.rb",
+  "ruby_source_checksum": {
+    "sha256": "3a9cef8e4f4b144a4935a86880e676ddca936d6b4722f682c119691a7818d3eb"
+  },
+  "date_added": "2010-10-22T18:50:35-07:00"
+}

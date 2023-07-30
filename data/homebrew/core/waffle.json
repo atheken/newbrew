@@ -1,0 +1,115 @@
+{
+  "name": "waffle",
+  "full_name": "waffle",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C library for selecting an OpenGL API and window system at runtime",
+  "license": "BSD-2-Clause",
+  "homepage": "https://waffle.freedesktop.org/",
+  "versions": {
+    "stable": "1.7.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://waffle.freedesktop.org/files/release/waffle-1.7.2/waffle-1.7.2.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f676195cfea58cc75ef2441c5616b2f1d5565a7d371a6aa655aff3cc67c7c2c9"
+    },
+    "head": {
+      "url": "https://gitlab.freedesktop.org/mesa/waffle.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/waffle/blobs/sha256:c49b293a55d1fc03a49c27f2932fedab240aaae603bf6de8c713a3f4472575b5",
+          "sha256": "c49b293a55d1fc03a49c27f2932fedab240aaae603bf6de8c713a3f4472575b5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/waffle/blobs/sha256:44e6ed255b8ddafc5572f25b1f65cc59477e2961176eda549aa558e54a6b44f6",
+          "sha256": "44e6ed255b8ddafc5572f25b1f65cc59477e2961176eda549aa558e54a6b44f6"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/waffle/blobs/sha256:2f6bb76c9f4c50e79c627b6e2c2e954f128df89ff86ac3bda0a9007948290ae1",
+          "sha256": "2f6bb76c9f4c50e79c627b6e2c2e954f128df89ff86ac3bda0a9007948290ae1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/waffle/blobs/sha256:9753062a77bcff11767245914b40ba773844a58f0991cb0487c8b76d07a34cec",
+          "sha256": "9753062a77bcff11767245914b40ba773844a58f0991cb0487c8b76d07a34cec"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/waffle/blobs/sha256:9d8a1781ff86d13b723a635387f6a47c67c2133e0a786ada9e4b4233dedcdd19",
+          "sha256": "9d8a1781ff86d13b723a635387f6a47c67c2133e0a786ada9e4b4233dedcdd19"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "docbook-xsl",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libxcb",
+    "mesa",
+    "mesa-glu",
+    "systemd",
+    "wayland"
+  ],
+  "test_dependencies": [
+    "pkg-config"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxslt": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/waffle.rb",
+  "ruby_source_checksum": {
+    "sha256": "2c9a3a8c6667970e39e43a7d3b91871c7d04db1d98d77d7ceb3bd1f4407cd486"
+  },
+  "date_added": "2021-02-17T13:04:55+00:00"
+}

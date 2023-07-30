@@ -1,0 +1,147 @@
+{
+  "name": "uwsgi",
+  "full_name": "uwsgi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Full stack for building hosting services",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://uwsgi-docs.readthedocs.io/en/latest/",
+  "versions": {
+    "stable": "2.0.22",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a7/4e/c4d5559b3504bb65175a759392b03cac04b8771e9a9b14811adf1151f02f/uwsgi-2.0.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4cc4727258671ac5fa17ab422155e9aaef8a2008ebb86e4404b66deaae965db2"
+    },
+    "head": {
+      "url": "https://github.com/unbit/uwsgi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:7fd65d5414dc3a93e9c07d77347902ab26b6ebf139190252242a37665cdef949",
+          "sha256": "7fd65d5414dc3a93e9c07d77347902ab26b6ebf139190252242a37665cdef949"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:b652fab26ae8671e9ea0834ed41a9817101a5bafc44f5e38132327a0afe1d599",
+          "sha256": "b652fab26ae8671e9ea0834ed41a9817101a5bafc44f5e38132327a0afe1d599"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:44b257a7cc2f749ecf4f5cedbe267986b9d1a3d9864adf9db3dce17d68052797",
+          "sha256": "44b257a7cc2f749ecf4f5cedbe267986b9d1a3d9864adf9db3dce17d68052797"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:544ba27e4967949369a68cef57aeb0d4d6191a85ec27098228e1434036002a04",
+          "sha256": "544ba27e4967949369a68cef57aeb0d4d6191a85ec27098228e1434036002a04"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:38998ee07c84dc9a44d766d2cc8e4531c6e393ca3b494a536bc99ad8c895e754",
+          "sha256": "38998ee07c84dc9a44d766d2cc8e4531c6e393ca3b494a536bc99ad8c895e754"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:165bf9600690b687b3b529ad6976bcb03222fb9116041c26a9ec90ef72faccd2",
+          "sha256": "165bf9600690b687b3b529ad6976bcb03222fb9116041c26a9ec90ef72faccd2"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/uwsgi/blobs/sha256:2ad95234ef39aae78d4d51b3522850b8661438b43ceabb0477a375d251e6f4f2",
+          "sha256": "2ad95234ef39aae78d4d51b3522850b8661438b43ceabb0477a375d251e6f4f2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "pcre",
+    "python@3.11",
+    "yajl",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "curl",
+    "libxcrypt",
+    "libxml2",
+    "openldap",
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/uwsgi/bin/uwsgi",
+      "--uid",
+      "_www",
+      "--gid",
+      "_www",
+      "--master",
+      "--die-on-term",
+      "--autoload",
+      "--logto",
+      "/home/linuxbrew/.linuxbrew/var/log/uwsgi.log",
+      "--emperor",
+      "/home/linuxbrew/.linuxbrew/etc/uwsgi/apps-enabled"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew"
+  },
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/uwsgi.rb",
+  "ruby_source_checksum": {
+    "sha256": "3122f85a2a5f3a6b3dd10b7253e409aed533a7c0c28bd69432140dfe17b8d3e3"
+  },
+  "date_added": "2009-12-02T12:53:00+00:00"
+}

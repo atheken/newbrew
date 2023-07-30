@@ -1,0 +1,111 @@
+{
+  "name": "enzyme",
+  "full_name": "enzyme",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "High-performance automatic differentiation of LLVM",
+  "license": "Apache-2.0 with LLVM-exception",
+  "homepage": "https://enzyme.mit.edu",
+  "versions": {
+    "stable": "0.0.78",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/EnzymeAD/Enzyme/archive/refs/tags/v0.0.78.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c022cac952db50ae0393dd21a06af1df487c4518a8540974ff36b75d701fc980"
+    },
+    "head": {
+      "url": "https://github.com/EnzymeAD/Enzyme.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:27d7e56f57cb91395e1de4e4e9d9f946cd96fbce1f15b4db644536b2ab04c131",
+          "sha256": "27d7e56f57cb91395e1de4e4e9d9f946cd96fbce1f15b4db644536b2ab04c131"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:01ad76f7381ed484e27a8a657aa2c872544ea3cd0ae48de185773779ed835ec6",
+          "sha256": "01ad76f7381ed484e27a8a657aa2c872544ea3cd0ae48de185773779ed835ec6"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:fa1989c6b0b2b71666c2574210f8d3ea950b3aeb9cda8dc5e3953cfd82bd42cf",
+          "sha256": "fa1989c6b0b2b71666c2574210f8d3ea950b3aeb9cda8dc5e3953cfd82bd42cf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:4eae4bb027e6191d65af931d5bb9cd0990ddd4405e06b2e0aa9274cef4fc71ef",
+          "sha256": "4eae4bb027e6191d65af931d5bb9cd0990ddd4405e06b2e0aa9274cef4fc71ef"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:8eca6f49b29721e96f7b60e0bc5c0271067d3de8bf5c1af22963bc990bb9668d",
+          "sha256": "8eca6f49b29721e96f7b60e0bc5c0271067d3de8bf5c1af22963bc990bb9668d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:1383be83528f1dac4c702af9fcc091048018df32c2d7eb5a1296d5372b2883fb",
+          "sha256": "1383be83528f1dac4c702af9fcc091048018df32c2d7eb5a1296d5372b2883fb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enzyme/blobs/sha256:97599110d93cb0c138a3c2b3c32c3dc57f84273b0768e680b9056bf372f750ac",
+          "sha256": "97599110d93cb0c138a3c2b3c32c3dc57f84273b0768e680b9056bf372f750ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "llvm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/enzyme.rb",
+  "ruby_source_checksum": {
+    "sha256": "49339c9406936c4152e79b0a26015e6b543e9fa50b471d3a6351c15c12776f89"
+  },
+  "date_added": "2021-03-10T17:25:40+00:00"
+}

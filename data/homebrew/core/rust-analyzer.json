@@ -1,0 +1,109 @@
+{
+  "name": "rust-analyzer",
+  "full_name": "rust-analyzer",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Experimental Rust compiler front-end for IDEs",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://rust-analyzer.github.io/",
+  "versions": {
+    "stable": "2023-07-24",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rust-lang/rust-analyzer.git",
+      "tag": "2023-07-24",
+      "revision": "99718d0c8bc5aadd993acdcabc1778fc7b5cc572",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:eee0341042909542b23c5ef6a19a06fa497f67f88f1369d47cce417238bc9b7f",
+          "sha256": "eee0341042909542b23c5ef6a19a06fa497f67f88f1369d47cce417238bc9b7f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:44bc4ccfb2d4b814ca92b628c4b0d52ba0dfee7ee8c1a348f06b78bd19d86b56",
+          "sha256": "44bc4ccfb2d4b814ca92b628c4b0d52ba0dfee7ee8c1a348f06b78bd19d86b56"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:6fbf7ddfb2455c23acb733e4550938098c24628f447c8bf288395ba1ec713f8c",
+          "sha256": "6fbf7ddfb2455c23acb733e4550938098c24628f447c8bf288395ba1ec713f8c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:356146c5ded42f77394755798f362fdd0af72aa9278f07ecc42285c0f80ddf58",
+          "sha256": "356146c5ded42f77394755798f362fdd0af72aa9278f07ecc42285c0f80ddf58"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:971e272f075a5786c54334dbbf36eacf4431d825313865ba1b7a349d06587aeb",
+          "sha256": "971e272f075a5786c54334dbbf36eacf4431d825313865ba1b7a349d06587aeb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:4d7607b361242794c7d3fd05d643fa69610e20b96953005b9de0476f27e9d3d8",
+          "sha256": "4d7607b361242794c7d3fd05d643fa69610e20b96953005b9de0476f27e9d3d8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust-analyzer/blobs/sha256:ae92c78323a77108a7f485a8904d87bc5f1862eb1ae116c5ab745974a6882dc8",
+          "sha256": "ae92c78323a77108a7f485a8904d87bc5f1862eb1ae116c5ab745974a6882dc8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "rust"
+  ],
+  "conflicts_with_reasons": [
+    "both install `rust-analyzer` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rust-analyzer.rb",
+  "ruby_source_checksum": {
+    "sha256": "c31c716308dba6546694dac3390b1b34dd82e6cb43d950f3554a28815afa4619"
+  },
+  "date_added": "2020-06-10T11:25:49+00:00"
+}

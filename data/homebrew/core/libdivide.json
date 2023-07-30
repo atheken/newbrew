@@ -1,0 +1,79 @@
+{
+  "name": "libdivide",
+  "full_name": "libdivide",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Optimized integer division",
+  "license": "Zlib or BSL-1.0",
+  "homepage": "https://libdivide.com",
+  "versions": {
+    "stable": "5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ridiculousfish/libdivide/archive/refs/tags/5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "01ffdf90bc475e42170741d381eb9cfb631d9d7ddac7337368bcd80df8c98356"
+    },
+    "head": {
+      "url": "https://github.com/ridiculousfish/libdivide.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libdivide/blobs/sha256:6f0fc74fe9862fd191c01c97b21444c6d29d3c754e19a400b4fcbb371f490fb1",
+          "sha256": "6f0fc74fe9862fd191c01c97b21444c6d29d3c754e19a400b4fcbb371f490fb1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libdivide.rb",
+  "ruby_source_checksum": {
+    "sha256": "216f773835af3ebabc893103db64f8664c6ec9706b27a1e2fb7866460ef919ff"
+  },
+  "date_added": "2022-11-03T10:19:16+00:00"
+}

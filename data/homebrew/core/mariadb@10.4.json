@@ -1,0 +1,147 @@
+{
+  "name": "mariadb@10.4",
+  "full_name": "mariadb@10.4",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "mariadb@10.11",
+    "mariadb@10.10",
+    "mariadb@10.9",
+    "mariadb@10.8",
+    "mariadb@10.7",
+    "mariadb@10.6",
+    "mariadb@10.5",
+    "mariadb@10.3",
+    "mariadb@10.2"
+  ],
+  "desc": "Drop-in replacement for MySQL",
+  "license": "GPL-2.0-only",
+  "homepage": "https://mariadb.org/",
+  "versions": {
+    "stable": "10.4.30",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.4.30/source/mariadb-10.4.30.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fcbbda671c6c784c03150262623f0d81894c911533e7c3c276f256f2fa12100c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:b3347aee26446dc909e7d584658b925806da3c2ba79c1538371c06456361f18b",
+          "sha256": "b3347aee26446dc909e7d584658b925806da3c2ba79c1538371c06456361f18b"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:857ba4db68dcd40b38155d0319570317319146364a0424b4c294ee2043c9d28e",
+          "sha256": "857ba4db68dcd40b38155d0319570317319146364a0424b4c294ee2043c9d28e"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:f51637aaaa7d099c8d2e0ed225a4d1d106208444e5e236ed778fa483065849e9",
+          "sha256": "f51637aaaa7d099c8d2e0ed225a4d1d106208444e5e236ed778fa483065849e9"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:e7fdcfde6adb64461646173d1ac2ce5e791ff6289cd546e1cd4547fe6ad8db1e",
+          "sha256": "e7fdcfde6adb64461646173d1ac2ce5e791ff6289cd546e1cd4547fe6ad8db1e"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:cc9e9f9317c3d9b90935194ba0bf74b5f2687e3ab9c5f47e571c74f6920b2cc0",
+          "sha256": "cc9e9f9317c3d9b90935194ba0bf74b5f2687e3ab9c5f47e571c74f6920b2cc0"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:105fc2b4ba72153a0865b41cca6d6b26824e1b297646f7e6f5ad31aee8f1d6fa",
+          "sha256": "105fc2b4ba72153a0865b41cca6d6b26824e1b297646f7e6f5ad31aee8f1d6fa"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/mariadb/10.4/blobs/sha256:b85e31c213315cd86cc69c015d072398402000eb9268afae527674a19a1b3955",
+          "sha256": "b85e31c213315cd86cc69c015d072398402000eb9268afae527674a19a1b3955"
+        }
+      }
+    }
+  },
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "bison",
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "groonga",
+    "openssl@1.1",
+    "pcre2",
+    "linux-pam"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "libxcrypt",
+    "libxml2",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A \"/etc/my.cnf\" from another install may interfere with a Homebrew-built\nserver starting up correctly.\n\nMySQL is configured to only allow connections from localhost by default\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": "2023-09-11",
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/mariadb@10.4/bin/mysqld_safe",
+      "--datadir=/home/linuxbrew/.linuxbrew/var/mysql"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/mariadb@10.4.rb",
+  "ruby_source_checksum": {
+    "sha256": "e3af84132f57015490fbc10e7a9b6a56bc594b68c1ee0aae6302a97f2442b08c"
+  },
+  "date_added": "2020-08-19T04:15:19+00:00"
+}

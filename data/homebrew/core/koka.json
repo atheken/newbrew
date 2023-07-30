@@ -1,0 +1,111 @@
+{
+  "name": "koka",
+  "full_name": "koka",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Compiler for the Koka language",
+  "license": "Apache-2.0",
+  "homepage": "http://koka-lang.org",
+  "versions": {
+    "stable": "2.4.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/koka-lang/koka.git",
+      "tag": "v2.4.2",
+      "revision": "0649baaa2a4509c0a5adb743b6f2b5f1ef32a5a9",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/koka-lang/koka.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:1c7bb3e634d9f70707fb4aebdebbff608eb3513fef7d0bdc8a35c401ab4fe998",
+          "sha256": "1c7bb3e634d9f70707fb4aebdebbff608eb3513fef7d0bdc8a35c401ab4fe998"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:0a2ae24999dbb1f786121955d30e09cb00ea6db02b8622fb7de05f373e2220b1",
+          "sha256": "0a2ae24999dbb1f786121955d30e09cb00ea6db02b8622fb7de05f373e2220b1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:48d6175b97469e402e45f3918cc2d05affabe9e153447e26f56f0ec53c2d69d8",
+          "sha256": "48d6175b97469e402e45f3918cc2d05affabe9e153447e26f56f0ec53c2d69d8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:c69c09e84deb27f8b32163131918714535c6810f1d873d6793fa7b86178986cb",
+          "sha256": "c69c09e84deb27f8b32163131918714535c6810f1d873d6793fa7b86178986cb"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:0670c1d6a4f5fbdddc5341288d4cd1cfc10fea15c4f28f6268b0d08c597e4cc0",
+          "sha256": "0670c1d6a4f5fbdddc5341288d4cd1cfc10fea15c4f28f6268b0d08c597e4cc0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:3ef28648db9b810680a493a7e881f062008c6c6293c75d370c0c77b593daaf26",
+          "sha256": "3ef28648db9b810680a493a7e881f062008c6c6293c75d370c0c77b593daaf26"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/koka/blobs/sha256:ac7544dd6e98024c7e4f2dba7a293c81be0ce090bba732bba6b4cc198de71cf6",
+          "sha256": "ac7544dd6e98024c7e4f2dba7a293c81be0ce090bba732bba6b4cc198de71cf6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cabal-install",
+    "ghc",
+    "pcre2"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/koka.rb",
+  "ruby_source_checksum": {
+    "sha256": "d39cb377afce26ee3403aee1020db02d20b87de0f7ce35e0f622617ab4afadae"
+  },
+  "date_added": "2022-03-15T15:36:33+00:00"
+}

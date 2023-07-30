@@ -1,0 +1,117 @@
+{
+  "name": "agda",
+  "full_name": "agda",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Dependently typed functional programming language",
+  "license": "BSD-3-Clause",
+  "homepage": "https://wiki.portal.chalmers.se/agda/",
+  "versions": {
+    "stable": "2.6.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://hackage.haskell.org/package/Agda-2.6.3/Agda-2.6.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "beacc9802c470e42bb0707f9ffe7db488a936c635407dada5d4db060b58d6016"
+    },
+    "head": {
+      "url": "https://github.com/agda/agda.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:e6d794683df004cb540fc13038cb80378b7e5ee42fe8c20bd7c87cd7313606fe",
+          "sha256": "e6d794683df004cb540fc13038cb80378b7e5ee42fe8c20bd7c87cd7313606fe"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:ef61f482507d2e0f89c2df9136f83fee454701c570f7834d60da72ec0f707264",
+          "sha256": "ef61f482507d2e0f89c2df9136f83fee454701c570f7834d60da72ec0f707264"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:ccfb912d275052fb8d0a81ea3216e921c77f46cf0b2ec7b7dba5ef238f1868e1",
+          "sha256": "ccfb912d275052fb8d0a81ea3216e921c77f46cf0b2ec7b7dba5ef238f1868e1"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:5dbae0ce1b653e7dc099e234e137bb703dc8ded804d2785aaab3129440befb6d",
+          "sha256": "5dbae0ce1b653e7dc099e234e137bb703dc8ded804d2785aaab3129440befb6d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:afffee3246e21852bae17f1587a35a279fcdba0b87cda6fd8ed20c4166218a56",
+          "sha256": "afffee3246e21852bae17f1587a35a279fcdba0b87cda6fd8ed20c4166218a56"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:e3a67f21d8e018dc4bb3ba17f08e1906125a7f2920b1e36a3af691cd1ad4f6ad",
+          "sha256": "e3a67f21d8e018dc4bb3ba17f08e1906125a7f2920b1e36a3af691cd1ad4f6ad"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/agda/blobs/sha256:764d1eb2568588b1cb9a9e62dbc78e8caadd361424c2dde1b060f024cec399f9",
+          "sha256": "764d1eb2568588b1cb9a9e62dbc78e8caadd361424c2dde1b060f024cec399f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "cabal-install",
+    "emacs",
+    "ghc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/agda.rb",
+  "ruby_source_checksum": {
+    "sha256": "c572df2cd553e94ebc3517d190adfb0269cef9123bb4392390c40756bb102875"
+  },
+  "date_added": "2015-01-23T17:35:43+01:00"
+}

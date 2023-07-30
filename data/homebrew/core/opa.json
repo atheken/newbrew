@@ -1,0 +1,109 @@
+{
+  "name": "opa",
+  "full_name": "opa",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source, general-purpose policy engine",
+  "license": "Apache-2.0",
+  "homepage": "https://www.openpolicyagent.org",
+  "versions": {
+    "stable": "0.55.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/open-policy-agent/opa/archive/v0.55.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4db886ffe0cbe20b58631befdc9a46a336525e6d88aec4fc9c29360d0d0bfd6c"
+    },
+    "head": {
+      "url": "https://github.com/open-policy-agent/opa.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:ee04fbca8ff56d7856818a198c149d2f48515cc75c6269d8b9896b1dc2dde4cc",
+          "sha256": "ee04fbca8ff56d7856818a198c149d2f48515cc75c6269d8b9896b1dc2dde4cc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:67b459161faca6638ad66c1eb75282927ffc8293ef41f6df6a3728ef68f0a364",
+          "sha256": "67b459161faca6638ad66c1eb75282927ffc8293ef41f6df6a3728ef68f0a364"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:1baa56cf35c904a58ffd695af711030d286fd19d06218c5e1c2cada079e24db3",
+          "sha256": "1baa56cf35c904a58ffd695af711030d286fd19d06218c5e1c2cada079e24db3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:fe65f43771936dcb2cc811a444f459b38cb265cac8e88231934c94234eb2c2d3",
+          "sha256": "fe65f43771936dcb2cc811a444f459b38cb265cac8e88231934c94234eb2c2d3"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:f27c49400281dfc81f2a2426e625c5ee9e23ee75ca57e7232975d16a67d5e6de",
+          "sha256": "f27c49400281dfc81f2a2426e625c5ee9e23ee75ca57e7232975d16a67d5e6de"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:e4701d6aff37d483475ec7e655d53d73f48a36a0cbccc18e1b012abde9aad1af",
+          "sha256": "e4701d6aff37d483475ec7e655d53d73f48a36a0cbccc18e1b012abde9aad1af"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opa/blobs/sha256:8e885da8762f8754960b144a98b0b84814ff563dd7fc5c64ca499c5ceeee7642",
+          "sha256": "8e885da8762f8754960b144a98b0b84814ff563dd7fc5c64ca499c5ceeee7642"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opa.rb",
+  "ruby_source_checksum": {
+    "sha256": "0e6a829f0c175fb82c13d8d7dbc8a95dc96328ade930014743d6156a5ac54892"
+  },
+  "date_added": "2018-11-29T16:54:00+01:00"
+}

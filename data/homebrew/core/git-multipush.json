@@ -1,0 +1,79 @@
+{
+  "name": "git-multipush",
+  "full_name": "git-multipush",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Push a branch to multiple remotes in one command",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/gavinbeatty/git-multipush",
+  "versions": {
+    "stable": "2.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/git-multipush/git-multipush-2.3.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "1f3b51e84310673045c3240048b44dd415a8a70568f365b6b48e7970afdafb67"
+    },
+    "head": {
+      "url": "https://github.com/gavinbeatty/git-multipush.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-multipush/blobs/sha256:d4827d3f19adf80aba2aecc3e4f475bc1527b6b66bbd8b77128d6065f3a5366b",
+          "sha256": "d4827d3f19adf80aba2aecc3e4f475bc1527b6b66bbd8b77128d6065f3a5366b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "asciidoc"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-multipush.rb",
+  "ruby_source_checksum": {
+    "sha256": "4c845dc7fcc6bf71ad97bc6ae9b6a65262cafeda2d1a600f4472573a9155aa2e"
+  },
+  "date_added": "2010-02-05T11:30:10+01:00"
+}

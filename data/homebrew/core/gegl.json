@@ -1,0 +1,122 @@
+{
+  "name": "gegl",
+  "full_name": "gegl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Graph based image processing framework",
+  "license": "LGPL-3.0-or-later and GPL-3.0-or-later and BSD-3-Clause and MIT",
+  "homepage": "https://www.gegl.org/",
+  "versions": {
+    "stable": "0.4.46",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.46.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d0b3b2481bc8774c5f3d0a487611910166d18eef823a859fb91e781ab7b1e892"
+    },
+    "head": {
+      "url": "https://gitlab.gnome.org/GNOME/gegl.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:70e73227ab3babf88c3b92a755c4077eac31e59cf894eb2ba56d7b85ce8da046",
+          "sha256": "70e73227ab3babf88c3b92a755c4077eac31e59cf894eb2ba56d7b85ce8da046"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:8e05cf9e7284b79287d42375a3ad0deb0297062082fb7535aa17022399fb65cd",
+          "sha256": "8e05cf9e7284b79287d42375a3ad0deb0297062082fb7535aa17022399fb65cd"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:0676101111c243167d9826e3d0d2b1ce896469459e8210530b804d2603218253",
+          "sha256": "0676101111c243167d9826e3d0d2b1ce896469459e8210530b804d2603218253"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:004b97b7d7b24739a87565265dadb12dfa06c35ab23b6fa2447d4aa4a4307432",
+          "sha256": "004b97b7d7b24739a87565265dadb12dfa06c35ab23b6fa2447d4aa4a4307432"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:c9528587fa729a1205b6fa8e255832c31078fb1048e615e71542420bc5be2e36",
+          "sha256": "c9528587fa729a1205b6fa8e255832c31078fb1048e615e71542420bc5be2e36"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:d3b1dc1229ce6306c8ae0c88fd2f1a17c832ce071c9375750025f577d4892a46",
+          "sha256": "d3b1dc1229ce6306c8ae0c88fd2f1a17c832ce071c9375750025f577d4892a46"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/gegl/blobs/sha256:886706bdf73a47733567e36d8d10abbf3627278be026dcc7e66f44b4f1e444df",
+          "sha256": "886706bdf73a47733567e36d8d10abbf3627278be026dcc7e66f44b4f1e444df"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "babl",
+    "gettext",
+    "glib",
+    "jpeg-turbo",
+    "json-glib",
+    "libpng",
+    "cairo",
+    "poppler"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gegl.rb",
+  "ruby_source_checksum": {
+    "sha256": "086de1acdc535177de44d141f5a3174b46e238ae841d731efb888d034ec1d296"
+  },
+  "date_added": "2011-11-28T16:04:08-08:00"
+}

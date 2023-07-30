@@ -1,0 +1,108 @@
+{
+  "name": "opensearch-dashboards",
+  "full_name": "opensearch-dashboards",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source visualization dashboards for OpenSearch",
+  "license": "Apache-2.0",
+  "homepage": "https://opensearch.org/docs/dashboards/index/",
+  "versions": {
+    "stable": "2.5.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/opensearch-project/OpenSearch-Dashboards.git",
+      "tag": "2.5.0",
+      "revision": "f8d208197aa7e78959b905b65d86966d1aeaef23",
+      "checksum": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opensearch-dashboards/blobs/sha256:e9253c3bd182860c2b05e743a5defed8cf495e9ded59ca0a1d10be84e1b336cf",
+          "sha256": "e9253c3bd182860c2b05e743a5defed8cf495e9ded59ca0a1d10be84e1b336cf"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opensearch-dashboards/blobs/sha256:ebbc42e505b435503ea8ca8e84ad58ab5fd95150d0aab67a33fe9230d13e4cfb",
+          "sha256": "ebbc42e505b435503ea8ca8e84ad58ab5fd95150d0aab67a33fe9230d13e4cfb"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opensearch-dashboards/blobs/sha256:ebbc42e505b435503ea8ca8e84ad58ab5fd95150d0aab67a33fe9230d13e4cfb",
+          "sha256": "ebbc42e505b435503ea8ca8e84ad58ab5fd95150d0aab67a33fe9230d13e4cfb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/opensearch-dashboards/blobs/sha256:0964149b822339ee6fd07743db63a9c9fced4ed1143ef5f111da67b64598e623",
+          "sha256": "0964149b822339ee6fd07743db63a9c9fced4ed1143ef5f111da67b64598e623"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "yarn"
+  ],
+  "dependencies": [
+    "node@14"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Data:    $HOMEBREW_PREFIX/var/lib/opensearch-dashboards/\nLogs:    $HOMEBREW_PREFIX/var/log/opensearch-dashboards/opensearch-dashboards.log\nPlugins: $HOMEBREW_PREFIX/var/opensearch-dashboards/plugins/\nConfig:  $HOMEBREW_PREFIX/etc/opensearch-dashboards/\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": true,
+  "deprecation_date": "2023-04-30",
+  "deprecation_reason": "uses deprecated `node@14`",
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/opensearch-dashboards/bin/opensearch-dashboards",
+    "run_type": "immediate",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/opensearch-dashboards.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/opensearch-dashboards.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/opensearch-dashboards.rb",
+  "ruby_source_checksum": {
+    "sha256": "1d3a3cd31f8434372382d15e65d2e5496180a65880d7af633cd3548e3289b9c4"
+  },
+  "date_added": "2021-08-13T08:34:44+00:00"
+}

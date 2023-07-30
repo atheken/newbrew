@@ -1,0 +1,107 @@
+{
+  "name": "bittwist",
+  "full_name": "bittwist",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Libcap-based Ethernet packet generator",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://bittwist.sourceforge.io",
+  "versions": {
+    "stable": "3.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/bittwist/macOS/Bit-Twist%203.8/bittwist-macos-3.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d3abce2703406115f257765c40b75eb5f45f01fe61e42a2e77e38a93aece22d0"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:340d68a07b0e0e3b35d5033a0d374aa33d3b83507566f17f4f7fc84d120947fa",
+          "sha256": "340d68a07b0e0e3b35d5033a0d374aa33d3b83507566f17f4f7fc84d120947fa"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:73652da4ecec5d1abee5d6b677044a14479bf0825b27f2535e4fa9092e6e2b1e",
+          "sha256": "73652da4ecec5d1abee5d6b677044a14479bf0825b27f2535e4fa9092e6e2b1e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:1fe5bc474fd586b73e79eb183604227698dd6082d3aa02833338348d177d696d",
+          "sha256": "1fe5bc474fd586b73e79eb183604227698dd6082d3aa02833338348d177d696d"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:37c8abaad02d566504a4e159b9b1f276f33ef938c5c3ccb07a3afb911f308ee7",
+          "sha256": "37c8abaad02d566504a4e159b9b1f276f33ef938c5c3ccb07a3afb911f308ee7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:77b38e9fb9ecfe31bbae1d430d1c63748b2c7d77377fb6a34d82ff99a3329240",
+          "sha256": "77b38e9fb9ecfe31bbae1d430d1c63748b2c7d77377fb6a34d82ff99a3329240"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:d5eb62aef4579495f97ef94b6f0c092257b8c994ae7742cda6611c6820d140a8",
+          "sha256": "d5eb62aef4579495f97ef94b6f0c092257b8c994ae7742cda6611c6820d140a8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bittwist/blobs/sha256:5c8f5e60580874c7527a5309ebcdd9a3d3f36989a07599b9f17592b8784340d2",
+          "sha256": "5c8f5e60580874c7527a5309ebcdd9a3d3f36989a07599b9f17592b8784340d2"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bittwist.rb",
+  "ruby_source_checksum": {
+    "sha256": "939d2f9c595f7c64305a965b09e5de347ac1088ebfe49f06a61b0a5904e8fcd9"
+  },
+  "date_added": "2014-01-26T18:04:20+01:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "cbc",
+  "full_name": "cbc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Mixed integer linear programming solver",
+  "license": "EPL-2.0",
+  "homepage": "https://github.com/coin-or/Cbc",
+  "versions": {
+    "stable": "2.10.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/coin-or/Cbc/archive/releases/2.10.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f394efecccc40a51bf79fba2c2af0bc92561f3e6b8b6e4c6e36d5e70986f734f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:32da450c124aa43693350de653d23fa411fabaed1ba97f8e94933573eb0e1357",
+          "sha256": "32da450c124aa43693350de653d23fa411fabaed1ba97f8e94933573eb0e1357"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:fd6a0b813968f05f2bad57997854b015544b05e1f85b311491e8a91ee740f52f",
+          "sha256": "fd6a0b813968f05f2bad57997854b015544b05e1f85b311491e8a91ee740f52f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:196878c4018b81771965a8bda4708df33265570d1eaa8af8556188da729e8ecc",
+          "sha256": "196878c4018b81771965a8bda4708df33265570d1eaa8af8556188da729e8ecc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:8aed7852512faccee24efcb137c5ca34dbb34a0623286ab197a85d5d45528686",
+          "sha256": "8aed7852512faccee24efcb137c5ca34dbb34a0623286ab197a85d5d45528686"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:f5e472945f58484d6ac18920aca10ed79e9dd64e41b98cfb5dec00e0e9def371",
+          "sha256": "f5e472945f58484d6ac18920aca10ed79e9dd64e41b98cfb5dec00e0e9def371"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:a206dcdd7b939067d87e21689f2c55f97259ae2cff3941813de0ef7fa555d715",
+          "sha256": "a206dcdd7b939067d87e21689f2c55f97259ae2cff3941813de0ef7fa555d715"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cbc/blobs/sha256:bbfab36d64d93b418cf658d0f06a73eaff5a582124846b5740e9756a07f5a0d5",
+          "sha256": "bbfab36d64d93b418cf658d0f06a73eaff5a582124846b5740e9756a07f5a0d5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "cgl",
+    "clp",
+    "coinutils",
+    "osi"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cbc.rb",
+  "ruby_source_checksum": {
+    "sha256": "63e2c864c90b6e3ce15c2a8f76416cfa5fce0ba68af2899c3b4c10b2f7c80419"
+  },
+  "date_added": "2020-08-12T04:06:18+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "libgosu",
+  "full_name": "libgosu",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "2D game development library",
+  "license": "MIT",
+  "homepage": "https://libgosu.org",
+  "versions": {
+    "stable": "1.4.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gosu/gosu/archive/v1.4.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bbd4c4a868549702e190542f0dc5be8210c8290378ae9b24a75a86e57aa8f39e"
+    },
+    "head": {
+      "url": "https://github.com/gosu/gosu.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:521365479b25946aab5db44d2672521ec732e5dc9d1fd80c23bad38f0d7756ed",
+          "sha256": "521365479b25946aab5db44d2672521ec732e5dc9d1fd80c23bad38f0d7756ed"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:fc8542f6a694357798be7e2280be1bc66b1ced40692806638f2ac7fc699bf189",
+          "sha256": "fc8542f6a694357798be7e2280be1bc66b1ced40692806638f2ac7fc699bf189"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:45e4d5e3f63678dfe1ae61c425a1f5b1e442644e04ec36e4d3ee13cf58ce6b13",
+          "sha256": "45e4d5e3f63678dfe1ae61c425a1f5b1e442644e04ec36e4d3ee13cf58ce6b13"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:9249cfa9a1cb2faa015c4b4d8c5a34e15d5d4c5623af8b5bd212b160f5b23869",
+          "sha256": "9249cfa9a1cb2faa015c4b4d8c5a34e15d5d4c5623af8b5bd212b160f5b23869"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:a06cbc49f0b79d5ce52875fbd2601e3e0acb1c4eec00b074d12809abc504e1e8",
+          "sha256": "a06cbc49f0b79d5ce52875fbd2601e3e0acb1c4eec00b074d12809abc504e1e8"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:d06e787193c8f18a0696a64dbcb0a82ef7aeae666e2ef6b0470788ac0ebd65fa",
+          "sha256": "d06e787193c8f18a0696a64dbcb0a82ef7aeae666e2ef6b0470788ac0ebd65fa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libgosu/blobs/sha256:925189b43a69daaf38ec2011cdfa605d5f6f07aded7ca4828eb33570dee8f695",
+          "sha256": "925189b43a69daaf38ec2011cdfa605d5f6f07aded7ca4828eb33570dee8f695"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "sdl2",
+    "fontconfig",
+    "mesa",
+    "mesa-glu",
+    "openal-soft"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libgosu.rb",
+  "ruby_source_checksum": {
+    "sha256": "a538644ee569c2c00119140c5b591efeae143b67df00ea1705706ce1cfd5275c"
+  },
+  "date_added": "2016-11-28T08:55:55+00:00"
+}

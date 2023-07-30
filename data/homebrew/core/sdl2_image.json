@@ -1,0 +1,139 @@
+{
+  "name": "sdl2_image",
+  "full_name": "sdl2_image",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for loading images as SDL surfaces and textures",
+  "license": "Zlib",
+  "homepage": "https://github.com/libsdl-org/SDL_image",
+  "versions": {
+    "stable": "2.6.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libsdl-org/SDL_image/releases/download/release-2.6.3/SDL2_image-2.6.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "931c9be5bf1d7c8fae9b7dc157828b7eee874e23c7f24b44ba7eff6b4836312c"
+    },
+    "head": {
+      "url": "https://github.com/libsdl-org/SDL_image.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:f31a8a5f9fa1c0a5f4e54e1db39bcc7cb3b5b1ff4b87ddb586da69092918a6d8",
+          "sha256": "f31a8a5f9fa1c0a5f4e54e1db39bcc7cb3b5b1ff4b87ddb586da69092918a6d8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:35962214be840c932088cebc063866e081a0eaca94535ff0a3ef56c0bb834e13",
+          "sha256": "35962214be840c932088cebc063866e081a0eaca94535ff0a3ef56c0bb834e13"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:b80dc377a80a3c810bf34a874ba29e7a2a4b9466147e43a71adba6e4a9dbf11d",
+          "sha256": "b80dc377a80a3c810bf34a874ba29e7a2a4b9466147e43a71adba6e4a9dbf11d"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:4c272fc2cfca1f7896e75ec309512995ec5662ebed6a5b42b9fbb4122e743e85",
+          "sha256": "4c272fc2cfca1f7896e75ec309512995ec5662ebed6a5b42b9fbb4122e743e85"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:77f2b55835c07bed2bd94a5b1976abb8e1cc19dcc5fac9faa9a6cd7404ef38be",
+          "sha256": "77f2b55835c07bed2bd94a5b1976abb8e1cc19dcc5fac9faa9a6cd7404ef38be"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:979228e07f3e8826b07a294de300d5ac665856725030b79064250b85a365de3d",
+          "sha256": "979228e07f3e8826b07a294de300d5ac665856725030b79064250b85a365de3d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sdl2_image/blobs/sha256:811c932399df786285c0e5cf381b8075aa586e52c06216b3967afbb82a304af4",
+          "sha256": "811c932399df786285c0e5cf381b8075aa586e52c06216b3967afbb82a304af4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "jpeg-turbo",
+    "jpeg-xl",
+    "libavif",
+    "libpng",
+    "libtiff",
+    "sdl2",
+    "webp"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sdl2_image.rb",
+  "ruby_source_checksum": {
+    "sha256": "6335a4c29ccf7c6de802816cb5f1e0d4acafc83dd31de9debb03ce4bf271a16a"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "autoconf",
+      "automake",
+      "libtool",
+      "pkg-config"
+    ],
+    "dependencies": [
+      "jpeg-turbo",
+      "jpeg-xl",
+      "libavif",
+      "libpng",
+      "libtiff",
+      "sdl2",
+      "webp"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "uses_from_macos_bounds": []
+  },
+  "date_added": "2013-08-28T06:47:47-07:00"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "armadillo",
+  "full_name": "armadillo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ linear algebra library",
+  "license": "Apache-2.0",
+  "homepage": "https://arma.sourceforge.io/",
+  "versions": {
+    "stable": "12.6.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/arma/armadillo-12.6.1.tar.xz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7277d5e2f2bd95a889888f31f58e48142148f9a466b3013a5817d4506c05ecfd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:0c76bc40750cd10f1a486d45ee190974d1f4b39749c788701a97859c5edc14d8",
+          "sha256": "0c76bc40750cd10f1a486d45ee190974d1f4b39749c788701a97859c5edc14d8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:a2ec2865f85b29c6e0e746c1175480828bc00bfe1f21272fec91b998546a23b0",
+          "sha256": "a2ec2865f85b29c6e0e746c1175480828bc00bfe1f21272fec91b998546a23b0"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:6fdefa57c8fcf0eadd87ac09523ae591565eeb126b18db6b16e851778592a879",
+          "sha256": "6fdefa57c8fcf0eadd87ac09523ae591565eeb126b18db6b16e851778592a879"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:a7d4f0c7c336142a62dafe8fb301fd3b1be2a00640c1a1923fe12874ae2e2e1a",
+          "sha256": "a7d4f0c7c336142a62dafe8fb301fd3b1be2a00640c1a1923fe12874ae2e2e1a"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:9c9a9ce9c5f98c5fb8b5e7955ded0c84eace982a8bdd41cfbf8ba6d249ff4b48",
+          "sha256": "9c9a9ce9c5f98c5fb8b5e7955ded0c84eace982a8bdd41cfbf8ba6d249ff4b48"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:4da788810dd1423c01c559d845002a2ff2858f584d1fd333650e31576305390d",
+          "sha256": "4da788810dd1423c01c559d845002a2ff2858f584d1fd333650e31576305390d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/armadillo/blobs/sha256:c5f8d5c9f74813a7bfdb480fb6a069820451e843604d484bf66922a44c53193c",
+          "sha256": "c5f8d5c9f74813a7bfdb480fb6a069820451e843604d484bf66922a44c53193c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "arpack",
+    "hdf5",
+    "libaec",
+    "openblas",
+    "superlu"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/armadillo.rb",
+  "ruby_source_checksum": {
+    "sha256": "4e0a56864536133994c6988ae2b7b36c293b9f88df2417db23fb6eba34f742b4"
+  },
+  "date_added": "2011-10-08T19:41:16-05:00"
+}

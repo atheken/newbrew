@@ -1,0 +1,105 @@
+{
+  "name": "dnscontrol",
+  "full_name": "dnscontrol",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Synchronize your DNS to multiple providers from a simple DSL",
+  "license": "MIT",
+  "homepage": "https://dnscontrol.org/",
+  "versions": {
+    "stable": "4.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/StackExchange/dnscontrol/archive/v4.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8617afe9af8fd40ee2ddcf8ebc6464290a5a5fff0e5b5723e4e0f55b7604065e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064",
+          "sha256": "8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064",
+          "sha256": "8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064",
+          "sha256": "8fb7f73c114a46f590717e42862fd2b95e6e9a596bc1ab4369eaab71d1e84064"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34",
+          "sha256": "341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34",
+          "sha256": "341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34",
+          "sha256": "341932b24e8da6f666f87665fc59db797215150ecc86ced5d66b74591c94cb34"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnscontrol/blobs/sha256:787d6b8e7fadfb7ba432ebb945a035e95d676e0f7a79af932a10af87a83379e6",
+          "sha256": "787d6b8e7fadfb7ba432ebb945a035e95d676e0f7a79af932a10af87a83379e6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dnscontrol.rb",
+  "ruby_source_checksum": {
+    "sha256": "41964d39ab2347f76482b35fe79fda621e57db68d8247e48f2584d8a038514bf"
+  },
+  "date_added": "2018-12-12T12:17:33+11:00"
+}

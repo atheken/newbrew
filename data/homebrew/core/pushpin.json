@@ -1,0 +1,102 @@
+{
+  "name": "pushpin",
+  "full_name": "pushpin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Reverse proxy for realtime web services",
+  "license": "Apache-2.0",
+  "homepage": "https://pushpin.org/",
+  "versions": {
+    "stable": "1.37.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fastly/pushpin/releases/download/v1.37.0/pushpin-1.37.0.tar.bz2",
+      "tag": null,
+      "revision": null,
+      "checksum": "5fe5042f34a7955113cea3946c5127e3e182df446d8704d6a26d13cde74e960f"
+    },
+    "head": {
+      "url": "https://github.com/fastly/pushpin.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pushpin/blobs/sha256:a14bd996772ffd8d662690864e7412135fd3fa50df4d953694969d02280971ea",
+          "sha256": "a14bd996772ffd8d662690864e7412135fd3fa50df4d953694969d02280971ea"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pushpin/blobs/sha256:9b7ffe6547bb8bf7790b64d0ca0fb81a85d069dbc5bf8782606fd670afa730e6",
+          "sha256": "9b7ffe6547bb8bf7790b64d0ca0fb81a85d069dbc5bf8782606fd670afa730e6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pushpin/blobs/sha256:c382905cb6068f69fb4af65a0f5fcefd441519d1fb186d4ffbe048126e701b82",
+          "sha256": "c382905cb6068f69fb4af65a0f5fcefd441519d1fb186d4ffbe048126e701b82"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pushpin/blobs/sha256:2e3da86aaf8b0bd905cac0ec5291e6ea2e111c287cc44b68a9b05333287a8bce",
+          "sha256": "2e3da86aaf8b0bd905cac0ec5291e6ea2e111c287cc44b68a9b05333287a8bce"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "condure",
+    "mongrel2",
+    "python@3.11",
+    "qt@5",
+    "zeromq",
+    "zurl"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pushpin.rb",
+  "ruby_source_checksum": {
+    "sha256": "4d029509ddd23400e9fdd821624a472d2d5de386a20d87db0ca94ba44f2db348"
+  },
+  "date_added": "2015-02-28T00:17:08-08:00"
+}

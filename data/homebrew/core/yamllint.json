@@ -1,0 +1,110 @@
+{
+  "name": "yamllint",
+  "full_name": "yamllint",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Linter for YAML files",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/adrienverge/yamllint",
+  "versions": {
+    "stable": "1.32.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/29/50/fd0b7b1e1f36327521909236df2d6795baebc30b4a0cb943531ff6734eb7/yamllint-1.32.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d01dde008c65de5b235188ab3110bebc59d18e5c65fc8a58267cd211cd9df34a"
+    },
+    "head": {
+      "url": "https://github.com/adrienverge/yamllint.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:11a034426062d3f2fbc21f5e1d9d4e78149e7f4e6cef07add6356e9634dc2bbc",
+          "sha256": "11a034426062d3f2fbc21f5e1d9d4e78149e7f4e6cef07add6356e9634dc2bbc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:503dcc5dad52c1c0aee8cfb6be53a92ddc1c4fcb5966b1d2e2db9db4e9e7fa5d",
+          "sha256": "503dcc5dad52c1c0aee8cfb6be53a92ddc1c4fcb5966b1d2e2db9db4e9e7fa5d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:a982cfd2beec85466f26017fc8b5c487a87927b60760381a7793266dab238695",
+          "sha256": "a982cfd2beec85466f26017fc8b5c487a87927b60760381a7793266dab238695"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:bbffb9cfb8706c2c80a6726cc04e67d372b2d740b1a03f4fade95a727cbea233",
+          "sha256": "bbffb9cfb8706c2c80a6726cc04e67d372b2d740b1a03f4fade95a727cbea233"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:ddadbcd884d946943799bf2802255d18ec4c15a03093909c54da1850923c100e",
+          "sha256": "ddadbcd884d946943799bf2802255d18ec4c15a03093909c54da1850923c100e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:7e640cdb1e1a6ecd37cffe2be518414263842dd46fa2ee05dc0f70251615542e",
+          "sha256": "7e640cdb1e1a6ecd37cffe2be518414263842dd46fa2ee05dc0f70251615542e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/yamllint/blobs/sha256:7fdb5f2a3b54744ed76215cb4f1aeb491194b244dfb16b2a929b97e7a03de7a0",
+          "sha256": "7fdb5f2a3b54744ed76215cb4f1aeb491194b244dfb16b2a929b97e7a03de7a0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/yamllint.rb",
+  "ruby_source_checksum": {
+    "sha256": "fbb3f956a9793a017cfa43ef35a3b617f301729e84a579b080c5f893c7279d9f"
+  },
+  "date_added": "2018-04-30T15:08:05+02:00"
+}

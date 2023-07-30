@@ -1,0 +1,107 @@
+{
+  "name": "moe",
+  "full_name": "moe",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Console text editor for ISO-8859 and ASCII",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.gnu.org/software/moe/moe.html",
+  "versions": {
+    "stable": "1.13",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://ftp.gnu.org/gnu/moe/moe-1.13.tar.lz",
+      "tag": null,
+      "revision": null,
+      "checksum": "43a557bc512f89d6c718e5f41029cfe3a055682620eb8dbece6302f34a26146b"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:57d22728f30b5d1e97ff391dfe1d8caa6d97b609d88eb681eff156108fe94632",
+          "sha256": "57d22728f30b5d1e97ff391dfe1d8caa6d97b609d88eb681eff156108fe94632"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:6c38cece38f6143e4aeac01818ca54f118197f383b1afc21424699d5a97a9eee",
+          "sha256": "6c38cece38f6143e4aeac01818ca54f118197f383b1afc21424699d5a97a9eee"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:8326650484531e703e10ad741c0cfb5923c8983859a111f96f26028982ea7181",
+          "sha256": "8326650484531e703e10ad741c0cfb5923c8983859a111f96f26028982ea7181"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:c44f9353b9ab2a21e3da5961da9fd45e89e2c75d0cd1aeb535923226102b0f0b",
+          "sha256": "c44f9353b9ab2a21e3da5961da9fd45e89e2c75d0cd1aeb535923226102b0f0b"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:57c61e6567f1d67657d3f12b474cbf55f183f2ea4a51b0a9e3327b972bdfbb8b",
+          "sha256": "57c61e6567f1d67657d3f12b474cbf55f183f2ea4a51b0a9e3327b972bdfbb8b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:a071d0686b00cb471bd8496c1d595edd26da26f923a59213ffa62418f71e9567",
+          "sha256": "a071d0686b00cb471bd8496c1d595edd26da26f923a59213ffa62418f71e9567"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/moe/blobs/sha256:fb50ad51bb0a88d819ce2e090e9a5b37026f8800718556537a900cbbcc529eca",
+          "sha256": "fb50ad51bb0a88d819ce2e090e9a5b37026f8800718556537a900cbbcc529eca"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/moe.rb",
+  "ruby_source_checksum": {
+    "sha256": "3a56da4a48fe272d0da8f0239c468c19741efed4c0fe6d033e154b3ac84d9ebb"
+  },
+  "date_added": "2015-05-08T15:16:09+08:00"
+}

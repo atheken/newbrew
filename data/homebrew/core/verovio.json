@@ -1,0 +1,109 @@
+{
+  "name": "verovio",
+  "full_name": "verovio",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line MEI music notation engraver",
+  "license": "LGPL-3.0-only",
+  "homepage": "https://www.verovio.org",
+  "versions": {
+    "stable": "3.16.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rism-digital/verovio/archive/refs/tags/version-3.16.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ede6b281e6cdecceed6d70406a547b0e68f0d488b954b2a0440a8a8471833d6a"
+    },
+    "head": {
+      "url": "https://github.com/rism-digital/verovio.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:d09c344422d5b22f15bdcc0e01b2e0742c4e03fccfee000a8b27f567c8a55973",
+          "sha256": "d09c344422d5b22f15bdcc0e01b2e0742c4e03fccfee000a8b27f567c8a55973"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:c94a9e3c7cfbec7cee70295696165cec755eab1188666b7e69d367c541d8d14f",
+          "sha256": "c94a9e3c7cfbec7cee70295696165cec755eab1188666b7e69d367c541d8d14f"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:7f2a0bad87053b37404aca2f473997de8659649e0f154076ec144575cbe8eefc",
+          "sha256": "7f2a0bad87053b37404aca2f473997de8659649e0f154076ec144575cbe8eefc"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:081ad04c57c13386a0c56681105c8b73e1da560e17cf48b36f5b6bc1cb8610fe",
+          "sha256": "081ad04c57c13386a0c56681105c8b73e1da560e17cf48b36f5b6bc1cb8610fe"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:354bbf839c364453f5f5d275e72957aca0c8de40748084baabcf894be7f68bc6",
+          "sha256": "354bbf839c364453f5f5d275e72957aca0c8de40748084baabcf894be7f68bc6"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:5cf637b2b79fc9ea9ca550c23107b2f76755f1ddc3965940be08d2508738b6d7",
+          "sha256": "5cf637b2b79fc9ea9ca550c23107b2f76755f1ddc3965940be08d2508738b6d7"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/verovio/blobs/sha256:1c497a61d9124e5581373a9057e12fd4c9eb4c5d957773e87f1fedfddcb4d961",
+          "sha256": "1c497a61d9124e5581373a9057e12fd4c9eb4c5d957773e87f1fedfddcb4d961"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/verovio.rb",
+  "ruby_source_checksum": {
+    "sha256": "b335a97d2b22e7f27bc83847082a4993946013851194e044fcb4e669a5e47087"
+  },
+  "date_added": "2022-10-10T16:26:17+00:00"
+}

@@ -1,0 +1,110 @@
+{
+  "name": "tsung",
+  "full_name": "tsung",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Load testing for HTTP, PostgreSQL, Jabber, and others",
+  "license": "GPL-2.0-or-later",
+  "homepage": "http://tsung.erlang-projects.org/",
+  "versions": {
+    "stable": "1.8.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://tsung.erlang-projects.org/dist/tsung-1.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "91e8643026017e3d0088a6710fb11c4f617477e826ebe4c5fe586aa63147fc92"
+    },
+    "head": {
+      "url": "https://github.com/processone/tsung.git",
+      "branch": "develop"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:d1ebb56a584c6b3262d5e3e0d7727ccb2a51de2e20ad6e01220e893135495f79",
+          "sha256": "d1ebb56a584c6b3262d5e3e0d7727ccb2a51de2e20ad6e01220e893135495f79"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:fa20dc7737ea74dead418707ec87790f3117b8627b66251d269740ba25a7c991",
+          "sha256": "fa20dc7737ea74dead418707ec87790f3117b8627b66251d269740ba25a7c991"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:a0d6b63d452e76063467aaddc742adafe94d3817167de0bf074ad23d13fc6462",
+          "sha256": "a0d6b63d452e76063467aaddc742adafe94d3817167de0bf074ad23d13fc6462"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:a9a7a97f566daf05b32b3252902d6499412d91491da5f4874c3deafdd9979e1d",
+          "sha256": "a9a7a97f566daf05b32b3252902d6499412d91491da5f4874c3deafdd9979e1d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:3323a1469f410ad82f9d49aedaece4f8681f7bfb1ea59ff578037dcf9fcf9691",
+          "sha256": "3323a1469f410ad82f9d49aedaece4f8681f7bfb1ea59ff578037dcf9fcf9691"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:a914e38136188ac75999578185d1b842f1f72f657556c2a0e467ebe2b164f5cf",
+          "sha256": "a914e38136188ac75999578185d1b842f1f72f657556c2a0e467ebe2b164f5cf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tsung/blobs/sha256:318abd3a1719a810eff7133506bb49a2088c180f0c5bd149db7124c386687824",
+          "sha256": "318abd3a1719a810eff7133506bb49a2088c180f0c5bd149db7124c386687824"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "erlang",
+    "gnuplot"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/tsung.rb",
+  "ruby_source_checksum": {
+    "sha256": "3905384d7d78e5c54198ea3a35149a557b1e731e6d20fa19cb97175e5b553151"
+  },
+  "date_added": "2010-07-12T11:57:39-07:00"
+}

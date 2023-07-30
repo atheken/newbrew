@@ -1,0 +1,105 @@
+{
+  "name": "tox",
+  "full_name": "tox",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Generic Python virtualenv management and test command-line tool",
+  "license": "MIT",
+  "homepage": "https://tox.wiki/en/latest/",
+  "versions": {
+    "stable": "4.6.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/d7/58/cd83a435d18a56f1a53a3f0025483a128fd92f30c68269a1c97c9cb2d880/tox-4.6.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5e2ad8845764706170d3dcaac171704513cc8a725655219acb62fe4380bdadda"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:4abc6f20be8d0c01f78bb8cd5b073e07483bcc42fe7f4b6fe0944382b2bf2a44",
+          "sha256": "4abc6f20be8d0c01f78bb8cd5b073e07483bcc42fe7f4b6fe0944382b2bf2a44"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:ef63f7725c296569977366f673b01178dc37f26ae5352441d8f8cfa206c38bfe",
+          "sha256": "ef63f7725c296569977366f673b01178dc37f26ae5352441d8f8cfa206c38bfe"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:4ac315502d8efa2e89becfd18b55e45659cc11616df1dc7543c08a57f2d6c4e2",
+          "sha256": "4ac315502d8efa2e89becfd18b55e45659cc11616df1dc7543c08a57f2d6c4e2"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:a80a2be1446c7d82b4a7de388d17269951cedc0be8e21199cbdc0169527a4134",
+          "sha256": "a80a2be1446c7d82b4a7de388d17269951cedc0be8e21199cbdc0169527a4134"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:0568cd9dcd816180fc1edeb87b29abfcdaab4b9f36b7531b4fc0c57824848751",
+          "sha256": "0568cd9dcd816180fc1edeb87b29abfcdaab4b9f36b7531b4fc0c57824848751"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:c74f01b256807f9c31fc5769334fbdae1d33e1aeec90071834a6a41bcc638bd7",
+          "sha256": "c74f01b256807f9c31fc5769334fbdae1d33e1aeec90071834a6a41bcc638bd7"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tox/blobs/sha256:b23607c8f84610c414215d4e0cf3ac02ed0e2ca1088266f9dab18f74b5cf5316",
+          "sha256": "b23607c8f84610c414215d4e0cf3ac02ed0e2ca1088266f9dab18f74b5cf5316"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tox.rb",
+  "ruby_source_checksum": {
+    "sha256": "effd45c52f797e18f3f8ac2cd3c93b7c6e0dca7eb10422c9d184af1284f8b2ca"
+  },
+  "date_added": "2018-04-05T03:38:24-07:00"
+}
