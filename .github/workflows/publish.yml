@@ -23,7 +23,7 @@ jobs:
     - name: Install tailwindcss and put it in path.
       run: |
         echo $PATH
-        curl -qsL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-$($([[ $(uname -a) =~ 'x86_64' ]] && echo -n 'amd64') || echo -n 'arm64') > $HOME/tailwindcss
+        curl -qsL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-amd64 > $HOME/tailwindcss
         chmod 755 $HOME/tailwindcss
     - name: Build Site
       run: |
