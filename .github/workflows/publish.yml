@@ -20,11 +20,18 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+    - name: Install tailwindcss and put it in path.
+      run: |
+        echo $PATH
+        curl -qsL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-$($([[ $(uname -a) =~ 'x86_64' ]] && echo -n 'amd64') || echo -n 'arm64') > $HOME/tailwindcss
+        chmod 755 $HOME/tailwindcss
+        export PATH=$PATH:$HOME
     - name: Build Site
       run: |
-         cd generator
-         dotnet restore
-         dotnet run
+        echo $PATH
+        cd generator
+        dotnet restore
+        dotnet run
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v2
       with:
