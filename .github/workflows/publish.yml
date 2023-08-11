@@ -22,8 +22,7 @@ jobs:
       uses: actions/checkout@v3
     - name: Install tailwindcss and put it in path.
       run: |
-        echo $PATH
-        curl -qsL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-amd64 > $HOME/tailwindcss
+        curl -qL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-x64 > $HOME/tailwindcss
         chmod 755 $HOME/tailwindcss
     - name: Build Site
       run: |
