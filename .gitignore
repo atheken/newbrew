@@ -5,3 +5,4 @@ generator/cache
 generator/temp
 site/
 .idea
+generator/input/public/main.css
