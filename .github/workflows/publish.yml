@@ -25,9 +25,10 @@ jobs:
         echo $PATH
         curl -qsL https://github.com/tailwindlabs/tailwindcss/releases/download/v3.3.3/tailwindcss-linux-$($([[ $(uname -a) =~ 'x86_64' ]] && echo -n 'amd64') || echo -n 'arm64') > $HOME/tailwindcss
         chmod 755 $HOME/tailwindcss
-        export PATH=$PATH:$HOME
     - name: Build Site
       run: |
+        #We need to make sure tailwindcss is in path from the previous step:
+        export PATH=$PATH:$HOME
         echo $PATH
         cd generator
         dotnet restore
