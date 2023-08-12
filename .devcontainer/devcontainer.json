@@ -6,6 +6,7 @@
 	"build": {
 		"dockerfile": "./main.Dockerfile"
 	},
+	"shutdownAction": "stopContainer",
 	"customizations": {
 		"vscode": {
 			"extensions": [

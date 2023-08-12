@@ -6,15 +6,18 @@ pushd $workdir
 
 exec 3>&1
 
-
-nohup dotnet run -- preview >&3 2>&3 &
+nohup dotnet run -- preview 2>&1 &
 proc1=$!
 
 function close(){
+    echo "Closing the preview process"
     kill -9 $proc1
     popd
 }
 
+#this will trigger port mapping in vscode.
+echo "Launching preview: http://127.0.0.1:5180/"
+
 trap close EXIT
 
-tailwindcss -w -m -o ./input/public/main.css
+tailwindcss -w -m -o ./input/public/main.css -i ./input/public/app.css
