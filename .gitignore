@@ -6,3 +6,4 @@ generator/temp
 site/
 .idea
 generator/input/public/main.css
+generator/nohup.out
