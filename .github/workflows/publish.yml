@@ -28,11 +28,12 @@ jobs:
         chmod 755 $HOME/tailwindcss
     - name: Build Site
       run: |
-        #We need to make sure tailwindcss is in path from the previous step:
         export PATH=$PATH:$HOME
         echo $PATH
+        which tailwindcss
         cd generator
         dotnet restore
+        dotnet build
         dotnet run
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v2
