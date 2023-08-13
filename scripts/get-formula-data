@@ -22,7 +22,7 @@ taps=('homebrew/core')
 
 for tap in "${taps[@]}"; do
     echo making $tap dir.
-    target=./data/$tap
+    target=./data/tap/$tap
     # make the target directory if it does not exist, but ignore if it already exists (|| true)
     mkdir -p $target || true
 

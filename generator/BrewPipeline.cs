@@ -9,7 +9,7 @@ public class BrewPipeline : Pipeline
     {
         InputModules = new ModuleList
         {
-            new ReadFiles("./**/*.json")
+            new ReadFiles("./tap/**/*.json")
         };
 
         ProcessModules = new ModuleList {
