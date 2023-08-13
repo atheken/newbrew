@@ -21,7 +21,7 @@ using Statiq.Common;
 /// <category name="Input/Output" />
 public class LazyReadFilesModule : ParallelConfigModule<IEnumerable<string>>
 {
-    private static IDictionary<NormalizedPath, StringContent> cachedContent = new ConcurrentDictionary<NormalizedPath, StringContent>();
+    private static IDictionary<string, IFile> cachedContent = new ConcurrentDictionary<string, IFile>();
 
     /// <summary>
     /// Reads all files that match the specified globbing patterns and/or absolute paths.
@@ -38,19 +38,15 @@ public class LazyReadFilesModule : ParallelConfigModule<IEnumerable<string>>
 
     protected override async Task<IEnumerable<IDocument>> ExecuteConfigAsync(IDocument input, IExecutionContext context, IEnumerable<string> value)
     {
-        var files = context.FileSystem.GetInputFiles(value);
-        return (await Task.WhenAll(files.AsParallel()
-            .Select(async (file) =>
+        return (await Task.WhenAll(value.Select(async (k) =>
+        {
+            if (!cachedContent.TryGetValue(k, out var file))
             {
-                var key = file.Path;
-                if (!cachedContent.TryGetValue(key, out var content))
-                {
-                    content = new StringContent(await file.ReadAllTextAsync());
-                    cachedContent[key] = content;
-                }
+                file = context.FileSystem.GetInputFiles(new[] { k }).First();
+                cachedContent[k] = file;
+            }
 
-                return context.CloneOrCreateDocument(input, file.Path, file.Path.GetRelativeInputPath(), content);
-            })))
-            .OrderBy(x => x.Source);
+            return context.CloneOrCreateDocument(input, file.Path, file.Path.GetRelativeInputPath(), new StringContent(await file.ReadAllTextAsync()));
+        }))).OrderBy(x => x.Source);
     }
 }
