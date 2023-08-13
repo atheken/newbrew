@@ -13,7 +13,8 @@
 				"mads-hartmann.bash-ide-vscode",
 				"github.vscode-github-actions",
 				"me-dutour-mathieu.vscode-github-actions",
-				"ms-dotnettools.csharp"
+				"ms-dotnettools.csharp",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	}
