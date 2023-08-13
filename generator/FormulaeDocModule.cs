@@ -1,25 +1,37 @@
 namespace generator;
 
+using System.Collections.Concurrent;
 using System.IO;
 using System.ServiceModel.Syndication;
+using System.Text;
 using System.Text.Json;
 using System.Xml;
 
 public class FormulaeDocModule : IModule
 {
+    private static IDictionary<NormalizedPath, Formula> readFormula = new ConcurrentDictionary<NormalizedPath, Formula>();
+    private static IDictionary<(int, Formula[]), Document> output =
+        new ConcurrentDictionary<(int, Formula[]), Document>();
+
     public async Task<IEnumerable<IDocument>> ExecuteAsync(IExecutionContext context)
     {
         var json = (await context.Inputs.ParallelSelectAsync(async (i) =>
         {
-            try
+            var path = i.Source;
+            if (!readFormula.TryGetValue(path, out var retval))
             {
-                return JsonSerializer.Deserialize<Formula>(await i.GetContentStringAsync());
+                try
+                {
+                    retval = JsonSerializer.Deserialize<Formula>(await i.GetContentStringAsync());
+                    readFormula[path] = retval!;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"The file `{i}` could not be parsed.");
+                    return null;
+                }
             }
-            catch (Exception)
-            {
-                Console.WriteLine($"The file `{i}` could not be parsed.");
-                return null;
-            }
+            return retval;
         })).Where(f => f != null).Select(k => k!).ToList();
 
         // We want to ensure that the last feed file always has at <pageSize> items, this is so that new subscribers see.. something.
@@ -31,25 +43,30 @@ public class FormulaeDocModule : IModule
 
         var results = docs.AsParallel().Select(k =>
         {
-            var isLatest = k.Key + 1 == docs.Length;
-            var page = isLatest ? "atom" : k.Key.ToString();
-            var pageData = new PageData<Formula>(docs.Length, k.Key, isLatest, k.ToArray());
-            byte[]? s = null;
-            return new Document($"{k.First()!.tap}/{page}.xml",
-            new DelegateContent(() => new MemoryStream(s ??= RenderPage(pageData))));
+            var key = (k.Key, k.ToArray());
+            if (!output.TryGetValue(key, out var doc))
+            {
+                var isLatest = k.Key + 1 == docs.Length;
+                var page = isLatest ? "atom" : k.Key.ToString();
+                var pageData = new PageData<Formula>(docs.Length, k.Key, isLatest, k.ToArray());
+                Statiq.Common.StringContent s = null;
+                doc = new Document($"{k.First()!.tap}/{page}.xml",
+                s ??= new Statiq.Common.StringContent(RenderPage(pageData)));
+                output[key] = doc;
+            }
+            return doc;
         }).ToArray();
 
         return results;
     }
 
-    private byte[] RenderPage(PageData<Formula> pageData)
+    private string RenderPage(PageData<Formula> pageData)
     {
         var ms = new MemoryStream();
         var xm = XmlWriter.Create(ms, new XmlWriterSettings
         {
             Indent = true
         });
-
 
         var feed = new SyndicationFeed
         {
@@ -92,6 +109,6 @@ public class FormulaeDocModule : IModule
         feed.SaveAsAtom10(xm);
         xm.Flush();
 
-        return ms.GetBuffer();
+        return Encoding.UTF8.GetString(ms.GetBuffer());
     }
 }

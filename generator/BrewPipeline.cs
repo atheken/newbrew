@@ -9,7 +9,7 @@ public class BrewPipeline : Pipeline
     {
         InputModules = new ModuleList
         {
-            new ReadFiles("./tap/**/*.json")
+            new LazyReadFilesModule("./tap/**/*.json")
         };
 
         ProcessModules = new ModuleList {
