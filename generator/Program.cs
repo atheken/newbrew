@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Diagnostics;
-using System.IO.Pipelines;
-
 namespace generator;
+
+using System.Diagnostics;
 
 record Settings(string Source, string Dest, bool Serve = false);
 

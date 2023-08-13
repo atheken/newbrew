@@ -34,17 +34,17 @@ public class FormulaeDocModule : IModule
             var isLatest = k.Key + 1 == docs.Length;
             var page = isLatest ? "atom" : k.Key.ToString();
             var pageData = new PageData<Formula>(docs.Length, k.Key, isLatest, k.ToArray());
+            byte[]? s = null;
             return new Document($"{k.First()!.tap}/{page}.xml",
-            new DelegateContent(() => RenderPage(pageData)));
+            new DelegateContent(() => new MemoryStream(s ??= RenderPage(pageData))));
         }).ToArray();
 
         return results;
     }
 
-    private Stream RenderPage(PageData<Formula> pageData)
+    private byte[] RenderPage(PageData<Formula> pageData)
     {
         var ms = new MemoryStream();
-
         var xm = XmlWriter.Create(ms, new XmlWriterSettings
         {
             Indent = true
@@ -91,7 +91,7 @@ public class FormulaeDocModule : IModule
 
         feed.SaveAsAtom10(xm);
         xm.Flush();
-        ms.Position = 0;
-        return ms;
+
+        return ms.GetBuffer();
     }
 }

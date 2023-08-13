@@ -5,7 +5,8 @@
     <title>@Model["Title"]</title>
 </head>
 
-<body class="container">
+<body class="py-4 container mx-auto bg-red-200">
+    <img src="/public/newbrew.svg" width="w-full md-w-50" alt="New Brew Logo" />
     @RenderBody()
     <footer class="center">Generated on: @System.DateTime.Now.ToString()</footer>
 </body>
