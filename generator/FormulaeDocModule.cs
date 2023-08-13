@@ -20,15 +20,16 @@ public class FormulaeDocModule : IModule
                 Console.WriteLine($"The file `{i}` could not be parsed.");
                 return null;
             }
-        })).Where(f => f != null).ToList();
+        })).Where(f => f != null).Select(k => k!).ToList();
 
         // We want to ensure that the last feed file always has at <pageSize> items, this is so that new subscribers see.. something.
         // to do this, we order descending, and then _decrement_ to calculate the the page in which a given item falls.
         var pageSize = 50;
         var items = json.Count();
-        var docs = json.OrderByDescending(k => k?.date_added).GroupBy(k => (int)Math.Floor(items-- / (float)pageSize)).ToArray();
+        var docs = json.OrderByDescending(k => k?.date_added)
+            .GroupBy(k => (int)Math.Floor(items-- / (float)pageSize)).ToArray();
 
-        var results = docs.Select(k =>
+        var results = docs.AsParallel().Select(k =>
         {
             var isLatest = k.Key + 1 == docs.Length;
             var page = isLatest ? "atom" : k.Key.ToString();
