@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <Target Name="Tailwind" BeforeTargets="Build">
-    <Exec Command="tailwindcss -o ./input/public/main.css -m -c tailwind.config.js"/>
+    <Exec Command="tailwindcss -o ./input/public/main.css -i ./input/public/app.css -m -c tailwind.config.js"/>
   </Target>
 </Project>
