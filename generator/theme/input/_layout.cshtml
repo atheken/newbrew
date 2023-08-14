@@ -1,11 +1,12 @@
-<html class="h-min-screen w-screen text-xl md:text-lg lg:text-base">
+<html class="h-min-screen w-screen">
 
 <head>
     <link rel="stylesheet" href="/public/main.css" />
     <title>@Model["Title"]</title>
 </head>
 
-<body class="mx-auto w-full md:w-1/2 lg:w-1/3 p-4 bg-yellow-50 grid gap-4 font-mono text-neutral-700">
+<body class="text-xl md:text-lg lg:text-base mx-auto w-full md:w-1/2 lg:w-1/3 
+    p-4 bg-yellow-50 grid gap-4 font-mono text-neutral-700">
     <img src="/public/newbrew.svg" class="w-3/4 m-auto" alt="New Brew Logo" />
     @RenderBody()
     <footer class="text-center text-xs italic font-mono text-neutral-500">Updated on: @System.DateTime.Now.ToString()
