@@ -1,3 +1,7 @@
+using Statiq.App;
+using Statiq.Common;
+using Statiq.Web;
+
 namespace generator;
 
 using System.Diagnostics;
@@ -24,6 +28,7 @@ public static class Program
     {
         if (args.Any(k => k == "preview"))
         {
+            Console.WriteLine("Running tailwindcss in the background.");
             try
             {
                 var proc = new Process();
@@ -38,7 +43,7 @@ public static class Program
 
                 AppDomain.CurrentDomain.ProcessExit += (o, e) =>
                 {
-                    Console.WriteLine($"tailwind exit code {proc.ExitCode}");
+                    Console.WriteLine($"Tailwindcss exited with code: {proc.ExitCode}");
                     proc.Kill();
                 };
             }

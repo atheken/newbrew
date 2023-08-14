@@ -1,3 +1,5 @@
+using Statiq.Common;
+
 namespace generator;
 
 using System.Collections.Concurrent;
@@ -50,7 +52,7 @@ public class FormulaeDocModule : IModule
                 var page = isLatest ? "atom" : k.Key.ToString();
                 var pageData = new PageData<Formula>(docs.Length, k.Key, isLatest, k.ToArray());
                 Statiq.Common.StringContent s = null;
-                doc = new Document($"{k.First()!.tap}/{page}.xml",
+                doc = new Document($"feeds/{k.First()!.tap}/{page}.xml",
                 s ??= new Statiq.Common.StringContent(RenderPage(pageData)));
                 output[key] = doc;
             }
