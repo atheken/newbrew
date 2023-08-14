@@ -7,3 +7,7 @@
 a {
     @apply text-cyan-400;
 }
+
+p {
+    @apply indent-4;
+}
