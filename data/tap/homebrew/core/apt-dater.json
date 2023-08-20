@@ -131,6 +131,5 @@
   "ruby_source_checksum": {
     "sha256": "4c9a60da091eda13676fd3742c72b871844ba231fcab3ddb6cda1c9708973493"
   },
-  "date_added": "2012-01-07T10:25:32-08:00",
-  "readme": "README for apt-dater\n====================\n\nWith apt-dater you can easily keep one or more (Debian) GNU/Linux\nhosts up to date.\n\nPre-configuration on your management server:\n--------------------------------------------\n\n  Copy and modify the apt-dater.conf:\n\n    cp conf/apt-dater.conf.example $HOME/.config/apt-dater/apt-dater.conf\n\n  Copy and modify the hosts.conf:\n\n    cp conf/hosts.conf.example $HOME/.config/apt-dater/hosts.conf\n\n  Copy and modify the screenrc:\n\n    cp conf/screenrc.example $HOME/.config/apt-dater/screenrc\n\n\nManaged hosts by apt-dater:\n---------------------------\n\n  You need a SSH server and sudo installed. Create a user which will\n  be used to install updates (using root is NOT recommended).\n  Modify the /etc/sudoers:\n\n\tDefaults env_reset,env_keep=MAINTAINER\n\tthe-user ALL=NOPASSWD: /usr/bin/apt-get,/usr/sbin/needrestart\n\n\nAt your management server:\n--------------------------\n\n  Create a user on your management server which perform updates on your\n  hosts.\n\n  Generate a SSH keypair:\n\n    ssh-keygen [-t TYPE] [..] -f ~/.ssh/apt-dater\n\n  Distribute the public key(s) e.g.:\n\n    ssh-copy-id -i ~/.ssh/apt-dater.pub the-user@managed-host"
+  "date_added": "2012-01-07T10:25:32-08:00"
 }
