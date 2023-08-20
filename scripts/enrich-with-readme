@@ -4,7 +4,7 @@ workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
 
 pushd $workdir
 
-for i in `find ./data/tap -name *.json`; do
+for i in `find ./data/tap -name *.json | sort`; do
     homepage=$(jq -r .homepage $i)
     if [[ $homepage =~ 'github.com' ]]; then
         [ -n "$GITHUB_TOKEN" ] && AUTH_HEADER="Authorization: token $GITHUB_TOKEN"
@@ -16,7 +16,7 @@ for i in `find ./data/tap -name *.json`; do
             content=$((curl -H "$AUTH_HEADER" -sq $readme | jq -r .content | base64 -d) || echo -n '')
             if [[ -n "$content" ]]; then
                 jq --arg readme "$content" '. + { readme: $readme }' $i > $i.enhanced
-                mv $i.enhanced > $i
+                mv $i.enhanced $i
             else
                 echo 'Requested readme content is empty, this could be due to rate-limiting. TBD.'
             fi
