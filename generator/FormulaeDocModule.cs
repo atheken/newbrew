@@ -1,64 +1,62 @@
-using Statiq.Common;
-
 namespace generator;
-
-using System.Collections.Concurrent;
 using System.IO;
 using System.ServiceModel.Syndication;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Xml;
+using Markdig.Renderers;
 
 public class FormulaeDocModule : IModule
 {
-    private static IDictionary<NormalizedPath, Formula> readFormula = new ConcurrentDictionary<NormalizedPath, Formula>();
-    private static IDictionary<(int, Formula[]), Document> output =
-        new ConcurrentDictionary<(int, Formula[]), Document>();
 
     public async Task<IEnumerable<IDocument>> ExecuteAsync(IExecutionContext context)
     {
-        var json = (await context.Inputs.ParallelSelectAsync(async (i) =>
+        var jsonByTap = (await context.Inputs.ParallelSelectAsync(async (i) =>
         {
-            var path = i.Source;
-            if (!readFormula.TryGetValue(path, out var retval))
+            try
             {
-                try
-                {
-                    retval = JsonSerializer.Deserialize<Formula>(await i.GetContentStringAsync());
-                    readFormula[path] = retval!;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine($"The file `{i}` could not be parsed.");
-                    return null;
-                }
+                return JsonSerializer.Deserialize<Formula>(await i.GetContentStringAsync());
+
             }
-            return retval;
-        })).Where(f => f != null).Select(k => k!).ToList();
+            catch (Exception)
+            {
+                Console.WriteLine($"The file `{i}` could not be parsed.");
+                return null;
+            }
+        })).Where(f => f != null).Select(k => k!).ToLookup(k => k.tap);
 
-        // We want to ensure that the last feed file always has at <pageSize> items, this is so that new subscribers see.. something.
-        // to do this, we order descending, and then _decrement_ to calculate the the page in which a given item falls.
-        var pageSize = 50;
-        var items = json.Count();
-        var docs = json.OrderByDescending(k => k?.date_added)
-            .GroupBy(k => (int)Math.Floor(items-- / (float)pageSize)).ToArray();
+        var results = new List<IDocument>();
 
-        var results = docs.AsParallel().Select(k =>
+        foreach (var json in jsonByTap)
         {
-            var key = (k.Key, k.ToArray());
-            if (!output.TryGetValue(key, out var doc))
+            var tap = json.Key;
+
+            // We want to ensure that the last feed file always has at <pageSize> items, this is so that new subscribers see.. something.
+            // to do this, we order descending, and then _decrement_ to calculate the the page in which a given item falls.
+            var pageSize = 50;
+
+            var items = json.Count();
+            var docs = json.OrderByDescending(k => k?.date_added)
+                .GroupBy(k => (int)Math.Floor(items-- / (float)pageSize)).ToArray();
+
+            results.AddRange(docs.AsParallel().Select(k =>
             {
                 var isLatest = k.Key + 1 == docs.Length;
                 var page = isLatest ? "atom" : k.Key.ToString();
                 var pageData = new PageData<Formula>(docs.Length, k.Key, isLatest, k.ToArray());
-                Statiq.Common.StringContent s = null;
-                doc = new Document($"feeds/{k.First()!.tap}/{page}.xml",
-                s ??= new Statiq.Common.StringContent(RenderPage(pageData)));
-                output[key] = doc;
-            }
-            return doc;
-        }).ToArray();
+                var doc = new Document($"feeds/{tap}/{page}.xml", new Statiq.Common.StringContent(RenderPage(pageData)));
 
+                return doc;
+            }));
+
+            // this would be a good opportunity to produce a feed that has randomly selected formulae.
+            var randomDocs = json.OrderBy(k => Guid.NewGuid()).Where(k => !String.IsNullOrWhiteSpace(k.readme)).Take(20);
+            var pageData = new PageData<Formula>(1, 0, true, randomDocs);
+            var doc = new Document($"feeds/{tap}/random.xml", new Statiq.Common.StringContent(RenderPage(pageData)));
+            results.Add(doc);
+
+        }
         return results;
     }
 
@@ -82,7 +80,7 @@ public class FormulaeDocModule : IModule
                     Title = new TextSyndicationContent(k.name),
                     Id = $"{k.tap}/{k.name}",
                     LastUpdatedTime = k.date_added,
-                    Summary = new TextSyndicationContent(k.desc)
+                    Summary = GetReadmeOrDescriptionContent(k)
                 };
                 item.Links.Add(link);
                 return item;
@@ -112,5 +110,23 @@ public class FormulaeDocModule : IModule
         xm.Flush();
 
         return Encoding.UTF8.GetString(ms.GetBuffer());
+    }
+
+    private static readonly Regex markdownLinkMatcher = new Regex(@"\[[^\]]+]\(\s*(?![a-z]+://)(?<path>[^)]+)\)", RegexOptions.ExplicitCapture);
+
+    private TextSyndicationContent GetReadmeOrDescriptionContent(Formula k)
+    {
+        if (string.IsNullOrWhiteSpace(k.readme))
+        {
+            return new TextSyndicationContent(k.desc);
+        }
+        else
+        {
+            var content = markdownLinkMatcher.Replace(k.readme, k.homepage + "/${path}");
+            using var tw = new StringWriter();
+            Markdig.Markdown.Convert(content, new HtmlRenderer(tw));
+            tw.Flush();
+            return new TextSyndicationContent(tw.GetStringBuilder().ToString(), TextSyndicationContentKind.Html);
+        }
     }
 }

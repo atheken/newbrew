@@ -1,7 +1,3 @@
-using Statiq.Common;
-using Statiq.Core;
-using Statiq.Razor;
-
 namespace generator;
 
 public class BrewPipeline : Pipeline
@@ -11,7 +7,7 @@ public class BrewPipeline : Pipeline
     {
         InputModules = new ModuleList
         {
-            new LazyReadFilesModule("./tap/**/*.json")
+            new ReadFiles("../data/tap/**/*.json")
         };
 
         ProcessModules = new ModuleList {
