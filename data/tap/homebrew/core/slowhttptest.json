@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "60332e5c6c48958d8b2ec7d80fa6a125be560ae65d0fa269bc1e93fb7b0a50d4"
   },
-  "date_added": "2013-03-07T16:58:03-06:00"
+  "date_added": "2013-03-07T16:58:03-06:00",
+  "readme": "## Disclaimer ##\n\nAny actions and or activities related to the code provided is solely your responsibility.The misuse of the information in this website can result in criminal charges brought against the persons in question. The authors will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this tool to break the law.\n\n# SlowHTTPTest #\n\n[![Build Status](https://travis-ci.org/shekyan/slowhttptest.svg?branch=master)](https://travis-ci.org/shekyan/slowhttptest)\n\nSlowHTTPTest is a highly configurable tool that simulates some Application Layer Denial of Service attacks by prolonging HTTP connections in different ways.\n\nUse it to test your web server for DoS vulnerabilites, or just to figure out how many concurrent connections it can handle.\nSlowHTTPTest works on majority of Linux platforms, OS X and Cygwin - a Unix-like environment and command-line interface for Microsoft Windows, and comes with a Dockerfile to make things even easier.\n\nCheck out [Wiki](https://github.com/shekyan/slowhttptest/wiki) for installation and usage details.\n\nLatest official image is available at [Docker Hub](https://hub.docker.com/repository/docker/shekyan/slowhttptest):\n`docker pull shekyan/slowhttptest:latest`"
 }

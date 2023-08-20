@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "c2b38df18e59d86502cb0a2bbedb0f4e87939fa455814ca007572a3d4a394b9e"
   },
-  "date_added": "2013-08-05T13:40:48-07:00"
+  "date_added": "2013-08-05T13:40:48-07:00",
+  "readme": "YAFC\n====\n\nYafc is yet another ftp client.\n\n\nFEATURES\n--------\n\n* cached directory listings\n* extensive tab completion\n* multiple connections open\n* automatic reconnect on timed out connections\n* aliases\n* colored ls (ie, ls --color, uses $LS_COLORS like GNU ls)\n* autologin and bookmarks\n* Kerberos support (version 5, Heimdal or MIT)\n* SFTP support (SSH2)\n* recursive get/put/fxp/rm/ls\n* nohup mode get and put\n* tagging (queueing) of files for later transferring\n* automatically enters nohup-mode when SIGHUP received (in get and put)\n* redirection to local command or file ('>', '>>' and '|')\n* proxy support\n* variable substitution for shell commands\n* ignore masks for uploads"
 }

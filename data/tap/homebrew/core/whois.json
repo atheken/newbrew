@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "ce669b9ca1ecc8c978315d60298274e7ed1a8f0c0c8ed6a24939c419f480f47a"
   },
-  "date_added": "2017-04-03T21:55:39+02:00"
+  "date_added": "2017-04-03T21:55:39+02:00",
+  "readme": "In 1999 I wrote this Whois client from scratch because the alternatives\nwere obsolete or bloated.\n\nThis client is intelligent and can automatically select the appropriate\nwhois server for most queries.\n\nThe internal database is often more accurate than IANA's published one,\nbut please send me any information you have regarding domains and network\nresources which are not correctly handled by the program.\n\nBecause of historical reasons this package also contains the mkpasswd\nprogram, which can be used to encrypt a password with crypt(3).\n\n\nThe canonical distribution point for releases of the program is\nhttp://ftp.debian.org/debian/pool/main/w/whois/ .\n\n\nUseful information sources:\n- http://www.ripe.net/ripe/docs/current-ripe-documents/ripe-database-documents\n- http://www.iana.org/domains/root/db/\n- http://www.icann.org/en/resources/idn/fast-track/string-evaluation-completion\n- http://www.aftld.org/\n\nMarco d'Itri <md@linux.it>"
 }

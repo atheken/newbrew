@@ -123,5 +123,6 @@
   "ruby_source_checksum": {
     "sha256": "7bb044a8d3fb06e55b021b0de7b99305beeec5bbe011cd123ca29eb715bf64e3"
   },
-  "date_added": "2015-11-20T17:51:04+01:00"
+  "date_added": "2015-11-20T17:51:04+01:00",
+  "readme": "# choose\n\n![GitHub release (latest by date)](https://img.shields.io/github/v/release/chipsenkbeil/choose)\n\n*Fuzzy matcher for OS X that uses both std{in,out} and a native GUI*\n\n---\n\n- Gets list of items from stdin.\n- Fuzzy-searches as you type.\n- Sends result to stdout.\n- Run choose -h for more info.\n- [example vim integration](./choose.vim)\n- [example emacs integration](./choose.el)\n\n![Animated Screenshot](/../Assets/screenshots/anim.gif?raw=true \"Animated Screenshot\")\n\n## Install\n\nFor the latest release, go to [the releases\nsection](https://github.com/chipsenkbeil/choose/releases) and download the\nbinary.\n\n### Homebrew installation\n\n> Keep in mind that we do not maintain the homebrew formula here! So check the\n> version you have via `choose -v` and compare it to the latest version in [the\n> releases section](https://github.com/chipsenkbeil/choose/releases) .\n\n```bash\nbrew install choose-gui\n```\n\n### Build and Install Documentation\n\nFrom root of repository, run:\n\n```bash\nmake docs\nmake install-docs\n```\n\nYou can then issue `man choose` to read the manual.\n\nNote that this requires `pandoc` to be installed on your system to build the\nmanual page.\n\n## Usage\n\n```bash\n$ ls | choose\n```\n\n## License\n\nSee [MIT LICENSE](./LICENSE)."
 }

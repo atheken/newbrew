@@ -111,5 +111,6 @@
   "ruby_source_checksum": {
     "sha256": "29d6352a0360b4808bcbdad7647eb0b947af426ec38ec8cde74d3bc27ab72f75"
   },
-  "date_added": "2021-04-29T08:09:47+00:00"
+  "date_added": "2021-04-29T08:09:47+00:00",
+  "readme": "# tssh\n\n## golang 实现的ssh 工具\n\n### 安装 \n\n#### 下载安装 \n\n下载地址 [release](https://github.com/luanruisong/tssh/releases/)\n\n#### homebrew 安装\n\n```shell\n$ brew install tssh\n```\n\n## 环境变量\n\n### 手动设置\n```shell\nexport TSSH_HOME=/Users/user/work/ssh_config/\n```\n### 默认设置\n```shell\n# 默认设置在windows环境下使用%HOMEPATH%\nexport TSSH_HOME=$HOME/.tssh/config\n```\n\n## 查看帮助\n\n![help](./static/help.gif)\n\n## 相关操作\n\n### 添加一个链接配置\n\n#### 采用密码模式\n\n![add](./static/add.gif)\n\n#### 指定更多参数\n\n![addmore](./static/addmore.gif)\n\n### 查看现有链接（2.0）\n\n![list](./static/list.gif)\n\n### 删除配置\n\n![del](./static/list.gif)\n\n## 答谢\n\n### 跨平台终端解决方案\n\n主要解决win下获取终端信息\n\n大佬项目链接 [containerd/console](https://github.com/containerd/console)\n\n### 更加友好的交互\n\n2.0 引入了一个有意思的新包 让我们有更加友好的交互方式\n\n大佬项目链接 [manifoldco/promptui](https://github.com/manifoldco/promptui)\n\n## 其他\n\n解决问题的心路历程 -> [anwu's blog](https://luanruisong.com/post/golang/tssh/)"
 }

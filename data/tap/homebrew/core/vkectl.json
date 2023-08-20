@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "4f96e33afc9290b95c4df921089d5d019185d1fcd3a2807106daf57497bda4c4"
   },
-  "date_added": "2022-02-08T09:27:27+00:00"
+  "date_added": "2022-02-08T09:27:27+00:00",
+  "readme": "<h1 align=\"center\">vkectl</h1>\n\n## Introduction\n\nvkectl is a tool to manage VKE(VolcanoEngine Kubernetes Engine) resources through a CLI(Command Line Interface). It is written in Go and built on the top of VKE OpenAPI.\n\nVKECTL IS EXPERIMENTAL. THE BEHAVIOR MAY CHANGE. \n\n## Usage\n### Set Environment\nBefore using vkectl, you need to set the values of the following environment variables\n``` \nexport AK=YOUR AK\nexport SK=YOUR SK\nexport HOST=YOUR HOST\nexport REGION=YOUR REGION\n```\n\n### Execute\n``` \nvkectl [OPTIONS] MODULE ACTION\n```\nThe supported modules are resource and security.\n\nYou can use the following commands to get the supported actions.\n\n``` \nvkectl MODULE --help\n```\n\nExamples:\n```\nvkectl resource ListClusters\n```"
 }

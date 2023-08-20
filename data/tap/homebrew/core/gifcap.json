@@ -75,5 +75,6 @@
   "ruby_source_checksum": {
     "sha256": "f94a8e55230cea9200ce40028ca656e14fbb45a952f9e6d29da47e710342c1de"
   },
-  "date_added": "2017-01-23T00:53:11-05:00"
+  "date_added": "2017-01-23T00:53:11-05:00",
+  "readme": "## gifcap\n\nA shell script to record GIFs from your Android devices\n\nA picture is worth 1,000 words - and, when prototyping animations, recording visual glitches, etc, a video is\nworth far more.  This script makes it easy to capture and share subtle app behavior by producing ready-to-paste-in-Slack\nGIFs with a single command.\n\n<div align=\"center\">\n  <img src=\"web/example.gif\" alt=\"An animated GIF showing an Android app opening\" />\n  <br />\n  <em>Example output</em>\n</div>\n\n### Usage\n\n```bash\ngifcap your_file_name.gif\n<CTRL+C to stop recording>\n```\n\nNote: you'll need an actual Android device plugged in - emulators don't generally have `screenrecord` built in.\n\n### Install\n\n#### macOS\n\n```bash\nbrew install gifcap\n```\n\nNote that we assume you have `adb` on your path.  If you don't have an Android SDK, and want Homebrew to set it up for you:\n\n```bash\nbrew install gifcap --with-android-sdk\n```\n\n#### Others\n\nEnsure `adb`, `ffmpeg`, and `ffprobe` are on your $PATH.  Also make sure that your console window is\ncapable of executing `bash`.\n\nCopy `gifcap` and place it somewhere on your $PATH.\n\n-------\n\nCopyright © Microsoft Corporation"
 }

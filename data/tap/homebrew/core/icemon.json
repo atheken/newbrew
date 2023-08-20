@@ -113,5 +113,6 @@
   "ruby_source_checksum": {
     "sha256": "b77f3accfa1d17086eb3d6a0887bf972d0b61b8502a88804557a7284521c12f5"
   },
-  "date_added": "2018-03-03T16:28:44+01:00"
+  "date_added": "2018-03-03T16:28:44+01:00",
+  "readme": "[![Build Status](https://travis-ci.org/icecc/icemon.svg?branch=master)](https://travis-ci.org/icecc/icemon)\n[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8bc2d59bad544258a47209cc9bfb8e7)](https://www.codacy.com/app/icecc/icemon?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=icecc/icemon&amp;utm_campaign=Badge_Grade)\n\nIcemon\n======\n\nIntroduction\n------------\n\nIcemon is an Icecream GUI monitor.\n\n![Screenshot: Star View](https://github.com/icecc/icemon/wiki/screenshots/icemon-starview.png)\n\nInstallation\n------------\n\nTo compile icemon, install, the icecc development package, e.g. for Debian/Ubuntu:\n\n    $ apt-get install pkg-config libicecc-dev\n\nFinally, make sure you have g++, Qt, cmake and ECM installed\n\n    $ apt-get install build-essential qtbase5-dev cmake extra-cmake-modules\n\nFinally, compile and install the application:\n\n    $ mkdir build\n    $ cd build\n    $ cmake -DCMAKE_INSTALL_PREFIX=/usr ..\n    $ make\n    $ make install\n\nRun:\n\n    $ icemon\n\nBug tracker\n-----------\n\nCreate a github issue on https://github.com/icecc/icemon\n\nRepository\n----------\n\nThe git repository lives at https://github.com/icecc/icemon\n\nContact\n-------\n\n- Current maintainer: Kevin Funk \\<kfunk@kde.org\\>"
 }

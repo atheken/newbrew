@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "31a11021ba677d8ae7e50ce5b3111404da25cbd64d3049c9fdcb59f54424bd55"
   },
-  "date_added": "2022-06-16T15:51:07+00:00"
+  "date_added": "2022-06-16T15:51:07+00:00",
+  "readme": "SWTPM - Software TPM Emulator\n      David Safford safford@us.ibm.com\n      Stefan Berger stefanb@us.ibm.com\n\nThe SWTPM package provides TPM emulators with different front-end interfaces\nto libtpms. TPM emulators provide socket interfaces (TCP/IP and Unix) and\nthe Linux CUSE interface for the creation of multiple native /dev/vtpm* devices.\n\nThe SWTPM package also provides several tools for using the TPM emulator,\ncreating certificates for a TPM, and simulating the manufacturing of\na TPM by creating a TPM's EK and platform certificates etc. Please read \nthe READMEs in the individual tool's directory under src/.\n\nPlease consult the Wiki for information about swtpm:\n\n   https://github.com/stefanberger/swtpm/wiki"
 }

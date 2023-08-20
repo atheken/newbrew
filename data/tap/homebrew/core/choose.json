@@ -116,5 +116,6 @@
   "ruby_source_checksum": {
     "sha256": "97476d30ca0b87473ef5f8a5620d2311cb7aebcc45fcd040da6ef4b96369f81b"
   },
-  "date_added": "2015-11-19T14:04:50+01:00"
+  "date_added": "2015-11-19T14:04:50+01:00",
+  "readme": "choose - make choices on the command line\n=========================================\n\nreads lines from stdin, lets user choose one line in an urwid (ncurses like)\ninterface, then prints that line to stdout and exits. Input will be aligned to\ntabs(`\\t`).  After reading from stdin, in attaches itself directly to the\ncurrently active tty, thus it can work with piped input:\n \n  get_data.sh | **choose** | other_script.sh\n\n\nChoose should run on all *NIXes, but might not work in non utf-8 locales.\n\nAn example of piping the output of [pc_query](http://github.com/geier/pycarddav) -t *searchstring* into *choose*:\n\n![](./choose.png \"example of choose in usage\")"
 }

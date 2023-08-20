@@ -73,5 +73,6 @@
   "ruby_source_checksum": {
     "sha256": "88fbf169409bf50f1bdabd96067eaeacadf8a699053a50b8912a9a0d298a2e23"
   },
-  "date_added": "2017-01-25T08:30:37+00:00"
+  "date_added": "2017-01-25T08:30:37+00:00",
+  "readme": "# Packer Bash Completion\n\n## Overview\n\nThe script provides bash completion for [packer](http://www.packer.io)\n\n## Features\n\n* template filename completion (*.json) in current working dir\n* support for basic options (i.e.. -debug)\n* support for options with choices (i.e. -parallel=[true|false]\n\n## Installation\n\nJust copy the script to a decent place and source it in your `~/.bashrc` or `~/.profile`\n\n    . <path-to>/packer\n\n## Compatibility\n\nThe scirpt has been successfully tested with packer-0.6.0 and the\nfollowing OS:\n\n- OS X 10.9 (bash < 4.0)\n- CentOS-6.5 (bash > 4.0)\n- Ubuntu 12.04 Server (bash > 4.0)\n\n## Credits\n\nThe script technically is heavily inspired by the git-completion.bash\nscript. Kudos to Shawn O. Pearce <spearce@spearce.org> and all other\ncontributors for the inspiration and especially to the bash-completion\nteam in general.\n\n## Copyright and License\n\nThis software is licensed under the MIT license. The license is provided in the [license file](https://github.com/mrolli/packer-bash-completion/blob/master/LICENSE).\n\nCopyright (c) 2014 IT Services Department, University of Bern"
 }

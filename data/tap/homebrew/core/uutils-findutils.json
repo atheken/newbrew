@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "ae0975ee77a8a3f1a083b0e3b8413398787ce16602493bd4fe610492eb56c740"
   },
-  "date_added": "2022-03-03T09:51:18+00:00"
+  "date_added": "2022-03-03T09:51:18+00:00",
+  "readme": "# findutils\n\n[![Crates.io](https://img.shields.io/crates/v/findutils.svg)](https://crates.io/crates/findutils)\n[![dependency status](https://deps.rs/repo/github/uutils/findutils/status.svg)](https://deps.rs/repo/github/uutils/findutils)\n[![codecov](https://codecov.io/gh/uutils/findutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/findutils)\n\nRust implementation of [GNU findutils](https://www.gnu.org/software/findutils/).\n\n## Run the GNU testsuite on rust/findutils:\n\n```\nbash util/build-gnu.sh\n\n# To run a specific test:\nbash util/build-gnu.sh tests/misc/help-version.sh\n```\n\n## Comparing with GNU\n\n![Evolution over time - GNU testsuite](https://github.com/uutils/findutils-tracking/blob/main/gnu-results.png?raw=true)\n![Evolution over time - BFS testsuite](https://github.com/uutils/findutils-tracking/blob/main/bfs-results.png?raw=true)\n\nFor more details, see https://github.com/uutils/findutils-tracking/"
 }

@@ -95,5 +95,6 @@
   "ruby_source_checksum": {
     "sha256": "9c42267d5ba6df68df1587a53f21e10e7bc0039905232a7595a5fc7ca36e80c5"
   },
-  "date_added": "2011-01-20T22:38:16-08:00"
+  "date_added": "2011-01-20T22:38:16-08:00",
+  "readme": "tidyp is a fork of tidy on SourceForge at http://tidy.sf.net.  The\nlibrary name is \"tidyp\", and the command-line tool is also \"tidyp\"\nbut all internal API stays the same.\n\ntidyp will validate your HTML, and output cleaned-up HTML.\n\nThe tidyp homepage is at http://tidyp.com/.\n\nFor installation instructions, see INSTALL."
 }

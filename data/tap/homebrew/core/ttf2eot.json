@@ -124,5 +124,6 @@
   "ruby_source_checksum": {
     "sha256": "48ff8236db9cf4a23fcb646ac4b8d246fb6dd3951d2bca2044d8b5158e60c3f5"
   },
-  "date_added": "2010-11-26T09:46:28-08:00"
+  "date_added": "2010-11-26T09:46:28-08:00",
+  "readme": "Very quick commandline wrapper around OpenTypeUtilities.cpp from Chromium, used\nto make EOT (Embeddable Open Type) files from TTF (TrueType/OpenType Font)\nfiles. This is the format TTLoadEmbeddedFont() accepts, which is what Internet\nExplorer uses for css @font-face declarations.\n\nI've only tested this on Linux.\n\nEOT was documented by Microsoft here:\n    <http://www.w3.org/Submission/2008/SUBM-EOT-20080305/>\n\nTTLoadEmbeddedFont is described here:\n    <http://msdn.microsoft.com/en-us/library/dd145155(VS.85).aspx>\n\nChromium:\n    <http://src.chromium.org/viewvc/chrome/trunk/deps/third_party/WebKit/WebCore/platform/graphics/win/OpenTypeUtilities.cpp?view=log&pathrev=7591>\n\nTo build:\n\n    $ make\n\nUsage:\n\n    $ ./ttf2eot < input.ttf > output.eot\n\nAuthor: taviso@sdf.lonestar.org 15-Mar-2009\nLicense: Derived from WebKit, so BSD/LGPL 2/LGPL 2.1.\n\nKeywords for anyone having as much pain as me finding a utility to do this on Linux:\n\n    covert eot to ttf\n    eot converter\n    wtf is an eot file\n\n\nTODO: MTX support?"
 }

@@ -113,5 +113,6 @@
   "ruby_source_checksum": {
     "sha256": "bd3205966c93c300d943a0290c06d2fd82ce51911eed03eadbf6beaaa57566d3"
   },
-  "date_added": "2015-05-10T09:23:39-07:00"
+  "date_added": "2015-05-10T09:23:39-07:00",
+  "readme": "blockhash\n=========\n\nThis is a perceptual image hash calculation tool based on algorithm descibed in\nBlock Mean Value Based Image Perceptual Hashing by Bian Yang, Fan Gu and Xiamu Niu.\n\nBuild and install\n-----------------\n\nBlockhash requires libmagickwand. On Debian/Ubuntu it can be installed using\nthe following command:\n\n    sudo apt-get install libmagickwand-dev\n\nOn Fedora and friends:\n\n    sudo dnf install ImageMagick-devel\n\nTo build blockhash cd to the source directory and type:\n\n    ./waf configure\n    ./waf\n\nThe program binary will land in `./build`. To install it to `/usr/local/bin/` type:\n\n    ./waf install\n\nUsage\n-----\n\nRun `blockhash [list of images]` for calculating hashes.\n\nRun `blockhash --help` for the list of options.\n\nLicense\n-------\n\nCopyright 2014 Commons Machinery http://commonsmachinery.se/\n\nDistributed under an MIT license, please see LICENSE in the top dir.\n\nContact: dev@commonsmachinery.se"
 }

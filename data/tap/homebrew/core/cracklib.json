@@ -101,5 +101,6 @@
   "ruby_source_checksum": {
     "sha256": "86c1d9e76e9521735e7dc710e8dbdcaaa1b69f9e1a1b1f92cc4165f1afd5dd01"
   },
-  "date_added": "2010-06-28T13:14:50-07:00"
+  "date_added": "2010-06-28T13:14:50-07:00",
+  "readme": "# cracklib\n\nCrackLib Library and Dictionaries\n\n  * src - Cracklib distribution itself\n  * words - scripts and content to build a full size password dictionary\n\n## translations\n\n[![Translate](https://translate.fedoraproject.org/widgets/cracklib/-/287x66-grey.png)](https://translate.fedoraproject.org/engage/cracklib/?utm_source=widget)"
 }

@@ -119,5 +119,6 @@
   "ruby_source_checksum": {
     "sha256": "fd4c82affe44185147b615579dfdc07ba06d52b1c4129b0facaef211232fd6e7"
   },
-  "date_added": "2013-10-28T18:57:34-07:00"
+  "date_added": "2013-10-28T18:57:34-07:00",
+  "readme": "# vtclock\n\nvtclock is a text-terminal program that displays a large digital\nclock.\n\nIt has lots of fancy display options.\n\n# Compilation\n\n## Prerequisites\n\n### Ubuntu/Debian\n\n    sudo apt-get install libncurses5-dev make gcc\n\n## How To Compile\n\n    make\n    sudo make install\n\n# More Information\n\n- http://webonastick.com/vtclock/\n\n# Source Code\n\n- https://github.com/dse/vtclock/\n\n# Stuff To Do\n\n- handle window size change\n- Use figlet font files\n- do nifty transition effects on the digits (scrolling, xdaliclock type thing)\n- accept user supplied date formats\n- analog mode\n- multi-terminal mode\n\nNOTE: A lot of this was from Robert Hoeft's original TODO."
 }

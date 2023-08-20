@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "3a365898d6de257d6afe5fd167a023007038c837030aa6ab7ee5a065e6952114"
   },
-  "date_added": "2019-09-14T16:21:26+02:00"
+  "date_added": "2019-09-14T16:21:26+02:00",
+  "readme": "go-md2man\n=========\n\nConverts markdown into roff (man pages).\n\nUses blackfriday to process markdown into man pages.\n\n### Usage\n\n./md2man -in /path/to/markdownfile.md -out /manfile/output/path\n\n### How to contribute\n\nWe use go modules to manage dependencies.\nAs such you must be using at lest go1.11."
 }

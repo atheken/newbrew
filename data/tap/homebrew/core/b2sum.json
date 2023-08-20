@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "d031db47f1e45ff33bb569fe4c8d6e6910940300fd11b58d28a2f0433e4cd4d1"
   },
-  "date_added": "2016-06-22T06:59:18+02:00"
+  "date_added": "2016-06-22T06:59:18+02:00",
+  "readme": "# BLAKE2\n\nThis is the reference source code package of BLAKE2, which includes\n\n* `ref/`: C implementations of BLAKE2b, BLAKE2bp, BLAKE2s, BLAKE2sp,\n  aimed at portability and simplicity.\n\n* `sse/`: C implementations of BLAKE2b, BLAKE2bp, BLAKE2s, BLAKE2sp,\n  optimized for speed on CPUs supporting SSE2, SSSE3, SSE4.1, AVX, or\n  XOP.\n\n* `neon/`: Implementations of BLAKE2{s,b} using the NEON/ASIMD ARM instruction set.\n\n* `power8/`: Implementations of BLAKE2{s,b} for POWER8, using the VSX and Altivec extensions.\n\n* `csharp/`: C# implementation of BLAKE2b.\n\n* `b2sum/`: Command line utility to hash files, based on the `sse/`\n  implementations.\n\n* `bench/`: Benchmark tool to measure cycles-per-byte speeds and produce\n  graphs copyright.\n\nAll code is triple-licensed under the [CC0](http://creativecommons.org/publicdomain/zero/1.0), the [OpenSSL Licence](https://www.openssl.org/source/license.html), or the [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0),\nat your choosing.\n\nMore: [https://blake2.net](https://blake2.net).\n\nContact: contact@blake2.net"
 }

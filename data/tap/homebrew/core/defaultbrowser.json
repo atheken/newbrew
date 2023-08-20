@@ -130,5 +130,6 @@
   "ruby_source_checksum": {
     "sha256": "65573d681626334517a48f1db2c55460654c71e0cded7cbfaa1b35381f3f887d"
   },
-  "date_added": "2018-03-15T11:13:29+01:00"
+  "date_added": "2018-03-15T11:13:29+01:00",
+  "readme": "defaultbrowser\n==============\n\nCommand line tool for setting the default browser (HTTP handler) in macOS X.\n\nInstall\n-------\n\nBuild it:\n\n```\nmake\n```\n\nInstall it into your executable path:\n\n```\nmake install\n```\n\nUsage\n-----\n\nSet the default browser with, e.g.:\n\n```\ndefaultbrowser chrome\n```\n\nRunning `defaultbrowser` without arguments lists available HTTP handlers and shows the current setting.\n\nHow does it work?\n-----------------\n\nThe code uses the [macOS Launch Services API](https://developer.apple.com/documentation/coreservices/launch_services).\n\nAdditional Resources\n--------------------\n\n- [Bash completion](https://github.com/jonasbn/bash_completion_defaultbrowser) for `defaultbrowser`\n\nLicense\n-------\n\nMIT"
 }

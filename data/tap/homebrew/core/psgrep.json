@@ -73,5 +73,6 @@
   "ruby_source_checksum": {
     "sha256": "f630b70086f38b2083a5eac76fa176f625c23939b6969c9aab122100aaf25af8"
   },
-  "date_added": "2010-06-04T22:30:30-07:00"
+  "date_added": "2010-06-04T22:30:30-07:00",
+  "readme": "Download and extract the [latest release](https://github.com/jvz/psgrep/releases/latest).\nThen, re-read what's in there if it's different than the following:\n\nTo install, just execute `./install.sh`.  If you wish to install `psgrep`\nsomewhere other than `/usr/local/bin`, set the `$PREFIX` variable like so:\n\n    PREFIX=/usr sudo ./install.sh\n\nThe default `$PREFIX` is `/usr/local`\n\nIf you, for example, install `psgrep` to your home directory, don't forget to set\nyour `PATH` to include `~/bin` as well as your `MANPATH` (or `~/.manpath`) to include\n`~/share/man`.\n\nFor usage information, run\n\n    man psgrep"
 }

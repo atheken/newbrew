@@ -112,5 +112,6 @@
   "ruby_source_checksum": {
     "sha256": "37373362d4f61a4b772fbb05aef1d13e419f53232767725dc360a5e6b7afa383"
   },
-  "date_added": "2015-04-29T21:07:10+01:00"
+  "date_added": "2015-04-29T21:07:10+01:00",
+  "readme": "get-flash-videos\n================\n\n`get-flash-videos` is a command line program to download videos from popular video hosting sites. It is written in perl and supports many platforms including Linux, Windows and OS X. For a list of supported sites see [Working Sites](https://github.com/monsieurvideo/get-flash-videos/wiki/WorkingSites).\n\nInstallation\n------------\n\nSee the [Installation wiki](https://github.com/monsieurvideo/get-flash-videos/wiki/Installation).\n\nDevelopment \n-----------\n\nSee the [Development wiki](https://github.com/monsieurvideo/get-flash-videos/wiki/Developing).\n\nLicense\n-------\n[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)"
 }

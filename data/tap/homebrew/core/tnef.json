@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "86f83ffb43f0e963babac5bc156beaa2a732e7e37e3d6e9dc402d82195cc2aa7"
   },
-  "date_added": "2010-05-21T13:32:19-07:00"
+  "date_added": "2010-05-21T13:32:19-07:00",
+  "readme": "[![Build Status](https://travis-ci.org/verdammelt/tnef.svg?branch=master)](https://travis-ci.org/verdammelt/tnef)\n\n\nTNEF\n====\n\nTNEF is a program for unpacking MIME attachments of type\n\"application/ms-tnef\". This is a Microsoft only attachment.\n\nDue to the proliferation of Microsoft Outlook and Exchange mail servers,\nmore and more mail is encapsulated into this format.\n\nThe TNEF program allows one to unpack the attachments which were\nencapsulated into the TNEF attachment. Thus alleviating the need to\nuse Microsoft Outlook to view the attachment. Caveat: TNEF does not\nhandle well attachments with non-Unicode filenames or data.\n\nTNEF is mainly tested and used on GNU/Linux and CYGWIN systems.  It\n'should' work on other UNIX and UNIX-like systems.\n\nSee the file COPYING for copyright and warranty information.\n\nSee the file INSTALL for instructions on installing TNEF.  The short form\nfor installation is the standard:\n\n    autoreconf\n    ./configure\n    make check\n    make install\n\n'make check' will have created the tnef executable in the src\ndirectory and run all the unit tests.  'make install' should have put\nit into /usr/local/bin.  Please see the man page or tnef --help for\noptions."
 }

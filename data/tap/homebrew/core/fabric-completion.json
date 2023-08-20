@@ -73,5 +73,6 @@
   "ruby_source_checksum": {
     "sha256": "de8a4d685702d873c3cf99ade9f9a194f7953c191ca815573420b355c8cc926e"
   },
-  "date_added": "2017-01-25T08:30:37+00:00"
+  "date_added": "2017-01-25T08:30:37+00:00",
+  "readme": "# Bash completion for [Fabric](http://fabfile.org)\n\n\n## Features\n\nScript provides completion for `fab` tasks and long options.\n\nAll available tasks are cached in special file to speed up the response. Cache file with tasks updates on every `fabfile` modification.\n\nLong options (like `--help`, `--version` etc.) are cached only when completion is used at first time.\n\n\n## Installation\n\nDownload and add to your `.bashrc` file:\n\n```bash\nsource /path/to/file/fabric-completion.bash\n```\n\nAdd `.fab_tasks~` (see below) to your `.gitignore`.\n\n\n## Settings\n\nThere are two params:\n\n* Use cache files for `fab` tasks or not.\n\n    Enabled by default.\n\n    To disable add add the following line to your `.bashrc`:\n\n    ```bash\n    export FAB_COMPLETION_CACHE_TASKS=false\n    ```\n\n* File name where tasks cache will be stored (in current directory).\n\n    Default value is `.fab_tasks~`.\n\n    To change the name, add the following line to your `.bashrc`:\n\n    ```bash\n    export FAB_COMPLETION_CACHED_TASKS_FILENAME=\"<cache-file-name>\"\n    ```"
 }

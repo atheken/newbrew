@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "457b57dce0a85ece38cf320cd0152d71ba607e0f61308106801f9d36ea347b66"
   },
-  "date_added": "2017-02-08T10:08:48+00:00"
+  "date_added": "2017-02-08T10:08:48+00:00",
+  "readme": "##DUNGEON V.4.0\n\n**OVERVIEW**\n\nDUNGEON is the original game that served as the basis for the classic Zork text adventure series.\n\nOriginally implemented in MDL (pronounced \"muddle\") on a DEC PDP-10 at MIT in the late 1970s by Tim Anderson, Marc Blank, Bruce Daniels, \nand Dave Lebling, DUNGEON was ported to VAX FORTRAN in 1980 by Robert Supnik. Most of Supnik's source code remains intact here, but \nit made extensive use of a nonstandard VAX FORTRAN extension which is no longer supported by modern fortran compilers. The purpose of this \nupdate is to make DUNGEON compilable using gfortran, enabling a new generation of adventurers to \"GET LAMP.\"\n\n**COMPILATION**\n\nSo long as gfortran and make are installed, simply run \"make\" from the src directory. The resulting \"dungeon\" executable *must* be run\nfrom the directory containing the 'dindx' and 'dtext' files. Older compilers such as g77 are untested and may no longer be able to \ncompile DUNGEON.\n\n**CHANGES FROM EARLIER VERSIONS**\n\nWhile updating the code for gfortran required extensive changes to DUNGEON'S source code, there should be no functional differences from \nSupnik's ultimate version from late 1994, V3.2B. \n\n**DISCLAIMER**\n\nThis software is for *non-commercial use only.*"
 }

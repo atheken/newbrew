@@ -144,5 +144,6 @@
   "ruby_source_checksum": {
     "sha256": "7edcde87a814df0c5bab1f3340bf1e74234d17883dc3d310e6a1721696e2f232"
   },
-  "date_added": "2015-03-15T16:13:53+00:00"
+  "date_added": "2015-03-15T16:13:53+00:00",
+  "readme": "# dark-mode\n\n> Control the macOS dark mode from the command-line\n\nRequires macOS 10.10 or later. macOS 10.13 or earlier needs to download the [Swift runtime support libraries](https://support.apple.com/kb/DL1998).\n\n<img src=\"screenshot.gif\" width=\"509\">\n\n## Install\n\n###### [Homebrew](http://brew.sh)\n\n```\n$ brew install dark-mode\n```\n\n###### [npm](https://github.com/sindresorhus/dark-mode-cli)\n\n```\n$ npm install --global dark-mode-cli\n```\n\n###### Manually\n\n[Download](https://github.com/sindresorhus/dark-mode/releases/latest) the binary and put it in `/usr/local/bin`.\n\n## Usage\n\n```\n$ dark-mode --help\n\n  Usage\n    $ dark-mode [command]\n\n  Commands\n    <none>  Toggle dark mode\n    on      Enable dark mode\n    off     Disable dark mode\n    status  Dark mode status\n```\n\n## Build\n\nRun `./build`. The binary can be found at `./bin/dark-mode`.\n\nBuilding in Xcode works, but it does not export a binary.\n\n## Related\n\n- [node-dark-mode](https://github.com/sindresorhus/node-dark-mode) - Node.js port\n- [alfred-dark-mode](https://github.com/sindresorhus/alfred-dark-mode) - Alfred workflow"
 }

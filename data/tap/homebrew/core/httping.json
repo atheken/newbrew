@@ -107,5 +107,6 @@
   "ruby_source_checksum": {
     "sha256": "c6cf1657e19ffe2d069fad13f8e5bca3270913b3a667f1a32acbe4def09fcff7"
   },
-  "date_added": "2010-02-08T16:26:25+01:00"
+  "date_added": "2010-02-08T16:26:25+01:00",
+  "readme": "httping\n=======\n\nPing with HTTP requests, see http://www.vanheusden.com/httping/\n\n\n[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=flok&url=https://github.com/flok99/httping&title=httping&language=&tags=github&category=software)\n\n[![Support the development of this project](https://pledgie.com/campaigns/28612.png?skin_name=chrome)](https://pledgie.com/campaigns/28612)"
 }

@@ -128,5 +128,6 @@
   "ruby_source_checksum": {
     "sha256": "584926e166c8a37fca1416267db3e06f60e78d29036b48bc71ede518042face8"
   },
-  "date_added": "2011-12-13T15:29:19-06:00"
+  "date_added": "2011-12-13T15:29:19-06:00",
+  "readme": "I'm terribly annoyed by the fact that grep(1) cannot look for binary\nstrings. I'm even more annoyed by the fact that a simple search for \n\"binary grep\" doesn't yield a tool which could do that. So I wrote one.\n\nFeel free to modify, branch, fork, improve. Re-licenses as BSD.\n\nTo install:\n\ncurl -L 'https://github.com/tmbinc/bgrep/raw/master/bgrep.c' | gcc -O2 -x c -o $HOME/.local/bin/bgrep -\n\nusage:\n\nbgrep [-B bytes] [-A bytes] [-C bytes] <hex> [<path> [...]]\n\n-B: bytes_before\n-A: bytes_after\n-C: bytes_before and bytes_after"
 }

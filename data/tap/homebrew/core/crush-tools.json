@@ -163,5 +163,6 @@
       {}
     ]
   },
-  "date_added": "2012-02-03T14:07:01-06:00"
+  "date_added": "2012-02-03T14:07:01-06:00",
+  "readme": "CRUSH is a free, open-source collection of Custom Reporting Utilities for SHell.\n\nHome page: http://code.google.com/p/crush-tools/\n\nSee COPYING for copyright information.\n\nSee INSTALL for installation instructions.\n\nCRUSH has been tested and is believed to work on\n\n  Linux (32- and 64-bit)\n  Cygwin\n  Mac OSX\n\nPlease contact crush-tools@googlegroups.com to discuss questions or problems\nwhich may arise."
 }

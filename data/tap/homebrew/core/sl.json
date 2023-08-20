@@ -132,5 +132,6 @@
   "ruby_source_checksum": {
     "sha256": "46563f85ecdc7e4c8e2f1c6af6725f77bb1c59d7c658749c3ae03bcf6297bf97"
   },
-  "date_added": "2010-03-10T19:34:50-08:00"
+  "date_added": "2010-03-10T19:34:50-08:00",
+  "readme": "SL(1): Cure your bad habit of mistyping\n=======================================\n\nSL (Steam Locomotive) runs across your terminal when you type \"sl\" as\nyou meant to type \"ls\". It's just a joke command, and not useful at\nall.\n\nCopyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)\n\n![](demo.gif)"
 }

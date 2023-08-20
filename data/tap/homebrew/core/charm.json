@@ -111,5 +111,6 @@
   "ruby_source_checksum": {
     "sha256": "83a22e84c494c0e11628b19d1a2b12ef0139113cf9c41861681539b4f275d982"
   },
-  "date_added": "2016-04-15T20:30:38-07:00"
+  "date_added": "2016-04-15T20:30:38-07:00",
+  "readme": "# charmstore-client\n\nThe charmstore-client repository holds client-side code for interacting\nwith the Juju charm store.\n\nTo install:\n\n```\ngo get github.com/juju/charmstore-client\ncd $GOPATH/src/github.com/juju/charmstore-client\nmake deps install\n```\n\nYou'll then be able to run `$GOPATH/bin/charm`.\n\n## Usage\n\nThe charm command provides commands and tools that access the Juju charm store.\n\n```\ncommands:\n    attach         - upload a file as a resource for a charm\n    grant          - grant charm or bundle permissions\n    help           - show help on a command or other topic\n    list           - list charms for a given user name\n    list-resources - display the resources for a charm in the charm store\n    login          - login to the charm store\n    logout         - logout from the charm store\n    pull           - download a charm or bundle from the charm store\n    push           - push a charm or bundle into the charm store\n    release        - release a charm or bundle\n    revoke         - revoke charm or bundle permissions\n    set            - set charm or bundle extra-info, home page or bugs URL\n    show           - print information on a charm or bundle\n    terms          - lists terms owned by the user\n    whoami         - display jaas user id and group membership\n```"
 }

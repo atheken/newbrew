@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "7b560f3630901fc9f49df365da9a740276388e824f3f1f11b0a242c99f7fab9c"
   },
-  "date_added": "2023-03-18T22:07:36+00:00"
+  "date_added": "2023-03-18T22:07:36+00:00",
+  "readme": "# xurls\n\n[![Go Reference](https://pkg.go.dev/badge/mvdan.cc/xurls/v2.svg)](https://pkg.go.dev/mvdan.cc/xurls/v2)\n\nExtract urls from text using regular expressions. Requires Go 1.19 or later.\n\n```go\nimport \"mvdan.cc/xurls/v2\"\n\nfunc main() {\n\trxRelaxed := xurls.Relaxed()\n\trxRelaxed.FindString(\"Do gophers live in golang.org?\")  // \"golang.org\"\n\trxRelaxed.FindString(\"This string does not have a URL\") // \"\"\n\n\trxStrict := xurls.Strict()\n\trxStrict.FindAllString(\"must have scheme: http://foo.com/.\", -1) // []string{\"http://foo.com/\"}\n\trxStrict.FindAllString(\"no scheme, no match: foo.com\", -1)       // []string{}\n}\n```\n\nSince API is centered around [regexp.Regexp](https://golang.org/pkg/regexp/#Regexp),\nmany other methods are available, such as finding the [byte indexes](https://golang.org/pkg/regexp/#Regexp.FindAllIndex)\nfor all matches.\n\nThe regular expressions are compiled when the API is first called.\nAny subsequent calls will use the same regular expression pointers.\n\n#### cmd/xurls\n\nTo install the tool globally:\n\n\tgo install mvdan.cc/xurls/v2/cmd/xurls@latest\n\n```shell\n$ echo \"Do gophers live in http://golang.org?\" | xurls\nhttp://golang.org\n```"
 }

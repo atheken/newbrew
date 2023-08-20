@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "9726944da7c649449af697e92c173e353e7063c4ec5cd8cef99b2edd9cf35127"
   },
-  "date_added": "2015-10-31T20:26:23-07:00"
+  "date_added": "2015-10-31T20:26:23-07:00",
+  "readme": "Welcome to ne, the nice editor.\n-------------------------------\nne is a free (GPL'd) text editor based on the POSIX standard that runs (we\nhope) on almost any UN*X machine. ne is easy to use for the beginner, but\npowerful and fully configurable for the wizard, and most sparing in its\nresource usage. See the [manual](https://ne.di.unimi.it/docs/index.html)\nfor some highlights of ne's features.\n\nne is distributed under the GNU Public License (see COPYING). The\nINSTALL.md file contains detailed installation instructions. The version\nof this distribution of ne can be found in src/version.h.\n\nDocumentation (in the \"doc\" directory) is provided in the form of a\ntexinfo file. It can be printed as a manual using TeX and GNU's\ntexinfo.tex macro package, or turned into a hypertext document using GNU's\nmakeinfo. The directory contains several pre-compiled printable and\nhypertext versions of the documentation.\n\nIf something does not work, please feel free to email us, or write\nto the mailing list.\n\n\n* seba (<mailto:sebastiano.vigna@unimi.it>)\n* Todd (<mailto:utoddl@gmail.com>)\n* <mailto:niceeditor@googlegroups.com>"
 }

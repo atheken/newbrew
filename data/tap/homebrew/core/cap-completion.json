@@ -69,5 +69,6 @@
   "ruby_source_checksum": {
     "sha256": "9c55b8f991bd864a545b18a3e5c7062bfa1ba9a78639a32195c461db45785f13"
   },
-  "date_added": "2017-01-25T08:30:37+00:00"
+  "date_added": "2017-01-25T08:30:37+00:00",
+  "readme": "# capistrano-autocomplete\n\n## Installation\n\n### Step 1. bash-completion package\n\nInstall bash-completion via the package manager for your operating system.\n\n    # Homebrew\n    brew install bash-completion\n\n    # Macports\n    sudo port install bash-completion\n\n    # Yum\n    yum install bash-completion\n\n    # Apt\n    apt-get install bash-completion\n\n### Step 2. Clone repo\n\n    git clone https://github.com/bashaus/capistrano-autocomplete.git\n    cd capistrano-autocomplete\n\n### Step 3. Link the script\n\n    ln -s cap /usr/local/etc/bash_completion.d/cap\n\n### Step 4. Load terminal\n\nRelaunch bash/terminal to see changes"
 }

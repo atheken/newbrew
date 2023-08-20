@@ -73,5 +73,6 @@
   "ruby_source_checksum": {
     "sha256": "86076a1453326348331e7ee876a61e4e82c19d476d1a1f8b45b1c5074e0b326a"
   },
-  "date_added": "2010-03-15T10:19:11-07:00"
+  "date_added": "2010-03-15T10:19:11-07:00",
+  "readme": "git-ssh\n=======\n\n`git-ssh` is a proxy to serve git repositories over ssh.\n\nDESCRIPTION\n===========\n\n`git-ssh` can force your ssh server to handle only git requests. You can allow\nyour users to pull or push, but not to login or to do scp or sftp.\n\nFEATURES\n========\n\n+ No other account creation to handle a new commiter.\n+ Can chroot to a directory to limit access of the repository server.\n\nLater :\n\n+ Can allow read, write or none access to a repository on a user basis.\n\nSYNOPSIS\n========\n\nCreate a git user account\n\n    # groupadd git\n    # useradd -g git -h /var/git -m git\n    # passwd\n\nYou need to put a strong password that you can immediately forget.\n\nPrepare for ssh keys\n\n    # mkdir ~git/.ssh\n    # touch ~git/.ssh/authorized_keys\n    # chown -R git:git ~git/.ssh\n    # chmod 700 ~git/.ssh\n\nWhen you have to add a key in the `~git/.ssh/authorized_keys`, simply add at the beginning of the line :\n\n    command=\"/usr/bin/git-ssh -r /var/git lemarsu\"\n\nFor example:\n\n    command=\"/usr/bin/git-ssh -r /var/git lemarsu\" ssh-dss [...] lemarsu@zorglub\n\nThe `-r` option ask `git-ssh` to chroot the folder `/var/git`. This way, the\nusers cannot get away from the directory of repositories.\n\nCREDITS\n=======\n\nLeMarsu `<ch dot ruelle at lemarsu dot com>`\n\nLICENSE\n=======\n\nSee file COPYING."
 }

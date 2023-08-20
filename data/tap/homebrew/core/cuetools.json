@@ -142,5 +142,6 @@
   "ruby_source_checksum": {
     "sha256": "d70e3917c8daf149dbf102f15a75eb08f90a85d43b8aed0a3f9d95e571af4c97"
   },
-  "date_added": "2010-01-31T13:41:47-08:00"
+  "date_added": "2010-01-31T13:41:47-08:00",
+  "readme": "# cuetools [![Build Status](https://travis-ci.org/svend/cuetools.svg?branch=master)](https://travis-ci.org/svend/cuetools)\n\ncue and toc file parsers and utilities\n\nhttps://github.com/svend/cuetools\n\nCopyright (C) 2004, 2005, 2006, 2007, 2013 Svend Sorensen\n\ncuetools is a set of utilities for working with Cue Sheet (cue) and Table of\nContents (toc) files.\n\nIt includes:\n\n- `cueconvert` convert between the cue and toc formats\n- `cuebreakpoints` print the breakpoints from a cue or toc file\n- `cueprint` print disc and track information for a cue or toc file\n\nDirectory layout:\n\n- `doc/` documentation (including man pages)\n- `src/` all source files\n- `src/lib/` scanning, parsing, and printing library\n- `src/tools/` cue and toc tools"
 }

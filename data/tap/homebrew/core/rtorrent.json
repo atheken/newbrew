@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "a923321fa3c98c301c8cc740567f2aebbbf23d890943ca0774c1894b4477eb0e"
   },
-  "date_added": "2009-10-19T04:02:48+01:00"
+  "date_added": "2009-10-19T04:02:48+01:00",
+  "readme": "[![Donate](https://rakshasa.github.io/rtorrent/donate_paypal_green.svg)](https://paypal.me/jarisundelljp)\n\nRTorrent BitTorrent Client\n========\n\nIntroduction\n------------\n\nTo learn how to use rTorrent visit the [Wiki](https://github.com/rakshasa/rtorrent/wiki).\n\nStable\n------\n\n * [https://github.com/rakshasa/rtorrent-archive/raw/master/libtorrent-0.13.8.tar.gz](https://github.com/rakshasa/rtorrent-archive/raw/master/libtorrent-0.13.8.tar.gz)\n * [https://github.com/rakshasa/rtorrent-archive/raw/master/rtorrent-0.9.8.tar.gz](https://github.com/rakshasa/rtorrent-archive/raw/master/rtorrent-0.9.8.tar.gz)\n\nRelated Projects\n----------------\n\n * [https://github.com/rakshasa/rbedit](https://github.com/rakshasa/rbedit): A dependency-free bencode editor.\n\nDonate to rTorrent development\n------------------------------\n\n * [Paypal](https://paypal.me/jarisundellno)\n * [Patreon](https://www.patreon.com/rtorrent)\n * [SubscribeStar](https://www.subscribestar.com/rtorrent)\n * Bitcoin: 1MpmXm5AHtdBoDaLZstJw8nupJJaeKu8V8\n * Etherium: 0x9AB1e3C3d8a875e870f161b3e9287Db0E6DAfF78\n * Litecoin: LdyaVR67LBnTf6mAT4QJnjSG2Zk67qxmfQ\n * Cardano: addr1qytaslmqmk6dspltw06sp0zf83dh09u79j49ceh5y26zdcccgq4ph7nmx6kgmzeldauj43254ey97f3x4xw49d86aguqwfhlte\n\n\nHelp keep rTorrent development going by donating to its creator."
 }

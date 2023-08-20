@@ -106,5 +106,6 @@
   "ruby_source_checksum": {
     "sha256": "2019dadabd0f5ce509b73ea29bbf521279eff841d30e577018bce5fa1cef44ce"
   },
-  "date_added": "2016-06-14T15:51:02+02:00"
+  "date_added": "2016-06-14T15:51:02+02:00",
+  "readme": "# Docker Version Manager\n\n<p style=\"text-align: center\"><a href=\"https://howtowhale.github.io/dvm/\">howtowhale.github.io/dvm/</a></p>\n\n![dvm-usage](https://cloud.githubusercontent.com/assets/1368985/10800443/d3f0f39a-7d7f-11e5-87b5-1bda5ffe4859.png)\n\nVersion management for your Docker client. Escape from this error for a little bit longer:\n\n```\nError response from daemon: client and server don't have same version (client : 1.18, server: 1.16)\n```\n\n# Contributing\nSee our [Contributing Guide](CONTRIBUTING.md)."
 }

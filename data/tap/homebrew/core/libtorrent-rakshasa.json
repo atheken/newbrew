@@ -114,5 +114,6 @@
   "ruby_source_checksum": {
     "sha256": "17110bc08d15559287e8beb11576d57779a84e4771b216f4e790e515388866c7"
   },
-  "date_added": "2020-05-16T20:21:56+00:00"
+  "date_added": "2020-05-16T20:21:56+00:00",
+  "readme": "LibTorrent\n\nCopyright (C) 2005-2014, Jari Sundell\n\nLICENSE\n\n GNU GPL, see COPYING. \"libtorrent/src/utils/sha_fast.{cc,h}\" is\noriginally from the Mozilla NSS and is under a triple license; MPL,\nLGPL and GPL. An exception to non-NSS code has been added for linking\nto OpenSSL as requested by Debian, though the author considers that\nlibrary to be part of the Operative System and thus linking is allowed\naccording to the GPL.\n\n Use whatever fits your purpose, the code required to compile with\nMozilla's NSS implementation of SHA1 has been retained and can be\ncompiled if the user wishes to avoid using OpenSSL.\n\nCONTACT\n\n Jari Sundell\n\n Skomakerveien 33\n 3185 Skoppum, NORWAY\n\n Send bug reports, suggestions and patches to\n<sundell.software@gmail.com> or to the mailinglist."
 }

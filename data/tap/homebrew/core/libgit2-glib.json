@@ -114,5 +114,6 @@
   "ruby_source_checksum": {
     "sha256": "aa2e7bc86c2dd71bdbf8c09bf047a9fd9912686b7e97a05e23a67faf078c731b"
   },
-  "date_added": "2014-12-31T14:23:23+00:00"
+  "date_added": "2014-12-31T14:23:23+00:00",
+  "readme": "General Information\n===================\n\nlibgit2-glib is a glib wrapper library around the libgit2 git access library.\n\nlibgit2 only implements the core plumbing functions, not really the higher\nlevel porcelain stuff. For a primer on Git Internals that you will need to know\nto work with Git at this level, check out [Chapter 9][pg] of the Pro Git book.\n\nhttp://progit.org/book/ch9-0.html\n\nlibgit2-glib is released under the GNU Lesser General Public License (LGPL) version 2.1,\nsee the file 'COPYING' for more information.\n\nInstallation\n============\n\nlibgit2-glib requires libgit2-0.25.x, glib 2.44.x, gio 2.26.x and\ngobject-introspection 0.9.x.\n\nSimple install procedure:\n\n  % tar Jxf libgit2-glib-1.1.0.tar.xz   # unpack the sources\n  % cd libgit2-glib-1.1.0               # change to the toplevel directory\n  % meson builddir                      # run meson\n  % ninja -C builddir                   # build libgit2-glib\n  # [ Become root if necessary ]\n  % ninja -C builddir install           # install libgit2-glib\n\nSee the file 'INSTALL' for more detailed information."
 }

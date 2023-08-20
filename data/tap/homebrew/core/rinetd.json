@@ -103,5 +103,6 @@
   "ruby_source_checksum": {
     "sha256": "7722fa31fc086e09eca2aa50cc6d6fc2d7550c9ca89a499277d3ad8ffc572eeb"
   },
-  "date_added": "2010-06-15T20:02:35-07:00"
+  "date_added": "2010-06-15T20:02:35-07:00",
+  "readme": "rinetd, by Thomas Boutell and Sam Hocevar. Released under the terms\nof the GNU General Public License, version 2 or later.\n\nThis program is used to efficiently redirect connections from one IP\naddress/port combination to another. It is useful when operating virtual\nservers, firewalls and the like.\n\nTo build under Unix, run `./bootstrap` to create the configuration\nfiles, then `./configure` to create the build files, and then type\n`make` to build rinetd. To install, type `make install` as root.\n\nFor documentation run `make install`, then type `man rinetd` for\ndetails. Or, read `index.html` in your browser."
 }

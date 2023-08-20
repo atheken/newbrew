@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "96be6de35674a4c317c3754a22627d7fffa223d0361a0d6e9b2ab658c9256347"
   },
-  "date_added": "2018-12-12T13:04:33+11:00"
+  "date_added": "2018-12-12T13:04:33+11:00",
+  "readme": "# Goreman\n\nClone of foreman written in golang.\n\nhttps://github.com/ddollar/foreman\n\n## Getting Started\n\n    go install github.com/mattn/goreman@latest\n\n## Usage\n\n    goreman start\n\nWill start all commands defined in the `Procfile` and display their outputs.\nAny signals are forwarded to each process.\n\n## Example\n\nSee [`_example`](_example/) directory\n\n## License\n\nMIT\n\n## Design\n\nThe main goroutine loads `Procfile` and starts each command in the file. Afterwards, it is driven by the following two kinds of events, and then take proper action against the managed processes.\n\n1. It receives a signal, which could be one of `SIGINT`, `SIGTERM`, and `SIGHUP`;\n2. It receives an RPC call, which is triggered by the command `goreman run COMMAND [PROCESS...]`.\n\n![design](images/design.png)\n\n## Authors\n\nYasuhiro Matsumoto (a.k.a mattn)"
 }

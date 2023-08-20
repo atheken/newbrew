@@ -113,5 +113,6 @@
   "ruby_source_checksum": {
     "sha256": "717df8ba0de799beed4f60e77bbae654fa4bb6916fd9aafe39f4e180c89d99d2"
   },
-  "date_added": "2013-10-16T08:00:17+01:00"
+  "date_added": "2013-10-16T08:00:17+01:00",
+  "readme": "git-cal\n=======\n\n### Description\n![screenshot with black theme](https://raw.github.com/k4rthik/git-cal/master/screenshots/img1.png)\n![screenshot with white theme](https://raw.github.com/k4rthik/git-cal/master/screenshots/img2.png)\non your terminal\n\n* git-cal is a simple script to view commits calendar (similar to github contributions calendar) on command line\n* Each block in the graph corresponds to a day and is shaded with one\n  of the 5 possible colors, each representing relative number of commits on that day.\n* Option to choose --ascii or --unicode to denote the same instead of the ANSI colors.\n* Option to use git config to set options.\n\n### Install\n\n- with root access:\n```\nperl Makefile.PL\nmake\nsudo make install\n```\n\n- without root access:\n```\nperl Makefile.PL PREFIX=~/.local\nmake\nmake install\n```\n\n- with Homebrew\n```\nbrew install git-cal\n```"
 }

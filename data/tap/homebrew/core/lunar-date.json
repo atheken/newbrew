@@ -107,5 +107,6 @@
   "ruby_source_checksum": {
     "sha256": "caad5c2a5792d9f42038ccb78fc7f7a93b8185f74d385d28cb9346e7ebdc63f8"
   },
-  "date_added": "2022-07-02T19:15:30+00:00"
+  "date_added": "2022-07-02T19:15:30+00:00",
+  "readme": "# LunarDate [![Build Status](https://travis-ci.org/yetist/lunar-date.svg?branch=master)](https://travis-ci.org/yetist/lunar-date)\n\n## General Information\n\nLunarDate is a chinese lunar library.\n\nThe official web site is:\n\nhttps://github.com/yetist/lunar-date\n\nYou can download the latest lunar-date tarball from the github.com:\n\nhttps://github.com/yetist/lunar-date/releases\n\n## Installation\n\n```\n$ meson build --prefix /usr -Ddocs=true -Dintrospection=true -Dvapi=true -Dtests=true\n$ ninja -C build/\n$ sudo ninja -C build install\n```\nBinary packages for the following systems are currently available.\n\n[![Packaging status](https://repology.org/badge/vertical-allrepos/lunar-date.svg)](https://repology.org/project/lunar-date/versions)\n\n## How to report bugs\n\nBugs should be reported to the [github issue](https://github.com/yetist/lunar-date/issues) bug tracking system."
 }

@@ -113,5 +113,6 @@
   "ruby_source_checksum": {
     "sha256": "93bcf83d9e180a02960d689b6d80fa17311fef862ae426fbebd77c6d92237e1b"
   },
-  "date_added": "2010-06-17T10:38:16-07:00"
+  "date_added": "2010-06-17T10:38:16-07:00",
+  "readme": "# gerrit Tools\n\nA few scripts to make code review via [Gerrit Code Review](http://gerrit.googlecode.com) easier for developers.\n\n## gerrit-cherry-pick\n\nThis is a script that allows you to cherry-pick a particular patch from Gerrit, so that it can be reviewed easily. It comes with Gerrit, but is included here because Gerrit 2.1.1.1 does not yet contain support for the `--latest` option.\n\n## gerrit-setup\n\nGerrit-setup will attempt to convert a repository cloned from github to use Gerrit as the origin instead.\n\n## git-review\n\nGit-review is a wrapper script to make creating, reviewing, and approving Gerrit changes very simple. In the simplest case, you can have an entire Git workflow that looks like this for people creating a new changeset:\n\n    git review push\n\nAnd looks like this for people reviewing someone else's changeset:\n\n    git review 123\n    rake && git review approve\n    git review reset\n\nYou may find it helpful to alias `gr` to `git review`.\n\n## Contributing\n\nFeel free to fork and send a pull request if you think you've improved anything."
 }

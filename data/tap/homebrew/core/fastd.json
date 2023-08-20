@@ -121,5 +121,6 @@
   "ruby_source_checksum": {
     "sha256": "4116c56504e2eb6f08e8ca0b775a7eb52d11fd323376c6005f7978c880c81ead"
   },
-  "date_added": "2016-01-25T00:06:54+01:00"
+  "date_added": "2016-01-25T00:06:54+01:00",
+  "readme": "# fastd - Fast and Secure Tunneling Daemon\n\nfastd is a very small VPN daemon which tunnels IP packets and Ethernet frames\nover UDP. It supports various modern encryption and authentication schemes and\ncan be used in many different network topologies (1:1, 1:n, meshed).\n\nfastd runs on Linux, FreeBSD, OpenBSD and macOS. Android support exists in the\ncode, but is currently unmaintained. Binary packages are provided by many major\nLinux distributions.\n\nFor more information, see the [documentation](https://fastd.readthedocs.io/) and\nthe [project wiki](https://github.com/NeoRaider/fastd/wiki)."
 }

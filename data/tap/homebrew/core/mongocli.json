@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "29c17b63c95466be421243dcfcc80e055a802fd039cecd0d3545c02404dc1c32"
   },
-  "date_added": "2021-06-08T11:51:06+00:00"
+  "date_added": "2021-06-08T11:51:06+00:00",
+  "readme": "## MongoDB Atlas CLI\n\n![GO tests](https://github.com/mongodb/mongodb-atlas-cli/workflows/GO%20tests/badge.svg)\n![golangci-lint](https://github.com/mongodb/mongodb-atlas-cli/workflows/golangci-lint/badge.svg)\n\nThe MongoDB Atlas CLI repository contains the following modern command line interfaces:\n\n- ![icon](https://user-images.githubusercontent.com/5663078/161288347-3d550b8c-bf06-47eb-88cb-25266383147f.png#gh-light-mode-only) ![icon](https://user-images.githubusercontent.com/5663078/161288344-33fa8e03-92ee-46ff-b490-38bf4dd8f379.png#gh-dark-mode-only)\n  [Atlas CLI](atlascli.md)\n\n- ![icon](https://user-images.githubusercontent.com/5663078/161288349-dfef2cd1-0e43-4c44-b5b9-45b7d62c85f6.png#gh-light-mode-only) ![icon](https://user-images.githubusercontent.com/5663078/161288351-0afd25c9-8a06-4a4b-b732-ecf315257aae.png#gh-dark-mode-only) \n  [MongoDB CLI](mongocli.md)\n\nUse simple, one-line commands to interact with MongoDB Atlas, Cloud Manager, or Ops Manager, and to automate management tasks for your deployments.\n\n## Contributing\n\nSee our [CONTRIBUTING.md](CONTRIBUTING.md) guide.\n\n## License\n\nMongoDB CLI and Atlas CLI are released under the Apache 2.0 license. See [LICENSE](LICENSE)"
 }

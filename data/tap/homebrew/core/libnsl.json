@@ -88,5 +88,6 @@
   "ruby_source_checksum": {
     "sha256": "b791b8a4555283dbb06b499d57c9a3171d8e33cf4e23c7d7fdc680804c52ed44"
   },
-  "date_added": "2020-12-20T19:28:58+01:00"
+  "date_added": "2020-12-20T19:28:58+01:00",
+  "readme": "\nSee the file COPYING for copying restrictions.\n\nThis package contains the libnsl library. This library contains\nthe public client interface for NIS(YP).\n\nThis code was formerly part of glibc, but is now standalone to\nbe able to link against TI-RPC for IPv6 support.\n\nThe git repository can be found at:\nhttps://github.com/thkukuk/libnsl"
 }

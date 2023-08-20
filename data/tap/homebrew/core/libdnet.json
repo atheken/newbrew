@@ -104,5 +104,6 @@
   "ruby_source_checksum": {
     "sha256": "e321369601d21682b7c6fb21e146f6c7aff03cdeedb767c0dfe67fb78089c750"
   },
-  "date_added": "2010-05-09T21:30:22-07:00"
+  "date_added": "2010-05-09T21:30:22-07:00",
+  "readme": "libdnet\n-------\n\nlibdnet provides a simplified, portable interface to several low-level\nnetworking routines, including network address manipulation, kernel\narp(4) cache and route(4) table lookup and manipulation, network\nfirewalling, network interface lookup and manipulation, IP tunnelling,\nand raw IP packet and Ethernet frame transmission.\n\nReporting issues\n----------------\n\nBefore reporting an issue, please make sure you check the 'devel' branch\nto see if it's already fixed. This is the current WIP and contains already\na lot of fixes, but for compatibilty reasons, it's not yet included\nin the main branch.\n\n\nWWW: https://github.com/ofalk/libdnet"
 }

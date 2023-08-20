@@ -113,5 +113,6 @@
   "ruby_source_checksum": {
     "sha256": "0ecce5adaafedcf54806e73dea811f3c1964a6d51ac0a7cd65ac721e682a884e"
   },
-  "date_added": "2017-01-25T08:30:37+00:00"
+  "date_added": "2017-01-25T08:30:37+00:00",
+  "readme": "# Homebrew Cask Completion\n\nBash and fish auto-completion scripts for [brew-cask](https://github.com/caskroom/homebrew-cask/). Does not work for `brew cask` currently.\n\nIf you looking for zsh support, please use [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).\n\n## Installation\n\nJust type:\n\n    brew install homebrew/completions/brew-cask-completion\n\nOr:\n\n    brew tap homebrew/completions\n    brew install brew-cask-completion\n\n## Manual Installation\n\nBash:\n\n    git clone https://github.com/xyb/homebrew-cask-completion.git\n    cd homebrew-cask-completion/\n    ln -s $(pwd)/homebrew-cask-completion.bash $(brew --prefix)/etc/bash_completion.d/brew-cask\n\nFish:\n\n    git clone https://github.com/xyb/homebrew-cask-completion.git\n    cd homebrew-cask-completion/\n    mkdir -p ~/.config/fish/completions\n    ln -s $(pwd)/brew-cask.fish ~/.config/fish/completions"
 }

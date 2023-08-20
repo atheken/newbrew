@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "8df41813fb7c9b2af08f9987184d65f5951bbacf98f20325ec7744e17af38cd7"
   },
-  "date_added": "2023-07-04T19:09:45-04:00"
+  "date_added": "2023-07-04T19:09:45-04:00",
+  "readme": "# Fast Unix Commands\n\n[![cpz crates.io](https://img.shields.io/crates/v/cpz?label=cpz%20crates.io)](https://crates.io/crates/cpz)\n[![rmz crates.io](https://img.shields.io/crates/v/rmz?label=rmz%20crates.io)](https://crates.io/crates/rmz)\n[![Packaging status](https://repology.org/badge/tiny-repos/fuc.svg)](https://repology.org/project/fuc/badges)\n\nThe FUC-ing project provides modern unix commands focused on performance:\n\n- [`cpz`](cpz)\n- [`rmz`](rmz)\n\nBenchmarks are available under the [`comparisons`](comparisons) folder.\n\n## Goals\n\n1. Performance: if a reasonable improvement can be made, it will be.\n2. Efficiency: when only negligible performance improvements are left, remaining efforts are\n   focussed on minimizing wasted compute.\n3. Usability: where applicable, the UX of existing commands is improved.\n\n## Non-goals\n\n- Portability: FUCs are primarily targeted at modern Linux installations. Support for other\n  platforms is provided on a best-efforts basis.\n- Compatibility: [coreutils](https://github.com/coreutils/coreutils) or\n  its [Rust re-implementation](https://github.com/uutils/coreutils) will have the broadest and most\n  stable set of options."
 }

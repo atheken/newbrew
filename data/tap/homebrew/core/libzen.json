@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "fa3074c9f1aba9e41694884f9858cd11c965da7d03556d5fb5727705b05dcd3c"
   },
-  "date_added": "2023-05-20T17:25:32-04:00"
+  "date_added": "2023-05-20T17:25:32-04:00",
+  "readme": "# ZenLib README\n\nSmall C++ derivate classes to have an easier life\n\n[![Build Status](https://travis-ci.org/MediaArea/ZenLib.svg?branch=master)](https://travis-ci.org/MediaArea/ZenLib)\n[![Build status](https://ci.appveyor.com/api/projects/status/9tsuhfnk3svklj1m?svg=true)](https://ci.appveyor.com/project/MediaArea/zenlib/branch/master)\n\nZenLib - https://github.com/MediaArea/ZenLib  \nCopyright (c) MediaArea.net SARL. All Rights Reserved.\n\nThis program is freeware under zlib license conditions.\nSee License.txt for more information"
 }

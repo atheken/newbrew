@@ -112,5 +112,6 @@
   "ruby_source_checksum": {
     "sha256": "3466b02bbb8b2a57bea9d2f9d79edb6ea46c4b5418755cb979fb6931bdd53c5b"
   },
-  "date_added": "2022-02-10T15:09:46+00:00"
+  "date_added": "2022-02-10T15:09:46+00:00",
+  "readme": "WebP GDK Pixbuf Loader library\n==============================\n![](https://github.com/aruiz/webp-pixbuf-loader/actions/workflows/ubuntu.yml/badge.svg)\n![](https://github.com/aruiz/webp-pixbuf-loader/actions/workflows/macos.yml/badge.svg)\n![](https://github.com/aruiz/webp-pixbuf-loader/actions/workflows/msys2.yml/badge.svg)\n\n[![Packaging status](https://repology.org/badge/vertical-allrepos/webp-pixbuf-loader.svg?exclude_unsupported=1)](https://repology.org/project/webp-pixbuf-loader/versions)\n\n\nBuilding from source\n--------------------\n  Build:\n  ```\n  meson builddir\n  ninja -C builddir\n  ```\n\n  Install dependencies on Debian:\n  ```\n  sudo apt install libwebp-dev libgdk-pixbuf2.0-dev libgtk-3-dev meson build-essential\n  ```\n  (libgtk-3-dev is optional, used in development)\n\n  Install dependencies on Fedora:\n  ```\n  sudo dnf install libwebp-devel gdk-pixbuf2-devel meson gcc\n  ```\n\n  Install dependencies on macOS via brew:\n  ```sh\n  $ brew install webp gdk-pixbuf meson ninja pkg-config\n  ```\n\n  Install:\n  ```\n  sudo ninja -C builddir install\n  ```"
 }

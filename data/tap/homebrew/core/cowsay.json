@@ -116,5 +116,6 @@
   "ruby_source_checksum": {
     "sha256": "402c3c461d1ecae8d411110b3d827c4a70346738a72e0bd4d540a95f775892d7"
   },
-  "date_added": "2009-12-05T15:58:18+00:00"
+  "date_added": "2009-12-05T15:58:18+00:00",
+  "readme": "# rank-amateur-cowsay\n\nThis is cowsay, imported directly from my ancient CVS repository,\nplus a few documentation tweaks to make it a bit more friendly to\nGitHub.  Functionality remains unchanged from all pre-GitHub commits.\n\nCowsay was a project for learning how to use Perl 5, as well as\ngeneral amusement.  If the code looks like it was written by an\ninexperienced programmer, that's because it was.\n\nIf you are interested in the future of cowsay beyond what is here,\nthen I encourage you to read CONTRIBUTING.md in this directory.\n\nI am no longer interested in maintaining cowsay; there are other\ndemands on my time that take precedence.\n\nEnthusiasm for cowsay has gone far beyond what I expected, and if\ncowsay is to have a future, then the least I can do is not stand\nin the way of it.\n\nEnjoy cowsay for what it was meant to be: simple and silly."
 }

@@ -69,5 +69,6 @@
   "ruby_source_checksum": {
     "sha256": "8dbe140f8b4f89e226d36f317d0be620aea9895a50d7d717183b550b8a15d60b"
   },
-  "date_added": "2010-04-18T18:16:02-07:00"
+  "date_added": "2010-04-18T18:16:02-07:00",
+  "readme": "# rfcstrip\nExtracts code components, YANG modules and SMIv2 modules from RFCs and\nInternet Drafts.\n\nExtracts and unfolds artwork from RFCs and Internet Drafts in XML\nformat."
 }

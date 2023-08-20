@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "5010745872e20a2938f1266669118ae3e795b5f6b58e3a7e5bb5a14ce4289cb4"
   },
-  "date_added": "2009-09-29T15:46:34+01:00"
+  "date_added": "2009-09-29T15:46:34+01:00",
+  "readme": "## LibYAML - A C library for parsing and emitting YAML.\n\nTo build and install the library, run:\n\n    $ ./configure\n    $ make\n    # make install\n\nRequired packages:\n\n- gcc\n- libtool\n- make\n\nIf you checked the source code from the Git repository, run\n\n    $ ./bootstrap\n    $ ./configure\n    $ make\n    # make install\n\nRequired packages:\n\n- autoconf\n- libtool\n- make\n\nFor more information, check the [LibYAML\nhomepage](https://github.com/yaml/libyaml).\n\nDiscuss LibYAML with the maintainers in IRC #libyaml irc.freenode.net.\n\nYou may also use the [YAML-Core mailing\nlist](http://lists.sourceforge.net/lists/listinfo/yaml-core).\n\nSubmit bug reports and feature requests to the [LibYAML bug\ntracker](https://github.com/yaml/libyaml/issues/new).\n\nThis project was developed for Python Software Foundation as a part of Google\nSummer of Code under the mentorship of Clark Evans.\n\nThe LibYAML module was written by Kirill Simonov <xi@resolvent.net>.\nIt is currently maintained by the YAML community.\n\nLibYAML is released under the MIT license.\nSee the file LICENSE for more details."
 }

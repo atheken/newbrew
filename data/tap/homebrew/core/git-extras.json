@@ -109,5 +109,6 @@
   "ruby_source_checksum": {
     "sha256": "d74b85d745d9717b4ae54c273fdf330751c2434ff1da0e43c95c34b261612f65"
   },
-  "date_added": "2010-08-12T17:06:08-07:00"
+  "date_added": "2010-08-12T17:06:08-07:00",
+  "readme": "# Git Extras\n\nLittle git extras.\n\n## Screencasts\n\nJust getting started? Check out these screencasts:\n\n* [introduction](https://vimeo.com/45506445) -- covering git-ignore, git-setup, git-changelog, git-release, git-effort and more\n\n## Installation\n\nSee [Installation](Installation.md) page.\n\n## Commands\n\nGo to [Commands](Commands.md) page for basic usage and examples.\n\n__GIT utilities__ -- repo summary, repl, changelog population, author commit percentages and more\n\n## Contributing\n\nInterested in contributing? Awesome!\n\nPlease read [Contributing](CONTRIBUTING.md) before you make a PR, thanks!\n\n## The change of the default branch\n\nAs of Git Extras 6.4 the assumed default branch name changed from `master` to `main`.\nThis affects the Git Extras commands `git archive-file`, `git delete-merged-branches`, `git delta`, `git pull-request`, `git show-merged-branches`, `git show-unmerged-branches` and `git squash`.\n\nTo change the default branch name to `master`: change either the configuration `git-extras.default-branch` or `init.defaultBranch` to `master`, the former takes precedence.\n\nFor example, `git config git-extras.default-branch master`"
 }

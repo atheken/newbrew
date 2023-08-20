@@ -111,5 +111,6 @@
   "ruby_source_checksum": {
     "sha256": "1ac6a16710561957c8c314e8a372696851706a0646edf753cbc724a9ef1b5d43"
   },
-  "date_added": "2023-05-28T13:34:51-04:00"
+  "date_added": "2023-05-28T13:34:51-04:00",
+  "readme": "Libint - a library for the evaluation of molecular integrals of many-body operators over Gaussian functions\n\n- master status: [![Build Status](https://travis-ci.org/evaleev/libint.svg?branch=master)](https://travis-ci.org/evaleev/libint)\n- project page: http://libint.valeyev.net/\n- e-mail - libint@valeyev.net\n\nSee [the wiki](https://github.com/evaleev/libint/wiki) for the installation and usage instructions.\n\nCopyright (C) 2004-2021 Edward F. Valeev"
 }

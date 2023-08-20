@@ -111,5 +111,6 @@
   "ruby_source_checksum": {
     "sha256": "a7c37be3065e04ed3431178dc9bf65967c42a69d584a92dec6b5bd7ba9f0893f"
   },
-  "date_added": "2022-10-04T13:27:18+00:00"
+  "date_added": "2022-10-04T13:27:18+00:00",
+  "readme": "# A shared library for Meta's source control filesystem tools (EdenFS and Watchman)\nThis contains various utility libraries common between EdenFS and Watchman as\nwell as utilities for clients of EdenFS or Watchman.\n\nSee https://github.com/facebookexperimental/eden for more details on EdenFS\nand https://facebook.github.io/watchman/ for more details on Watchman.\n\n## Requirements\nThis library is cross platform supporting Windows, Linux and macOS.\n\n## Contributing\n\nSee the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.\n\n## License\n\nSee [LICENSE](LICENSE)."
 }

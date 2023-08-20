@@ -101,5 +101,6 @@
   "ruby_source_checksum": {
     "sha256": "a89a4eaa7d53f87b1a334c704373b19f0c33cc5a2b836bc57fdd7c1733781a39"
   },
-  "date_added": "2022-12-05T14:46:30+00:00"
+  "date_added": "2022-12-05T14:46:30+00:00",
+  "readme": "# Countdown\n\n<p align=\"center\">\n  <br>\n  <img src=\"demo.gif\" width=\"600\" alt=\"Countdown Demo\">\n  <br>\n</p>\n\n<a href=\"https://webpod.dev/?from=countdown\"><img src=\"https://webpod.dev/img/banner.png\" alt=\"Webpod - deploy JavaScript apps\" width=\"190\" align=\"right\"></a>\n\n## Install\n\n```sh\nbrew install countdown\n```\n\n```sh\ngo install github.com/antonmedv/countdown@latest\n```\n\nOr download prebuilt binary from [releases](https://github.com/antonmedv/countdown/releases).\n\n## Usage\n\nSpecify duration in Go format `1h2m3s` or a target time: `02:15pm`, `14:15`.\n\n```sh\ncountdown 25s\ncountdown 11:32\n```\n\nAdd a command with `&&` to run after the countdown.\n\n```sh\ncountdown 1m30s && say \"Hello, world\"\n```\n\nCount from up from the zero.\n\n```sh\ncountdown -up 30s\n```\n\nAnnounce (via macOS `say` command) last 10 seconds.\n\n```sh\ncountdown -say 10s\n```\n\n## Key binding\n\n- `Space`: Pause/Resume the countdown.\n- `Esc` or `Ctrl+C`: Stop the countdown without running the next command.\n\n## License\n\n[MIT](LICENSE)"
 }

@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "05027ba2c56e4679411838e17e30bb675beeb2bdafd6eb27da369e053ab1faef"
   },
-  "date_added": "2020-07-02T14:07:10+00:00"
+  "date_added": "2020-07-02T14:07:10+00:00",
+  "readme": "# Buildtools for bazel\n\nThis repository contains developer tools for working with Google's `bazel` buildtool.\n\n* [buildifier](buildifier/README.md) For formatting BUILD, BUILD.bazel and BUCK files in a standard way\n* [buildozer](buildozer/README.md) For doing command-line operations on these files.\n* [unused_deps](unused_deps/README.md) For finding unneeded dependencies in\n[java_library](https://docs.bazel.build/versions/master/be/java.html#java_library) rules.\n\n[![Build status](https://badge.buildkite.com/6a80fcf7909883296cada2e474286ea627994b9130aed110e2.svg)](https://buildkite.com/bazel/buildtools-postsubmit)\n\n## Setup\n\nSee instructions in each tool's directory."
 }

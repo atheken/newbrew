@@ -128,5 +128,6 @@
   "ruby_source_checksum": {
     "sha256": "0537d45372c1ae0cac9f75e3c88f46f91636587eb6a4ab97be4982bace2c12a9"
   },
-  "date_added": "2013-01-08T07:33:20-08:00"
+  "date_added": "2013-01-08T07:33:20-08:00",
+  "readme": "\nMPSSH - Mass Parallel Secure Shell\n(c) 2005-2015 Nikolay Denev <ndenev@gmail.com>\n\nmpssh is a parallel ssh tool. What it does is connecting to a number of hosts\nspecified in the hosts file and execute the same command on all of them,\nshowing a nicely formatted output with each line prepended with the hostname\nthat produced the line. It is also possible to specify a script on the local filesystem\nthat will be first scp copied to the remote host and then executed.\n\nThe hosts file allows to specify different usernames and ports for each host, and also\nto group hosts under different \"labels\" and then execute mpssh against certain label.\n\nThe ssh fork rate and parallelism can be controlled to keep the load on the machine\nthat executes mpssh under control.\n\nmpssh uses the ssh binary from the openssh package, and executes it directly.\nThere are no other external dependancies.\nmpssh depends on preexisting passwordless authentication method such as\npubkey or kerberos to work."
 }

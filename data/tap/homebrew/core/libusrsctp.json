@@ -105,5 +105,6 @@
   "ruby_source_checksum": {
     "sha256": "61882d39407ae8539e9d275f6d433d3f6dd15d6cc365abcc8d01ca213e1aea2e"
   },
-  "date_added": "2012-11-19T20:34:56-06:00"
+  "date_added": "2012-11-19T20:34:56-06:00",
+  "readme": "# usrsctp\n[![Coverity Scan Build Status](https://scan.coverity.com/projects/13430/badge.svg)](https://scan.coverity.com/projects/usrsctp)\n\n![GitHub Actions Build Status (CMake-based build only)](https://github.com/sctplab/usrsctp/workflows/Build%20with%20CMake/badge.svg)\n\nThis is a userland SCTP stack supporting FreeBSD, OpenBSD, Linux, Mac OS X and Windows.\n\nSee [manual](Manual.md) for more information.\n\nThe status of continuous integration testing is available from our [Buildbot](http://buildbot.nplab.de:18010/#/console)."
 }

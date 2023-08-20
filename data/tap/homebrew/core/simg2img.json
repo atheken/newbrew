@@ -122,5 +122,6 @@
   "ruby_source_checksum": {
     "sha256": "9e79bfd3fc455014a20ba06592820844c0de22a5e5af9e56ca70cf4944f37ecc"
   },
-  "date_added": "2017-11-12T13:12:40-08:00"
+  "date_added": "2017-11-12T13:12:40-08:00",
+  "readme": "simg2img\n=========\n\nTool to convert Android sparse images to raw images.\n\nSince image tools are not part of Android SDK, this standalone port of AOSP libsparse aims to avoid complex building chains.\n\nUsage\n-----\n\n```\n$ make\n$ simg2img /path/to/Android/images/system.img /output/path/system.raw.img\n$ file /path/to/Android/images/system.img\nsystem.img: Android sparse image, version: 1.0, Total of 262144 4096-byte output blocks in 1620 input chunks.\n$ file /output/path/system.raw.img\nsystem.raw.img: Linux rev 1.0 ext4 filesystem data, UUID=57f8f4bc-abf4-655f-bf67-946fc0f9f25b (extents) (large files)\n```\n\nWindows\n-------\n\nIf you want to build simg2img on Windows you'll need to [install MinGW](http://www.mingw.org/wiki/howto_install_the_mingw_gcc_compiler_suite)\nand also zlib and libasprintf (go to MinGW Libraries in the installer and check `mingw32-libz` and `mingw32-libasprintf`).\nOnce you've done that run the following command to build simg2img:\n\n```\nCFLAGS=-DUSE_MINGW LDFLAGS=-lasprintf mingw32-make\n```\n\nLinux\n------\n\nIf zlib.h is missing then install it using\n\nUbuntu: ```sudo apt-get install libz-dev```\n\nFedora: ```sudo dnf install libz-devel```"
 }

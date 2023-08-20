@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "a20f4c6eb154a2e5816c77dd4f2f60e0b8d91983fa54561187237b7bf9c88c34"
   },
-  "date_added": "2022-03-07T12:09:12+00:00"
+  "date_added": "2022-03-07T12:09:12+00:00",
+  "readme": "mu-repo \n=========\n\nTool to help working with multiple git repositories\n(short for *Multiple Repositories*).\n\n.. |version| image:: http://img.shields.io/pypi/v/mu-repo.png\n  :target: https://pypi.python.org/pypi/mu-repo\n\n.. |downloads| image:: http://img.shields.io/pypi/dm/mu-repo.png\n  :target: https://pypi.python.org/pypi/mu-repo\n\n.. |ci| image:: http://img.shields.io/travis/fabioz/mu-repo.png\n  :target: https://travis-ci.org/fabioz/mu-repo\n\n|ci| |version|\n\nSee: http://fabioz.github.io/mu-repo/ for more details"
 }

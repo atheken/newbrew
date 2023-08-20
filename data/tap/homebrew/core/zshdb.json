@@ -89,5 +89,6 @@
     "uses_from_macos": [],
     "uses_from_macos_bounds": []
   },
-  "date_added": "2013-05-16T16:16:26-05:00"
+  "date_added": "2013-05-16T16:16:26-05:00",
+  "readme": "[![Build Status Circle](https://circleci.com/gh/rocky/zshdb.svg?&style=shield)](https://circleci.com/gh/rocky/zshdb)\n\n[![Packaging status](https://repology.org/badge/vertical-allrepos/zshdb.svg)](https://repology.org/project/zshdb/versions)\n\n\n*zshdb* is gdb-like debugger for [zsh](http://www.zsh.org/) scripts. It started as a port of my bash\ndebugger [bashdb](http://bashdb.sf.net) so the commands used in both are similar.\n\nThe command syntax generally follows that of the trepanning debuggers\nand, more generally, GNU debugger *gdb*. Therefore knowledge gained by learning this is transferable to those\ndebuggers and vice versa.\n\nAn Emacs interface is available via [realgud](https://github.com/realgud/realgud). Visual Studio integration is available from rogalmic via\n[ZshDebug](https://marketplace.visualstudio.com/items?itemName=rogalmic.zsh-debug).\n\n\nSee the [documentation](http://zshdb.readthedocs.io/en/latest/) and [wiki](https://github.com/rocky/zshdb/wiki)\nfor more information.\n\nRocky Bernstein <rocky@gnu.org>"
 }

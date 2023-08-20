@@ -128,5 +128,6 @@
     "uses_from_macos": [],
     "uses_from_macos_bounds": []
   },
-  "date_added": "2013-08-30T14:39:23-07:00"
+  "date_added": "2013-08-30T14:39:23-07:00",
+  "readme": "\r\nSDL_net 2.0\r\n\r\nThe latest version of this library is available from GitHub:\r\nhttps://github.com/libsdl-org/SDL_net/releases\r\n\r\nThis is an example portable network library for use with SDL.\r\nIt is available under the zlib license, found in the file LICENSE.txt.\r\nThe API can be found in the file SDL_net.h and online at https://wiki.libsdl.org/SDL_net\r\nThis library supports UNIX, Windows, MacOS Classic, MacOS X,\r\nBeOS and QNX.\r\n\r\nThe demo program is a chat client and server.\r\n\r\nThe chat client connects to the server via TCP, registering itself.\r\nThe server sends back a list of connected clients, and keeps the\r\nclient updated with the status of other clients.\r\nEvery line of text from a client is sent via UDP to every other client.\r\n\r\nNote that this isn't necessarily how you would want to write a chat\r\nprogram, but it demonstrates how to use the basic features of the \r\nnetwork library.\r\n\r\nEnjoy!\r\n\t-Sam Lantinga and Roy Wood\r\n\r"
 }

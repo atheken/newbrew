@@ -112,5 +112,6 @@
   "ruby_source_checksum": {
     "sha256": "71c521f56da212ff872cf1c19f09c70aae7b8dd7d0e1033bdd2714c5de5da279"
   },
-  "date_added": "2023-02-09T17:37:39+00:00"
+  "date_added": "2023-02-09T17:37:39+00:00",
+  "readme": "Libsolv\n=======\n\nThis is libsolv, a free package dependency solver using a satisfiability\nalgorithm.\n\nThe code is based on two major, but independent, blocks:\n\n 1. Using a dictionary approach to store and retrieve package and\n    dependency information in a fast and space efficient manner.\n\n 2. Using satisfiability, a well known and researched topic, for\n    resolving package dependencies.\n\nThe sat-solver code has been written to aim for the newest packages,\nrecord the decision tree to provide introspection, and also provides\nthe user with suggestions on how to deal with unsolvable\nproblems. It also takes advantage of repository storage to\nminimize memory usage.\n\nSupported package formats:\n\n  - rpm/rpm5\n  - deb\n  - arch linux\n  - haiku\n\nSupported repository formats:\n\n  - rpmmd (primary, filelists, comps, deltainfo/presto, updateinfo)\n  - susetags, suse product formats\n  - mandriva/mageia (synthesis, info, files)\n  - arch linux\n  - red carpet helix format\n  - haiku\n\nBuild instructions\n==================\n\nRequires: cmake 2.8.5 or later\n\n    mkdir build\n    cd build\n    cmake ..\n    make\n\n////\nvim: syntax=asciidoc\n////"
 }

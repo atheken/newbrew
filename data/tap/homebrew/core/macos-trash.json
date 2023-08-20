@@ -138,5 +138,6 @@
   "ruby_source_checksum": {
     "sha256": "85f12d310795157a110918fea8d92b0848bb941017e045306b0040f0f04a02f2"
   },
-  "date_added": "2020-06-22T08:41:53+00:00"
+  "date_added": "2020-06-22T08:41:53+00:00",
+  "readme": "# macos-trash\n\n> Move files and folders to the trash\n\nRequires macOS 10.10 or later. macOS 10.13 or earlier needs to download the [Swift runtime support libraries](https://support.apple.com/kb/DL1998).\n\n## Install\n\n###### [Homebrew](https://brew.sh)\n\n```sh\nbrew install macos-trash\n```\n\n###### [Mint](https://github.com/yonaskolb/Mint)\n\n```sh\nmint install sindresorhus/macos-trash\n```\n\n###### Manually\n\n[Download](https://github.com/sindresorhus/macos-trash/releases/latest) the binary and put it in `/usr/local/bin`.\n\n## Usage\n\n```sh\ntrash <path> […]\n```\n\n## Build\n\n```sh\n./build\n```\n\n## Related\n\n- [trash](https://github.com/sindresorhus/trash) - Cross-platform Node.js version\n- [empty-trash](https://github.com/sindresorhus/empty-trash) - Empty the trash\n- [macos-wallpaper](https://github.com/sindresorhus/macos-wallpaper) - Manage the desktop wallpaper\n- [do-not-disturb](https://github.com/sindresorhus/do-not-disturb) - Control the macOS `Do Not Disturb` feature\n- [More…](https://github.com/search?q=user%3Asindresorhus+language%3Aswift)"
 }

@@ -112,5 +112,6 @@
   "ruby_source_checksum": {
     "sha256": "e01ca72c136036f2fdb0bc6119551a91c903f09a609ac5a365b8b155031d532c"
   },
-  "date_added": "2017-02-08T10:09:05+00:00"
+  "date_added": "2017-02-08T10:09:05+00:00",
+  "readme": "vecx\n====\n\n![Vectrex Loading Screen](screenshot0.png) ![Star Trek](screenshot1.png)\n\nRequirements\n------------\n* `libsdl`\n* `sdl_gfx`\n* `sdl_image`\n\nUsage\n-----\n\nAuthors\n-------\n\n* Valavan Manohararajah - original author\n* [John Hawthorn](https://twitter.com/jhawthorn) - SDL port\n* [Nikita Zimin](https://twitter.com/nzeemin) - audio"
 }

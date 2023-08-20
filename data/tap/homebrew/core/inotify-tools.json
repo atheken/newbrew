@@ -84,5 +84,6 @@
   "ruby_source_checksum": {
     "sha256": "a6e7afbe0cba827f667ad2106476c4aa181d59f739dd75f676889f50ca49a28e"
   },
-  "date_added": "2022-01-31T12:22:50+00:00"
+  "date_added": "2022-01-31T12:22:50+00:00",
+  "readme": "[![GitHub Build Status](https://github.com/inotify-tools/inotify-tools/workflows/build/badge.svg)](https://github.com/inotify-tools/inotify-tools/actions)\n[![Travis Build Status](https://travis-ci.com/inotify-tools/inotify-tools.svg?branch=master)](https://travis-ci.com/inotify-tools/inotify-tools)\n[![Cirrus Build Status](https://api.cirrus-ci.com/github/inotify-tools/inotify-tools.svg?branch=master)](https://cirrus-ci.com/github/inotify-tools/inotify-tools)\n[![Coverity Build Status](https://scan.coverity.com/projects/23295/badge.svg)](https://scan.coverity.com/projects/inotifytools)\n[![Coverage Status](https://codecov.io/gh/inotify-tools/inotify-tools/coverage.svg?branch=master)](https://codecov.io/gh/inotify-tools/inotify-tools?branch=master)\n\ninotify-tools\n=============\n\nThis is a package of some commandline utilities relating to inotify.\n\nThe general purpose of this package is to allow inotify's features to be used\nfrom within shell scripts.  Read the man pages for further details."
 }

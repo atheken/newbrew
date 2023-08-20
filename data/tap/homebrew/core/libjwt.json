@@ -125,5 +125,6 @@
     "uses_from_macos": [],
     "uses_from_macos_bounds": []
   },
-  "date_added": "2018-01-19T05:13:22-08:00"
+  "date_added": "2018-01-19T05:13:22-08:00",
+  "readme": "![LibJWT Logo](https://user-images.githubusercontent.com/320303/33439880-82406da4-d5bc-11e7-8959-6d53553c1984.png)\n\n# JWT C Library\n\n[![Build Status](https://app.travis-ci.com/benmcollins/libjwt.svg?branch=master)](https://app.travis-ci.com/github/benmcollins/libjwt) [![codecov.io](http://codecov.io/github/benmcollins/libjwt/coverage.svg?branch=master)](http://codecov.io/github/benmcollins/libjwt?branch=master)\n\n[![View on JWT.IO](http://jwt.io/img/badge.svg)](https://jwt.io)\n\n## Build Requirements\n\n- https://github.com/akheron/jansson\n- OpenSSL or GnuTLS\n\n## Documentation\n\n[GitHub Pages](http://benmcollins.github.io/libjwt/)\n\n## Pre-built Packages\n\nLibJWT is available in most Linux distribitons as well as through [Homebrew](https://brew.sh/)\nfor macOS and Windows.\n\n## Build Instructions\n\n**With GNU Make:** Use ``autoreconf -i`` to create project files and run ``./configure``.\n- ``make all``: build library.\n- ``make check``: build and run test suite.\n- See INSTALL file for more details on GNU Auto tools and GNU Make.\n- Use the ``--without-openssl`` with ``./configure`` to use GnuTLS."
 }

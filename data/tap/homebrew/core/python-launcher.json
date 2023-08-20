@@ -110,5 +110,6 @@
   "ruby_source_checksum": {
     "sha256": "fb0a51472584d864ff164c6d9acf792b90b8b7afbfed0af98dca16f60f33b61a"
   },
-  "date_added": "2021-07-25T22:57:10+00:00"
+  "date_added": "2021-07-25T22:57:10+00:00",
+  "readme": "# The Python Launcher for Unix\n\nhttps://python-launcher.app is the full documentation for this project.\n\n## Motivation\n\nLaunch your Python interpreter the lazy/smart way!\n\nThis project is an implementation of the `py` command for Unix-based platforms\n(with some potential experimentation for good measure 😉).\n\n## Example\n\nTypical usage would be:\n\n```\npy -m venv .venv\npy ...  # Normal `python` usage.\n```\n\nThis creates a virtual environment in a `.venv` directory using the latest\nversion of Python installed. Subsequent uses of `py` will then use that virtual\nenvironment as long as it is in the current (or higher) directory; no\nenvironment activation required (although the Python Launcher supports activated\nenvironments as well)!"
 }

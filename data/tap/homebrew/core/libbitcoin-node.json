@@ -115,5 +115,6 @@
   "ruby_source_checksum": {
     "sha256": "347f641e5b26ede6388cf9ad585b49227b029f98bac7ed578f2ef8d490b56046"
   },
-  "date_added": "2017-09-26T21:48:25-07:00"
+  "date_added": "2017-09-26T21:48:25-07:00",
+  "readme": "This branch is not usable in its current state. Please see [version3](https://github.com/libbitcoin/libbitcoin-node/tree/version3) for the latest functional branch."
 }

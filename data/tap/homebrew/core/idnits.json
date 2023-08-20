@@ -69,5 +69,6 @@
   "ruby_source_checksum": {
     "sha256": "68e7ae9e02cbc7469605f2dabb739522b5f51ed3693df415f53a18df09586c43"
   },
-  "date_added": "2010-04-16T14:43:24-07:00"
+  "date_added": "2010-04-16T14:43:24-07:00",
+  "readme": "This is the active repository for idnits.\n\n**Note that the repository has been renamed from idnits-mirror to idnits**\n\nThis project began as a snapshot mirror of idnits-2.17 from https://tools.ietf.org/tools/idnits/.\n\n---\n\nFor the under development v3, see the [v3 branch](https://github.com/ietf-tools/idnits/tree/v3) instead."
 }

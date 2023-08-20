@@ -69,5 +69,6 @@
   "ruby_source_checksum": {
     "sha256": "3521a18e552f74408a032567aa226a4f3fc9509d1d0d3dd116a013185c3e42b9"
   },
-  "date_added": "2017-01-25T08:30:37+00:00"
+  "date_added": "2017-01-25T08:30:37+00:00",
+  "readme": "# rake-completion\nBash completion for [Rake](https://github.com/ruby/rake). Forked from [turadg/rake.sh](https://gist.github.com/turadg/840663).\n\n## Installation\n\n### Mac OS X via [Homebrew][homebrew]\n```\nbrew install rake-completion\n```\n\n### *nix from source\nDownload the [`rake.sh`](rake.sh) file from the repo and `source` it in your `~/.bashrc` file like so:\n```bash\nsource /path/to/rake.sh\n```\nThen close your terminal and re-open, or log out and log back in.\n\n[homebrew]: http://brew.sh"
 }

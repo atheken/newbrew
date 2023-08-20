@@ -132,5 +132,6 @@
   "ruby_source_checksum": {
     "sha256": "34d727eee6a029a1a23b2da7342e9fb0e80ed2d2e77d57ea64fd81f9b2777543"
   },
-  "date_added": "2015-06-08T08:36:02+01:00"
+  "date_added": "2015-06-08T08:36:02+01:00",
+  "readme": "dex\n===\n\nDextrous text editor\n\nCopyright 2010 Timo Hirvonen <tihirvon@gmail.com>\n\n\nIntroduction\n------------\n\ndex is a small and easy to use text editor. Colors and bindings can be\nfully customized to your liking.\n\nIt has some features useful to programmers, like ctags support and it\ncan parse compiler errors, but it does not aim to become an IDE.\n\n\nInstallation\n------------\n\nThe only dependencies are libc and ncurses.\n\nTo compile this program you need GNU make and a modern C-compiler\n(tested with gcc and clang).\n\nYou need to specify all options for both `make` and `make install`.\nAlternatively you can put your build options into a `Config.mk` file.\n\n\tmake prefix=$HOME\n\tmake prefix=$HOME install\n\nThe default prefix is `/usr/local` and `DESTDIR` works as usual. See the\ntop of the Makefile for more information."
 }

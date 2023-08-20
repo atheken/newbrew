@@ -130,5 +130,6 @@
   "ruby_source_checksum": {
     "sha256": "ed2749e39e75ca9d60d39f13abb5e511f9084b65bfcafd5886c2173905b61a80"
   },
-  "date_added": "2016-09-26T10:41:08+01:00"
+  "date_added": "2016-09-26T10:41:08+01:00",
+  "readme": "# httpdiff\n\nPerform the same request against two HTTP servers and diff the results. For\nbest results use in a terminal that supports ANSI escape sequences.\n\n# Installation\n\n```\ngo get github.com/jgrahamc/httpdiff\ngo install github.com/jgrahamc/httpdiff\n```\n\n# Usage\n\nSimple usage is to give it two URLs to fetch and it will diff the results. If\nthe bodies are different they are saved to temporary files.\n\n    httpdiff http://www.google.co.uk http://www.google.com/\n\nIt's also possible to set the Host header to something other than what's in\nthe URIs. This is sometimes useful when testing a temporary set up or when\nmoving servers.\n\n    httpdiff -host example.com http://example.old.com/ http://example.new.com\n\nSpecific headers can be ignored with the -ignore option\n\n    httpdiff -ignore Set-Cookie,Date http://x.com http://y.com\n\nThe default HTTP method is GET but that can be changed\n\n    httpdiff -method HEAD http://example.com http://example2.com\n\n# Output example on Hacker News showing that Date changes each time\n\n![HN](doc/example.png \"Checking two GETs of HN\")\n\n# Output example on Google showing difference between HTTP and HTTPS\n\n![HN](doc/example2.png \"HTTP vs. HTTPS\")"
 }

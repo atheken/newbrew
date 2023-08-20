@@ -124,5 +124,6 @@
   "ruby_source_checksum": {
     "sha256": "3516205bf08d7ad5f7ada68750df5e1a484c2ccc334ab38f241503a7542c5873"
   },
-  "date_added": "2014-01-05T13:15:19+00:00"
+  "date_added": "2014-01-05T13:15:19+00:00",
+  "readme": "nbimg\n=====\n\nSmartphone boot splash screen converter (for Android and winCE).\n\nFor more information see the original relase post:\n\nhttp://pof.eslack.org/2008/07/03/nbimg-htc-splash-screen-tool/\n\n**Binary Downloads:**\n\nSee the [download page](https://github.com/poliva/nbimg/downloads) for a precompiled Windows, MacOS and Linux versions."
 }

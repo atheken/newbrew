@@ -109,5 +109,6 @@
   "ruby_source_checksum": {
     "sha256": "710476f5e83b5c6431045e278d06106eed938829fb93a46b9f7b8f81199cd5ea"
   },
-  "date_added": "2011-08-18T18:35:01+01:00"
+  "date_added": "2011-08-18T18:35:01+01:00",
+  "readme": "This is an encoder for [JBIG2](fcd14492.pdf).\n\nJBIG2 encodes bi-level (1 bpp) images using a number of clever tricks to get\nbetter compression than G4. This encoder can:\n   * Generate JBIG2 files, or fragments for embedding in PDFs\n   * Generic region encoding\n   * Perform symbol extraction, classification and text region coding\n   * Perform refinement coding and,\n   * Compress multipage documents\n\nIt uses the (Apache-ish licensed) Leptonica library:\n  http://leptonica.com/\n\nYou'll need version 1.68.\n\n## Known bugs\n\nThe refinement coding causes Acrobat to crash. It's not known if this is a bug\nin Acrobat, though it may well be.\n\n\n## Usage\n\nSee the `jbig2enc.h` header for the high level API, or the `jbig2` program for an\nexample of usage:\n\n```\n$ jbig2 -s -p -v *.jpg && pdf.py output >out.pdf\n```\n\nto encode jbig2 files for pdf creation.\nIf you want to encode an image and then view output first to include in pdf\n\n```\n$ jbig2 -s -S -p -v -O out.png *.jpg\n```\n\nIf you want to encode an image as jbig2 (can be view in STDU Viewer) run:\n\n```\n$ jbig2 -s feyn.tif &gt;feyn.jb2\n```"
 }

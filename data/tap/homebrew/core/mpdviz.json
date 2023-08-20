@@ -99,5 +99,6 @@
   "ruby_source_checksum": {
     "sha256": "db989e1b9ddbf88ef1d6fe2ccc2eab43ada8258267c0bc8844d4519cd3b62443"
   },
-  "date_added": "2014-04-23T23:14:25-07:00"
+  "date_added": "2014-04-23T23:14:25-07:00",
+  "readme": "MPDViz\n------\nThis is a console visualizer for MPD. It has three modes:\n\n![spectrum](http://goput.it/ji6.gif \"spectrum\")\n\n![wave](http://goput.it/hnq.gif \"wave\")\n\n![lines](http://goput.it/s9d.gif \"lines\")\n\n\n    Usage of mpdviz:\n      -c, --color=\"default\"        Color to use\n      -d, --dim=false              Turn off bright colors where possible\n      -f, --file=\"/tmp/mpd.fifo\"   Where to read pcm data from\n      -i, --icolor=false           Color bars according to intensity (spectrum/lines)\n          --imode=\"dumb\"           Mode for colorisation (dumb, 256 or grayscale)\n          --scale=2                Scale divisor (spectrum)\n          --step=2                 Samples for each step (wave/lines)\n      -v, --viz=\"wave\"             Visualisation (spectrum, wave or lines)"
 }

@@ -120,5 +120,6 @@
   "ruby_source_checksum": {
     "sha256": "9c7cfc5a4939fb586e9cdf168ad9ab69f3128c07ad4e3b7d8d3a62c75b778649"
   },
-  "date_added": "2012-10-02T10:58:11-07:00"
+  "date_added": "2012-10-02T10:58:11-07:00",
+  "readme": "pngpaste\n========\n\nPaste PNG into files on MacOS, much like `pbpaste` does for text.\n\nHowever instead of `pngpaste > thefile.png`, it's `pngpaste thefile.png`,\nso one does not accidentally barf binary into the console.\n\n### Motivation\n\n[http://apple.stackexchange.com/q/11100/4795](http://apple.stackexchange.com/q/11100/4795)\n\n### Build\n\n    $ make all\n\n### Installation\n\nFrom source:\n\n    $ make all\n    $ sudo make install\n\nOr with Homebrew:\n\n    $ brew install pngpaste\n\n### Usage\n\n    $ pngpaste hooray.png\n\n### Bonus and Disclaimers\n\nSupported input formats are PNG, PDF, GIF, TIF, JPEG.\n\nSupported output formats are PNG, GIF, JPEG, TIFF.\n\nOutput formats are determined by the provided filename extension,\nfalling back to PNG.\n\nIt's unclear if EXIF data in JPEG sources are preserved. There's an\nissue with pasting into JPEG format from a GIF source.\n\n### Error Handling\n\nMinimal :'("
 }

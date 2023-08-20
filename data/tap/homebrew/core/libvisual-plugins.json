@@ -118,5 +118,6 @@
   "ruby_source_checksum": {
     "sha256": "d4872f1550e2b0202146ad47fe2ccb12bc3d8a9544302da369661a2fade15b6e"
   },
-  "date_added": "2023-04-24T21:14:10+02:00"
+  "date_added": "2023-04-24T21:14:10+02:00",
+  "readme": "[![Build and test (Linux)](https://github.com/Libvisual/libvisual/actions/workflows/linux.yml/badge.svg)](https://github.com/Libvisual/libvisual/actions/workflows/linux.yml)\n[![Build and test (Windows, mingw-w64)](https://github.com/Libvisual/libvisual/actions/workflows/windows.yml/badge.svg)](https://github.com/Libvisual/libvisual/actions/workflows/windows.yml)\n\n# Welcome to Libvisual!\n\n\n# Branches of Interest\n\n- [`0.4.x`](https://github.com/Libvisual/libvisual/tree/0.4.x) —\n  targets version 0.4.x,\n  uses C99 and C++11,\n  maintenance,\n  bugfixes only\n\n- [`master`](https://github.com/Libvisual/libvisual/tree/master) —\n  targets version 0.5.x and beyond,\n  uses C11 and C++20,\n  development\n\n\n# Building Libvisual\n\n- [Building Libvisual 0.4.x on Ubuntu/Debian](https://github.com/Libvisual/libvisual/blob/0.4.x/.github/workflows/linux.yml) using GNU Autotools\n- [Building Libvisual 0.5.x on Ubuntu/Debian](https://github.com/Libvisual/libvisual/blob/master/.github/workflows/linux.yml) using CMake\n\n\n# Documentation\n\nThere is a [GitHub Wiki](https://github.com/Libvisual/libvisual/wiki) on Libvisual with more information."
 }

@@ -126,5 +126,6 @@
   "ruby_source_checksum": {
     "sha256": "415ac7061bfd441c32842334e988872e29b9a2e8c0487c819ce3eda80499d9b2"
   },
-  "date_added": "2013-11-18T10:21:14-06:00"
+  "date_added": "2013-11-18T10:21:14-06:00",
+  "readme": "clens\n========\n\nclens is a convenience library to aid in porting code from OpenBSD to\ndifferent operating systems. Operating systems traditionally have\ndifferent enough APIs that porting code is painful and can litter pretty\ncode with ugly #ifdef goo. In order to keep code readable and\ndrastically reduce the number of #ifdefs needed, clens brings other APIs\nor missing functions into specific OS \"focus\". All our code is primarily\ndeveloped on OpenBSD and clens brings OpenBSD specific calls to other\noperating systems. As a result, clens is not required when running\nOpenBSD code.\n\n## License\n\nclens is licensed under the liberal ISC License."
 }

@@ -122,5 +122,6 @@
   "ruby_source_checksum": {
     "sha256": "3441da8b6fd859851fcf4589c57c453a272b06d46891cbb76700070783c4493c"
   },
-  "date_added": "2013-08-07T09:41:25-07:00"
+  "date_added": "2013-08-07T09:41:25-07:00",
+  "readme": "<div align=\"center\">\n <img src=\"website/static/img/logo.png\" width=\"20%\" height=\"20%\" alt=\"watchman-logo\">\n <h1>Watchman</h1>\n <h3>A file watching service.</h3>\n</div>\n\n## Purpose\n\nWatchman exists to watch files and record when they actually change. It can\nalso trigger actions (such as rebuilding assets) when matching files change.\n\n## Documentation\n\nHead on over to https://facebook.github.io/watchman/\n\n## License\n\nWatchman is made available under the terms of the MIT License. See the\nLICENSE file that accompanies this distribution for the full text of the\nlicense.\n\n## Support\n\nWatchman is primarily maintained by the source control team at Meta Platforms, Inc. We support:\n\n* Windows and macOS builds\n* Linux builds on recent Ubuntu and Fedora releases\n* Watchman's [compatibility commitment](https://facebook.github.io/watchman/docs/compatibility.html)\n* Python, Rust, and JavaScript clients\n\nSupport for additional operating systems, release packaging, and language bindings is community-maintained:\n\n* Homebrew\n* FreeBSD\n* Solaris\n\nPlease submit a [GitHub issue](https://github.com/facebook/watchman/issues/) to report any troubles.\n\n## Contributing\n\nPlease see the [contributing guide](https://facebook.github.io/watchman/contributing.html)."
 }

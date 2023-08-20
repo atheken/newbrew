@@ -75,5 +75,6 @@
   "ruby_source_checksum": {
     "sha256": "6501479145c30b49ca859831bf3686e616e9dd3d26a722f21eb5898cfa475c29"
   },
-  "date_added": "2013-06-10T11:04:05-07:00"
+  "date_added": "2013-06-10T11:04:05-07:00",
+  "readme": "# Aliases for rbenv Ruby versions\n\nInvoke `rbenv alias <name> <version>` to make a symbolic link from `<name>` to\n`<version>` in the [rbenv][] versions directory, effectively creating an\nalias.  The cool part is that if you pass in a point release as the name, you\ncan give `--auto` to link to the latest installed patch level.  For example,\n`rbenv alias 1.8.7 --auto` will automatically create an alias from `1.8.7` to\n`1.8.7-p371` (or whatever the most recent version you have installed is).\n\nPlus, if you're using [ruby-build][], `rbenv install A.B.C-pXXX` automatically\ninvokes `rbenv alias A.B.C --auto`, so you'll always have up to date aliases\nfor point releases.\n\nWhether it's a good idea to use these aliases in a `.ruby-version` file, I\ncannot say.  I created this plugin to find out.  If your only concern is\nhaving to reinstall gems every time you install a new patch release, check out\n[rbenv-communal-gems][].\n\n## Installation\n\n    mkdir -p \"$(rbenv root)/plugins\"\n    git clone https://github.com/tpope/rbenv-aliases.git \\\n      \"$(rbenv root)/plugins/rbenv-aliases\" &&\\\n    rbenv alias --auto\n\n[rbenv]: https://github.com/sstephenson/rbenv\n[ruby-build]: https://github.com/sstephenson/ruby-build\n[rbenv-communal-gems]: https://github.com/tpope/rbenv-communal-gems"
 }

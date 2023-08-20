@@ -111,5 +111,6 @@
   "ruby_source_checksum": {
     "sha256": "33f7db18861dce253e56bc7f279e52e325e64b89689c327a3068cb0add3910a6"
   },
-  "date_added": "2022-02-03T11:12:02+00:00"
+  "date_added": "2022-02-03T11:12:02+00:00",
+  "readme": "# ESPHome [![Discord Chat](https://img.shields.io/discord/429907082951524364.svg)](https://discord.gg/KhAMKrd) [![GitHub release](https://img.shields.io/github/release/esphome/esphome.svg)](https://GitHub.com/esphome/esphome/releases/)\n\n[![ESPHome Logo](https://esphome.io/_images/logo-text.png)](https://esphome.io/)\n\n**Documentation:** https://esphome.io/\n\nFor issues, please go to [the issue tracker](https://github.com/esphome/issues/issues).\n\nFor feature requests, please see [feature requests](https://github.com/esphome/feature-requests/issues)."
 }

@@ -101,5 +101,6 @@
   "ruby_source_checksum": {
     "sha256": "a672176f69145e95d549adf581c96c9a616fa41ebf3bf2a849ae0eafa17d512f"
   },
-  "date_added": "2014-01-02T10:53:59+00:00"
+  "date_added": "2014-01-02T10:53:59+00:00",
+  "readme": "[![Build Status](https://travis-ci.org/lpenz/atdtool.svg?branch=master)](https://travis-ci.org/lpenz/atdtool)\n[![codecov](https://codecov.io/gh/lpenz/atdtool/branch/master/graph/badge.svg)](https://codecov.io/gh/lpenz/atdtool)\n[![PyPi version](https://img.shields.io/pypi/v/atdtool.png)](https://pypi.python.org/pypi/atdtool)\n\n\natdtool\n=======\n\n**atdtool** is a command-line tools that contacts an After the Deadline language\nservice and displays the errors reported by the service in a format very similar\nto gcc's.\n\n**After the Deadline** is a language checker that is able to:\n- spell check contextually\n- check style\n- check grammar\n\n\nThe official server is free for personal use. They provide a free server for\ncommercial use. atdtool can be used with the default server or with a\ncustom one."
 }

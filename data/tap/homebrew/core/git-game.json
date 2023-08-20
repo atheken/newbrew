@@ -73,5 +73,6 @@
   "ruby_source_checksum": {
     "sha256": "8f1a135459bf721b1ef99177c8ab7e40f1ea2798e9fb5bacefe75ed65ca3f44d"
   },
-  "date_added": "2017-02-08T10:08:51+00:00"
+  "date_added": "2017-02-08T10:08:51+00:00",
+  "readme": "# The git committer guessing game!\n\n## What is it?\n\nIn the git game, you guess who made a commit to your team's repo based on their commit message:\n\n![](https://cloud.githubusercontent.com/assets/21294/6428030/ba13a98c-bf60-11e4-92fa-ae25302e9a84.png)\n\nThe goal is to get the longest streak! (It's harder than you think...)\n\n## Installation\n\n### Homebrew\n```sh\nbrew install git-game\n```\n### Download latest release\n\n- [Download the `git-game` executable](https://github.com/jsomers/git-game/releases/latest)\n- Put it somewhere on your PATH (like /usr/local/bin)\n\n## How do I play?\n\nIn any git repository, run:\n```sh\ngit game\n```\n### Difficulty\n\nThe game defaults to normal difficulty, try this for a challenge:\n\n```sh\ngit game --hard\n```\n\n### Extra options\n\nIf you'd like, you can select a subset of commits, for example; after August 8th 2014. Try:\n\n```sh\ngit game --after={2014-08-08}\n```\nMost git log options are support. See [Git - git-log documentation](https://git-scm.com/docs/git-log)\n\n## Requirements\n\n- Requires Ruby >1.8\n\n## \"I can't get it to work\", \"It would be cool if you could...\", etc.\n\nPull requests welcome!"
 }

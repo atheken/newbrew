@@ -125,5 +125,6 @@
   "ruby_source_checksum": {
     "sha256": "a0165cdf00765fae515950ce01992d8fffa5a4566ebbdbaa2fd988f53f35729b"
   },
-  "date_added": "2019-01-21T21:19:09+01:00"
+  "date_added": "2019-01-21T21:19:09+01:00",
+  "readme": "# OSX CPU Temp\n\nOutputs current CPU temperature for OSX.\n\n## Usage\n\n### Compiling\n\n```bash\nmake\n```\n\n### Running\n\n```bash\n./osx-cpu-temp\n```\n\nor\n\n```bash\nsudo make install # installs to /usr/local/bin\nosx-cpu-temp\n```\n\n### Using clib\n\n```bash\nclib install lavoiesl/osx-cpu-temp\n```\n\n### Output example\n\n```\n61.8 °C\n```\n\n### Options\n\n* Output\n    * `-c` Display CPU temperature (Default).\n    * `-g` Display GPU temperature.\n    * `-a` Display ambient temperature.\n    * `-f` Display fan speeds.\n* Format\n    * `-C` Display temperatures in degrees Celsius (Default).\n    * `-F` Display temperatures in degrees Fahrenheit.\n    * `-T` Do not display the units for temperatures.\n\n## Maintainer\n\nSébastien Lavoie <github@lavoie.sl>\n\n### Source\n\nApple System Management Control (SMC) Tool\nCopyright (C) 2006\n\n### Inspiration\n\n * https://www.eidac.de/smcfancontrol/\n * https://github.com/hholtmann/smcFanControl/tree/master/smc-command"
 }

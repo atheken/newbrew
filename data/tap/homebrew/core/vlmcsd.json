@@ -130,5 +130,6 @@
   "ruby_source_checksum": {
     "sha256": "d94a38d14252c807b4995b012db68d1361c49431852a548f173a1a8b249fcea5"
   },
-  "date_added": "2020-05-02T21:54:01+00:00"
+  "date_added": "2020-05-02T21:54:01+00:00",
+  "readme": "To view the documentation cd to the directory containing the distribution\nfiles and type\n\nman man/vlmcsd.8\n\tto see documentation for vlmcsd\n\nman man/vlmcs.1\n\tto see documentation for vlmcs\n\nman man/vlmcsd.7\n\tto see general documentation for kms\n\nIf you don't have man, you may also use the .txt, .html and .pdf files\nin the man directory"
 }

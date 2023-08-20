@@ -136,5 +136,6 @@
   "ruby_source_checksum": {
     "sha256": "4c6ad9cc49206c0d493f30c7cff87f08b2f2ab590b952eb73e1ba2945ef297cd"
   },
-  "date_added": "2011-03-26T08:48:35-07:00"
+  "date_added": "2011-03-26T08:48:35-07:00",
+  "readme": " ABOUT\n\n tcpstat is a simple program which can be used to monitor active TCP\n connections. Think about a cross between 'top' and 'netstat'. \n\n Tcpstat is written in C and uses ncurses for UI. While still pretty much under\n the development, the program has reached a state where it might actually be\n usefull. If it only had proper help and man pages. \n\n Tcpstat supports currently Linux, OpenBSD and OS X systems. Not all functionality\n is yet available on OpenBSD or OS X.\n\n LICENSING \n\n The program is licensed under two-clause BSD license. \n\n BUILDING and INSTALLING\n\n Note that currently GNU make is needed to build the program on OpenBSD or OS X.\n\n Edit the Makefile to suit your needs. Type '(g)make' optionally followed by\n '(g)make install'\n\n If you want to enable the debug information, edit src/defs.h and remove\n comments around #define DEBUG. Then rebuild the application. If built with\n debugging enabled, the program will write debug information to file debug.txt.\n\n RUNNING \n\n The program has '--help' option which should provide some information on the\n available command line parameters.\n\n CONTACT\n\n Send all bug reports, improvement ideas and such to jtaimisto@gmail.com."
 }

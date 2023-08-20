@@ -130,5 +130,6 @@
   "ruby_source_checksum": {
     "sha256": "cef4ed2366458d2e2b4fec6912ce29cab556ba92694cb07149bed03f0c37ab92"
   },
-  "date_added": "2011-07-30T10:19:03-07:00"
+  "date_added": "2011-07-30T10:19:03-07:00",
+  "readme": "nesC\n====\n\n**nesC** (pronounced \"NES-see\") is an extension to the C programming language\ndesigned to embody the structuring concepts and execution model of TinyOS.\nTinyOS is an event-driven operating system designed for sensor network nodes\nthat have very limited resources (e.g., 8K bytes of program memory, 512 bytes\nof RAM). \n\nRequirements\n------------\n\nTo build nesC from source requires the following packages:\n\n- automake\n- autoconf (2.64 or 2.69 or later. 2.67 and 2.68 are known not to work.)\n- emacs (not version 24.3)\n- gperf\n- bison\n- flex\n\nInstall\n-------\n\n    ./Bootstrap\n    ./configure\n    make\n    make install\n\nUsage\n-----\n\nPlease reference `man nescc`."
 }

@@ -112,5 +112,6 @@
   "ruby_source_checksum": {
     "sha256": "80d23d77d8c356694f53c55d0f69aeaef164015d7c0f2cdba7510b15791ce19b"
   },
-  "date_added": "2018-04-30T03:46:25-07:00"
+  "date_added": "2018-04-30T03:46:25-07:00",
+  "readme": "This branch is not usable in its current state. Please see [version3](https://github.com/libbitcoin/libbitcoin-client/tree/version3) for the latest functional branch."
 }
