@@ -15,7 +15,8 @@ for i in `find ./data/tap -name *.json`; do
             (
             content=$((curl -H "$AUTH_HEADER" -sq $readme | jq -r .content | base64 -d) || echo -n '')
             if [[ -n "$content" ]]; then
-                jq --arg readme "$content" '. + { readme: $readme }' $i > $i
+                jq --arg readme "$content" '. + { readme: $readme }' $i > $i.enhanced
+                mv $i.enhanced > $i
             else
                 echo 'Requested readme content is empty, this could be due to rate-limiting. TBD.'
             fi

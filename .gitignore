@@ -7,3 +7,4 @@ site/
 .idea
 generator/input/public/main.css
 generator/nohup.out
+*.enhanced
