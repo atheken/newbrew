@@ -10,7 +10,7 @@ for i in `find ./data/tap -name *.json`; do
         [ -n "$GITHUB_TOKEN" ] && AUTH_HEADER="Authorization: token $GITHUB_TOKEN"
 
         if ! (jq -e '.readme' $i ) ; then
-            
+            echo 'Getting readme for ' $i
             readme=$(echo -n $homepage | sed -E 's#github.com/(.+)#api.github.com/repos/\1/readme#g')
             (
             content=$((curl -H "$AUTH_HEADER" -sq $readme | jq -r .content | base64 -d) || echo -n '')

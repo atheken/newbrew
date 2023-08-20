@@ -26,13 +26,14 @@ jobs:
         uses: actions/checkout@v2
       - name: Update the repo with new formulae.
         run: |
-          docker run -v $PWD:/work -w /work --rm -i localbrew <<SCRIPT
+          docker run -e GITHUB_TOKEN -v $PWD:/work -w /work --rm -i localbrew <<SCRIPT
           git checkout ${{ github.ref_name }}
       
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
       
           ./scripts/get-formula-data
+          ./scripts/enrich-with-readme
           ./scripts/commit-if-pending
           SCRIPT
       - name: Push repo
