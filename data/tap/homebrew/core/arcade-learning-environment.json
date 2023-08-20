@@ -1,0 +1,129 @@
+{
+  "name": "arcade-learning-environment",
+  "full_name": "arcade-learning-environment",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Platform for AI research",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/mgbellemare/Arcade-Learning-Environment",
+  "versions": {
+    "stable": "0.8.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mgbellemare/Arcade-Learning-Environment.git",
+      "tag": "v0.8.1",
+      "revision": "ba84c1480008aa606ebc1efd7a04a7a7729796d4",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/mgbellemare/Arcade-Learning-Environment.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:287d60790b07e38192dfebfb30e7610d8b78713cf034b83758d665377d215e25",
+          "sha256": "287d60790b07e38192dfebfb30e7610d8b78713cf034b83758d665377d215e25"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:aaff14df45237f951184d547b292c4ac81c44b58365847d7b5ea4ffe2d6fbca7",
+          "sha256": "aaff14df45237f951184d547b292c4ac81c44b58365847d7b5ea4ffe2d6fbca7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:2bdda57bca0c681578ea6ab983795e089c4f81cb09c5e80cad264f07923dd3c4",
+          "sha256": "2bdda57bca0c681578ea6ab983795e089c4f81cb09c5e80cad264f07923dd3c4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:db6349ef4ab6ae4cd2a0b47a68e8c0e41644677a1f3db6995a9693a337695ce7",
+          "sha256": "db6349ef4ab6ae4cd2a0b47a68e8c0e41644677a1f3db6995a9693a337695ce7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:ba9280f972eb5ab2a305b29c5c0ba8f409e1236f2b570097ecdf5e44b7cf4ad4",
+          "sha256": "ba9280f972eb5ab2a305b29c5c0ba8f409e1236f2b570097ecdf5e44b7cf4ad4"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:b136f842d9edc8ace1844242642d4b797551b0d0bd2b3fde07bf5269153247ce",
+          "sha256": "b136f842d9edc8ace1844242642d4b797551b0d0bd2b3fde07bf5269153247ce"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/arcade-learning-environment/blobs/sha256:64f5f513b6373d1d7045d52e607c18bbb9eff0a8afe722322642f17b301877ad",
+          "sha256": "64f5f513b6373d1d7045d52e607c18bbb9eff0a8afe722322642f17b301877ad"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "numpy",
+    "python@3.11",
+    "sdl2"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.15",
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/arcade-learning-environment.rb",
+  "ruby_source_checksum": {
+    "sha256": "e5b89e238d421b00aea439434e0655d40f5b12b80afc60123c811b5a0360ea6a"
+  },
+  "date_added": "2017-12-14T04:24:39-08:00"
+}

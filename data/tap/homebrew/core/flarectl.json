@@ -1,0 +1,109 @@
+{
+  "name": "flarectl",
+  "full_name": "flarectl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI application for interacting with a Cloudflare account",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/cloudflare/cloudflare-go/tree/master/cmd/flarectl",
+  "versions": {
+    "stable": "0.73.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cloudflare/cloudflare-go/archive/v0.73.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "21a507f43526f16b8bc1a2511f319454735160d4f7a9b05437465cbcd812bf9f"
+    },
+    "head": {
+      "url": "https://github.com/cloudflare/cloudflare-go.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45",
+          "sha256": "ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45",
+          "sha256": "ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45",
+          "sha256": "ba781ed0b1379bebd5d775ef265e4f143b05377f73b3b2e206a8aa91063def45"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1",
+          "sha256": "880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1",
+          "sha256": "880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1",
+          "sha256": "880342297ea4f78ff8f2b91e128837e8b5a61f2144fbcb2820f07f4528c76ef1"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flarectl/blobs/sha256:6990bda51bf7f94b8e197f6cb00b8af06def933656f13b324e718f7a6e18d725",
+          "sha256": "6990bda51bf7f94b8e197f6cb00b8af06def933656f13b324e718f7a6e18d725"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/flarectl.rb",
+  "ruby_source_checksum": {
+    "sha256": "9d8fc6c96787c36f0b1e73ecf04d271819d7ca9fb14a66c8200311cd55565783"
+  },
+  "date_added": "2020-05-09T05:04:57+00:00"
+}

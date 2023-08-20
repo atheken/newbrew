@@ -1,0 +1,107 @@
+{
+  "name": "dafny",
+  "full_name": "dafny",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Verification-aware programming language",
+  "license": "MIT",
+  "homepage": "https://github.com/dafny-lang/dafny/blob/master/README.md",
+  "versions": {
+    "stable": "4.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/dafny-lang/dafny/archive/refs/tags/v4.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b3f23c9fd7cb13ffa785928ca6a8b61da316564000948ce00eda2ac3d087760a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:400e27e03e51b89dd4c2898b52a26dc23614d1eae927bf19fe3b8bda2cdf0689",
+          "sha256": "400e27e03e51b89dd4c2898b52a26dc23614d1eae927bf19fe3b8bda2cdf0689"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:bf0071788f21220143ede462f73a3efc0d84859f2860aedcade09067793a2f9f",
+          "sha256": "bf0071788f21220143ede462f73a3efc0d84859f2860aedcade09067793a2f9f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:a91553e15fcd64f3e46eaff906228f60e5f16b747e3ccc84157295b98533c8d5",
+          "sha256": "a91553e15fcd64f3e46eaff906228f60e5f16b747e3ccc84157295b98533c8d5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:e466bcdc357080ea39c1d5ea2161b3d0ef4e034ae1405fd79e4a3ac78c5e262a",
+          "sha256": "e466bcdc357080ea39c1d5ea2161b3d0ef4e034ae1405fd79e4a3ac78c5e262a"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:b1eab1ae0988638e737b556dacb0e3a8ce2235042dcec646d83fb6b0bd5e4492",
+          "sha256": "b1eab1ae0988638e737b556dacb0e3a8ce2235042dcec646d83fb6b0bd5e4492"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:2c4ba020f8ad3a45db63e5de990aaba17f67ecd14539b61cec697d3bb3f020f0",
+          "sha256": "2c4ba020f8ad3a45db63e5de990aaba17f67ecd14539b61cec697d3bb3f020f0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dafny/blobs/sha256:d30205455cc20d5cc7bb4c843dc7f980f3022f6c31cb3d56201755c680781bcb",
+          "sha256": "d30205455cc20d5cc7bb4c843dc7f980f3022f6c31cb3d56201755c680781bcb"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "dotnet@6",
+    "openjdk@17",
+    "z3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dafny.rb",
+  "ruby_source_checksum": {
+    "sha256": "0ed3259e8b44367b706453ab0f1f92954bcf749ce07375009a6d1f7fe01f5c8a"
+  },
+  "date_added": "2019-10-02T14:08:29-04:00"
+}

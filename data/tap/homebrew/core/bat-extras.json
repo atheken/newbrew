@@ -1,0 +1,109 @@
+{
+  "name": "bat-extras",
+  "full_name": "bat-extras",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bash scripts that integrate bat with various command-line tools",
+  "license": "MIT",
+  "homepage": "https://github.com/eth-p/bat-extras",
+  "versions": {
+    "stable": "2023.06.15",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/eth-p/bat-extras/archive/refs/tags/v2023.06.15.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8a4dbf5b09c11ce1ad605118c73cbf6635ec2b07b5723f9a02417ba10da1ef14"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:c8e91eec17c5d0fce07c5b5a99ab65ff8928bbc660eb42db2060798d2488e7e0",
+          "sha256": "c8e91eec17c5d0fce07c5b5a99ab65ff8928bbc660eb42db2060798d2488e7e0"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:1256043dbd483fe9ee7904c9815e760f4ea416f0b9f814e69be7ec5025a0ca05",
+          "sha256": "1256043dbd483fe9ee7904c9815e760f4ea416f0b9f814e69be7ec5025a0ca05"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:a7ee2d204e2b4ca87408e9aa9ca6ea9e610bca2cebfeb45f2403e0c694355411",
+          "sha256": "a7ee2d204e2b4ca87408e9aa9ca6ea9e610bca2cebfeb45f2403e0c694355411"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:d6cda9621a5b9edc1f8ae92858330212414038532d0a9059876d2529a2efedfd",
+          "sha256": "d6cda9621a5b9edc1f8ae92858330212414038532d0a9059876d2529a2efedfd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:52407df18f8ad9aa2241709b8492654223971e5c78a9560eb442bdd9edd5d18a",
+          "sha256": "52407df18f8ad9aa2241709b8492654223971e5c78a9560eb442bdd9edd5d18a"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:f525b2a85e444856ce9eaabdcc53ede36a8a82a3e889e48b7746ae9eaa961f17",
+          "sha256": "f525b2a85e444856ce9eaabdcc53ede36a8a82a3e889e48b7746ae9eaa961f17"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bat-extras/blobs/sha256:4e4d50135be056aacb48b26bdfbd9daa468e4f8debf65d998ce0d38713975282",
+          "sha256": "4e4d50135be056aacb48b26bdfbd9daa468e4f8debf65d998ce0d38713975282"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "bat",
+    "shfmt"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "bat",
+    "ripgrep"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bat-extras.rb",
+  "ruby_source_checksum": {
+    "sha256": "ce1958117867475deb592624d15152f29ea3ba4f312f31cc8b3528a4711d6347"
+  },
+  "date_added": "2021-09-14T15:38:01+00:00"
+}

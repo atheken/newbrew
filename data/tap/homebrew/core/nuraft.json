@@ -1,0 +1,108 @@
+{
+  "name": "nuraft",
+  "full_name": "nuraft",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C++ implementation of Raft core logic as a replication library",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/eBay/NuRaft",
+  "versions": {
+    "stable": "2.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/eBay/NuRaft/archive/v2.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "42d19682149cf24ae12de0dabf70d7ad7e71e49fbfa61d565e9b46e2b3cd517f"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:17cdd2860bbcd32bfa028c1706c02da066a796b0f1abfca96c76bdbcb05ca012",
+          "sha256": "17cdd2860bbcd32bfa028c1706c02da066a796b0f1abfca96c76bdbcb05ca012"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:5d024f15a5a6644bb74b7293ab5939376e9115102c3dcf466d9ef209496a27c4",
+          "sha256": "5d024f15a5a6644bb74b7293ab5939376e9115102c3dcf466d9ef209496a27c4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:46efae0c6123d49ce9cf3f9f4798b4a556bf55e1cf7fbb1aaa12ce6b458613b8",
+          "sha256": "46efae0c6123d49ce9cf3f9f4798b4a556bf55e1cf7fbb1aaa12ce6b458613b8"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:e38d6cbd1be543fc3ee42ce4573309c0f058c83d8151519f9ce9272c4edd82f3",
+          "sha256": "e38d6cbd1be543fc3ee42ce4573309c0f058c83d8151519f9ce9272c4edd82f3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:81250cae0a2c2ef68e88b1ab3e0f394d6ad803f257e23cac33ce07c7f4bfbe93",
+          "sha256": "81250cae0a2c2ef68e88b1ab3e0f394d6ad803f257e23cac33ce07c7f4bfbe93"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:668d54563b382c1160246452e6cf54fd6832c238e33731613d6537418f474b0a",
+          "sha256": "668d54563b382c1160246452e6cf54fd6832c238e33731613d6537418f474b0a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nuraft/blobs/sha256:72a6fa91392aacbbc97f42a17330a2bc0c4b38dc97c3477f87b6c9c90474bd28",
+          "sha256": "72a6fa91392aacbbc97f42a17330a2bc0c4b38dc97c3477f87b6c9c90474bd28"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "asio",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nuraft.rb",
+  "ruby_source_checksum": {
+    "sha256": "b47f14feedceecd19a6cee73189fc5db661b8eaeb647a8572b8ca1db03a0b210"
+  },
+  "date_added": "2022-09-26T15:50:56+00:00"
+}

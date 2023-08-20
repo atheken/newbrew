@@ -1,0 +1,111 @@
+{
+  "name": "srtp",
+  "full_name": "srtp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementation of the Secure Real-time Transport Protocol",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/cisco/libsrtp",
+  "versions": {
+    "stable": "2.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cisco/libsrtp/archive/v2.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8a43ef8e9ae2b665292591af62aa1a4ae41e468b6d98d8258f91478735da4e09"
+    },
+    "head": {
+      "url": "https://github.com/cisco/libsrtp.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:61764349ccd575995fd3a57b64dc01dedf492c5b68bc17e8b8226e3ca2f96d2a",
+          "sha256": "61764349ccd575995fd3a57b64dc01dedf492c5b68bc17e8b8226e3ca2f96d2a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:c4c7bbe9147a421ff2fa25b20212102b3d714abbe388ddf28f7ede003aba67d3",
+          "sha256": "c4c7bbe9147a421ff2fa25b20212102b3d714abbe388ddf28f7ede003aba67d3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:968b9151d48402479dff561d838c218d61632d559678d1cb240814e9c99450ae",
+          "sha256": "968b9151d48402479dff561d838c218d61632d559678d1cb240814e9c99450ae"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:cbdd3341c2290cbebbd14aed97744c6202c2bfed400bfbda88ae7abc66c754c2",
+          "sha256": "cbdd3341c2290cbebbd14aed97744c6202c2bfed400bfbda88ae7abc66c754c2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:51e703779b38bc59455cd6f47e54f6a8bbcd9884f9e00671cd5a28696981cda7",
+          "sha256": "51e703779b38bc59455cd6f47e54f6a8bbcd9884f9e00671cd5a28696981cda7"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:b02f6996d47db4e07d3063dc444863cf01b921e4034431f7ddcc66bb9d33a75a",
+          "sha256": "b02f6996d47db4e07d3063dc444863cf01b921e4034431f7ddcc66bb9d33a75a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/srtp/blobs/sha256:1a183bda0f672698897b793f85a2267e742784e0362f2e4cfc27c0d2a52c5e2e",
+          "sha256": "1a183bda0f672698897b793f85a2267e742784e0362f2e4cfc27c0d2a52c5e2e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/srtp.rb",
+  "ruby_source_checksum": {
+    "sha256": "6534fbba9b72a4c56f0f84f403234a7fd8a018f75348f723da21d3779947bb98"
+  },
+  "date_added": "2013-01-30T09:07:24-08:00"
+}

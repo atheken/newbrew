@@ -1,0 +1,94 @@
+{
+  "name": "cpu_features",
+  "full_name": "cpu_features",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cross platform C99 library to get cpu features at runtime",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/google/cpu_features",
+  "versions": {
+    "stable": "0.8.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/cpu_features/archive/v0.8.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7021729f2db97aa34f218d12727314f23e8b11eaa2d5a907e8426bcb41d7eaac"
+    },
+    "head": {
+      "url": "https://github.com/google/cpu_features.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpu_features/blobs/sha256:b6c3ae68da8ffc33249b6c5631e021be42ca1bc6e947f4093386c0c185528137",
+          "sha256": "b6c3ae68da8ffc33249b6c5631e021be42ca1bc6e947f4093386c0c185528137"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpu_features/blobs/sha256:140e90dc4c7741d6b33f8bc038bbd68ed545312ee58e07697d8b57584e8762e0",
+          "sha256": "140e90dc4c7741d6b33f8bc038bbd68ed545312ee58e07697d8b57584e8762e0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cpu_features/blobs/sha256:3a9206c537847ccd89d6569c8db3125ccd345fe4369355c667e87ecb829097e0",
+          "sha256": "3a9206c537847ccd89d6569c8db3125ccd345fe4369355c667e87ecb829097e0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpu_features/blobs/sha256:842480ec53a47fc61a3ec7c994315425c2a0539671d757473e0e667982018573",
+          "sha256": "842480ec53a47fc61a3ec7c994315425c2a0539671d757473e0e667982018573"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cpu_features.rb",
+  "ruby_source_checksum": {
+    "sha256": "e632f63a9856af8d65300ea9b9649b7625d00b8fcc2ff1ce0004b7bc27e26819"
+  },
+  "date_added": "2019-08-24T17:03:11+08:00"
+}

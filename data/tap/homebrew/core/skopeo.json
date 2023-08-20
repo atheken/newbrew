@@ -1,0 +1,110 @@
+{
+  "name": "skopeo",
+  "full_name": "skopeo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Work with remote images registries",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/containers/skopeo",
+  "versions": {
+    "stable": "1.13.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/containers/skopeo/archive/v1.13.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8e7195ff1c71c26f3e4b61d93239424b27293c2b3f9b8d67279b9ffd8adbbeca"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:a7b590af6c3ca917a32fb988a28a0696d61d96239e78a23287300d4d11f20ab8",
+          "sha256": "a7b590af6c3ca917a32fb988a28a0696d61d96239e78a23287300d4d11f20ab8"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:3667ce62ecbe7ce6d348f2ad6c9eb203af5021ce8d53a1ebe634ed753d1248e6",
+          "sha256": "3667ce62ecbe7ce6d348f2ad6c9eb203af5021ce8d53a1ebe634ed753d1248e6"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:255af10b7ccf519cc031895083c6fda774cb714f8c5b332b0d6054a4b8e502fb",
+          "sha256": "255af10b7ccf519cc031895083c6fda774cb714f8c5b332b0d6054a4b8e502fb"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:262f82d52f8d81011872bded6001c2ebab93927bc79da63966664d2b53fc7cc4",
+          "sha256": "262f82d52f8d81011872bded6001c2ebab93927bc79da63966664d2b53fc7cc4"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:84f2bb7aa4ddae6cdee48c4e49b36a36739a72c4761b7e26b47396ea9e79e493",
+          "sha256": "84f2bb7aa4ddae6cdee48c4e49b36a36739a72c4761b7e26b47396ea9e79e493"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:24c50b5931ec8e97051e40e851583fb39b43634fe22d79438cbb3a798c23526c",
+          "sha256": "24c50b5931ec8e97051e40e851583fb39b43634fe22d79438cbb3a798c23526c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/skopeo/blobs/sha256:4ff333e3df7e2fa9e5a0a2689b60ff79702a7f325e38d959b587580bb902766f",
+          "sha256": "4ff333e3df7e2fa9e5a0a2689b60ff79702a7f325e38d959b587580bb902766f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "go-md2man",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gpgme",
+    "device-mapper"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/skopeo.rb",
+  "ruby_source_checksum": {
+    "sha256": "1ac0240f167380efabea8f6339feff3669f06e1ff152b8999eae0d33fbc93689"
+  },
+  "date_added": "2018-09-08T19:27:42+01:00"
+}

@@ -1,0 +1,114 @@
+{
+  "name": "chart-testing",
+  "full_name": "chart-testing",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Testing and linting Helm charts",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/helm/chart-testing",
+  "versions": {
+    "stable": "3.9.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/helm/chart-testing.git",
+      "tag": "v3.9.0",
+      "revision": "88cc7026481da7468e34a614b8ca4f0da42c063c",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/helm/chart-testing.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c",
+          "sha256": "0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c",
+          "sha256": "0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c",
+          "sha256": "0cdcc408a6a87349a6e42f4e0c81967274a34569b9ed00f0b7064320463fa42c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5",
+          "sha256": "5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5",
+          "sha256": "5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5",
+          "sha256": "5908cc67c2a3664c1ec17f437537703c67779852bb00a5fe27131d2daef434a5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chart-testing/blobs/sha256:5317a23611aed11ccb204e575df76e5e2f3742624f75f1065af45c08e9df6c4c",
+          "sha256": "5317a23611aed11ccb204e575df76e5e2f3742624f75f1065af45c08e9df6c4c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [
+    "yamale"
+  ],
+  "test_dependencies": [
+    "helm",
+    "yamllint"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/chart-testing.rb",
+  "ruby_source_checksum": {
+    "sha256": "0e04c130064cb87ec39d231abc5b9ff76f16ce2f76531f59adacf06b482b0052"
+  },
+  "date_added": "2020-07-28T10:43:19+00:00"
+}

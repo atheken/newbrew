@@ -1,0 +1,109 @@
+{
+  "name": "cargo-binstall",
+  "full_name": "cargo-binstall",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Binary installation for rust projects",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/cargo-bins/cargo-binstall",
+  "versions": {
+    "stable": "1.1.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cargo-bins/cargo-binstall/archive/refs/tags/v1.1.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "520b99ecb1122fcfe8bcc0a9010646cf2cbce1b4f739d881c6f314060dd6a53a"
+    },
+    "head": {
+      "url": "https://github.com/cargo-bins/cargo-binstall.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:5e4bb93e272dbcdf75bf08152b127450a5ee7f2541105f5744a11222600ebb04",
+          "sha256": "5e4bb93e272dbcdf75bf08152b127450a5ee7f2541105f5744a11222600ebb04"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:e97c02441b4c846e903e3899252c8d76ce78da8e98ab9ce1c1342298208f8168",
+          "sha256": "e97c02441b4c846e903e3899252c8d76ce78da8e98ab9ce1c1342298208f8168"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:3a542035f8267a901a58e3a4d19aabf96417fb11471507874e90c2ba2f9485f6",
+          "sha256": "3a542035f8267a901a58e3a4d19aabf96417fb11471507874e90c2ba2f9485f6"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:fe6e59f5cfed01f26309859185e4c71a73206996d7525aad53c7456773304c5d",
+          "sha256": "fe6e59f5cfed01f26309859185e4c71a73206996d7525aad53c7456773304c5d"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:22912c932ddf43227ed9c8805e3bd926a2965e906fbe0964d4c4656e59993261",
+          "sha256": "22912c932ddf43227ed9c8805e3bd926a2965e906fbe0964d4c4656e59993261"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:b7291a495c088c587ab64eb9e001ee8a9ed436fc164084a3feaf7c7cf8db1fe2",
+          "sha256": "b7291a495c088c587ab64eb9e001ee8a9ed436fc164084a3feaf7c7cf8db1fe2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-binstall/blobs/sha256:9753bdd31b2a09b4fc9b72efe7f4ecf309ee20696de9481376d12265a4c1a4a0",
+          "sha256": "9753bdd31b2a09b4fc9b72efe7f4ecf309ee20696de9481376d12265a4c1a4a0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-binstall.rb",
+  "ruby_source_checksum": {
+    "sha256": "c9815784f9f499cf1bdca5d8ecfb956ae2239efffffd933df1b215cdd3460c6a"
+  },
+  "date_added": "2023-07-03T18:00:19-04:00"
+}

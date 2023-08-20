@@ -1,0 +1,115 @@
+{
+  "name": "clash",
+  "full_name": "clash",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Rule-based tunnel in Go",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/Dreamacro/clash",
+  "versions": {
+    "stable": "1.17.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Dreamacro/clash/archive/v1.17.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd30a27f801652151eea129e9cb00e4a3ee28d45982dad835f4546691796d9d7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054",
+          "sha256": "71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054",
+          "sha256": "71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054",
+          "sha256": "71df21e3fa07016bb64720da36901e7cd91f4a18ce85b540faf4cd2c08af6054"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65",
+          "sha256": "0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65",
+          "sha256": "0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65",
+          "sha256": "0143a67dc96ada77e575e1286f5ed3892d08e3dc36d1efa6856347ab45384c65"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/clash/blobs/sha256:2d33f7c551a2606ee5ed5d2a147513327ccb9040b87df7752d586b1bee569355",
+          "sha256": "2d33f7c551a2606ee5ed5d2a147513327ccb9040b87df7752d586b1bee569355"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "shadowsocks-libev"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": "/home/linuxbrew/.linuxbrew/opt/clash/bin/clash",
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": true
+    },
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/clash.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/clash.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/clash.rb",
+  "ruby_source_checksum": {
+    "sha256": "b62ee4ed7afd8ad2498ff79c63f756ed385a903af210aa2f641339adea35c2e8"
+  },
+  "date_added": "2020-11-25T10:21:11+00:00"
+}

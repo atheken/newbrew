@@ -1,0 +1,89 @@
+{
+  "name": "liburing",
+  "full_name": "liburing",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Helpers to setup and teardown io_uring instances",
+  "license": "MIT or LGPL-2.1-only",
+  "homepage": "https://github.com/axboe/liburing",
+  "versions": {
+    "stable": "2.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/axboe/liburing/archive/refs/tags/liburing-2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2398ec82d967a6f903f3ae1fd4541c754472d3a85a584dc78c5da2fabc90706b"
+    },
+    "head": {
+      "url": "https://github.com/axboe/liburing.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/liburing/blobs/sha256:ec174e48971a9620626df860e7adc952fa4d5cb395fde8c0ccd9ea6a665d01ac",
+          "sha256": "ec174e48971a9620626df860e7adc952fa4d5cb395fde8c0ccd9ea6a665d01ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable",
+        "head"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/liburing.rb",
+  "ruby_source_checksum": {
+    "sha256": "5141427dd14682cb291e6f73a839efd7056662c715e958bc07e6006d0ccb1ba3"
+  },
+  "date_added": "2022-09-16T04:21:45+00:00"
+}

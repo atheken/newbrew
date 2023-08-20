@@ -1,0 +1,119 @@
+{
+  "name": "weaver",
+  "full_name": "weaver",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for Weaver",
+  "license": "MIT",
+  "homepage": "https://github.com/scribd/Weaver",
+  "versions": {
+    "stable": "1.1.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/scribd/Weaver/archive/1.1.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "746b0506fdae675bfa0ef0353f38f1ab5ac6ba465bd17f85cb7b9561fb4e1da1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:e75a5cba435b5040061fcb2edd78840a8624c194fb81c28df14727b284dffa7c",
+          "sha256": "e75a5cba435b5040061fcb2edd78840a8624c194fb81c28df14727b284dffa7c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:4f498e3cfaf9a3d298f4fca470de2f80e67163fec39843f58210027b034e5131",
+          "sha256": "4f498e3cfaf9a3d298f4fca470de2f80e67163fec39843f58210027b034e5131"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:3417ed4fecfb8f29f7bc57131982c81c28548ab3a105361d1839d20a23ee7d2a",
+          "sha256": "3417ed4fecfb8f29f7bc57131982c81c28548ab3a105361d1839d20a23ee7d2a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:c5c0410a6d4150b3bd2faed4d790136a3e621a5736d7d144530067d9c1133936",
+          "sha256": "c5c0410a6d4150b3bd2faed4d790136a3e621a5736d7d144530067d9c1133936"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:1a0dd68132efacde4843465bf03d3327d7c4d49ad3c053f4944495bdb63169b9",
+          "sha256": "1a0dd68132efacde4843465bf03d3327d7c4d49ad3c053f4944495bdb63169b9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/weaver/blobs/sha256:8f1f0c9b199d3a9336f70d4059e41a1b8965dd0ca8de5b087b93adf4b5e99b53",
+          "sha256": "8f1f0c9b199d3a9336f70d4059e41a1b8965dd0ca8de5b087b93adf4b5e99b53"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "swift"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": "11.2",
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [
+    "service-weaver"
+  ],
+  "conflicts_with_reasons": [
+    "both install a `weaver` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/weaver.rb",
+  "ruby_source_checksum": {
+    "sha256": "9ef0da0cef67e36e81f881451878af1215953e6f8c803b8348a3d1e3270dcb31"
+  },
+  "date_added": "2018-08-09T05:35:57+01:00"
+}

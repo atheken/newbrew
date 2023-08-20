@@ -1,0 +1,105 @@
+{
+  "name": "fork-cleaner",
+  "full_name": "fork-cleaner",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cleans up old and inactive forks on your GitHub account",
+  "license": "MIT",
+  "homepage": "https://github.com/caarlos0/fork-cleaner",
+  "versions": {
+    "stable": "2.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/caarlos0/fork-cleaner/archive/v2.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "66e19adee6e1120e084ea3e5631842207a7c3177d7292b97cbdc2643c2f284df"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8",
+          "sha256": "bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8",
+          "sha256": "bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8",
+          "sha256": "bf3900e65f1f05650e054e01bd16c14d750158eae9e4281ec93c35337e7baff8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52",
+          "sha256": "b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52",
+          "sha256": "b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52",
+          "sha256": "b77141019e89422926351eea9395ae80fa4d5b4fe972f2c9d9226b0ead392c52"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fork-cleaner/blobs/sha256:5ebfe8c10c7fe8fc734f7ccda5bded62741879ad3a8ad0000da779a9ba0671d4",
+          "sha256": "5ebfe8c10c7fe8fc734f7ccda5bded62741879ad3a8ad0000da779a9ba0671d4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fork-cleaner.rb",
+  "ruby_source_checksum": {
+    "sha256": "9efbfeb60b73f6c48515e491a5ad4716eb2d655bd96c8bd5579159a213f59db4"
+  },
+  "date_added": "2018-05-13T19:09:17-07:00"
+}

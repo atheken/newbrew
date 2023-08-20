@@ -1,0 +1,113 @@
+{
+  "name": "dnsviz",
+  "full_name": "dnsviz",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for analyzing and visualizing DNS and DNSSEC behavior",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/dnsviz/dnsviz/",
+  "versions": {
+    "stable": "0.9.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/a5/7c/b38750c866e7e29bc76450c75f61ede6c2560e75cfe36df81e9517612434/dnsviz-0.9.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6448d4c6e7c1844aa2a394d60f7cc53721ad985e0e830c30265ef08a74a7aa28"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:5a71a6c91593a90b9ecd76dbfc27afba76500620aaddee7ff88fab78e71b119d",
+          "sha256": "5a71a6c91593a90b9ecd76dbfc27afba76500620aaddee7ff88fab78e71b119d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:55b1e30f09a738d831a92555eed6630b694248088e9089deef27d973d114f304",
+          "sha256": "55b1e30f09a738d831a92555eed6630b694248088e9089deef27d973d114f304"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:254dc87f29c57a1594c6a3d4ca4fbf8a2e52c9967a6ab970a4c3aef775cd1f31",
+          "sha256": "254dc87f29c57a1594c6a3d4ca4fbf8a2e52c9967a6ab970a4c3aef775cd1f31"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:77ff1faa9c59f7347af9dfb37d3a6c6cf22c1f0d8b9612ac0858525cc7a981a8",
+          "sha256": "77ff1faa9c59f7347af9dfb37d3a6c6cf22c1f0d8b9612ac0858525cc7a981a8"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:5bca7af88657cc2d05a7764417a230fd8bdb3d65885333a16f6d897f6d333af4",
+          "sha256": "5bca7af88657cc2d05a7764417a230fd8bdb3d65885333a16f6d897f6d333af4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:17c5b7efc2b3bce906a472478b509b882317e357e61e2c60b710c318aaf5014c",
+          "sha256": "17c5b7efc2b3bce906a472478b509b882317e357e61e2c60b710c318aaf5014c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/dnsviz/blobs/sha256:546e26d786634c81029b5ded89d12ecd07b75bb8b7f7f594c43c596f9829c057",
+          "sha256": "546e26d786634c81029b5ded89d12ecd07b75bb8b7f7f594c43c596f9829c057"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "swig"
+  ],
+  "dependencies": [
+    "graphviz",
+    "openssl@3",
+    "python@3.11",
+    "swig"
+  ],
+  "test_dependencies": [
+    "bind"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/dnsviz.rb",
+  "ruby_source_checksum": {
+    "sha256": "57747062ebf59cae490e372eea4e55c2d765242edbf6a24ea1f5ce8e8dd080c0"
+  },
+  "date_added": "2016-12-02T09:30:56+00:00"
+}

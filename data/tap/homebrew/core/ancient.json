@@ -1,0 +1,109 @@
+{
+  "name": "ancient",
+  "full_name": "ancient",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Decompression routines for ancient formats",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/temisu/ancient",
+  "versions": {
+    "stable": "2.1.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/temisu/ancient/archive/refs/tags/v2.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6f63e2765866925f1b188baee958d4518720bd0009ab4f50b390ea5028649ec2"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:3f4d5623bd2b124de3df19da083eab30a4c50a209fd5c3669c254bfb2ecfa7eb",
+          "sha256": "3f4d5623bd2b124de3df19da083eab30a4c50a209fd5c3669c254bfb2ecfa7eb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:149881aa043f4133bdb6dac622b3cc606a44de26105b154bfa3a934f18fbb089",
+          "sha256": "149881aa043f4133bdb6dac622b3cc606a44de26105b154bfa3a934f18fbb089"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:e46d1a5d1e6c8b08489a6f3d3a81fcc0ef8b9dc2c1421ccd8a3849d6f163e3ef",
+          "sha256": "e46d1a5d1e6c8b08489a6f3d3a81fcc0ef8b9dc2c1421ccd8a3849d6f163e3ef"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:37845ef9416ea76ca618aaa29bda88d46e011c24bb5fc772c27ea52b3f61dcd3",
+          "sha256": "37845ef9416ea76ca618aaa29bda88d46e011c24bb5fc772c27ea52b3f61dcd3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:c5dc5fa32a48cd5916c563690203da74e731a1d8a197de97ead68ce6c480a2f1",
+          "sha256": "c5dc5fa32a48cd5916c563690203da74e731a1d8a197de97ead68ce6c480a2f1"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:47ae9e68f35e4cb300c85957ef7a4f6c2bef532d32b49a476fb2eddb0967f8cd",
+          "sha256": "47ae9e68f35e4cb300c85957ef7a4f6c2bef532d32b49a476fb2eddb0967f8cd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ancient/blobs/sha256:91efa218bbb1adbb9dffa24d2e932df91ae5de07a7a95afb3726e271e2a7f972",
+          "sha256": "91efa218bbb1adbb9dffa24d2e932df91ae5de07a7a95afb3726e271e2a7f972"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/ancient.rb",
+  "ruby_source_checksum": {
+    "sha256": "25127fb19a64c64eb9b05e877c2437af2a5c6a536d60f33d84f4591dcb617210"
+  },
+  "date_added": "2023-01-24T16:13:52+00:00"
+}

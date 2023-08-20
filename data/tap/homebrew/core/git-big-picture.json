@@ -1,0 +1,106 @@
+{
+  "name": "git-big-picture",
+  "full_name": "git-big-picture",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Visualization tool for Git repositories",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/git-big-picture/git-big-picture",
+  "versions": {
+    "stable": "1.2.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/git-big-picture/git-big-picture/archive/refs/tags/v1.2.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7b2826d72e146c7a53e7a1cc9533c360cd8e0feb870c7d1eadcc189b8bc2c5f6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1",
+          "sha256": "7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1",
+          "sha256": "7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1",
+          "sha256": "7646579430d2ab35d1aabe5661be2eacde3da778db1259e962c4c0df78720bf1"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193",
+          "sha256": "705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193",
+          "sha256": "705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193",
+          "sha256": "705f6bfdb8623f2a158fc034a7b51097f4cf541da9db461f9000c33ccdf3d193"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/git-big-picture/blobs/sha256:9725b03021184088a0eacfc3beb7d62db8e7a6429a00eb8815d6af2939f96967",
+          "sha256": "9725b03021184088a0eacfc3beb7d62db8e7a6429a00eb8815d6af2939f96967"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "graphviz",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/git-big-picture.rb",
+  "ruby_source_checksum": {
+    "sha256": "80a777ff261dffba056b446e452ed67d7439bae02c5deca2b495332262a52b3d"
+  },
+  "date_added": "2023-04-24T15:52:52+02:00"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "metalang99",
+  "full_name": "metalang99",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C99 preprocessor-based metaprogramming language",
+  "license": "MIT",
+  "homepage": "https://github.com/Hirrolot/metalang99",
+  "versions": {
+    "stable": "1.13.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Hirrolot/metalang99/archive/refs/tags/v1.13.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "91fe8d4edcc2e7f91c5b567a2b90f2e30c2373f1ebbabcf209ea0d74f63bc1e9"
+    },
+    "head": {
+      "url": "https://github.com/Hirrolot/metalang99.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/metalang99/blobs/sha256:32b71a356b77df0dc6f4deee767caf0e383aec97be42eb4c7a5361a1cd595850",
+          "sha256": "32b71a356b77df0dc6f4deee767caf0e383aec97be42eb4c7a5361a1cd595850"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/metalang99.rb",
+  "ruby_source_checksum": {
+    "sha256": "26a33773b2284185b807539d800b9df2d3a66480d36061cde4195f2c565eb713"
+  },
+  "date_added": "2022-07-09T15:00:30+00:00"
+}

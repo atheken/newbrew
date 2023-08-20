@@ -1,0 +1,112 @@
+{
+  "name": "tracy",
+  "full_name": "tracy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Real-time, nanosecond resolution frame profiler",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/wolfpld/tracy",
+  "versions": {
+    "stable": "0.9.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/wolfpld/tracy/archive/refs/tags/v0.9.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c2de9f35ab2a516a9689ff18f5b62a55b73b93b66514bd09ba013d7957993cd7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:83e94a2d3f9c29911844e48b55def7807b42f11ca0be6a96fa5ec31bfa7c56e9",
+          "sha256": "83e94a2d3f9c29911844e48b55def7807b42f11ca0be6a96fa5ec31bfa7c56e9"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:c1c03506306ce73ef85af7a40442eca87e4b4ce1b9aab09c64c2c38f23ecd992",
+          "sha256": "c1c03506306ce73ef85af7a40442eca87e4b4ce1b9aab09c64c2c38f23ecd992"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:390bf6bb1f080b20285929679304758a04140e52ce86956f57694b7835bfec78",
+          "sha256": "390bf6bb1f080b20285929679304758a04140e52ce86956f57694b7835bfec78"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:226dc07fc98a86cd44dc3e626257d238b8557fe7cc6b44f579a41ed59d91afce",
+          "sha256": "226dc07fc98a86cd44dc3e626257d238b8557fe7cc6b44f579a41ed59d91afce"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:34ebd84f9ddeb63b81e9aad5b5ae40fd144290967789ba47cb279523ef5fd077",
+          "sha256": "34ebd84f9ddeb63b81e9aad5b5ae40fd144290967789ba47cb279523ef5fd077"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:306585e77d83ad00b9160ffa2bd5b04fd83ca07d11a44080d113ad4bea82cc06",
+          "sha256": "306585e77d83ad00b9160ffa2bd5b04fd83ca07d11a44080d113ad4bea82cc06"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tracy/blobs/sha256:48d39610618ac1e3972d0db0afdacf0d305438358486f65b9c60b11e10bf763a",
+          "sha256": "48d39610618ac1e3972d0db0afdacf0d305438358486f65b9c60b11e10bf763a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "capstone",
+    "freetype",
+    "glfw",
+    "tbb",
+    "dbus",
+    "libxkbcommon"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tracy.rb",
+  "ruby_source_checksum": {
+    "sha256": "a5acb8b018cd1e1c271da8810f91fa67ae848104a971a59a56e2a9a646e000e1"
+  },
+  "date_added": "2023-02-27T00:17:13+00:00"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "t-rec",
+  "full_name": "t-rec",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Blazingly fast terminal recorder that generates animated gif images for the web",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/sassman/t-rec-rs",
+  "versions": {
+    "stable": "0.7.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sassman/t-rec-rs/archive/v0.7.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a261104e33d6f60a8f9fe51c2339b79875ddb5ff5b9e7de68e7e52f9d25bf19e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:f66c613c2713d64447c565f01e31ac69153ebf9dcefb3c3292fa5ec92c7b96fc",
+          "sha256": "f66c613c2713d64447c565f01e31ac69153ebf9dcefb3c3292fa5ec92c7b96fc"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:10e8931e0466e77574f5528464d94d78fefa4a303219341605430c0cd992441c",
+          "sha256": "10e8931e0466e77574f5528464d94d78fefa4a303219341605430c0cd992441c"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:bedf1fd21666f526ffa3aad1196c3b7847b17734af07c984affcd2d20646ba16",
+          "sha256": "bedf1fd21666f526ffa3aad1196c3b7847b17734af07c984affcd2d20646ba16"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:b2d905a57f708846827719505b1a6c7e43f45a0e2a1e0b4112039288b64d8194",
+          "sha256": "b2d905a57f708846827719505b1a6c7e43f45a0e2a1e0b4112039288b64d8194"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:52275aef2850a0cac76c8fb91ce392bd29b6c494312b7f563896922bd8c78a8c",
+          "sha256": "52275aef2850a0cac76c8fb91ce392bd29b6c494312b7f563896922bd8c78a8c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:a1ea4ff9e0fd2f102ff606a9de2f7a851f51d518cd36cd70192fadf8d0ad2680",
+          "sha256": "a1ea4ff9e0fd2f102ff606a9de2f7a851f51d518cd36cd70192fadf8d0ad2680"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/t-rec/blobs/sha256:3d3e2cb3b655b70016073b173db82dc545abb140388880ac0ae8c205c0732a1b",
+          "sha256": "3d3e2cb3b655b70016073b173db82dc545abb140388880ac0ae8c205c0732a1b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "imagemagick"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/t-rec.rb",
+  "ruby_source_checksum": {
+    "sha256": "61c6705e15c723ce34ddcf0b5c07bcb9ba03578a6b5bf4414313a2bdbf5d0a9b"
+  },
+  "date_added": "2020-11-30T20:31:44+00:00"
+}

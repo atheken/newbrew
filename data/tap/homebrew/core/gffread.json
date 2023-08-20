@@ -1,0 +1,103 @@
+{
+  "name": "gffread",
+  "full_name": "gffread",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "GFF/GTF format conversions, region filtering, FASTA sequence extraction",
+  "license": "MIT",
+  "homepage": "https://github.com/gpertea/gffread",
+  "versions": {
+    "stable": "0.12.7",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/gpertea/gffread/releases/download/v0.12.7/gffread-0.12.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bfde1c857495e578f5b3af3c007a9aa40593e69450eafcc6a42c3e8ef08ed1f5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:65ddd7c7737f4ddfc2205aebb8be9e15efcbf543da71e76bb1c16b0cb6354913",
+          "sha256": "65ddd7c7737f4ddfc2205aebb8be9e15efcbf543da71e76bb1c16b0cb6354913"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:25d4134d3c271a6f558ebee697ac59ee253c5df70aeaa22a58b28f1f23faa6e8",
+          "sha256": "25d4134d3c271a6f558ebee697ac59ee253c5df70aeaa22a58b28f1f23faa6e8"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:c9edeb2e17155f0d1bcc178fe53991d9a1e98a8db5e5091fee916eb194f9be0e",
+          "sha256": "c9edeb2e17155f0d1bcc178fe53991d9a1e98a8db5e5091fee916eb194f9be0e"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:f6e69ada91d38745bcd11fa7156ee50154ddca975b5b60e914c007d299708837",
+          "sha256": "f6e69ada91d38745bcd11fa7156ee50154ddca975b5b60e914c007d299708837"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:6c91305b71b24859d2dc2974fd4ccc0b8deca23457d652cbc7feaf96bfee6275",
+          "sha256": "6c91305b71b24859d2dc2974fd4ccc0b8deca23457d652cbc7feaf96bfee6275"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:8fe67ffbdac10132a2177190fea3d275b780e35baa58d44bdcc64b9f632c0484",
+          "sha256": "8fe67ffbdac10132a2177190fea3d275b780e35baa58d44bdcc64b9f632c0484"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/gffread/blobs/sha256:0786b5ced3ce7d42b8f02a3898c6e22b7c7e56ebcb779d987909a62ac0200563",
+          "sha256": "0786b5ced3ce7d42b8f02a3898c6e22b7c7e56ebcb779d987909a62ac0200563"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/gffread.rb",
+  "ruby_source_checksum": {
+    "sha256": "ec7d79b8ce2cea20cf8b1379450ea0e5ef7b9884695ac0ca0e47ae602941b1c8"
+  },
+  "date_added": "2023-06-17T12:33:51-04:00"
+}

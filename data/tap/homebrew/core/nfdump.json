@@ -1,0 +1,126 @@
+{
+  "name": "nfdump",
+  "full_name": "nfdump",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools to collect and process netflow data on the command-line",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/phaag/nfdump",
+  "versions": {
+    "stable": "1.7.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/phaag/nfdump/archive/v1.7.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0545b792e81f5edd51a2fdfbfcc4eac7ba8087005811ab41c34bfac4d78fe926"
+    },
+    "head": {
+      "url": "https://github.com/phaag/nfdump.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:bcd7a9b774976dbb97d73fb1a93b36b7c5abc8579d7a303ccd78f86bd2fa7790",
+          "sha256": "bcd7a9b774976dbb97d73fb1a93b36b7c5abc8579d7a303ccd78f86bd2fa7790"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:40f2b32ea38db9b88c01d83ee1bcc6ff70528abd3e0097120a3396674d7e03ab",
+          "sha256": "40f2b32ea38db9b88c01d83ee1bcc6ff70528abd3e0097120a3396674d7e03ab"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:3e25963361c30a566a9bc39b67d69621509685a8878e91e01c442fd6cd397479",
+          "sha256": "3e25963361c30a566a9bc39b67d69621509685a8878e91e01c442fd6cd397479"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:10ef900bfcd6602875c14281ead4b3d6c7c745b775a748cfe3a9b692a3606dac",
+          "sha256": "10ef900bfcd6602875c14281ead4b3d6c7c745b775a748cfe3a9b692a3606dac"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:11493b60f774efe3499cf527745f82761ee3eead78d9dc0d1af49a48ecf2bd70",
+          "sha256": "11493b60f774efe3499cf527745f82761ee3eead78d9dc0d1af49a48ecf2bd70"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:52933a62e14d28198597e492ae63dae43e5b32ee00fbbdf4981a8356afce9cc9",
+          "sha256": "52933a62e14d28198597e492ae63dae43e5b32ee00fbbdf4981a8356afce9cc9"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nfdump/blobs/sha256:d848913d75859dd4811c2ae6e608a249a5d3872c23058113fb7ea1dfdbb64486",
+          "sha256": "d848913d75859dd4811c2ae6e608a249a5d3872c23058113fb7ea1dfdbb64486"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "bison": "build"
+    },
+    {
+      "flex": "build"
+    },
+    "bzip2",
+    "libpcap"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nfdump.rb",
+  "ruby_source_checksum": {
+    "sha256": "792b6febf3a3fdd4480b5862fab7644938439dbb749d278f21aa2265c299810d"
+  },
+  "date_added": "2015-04-24T18:22:29+01:00"
+}

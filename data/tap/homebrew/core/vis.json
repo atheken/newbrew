@@ -1,0 +1,121 @@
+{
+  "name": "vis",
+  "full_name": "vis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vim-like text editor",
+  "license": "ISC",
+  "homepage": "https://github.com/martanne/vis",
+  "versions": {
+    "stable": "0.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/martanne/vis/archive/v0.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "61b10d40f15c4db2ce16e9acf291dbb762da4cbccf0cf2a80b28d9ac998a39bd"
+    },
+    "head": {
+      "url": "https://github.com/martanne/vis.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:32908c8b3e0251376b5a5020fde49c276c652a71eeee6a624dea98ab61211260",
+          "sha256": "32908c8b3e0251376b5a5020fde49c276c652a71eeee6a624dea98ab61211260"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:4175e1489036cb6b42e68c2073e4b5626cfb2ae3fadfba52e2e32d0a7e324dc3",
+          "sha256": "4175e1489036cb6b42e68c2073e4b5626cfb2ae3fadfba52e2e32d0a7e324dc3"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:067127470533d46e86b8ef7c6aba0e203061347fa1e6a74933e0fbc833d81ff2",
+          "sha256": "067127470533d46e86b8ef7c6aba0e203061347fa1e6a74933e0fbc833d81ff2"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:8311b635e107ec0cb5282cf86920bee36d5cc32219fb9b41a0b77f0980c4b745",
+          "sha256": "8311b635e107ec0cb5282cf86920bee36d5cc32219fb9b41a0b77f0980c4b745"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:fc879a20d56fbe7eb9956dda54fd0f603f4d14d4a3f903462946f23fba5766a0",
+          "sha256": "fc879a20d56fbe7eb9956dda54fd0f603f4d14d4a3f903462946f23fba5766a0"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:6d2d2178c60f3d091818d80c9e9c86744e946661f1dede662d3b248c2cb1a858",
+          "sha256": "6d2d2178c60f3d091818d80c9e9c86744e946661f1dede662d3b248c2cb1a858"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:98848b044f51a151d7ca4cc2ad97b8d1c33a1002c3dd3eb2ce27ef6be0fd263c",
+          "sha256": "98848b044f51a151d7ca4cc2ad97b8d1c33a1002c3dd3eb2ce27ef6be0fd263c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libtermkey",
+    "lpeg",
+    "lua"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "unzip": "build"
+    },
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/vis.rb",
+  "ruby_source_checksum": {
+    "sha256": "5c5e88ecd8a1600e6aff21a4fed417de2e644e3b806d04b24398dc14cc7e6bdb"
+  },
+  "date_added": "2016-04-07T15:56:22-04:00"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "rospo",
+  "full_name": "rospo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple, reliable, persistent ssh tunnels with embedded ssh server",
+  "license": "MIT",
+  "homepage": "https://github.com/ferama/rospo",
+  "versions": {
+    "stable": "0.11.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ferama/rospo/archive/refs/tags/v0.11.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "57bc1ec5fdfc7c5456ec87ff483e8f033be38a4026cbe2045ad60f347c21cd6c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094",
+          "sha256": "36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094",
+          "sha256": "36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094",
+          "sha256": "36640d863f94bb319d6ada797d3b3a11c7fee7599f2166ff6271ea1f20c41094"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f",
+          "sha256": "a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f",
+          "sha256": "a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f",
+          "sha256": "a024e596642072f36618942acf35064ea1d9e84663b0e34064e1c108bab16f2f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rospo/blobs/sha256:01b03aba71cbc6f63e84843d514f60c8805a019342ba694a9dc691e4da28a5a9",
+          "sha256": "01b03aba71cbc6f63e84843d514f60c8805a019342ba694a9dc691e4da28a5a9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rospo.rb",
+  "ruby_source_checksum": {
+    "sha256": "87c5edc04260eb635103cc4c061077fbf92cc94eb5a4497df5c88a04c9c295fd"
+  },
+  "date_added": "2022-03-01T06:18:40+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "hidapi",
+  "full_name": "hidapi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for communicating with USB and Bluetooth HID devices",
+  "license": "Cannot Represent",
+  "homepage": "https://github.com/libusb/hidapi",
+  "versions": {
+    "stable": "0.14.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libusb/hidapi/archive/hidapi-0.14.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a5714234abe6e1f53647dd8cba7d69f65f71c558b7896ed218864ffcf405bcbd"
+    },
+    "head": {
+      "url": "https://github.com/libusb/hidapi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:a51ee174536f9f73d398c2b6a998df28c812a5baac14e4f07e8bb17c846d53cf",
+          "sha256": "a51ee174536f9f73d398c2b6a998df28c812a5baac14e4f07e8bb17c846d53cf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:4330e0a273dcb943f27e2be002fad07c385737bd308478b73bf24be2898c9bf5",
+          "sha256": "4330e0a273dcb943f27e2be002fad07c385737bd308478b73bf24be2898c9bf5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:18184e80f9d6ce6e702068b67d4e887dbb28d3fb753c379b6e97c6fbed3cdf97",
+          "sha256": "18184e80f9d6ce6e702068b67d4e887dbb28d3fb753c379b6e97c6fbed3cdf97"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:7198e6d7a9946aa995eee2dcb7595dddb362aa5ed3ed5bcc7b3eeb08fb5cb9e4",
+          "sha256": "7198e6d7a9946aa995eee2dcb7595dddb362aa5ed3ed5bcc7b3eeb08fb5cb9e4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:94a5ead30ea58235a8e1cfe884f55c10756efdd580954e1b0565f2298f9f0376",
+          "sha256": "94a5ead30ea58235a8e1cfe884f55c10756efdd580954e1b0565f2298f9f0376"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:7c131edf18d63b5cc8844cda43f8347808a5fd4668739b577c2d1a72f779df4f",
+          "sha256": "7c131edf18d63b5cc8844cda43f8347808a5fd4668739b577c2d1a72f779df4f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hidapi/blobs/sha256:b8c0fe481208e93135393bb11e970917dd10438ccfdbc180bc5efb97aec7ce52",
+          "sha256": "b8c0fe481208e93135393bb11e970917dd10438ccfdbc180bc5efb97aec7ce52"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libusb",
+    "systemd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hidapi.rb",
+  "ruby_source_checksum": {
+    "sha256": "00532e0205cc0607a4f9e292832fd9c4aa4f6f713501cfc038263e13b70a7394"
+  },
+  "date_added": "2013-11-06T20:27:30-08:00"
+}

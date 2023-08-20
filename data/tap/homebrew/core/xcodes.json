@@ -1,0 +1,115 @@
+{
+  "name": "xcodes",
+  "full_name": "xcodes",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Best command-line tool to install and switch between multiple versions of Xcode",
+  "license": "MIT",
+  "homepage": "https://github.com/RobotsAndPencils/xcodes#readme",
+  "versions": {
+    "stable": "1.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/RobotsAndPencils/xcodes/archive/refs/tags/1.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fe042ea365da9b7e1f6dca6cbeda0c54179b4d284ecb3a0ea70cd7bf6c4edb2d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xcodes/blobs/sha256:af680a02d22517629d5c4fd0c440fbed8cef6db05777607fa9c2958fb4cb7184",
+          "sha256": "af680a02d22517629d5c4fd0c440fbed8cef6db05777607fa9c2958fb4cb7184"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xcodes/blobs/sha256:b7d45e1d801fff440ecc7ac2375989d24f656b7f69152f2d10c8f51305395f4f",
+          "sha256": "b7d45e1d801fff440ecc7ac2375989d24f656b7f69152f2d10c8f51305395f4f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xcodes/blobs/sha256:12bf7e26e4f33ec8debaf7c7b44d6236474120ac2be40ba57346d5539af1e4fd",
+          "sha256": "12bf7e26e4f33ec8debaf7c7b44d6236474120ac2be40ba57346d5539af1e4fd"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xcodes/blobs/sha256:f44885b0a61b1d094eec3f3660b4a5031ec2006d749264ba5a764db632cdca50",
+          "sha256": "f44885b0a61b1d094eec3f3660b4a5031ec2006d749264ba5a764db632cdca50"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "swift"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": "13.3",
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    },
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xcodes.rb",
+  "ruby_source_checksum": {
+    "sha256": "5c73560a8e6435975b777cae6843100c4c022c06a45dee6c33e8206769ac3434"
+  },
+  "date_added": "2022-11-10T08:43:43+00:00"
+}

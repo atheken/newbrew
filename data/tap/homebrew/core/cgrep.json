@@ -1,0 +1,113 @@
+{
+  "name": "cgrep",
+  "full_name": "cgrep",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Context-aware grep for source code",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/awgn/cgrep",
+  "versions": {
+    "stable": "8.1.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/awgn/cgrep/archive/v8.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "029eec8f0339e79eb9d9e92935e5fcf03a40180cb1adfa8784fa4bf3fee11dac"
+    },
+    "head": {
+      "url": "https://github.com/awgn/cgrep.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:1be4666dae6c73bf8266fb23aecebffe4b9ee7683f37571cfaead814984ff4e4",
+          "sha256": "1be4666dae6c73bf8266fb23aecebffe4b9ee7683f37571cfaead814984ff4e4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:259521bed3744ab359046cd17f61bb2bfacf32e9a11a82908b0bfdd3fdc67391",
+          "sha256": "259521bed3744ab359046cd17f61bb2bfacf32e9a11a82908b0bfdd3fdc67391"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:a213ca116fa7f00535a4569bc19ad9174ac2d43074386af5ac39d0f114b42fd0",
+          "sha256": "a213ca116fa7f00535a4569bc19ad9174ac2d43074386af5ac39d0f114b42fd0"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:802fbd7f2a47c416cf5ec1d2edcaaffb3b903570b9950deebd1381c9530bbd3b",
+          "sha256": "802fbd7f2a47c416cf5ec1d2edcaaffb3b903570b9950deebd1381c9530bbd3b"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:ac64013156a71e7b3e597b42b41e88ed2a035c1c79d5d945ce64cadd8ab93b01",
+          "sha256": "ac64013156a71e7b3e597b42b41e88ed2a035c1c79d5d945ce64cadd8ab93b01"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:7c530d952f30e64e4bb5a695f01e7976ea82d5ff4418c9142d7df7fb2d7c0b6e",
+          "sha256": "7c530d952f30e64e4bb5a695f01e7976ea82d5ff4418c9142d7df7fb2d7c0b6e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cgrep/blobs/sha256:7fc65a983cde8ba338d2894fe28a85e2b68500e4b48c35b5156b0d172207bbb8",
+          "sha256": "7fc65a983cde8ba338d2894fe28a85e2b68500e4b48c35b5156b0d172207bbb8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cabal-install",
+    "ghc",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "pcre"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cgrep.rb",
+  "ruby_source_checksum": {
+    "sha256": "65383d7677f00f15bb07f74a4ecdd602013b32c26c9370d1ac0eb56a87af9e9a"
+  },
+  "date_added": "2014-06-21T14:42:03+01:00"
+}

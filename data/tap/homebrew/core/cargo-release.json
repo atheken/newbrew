@@ -1,0 +1,115 @@
+{
+  "name": "cargo-release",
+  "full_name": "cargo-release",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Cargo subcommand `release`: everything about releasing a rust crate",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/crate-ci/cargo-release",
+  "versions": {
+    "stable": "0.24.11",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/crate-ci/cargo-release/archive/refs/tags/v0.24.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cbbc04f7faadd2202b36401f3ffafc8836fb176062d428d2af195c02a2f9bd58"
+    },
+    "head": {
+      "url": "https://github.com/crate-ci/cargo-release.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:54a485d4a1ae0cfbe02ca03b575bb68ddd73a6a7f7e5b639f2eab137c13ece6c",
+          "sha256": "54a485d4a1ae0cfbe02ca03b575bb68ddd73a6a7f7e5b639f2eab137c13ece6c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:2284b1c54a8e06dc13949d878249d4523f05f10979b96cb2bb6a839cb4ce4e09",
+          "sha256": "2284b1c54a8e06dc13949d878249d4523f05f10979b96cb2bb6a839cb4ce4e09"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:7b0308f1484bfd4099fa5e56b43945c7d3fef87acee2674f093207c2c1e12baa",
+          "sha256": "7b0308f1484bfd4099fa5e56b43945c7d3fef87acee2674f093207c2c1e12baa"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:e61342566c8db809bd7d04e77fc7ee5ad5e3c4470bd2ac8c6a47aec022f91da2",
+          "sha256": "e61342566c8db809bd7d04e77fc7ee5ad5e3c4470bd2ac8c6a47aec022f91da2"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:96ea8160fb90776cbedd4904599a1778abe84677ed4ceebfd24920ece9375d9b",
+          "sha256": "96ea8160fb90776cbedd4904599a1778abe84677ed4ceebfd24920ece9375d9b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:d6a31e6614be4c4daf2803cc381b139ae90c71ed260a6dd4e6a943281f45d975",
+          "sha256": "d6a31e6614be4c4daf2803cc381b139ae90c71ed260a6dd4e6a943281f45d975"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cargo-release/blobs/sha256:0c49772b37f68c2dda8c291b26ae9da61eebc81d582f4dab783e4ac60071341f",
+          "sha256": "0c49772b37f68c2dda8c291b26ae9da61eebc81d582f4dab783e4ac60071341f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "libgit2",
+    "openssl@3"
+  ],
+  "test_dependencies": [
+    "rustup-init"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cargo-release.rb",
+  "ruby_source_checksum": {
+    "sha256": "b644ee74353af85535ab544e582ceefd75c42eab3f7cfff62437ca754e616ee4"
+  },
+  "date_added": "2023-01-29T16:12:01+00:00"
+}

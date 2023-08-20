@@ -1,0 +1,109 @@
+{
+  "name": "chamber",
+  "full_name": "chamber",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI for managing secrets through AWS SSM Parameter Store",
+  "license": "MIT",
+  "homepage": "https://github.com/segmentio/chamber",
+  "versions": {
+    "stable": "2.13.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/segmentio/chamber/archive/v2.13.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9fccca3cdf64755bdfc8a6bb87f84486456619b50ce2c60488b9fb9fd47b6214"
+    },
+    "head": {
+      "url": "https://github.com/segmentio/chamber.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10",
+          "sha256": "2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10",
+          "sha256": "2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10",
+          "sha256": "2007f070dfb39f88f6afd56b6e432c06fd67aa8b633e1db5eb2ad28d6b2c6e10"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e",
+          "sha256": "ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e",
+          "sha256": "ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e",
+          "sha256": "ec0cc18c878f894ac2f13b01ad8812badec9e055ff1ab450172bde0e33d3ed1e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chamber/blobs/sha256:558ccf322e72b47a4d29f06265590a491dbefe7a48c8d5dc0609729a019aa9c1",
+          "sha256": "558ccf322e72b47a4d29f06265590a491dbefe7a48c8d5dc0609729a019aa9c1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/chamber.rb",
+  "ruby_source_checksum": {
+    "sha256": "d8c7221c8dc1e3b1a678537868b8a90fac79f9c03aab9c6c9d15543091a970c5"
+  },
+  "date_added": "2017-12-02T06:44:42-08:00"
+}

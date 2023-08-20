@@ -1,0 +1,77 @@
+{
+  "name": "nanorc",
+  "full_name": "nanorc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Improved Nano Syntax Highlighting Files",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/scopatz/nanorc",
+  "versions": {
+    "stable": "2020.10.10",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/scopatz/nanorc/releases/download/2020.10.10/nanorc-2020.10.10.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd674e9eb230e4ba306b418c22d1891d93a3d2ffdf22234748d3398da50dfe64"
+    },
+    "head": {
+      "url": "https://github.com/scopatz/nanorc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nanorc/blobs/sha256:bf71c9da19d2ac1b05163bd9f92ea86adc475ca15d3e95101c91d788ff781625",
+          "sha256": "bf71c9da19d2ac1b05163bd9f92ea86adc475ca15d3e95101c91d788ff781625"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nanorc.rb",
+  "ruby_source_checksum": {
+    "sha256": "b08bc5a586571a6462344ae97df807d356dff241cd56bdce01357d0d74139baf"
+  },
+  "date_added": "2020-08-02T12:11:42+01:00"
+}

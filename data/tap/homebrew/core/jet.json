@@ -1,0 +1,109 @@
+{
+  "name": "jet",
+  "full_name": "jet",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Type safe SQL builder with code generation and auto query result data mapping",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/go-jet/jet",
+  "versions": {
+    "stable": "2.10.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/go-jet/jet/archive/refs/tags/v2.10.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "94f964b2eba69e2df1f922cf83b193a276f6b64ac742bd65670fd07a307aee22"
+    },
+    "head": {
+      "url": "https://github.com/go-jet/jet.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:19e720e66149cd632a73fce73bbb3993f4b278bef524e70c0b5d380d176b2151",
+          "sha256": "19e720e66149cd632a73fce73bbb3993f4b278bef524e70c0b5d380d176b2151"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:3575267bfac6e2915d6509d120b3997f35c319e1bf5a2874562775edd8aa34a4",
+          "sha256": "3575267bfac6e2915d6509d120b3997f35c319e1bf5a2874562775edd8aa34a4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:5558fc8b5d0bbd7309dd2985d957ad62e38631202a9473b331e70fb6d557086a",
+          "sha256": "5558fc8b5d0bbd7309dd2985d957ad62e38631202a9473b331e70fb6d557086a"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:22c63a2140468e0b01a9d9db4905cc9a9111bb92e79e719d7924cc3f64ac5ff7",
+          "sha256": "22c63a2140468e0b01a9d9db4905cc9a9111bb92e79e719d7924cc3f64ac5ff7"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:0864144bde8a0a64321dc4f52999cf7cecec52335653f17e81b09797315e7b01",
+          "sha256": "0864144bde8a0a64321dc4f52999cf7cecec52335653f17e81b09797315e7b01"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:d7a0db87b66cc64e9dc734bc917f8f02fb2c7bfd359ca20403845f5c565eea77",
+          "sha256": "d7a0db87b66cc64e9dc734bc917f8f02fb2c7bfd359ca20403845f5c565eea77"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jet/blobs/sha256:51793306a7358db7fddce5dcc2da3506e852c1428b8ec2470f4989f12e355e83",
+          "sha256": "51793306a7358db7fddce5dcc2da3506e852c1428b8ec2470f4989f12e355e83"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/jet.rb",
+  "ruby_source_checksum": {
+    "sha256": "c22744a11ab75877aa515d500a46dbf1c07fbc8a3c7f2043c51f8f728257ec43"
+  },
+  "date_added": "2023-05-08T20:36:42-07:00"
+}

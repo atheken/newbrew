@@ -1,0 +1,112 @@
+{
+  "name": "picotool",
+  "full_name": "picotool",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for interacting with RP2040 devices in BOOTSEL mode or RP2040 binaries",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/raspberrypi/picotool",
+  "versions": {
+    "stable": "1.1.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/raspberrypi/picotool/archive/refs/tags/1.1.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f1746ead7815c13be1152f0645db8ea3b277628eb0110d42a0a186db37d40a91"
+    },
+    "head": {
+      "url": "https://github.com/raspberrypi/picotool.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:ade5c431f3d8bc38a8344f568560e66ed9db419456135562911a2fa4857a6a91",
+          "sha256": "ade5c431f3d8bc38a8344f568560e66ed9db419456135562911a2fa4857a6a91"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:f5215b286c3c79327faa53ae0cbea79a0127417eca52c9ff7888293932ffc5c2",
+          "sha256": "f5215b286c3c79327faa53ae0cbea79a0127417eca52c9ff7888293932ffc5c2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:a58c6248be802d53a62ed94e174895d96e8d785c06eaee7c8d868cb323f6367c",
+          "sha256": "a58c6248be802d53a62ed94e174895d96e8d785c06eaee7c8d868cb323f6367c"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:7c0768d43b4ada8fd89e1749bab90b19e94a1ca5e1ceca09059323fbbb2d64cf",
+          "sha256": "7c0768d43b4ada8fd89e1749bab90b19e94a1ca5e1ceca09059323fbbb2d64cf"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:94434284d05dd6e0a5ac3b484274805a7f848740ebec0e292b6a9f8b02c98f08",
+          "sha256": "94434284d05dd6e0a5ac3b484274805a7f848740ebec0e292b6a9f8b02c98f08"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:ea42adeb280960f973b906bacfdd065d70ff08611a0c9f6e08cd350105c8a8e6",
+          "sha256": "ea42adeb280960f973b906bacfdd065d70ff08611a0c9f6e08cd350105c8a8e6"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/picotool/blobs/sha256:26eb789f62304297bfbc00afe1eb8616c0e04dd381a2b95ae7d72869e81108e4",
+          "sha256": "26eb789f62304297bfbc00afe1eb8616c0e04dd381a2b95ae7d72869e81108e4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libusb"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/picotool.rb",
+  "ruby_source_checksum": {
+    "sha256": "a04b5b927ab32bb6b355f89355fab2f054eedd8350871663ad3c6db218172bb6"
+  },
+  "date_added": "2023-03-12T06:20:57+00:00"
+}

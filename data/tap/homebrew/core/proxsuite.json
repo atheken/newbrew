@@ -1,0 +1,117 @@
+{
+  "name": "proxsuite",
+  "full_name": "proxsuite",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Advanced Proximal Optimization Toolbox",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/Simple-Robotics/proxsuite",
+  "versions": {
+    "stable": "0.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Simple-Robotics/proxsuite/releases/download/v0.4.0/proxsuite-0.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "42950617fb3bf36064db249540c1036b966aa7bfe9b6a76d763dbbbf0c3d661d"
+    },
+    "head": {
+      "url": "https://github.com/Simple-Robotics/proxsuite.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:0826224a9fed51181af63d346b46542ddb3b35905453e5500e89c0d07aad079c",
+          "sha256": "0826224a9fed51181af63d346b46542ddb3b35905453e5500e89c0d07aad079c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:c000a1fb7871ae2dce96d5ed7fa061eedae844649dc80676d509dff50aa86e6b",
+          "sha256": "c000a1fb7871ae2dce96d5ed7fa061eedae844649dc80676d509dff50aa86e6b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:c44c8674e526426b9c77a05a59d436cf52611e76c0432ba4eb97c57a63f68491",
+          "sha256": "c44c8674e526426b9c77a05a59d436cf52611e76c0432ba4eb97c57a63f68491"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:b4dcc24b1075fd5156f541c5af2bbf6afb59ed21111358d717d4e5dfae8ba04e",
+          "sha256": "b4dcc24b1075fd5156f541c5af2bbf6afb59ed21111358d717d4e5dfae8ba04e"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:5cf89e95f8afd5a6ece3004923462fb49ed1870ab4919a7d3209bcfd440ad889",
+          "sha256": "5cf89e95f8afd5a6ece3004923462fb49ed1870ab4919a7d3209bcfd440ad889"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:d4db4b7f93c56b29688c424ccc79d80aea609b7205487c333a6f0b900e35cb2c",
+          "sha256": "d4db4b7f93c56b29688c424ccc79d80aea609b7205487c333a6f0b900e35cb2c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/proxsuite/blobs/sha256:4a03020cafaf15ba0d4de6146eb637162ee49849569644fa20fd9c1670f275df",
+          "sha256": "4a03020cafaf15ba0d4de6146eb637162ee49849569644fa20fd9c1670f275df"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "eigen",
+    "numpy",
+    "python@3.11",
+    "scipy",
+    "simde"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/proxsuite.rb",
+  "ruby_source_checksum": {
+    "sha256": "e856853a179525b0eeb5ff8a796754d427615caecd79d76ee86e419d265ac6bd"
+  },
+  "date_added": "2022-11-03T13:10:33+00:00"
+}

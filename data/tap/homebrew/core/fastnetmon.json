@@ -1,0 +1,147 @@
+{
+  "name": "fastnetmon",
+  "full_name": "fastnetmon",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DDoS detection tool with sFlow, Netflow, IPFIX and port mirror support",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/pavel-odintsov/fastnetmon/",
+  "versions": {
+    "stable": "1.2.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pavel-odintsov/fastnetmon/archive/refs/tags/v1.2.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d92a1f16e60b6ab6f5c5e023a215570e9352ce9d0c9a9d7209416f8cd0227ae6"
+    }
+  },
+  "revision": 3,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:81c83f3712b5a056ed190b0639225066fcf08b4c84e219df309f43e71f24f734",
+          "sha256": "81c83f3712b5a056ed190b0639225066fcf08b4c84e219df309f43e71f24f734"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:fe4f2d1805139c1e7c0d2b5b4431870d55972ebd0412ae05e9b8f5ee12208ccc",
+          "sha256": "fe4f2d1805139c1e7c0d2b5b4431870d55972ebd0412ae05e9b8f5ee12208ccc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:17800806bc4e52dbf11d661059495d5cfd7850ad1ad950eaed52b089cfcb3b84",
+          "sha256": "17800806bc4e52dbf11d661059495d5cfd7850ad1ad950eaed52b089cfcb3b84"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:1a108e5de92055568e1fe092a779bec815f08da43345e4db6a574e38e49ecdc8",
+          "sha256": "1a108e5de92055568e1fe092a779bec815f08da43345e4db6a574e38e49ecdc8"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:393c75e0894d4804d5f8d08896e1022c6992a5d24679dc4aa6a5a45577e8246e",
+          "sha256": "393c75e0894d4804d5f8d08896e1022c6992a5d24679dc4aa6a5a45577e8246e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:c085f7a2d3a8d6e91d697de4afdc5268694448a8d7b05642f1b13815cdadbeb0",
+          "sha256": "c085f7a2d3a8d6e91d697de4afdc5268694448a8d7b05642f1b13815cdadbeb0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fastnetmon/blobs/sha256:f028e8ae77dec6ae789aa1ee6598cb38aa4cfa28f970f8287d6ed7eaab0c50c4",
+          "sha256": "f028e8ae77dec6ae789aa1ee6598cb38aa4cfa28f970f8287d6ed7eaab0c50c4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "abseil",
+    "boost",
+    "capnp",
+    "grpc@1.54",
+    "hiredis",
+    "log4cpp",
+    "mongo-c-driver",
+    "openssl@3",
+    "elfutils",
+    "libbpf",
+    "libpcap"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "11",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/fastnetmon/sbin/fastnetmon",
+      "--configuration_file",
+      "/home/linuxbrew/.linuxbrew/etc/fastnetmon.conf",
+      "--log_to_console",
+      "--disable_pid_logic"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "always": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/fastnetmon.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/fastnetmon.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fastnetmon.rb",
+  "ruby_source_checksum": {
+    "sha256": "a6377b0f8ea377cd2243ceb9e2bf98b8f57a34c2d6667692e7e4decd6b35e112"
+  },
+  "date_added": "2022-06-21T23:04:19+00:00"
+}

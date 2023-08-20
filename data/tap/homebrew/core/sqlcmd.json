@@ -1,0 +1,105 @@
+{
+  "name": "sqlcmd",
+  "full_name": "sqlcmd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Microsoft SQL Server command-line interface",
+  "license": "MIT",
+  "homepage": "https://github.com/microsoft/go-sqlcmd",
+  "versions": {
+    "stable": "1.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/microsoft/go-sqlcmd/archive/refs/tags/v1.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "83b2b004bfdd34801ca8b55b9ccbc014545c9a51d0d8556bc23c4f8b0584b559"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7",
+          "sha256": "9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7",
+          "sha256": "9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7",
+          "sha256": "9edca5c1ed47c84b704625048b5b9d7138066a45b40e5fb7152a2ab79e8b19d7"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31",
+          "sha256": "6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31",
+          "sha256": "6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31",
+          "sha256": "6d3bbfc633a381236d1c2b51051d55f17c9f1a092cf8dccbe2d9e202dbeeaf31"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/sqlcmd/blobs/sha256:c489c52bcc2bc5cb98799d995129015c586487b8b2eee89e086591632eb25cb9",
+          "sha256": "c489c52bcc2bc5cb98799d995129015c586487b8b2eee89e086591632eb25cb9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/sqlcmd.rb",
+  "ruby_source_checksum": {
+    "sha256": "91c18cf194a7095ed327d3b619334e8c524ac0f603de02a127fbc8942faf496e"
+  },
+  "date_added": "2022-09-23T14:12:38+00:00"
+}

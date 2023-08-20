@@ -1,0 +1,109 @@
+{
+  "name": "youtubeuploader",
+  "full_name": "youtubeuploader",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scripted uploads to Youtube",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/porjo/youtubeuploader",
+  "versions": {
+    "stable": "23.02",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/porjo/youtubeuploader/archive/23.02.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "48f4315c713581547cd90b399c51a98f7d8a79c698f9a1f19f8a0d3dc70bd814"
+    },
+    "head": {
+      "url": "https://github.com/porjo/youtubeuploader.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f",
+          "sha256": "07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f",
+          "sha256": "07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f",
+          "sha256": "07b89e4ed8ee773dde84b81772471e48ee910d291989d577136c0368cc34f67f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0",
+          "sha256": "a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0",
+          "sha256": "a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0",
+          "sha256": "a24e908a50675105dd26c9392e9f02f639555c1f00588e450646159279b234c0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/youtubeuploader/blobs/sha256:cdb69cdbb2b5e68d63cc9a4234b01cf2ee89f2d2da18a4df1c5b28268e46e29e",
+          "sha256": "cdb69cdbb2b5e68d63cc9a4234b01cf2ee89f2d2da18a4df1c5b28268e46e29e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/youtubeuploader.rb",
+  "ruby_source_checksum": {
+    "sha256": "1d5797cc3f8651f6e6639b5e62503a20da0e1a7f3dc398201d69e48dff4e33cf"
+  },
+  "date_added": "2021-11-05T00:56:36+00:00"
+}

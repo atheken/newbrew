@@ -1,0 +1,111 @@
+{
+  "name": "tern",
+  "full_name": "tern",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Software Bill of Materials (SBOM) tool",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/tern-tools/tern",
+  "versions": {
+    "stable": "2.12.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/f8/4b/123b2ca469126b45e61853acf028fe1d466f4fe1d5e7afd1d4972c151b4d/tern-2.12.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c8c22f162962107adb64caaf5f764044e59caa28b9566079e101181c6449a1c0"
+    },
+    "head": {
+      "url": "https://github.com/tern-tools/tern.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:048187cbe4be44e7f71ef0ca070d1d452079550e28f47c4af9668d432ba68812",
+          "sha256": "048187cbe4be44e7f71ef0ca070d1d452079550e28f47c4af9668d432ba68812"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:360012e63a5dfd9b35ef0fb7d7aedc89370ac95047336fa159241a8e49e2e6df",
+          "sha256": "360012e63a5dfd9b35ef0fb7d7aedc89370ac95047336fa159241a8e49e2e6df"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:51c458550762a4d80c28cd04e94b4fcbe8251d55774e87279df2628070022944",
+          "sha256": "51c458550762a4d80c28cd04e94b4fcbe8251d55774e87279df2628070022944"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:0ecb618340337e96f6c6a9ac8db26825691a6e536d7391f32bf416fb4fb1ac55",
+          "sha256": "0ecb618340337e96f6c6a9ac8db26825691a6e536d7391f32bf416fb4fb1ac55"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:b4011bccfa25732375baa826835523e017dc6dbe6c535694f7c547d1d7f22a74",
+          "sha256": "b4011bccfa25732375baa826835523e017dc6dbe6c535694f7c547d1d7f22a74"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:b52783efaecefe398007a3ff0ac47c78a2ff3c9696a0b06cf9a3dea3a9dea731",
+          "sha256": "b52783efaecefe398007a3ff0ac47c78a2ff3c9696a0b06cf9a3dea3a9dea731"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tern/blobs/sha256:6ba8e8887742e7a73217bca053051dd6cc246d2c264c2bb8d88d610a2973bc41",
+          "sha256": "6ba8e8887742e7a73217bca053051dd6cc246d2c264c2bb8d88d610a2973bc41"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "attr"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "tern requires root privileges so you will need to run `sudo tern`.\nYou should be certain that you trust any software you grant root privileges.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tern.rb",
+  "ruby_source_checksum": {
+    "sha256": "c434b1d35baa4a7ed85499a1e0de1e9c68c7ff8ee06b635c4bb0b3ff2d078f0b"
+  },
+  "date_added": "2023-06-03T22:27:19-04:00"
+}

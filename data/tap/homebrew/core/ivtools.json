@@ -1,0 +1,107 @@
+{
+  "name": "ivtools",
+  "full_name": "ivtools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X11 vector graphic servers",
+  "license": "MIT",
+  "homepage": "https://github.com/vectaport/ivtools",
+  "versions": {
+    "stable": "2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vectaport/ivtools/archive/refs/tags/ivtools-2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6a5a55883399cbfef317d8bbf553e57e54945188666b344d9efa98ba3edb57ad"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:f15b4a00bb27f6b6ef480beb15cf07076054e599879409354b5c13ca1d1b49a5",
+          "sha256": "f15b4a00bb27f6b6ef480beb15cf07076054e599879409354b5c13ca1d1b49a5"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:6f44556326e4df7ca2daadd1c835c090496782647cc2505697a73fd4080d3d66",
+          "sha256": "6f44556326e4df7ca2daadd1c835c090496782647cc2505697a73fd4080d3d66"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:df3bb35a27ec88a243afd189bb8e4366c23d490e3312046a4c8e2bd3beee88f4",
+          "sha256": "df3bb35a27ec88a243afd189bb8e4366c23d490e3312046a4c8e2bd3beee88f4"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:a0c20b2a2bbbda73dea23f86dfba32850979feb63217203dfe06abfb25fc7eab",
+          "sha256": "a0c20b2a2bbbda73dea23f86dfba32850979feb63217203dfe06abfb25fc7eab"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:a50ab5e6eef0b90a7a9a0fbe76a3706fa6eec73935a9ea6f3a009608d755df5e",
+          "sha256": "a50ab5e6eef0b90a7a9a0fbe76a3706fa6eec73935a9ea6f3a009608d755df5e"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:b8cb965c3d966deed879d6a91ae48301462539b282f9bd06f460e90c52eb1059",
+          "sha256": "b8cb965c3d966deed879d6a91ae48301462539b282f9bd06f460e90c52eb1059"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ivtools/blobs/sha256:27d69d71ef38b8ad9811cc8310799ec1a14503d83cf04df51dde36ff460e4e5e",
+          "sha256": "27d69d71ef38b8ad9811cc8310799ec1a14503d83cf04df51dde36ff460e4e5e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ace",
+    "libx11",
+    "libxext"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ivtools.rb",
+  "ruby_source_checksum": {
+    "sha256": "387018024f859c7858c2189aed2b2dfb632ec6f39db09777d2630aa56d9b441e"
+  },
+  "date_added": "2022-01-04T11:23:06+00:00"
+}

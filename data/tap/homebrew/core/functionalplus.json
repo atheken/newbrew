@@ -1,0 +1,79 @@
+{
+  "name": "functionalplus",
+  "full_name": "functionalplus",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Functional Programming Library for C++",
+  "license": "BSL-1.0",
+  "homepage": "https://github.com/Dobiasd/FunctionalPlus",
+  "versions": {
+    "stable": "0.2.18",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Dobiasd/FunctionalPlus/archive/v0.2.18-p0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ffc63fc86f89a205accafa85c35790eda307adf5f1d6d51bb7ceb5c5e21e013b"
+    },
+    "head": {
+      "url": "https://github.com/Dobiasd/FunctionalPlus.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/functionalplus/blobs/sha256:75932df0bb790fd5795b12c967931873d950a7e47c551138675ea2a08216bead",
+          "sha256": "75932df0bb790fd5795b12c967931873d950a7e47c551138675ea2a08216bead"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/functionalplus.rb",
+  "ruby_source_checksum": {
+    "sha256": "2fd1dec43b2aa8a679d95d272f73ec1c378bad452ef49ea6cfb149fd09f46747"
+  },
+  "date_added": "2020-07-24T14:14:32+00:00"
+}

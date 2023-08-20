@@ -1,0 +1,119 @@
+{
+  "name": "nqp",
+  "full_name": "nqp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Lightweight Raku-like environment for virtual machines",
+  "license": "Artistic-2.0",
+  "homepage": "https://github.com/Raku/nqp",
+  "versions": {
+    "stable": "2023.06",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Raku/nqp/releases/download/2023.06/nqp-2023.06.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ddcb92f29180699ebaf0a7faa46ad4ac902f9c8826d7476d9c6f71176cadd7d3"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:6de4c501b2f9d51c26743c5e8dc277cb1d3be1bf833fd2d8edb626c7dc8b7043",
+          "sha256": "6de4c501b2f9d51c26743c5e8dc277cb1d3be1bf833fd2d8edb626c7dc8b7043"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:4718040cae7912e40176beedddb95e865f30e979e57d08796ee1299330eb7b99",
+          "sha256": "4718040cae7912e40176beedddb95e865f30e979e57d08796ee1299330eb7b99"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:083187e3b032bfbf440f79586a3cc56ee13660acef3c974dfdbe7c597a0cd0ef",
+          "sha256": "083187e3b032bfbf440f79586a3cc56ee13660acef3c974dfdbe7c597a0cd0ef"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:474ef34e4698ef872bf33a095829f77b3ce77d032bfca3c34c531313ee79e62d",
+          "sha256": "474ef34e4698ef872bf33a095829f77b3ce77d032bfca3c34c531313ee79e62d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:4ce6f856be4697992bee7688dfebe10a74fcb6e68d3dcc6db9e611735694f71b",
+          "sha256": "4ce6f856be4697992bee7688dfebe10a74fcb6e68d3dcc6db9e611735694f71b"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:c7940d2f4c989cecf2dca1a366582821fbd253c8c60ea3788602edaa90e810cc",
+          "sha256": "c7940d2f4c989cecf2dca1a366582821fbd253c8c60ea3788602edaa90e810cc"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/nqp/blobs/sha256:0bf1a53bd5bc89d14cd2c9f8a4841c102bbdb3c2a6d5f21e87ba6d8396a8bbd8",
+          "sha256": "0bf1a53bd5bc89d14cd2c9f8a4841c102bbdb3c2a6d5f21e87ba6d8396a8bbd8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libtommath",
+    "libuv",
+    "moarvm"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "perl": "build"
+    },
+    "libffi"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "rakudo-star"
+  ],
+  "conflicts_with_reasons": [
+    "rakudo-star currently ships with nqp included"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nqp.rb",
+  "ruby_source_checksum": {
+    "sha256": "f257bf9d9cc7128f9fcd3ffd71fbcf1caffc3fd86c9fc37bd8909e76276c194f"
+  },
+  "date_added": "2019-01-07T12:35:49+01:00"
+}

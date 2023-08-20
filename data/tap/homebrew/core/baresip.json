@@ -1,0 +1,108 @@
+{
+  "name": "baresip",
+  "full_name": "baresip",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Modular SIP useragent",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/baresip/baresip",
+  "versions": {
+    "stable": "3.3.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/baresip/baresip/archive/refs/tags/v3.3.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "be2da5049938acb180a130ccf05ccde12ae1b8409a54d3577349c070d3710d2a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:fc613884114cf5188deece2f14cc732325f33320769c35147ce98f0efeb1b085",
+          "sha256": "fc613884114cf5188deece2f14cc732325f33320769c35147ce98f0efeb1b085"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:81e8f0a6b515530c311b14c7ef572e40c64b564e0b143879deec1ddf6dd4b0be",
+          "sha256": "81e8f0a6b515530c311b14c7ef572e40c64b564e0b143879deec1ddf6dd4b0be"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:b072d168a1ca85a857d65d1012c192ae63ab290920531eac2e68cfbff1156d5b",
+          "sha256": "b072d168a1ca85a857d65d1012c192ae63ab290920531eac2e68cfbff1156d5b"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:2581e28f1220e2bb58e5afdfdc1962dbf0dd492596d9cfe143bc9b463b0ce11f",
+          "sha256": "2581e28f1220e2bb58e5afdfdc1962dbf0dd492596d9cfe143bc9b463b0ce11f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:3ec8a36322b1c1238750937e9f61b8e9f0657045947305881387a3502f4fa6ba",
+          "sha256": "3ec8a36322b1c1238750937e9f61b8e9f0657045947305881387a3502f4fa6ba"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:4dbba7cd75df823f9c077f1804e4c3da5455fd524af12b17c1615285742b7081",
+          "sha256": "4dbba7cd75df823f9c077f1804e4c3da5455fd524af12b17c1615285742b7081"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/baresip/blobs/sha256:9b719d1f674d1f077021aec54c05a531ab82d9ade2584b731701c4cb5bcfd296",
+          "sha256": "9b719d1f674d1f077021aec54c05a531ab82d9ade2584b731701c4cb5bcfd296"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libre"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/baresip.rb",
+  "ruby_source_checksum": {
+    "sha256": "34c83e964ce91d624754e2303786dc8652abe623efec19452f33d1350c7ce381"
+  },
+  "date_added": "2014-12-27T20:20:10+00:00"
+}

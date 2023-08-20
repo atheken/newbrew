@@ -1,0 +1,109 @@
+{
+  "name": "nap",
+  "full_name": "nap",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Code snippets in your terminal",
+  "license": "MIT",
+  "homepage": "https://github.com/maaslalani/nap",
+  "versions": {
+    "stable": "0.1.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/maaslalani/nap/archive/v0.1.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "2954577d2bd99c1114989d31e994d7bef0f1c934795fc559b7c90f6370d9f98b"
+    },
+    "head": {
+      "url": "https://github.com/maaslalani/nap.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:5e5ac9b5da7d19b91650509c620c45620a57230df2d487f6c43cdc2e6dcabe9d",
+          "sha256": "5e5ac9b5da7d19b91650509c620c45620a57230df2d487f6c43cdc2e6dcabe9d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:5e5ac9b5da7d19b91650509c620c45620a57230df2d487f6c43cdc2e6dcabe9d",
+          "sha256": "5e5ac9b5da7d19b91650509c620c45620a57230df2d487f6c43cdc2e6dcabe9d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:f0ed819808bb795ecfce79d5415ea928d48b3f4cd9d716ef26e0e48a4f88067b",
+          "sha256": "f0ed819808bb795ecfce79d5415ea928d48b3f4cd9d716ef26e0e48a4f88067b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22",
+          "sha256": "13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22",
+          "sha256": "13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22",
+          "sha256": "13824542ffb0caad2b26b347bb375fde1beedd26c8b3af84145917cb92dabe22"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nap/blobs/sha256:b9a201267139b6f4d72d65a5651b981efba2fd74d0583221b87071ec34ad1051",
+          "sha256": "b9a201267139b6f4d72d65a5651b981efba2fd74d0583221b87071ec34ad1051"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nap.rb",
+  "ruby_source_checksum": {
+    "sha256": "19d6fba878bc8213196f12d5cbc8fa7952cc03572f6d292ddd5bd8ca5abbccab"
+  },
+  "date_added": "2022-12-19T16:57:06+00:00"
+}

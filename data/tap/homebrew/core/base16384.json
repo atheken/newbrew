@@ -1,0 +1,109 @@
+{
+  "name": "base16384",
+  "full_name": "base16384",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Encode binary files to printable utf16be",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/fumiama/base16384",
+  "versions": {
+    "stable": "2.2.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fumiama/base16384/archive/refs/tags/v2.2.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5701519bd07a58019bc5204ca93194026f2869969cb8bc2563cbcb450f2e80bf"
+    },
+    "head": {
+      "url": "https://github.com/fumiama/base16384.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:15ac197ab48cfe0a71c9e2ac260a948b7bb195ec5f2d1abfc255045c9139749f",
+          "sha256": "15ac197ab48cfe0a71c9e2ac260a948b7bb195ec5f2d1abfc255045c9139749f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:272473b802a6e7bf7172a88bc449c663962c19811a08c097c39f7c2763ffeccb",
+          "sha256": "272473b802a6e7bf7172a88bc449c663962c19811a08c097c39f7c2763ffeccb"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:12e61ac49955df673d3616729b6eb9b89a4811c51c9ca3490f02966d379134ce",
+          "sha256": "12e61ac49955df673d3616729b6eb9b89a4811c51c9ca3490f02966d379134ce"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:b007d8064d553eb944d3621e725da824a113007b142e4529e61a08578db100af",
+          "sha256": "b007d8064d553eb944d3621e725da824a113007b142e4529e61a08578db100af"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:df1b2195ab4b00ab2809b2328db46c7facff530523c9fda84547ec9476f362f0",
+          "sha256": "df1b2195ab4b00ab2809b2328db46c7facff530523c9fda84547ec9476f362f0"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:63d289c9883b7bb655c9d908d3b8ae14787f6622ba19b89bef9327dd2c86006e",
+          "sha256": "63d289c9883b7bb655c9d908d3b8ae14787f6622ba19b89bef9327dd2c86006e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/base16384/blobs/sha256:5c37eb2bbb91d977f07549cfc609c528b093fbd9c2079ecd2c15d48c0880b2e1",
+          "sha256": "5c37eb2bbb91d977f07549cfc609c528b093fbd9c2079ecd2c15d48c0880b2e1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/base16384.rb",
+  "ruby_source_checksum": {
+    "sha256": "a3a60aa2da7af744d40951a8245a92aa10564d97f4d2fd3c326dba80b9e0ff00"
+  },
+  "date_added": "2023-03-08T15:31:24+00:00"
+}

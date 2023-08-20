@@ -1,0 +1,89 @@
+{
+  "name": "tee-clc",
+  "full_name": "tee-clc",
+  "tap": "homebrew/core",
+  "oldname": "team-explorer-everywhere",
+  "oldnames": [
+    "team-explorer-everywhere"
+  ],
+  "aliases": [
+    "team-explorer-everywhere"
+  ],
+  "versioned_formulae": [],
+  "desc": "Microsoft Team Explorer Everywhere command-line Client",
+  "license": "MIT",
+  "homepage": "https://github.com/Microsoft/team-explorer-everywhere",
+  "versions": {
+    "stable": "14.135.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Microsoft/team-explorer-everywhere/releases/download/14.135.0/TEE-CLC-14.135.0.zip",
+      "tag": null,
+      "revision": null,
+      "checksum": "efc51f9b7cd8178d8f9c4c6897c98363e84cc1e44be42b7647d803c0059cffe4"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tee-clc/blobs/sha256:9dd40c57c121a700b71b8b89136ec535c2783316d2be8b60f514dfeb9daab031",
+          "sha256": "9dd40c57c121a700b71b8b89136ec535c2783316d2be8b60f514dfeb9daab031"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "expect": "test"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "tiny-fugue"
+  ],
+  "conflicts_with_reasons": [
+    "both install a `tf` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2022-10-25",
+  "disable_reason": "unmaintained",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tee-clc.rb",
+  "ruby_source_checksum": {
+    "sha256": "458c36256d70af605b4ab9586ead07080f9e43eb38a7506a92b53eb09022f13b"
+  },
+  "date_added": "2013-02-01T10:50:05-08:00"
+}

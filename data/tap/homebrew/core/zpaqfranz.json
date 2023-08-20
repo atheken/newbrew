@@ -1,0 +1,107 @@
+{
+  "name": "zpaqfranz",
+  "full_name": "zpaqfranz",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Deduplicating command-line archiver and backup tool",
+  "license": "Public Domain and MIT and Zlib and Unlicense and BSD-2-Clause and Apache-2.0",
+  "homepage": "https://github.com/fcorbelli/zpaqfranz",
+  "versions": {
+    "stable": "58.8",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/fcorbelli/zpaqfranz/archive/refs/tags/58.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "26e915a2c313675805714efed04a1082526ecbb02ea792c60b53e31d1a8bd402"
+    },
+    "head": {
+      "url": "https://github.com/fcorbelli/zpaqfranz.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:3a86dca0e99ab05358c172347f3d5cb34f58c7a3724335354b43ef99c2c2b95a",
+          "sha256": "3a86dca0e99ab05358c172347f3d5cb34f58c7a3724335354b43ef99c2c2b95a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:e1d933af95c13fbf890c3fbacd7cfc982dca97b20487abf93ec1288ad3063778",
+          "sha256": "e1d933af95c13fbf890c3fbacd7cfc982dca97b20487abf93ec1288ad3063778"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:890f3045671e1768caf1a9dddfff37e16d22989942dfc88a5995b5b99d76ea48",
+          "sha256": "890f3045671e1768caf1a9dddfff37e16d22989942dfc88a5995b5b99d76ea48"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:a8a01a3cc1bd092bc383463651ee4415e481d1df039fd0a4295b13f1db8bdf8e",
+          "sha256": "a8a01a3cc1bd092bc383463651ee4415e481d1df039fd0a4295b13f1db8bdf8e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:574908e466f82e099256209fcdc234947728c70118f12ebe957d3331f8060ce8",
+          "sha256": "574908e466f82e099256209fcdc234947728c70118f12ebe957d3331f8060ce8"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:380214bdde3dbdda8e750e610660addbb84a0d52ae13887f4d99888ef1a838fd",
+          "sha256": "380214bdde3dbdda8e750e610660addbb84a0d52ae13887f4d99888ef1a838fd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zpaqfranz/blobs/sha256:28e1383aff696f1f89ad7b51073b8a045e73c5185e40954bba89a8e5c871e7ac",
+          "sha256": "28e1383aff696f1f89ad7b51073b8a045e73c5185e40954bba89a8e5c871e7ac"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zpaqfranz.rb",
+  "ruby_source_checksum": {
+    "sha256": "993bed3441afb870af7df48361220630edbd3e84cb25085b68dd3ed9c7e1c071"
+  },
+  "date_added": "2023-03-25T21:37:56-04:00"
+}

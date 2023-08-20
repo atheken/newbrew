@@ -1,0 +1,107 @@
+{
+  "name": "fobis",
+  "full_name": "fobis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "KISS build tool for automatically building modern Fortran projects",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/szaghi/FoBiS",
+  "versions": {
+    "stable": "3.0.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/53/3a/5533ab0277977027478b4c1285bb20b6beb221b222403b10398fb24e81a2/FoBiS.py-3.0.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ef23fde4199277abc693d539a81e0728571c349174da6b7476579f82482ab96c"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 2,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:ef3655ae24dbc9c1db4ca7310e0085019c8363f6cd3fe6244825ddf704e88727",
+          "sha256": "ef3655ae24dbc9c1db4ca7310e0085019c8363f6cd3fe6244825ddf704e88727"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:48907a8772aaea92593c15fa496441b3e70fc6cd9ccbc6c33939ebb59da1afdc",
+          "sha256": "48907a8772aaea92593c15fa496441b3e70fc6cd9ccbc6c33939ebb59da1afdc"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:34bd55f9d976e63024d4db2f340be2807b0d10a52b1a6d33ae1af305a65123be",
+          "sha256": "34bd55f9d976e63024d4db2f340be2807b0d10a52b1a6d33ae1af305a65123be"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:6979ae67c338a57331c033d7532e2f55919a15c5ba43263c5bf618b9e5ea8819",
+          "sha256": "6979ae67c338a57331c033d7532e2f55919a15c5ba43263c5bf618b9e5ea8819"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:ad700a8e305dae8552c63fe769290b5aede0bb026df206d5f035429f5bccc651",
+          "sha256": "ad700a8e305dae8552c63fe769290b5aede0bb026df206d5f035429f5bccc651"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:0f30368491b20eb5a23162c69263500c829812a9fbd53fd3f2163d3d1818089e",
+          "sha256": "0f30368491b20eb5a23162c69263500c829812a9fbd53fd3f2163d3d1818089e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fobis/blobs/sha256:b941e8f203bc59f207f77301a5bfd40262998d24b076fd3bfd56ccb5b0d3d64a",
+          "sha256": "b941e8f203bc59f207f77301a5bfd40262998d24b076fd3bfd56ccb5b0d3d64a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "gcc",
+    "graphviz",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fobis.rb",
+  "ruby_source_checksum": {
+    "sha256": "e5d261e75b1c83a6640be039c95d6acbdbf8cbafe5aeaa7d9165317904a1f639"
+  },
+  "date_added": "2015-08-15T18:28:38+01:00"
+}

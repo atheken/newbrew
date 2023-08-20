@@ -1,0 +1,105 @@
+{
+  "name": "ksops",
+  "full_name": "ksops",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Flexible Kustomize Plugin for SOPS Encrypted Resources",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/viaduct-ai/kustomize-sops",
+  "versions": {
+    "stable": "4.2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/viaduct-ai/kustomize-sops/archive/refs/tags/v4.2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0e9501af7ac0323d246c9fa4d49d9f12fe4ddf65be21e9fbbe58a041dbfbeece"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4",
+          "sha256": "7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4",
+          "sha256": "7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4",
+          "sha256": "7be87fae2bd05f216b4ae5d6658ba5304fb8df6856a44d22800ea9f725ee46a4"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956",
+          "sha256": "d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956",
+          "sha256": "d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956",
+          "sha256": "d4033ab623c841873a1ab5ac10e54e315f2cdd18e7cfb4fea26dac9535353956"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ksops/blobs/sha256:ac116c085b91608fcce4350d0af4c8f97d88525a983f3f93acbc161150f9d875",
+          "sha256": "ac116c085b91608fcce4350d0af4c8f97d88525a983f3f93acbc161150f9d875"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ksops.rb",
+  "ruby_source_checksum": {
+    "sha256": "6f774df756771fb9c23e50bdbe9ec581b5b109e88a17779f7211ce6adc25713a"
+  },
+  "date_added": "2023-04-01T18:15:28-04:00"
+}

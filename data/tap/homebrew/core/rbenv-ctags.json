@@ -1,0 +1,80 @@
+{
+  "name": "rbenv-ctags",
+  "full_name": "rbenv-ctags",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Automatically generate ctags for rbenv Ruby stdlibs",
+  "license": "MIT",
+  "homepage": "https://github.com/tpope/rbenv-ctags",
+  "versions": {
+    "stable": "1.0.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tpope/rbenv-ctags/archive/v1.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "94b38c277a5de3f53aac0e7f4ffacf30fb6ddeb31c0597c1bcd78b0175c86cbe"
+    },
+    "head": {
+      "url": "https://github.com/tpope/rbenv-ctags.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rbenv-ctags/blobs/sha256:acdf1a395103d51020679c824c8ad3b9daf794c73ea19fa23906ad6d1938114f",
+          "sha256": "acdf1a395103d51020679c824c8ad3b9daf794c73ea19fa23906ad6d1938114f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ctags",
+    "rbenv"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rbenv-ctags.rb",
+  "ruby_source_checksum": {
+    "sha256": "f1d4bebad3c1bdbf56ed81ff9db92d0934f34c9f320085303a32c2c6ca4a60ac"
+  },
+  "date_added": "2014-01-28T14:47:02-06:00"
+}

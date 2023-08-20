@@ -1,0 +1,130 @@
+{
+  "name": "minizip-ng",
+  "full_name": "minizip-ng",
+  "tap": "homebrew/core",
+  "oldname": "minizip2",
+  "oldnames": [
+    "minizip2"
+  ],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Zip file manipulation library with minizip 1.x compatibility layer",
+  "license": "Zlib",
+  "homepage": "https://github.com/zlib-ng/minizip-ng",
+  "versions": {
+    "stable": "4.0.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zlib-ng/minizip-ng/archive/4.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f9062e576de026fd5026d65597de3b05263cd4d91400cacdbbe36dfa8a642fff"
+    },
+    "head": {
+      "url": "https://github.com/zlib-ng/minizip-ng.git",
+      "branch": "dev"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:caf71e19acbee5bab936b4c3069892f8706855eccd387f9a58e54cc4e23d5575",
+          "sha256": "caf71e19acbee5bab936b4c3069892f8706855eccd387f9a58e54cc4e23d5575"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:73995a7ce9e1053e5e0eed917060a79062410889df9458d69fd64ba485294503",
+          "sha256": "73995a7ce9e1053e5e0eed917060a79062410889df9458d69fd64ba485294503"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:bd4fcaba2580a27c590d8484de3ff4098c235504da791c2bc87df096e2361327",
+          "sha256": "bd4fcaba2580a27c590d8484de3ff4098c235504da791c2bc87df096e2361327"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:55e4a73f2f6244050c09bf1a2d471f7190a7e42f58a30c697fbf55787cf1aeda",
+          "sha256": "55e4a73f2f6244050c09bf1a2d471f7190a7e42f58a30c697fbf55787cf1aeda"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:f34025761a09743053c335b5d4dd8476d50a33ab12dfef88bba02b2f7e792cfa",
+          "sha256": "f34025761a09743053c335b5d4dd8476d50a33ab12dfef88bba02b2f7e792cfa"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:4df600e796d4c461266acffad28794a1621b77e4dade70323affc8f418f31c81",
+          "sha256": "4df600e796d4c461266acffad28794a1621b77e4dade70323affc8f418f31c81"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minizip-ng/blobs/sha256:f1f4ecd9e3bbbd0a6739401cf35a138c5de1860325f88d66f25b5e2e6ce10e6c",
+          "sha256": "f1f4ecd9e3bbbd0a6739401cf35a138c5de1860325f88d66f25b5e2e6ce10e6c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "xz",
+    "zstd",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "minizip",
+    "libtcod",
+    "libzip"
+  ],
+  "conflicts_with_reasons": [
+    "both install a `libminizip.a` library",
+    "libtcod, libzip and minizip-ng install a `zip.h` header",
+    "libtcod, libzip and minizip-ng install a `zip.h` header"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/minizip-ng.rb",
+  "ruby_source_checksum": {
+    "sha256": "53e8d9fdf16d11d4b59f22db171aa24114f46084bb2df2965c5402e47b7807f0"
+  },
+  "date_added": "2021-03-19T16:08:37+00:00"
+}

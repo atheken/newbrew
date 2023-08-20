@@ -1,0 +1,79 @@
+{
+  "name": "stdman",
+  "full_name": "stdman",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Formatted C++ stdlib man pages from cppreference.com",
+  "license": "MIT",
+  "homepage": "https://github.com/jeaye/stdman",
+  "versions": {
+    "stable": "2022.07.30",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jeaye/stdman/archive/2022.07.30.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "332383e5999e1ac9a6210be8b256608187bb7690a2bff990372e93c2ad4e76ff"
+    },
+    "head": {
+      "url": "https://github.com/jeaye/stdman.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/stdman/blobs/sha256:f08bda422e1a02dac239430941847bde7d5bbea2d58fad480251121dab9edad5",
+          "sha256": "f08bda422e1a02dac239430941847bde7d5bbea2d58fad480251121dab9edad5"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [
+    "man-db"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/stdman.rb",
+  "ruby_source_checksum": {
+    "sha256": "fdaf00823e962397b7021e6ed89d345a4a521b91712e65fb9042679de2e8cae8"
+  },
+  "date_added": "2015-07-07T18:17:03+01:00"
+}

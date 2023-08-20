@@ -1,0 +1,105 @@
+{
+  "name": "autorest",
+  "full_name": "autorest",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Swagger (OpenAPI) Specification code generator",
+  "license": "MIT",
+  "homepage": "https://github.com/Azure/autorest",
+  "versions": {
+    "stable": "3.6.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/autorest/-/autorest-3.6.3.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d6deb4c56e1e6e2afd802a73f1f3e5654dc81f05528b85b085981ed3e7dd4236"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee",
+          "sha256": "3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee",
+          "sha256": "3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee",
+          "sha256": "3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0",
+          "sha256": "fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0",
+          "sha256": "fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0",
+          "sha256": "fe4ddfb4c7b22e1549e2cf91d3ed9a1d7f773175cbf2f2b706994546afe876d0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autorest/blobs/sha256:3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee",
+          "sha256": "3b4915255e97fe2641111b8dadb313951bc66947513bc3785933ec58d154d7ee"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/autorest.rb",
+  "ruby_source_checksum": {
+    "sha256": "596af1c097db7189f505c85110f46f1d992272ec3bc9eaaf8381326638e0eeef"
+  },
+  "date_added": "2017-02-11T17:48:35+00:00"
+}

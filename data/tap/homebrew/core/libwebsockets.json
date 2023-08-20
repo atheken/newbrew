@@ -1,0 +1,117 @@
+{
+  "name": "libwebsockets",
+  "full_name": "libwebsockets",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C websockets server library",
+  "license": "MIT",
+  "homepage": "https://github.com/warmcat/libwebsockets",
+  "versions": {
+    "stable": "4.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/warmcat/libwebsockets/archive/v4.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "6a85a1bccf25acc7e8e5383e4934c9b32a102880d1e4c37c70b27ae2a42406e1"
+    },
+    "head": {
+      "url": "https://github.com/warmcat/libwebsockets.git",
+      "branch": "main"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:81cf501100ed76a29b295272b3e924a49bc165bfe75c57548544e44a56fbdeaf",
+          "sha256": "81cf501100ed76a29b295272b3e924a49bc165bfe75c57548544e44a56fbdeaf"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:2af07ac1e2c5e1e9ef2a99addeffa8815d522fac6080d69e7b886e20eb82569b",
+          "sha256": "2af07ac1e2c5e1e9ef2a99addeffa8815d522fac6080d69e7b886e20eb82569b"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:ac161d45763d1348e6987c4360f36cee290d20a908bd4527a02092d08c4cd447",
+          "sha256": "ac161d45763d1348e6987c4360f36cee290d20a908bd4527a02092d08c4cd447"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:5aa9a2a8394067e7e3f125356b0d5c010bb345d98623e1984ed0c6ce4bf7c28a",
+          "sha256": "5aa9a2a8394067e7e3f125356b0d5c010bb345d98623e1984ed0c6ce4bf7c28a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:cc1b7ce4c7b301e90c38683cdfea2df90eb67f91b123b736c688f9b91ce134b9",
+          "sha256": "cc1b7ce4c7b301e90c38683cdfea2df90eb67f91b123b736c688f9b91ce134b9"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:7a5db0cadfc2cd020e6238b17ff65caff1a0fce2b00137c72b8da9b6b8d6c892",
+          "sha256": "7a5db0cadfc2cd020e6238b17ff65caff1a0fce2b00137c72b8da9b6b8d6c892"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libwebsockets/blobs/sha256:98f202eb1c6a27a250dd49f3063a3607ddaea763b75f6c66fc966dfde42063ad",
+          "sha256": "98f202eb1c6a27a250dd49f3063a3607ddaea763b75f6c66fc966dfde42063ad"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "libevent",
+    "libuv",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libwebsockets.rb",
+  "ruby_source_checksum": {
+    "sha256": "a7cfd10575016d4ef02fcf16f8cd81f0fa75da5fa25647e7641b4da4672afbbe"
+  },
+  "date_added": "2013-04-09T14:58:02-04:00"
+}

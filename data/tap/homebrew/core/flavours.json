@@ -1,0 +1,109 @@
+{
+  "name": "flavours",
+  "full_name": "flavours",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Easy to use base16 scheme manager that integrates with any workflow",
+  "license": "MIT",
+  "homepage": "https://github.com/Misterio77/flavours",
+  "versions": {
+    "stable": "0.7.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Misterio77/flavours/archive/refs/tags/v0.7.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "207002728cc270d92f4cd437384925e767c611d30520ec8a29816dfe600d7f61"
+    },
+    "head": {
+      "url": "https://github.com/Misterio77/flavours.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:76fb0fc700fb8ca4b0782a6fe3c5929e41885d8fcedd8733801b15201efd37eb",
+          "sha256": "76fb0fc700fb8ca4b0782a6fe3c5929e41885d8fcedd8733801b15201efd37eb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:95b55c5ca8366840c9f3aeed5d525b200fe2ecb8e590dbba957034c556a531f3",
+          "sha256": "95b55c5ca8366840c9f3aeed5d525b200fe2ecb8e590dbba957034c556a531f3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:31327342d9aa50edbfbb67c99ab56ccb2f04eb48f2cf25f1f75e32787b335dcc",
+          "sha256": "31327342d9aa50edbfbb67c99ab56ccb2f04eb48f2cf25f1f75e32787b335dcc"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:cf8bb2e1d3c20d057a79a8dca7c8249e93e63ed04178b910740b07767df38829",
+          "sha256": "cf8bb2e1d3c20d057a79a8dca7c8249e93e63ed04178b910740b07767df38829"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:963a8dbb9b4cfdfda2a65bdb5a16df394bab78f96bf2e707b1e5cbd11dd575e2",
+          "sha256": "963a8dbb9b4cfdfda2a65bdb5a16df394bab78f96bf2e707b1e5cbd11dd575e2"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:c976365af9c8ce579298e8232dda3605ad0a20116276dfda4084cd413e599b0a",
+          "sha256": "c976365af9c8ce579298e8232dda3605ad0a20116276dfda4084cd413e599b0a"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/flavours/blobs/sha256:35fe79bebc20bfc9453e7b313a5ffa5fc5040de4b7c896e98dcba4011425ade4",
+          "sha256": "35fe79bebc20bfc9453e7b313a5ffa5fc5040de4b7c896e98dcba4011425ade4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/flavours.rb",
+  "ruby_source_checksum": {
+    "sha256": "b3585df028f5d8ae6c373e16d6fd44803d0398bff3c5b00d49b02f15d08d852b"
+  },
+  "date_added": "2023-03-26T11:59:49-04:00"
+}

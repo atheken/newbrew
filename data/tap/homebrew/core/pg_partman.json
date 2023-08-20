@@ -1,0 +1,105 @@
+{
+  "name": "pg_partman",
+  "full_name": "pg_partman",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Partition management extension for PostgreSQL",
+  "license": "PostgreSQL",
+  "homepage": "https://github.com/pgpartman/pg_partman",
+  "versions": {
+    "stable": "4.7.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pgpartman/pg_partman/archive/refs/tags/v4.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "f6b376da1ddfbf9482b3a10f3e2bb414e546e67bec32acca5a9eb7d39719036e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:869fb42b1ac9a6d917259110801f02a82efcfca36b410f54a2c50fadb805ab65",
+          "sha256": "869fb42b1ac9a6d917259110801f02a82efcfca36b410f54a2c50fadb805ab65"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:dac312d8723156e49f4869f527cb633b843c207352b25fa927ce08ee13439e78",
+          "sha256": "dac312d8723156e49f4869f527cb633b843c207352b25fa927ce08ee13439e78"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:88c6dff46f92163128a10bcfe5bd3207f7244e841e7c7f54442b0bb06ecef88c",
+          "sha256": "88c6dff46f92163128a10bcfe5bd3207f7244e841e7c7f54442b0bb06ecef88c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:45b4fcb754025acb9eb6ee056dcbee64d5eb88cf83a901b6f8d31bd0b5839e04",
+          "sha256": "45b4fcb754025acb9eb6ee056dcbee64d5eb88cf83a901b6f8d31bd0b5839e04"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:d6beea5f6fac3a953e706bb1d83f18058b43b0fb2ebefc8e6b2bb54f9d5594c3",
+          "sha256": "d6beea5f6fac3a953e706bb1d83f18058b43b0fb2ebefc8e6b2bb54f9d5594c3"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:cf345bc7792b4a246a241a95e3420a3571f839e0a4364ae6885247908732ca23",
+          "sha256": "cf345bc7792b4a246a241a95e3420a3571f839e0a4364ae6885247908732ca23"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pg_partman/blobs/sha256:877472dc45361b9e0caa7a031b8acd78a03e6b20c575953b78df48f6c490949c",
+          "sha256": "877472dc45361b9e0caa7a031b8acd78a03e6b20c575953b78df48f6c490949c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "postgresql@14"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pg_partman.rb",
+  "ruby_source_checksum": {
+    "sha256": "31a6720b75f3dc8e2ee02b25ed18f0963e9de9086593ae034356f7a1ed19c8c5"
+  },
+  "date_added": "2022-05-30T16:53:07+00:00"
+}

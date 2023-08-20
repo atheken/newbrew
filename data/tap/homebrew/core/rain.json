@@ -1,0 +1,105 @@
+{
+  "name": "rain",
+  "full_name": "rain",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line tool for working with AWS CloudFormation",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/aws-cloudformation/rain",
+  "versions": {
+    "stable": "1.4.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/aws-cloudformation/rain/archive/v1.4.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b77b985ee964f794030b3c1ed0b16f65680fffba1e24054e02cffb0e1fb91602"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489",
+          "sha256": "6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489",
+          "sha256": "6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489",
+          "sha256": "6d9f09ac24c53934759529673cde73ef6cb6b265b111173ca5994133bad66489"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03",
+          "sha256": "a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03",
+          "sha256": "a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03",
+          "sha256": "a88018ace0e31a51ecf66a524f2ea8669cb0907ed5b01b63ef40f7e3828bae03"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rain/blobs/sha256:3243ed93b297f9be54349fa0d8aff057b52f5032e9769920ac662a55cba5a2a6",
+          "sha256": "3243ed93b297f9be54349fa0d8aff057b52f5032e9769920ac662a55cba5a2a6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Deploying CloudFormation stacks with rain requires the AWS CLI to be installed.\nAll other functionality works without the AWS CLI.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rain.rb",
+  "ruby_source_checksum": {
+    "sha256": "4249a220efa1ffa4245dd0fe1fe4ee9f0ea53f86dcb038f1df2718111cd4e6ba"
+  },
+  "date_added": "2020-10-23T07:10:05+00:00"
+}

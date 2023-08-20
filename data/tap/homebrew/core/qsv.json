@@ -1,0 +1,111 @@
+{
+  "name": "qsv",
+  "full_name": "qsv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ultra-fast CSV data-wrangling toolkit",
+  "license": "MIT or Unlicense",
+  "homepage": "https://github.com/jqnatividad/qsv",
+  "versions": {
+    "stable": "0.109.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jqnatividad/qsv/archive/refs/tags/0.109.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c48d7f5a174d3f80781ae9feb16173d6c5058e4f50916ff2dd77e1ade84a4dbc"
+    },
+    "head": {
+      "url": "https://github.com/jqnatividad/qsv.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:9d06648b003d2960121eef5846d76635410851cac6260747b906e241ee422805",
+          "sha256": "9d06648b003d2960121eef5846d76635410851cac6260747b906e241ee422805"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:06ff3a693a60226bef712bb87bac954ae1fdc764e777dfbe2dbbff2c27c36d03",
+          "sha256": "06ff3a693a60226bef712bb87bac954ae1fdc764e777dfbe2dbbff2c27c36d03"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:93bdbd6bbdb9ea00e40fa5173a1bfc20019b48c53fd968ff7f5ca8a591b0134b",
+          "sha256": "93bdbd6bbdb9ea00e40fa5173a1bfc20019b48c53fd968ff7f5ca8a591b0134b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:5ef919665eecd934091224dbb515a54f6c622ff420c447f4ada39c52de589de1",
+          "sha256": "5ef919665eecd934091224dbb515a54f6c622ff420c447f4ada39c52de589de1"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:127faf41a9985187a77f53094e3cb1abe25504fe9525f60f179aace2b801444c",
+          "sha256": "127faf41a9985187a77f53094e3cb1abe25504fe9525f60f179aace2b801444c"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:85524fb65341a0e2a09055b8e6bce48ae8c26bd745fe924619aae229d3305935",
+          "sha256": "85524fb65341a0e2a09055b8e6bce48ae8c26bd745fe924619aae229d3305935"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/qsv/blobs/sha256:460da51a0af8168a6657e467763734497d48f150833c39abbfe5c20dd5a14b92",
+          "sha256": "460da51a0af8168a6657e467763734497d48f150833c39abbfe5c20dd5a14b92"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [
+    "libmagic"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/qsv.rb",
+  "ruby_source_checksum": {
+    "sha256": "b0ded9b44590b0b090fabfbe3351a4599e7fe269e038417d2c5ac818940dcdbd"
+  },
+  "date_added": "2022-07-10T17:40:39+00:00"
+}

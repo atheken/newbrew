@@ -1,0 +1,80 @@
+{
+  "name": "simde",
+  "full_name": "simde",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Implementations of SIMD intrinsics for systems which don't natively support them",
+  "license": "MIT",
+  "homepage": "https://github.com/simd-everywhere/simde",
+  "versions": {
+    "stable": "0.7.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/simd-everywhere/simde/archive/v0.7.6.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c63e6c61392e324728da1c7e5de308cb31410908993a769594f5e21ff8de962b"
+    },
+    "head": {
+      "url": "https://github.com/simd-everywhere/simde.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/simde/blobs/sha256:e236c17b7eb174dbefb648865412d7b59263447f4161fb92fe13fa383b42fbab",
+          "sha256": "e236c17b7eb174dbefb648865412d7b59263447f4161fb92fe13fa383b42fbab"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/simde.rb",
+  "ruby_source_checksum": {
+    "sha256": "d88d6aa7678ea601fceb2df8c2c048a9872a7b473404250a592632ed91775850"
+  },
+  "date_added": "2021-05-31T06:22:13+00:00"
+}

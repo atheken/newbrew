@@ -1,0 +1,105 @@
+{
+  "name": "b3sum",
+  "full_name": "b3sum",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "BLAKE3 cryptographic hash function",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/BLAKE3-team/BLAKE3",
+  "versions": {
+    "stable": "1.4.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/BLAKE3-team/BLAKE3/archive/1.4.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "33020ac83a8169b2e847cc6fb1dd38806ffab6efe79fe6c320e322154a3bea2c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:73c42303e167e66e27ab4acf63dcf3ef8b1ae0f08bbdd7352862c269acd685d3",
+          "sha256": "73c42303e167e66e27ab4acf63dcf3ef8b1ae0f08bbdd7352862c269acd685d3"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:ff332414d8dab7392ddb34b1a1650082532161116f158b05c242f74414d3a1be",
+          "sha256": "ff332414d8dab7392ddb34b1a1650082532161116f158b05c242f74414d3a1be"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:1503b08de6a5fb0aacd1e43ada99c3f629e00d897688781e3d84289fd6289f66",
+          "sha256": "1503b08de6a5fb0aacd1e43ada99c3f629e00d897688781e3d84289fd6289f66"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:8d4395810c8b2b981c87d005c446968282ec74961db9fae2193f8ccb10c6df26",
+          "sha256": "8d4395810c8b2b981c87d005c446968282ec74961db9fae2193f8ccb10c6df26"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:f7b1df0cfc20fa00a9aa5839997d64e876bfff3f38995e2b14c8b296624eaf37",
+          "sha256": "f7b1df0cfc20fa00a9aa5839997d64e876bfff3f38995e2b14c8b296624eaf37"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:a7f7799760a3d5f25b378e12e1869c90ea9b3d37e72a5708a556fade40719162",
+          "sha256": "a7f7799760a3d5f25b378e12e1869c90ea9b3d37e72a5708a556fade40719162"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/b3sum/blobs/sha256:07eb8084d05b3a054f72fb89215f1ecc15856111e80700866922bf0a350dd819",
+          "sha256": "07eb8084d05b3a054f72fb89215f1ecc15856111e80700866922bf0a350dd819"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/b3sum.rb",
+  "ruby_source_checksum": {
+    "sha256": "8e453e7c294c160c234209c0a42f319d5094d9403c89d3ce673908d0ed685ae4"
+  },
+  "date_added": "2020-01-31T14:34:06-05:00"
+}

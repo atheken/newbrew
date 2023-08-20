@@ -1,0 +1,117 @@
+{
+  "name": "signal-cli",
+  "full_name": "signal-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CLI and dbus interface for WhisperSystems/libsignal-service-java",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/AsamK/signal-cli",
+  "versions": {
+    "stable": "0.11.11",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/AsamK/signal-cli/archive/refs/tags/v0.11.11.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "c9fa90e3e9b4a7324504cb1009a1c7c41fd7b4ef4e17361654431a436639f234"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:e0da15102629aec8f4bd5f27f091d8994761bd68f9113ab9229d92335d0fc94a",
+          "sha256": "e0da15102629aec8f4bd5f27f091d8994761bd68f9113ab9229d92335d0fc94a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:bf81837cd60eee8578b0d00ed0fd9c68c7b80b28c0db224c6a1c61513697f44e",
+          "sha256": "bf81837cd60eee8578b0d00ed0fd9c68c7b80b28c0db224c6a1c61513697f44e"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:65f8a8c3c4746a419d5b3e69bbf9ad40380351bfe8fd430f2ab0c7aead7f36ab",
+          "sha256": "65f8a8c3c4746a419d5b3e69bbf9ad40380351bfe8fd430f2ab0c7aead7f36ab"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:3bf8883deeb96db1b87e55be9ec1816e1ff01f27f546ecf703f12ca8eb3710d8",
+          "sha256": "3bf8883deeb96db1b87e55be9ec1816e1ff01f27f546ecf703f12ca8eb3710d8"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:4bb35862302177be55ec7e027d6a4618a2aeace88b32b1e415c690ff7656e0e9",
+          "sha256": "4bb35862302177be55ec7e027d6a4618a2aeace88b32b1e415c690ff7656e0e9"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:48bc86d143652c4b56a37b05bcf5e9ed47fb7afac263bf36c9e5dbff1bf4e5d8",
+          "sha256": "48bc86d143652c4b56a37b05bcf5e9ed47fb7afac263bf36c9e5dbff1bf4e5d8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/signal-cli/blobs/sha256:268c71d8f15552373a82a39caa962fce0de5f88f9a93b8ea1933735f7d2fca70",
+          "sha256": "268c71d8f15552373a82a39caa962fce0de5f88f9a93b8ea1933735f7d2fca70"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "gradle",
+    "protobuf",
+    "rustup-init",
+    "llvm@15"
+  ],
+  "dependencies": [
+    "openjdk"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "zip": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/signal-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "820da91ac55271dade5e94fae6f6f4cf37638aee1e8043cdbe25695264a757f5"
+  },
+  "date_added": "2019-02-11T08:29:55+01:00"
+}

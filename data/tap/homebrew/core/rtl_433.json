@@ -1,0 +1,114 @@
+{
+  "name": "rtl_433",
+  "full_name": "rtl_433",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Program to decode radio transmissions from devices",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/merbanan/rtl_433",
+  "versions": {
+    "stable": "22.11",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/merbanan/rtl_433.git",
+      "tag": "22.11",
+      "revision": "c3c58d81e72ec3d80af480a7c2ef7995ef66147f",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/merbanan/rtl_433.git",
+      "branch": "master"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:a2567ae5b1e95bbe323493563c57f9214c01d2ed23aa3fddca341386bdb22869",
+          "sha256": "a2567ae5b1e95bbe323493563c57f9214c01d2ed23aa3fddca341386bdb22869"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:29bf211dc690fec048e76155bb10a518e7319d4dc1ebbbd191a915f07fdbf943",
+          "sha256": "29bf211dc690fec048e76155bb10a518e7319d4dc1ebbbd191a915f07fdbf943"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:e89d9e40b7b637abe061f1d302105efc08e403fb5d24b682660fde4d1890bd18",
+          "sha256": "e89d9e40b7b637abe061f1d302105efc08e403fb5d24b682660fde4d1890bd18"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:bae66790200f8ba134f7f80984f5a6a4b0c5e8677db0dfe903854cfe3cc25e63",
+          "sha256": "bae66790200f8ba134f7f80984f5a6a4b0c5e8677db0dfe903854cfe3cc25e63"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:21302023e56d72a5ab3c85cad90d17d6d9cf5827a2afdbb69991b37c778d7d38",
+          "sha256": "21302023e56d72a5ab3c85cad90d17d6d9cf5827a2afdbb69991b37c778d7d38"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:ac70a060db70e27692b7e480d1dab3e8f5f52dbde2d681f7c49c7211c81bed9f",
+          "sha256": "ac70a060db70e27692b7e480d1dab3e8f5f52dbde2d681f7c49c7211c81bed9f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rtl_433/blobs/sha256:692e370f6028edeb4ad904df1404e28e33d450925a8510a35f7b2f71501472f0",
+          "sha256": "692e370f6028edeb4ad904df1404e28e33d450925a8510a35f7b2f71501472f0"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "librtlsdr",
+    "libusb",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rtl_433.rb",
+  "ruby_source_checksum": {
+    "sha256": "09f6d2da63b61093b3ff92b78b874b2a6d704d592c6d74f4ae76e5377e916bac"
+  },
+  "date_added": "2021-02-11T12:43:47+00:00"
+}

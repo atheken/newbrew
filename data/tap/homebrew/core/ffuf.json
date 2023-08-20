@@ -1,0 +1,105 @@
+{
+  "name": "ffuf",
+  "full_name": "ffuf",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast web fuzzer written in Go",
+  "license": "MIT",
+  "homepage": "https://github.com/ffuf/ffuf",
+  "versions": {
+    "stable": "2.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/ffuf/ffuf/archive/refs/tags/v2.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "80b42fe3dda8b24e10bade7b18651d402d1acf5031baedd0b344985721f3d8cd"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:601850e466df5546f7c6cba056de0a5e80eaf91000a0a5573de8591fd32f16fe",
+          "sha256": "601850e466df5546f7c6cba056de0a5e80eaf91000a0a5573de8591fd32f16fe"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:be6328a00529ade232dedc91d8e2377cf5d7c8685420b829a9a72378a141f488",
+          "sha256": "be6328a00529ade232dedc91d8e2377cf5d7c8685420b829a9a72378a141f488"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:5d62fce87044bf41948e62ef5f21cbaa4b3cd24f655f672bf977f29d5ce0402b",
+          "sha256": "5d62fce87044bf41948e62ef5f21cbaa4b3cd24f655f672bf977f29d5ce0402b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:298e7024508bd2af91a1a17df404ae57a5c0e3c7034b89ad4c56c724294e0a46",
+          "sha256": "298e7024508bd2af91a1a17df404ae57a5c0e3c7034b89ad4c56c724294e0a46"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:aea5ac12792b30b7c2a6d65c5ad18a802cd99f06ce1e285d182ac67fff5c4e07",
+          "sha256": "aea5ac12792b30b7c2a6d65c5ad18a802cd99f06ce1e285d182ac67fff5c4e07"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:d5d6cdb72ffc86050d943b27165eab08f863788d53222f237fcd74554ed935ad",
+          "sha256": "d5d6cdb72ffc86050d943b27165eab08f863788d53222f237fcd74554ed935ad"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ffuf/blobs/sha256:8e00bda411a7c3edfb125ed585487a8f141de2ccb844d708c4bef0210870726d",
+          "sha256": "8e00bda411a7c3edfb125ed585487a8f141de2ccb844d708c4bef0210870726d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ffuf.rb",
+  "ruby_source_checksum": {
+    "sha256": "0b8f121f2a3fc46ec8272bc57bea089f6943aeb9dcb5f760119c357a672f6071"
+  },
+  "date_added": "2019-12-20T07:55:33-05:00"
+}

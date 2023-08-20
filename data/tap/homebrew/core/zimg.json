@@ -1,0 +1,111 @@
+{
+  "name": "zimg",
+  "full_name": "zimg",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Scaling, colorspace conversion, and dithering library",
+  "license": "WTFPL",
+  "homepage": "https://github.com/sekrit-twc/zimg",
+  "versions": {
+    "stable": "3.0.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sekrit-twc/zimg/archive/release-3.0.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a9a0226bf85e0d83c41a8ebe4e3e690e1348682f6a2a7838f1b8cbff1b799bcf"
+    },
+    "head": {
+      "url": "https://github.com/sekrit-twc/zimg.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:cc82dc203d39c81808f2afacf64b5b5048859de941fff9e8caea599b8db83a3f",
+          "sha256": "cc82dc203d39c81808f2afacf64b5b5048859de941fff9e8caea599b8db83a3f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:2bbd044c345af191083c75e1e67b48f31ded8bc4869e19de25d6bd19d3a214ed",
+          "sha256": "2bbd044c345af191083c75e1e67b48f31ded8bc4869e19de25d6bd19d3a214ed"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:10507ec0d32970c00e04b4e76714ea452d22f315fdd116af5d56c3d81a7e1f39",
+          "sha256": "10507ec0d32970c00e04b4e76714ea452d22f315fdd116af5d56c3d81a7e1f39"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:31d345c4d6927d6a5f5e1d04b8d78a53db597309c24d301bd0963afcc0702c35",
+          "sha256": "31d345c4d6927d6a5f5e1d04b8d78a53db597309c24d301bd0963afcc0702c35"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:5a8049c1c8fa6e09f79dda6e18ec22909da4b4b567e7f52d4e6338f7ac6dfa64",
+          "sha256": "5a8049c1c8fa6e09f79dda6e18ec22909da4b4b567e7f52d4e6338f7ac6dfa64"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:5cabd4f2485ba7bb49feecac4584afaa7f05e097cb3935d7e9ea8a06336b4bcf",
+          "sha256": "5cabd4f2485ba7bb49feecac4584afaa7f05e097cb3935d7e9ea8a06336b4bcf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/zimg/blobs/sha256:a33e194d2d9132c9c35d9cb9affc078e77e26a6c8c11fd5b015c6f28914c52fe",
+          "sha256": "a33e194d2d9132c9c35d9cb9affc078e77e26a6c8c11fd5b015c6f28914c52fe"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/zimg.rb",
+  "ruby_source_checksum": {
+    "sha256": "8f7aa6440a5f861dd9354114f4585a91a670545b877003a7a9c8104cda2333a4"
+  },
+  "date_added": "2015-12-26T21:47:14+00:00"
+}

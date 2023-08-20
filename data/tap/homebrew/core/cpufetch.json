@@ -1,0 +1,107 @@
+{
+  "name": "cpufetch",
+  "full_name": "cpufetch",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "CPU architecture fetching tool",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/Dr-Noob/cpufetch",
+  "versions": {
+    "stable": "1.04",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Dr-Noob/cpufetch/archive/v1.04.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1505161fedd58d72b936f68b55dc9b027ef910454475c33e1061999496b30ff6"
+    },
+    "head": {
+      "url": "https://github.com/Dr-Noob/cpufetch.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:cde2572678e219669893fe29e3fa5a4737968812ad1dd5fb718c62a1d2a8bed8",
+          "sha256": "cde2572678e219669893fe29e3fa5a4737968812ad1dd5fb718c62a1d2a8bed8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:87694dc7eb4cadec9819fbc300d7a7999544eea4c2e7074d7e246acf268c08b5",
+          "sha256": "87694dc7eb4cadec9819fbc300d7a7999544eea4c2e7074d7e246acf268c08b5"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:b05a35d5cda56806832e88947600044307264463cdb5f12db13bd6c452918cd0",
+          "sha256": "b05a35d5cda56806832e88947600044307264463cdb5f12db13bd6c452918cd0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:95ba5156edfbec49c499bfac6e6f8b0c370af7392b2c3b71ad33169cd637208e",
+          "sha256": "95ba5156edfbec49c499bfac6e6f8b0c370af7392b2c3b71ad33169cd637208e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:4f2fc93b4f095d338247368c62ed66fa873c25eb8dfa8ec48faccb2e05550778",
+          "sha256": "4f2fc93b4f095d338247368c62ed66fa873c25eb8dfa8ec48faccb2e05550778"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:616c55a170525a282583cc98be969b049242adef343241ee5b77db685c309dcf",
+          "sha256": "616c55a170525a282583cc98be969b049242adef343241ee5b77db685c309dcf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cpufetch/blobs/sha256:2daa19537af4c766f00eb04d92d24e142581c635fc686a50662807771c6e88ef",
+          "sha256": "2daa19537af4c766f00eb04d92d24e142581c635fc686a50662807771c6e88ef"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cpufetch.rb",
+  "ruby_source_checksum": {
+    "sha256": "918daa21efbad0ef52d9b9da3ed950d1f67070c632479faca57b1c23e64633ee"
+  },
+  "date_added": "2021-10-11T17:18:34+00:00"
+}

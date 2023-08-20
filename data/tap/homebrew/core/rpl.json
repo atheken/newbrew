@@ -1,0 +1,105 @@
+{
+  "name": "rpl",
+  "full_name": "rpl",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text replacement utility",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/rrthomas/rpl",
+  "versions": {
+    "stable": "1.15.5",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/2c/73/13f76208c9e6312e27bd6d5f62ff867746b7c075b9451448803dc13b2834/rpl-1.15.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ae13d2fa1c1b8eaab75ff5756cbea9cc6836b55c4191e332521682be69de1b83"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:33bdfb7ac03b2f0bc8fa9744ce91ff3bcab8e95f729b219f2c52796ed3039b5c",
+          "sha256": "33bdfb7ac03b2f0bc8fa9744ce91ff3bcab8e95f729b219f2c52796ed3039b5c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:8260d9b4929478ebb46333397ceaa14b54908f1ad54237eeff07398e76c4c06d",
+          "sha256": "8260d9b4929478ebb46333397ceaa14b54908f1ad54237eeff07398e76c4c06d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:b45f7e45719d16c8181411f29f330251bf20a0e4af946c76653f386307ffefa9",
+          "sha256": "b45f7e45719d16c8181411f29f330251bf20a0e4af946c76653f386307ffefa9"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:bc7e9093f065ce21c4453a4672dbbfe711552cd8307ad3996f7926e68d030c0f",
+          "sha256": "bc7e9093f065ce21c4453a4672dbbfe711552cd8307ad3996f7926e68d030c0f"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:87d755ad01e755e32f8d67bfe5a4a005ecfcf8c2117e813e195d4c624ca7732f",
+          "sha256": "87d755ad01e755e32f8d67bfe5a4a005ecfcf8c2117e813e195d4c624ca7732f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:416a16df6f81200d1ece3520963a6d77cc82330d91f760566436c76b6a4bf5a0",
+          "sha256": "416a16df6f81200d1ece3520963a6d77cc82330d91f760566436c76b6a4bf5a0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rpl/blobs/sha256:10b3e52f32e8819483105ea0e5b94674e7019b92b02ae8207f4387296fcd7af9",
+          "sha256": "10b3e52f32e8819483105ea0e5b94674e7019b92b02ae8207f4387296fcd7af9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rpl.rb",
+  "ruby_source_checksum": {
+    "sha256": "c66bfcd8b8da54bdcadb0659c5f74328cf0516c208313b03598563c3643fb995"
+  },
+  "date_added": "2010-06-01T19:38:54-07:00"
+}

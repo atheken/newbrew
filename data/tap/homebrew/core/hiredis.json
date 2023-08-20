@@ -1,0 +1,109 @@
+{
+  "name": "hiredis",
+  "full_name": "hiredis",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Minimalistic client for Redis",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/redis/hiredis",
+  "versions": {
+    "stable": "1.2.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/redis/hiredis/archive/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "82ad632d31ee05da13b537c124f819eb88e18851d9cb0c30ae0552084811588c"
+    },
+    "head": {
+      "url": "https://github.com/redis/hiredis.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:9970a5ff45d25be488b5f3e843fb777624b4824510d8434b23565fc9b703a59a",
+          "sha256": "9970a5ff45d25be488b5f3e843fb777624b4824510d8434b23565fc9b703a59a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:bf180f8a975c907210d5c130be249f21a9cc050710c83acc9dd6b699c398ae24",
+          "sha256": "bf180f8a975c907210d5c130be249f21a9cc050710c83acc9dd6b699c398ae24"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:f1d1112d4969beb75a30b43faa1fb953f0b869ffe5d9dc02af2f16780abe34ad",
+          "sha256": "f1d1112d4969beb75a30b43faa1fb953f0b869ffe5d9dc02af2f16780abe34ad"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:ca336f556d8c10e7cfae516c8e6d5333f5e55533d0971e68f8ed2a730bb765fd",
+          "sha256": "ca336f556d8c10e7cfae516c8e6d5333f5e55533d0971e68f8ed2a730bb765fd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:33a1ced3df2be2279bb716e924f948d1be77f3dc3f831880900655f71daf2e95",
+          "sha256": "33a1ced3df2be2279bb716e924f948d1be77f3dc3f831880900655f71daf2e95"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:de9df908dc8e52a552d1f6faed0bc839750f44aad97666d835dd0f7634e3e051",
+          "sha256": "de9df908dc8e52a552d1f6faed0bc839750f44aad97666d835dd0f7634e3e051"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:f8c2054cf967b075da6153fea843f3b48e285213aa5944aab4d4b6e14e650bb1",
+          "sha256": "f8c2054cf967b075da6153fea843f3b48e285213aa5944aab4d4b6e14e650bb1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hiredis.rb",
+  "ruby_source_checksum": {
+    "sha256": "38020be9d0a932c0f5db11c0c524e42d03e34d33f699b2f2e3c6abed663b59e2"
+  },
+  "date_added": "2011-02-27T21:36:25+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "chruby",
+  "full_name": "chruby",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ruby environment tool",
+  "license": "MIT",
+  "homepage": "https://github.com/postmodern/chruby#readme",
+  "versions": {
+    "stable": "0.3.9",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/postmodern/chruby/releases/download/v0.3.9/chruby-0.3.9.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "7220a96e355b8a613929881c091ca85ec809153988d7d691299e0a16806b42fd"
+    },
+    "head": {
+      "url": "https://github.com/postmodern/chruby.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/chruby/blobs/sha256:977cf9319a21ddbbd26d3f0a43ed75825eb2a514bdce56b4045e5214732ec13b",
+          "sha256": "977cf9319a21ddbbd26d3f0a43ed75825eb2a514bdce56b4045e5214732ec13b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Add the following to the ~/.bash_profile or ~/.zshrc file:\n  source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh\n\nTo enable auto-switching of Rubies specified by .ruby-version files,\nadd the following to ~/.bash_profile or ~/.zshrc:\n  source $HOMEBREW_PREFIX/opt/chruby/share/chruby/auto.sh\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/chruby.rb",
+  "ruby_source_checksum": {
+    "sha256": "88e8c6afedc6fd0fc6c6b955fe2002f5629db4fcd1a8e62c8266c848ba034c03"
+  },
+  "date_added": "2012-12-17T12:54:42-08:00"
+}

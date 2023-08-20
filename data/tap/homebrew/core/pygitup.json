@@ -1,0 +1,106 @@
+{
+  "name": "pygitup",
+  "full_name": "pygitup",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Nicer 'git pull'",
+  "license": "MIT",
+  "homepage": "https://github.com/msiemens/PyGitUp",
+  "versions": {
+    "stable": "2.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/55/13/2dd3d4c9a021eb5fa6d8afbb29eb9e6eb57faa56cf10effe879c9626eed1/git_up-2.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "1935f62162d0e3cc967cf9e6b446bd1c9e6e9902edb6a81396065095a5a0784e"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:54ec5590c370ff9324b20f83bf468b821da26e655c3be10d302d46fc1e82ff1d",
+          "sha256": "54ec5590c370ff9324b20f83bf468b821da26e655c3be10d302d46fc1e82ff1d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:789e3cc5c6f94d144c88c6c82f4842aae2577a891c9aa6e54a81bcddd96b6f0d",
+          "sha256": "789e3cc5c6f94d144c88c6c82f4842aae2577a891c9aa6e54a81bcddd96b6f0d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:d2c86a9197c67525c1078a73aff4fda7735e82427ae709ad31fb0ba3036e6bcd",
+          "sha256": "d2c86a9197c67525c1078a73aff4fda7735e82427ae709ad31fb0ba3036e6bcd"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:64b51de3dcd18192d073f4c98af6f81c56b0292f1dd309ff877688d701ec7d60",
+          "sha256": "64b51de3dcd18192d073f4c98af6f81c56b0292f1dd309ff877688d701ec7d60"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:21aa813f4880fcaa67ec86892b22257634f0011cca30bce2700a1e9d214aa8db",
+          "sha256": "21aa813f4880fcaa67ec86892b22257634f0011cca30bce2700a1e9d214aa8db"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:ddb7020507a20291c4bf6db26dee60d14de89d736496f16384c8655f3232283f",
+          "sha256": "ddb7020507a20291c4bf6db26dee60d14de89d736496f16384c8655f3232283f"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pygitup/blobs/sha256:09128867a857960e49050eefd31c979b98bc8537d8302132771cdfc8d2809a1a",
+          "sha256": "09128867a857960e49050eefd31c979b98bc8537d8302132771cdfc8d2809a1a"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python-typing-extensions",
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pygitup.rb",
+  "ruby_source_checksum": {
+    "sha256": "5ea6c57cc80a9323f89b1d622509bcf288e25fb8efbfbcf46d13850590fa5b55"
+  },
+  "date_added": "2018-05-27T03:40:22-07:00"
+}

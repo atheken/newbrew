@@ -1,0 +1,109 @@
+{
+  "name": "nali",
+  "full_name": "nali",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tool for querying IP geographic information and CDN provider",
+  "license": "MIT",
+  "homepage": "https://github.com/zu1k/nali",
+  "versions": {
+    "stable": "0.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/zu1k/nali/archive/refs/tags/v0.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "732ef60373605491099574d875e032f864fd075d6de2d93c82cf74fad603ed45"
+    },
+    "head": {
+      "url": "https://github.com/zu1k/nali.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b",
+          "sha256": "7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b",
+          "sha256": "7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b",
+          "sha256": "7fe418f9bc06ea40fde09eba380059926131febb9cfffe7a1ec412f693b2666b"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373",
+          "sha256": "d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373",
+          "sha256": "d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373",
+          "sha256": "d8223e754e41d2a95999d2f78ffd1894b0a3308b247a30fae0a2d5342c61c373"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/nali/blobs/sha256:6e9e94d8b6f686d87c1cac3824a21b29c4298341b7b7a64a61ce9086aa6836f8",
+          "sha256": "6e9e94d8b6f686d87c1cac3824a21b29c4298341b7b7a64a61ce9086aa6836f8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/nali.rb",
+  "ruby_source_checksum": {
+    "sha256": "c8f06f06874f6bcd419fd0b76395b2e548db9a5e96dc7d03e702390ca986bb77"
+  },
+  "date_added": "2022-06-06T16:13:23+00:00"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "liblxi",
+  "full_name": "liblxi",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Simple C API for communicating with LXI compatible instruments",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/lxi-tools/liblxi",
+  "versions": {
+    "stable": "1.20",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/lxi-tools/liblxi/archive/refs/tags/v1.20.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4ee8dc2daea6bf581c1da32c51c4cb08e3f3b42d4c77d8a19777f5bbae93f57a"
+    },
+    "head": {
+      "url": "https://github.com/lxi-tools/liblxi.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:3f9e513d0056908d8727d4a8b5b83d625d83bae479871a165a1432c5e3bbc22b",
+          "sha256": "3f9e513d0056908d8727d4a8b5b83d625d83bae479871a165a1432c5e3bbc22b"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:bbba9e76bf693dfc99792ba17a350660ec2b76d8b3a13847f9d747578b6da241",
+          "sha256": "bbba9e76bf693dfc99792ba17a350660ec2b76d8b3a13847f9d747578b6da241"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:e4dcfd51df02803ec63669c335623e972a440c7097a69d02c3d7b5590e7163d7",
+          "sha256": "e4dcfd51df02803ec63669c335623e972a440c7097a69d02c3d7b5590e7163d7"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:d60e0c52667699e11433b2dfa11f6c1e22c471d80715477a1d9de63c0c352e02",
+          "sha256": "d60e0c52667699e11433b2dfa11f6c1e22c471d80715477a1d9de63c0c352e02"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:6113392957d9239ab4c6910b7194fb18c8c3c732b2c4db312da53144d1d8935e",
+          "sha256": "6113392957d9239ab4c6910b7194fb18c8c3c732b2c4db312da53144d1d8935e"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:65730aa0af2e582967a738edcad6a8640e7a40d36becd7be19e05c601f79649d",
+          "sha256": "65730aa0af2e582967a738edcad6a8640e7a40d36becd7be19e05c601f79649d"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/liblxi/blobs/sha256:ab21945cac82d3233ce252006691421c03addb19a39abee90a1f9d9fe95cf80f",
+          "sha256": "ab21945cac82d3233ce252006691421c03addb19a39abee90a1f9d9fe95cf80f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libpthread-stubs",
+    "libtirpc"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/liblxi.rb",
+  "ruby_source_checksum": {
+    "sha256": "b4587a11b321cd336e13480c76b9f5c758dc99e9ff8b4127e8eb1373eec586eb"
+  },
+  "date_added": "2023-05-02T18:52:50+08:00"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "v8",
+  "full_name": "v8",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "v8@11.5"
+  ],
+  "versioned_formulae": [
+    "v8@3.15"
+  ],
+  "desc": "Google's JavaScript engine",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/v8/v8/wiki",
+  "versions": {
+    "stable": "11.5.150.22",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/v8/v8/archive/11.5.150.22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d4c289894f38bc58679f357ded2a8a134f529ee6ba0c618c372c8b9264d519f1"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:88c52b8ee670089b6fbf8116d190590aca4af06226edd0601839c49445d86190",
+          "sha256": "88c52b8ee670089b6fbf8116d190590aca4af06226edd0601839c49445d86190"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:c8198b3f348e8989c98ecb835f296b14aa892c7e6310ef3981dbe8abe2032804",
+          "sha256": "c8198b3f348e8989c98ecb835f296b14aa892c7e6310ef3981dbe8abe2032804"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:b63b5c2b5f4f46e0377cf1cee59b626b7ddd0ccf87a717bc6821d42679d9a797",
+          "sha256": "b63b5c2b5f4f46e0377cf1cee59b626b7ddd0ccf87a717bc6821d42679d9a797"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:0c7c982ca41808000bf8de1059dfae9bbbbc8021a9be07160fc4a11992867fee",
+          "sha256": "0c7c982ca41808000bf8de1059dfae9bbbbc8021a9be07160fc4a11992867fee"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:ab9647dfdc7118813b89ee87c12702241a07fbe584461efb3027184a94eaebd4",
+          "sha256": "ab9647dfdc7118813b89ee87c12702241a07fbe584461efb3027184a94eaebd4"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:2ee900b48ca6ad46ed2221a14dcc2ecb989e0f1d293fb3090ef1024c35da1413",
+          "sha256": "2ee900b48ca6ad46ed2221a14dcc2ecb989e0f1d293fb3090ef1024c35da1413"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/v8/blobs/sha256:e87264aeac177bc2711ba17da15d86d6f2c0e0c64355e13655e2a20d2d8b0ab4",
+          "sha256": "e87264aeac177bc2711ba17da15d86d6f2c0e0c64355e13655e2a20d2d8b0ab4"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "ninja",
+    "python@3.11",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/v8.rb",
+  "ruby_source_checksum": {
+    "sha256": "a5296edcf6be3d48f40f8fb16c79880a657a6f94c0f89d8eace8b8b7edc1c1e6"
+  },
+  "date_added": "2009-12-05T16:42:17+00:00"
+}

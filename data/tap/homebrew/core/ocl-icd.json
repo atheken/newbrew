@@ -1,0 +1,137 @@
+{
+  "name": "ocl-icd",
+  "full_name": "ocl-icd",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OpenCL ICD loader",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/OCL-dev/ocl-icd/",
+  "versions": {
+    "stable": "2.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/OCL-dev/ocl-icd/archive/refs/tags/v2.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ec47d7dcd961ea06695b067e8b7edb82e420ddce03e0081a908c62fd0b8535c5"
+    },
+    "head": {
+      "url": "https://github.com/OCL-dev/ocl-icd.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:8fc901e1e752f1902b2121429848130015c185950ba6d95493799e16f4682657",
+          "sha256": "8fc901e1e752f1902b2121429848130015c185950ba6d95493799e16f4682657"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:02b44e5ee419f3b8b41a022cb18686b8228e9d7f25dc2e577ecbc0416dad3826",
+          "sha256": "02b44e5ee419f3b8b41a022cb18686b8228e9d7f25dc2e577ecbc0416dad3826"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:9c235f1e589eb8bf190044f779cd4dfea39933ad6204d04425e169decacda436",
+          "sha256": "9c235f1e589eb8bf190044f779cd4dfea39933ad6204d04425e169decacda436"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:a94ce49fa8125e0280560433f7e6dd73fbed00275f63d7ee1128de8c90b02397",
+          "sha256": "a94ce49fa8125e0280560433f7e6dd73fbed00275f63d7ee1128de8c90b02397"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:d7f1221c1e6e98a8f83f6e9a73a52156a10d41335ed4cfab2452c4af9fb8442b",
+          "sha256": "d7f1221c1e6e98a8f83f6e9a73a52156a10d41335ed4cfab2452c4af9fb8442b"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:c2bcc480d4d10eb4b38ebec517ae32b936e272f9c559e6f8e17a2c7efc916dfb",
+          "sha256": "c2bcc480d4d10eb4b38ebec517ae32b936e272f9c559e6f8e17a2c7efc916dfb"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ocl-icd/blobs/sha256:75434ef5697505daea48897d562dc77f1daf9c6d2ff938684d75bf3c5f2fbcc9",
+          "sha256": "75434ef5697505daea48897d562dc77f1daf9c6d2ff938684d75bf3c5f2fbcc9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": {
+    "reason": ":shadowed_by_macos",
+    "explanation": "macOS provides OpenCL.framework"
+  },
+  "options": [],
+  "build_dependencies": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "libtool",
+    "opencl-headers",
+    "xmlto"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "opencl-headers"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "libxml2": "build"
+    },
+    {
+      "libxslt": "build"
+    },
+    {
+      "ruby": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [
+    "opencl-icd-loader"
+  ],
+  "conflicts_with_reasons": [
+    "both install `lib/libOpenCL.so` library"
+  ],
+  "link_overwrite": [],
+  "caveats": "The default vendors directory is $HOMEBREW_PREFIX/etc/OpenCL/vendors\nNo OpenCL implementation is pre-installed, so all dependents will require either\ninstalling a compatible formula or creating an \".icd\" file mapping to an externally\ninstalled implementation. Any \".icd\" files copied or symlinked into\n`$HOMEBREW_PREFIX/etc/OpenCL/vendors` will automatically be detected by `ocl-icd`.\nA portable OpenCL implementation is available via the `pocl` formula.\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ocl-icd.rb",
+  "ruby_source_checksum": {
+    "sha256": "c1a93ea3eddd2e18912aa3ede145985afc3363dc72dd34a3283ee0c748571aa8"
+  },
+  "date_added": "2022-07-19T07:16:14+00:00"
+}

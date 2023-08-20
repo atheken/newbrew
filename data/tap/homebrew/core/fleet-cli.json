@@ -1,0 +1,109 @@
+{
+  "name": "fleet-cli",
+  "full_name": "fleet-cli",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Manage large fleets of Kubernetes clusters",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/rancher/fleet",
+  "versions": {
+    "stable": "0.7.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rancher/fleet.git",
+      "tag": "v0.7.0",
+      "revision": "414e4337dcb3bd10ede130f40f38ddeccc3fcd90",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/rancher/fleet.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:287bee28b07d9faf99a1a8caca5b86e9069aebe27baf7e9579093650643c5c76",
+          "sha256": "287bee28b07d9faf99a1a8caca5b86e9069aebe27baf7e9579093650643c5c76"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:ec06b97e9e1017ece42b693f02098246da69081497dd824d6015cb21997eec18",
+          "sha256": "ec06b97e9e1017ece42b693f02098246da69081497dd824d6015cb21997eec18"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:d10108005b5528bfa11ffd478b3c0fdce5ec2dc685c243d84415a3ad50ea65a3",
+          "sha256": "d10108005b5528bfa11ffd478b3c0fdce5ec2dc685c243d84415a3ad50ea65a3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:b99ed69c3de4801db0a5fc08e0dd18aa9a91b1a288ab641ef0dacd70e5149338",
+          "sha256": "b99ed69c3de4801db0a5fc08e0dd18aa9a91b1a288ab641ef0dacd70e5149338"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:90f8befbfdee6becc920cab2a7027bf3933e53c8ae36d0b6262376fbdcf5f774",
+          "sha256": "90f8befbfdee6becc920cab2a7027bf3933e53c8ae36d0b6262376fbdcf5f774"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:73952254545d46979d6900d3e77df15b51de34c444f038b39f933113c6b692a8",
+          "sha256": "73952254545d46979d6900d3e77df15b51de34c444f038b39f933113c6b692a8"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fleet-cli/blobs/sha256:8d69b86a0fe2641d6ec3c77313e3d684b383dc6a26c1323183c198678bc35f55",
+          "sha256": "8d69b86a0fe2641d6ec3c77313e3d684b383dc6a26c1323183c198678bc35f55"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fleet-cli.rb",
+  "ruby_source_checksum": {
+    "sha256": "009f2706010d1037778df92102048cb180878ac2501ce51bbcdcc6ae023e2fe6"
+  },
+  "date_added": "2020-10-08T08:52:11+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "name": "xplr",
+  "full_name": "xplr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Hackable, minimal, fast TUI file explorer",
+  "license": "MIT",
+  "homepage": "https://github.com/sayanarijit/xplr",
+  "versions": {
+    "stable": "0.21.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sayanarijit/xplr/archive/refs/tags/v0.21.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "27800f0e731aedc194872609263e8c20b2e94b2f2e9088da5d3f501c406e938d"
+    },
+    "head": {
+      "url": "https://github.com/sayanarijit/xplr.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:cf45f453db98e46627589ccb714c4dd77784ca3ed66789707c323e205ea032a1",
+          "sha256": "cf45f453db98e46627589ccb714c4dd77784ca3ed66789707c323e205ea032a1"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:250b160f712305bf0b26a9b646ebb92bdc75b5ec07ae8b02140abece36daadc3",
+          "sha256": "250b160f712305bf0b26a9b646ebb92bdc75b5ec07ae8b02140abece36daadc3"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:7c2d4469d1f47267e696d4f585d25c76d9f24e0b43b80154c3574fa5514361a3",
+          "sha256": "7c2d4469d1f47267e696d4f585d25c76d9f24e0b43b80154c3574fa5514361a3"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:3208ff8b9db848db3dc018b545f5ad9db80eeeb7f0a4f621b29da07ee8e69dbc",
+          "sha256": "3208ff8b9db848db3dc018b545f5ad9db80eeeb7f0a4f621b29da07ee8e69dbc"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:26bec132afb8adf781fe4b8f5e453b1e807eed1767023c3f4059aa6683faba19",
+          "sha256": "26bec132afb8adf781fe4b8f5e453b1e807eed1767023c3f4059aa6683faba19"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:6492c79136002ecb1d9a604c74c97af1e050b1735f7d2830dc64ca3ac6b12f33",
+          "sha256": "6492c79136002ecb1d9a604c74c97af1e050b1735f7d2830dc64ca3ac6b12f33"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xplr/blobs/sha256:55d18fb8642c8eb2a34c15889abb5ca5010fe6ae24b9044a500f5e2384d734e3",
+          "sha256": "55d18fb8642c8eb2a34c15889abb5ca5010fe6ae24b9044a500f5e2384d734e3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "rust"
+  ],
+  "dependencies": [
+    "luajit"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "aa66a84309b297ea296f7a4b9c424b5c0ec4875c",
+  "ruby_source_path": "Formula/xplr.rb",
+  "ruby_source_checksum": {
+    "sha256": "1c7f8104ed54ed695f623ecb7c91cf1a9cb532b9d14d06c40d8f4213aebffa69"
+  },
+  "date_added": "2021-04-15T11:37:45+00:00"
+}

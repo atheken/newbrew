@@ -1,0 +1,75 @@
+{
+  "name": "pycparser",
+  "full_name": "pycparser",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C parser in Python",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/eliben/pycparser",
+  "versions": {
+    "stable": "2.21",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pycparser/blobs/sha256:882d005d9bcc429f3eee0d5cdb3c5065302ec25c96ea1ae3d5a32fb1f6f08cb8",
+          "sha256": "882d005d9bcc429f3eee0d5cdb3c5065302ec25c96ea1ae3d5a32fb1f6f08cb8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pycparser.rb",
+  "ruby_source_checksum": {
+    "sha256": "3478b77201f1c824b291381ba8927428e3b0b6fc26bbd8e6fe0073fb81e9c434"
+  },
+  "date_added": "2023-03-02T03:49:39+00:00"
+}

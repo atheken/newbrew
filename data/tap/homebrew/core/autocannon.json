@@ -1,0 +1,75 @@
+{
+  "name": "autocannon",
+  "full_name": "autocannon",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast HTTP/1.1 benchmarking tool written in Node.js",
+  "license": "MIT",
+  "homepage": "https://github.com/mcollina/autocannon",
+  "versions": {
+    "stable": "7.11.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/autocannon/-/autocannon-7.11.0.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0b7b7df9126343782e860eeb84b663d6634f54a1e40f7e472b9350eebb72512a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autocannon/blobs/sha256:e453bf6b7d26b06fd7d28a39a75e55dbd91a3a0eeded160fa6899a916d6382ae",
+          "sha256": "e453bf6b7d26b06fd7d28a39a75e55dbd91a3a0eeded160fa6899a916d6382ae"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/autocannon.rb",
+  "ruby_source_checksum": {
+    "sha256": "f36b3f579f86dde6490c8d953f9827b8ee5efcc0fbadccde42b1984ed09e956d"
+  },
+  "date_added": "2022-04-02T14:18:21+00:00"
+}

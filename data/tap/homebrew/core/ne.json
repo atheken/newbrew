@@ -1,0 +1,114 @@
+{
+  "name": "ne",
+  "full_name": "ne",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Text editor based on the POSIX standard",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/vigna/ne",
+  "versions": {
+    "stable": "3.3.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/vigna/ne/archive/3.3.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9b8b757db22bd8cb783cf063f514143a8c325e5c321af31901e0f76e77455417"
+    },
+    "head": {
+      "url": "https://github.com/vigna/ne.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:118365512d7c91463595795cf8ac3f5bb8c0ced42fdb8c4e52321c6858ec61e0",
+          "sha256": "118365512d7c91463595795cf8ac3f5bb8c0ced42fdb8c4e52321c6858ec61e0"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:041e27ae4a7fabc0e61e89365c63916bf2e4be0ab0e1da78b4a2c0e9043a9ba8",
+          "sha256": "041e27ae4a7fabc0e61e89365c63916bf2e4be0ab0e1da78b4a2c0e9043a9ba8"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:53b99d998ae08a5608c2c3f049306619cb80b11a1d44ddc243d32378357df5ad",
+          "sha256": "53b99d998ae08a5608c2c3f049306619cb80b11a1d44ddc243d32378357df5ad"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:ce2f35fd2873e3ee85470a4c2e19eb68d5e03060b70eca9973b5fa5e3741be8d",
+          "sha256": "ce2f35fd2873e3ee85470a4c2e19eb68d5e03060b70eca9973b5fa5e3741be8d"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:60cc57ed07026f7a2b67f32b011e6c6f5b2105e2d0ceeff772d7052746797153",
+          "sha256": "60cc57ed07026f7a2b67f32b011e6c6f5b2105e2d0ceeff772d7052746797153"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:bec8bb3b21f20213c3f4d26f6dc03d5c7d25b269d22ac460b5fe810343506d14",
+          "sha256": "bec8bb3b21f20213c3f4d26f6dc03d5c7d25b269d22ac460b5fe810343506d14"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/ne/blobs/sha256:ed309053b95ca315b71c123dbf7b3b51fbb1e734e99e8ac0e1747295772ce644",
+          "sha256": "ed309053b95ca315b71c123dbf7b3b51fbb1e734e99e8ac0e1747295772ce644"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "texinfo",
+    "coreutils"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ne.rb",
+  "ruby_source_checksum": {
+    "sha256": "9726944da7c649449af697e92c173e353e7063c4ec5cd8cef99b2edd9cf35127"
+  },
+  "date_added": "2015-10-31T20:26:23-07:00"
+}

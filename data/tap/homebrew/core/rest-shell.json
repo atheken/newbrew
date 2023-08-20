@@ -1,0 +1,75 @@
+{
+  "name": "rest-shell",
+  "full_name": "rest-shell",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Shell to work with Spring HATEOAS-compliant REST resources",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/spring-attic/rest-shell",
+  "versions": {
+    "stable": "1.2.1.RELEASE",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "http://download.gopivotal.com/rest-shell/1.2.1/rest-shell-1.2.1.RELEASE.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "0ecfa67d005cc0d51e7a3a26c4dacc53aa12012f0e757332a2fa40c5e780c2d6"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rest-shell/blobs/sha256:153d1bc5b10e1be1bb2775eaa53e2eafee9e392489e45082c4db383d468cc041",
+          "sha256": "153d1bc5b10e1be1bb2775eaa53e2eafee9e392489e45082c4db383d468cc041"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "openjdk@11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-06-19",
+  "disable_reason": "repo_archived",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/rest-shell.rb",
+  "ruby_source_checksum": {
+    "sha256": "61daf394b6d26ea7a08c2f4c54ad43ca2b03fb668c0822b4e16b524cc05fe5a5"
+  },
+  "date_added": "2012-10-23T20:02:01-07:00"
+}

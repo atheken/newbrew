@@ -1,0 +1,105 @@
+{
+  "name": "evernote-backup",
+  "full_name": "evernote-backup",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Backup & export all Evernote notes and notebooks",
+  "license": "MIT",
+  "homepage": "https://github.com/vzhd1701/evernote-backup",
+  "versions": {
+    "stable": "1.9.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/c6/2e/28f97f59b92edde07895d6c95596b99313bb1a2cd0296ac2fd36f8954cb4/evernote-backup-1.9.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ec21025d614ec68ed5dc8d2028f2f856630a36b3b84f135952660bec7bdf70ad"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:7fce738106db0d2852181c29e333987bd685d6935d6aa93f8ac1ee3a4bb70016",
+          "sha256": "7fce738106db0d2852181c29e333987bd685d6935d6aa93f8ac1ee3a4bb70016"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:c83e6e7215652e26e4637911734163ae0da194993d3fd6028561b643958fa443",
+          "sha256": "c83e6e7215652e26e4637911734163ae0da194993d3fd6028561b643958fa443"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:63aeba1d78d1a1e955266a93f069bdb9838a470431e0f4c4627dd37924e85ae5",
+          "sha256": "63aeba1d78d1a1e955266a93f069bdb9838a470431e0f4c4627dd37924e85ae5"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:d9a4c8df46a126888134b0b4884084270e5d9d382546c13a45097c351c233ff0",
+          "sha256": "d9a4c8df46a126888134b0b4884084270e5d9d382546c13a45097c351c233ff0"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:46ebe107813d91d17abc6585a6cd312cda8f13f720b3f09f63863ec391340002",
+          "sha256": "46ebe107813d91d17abc6585a6cd312cda8f13f720b3f09f63863ec391340002"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:4aeec6a0decd6565e5f1d89acaeb1a6ec91906641f09f29cce3e3dc83aa8e136",
+          "sha256": "4aeec6a0decd6565e5f1d89acaeb1a6ec91906641f09f29cce3e3dc83aa8e136"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/evernote-backup/blobs/sha256:f460288bbc347d7a81c1b21de0f95e282150cdf15beb9d0e5a12669474014b8c",
+          "sha256": "f460288bbc347d7a81c1b21de0f95e282150cdf15beb9d0e5a12669474014b8c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/evernote-backup.rb",
+  "ruby_source_checksum": {
+    "sha256": "3ae9ca9b209a320280e13e826fb7a9f676edac9688b9ef2693ad10dac156db5f"
+  },
+  "date_added": "2022-06-25T05:17:48+00:00"
+}

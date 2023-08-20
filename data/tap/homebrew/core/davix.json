@@ -1,0 +1,123 @@
+{
+  "name": "davix",
+  "full_name": "davix",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library and tools for advanced file I/O with HTTP-based protocols",
+  "license": "LGPL-2.1-or-later",
+  "homepage": "https://github.com/cern-fts/davix",
+  "versions": {
+    "stable": "0.8.4",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cern-fts/davix/releases/download/R_0_8_4/davix-0.8.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "519d56f746e86ea3fd615bc49e559b520df07e051e1ca3d8c092067958f3b2b7"
+    },
+    "head": {
+      "url": "https://github.com/cern-fts/davix.git",
+      "branch": "devel"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:d6c39dcc41daaa79286a5f843a96438016dd3dc12e6b90496fa0c0a8c98879de",
+          "sha256": "d6c39dcc41daaa79286a5f843a96438016dd3dc12e6b90496fa0c0a8c98879de"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:63ddded6d7553a2b25b7577a90b6f0b26d71a9b0491aeb0538e6e8d96a453dc2",
+          "sha256": "63ddded6d7553a2b25b7577a90b6f0b26d71a9b0491aeb0538e6e8d96a453dc2"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:8077eff019705fe76a8bbc059e12a3925cd5e3619a1f5b1709a0efe9d7117dfb",
+          "sha256": "8077eff019705fe76a8bbc059e12a3925cd5e3619a1f5b1709a0efe9d7117dfb"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:6afd4fc8493c01b9d575ed87d170a8ca3b06b88c6fa7603b43dc8fa124488194",
+          "sha256": "6afd4fc8493c01b9d575ed87d170a8ca3b06b88c6fa7603b43dc8fa124488194"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:d5d56f9c9fe987cb03a000f86a0b0a7af42a801765ea7ec4c27264e41834f49d",
+          "sha256": "d5d56f9c9fe987cb03a000f86a0b0a7af42a801765ea7ec4c27264e41834f49d"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:dfa3470f6a0e655a4c07d5cdf4821e5ed115c1cce287208fe1feec7f7dcd79b0",
+          "sha256": "dfa3470f6a0e655a4c07d5cdf4821e5ed115c1cce287208fe1feec7f7dcd79b0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/davix/blobs/sha256:b41952cfa51be57c74dd2998a8c8d33234082d9b2ea9725d1b8b727bf1996235",
+          "sha256": "b41952cfa51be57c74dd2998a8c8d33234082d9b2ea9725d1b8b727bf1996235"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "doxygen"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "util-linux"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    },
+    "curl",
+    "libxml2"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/davix.rb",
+  "ruby_source_checksum": {
+    "sha256": "fcdfb72c5460cf6e2863c60f5f37ef91c9a8b9902225869e2893d396cdbcd181"
+  },
+  "date_added": "2014-05-28T07:19:28-07:00"
+}

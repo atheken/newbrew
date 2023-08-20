@@ -1,0 +1,76 @@
+{
+  "name": "typescript-language-server",
+  "full_name": "typescript-language-server",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Language Server Protocol implementation for TypeScript wrapping tsserver",
+  "license": "MIT and Apache-2.0",
+  "homepage": "https://github.com/typescript-language-server/typescript-language-server",
+  "versions": {
+    "stable": "3.3.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.3.2.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "206c4a18f201d19180f960b23acd4ccb20f5dcb8345cba25e5f681873a084bef"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/typescript-language-server/blobs/sha256:53f13aa2cc1c18596e2c36100d7d5934789ac6413425802af1324b598b3a95d3",
+          "sha256": "53f13aa2cc1c18596e2c36100d7d5934789ac6413425802af1324b598b3a95d3"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "node",
+    "typescript"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "982192bf852eebace6c92c1e792d894990b8620e",
+  "ruby_source_path": "Formula/typescript-language-server.rb",
+  "ruby_source_checksum": {
+    "sha256": "55f4246d13c28570a9877accae36922097940c88ad5583dc2f010904faab885d"
+  },
+  "date_added": "2023-02-25T04:08:36+00:00"
+}

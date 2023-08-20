@@ -1,0 +1,109 @@
+{
+  "name": "lefthook",
+  "full_name": "lefthook",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast and powerful Git hooks manager for any type of projects",
+  "license": "MIT",
+  "homepage": "https://github.com/evilmartians/lefthook",
+  "versions": {
+    "stable": "1.4.7",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/evilmartians/lefthook/archive/refs/tags/v1.4.7.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "92ca652b862b75d1fee07764bdd4244a9c79c454876ba949f679fa765187a0da"
+    },
+    "head": {
+      "url": "https://github.com/evilmartians/lefthook.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f",
+          "sha256": "78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f",
+          "sha256": "78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f",
+          "sha256": "78b7969b411f2eeab370a1e689e051b3865e096fc23862e69037ed31cec19a3f"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539",
+          "sha256": "5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539",
+          "sha256": "5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539",
+          "sha256": "5352d3fcd4f87c58ee8e8152df31212f15f4c776a92bc4fcbc9b65f803099539"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/lefthook/blobs/sha256:35f9cbad114c7746c4a5d31e4f52e01bf26576a14d951c80938f2ea7ea36c6e8",
+          "sha256": "35f9cbad114c7746c4a5d31e4f52e01bf26576a14d951c80938f2ea7ea36c6e8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/lefthook.rb",
+  "ruby_source_checksum": {
+    "sha256": "a533fbea6193046792b1b82947f4a6c581ff7c6c0744a16b753c299d7d24e369"
+  },
+  "date_added": "2021-04-25T13:30:52+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "perl-build",
+  "full_name": "perl-build",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Perl builder",
+  "license": "Artistic-1.0 or GPL-1.0-or-later",
+  "homepage": "https://github.com/tokuhirom/Perl-Build",
+  "versions": {
+    "stable": "1.34",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tokuhirom/Perl-Build/archive/1.34.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "50e90b18f2541aca857b8743bd3c187b7844c608076c4f2aa13eadc0689b1644"
+    },
+    "head": {
+      "url": "https://github.com/tokuhirom/perl-build.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:88242c3173ebedeb662528ee8d076253fbe18c189cdef42768efc5e377bec466",
+          "sha256": "88242c3173ebedeb662528ee8d076253fbe18c189cdef42768efc5e377bec466"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:88242c3173ebedeb662528ee8d076253fbe18c189cdef42768efc5e377bec466",
+          "sha256": "88242c3173ebedeb662528ee8d076253fbe18c189cdef42768efc5e377bec466"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:18c043e60df07f020af0785e1f6dcad1ad1b3782e8f596efb8a5363c78669ccb",
+          "sha256": "18c043e60df07f020af0785e1f6dcad1ad1b3782e8f596efb8a5363c78669ccb"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:9c09caf60e490235fc8366f3d47d32d8be9cf887d71cc3f80213700ef3443a65",
+          "sha256": "9c09caf60e490235fc8366f3d47d32d8be9cf887d71cc3f80213700ef3443a65"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:9c09caf60e490235fc8366f3d47d32d8be9cf887d71cc3f80213700ef3443a65",
+          "sha256": "9c09caf60e490235fc8366f3d47d32d8be9cf887d71cc3f80213700ef3443a65"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:8699ea1e8465d1906944894a63767c339312afe64a850620dea4f0e2f05f3017",
+          "sha256": "8699ea1e8465d1906944894a63767c339312afe64a850620dea4f0e2f05f3017"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/perl-build/blobs/sha256:11ad390432ffb57a2afbb7884722b2539fdd4a9951074eb88c06488d943eb348",
+          "sha256": "11ad390432ffb57a2afbb7884722b2539fdd4a9951074eb88c06488d943eb348"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "perl"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/perl-build.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d47f4b483b5f3ced3e4607e4e3ca14377504cf09d25570ebca798b663fa4c2b"
+  },
+  "date_added": "2013-05-30T09:36:13-07:00"
+}

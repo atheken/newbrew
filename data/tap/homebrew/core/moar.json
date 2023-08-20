@@ -1,0 +1,105 @@
+{
+  "name": "moar",
+  "full_name": "moar",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Nice to use pager for humans",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/walles/moar",
+  "versions": {
+    "stable": "1.15.3",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/walles/moar/archive/refs/tags/v1.15.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "9cbfd11cc128052c66dde381d77b2c4bfb1260feb1e0a0d23119844b274fe659"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090",
+          "sha256": "da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090",
+          "sha256": "da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090",
+          "sha256": "da788e88c609f20550140faebd8accf8aee1b72379637c62e44c030dfdad3090"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec",
+          "sha256": "497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec",
+          "sha256": "497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec",
+          "sha256": "497d2e7fc772727f3ae20fe359149b4f3e789b29ef303d8bf7be3b8706c5b5ec"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/moar/blobs/sha256:426d91653bbf5d7a1a66c22d8ee068832aa159d1cddea528a261faa875c6e00c",
+          "sha256": "426d91653bbf5d7a1a66c22d8ee068832aa159d1cddea528a261faa875c6e00c"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/moar.rb",
+  "ruby_source_checksum": {
+    "sha256": "b10237a1322ae6bab1dbfbfa3307f7e1056f10d6ba827d8f105fabd0895d2b6a"
+  },
+  "date_added": "2021-06-10T23:29:59+00:00"
+}

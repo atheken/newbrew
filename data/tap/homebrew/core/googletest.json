@@ -1,0 +1,105 @@
+{
+  "name": "googletest",
+  "full_name": "googletest",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Google Testing and Mocking Framework",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/google/googletest",
+  "versions": {
+    "stable": "1.13.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/google/googletest/archive/v1.13.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "ad7fdba11ea011c1d925b3289cf4af2c66a352e18d4c7264392fead75e919363"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:78afe4f6baa4bd3bb904aa4113210e106c70281c10d7d809972b137e0f3b733d",
+          "sha256": "78afe4f6baa4bd3bb904aa4113210e106c70281c10d7d809972b137e0f3b733d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:3d0360de5b6aa737b19633fad06f8a2a7463211681c530056c58b620262bd093",
+          "sha256": "3d0360de5b6aa737b19633fad06f8a2a7463211681c530056c58b620262bd093"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:3bea1b0a8521f01edb4ff182f41438817132cff152956b45b724a40bad323972",
+          "sha256": "3bea1b0a8521f01edb4ff182f41438817132cff152956b45b724a40bad323972"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:c94b1fd4180b91725513c61019b8f69d751ca935c7720e3e3d1894570f205c90",
+          "sha256": "c94b1fd4180b91725513c61019b8f69d751ca935c7720e3e3d1894570f205c90"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:c5102924eb2ae444391a464993750439bb266ba1ef1e7ee5265a2c706bfa0650",
+          "sha256": "c5102924eb2ae444391a464993750439bb266ba1ef1e7ee5265a2c706bfa0650"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:6f7e93be6200609ff7150378e78135588f6266db247b50b301b432e7af21c5fd",
+          "sha256": "6f7e93be6200609ff7150378e78135588f6266db247b50b301b432e7af21c5fd"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/googletest/blobs/sha256:2da0c509c2d6a62843c4284b455d00a674162ace65661dd40dfad6f92fb55f48",
+          "sha256": "2da0c509c2d6a62843c4284b455d00a674162ace65661dd40dfad6f92fb55f48"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/googletest.rb",
+  "ruby_source_checksum": {
+    "sha256": "016cb4bcbde68c4a9786d6cd62e272d484f7bacbcb108992d5d6b92111a87905"
+  },
+  "date_added": "2020-10-20T01:16:41+00:00"
+}

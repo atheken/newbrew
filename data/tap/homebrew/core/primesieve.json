@@ -1,0 +1,105 @@
+{
+  "name": "primesieve",
+  "full_name": "primesieve",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast C/C++ prime number generator",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/kimwalisch/primesieve",
+  "versions": {
+    "stable": "11.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/kimwalisch/primesieve/archive/v11.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "bab3bc4a1f3247f95b83dfc494ab0ce37a370a7b05379640f58e786d8d5fba61"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:120a1a269f8ed4ee6c164e257800a58b41dcf1beb0d642d6a7c9d750560f8f77",
+          "sha256": "120a1a269f8ed4ee6c164e257800a58b41dcf1beb0d642d6a7c9d750560f8f77"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:13d09364b1885785ea0a7fb7de379e4ccbd69e3cf68789a3d49839c8826674db",
+          "sha256": "13d09364b1885785ea0a7fb7de379e4ccbd69e3cf68789a3d49839c8826674db"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:b3c8f23227b5e0870bdf4c3a49f795a860bc2a0067935b825f1cbaeef9168bec",
+          "sha256": "b3c8f23227b5e0870bdf4c3a49f795a860bc2a0067935b825f1cbaeef9168bec"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:53fa5f14e9392a4e20b1f99db0f06c9b8cceff89837bab78f645cc19e1ef180f",
+          "sha256": "53fa5f14e9392a4e20b1f99db0f06c9b8cceff89837bab78f645cc19e1ef180f"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:958153771aa5003990ccd7e7f8470f52da91aa891ef26857970f20459b94efb9",
+          "sha256": "958153771aa5003990ccd7e7f8470f52da91aa891ef26857970f20459b94efb9"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:109da40994c495963033867984bae44a14d9897e121cc587e04edf6b28c54062",
+          "sha256": "109da40994c495963033867984bae44a14d9897e121cc587e04edf6b28c54062"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/primesieve/blobs/sha256:4e286688ae56f8ad9a64058d6a7316fdc40f13adf713e7eb8a2397e907acf8e1",
+          "sha256": "4e286688ae56f8ad9a64058d6a7316fdc40f13adf713e7eb8a2397e907acf8e1"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/primesieve.rb",
+  "ruby_source_checksum": {
+    "sha256": "571308c0d4b2bb25d061f54d8b437a7f0c24e80feba3a4e69fc1393abde1e4bd"
+  },
+  "date_added": "2012-02-21T21:45:59-06:00"
+}

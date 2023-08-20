@@ -1,0 +1,115 @@
+{
+  "name": "bedtools",
+  "full_name": "bedtools",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for genome arithmetic (set theory on the genome)",
+  "license": "MIT",
+  "homepage": "https://github.com/arq5x/bedtools2",
+  "versions": {
+    "stable": "2.31.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/arq5x/bedtools2/archive/v2.31.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "8a88e9433cad4cfc4269d45acbc820c41a333a965b59ce42d81d925422d1a026"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:4d3e127abd1e657e10f7ccf6272c33297dd2c6c7db41ea6530061de42797e072",
+          "sha256": "4d3e127abd1e657e10f7ccf6272c33297dd2c6c7db41ea6530061de42797e072"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:3aad51926581a91abd4d894ce98a800b3cbd584d3938f81484ffc297162de8e9",
+          "sha256": "3aad51926581a91abd4d894ce98a800b3cbd584d3938f81484ffc297162de8e9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:d055a492f1ff9106e4180affe304f2d0f82cdb13d1a732f2c8e5c4e3f541a494",
+          "sha256": "d055a492f1ff9106e4180affe304f2d0f82cdb13d1a732f2c8e5c4e3f541a494"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:9d7eeaa7d94215ac91ca574a26b9aa7420ac4d3bcfa10c5733a9d3dcf58e6124",
+          "sha256": "9d7eeaa7d94215ac91ca574a26b9aa7420ac4d3bcfa10c5733a9d3dcf58e6124"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:e21ccaac7d8b125f8b2b2a2660a2dd05e75064fe9834cd03eda9911bf7c006dd",
+          "sha256": "e21ccaac7d8b125f8b2b2a2660a2dd05e75064fe9834cd03eda9911bf7c006dd"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:fdefdfe979c0f75b84e8425fd95b7ea3cb3e3f7bddb0a03c96489dd1a7b26971",
+          "sha256": "fdefdfe979c0f75b84e8425fd95b7ea3cb3e3f7bddb0a03c96489dd1a7b26971"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bedtools/blobs/sha256:10e94997135138c50255614b0abc6cf79814ab861aa4114a3894212ab133e336",
+          "sha256": "10e94997135138c50255614b0abc6cf79814ab861aa4114a3894212ab133e336"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "xz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "build"
+    },
+    "bzip2",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/bedtools.rb",
+  "ruby_source_checksum": {
+    "sha256": "a501e848977be766103a94999ffa71c9096a9e82315056d461c864038abac66e"
+  },
+  "date_added": "2011-04-14T09:04:39-07:00"
+}

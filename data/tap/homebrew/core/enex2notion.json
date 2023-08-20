@@ -1,0 +1,107 @@
+{
+  "name": "enex2notion",
+  "full_name": "enex2notion",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Import Evernote ENEX files to Notion",
+  "license": "MIT",
+  "homepage": "https://github.com/vzhd1701/enex2notion",
+  "versions": {
+    "stable": "0.2.26",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/b0/65/301a9406734eff3185d1724e86bdb62c697973771086f457910e550037d5/enex2notion-0.2.26.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "cd9a5a2ccb9a320d5f1cb81bbdbe8e464582f317aa6401135ddc9242ae6ccc73"
+    }
+  },
+  "revision": 2,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:3bda151f0a9e7a7874a4748dce564a99a7fb12a3832d73ae008d54f46ac02ce4",
+          "sha256": "3bda151f0a9e7a7874a4748dce564a99a7fb12a3832d73ae008d54f46ac02ce4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:f0937efba7a88db1c00fdfbe95890858f20c6cc7a9c4478bd7fc71514239452b",
+          "sha256": "f0937efba7a88db1c00fdfbe95890858f20c6cc7a9c4478bd7fc71514239452b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:f7665cd9f35815d5b4f3e60cb8b9107ca48b7392597a53d98ba72482de669e41",
+          "sha256": "f7665cd9f35815d5b4f3e60cb8b9107ca48b7392597a53d98ba72482de669e41"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:a0a1d6e8e353ee386f0a08b37ec1a513c2b8bdacb5743882c4647f35fe39bc98",
+          "sha256": "a0a1d6e8e353ee386f0a08b37ec1a513c2b8bdacb5743882c4647f35fe39bc98"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:253dcc3c48b25fe9f2c19a18a616d4b4085ef9c2c6c64f6685e28ef7899eb4f5",
+          "sha256": "253dcc3c48b25fe9f2c19a18a616d4b4085ef9c2c6c64f6685e28ef7899eb4f5"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:aec7e954571182ccdf99262ecd16d96b3bbc3eca6d72cc2825c2f33073b84818",
+          "sha256": "aec7e954571182ccdf99262ecd16d96b3bbc3eca6d72cc2825c2f33073b84818"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/enex2notion/blobs/sha256:54b1c3925f8deaec5b35064e0387949ac897add60a1d293ea4a7cff993cd5402",
+          "sha256": "54b1c3925f8deaec5b35064e0387949ac897add60a1d293ea4a7cff993cd5402"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "pymupdf",
+    "python@3.11",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/enex2notion.rb",
+  "ruby_source_checksum": {
+    "sha256": "e4867d8c403a9176c72457206db69b3fdeaf943e08de9b8b9261f31c92e5ccea"
+  },
+  "date_added": "2022-08-04T14:46:20+00:00"
+}

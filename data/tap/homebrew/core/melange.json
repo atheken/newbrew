@@ -1,0 +1,109 @@
+{
+  "name": "melange",
+  "full_name": "melange",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Build APKs from source code",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/chainguard-dev/melange",
+  "versions": {
+    "stable": "0.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/chainguard-dev/melange/archive/refs/tags/v0.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "a4ea8012098a6667075bd982e9a979fcb97dd705f8e9388ed2789b3004b0331a"
+    },
+    "head": {
+      "url": "https://github.com/chainguard-dev/melange.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18",
+          "sha256": "74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18",
+          "sha256": "74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18",
+          "sha256": "74cf0738405917f8f4afc54de58e8bce20bb3aec6dff00670bfb0215f419ec18"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b",
+          "sha256": "0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b",
+          "sha256": "0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b",
+          "sha256": "0fdf490c69c9e8106d92985beb88c69f0fe2d9106ba58b9db6d0a9e73ce9971b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/melange/blobs/sha256:8bade127728dcf59b272ff7cf00beb1996ba28f9ad05c7252d30133b50443316",
+          "sha256": "8bade127728dcf59b272ff7cf00beb1996ba28f9ad05c7252d30133b50443316"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/melange.rb",
+  "ruby_source_checksum": {
+    "sha256": "d2b45b73321a54be7e40d5163de46663939ecbc0e2eba9302e196705e541cc2d"
+  },
+  "date_added": "2023-05-26T17:14:47-04:00"
+}

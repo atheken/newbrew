@@ -1,0 +1,105 @@
+{
+  "name": "kubespy",
+  "full_name": "kubespy",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Tools for observing Kubernetes resources in realtime",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/pulumi/kubespy",
+  "versions": {
+    "stable": "0.6.2",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/pulumi/kubespy/archive/v0.6.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "17a1c75357557f2caa9a6f781bcf628323b4cae42a05b123cd2d73f0bf9bd73c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:5d2185d63e9cd41c6d28aa2a1433d43ea08b334d326ffebe29ea7b63baaeb056",
+          "sha256": "5d2185d63e9cd41c6d28aa2a1433d43ea08b334d326ffebe29ea7b63baaeb056"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:06167bc087e73dcd0e5a49f6e71b6a73fcba89989a9fee7c37ddb9cc68d5c076",
+          "sha256": "06167bc087e73dcd0e5a49f6e71b6a73fcba89989a9fee7c37ddb9cc68d5c076"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:e4d63724253e368ba65d670a373a7581ed55abb56ae4a28deb053f4276434cf0",
+          "sha256": "e4d63724253e368ba65d670a373a7581ed55abb56ae4a28deb053f4276434cf0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:383354122647beb2a09d537c82255f6fedddc606db8f40d55e036156ad7f600c",
+          "sha256": "383354122647beb2a09d537c82255f6fedddc606db8f40d55e036156ad7f600c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:db91d1f2fe51df06c3abf142758420bd969ca20a0fd5e575abf7afe2689cbc12",
+          "sha256": "db91d1f2fe51df06c3abf142758420bd969ca20a0fd5e575abf7afe2689cbc12"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:9ea4bfb1eb75049dfe3a2a5dcf21166c7c060a47fa04dd75452eb8dff9976620",
+          "sha256": "9ea4bfb1eb75049dfe3a2a5dcf21166c7c060a47fa04dd75452eb8dff9976620"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kubespy/blobs/sha256:6ad332e5eb24531a527b253931487b8f2935cb190ccd72ecb98b2141b91f8d68",
+          "sha256": "6ad332e5eb24531a527b253931487b8f2935cb190ccd72ecb98b2141b91f8d68"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kubespy.rb",
+  "ruby_source_checksum": {
+    "sha256": "f934e8eb8e1e85e16d6668ddcd3ae9724d2079ee68f4985b04e8b00c0716ec18"
+  },
+  "date_added": "2018-11-22T10:47:11+01:00"
+}

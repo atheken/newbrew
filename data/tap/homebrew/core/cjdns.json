@@ -1,0 +1,112 @@
+{
+  "name": "cjdns",
+  "full_name": "cjdns",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Advanced mesh routing system with cryptographic addressing",
+  "license": "GPL-3.0-or-later and GPL-2.0-or-later and BSD-3-Clause and MIT",
+  "homepage": "https://github.com/cjdelisle/cjdns/",
+  "versions": {
+    "stable": "22",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/cjdelisle/cjdns/archive/cjdns-v22.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "21b555f7850f94cc42134f59cb99558baaaa18acf4c5544e8647387d4a5019ec"
+    },
+    "head": {
+      "url": "https://github.com/cjdelisle/cjdns.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:43e9dbce680ded6cbe6b0aabbff2d4a5e06c37a0dfbdd62953b026901230ceab",
+          "sha256": "43e9dbce680ded6cbe6b0aabbff2d4a5e06c37a0dfbdd62953b026901230ceab"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:9936c5967ebb1f708154585ccde1446d36c9eb88c614b59ae42f96c551f3ccd9",
+          "sha256": "9936c5967ebb1f708154585ccde1446d36c9eb88c614b59ae42f96c551f3ccd9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:2fa20c4991e09b7d63ebd478adfd07fc90a7d2e3b8d63fb5b4e5e22e92c6fa52",
+          "sha256": "2fa20c4991e09b7d63ebd478adfd07fc90a7d2e3b8d63fb5b4e5e22e92c6fa52"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:021aebe2db8a0b89fca4649612f9d3732c0a83c6f0b3638834289e0802acde33",
+          "sha256": "021aebe2db8a0b89fca4649612f9d3732c0a83c6f0b3638834289e0802acde33"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:8deb77907b473f50757c022df865fbea0df3d7e91ced2f35407064c8172fdc87",
+          "sha256": "8deb77907b473f50757c022df865fbea0df3d7e91ced2f35407064c8172fdc87"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:60c3c3fc2c2e62759b79f38e29d6eb8a7518e1c3cc6066c1faa25e4a650b98f3",
+          "sha256": "60c3c3fc2c2e62759b79f38e29d6eb8a7518e1c3cc6066c1faa25e4a650b98f3"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cjdns/blobs/sha256:311f9548b046796d787c72c94a536ca5cf0939319d1a2da502af32d837f2d6c9",
+          "sha256": "311f9548b046796d787c72c94a536ca5cf0939319d1a2da502af32d837f2d6c9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "node",
+    "python@3.11",
+    "rust",
+    "six"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/cjdns.rb",
+  "ruby_source_checksum": {
+    "sha256": "9dc42867df27800f4984ce75d4a12db666546e5695ec2986c6a7bfce100e6941"
+  },
+  "date_added": "2015-06-15T09:04:42+01:00"
+}

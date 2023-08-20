@@ -1,0 +1,112 @@
+{
+  "name": "austin",
+  "full_name": "austin",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Python frame stack sampler for CPython",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/P403n1x87/austin",
+  "versions": {
+    "stable": "3.5.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/P403n1x87/austin/archive/v3.5.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b9cad3670c5f6f750d2c8dc6869a7c5b45fe42305185a0cd3f249e1aa017a7ea"
+    },
+    "head": {
+      "url": "https://github.com/P403n1x87/austin.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:8a0de09715365ac4597e23b155d11b0b0d99271be864ea94d9c2b15427a23b62",
+          "sha256": "8a0de09715365ac4597e23b155d11b0b0d99271be864ea94d9c2b15427a23b62"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:7696560b1ebdd22214bfe43d84bbdb64fbab57be543eecd697a1eb7a8b2aad03",
+          "sha256": "7696560b1ebdd22214bfe43d84bbdb64fbab57be543eecd697a1eb7a8b2aad03"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:d6ab762a326dea05a6edf06473a203abff473157b9dbe5dc72530cce02427119",
+          "sha256": "d6ab762a326dea05a6edf06473a203abff473157b9dbe5dc72530cce02427119"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:32dfe656fd3d8871a48a60812fa4052734a118e36ed0b81cf2f47aed0b5f3dba",
+          "sha256": "32dfe656fd3d8871a48a60812fa4052734a118e36ed0b81cf2f47aed0b5f3dba"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:377cb1e41106ec9a5ec6d9c47b4bde1a907d29128950c03e6b78c4563fc5448d",
+          "sha256": "377cb1e41106ec9a5ec6d9c47b4bde1a907d29128950c03e6b78c4563fc5448d"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:22547c81ad04b49404485046b23a59a48a5dd3b393d2d75c5cd6db30d1165b49",
+          "sha256": "22547c81ad04b49404485046b23a59a48a5dd3b393d2d75c5cd6db30d1165b49"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/austin/blobs/sha256:7b53738a65f4e1cd3414e43b1640c5b394a6047f491cb9c6aa598caceb8a4fc8",
+          "sha256": "7b53738a65f4e1cd3414e43b1640c5b394a6047f491cb9c6aa598caceb8a4fc8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "python@3.11"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "2706c66e8def3eeba4d9bf1adf66221c8ad70701",
+  "ruby_source_path": "Formula/austin.rb",
+  "ruby_source_checksum": {
+    "sha256": "cff16a9b85b87985df0f8700bed3cc33526ecbff760acf9d8d18e92358f43967"
+  },
+  "date_added": "2020-06-01T19:47:19+00:00"
+}

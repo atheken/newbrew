@@ -1,0 +1,109 @@
+{
+  "name": "libsais",
+  "full_name": "libsais",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast linear time suffix array, lcp array and bwt construction",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/IlyaGrebnov/libsais",
+  "versions": {
+    "stable": "2.7.3",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/IlyaGrebnov/libsais/archive/refs/tags/v2.7.3.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "45d37dc12975c4d40db786f322cd6dcfd9f56a8f23741205fcd0fca6ec0bf246"
+    },
+    "head": {
+      "url": "https://github.com/IlyaGrebnov/libsais.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:a3f7cf156031c58cd43aa63838edd85f7f8b00f7d28e0f62a076bb4f30129a0f",
+          "sha256": "a3f7cf156031c58cd43aa63838edd85f7f8b00f7d28e0f62a076bb4f30129a0f"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:6305881a8579ea1c15ad2cb5a8531edbf6817b0b37d8282998c6dcffae3832db",
+          "sha256": "6305881a8579ea1c15ad2cb5a8531edbf6817b0b37d8282998c6dcffae3832db"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:ab217c02a0b3dc17772557ff7144371c45d468af0174e61d7e8975e13a859318",
+          "sha256": "ab217c02a0b3dc17772557ff7144371c45d468af0174e61d7e8975e13a859318"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:d377a2ebcdb7161b8d76b895245ebf6ebbf5809c52eb7cd1990a568fb5f070fe",
+          "sha256": "d377a2ebcdb7161b8d76b895245ebf6ebbf5809c52eb7cd1990a568fb5f070fe"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:8009459840d9f8f470dd9af3b32cdb6c73fdf4014f9d54910bafddafd61e69d2",
+          "sha256": "8009459840d9f8f470dd9af3b32cdb6c73fdf4014f9d54910bafddafd61e69d2"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:5191f9864ce178045da8775789e58a057f97d09dfdd09ada4950a05ad1216adf",
+          "sha256": "5191f9864ce178045da8775789e58a057f97d09dfdd09ada4950a05ad1216adf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libsais/blobs/sha256:91c8074d6679c238dd5481e53ffb4459dd576b0b3be9f9cf344b6e4af291477d",
+          "sha256": "91c8074d6679c238dd5481e53ffb4459dd576b0b3be9f9cf344b6e4af291477d"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libsais.rb",
+  "ruby_source_checksum": {
+    "sha256": "da1e024da5be8fc23092e3d0d74f5be393711ff92ab03eb59d68381b729355dd"
+  },
+  "date_added": "2023-01-22T19:16:05+00:00"
+}

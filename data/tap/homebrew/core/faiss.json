@@ -1,0 +1,107 @@
+{
+  "name": "faiss",
+  "full_name": "faiss",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Efficient similarity search and clustering of dense vectors",
+  "license": "MIT",
+  "homepage": "https://github.com/facebookresearch/faiss",
+  "versions": {
+    "stable": "1.7.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/facebookresearch/faiss/archive/v1.7.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d9a7b31bf7fd6eb32c10b7ea7ff918160eed5be04fe63bb7b4b4b5f2bbde01ad"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:fce50696b90d0357b420807c89f13b20851a187759c01a20cec3cd281c34fbd6",
+          "sha256": "fce50696b90d0357b420807c89f13b20851a187759c01a20cec3cd281c34fbd6"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:d8e5da0af54d584559f730e823abfe76334638e86a6f58ffa8416efae1b58f8b",
+          "sha256": "d8e5da0af54d584559f730e823abfe76334638e86a6f58ffa8416efae1b58f8b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:3bad3d3ecc1fa8fd4d8e6421f4bd2d031143490785ac3f276a432df9dfbd0ac1",
+          "sha256": "3bad3d3ecc1fa8fd4d8e6421f4bd2d031143490785ac3f276a432df9dfbd0ac1"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:b6d728b6141c74eae30ae89c2ed3faa44a198afd890da6482b407209c79325c5",
+          "sha256": "b6d728b6141c74eae30ae89c2ed3faa44a198afd890da6482b407209c79325c5"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:8b88769ab126f91fd0269306e3bcc5102baaab9e61730095a24d71c5b3b79546",
+          "sha256": "8b88769ab126f91fd0269306e3bcc5102baaab9e61730095a24d71c5b3b79546"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:efc062d04573dd6d5b1911cc7cb333f125ae67aae11a8964490852297d8cf941",
+          "sha256": "efc062d04573dd6d5b1911cc7cb333f125ae67aae11a8964490852297d8cf941"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/faiss/blobs/sha256:7fa475e6a354bfa4456b3f53537a649c68e3b672f4abf87e879d9a25a4215452",
+          "sha256": "7fa475e6a354bfa4456b3f53537a649c68e3b672f4abf87e879d9a25a4215452"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "openblas"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/faiss.rb",
+  "ruby_source_checksum": {
+    "sha256": "e62055eef271a33e89d116e484bb0f61a0cc949c948d7fee12990f4172507352"
+  },
+  "date_added": "2020-01-26T00:44:33-05:00"
+}

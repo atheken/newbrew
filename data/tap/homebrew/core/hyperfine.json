@@ -1,0 +1,109 @@
+{
+  "name": "hyperfine",
+  "full_name": "hyperfine",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Command-line benchmarking tool",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://github.com/sharkdp/hyperfine",
+  "versions": {
+    "stable": "1.17.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/sharkdp/hyperfine/archive/v1.17.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "3dcd86c12e96ab5808d5c9f3cec0fcc04192a87833ff009063c4a491d5487b58"
+    },
+    "head": {
+      "url": "https://github.com/sharkdp/hyperfine.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:4b6b743957c871d24f93af5fa01d4869b33a7af7c080746f35a93c014260e397",
+          "sha256": "4b6b743957c871d24f93af5fa01d4869b33a7af7c080746f35a93c014260e397"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:91247b9f88de70b001653de3e50d38f2630fa5b32423f4fe5a1aae849fd404e9",
+          "sha256": "91247b9f88de70b001653de3e50d38f2630fa5b32423f4fe5a1aae849fd404e9"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:1d6f6a979b141926839fc0183433b5f2547d4e385c75363798af97450fdd848c",
+          "sha256": "1d6f6a979b141926839fc0183433b5f2547d4e385c75363798af97450fdd848c"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:a6e4913e349dd834e90084abda438b687c374f865508f60a41e80ae187796004",
+          "sha256": "a6e4913e349dd834e90084abda438b687c374f865508f60a41e80ae187796004"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:90d6ae718111504bb7b540b852503c3663e498526759debef116fd2ef0b11386",
+          "sha256": "90d6ae718111504bb7b540b852503c3663e498526759debef116fd2ef0b11386"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:33431a881d78b8c23fbb261c8debfeafae6b612168677dd6e96efd5221ba972e",
+          "sha256": "33431a881d78b8c23fbb261c8debfeafae6b612168677dd6e96efd5221ba972e"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/hyperfine/blobs/sha256:c9893f9956c5dc76e24ee7d8771ad9b49972fcc28194f92f88493045b0eec4bf",
+          "sha256": "c9893f9956c5dc76e24ee7d8771ad9b49972fcc28194f92f88493045b0eec4bf"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/hyperfine.rb",
+  "ruby_source_checksum": {
+    "sha256": "d4c4e04d577ac76bc55f83161dfe2ee86ac8ea2ff753f245853fdd0b40f687c5"
+  },
+  "date_added": "2018-06-12T18:39:39-07:00"
+}

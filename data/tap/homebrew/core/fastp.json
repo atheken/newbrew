@@ -1,0 +1,102 @@
+{
+  "name": "fastp",
+  "full_name": "fastp",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Ultra-fast all-in-one FASTQ preprocessor",
+  "license": "MIT",
+  "homepage": "https://github.com/OpenGene/fastp",
+  "versions": {
+    "stable": "0.23.4",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/OpenGene/fastp/archive/refs/tags/v0.23.4.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4fad6db156e769d46071add8a778a13a5cb5186bc1e1a5f9b1ffd499d84d72b5"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastp/blobs/sha256:67d4229c08075e858a8b8a8da5b6e4e4fdf50e4542f4c799d6955de51cbc6ea9",
+          "sha256": "67d4229c08075e858a8b8a8da5b6e4e4fdf50e4542f4c799d6955de51cbc6ea9"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastp/blobs/sha256:5e7b279df24f6065f22d52be29a19ac574781a62a57f49449ae8fd49dbaffc08",
+          "sha256": "5e7b279df24f6065f22d52be29a19ac574781a62a57f49449ae8fd49dbaffc08"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/fastp/blobs/sha256:88284d74dc8c61010fe62cdd658c5e9d22db6ef8a7ef0c0b15509f529a153912",
+          "sha256": "88284d74dc8c61010fe62cdd658c5e9d22db6ef8a7ef0c0b15509f529a153912"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/fastp/blobs/sha256:0589cde1438c370799e468eead88bb2e537bc59ac390512c3b30161315162937",
+          "sha256": "0589cde1438c370799e468eead88bb2e537bc59ac390512c3b30161315162937"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "isa-l",
+    "libdeflate"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/fastp.rb",
+  "ruby_source_checksum": {
+    "sha256": "0f7b5e5b3da4bc0d997cd1ba677676f12ba73b6227bc9fe9bc72e42ced2d4b66"
+  },
+  "date_added": "2021-12-12T02:39:12+00:00"
+}

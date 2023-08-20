@@ -1,0 +1,113 @@
+{
+  "name": "minio-mc",
+  "full_name": "minio-mc",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Replacement for ls, cp and other commands for object storage",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://github.com/minio/mc",
+  "versions": {
+    "stable": "20230721204427",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/minio/mc.git",
+      "tag": "RELEASE.2023-07-21T20-44-27Z",
+      "revision": "1c17ff4c995d772c97eed8c5a269f2074a9425fe",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/minio/mc.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:2e57d6e1c24e66c259b0bb942d7a0d09560352bf72d55cedb4fed5bde649586d",
+          "sha256": "2e57d6e1c24e66c259b0bb942d7a0d09560352bf72d55cedb4fed5bde649586d"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:3d6e54ca4b75423e95a2d29c32aba6d24600271ee846fda0d9451426e5d1d845",
+          "sha256": "3d6e54ca4b75423e95a2d29c32aba6d24600271ee846fda0d9451426e5d1d845"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:59c010cc47ee7f871aabdc4f334e062dcfdde967df15eddae10a9713bbfd1ca8",
+          "sha256": "59c010cc47ee7f871aabdc4f334e062dcfdde967df15eddae10a9713bbfd1ca8"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:60cbbe7fd16ddc70714e7b30a3f5d80fb5506e5209fe4d8cf311090d6ac26c8c",
+          "sha256": "60cbbe7fd16ddc70714e7b30a3f5d80fb5506e5209fe4d8cf311090d6ac26c8c"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:7eac980c68be71de1c67fdda13688f7c83101c174cb4c91f13bff3347f89c11f",
+          "sha256": "7eac980c68be71de1c67fdda13688f7c83101c174cb4c91f13bff3347f89c11f"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:57438a65ae8d4d033e3e1cb35aa27ac4019bbde19b53b1b1068180356755bcc2",
+          "sha256": "57438a65ae8d4d033e3e1cb35aa27ac4019bbde19b53b1b1068180356755bcc2"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/minio-mc/blobs/sha256:4d345f8960ab2a19db1a9518d26fe6cf8e03b6d8bd906fb0540ef036a3b0b597",
+          "sha256": "4d345f8960ab2a19db1a9518d26fe6cf8e03b6d8bd906fb0540ef036a3b0b597"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [
+    "midnight-commander"
+  ],
+  "conflicts_with_reasons": [
+    "both install an `mc` binary"
+  ],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/minio-mc.rb",
+  "ruby_source_checksum": {
+    "sha256": "9834becab320ef78046c2502ea9a041b0511f6d4de3dbaaa8edb8313bcc92e42"
+  },
+  "date_added": "2016-08-08T22:17:12+02:00"
+}

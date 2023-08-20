@@ -1,0 +1,96 @@
+{
+  "name": "slirp4netns",
+  "full_name": "slirp4netns",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "User-mode networking for unprivileged network namespaces",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/rootless-containers/slirp4netns",
+  "versions": {
+    "stable": "1.2.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/rootless-containers/slirp4netns/archive/refs/tags/v1.2.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "b584edde686d3cfbac210cbdb93c4b0ba5d8cc0a6a4d92b9dfc3c5baec99c727"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/slirp4netns/blobs/sha256:dcddc9bae4a9e7711d17b3ab10448e54c7372ba1f20f0e15302edbb33228d693",
+          "sha256": "dcddc9bae4a9e7711d17b3ab10448e54c7372ba1f20f0e15302edbb33228d693"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "autoconf",
+    "automake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "glib",
+    "libcap",
+    "libseccomp",
+    "libslirp"
+  ],
+  "test_dependencies": [
+    "bash",
+    "jq"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [
+    {
+      "name": "linux",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/slirp4netns.rb",
+  "ruby_source_checksum": {
+    "sha256": "9da66cbfdb0b2018fea0b4f8739abdb896a2a4fe8c8c23298547c2001b0c7b2a"
+  },
+  "date_added": "2021-07-17T20:25:22+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "libsolv",
+  "full_name": "libsolv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Library for solving packages and reading repositories",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/openSUSE/libsolv",
+  "versions": {
+    "stable": "0.7.24",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.24.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "62743265222a729c7fe94c40f7b90ccc1ac5568f5ee6df46884e7ce3c16c78c7"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:b1679237851a718cafccc0d3b370ee2d6765c8c760c3d99937919b651646fedf",
+          "sha256": "b1679237851a718cafccc0d3b370ee2d6765c8c760c3d99937919b651646fedf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:49fc4d0090609edb8c9d2c6a5240ced923bed07b2fc30b00f2d391009f3fc51b",
+          "sha256": "49fc4d0090609edb8c9d2c6a5240ced923bed07b2fc30b00f2d391009f3fc51b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:9c6bb275b3a89931f35402651f1bfb6c28cc75886dd0d2b3165f2c5b113ba9cf",
+          "sha256": "9c6bb275b3a89931f35402651f1bfb6c28cc75886dd0d2b3165f2c5b113ba9cf"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:79a48920dd89808d8494da3d4f58c6aaaeb7fc08b5075b15bb02af04d1e73fc4",
+          "sha256": "79a48920dd89808d8494da3d4f58c6aaaeb7fc08b5075b15bb02af04d1e73fc4"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:2f34464dbfc78d9fa25c5b4a884be9c86672e6123dad19e541213297cbb5f3f3",
+          "sha256": "2f34464dbfc78d9fa25c5b4a884be9c86672e6123dad19e541213297cbb5f3f3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:2ecefe667657bbc48d9edf7c4bca1138829ce9766128c991dafb226560302910",
+          "sha256": "2ecefe667657bbc48d9edf7c4bca1138829ce9766128c991dafb226560302910"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libsolv/blobs/sha256:0f42eee624b7ce9c2ff47d2f7f0478abd6d6f42733198dc03227ef5f63096658",
+          "sha256": "0f42eee624b7ce9c2ff47d2f7f0478abd6d6f42733198dc03227ef5f63096658"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "xz",
+    "zstd"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/libsolv.rb",
+  "ruby_source_checksum": {
+    "sha256": "71c521f56da212ff872cf1c19f09c70aae7b8dd7d0e1033bdd2714c5de5da279"
+  },
+  "date_added": "2023-02-09T17:37:39+00:00"
+}

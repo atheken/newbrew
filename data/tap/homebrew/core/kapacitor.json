@@ -1,0 +1,124 @@
+{
+  "name": "kapacitor",
+  "full_name": "kapacitor",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Open source time series data processor",
+  "license": "MIT",
+  "homepage": "https://github.com/influxdata/kapacitor",
+  "versions": {
+    "stable": "1.6.6",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/influxdata/kapacitor.git",
+      "tag": "v1.6.6",
+      "revision": "79897085a4802304bb2fb052035bac4d16913302",
+      "checksum": null
+    },
+    "head": {
+      "url": "https://github.com/influxdata/kapacitor.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:82a7eae9df12d924844d669cd098e4d2c627b6ddbe88b46a4fbb4a95f773ca05",
+          "sha256": "82a7eae9df12d924844d669cd098e4d2c627b6ddbe88b46a4fbb4a95f773ca05"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:753eb96876f6b4ee37822cf96328b4bd52dd97300230384f145947ce92317b96",
+          "sha256": "753eb96876f6b4ee37822cf96328b4bd52dd97300230384f145947ce92317b96"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:51d79f3c8df3812c2a2afa242d9b5d5e58463bd13845e4c6dca8bc1b8dc77213",
+          "sha256": "51d79f3c8df3812c2a2afa242d9b5d5e58463bd13845e4c6dca8bc1b8dc77213"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:62acbd5f2cd1f6178338868d5d1a2ff93c7a2a46f9bc569f4b5d3b9380f74426",
+          "sha256": "62acbd5f2cd1f6178338868d5d1a2ff93c7a2a46f9bc569f4b5d3b9380f74426"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:8abe8b6727275b75d12fc5a014847ac2e882d2b2730f8fea6989197a68f46edd",
+          "sha256": "8abe8b6727275b75d12fc5a014847ac2e882d2b2730f8fea6989197a68f46edd"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:7778f76687401b5b649c3cd490b9b19aa97dbb6a72fe714084acec78680b38b5",
+          "sha256": "7778f76687401b5b649c3cd490b9b19aa97dbb6a72fe714084acec78680b38b5"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/kapacitor/blobs/sha256:a9c728517d5c4fd80f8e9dbe70813fa657ecc4314334cc452890967cfecb3efd",
+          "sha256": "a9c728517d5c4fd80f8e9dbe70813fa657ecc4314334cc452890967cfecb3efd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "go",
+    "rust",
+    "pkg-config"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": {
+    "run": [
+      "/home/linuxbrew/.linuxbrew/opt/kapacitor/bin/kapacitord",
+      "-config",
+      "/home/linuxbrew/.linuxbrew/etc/kapacitor.conf"
+    ],
+    "run_type": "immediate",
+    "keep_alive": {
+      "successful_exit": false
+    },
+    "working_dir": "/home/linuxbrew/.linuxbrew/var",
+    "log_path": "/home/linuxbrew/.linuxbrew/var/log/kapacitor.log",
+    "error_log_path": "/home/linuxbrew/.linuxbrew/var/log/kapacitor.log"
+  },
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/kapacitor.rb",
+  "ruby_source_checksum": {
+    "sha256": "f6b6a8856184c8b3e4b8eda1a2924f654cf9eca47f898ad151a33d736beb16a7"
+  },
+  "date_added": "2015-12-09T09:34:40+00:00"
+}

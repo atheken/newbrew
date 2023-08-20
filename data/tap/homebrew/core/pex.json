@@ -1,0 +1,75 @@
+{
+  "name": "pex",
+  "full_name": "pex",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Package manager for PostgreSQL",
+  "license": "MIT",
+  "homepage": "https://github.com/petere/pex",
+  "versions": {
+    "stable": "1.20140409",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/petere/pex/archive/1.20140409.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "5047946a2f83e00de4096cd2c3b1546bc07be431d758f97764a36b32b8f0ae57"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/pex/blobs/sha256:e234606cb3b25042d187ef86b637c01e451eaf69542a2860452704558c7f111b",
+          "sha256": "e234606cb3b25042d187ef86b637c01e451eaf69542a2860452704558c7f111b"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "libpq"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "If installing for the first time, perform the following in order to setup the necessary directory structure:\n  pex init\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/pex.rb",
+  "ruby_source_checksum": {
+    "sha256": "5386e2d41d6630d62dad7e0b798ab2d7630f71ab6c5a9cc2a88d1eeb94b51e67"
+  },
+  "date_added": "2014-05-14T12:34:16-07:00"
+}

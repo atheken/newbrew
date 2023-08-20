@@ -1,0 +1,111 @@
+{
+  "name": "parliament",
+  "full_name": "parliament",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "AWS IAM linting library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/duo-labs/parliament",
+  "versions": {
+    "stable": "1.6.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://files.pythonhosted.org/packages/8e/9a/64e0e24972057276141403b5971e87d8f51c82ba3d027badc10f39e5524f/parliament-1.6.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "05f9db2bda8d85f039dbe27716538f025b7cb973d336568762a06217e3b7e3ae"
+    },
+    "head": {
+      "url": "https://github.com/duo-labs/parliament.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:793aaf3ec629b551aef846cf197c6eed1333b11bdf77b87849f665daa4ece393",
+          "sha256": "793aaf3ec629b551aef846cf197c6eed1333b11bdf77b87849f665daa4ece393"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:deebfe54315a56ed439cf8c65b3b1adae33aa1fbf3c4f39b4cf14caf5313401f",
+          "sha256": "deebfe54315a56ed439cf8c65b3b1adae33aa1fbf3c4f39b4cf14caf5313401f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:249f3257fbc3aa941a84be43b1c6feaede1eb6a47eed1005c958bd7c4409f4a0",
+          "sha256": "249f3257fbc3aa941a84be43b1c6feaede1eb6a47eed1005c958bd7c4409f4a0"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:3d62c6315016bfce9e2b866b8668d275bab7fe1d6c5fb57eaac49e836af5a971",
+          "sha256": "3d62c6315016bfce9e2b866b8668d275bab7fe1d6c5fb57eaac49e836af5a971"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:67a3074ef1ab056322eb9c205fe698dbc0fcecdb79d787c6e6565f8de30d0403",
+          "sha256": "67a3074ef1ab056322eb9c205fe698dbc0fcecdb79d787c6e6565f8de30d0403"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:530a75b7270e1132fed8dab200c248b05b523acf274dd9e0f283804c413552b9",
+          "sha256": "530a75b7270e1132fed8dab200c248b05b523acf274dd9e0f283804c413552b9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/parliament/blobs/sha256:1e5aa8d443888fe5c664cc1e2859877c9cba2b60bb13fd5641f872799c4760fd",
+          "sha256": "1e5aa8d443888fe5c664cc1e2859877c9cba2b60bb13fd5641f872799c4760fd"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11",
+    "pyyaml",
+    "six"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/parliament.rb",
+  "ruby_source_checksum": {
+    "sha256": "1acf1dfcdc395bd9f5a68cfa33e1f065d96e9f1a4a7eec4af44e718c9f9e6eef"
+  },
+  "date_added": "2021-01-26T16:04:10+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "ddgr",
+  "full_name": "ddgr",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "DuckDuckGo from the terminal",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/jarun/ddgr",
+  "versions": {
+    "stable": "2.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/jarun/ddgr/archive/v2.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fb6601ad533f2925d2d6299ab9e6dd48da0b75e99ef9ed9068f37e516380b5e6"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/ddgr/blobs/sha256:19ece8c05b5b538dd4f3dff9b379fb29a77afab06f916393dcb273a19583cde8",
+          "sha256": "19ece8c05b5b538dd4f3dff9b379fb29a77afab06f916393dcb273a19583cde8"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/ddgr.rb",
+  "ruby_source_checksum": {
+    "sha256": "c2872917bf78d2ed33cdadbdb6f1a8390d8040f7e5c10f8285e5dfdd0a0abb18"
+  },
+  "date_added": "2017-12-10T10:31:10-08:00"
+}

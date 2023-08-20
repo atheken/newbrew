@@ -1,0 +1,75 @@
+{
+  "name": "tesseract-lang",
+  "full_name": "tesseract-lang",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Enables extra languages support for Tesseract",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/tesseract-ocr/tessdata_fast/",
+  "versions": {
+    "stable": "4.1.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d0e3bb6f3b4e75748680524a1d116f2bfb145618f8ceed55b279d15098a530f9"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tesseract-lang/blobs/sha256:589b4e7851f76924cf8bd77155f53ffda95bb92cbb19327aed1766000a203760",
+          "sha256": "589b4e7851f76924cf8bd77155f53ffda95bb92cbb19327aed1766000a203760"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "tesseract"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "4eeae4ea50839e967536ba646d5e0ed6fbcbad7f",
+  "ruby_source_path": "Formula/tesseract-lang.rb",
+  "ruby_source_checksum": {
+    "sha256": "aa7515dcb6cf6d695d4bb4da8e0bd3f82c8a493b1a260fb656611801dc53d07f"
+  },
+  "date_added": "2019-02-16T12:41:56+01:00"
+}
