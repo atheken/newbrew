@@ -58,10 +58,9 @@ public class FormulaeDocModule : IModule
             var count = 0;
 
             // we are selecting documents "randomly", but we want them to be semi-deterministic by day/run.
-            var randomDocs = json.OrderBy(k => k.name).Where(k => count++ % days == selector)
+            var randomDocs = json.OrderBy(k => k.name).Where(k => !string.IsNullOrWhiteSpace(k.readme) && count++ % days == selector)
                 //randomize so that we churn through items over a few runs during the day.
-                .OrderBy(k => Guid.NewGuid())
-                .Where(k => !string.IsNullOrWhiteSpace(k.readme)).Take(5);
+                .OrderBy(k => Guid.NewGuid()).Take(5);
             var pageData = new PageData<Formula>(1, 0, true, randomDocs);
             var doc = new Document($"feeds/{tap}/random.xml", new Statiq.Common.StringContent(RenderPage(pageData)));
             results.Add(doc);
