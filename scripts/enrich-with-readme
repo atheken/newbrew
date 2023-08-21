@@ -20,7 +20,7 @@ for i in `find ./data/tap -name *.json | sort`; do
             echo 'Getting readme for ' $i
             readme=$(echo -n $homepage | sed -E 's#github.com/(.+)#api.github.com/repos/\1/readme#g')
             
-            content=$((curl -H "Authorization: token $GITHUB_TOKEN" -sq $readme | jq -r .content | base64 -d) || echo $(true))
+            content=$((curl -H "Authorization: token $GITHUB_TOKEN" -fsq $readme | jq -r .content | base64 -d) || echo -n '')
             if [[ -n "$content" ]]; then
                 jq --arg readme "$content" '. + { readme: $readme }' $i > $i.enhanced
                 mv $i.enhanced $i
