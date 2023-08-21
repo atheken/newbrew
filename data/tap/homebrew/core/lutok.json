@@ -113,6 +113,5 @@
   "ruby_source_checksum": {
     "sha256": "5da0c8c0d35ee4f553aa3271bba92988abe2a2d08e6aa45e61f9b8cb80799191"
   },
-  "date_added": "2014-10-11T16:02:19-05:00",
-  "readme": "Lutok is a lightweight C++ API library for Lua.\n\nLutok provides thin C++ wrappers around the Lua C API to ease the\ninteraction between C++ and Lua.  These wrappers make intensive use of\nRAII to prevent resource leakage, expose C++-friendly data types, report\nerrors by means of exceptions and ensure that the Lua stack is always\nleft untouched in the face of errors.  The library also provides a small\nsubset of miscellaneous utility functions built on top of the wrappers.\n\nLutok focuses on providing a clean and safe C++ interface; the drawback\nis that it is not suitable for performance-critical environments.  In\norder to implement error-safe C++ wrappers on top of a Lua C binary\nlibrary, Lutok adds several layers or abstraction and error checking\nthat go against the original spirit of the Lua C API and thus degrade\nperformance.\n\nFor further information on the contents of this distribution file,\nplease refer to the following other documents:\n\n* AUTHORS: List of authors and contributors to this project.\n* COPYING: License information.\n* INSTALL: Compilation and installation instructions.\n* NEWS: List of major changes between formal releases.\n\nFor general project information, please visit:\n\n    https://github.com/jmmv/lutok/"
+  "date_added": "2014-10-11T16:02:19-05:00"
 }

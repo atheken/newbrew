@@ -107,5 +107,5 @@
     "sha256": "e65fbc2e3a3dcca17dbc97c743b6880fe1d9ac82a884220a1967709424bc89da"
   },
   "date_added": "2010-03-29T12:41:11+02:00",
-  "readme": "��"
+  "readme": "\n    REQUIREMENTS\n    ============\n\n None.\n\n Optional:\n - Have\n     GnuTLS (http://www.gnutls.org/)\n   or\n     OpenSSL (http://www.openssl.org/)\n   installed on your system to use their MD5 implementations\n   instead of sipsak own version.\n - Have\n     c-ares (http://daniel.haxx.se/projects/c-ares/)\n   installed on your system to get DNS SRV lookup support\n   compiled into your sipsak binary.\n\n    INSTALLATION\n    ============\n\n Prerequisites (installed):\n   - autoconf >= 2.69\n   - automake\n   - pkg-config\n\n The usual:\n\n   autoreconf --install\n   ./configure\n   make\n\n followed by an optional\n\n   make install\n\n if the binary should be available for all users on that host.\n\n    TESTS\n    =====\n\n Running tests can be done with\n\n   make check\n\n be sure to have check -- unit test framework for C -- installed\n\n   apt-get install check\n   yum install check\n   brew install check\n\n    USAGE\n    =====\n\n Please read the man page. It also contains some typical usage\n examples at the end.\n\n Have fun\n   Nils Ohlmeier"
 }

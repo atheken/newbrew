@@ -131,6 +131,5 @@
   "ruby_source_checksum": {
     "sha256": "8b4e394900b7c90a534fe36aca76449cc90357555667cd10ee94823b57085f68"
   },
-  "date_added": "2013-05-29T15:47:15-07:00",
-  "readme": "This is a library to make it easy to manipulate RDF files describing LADSPA\nplugins.\n\nIt can also be used for general RDF manipulation.\n\nIt can read RDF/XLM and N3 files and export N3 files, it also has a light\ntaxonomic inference capablility.\n\nN.B. this is the decendent project of https://sourceforge.net/projects/lrdf/"
+  "date_added": "2013-05-29T15:47:15-07:00"
 }

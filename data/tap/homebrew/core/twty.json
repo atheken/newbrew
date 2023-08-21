@@ -107,5 +107,5 @@
     "sha256": "8fe78ee11ded47271f6d623ba8cdf5ebcd40f8583ba690c80f155d8da05d6d76"
   },
   "date_added": "2021-11-02T18:14:19+00:00",
-  "readme": "��"
+  "readme": "# twty\n\nA command-line twitter client\n\n## Install\n\n1. Install golang environment.\n\n   See: http://golang.org/doc/install.html\n\n2. get twty\n\n        $ go install github.com/mattn/twty@latest\n\nThanks all!\n\n## Install for Homebrew users (macOS)\n\n    % brew install twty\n\nYou would not need to install the golang compiler with this method.\n\n## Usage\n\n    $ twty -h\n\nAt the first, you can see the opening web-browser.  And you'll see pin-code is\nshown on twitter.com.  Please copy it and type in console like following.\n\n    PIN: XXXXXX\n\nConfiguration file is stored in: ~/.config/twty/settings.json\nFor windows user: %APPDATA%/twty/settings.json\n\n## FAQ\n\nDo you use proxy? then set environment variable `HTTP_PROXY` like below.\n\n    HTTP_PROXY=http://myproxy.example.com:8080\n\n## License\n\nunder the MIT License: http://mattn.mit-license.org/2017\n\n## Author\n\nYasuhiro Matsumoto <mattn.jp@gmail.com>\n\nHave Fun!"
 }

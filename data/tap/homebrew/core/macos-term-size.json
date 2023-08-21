@@ -120,6 +120,5 @@
   "ruby_source_checksum": {
     "sha256": "fb672dd2af897b19b5f7789f9f2fe5b2af11baf959f934c9d899399cd3789463"
   },
-  "date_added": "2021-07-23T09:35:22+00:00",
-  "readme": "# macos-term-size\n\n> Get the terminal window size on macOS\n\nWorks even when run [non-interactively](http://www.tldp.org/LDP/abs/html/intandnonint.html), for example, in a child process or when piped.\n\n\n## Install\n\n[Download](https://github.com/sindresorhus/macos-term-size/releases/latest) the binary and put it in `/usr/local/bin`.\n\n\n## Usage\n\n```\n$ term-size\n143\n24\n```\n\nWhere `143` are the number of columns and `24` are the number of rows.\n\n\n## Comparison\n\n```\n$ tput cols\n158\n$ tput cols &> x; cat x\n80\n```\n\n```\n$ term-size\n158\n25\n$ term-size &> x; cat x\n158\n25\n```\n\n\n## Build\n\n```\n$ ./build\n```\n\n\n## Related\n\n- [term-size](https://github.com/sindresorhus/term-size) - Get the terminal window size, cross-platform *(Uses this binary)*\n- [win-term-size](https://github.com/sindresorhus/win-term-size) - Get the terminal window size on Windows\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)"
+  "date_added": "2021-07-23T09:35:22+00:00"
 }

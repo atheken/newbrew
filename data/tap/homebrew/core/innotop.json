@@ -111,5 +111,5 @@
     "sha256": "60adaec5864b3904f6b333efbcf33a1dbb244ffa9c18e855199358969b93ccbc"
   },
   "date_added": "2010-06-15T21:24:27-07:00",
-  "readme": "��"
+  "readme": "[![Stories in Ready](https://badge.waffle.io/innotop/innotop.png?label=ready&title=Ready)](https://waffle.io/innotop/innotop)\n\n![innotop_logo2](https://user-images.githubusercontent.com/609675/48270427-5760d500-e43a-11e8-847b-240c27a957e0.png)\n\ninnotop\n=======\n\n![Snapshot of innotop query monitor](snapshot_queries.png \"Snapshot of innotop query monitor\")\n\ninnotop is a 'top' clone for MySQL with many features and flexibility.\n\n* completely customizable; it even has a plugin interface\n* monitors many servers at once and can aggregate across them \n\nThe manual is embedded into the program in Perl's POD format, so it should be available \nthrough perldoc and man.\n\nThe full history has been imported in github."
 }

@@ -108,6 +108,5 @@
   "ruby_source_checksum": {
     "sha256": "abd6939152116ebdfbb8e1dbe434ca02f79885f1c9c456ff6b3a68ec4fe15182"
   },
-  "date_added": "2014-02-16T17:07:28-08:00",
-  "readme": "`libuvc` is a cross-platform library for USB video devices, built atop `libusb`.\nIt enables fine-grained control over USB video devices exporting the standard USB Video Class\n(UVC) interface, enabling developers to write drivers for previously unsupported devices,\nor just access UVC devices in a generic fashion.\n\n## Getting and Building libuvc\n\nPrerequisites: You will need `libusb` and [CMake](http://www.cmake.org/) installed.\n\nTo build, you can just run these shell commands:\n\n    git clone https://github.com/libuvc/libuvc\n    cd libuvc\n    mkdir build\n    cd build\n    cmake ..\n    make && sudo make install\n\nand you're set! If you want to change the build configuration, you can edit `CMakeCache.txt`\nin the build directory, or use a CMake GUI to make the desired changes.\n\nThere is also `BUILD_EXAMPLE` and `BUILD_TEST` options to enable the compilation of `example` and `uvc_test` programs. To use them, replace the `cmake ..` command above with `cmake .. -DBUILD_TEST=ON -DBUILD_EXAMPLE=ON`.\nThen you can start them with `./example` and `./uvc_test` respectively. Note that you need OpenCV to build the later (for displaying image).\n\n## Developing with libuvc\n\nThe documentation for `libuvc` can currently be found at https://libuvc.github.io/.\n\nHappy hacking!"
+  "date_added": "2014-02-16T17:07:28-08:00"
 }

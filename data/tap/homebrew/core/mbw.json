@@ -102,5 +102,5 @@
     "sha256": "1f2ffca667729141b9adeaf0a6c676d3dfb9a8f321534bb8ab6eb34be88843b8"
   },
   "date_added": "2022-05-05T08:39:58+00:00",
-  "readme": "��"
+  "readme": "MBW determines the \"copy\" memory bandwidth available to userspace programs. Its simplistic approach models that of real applications. It is not tuned to extremes and it is not aware of hardware architecture, just like your average software package.\n\n2006, 2012 Andras.Horvath atnospam gmail.com\n2013 j.m.slocum atnospam gmail.com\n2022 Willian.Zhang\n\nhttp://github.com/raas/mbw\nhttps://github.com/Willian-Zhang/mbw\n\n'mbw 1000' to run copy memory test on all methods with 1 GiB memory.\n'mbw -h' for help\n\nwatch out for swap usage (or turn off swap)"
 }

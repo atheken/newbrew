@@ -118,6 +118,5 @@
   "ruby_source_checksum": {
     "sha256": "607a80001cff9cb870b235b8f8caec61c5825e8eceece0775658c9604933b0c6"
   },
-  "date_added": "2017-02-19T02:50:59-08:00",
-  "readme": "# What?\n\n![](https://github.com/busyloop/lolcat/raw/master/ass/nom.jpg)\n\n## Screenshot\n\n![](https://github.com/busyloop/lolcat/raw/master/ass/screenshot.png)\n\n## Installation\n\n### Linux\n\n```bash\n$ sudo snap install lolcat\n```\n\n### Mac\n\n```bash\n$ brew install lolcat\n```"
+  "date_added": "2017-02-19T02:50:59-08:00"
 }

@@ -70,5 +70,5 @@
     "sha256": "819da74b8286d63bf138a59d19138e05ef2236f0aa34d620122a3a08410fc849"
   },
   "date_added": "2012-10-30T06:47:41-07:00",
-  "readme": "��"
+  "readme": "I no longer maintain easygit.  Please go look at github.com/dfabulich/easygit.\nI pushed this version here because apparently when gitorious died, my\nonline copy of commits I had made in v1.8.5 went missing and others didn't\nhave them.  I haven't done maintenance work on easygit for over 4 years now."
 }

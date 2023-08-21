@@ -117,5 +117,5 @@
     "sha256": "dee3a43e54be0ba27fb07ae8f66a1501f423c9ae357d05a91f552836d0209385"
   },
   "date_added": "2014-07-18T19:00:43-05:00",
-  "readme": "��"
+  "readme": "# Quazip\n\n[![Conan Center](https://shields.io/conan/v/quazip)](https://conan.io/center/quazip)\n\nQuaZip is the C++ wrapper for Gilles Vollant's ZIP/UNZIP package\n(AKA Minizip) using Trolltech's Qt library.\n\nIf you need to write files to a ZIP archive or read files from one\nusing QIODevice API, QuaZip is exactly the kind of tool you need.\n\nSee [the documentation](https://stachenov.github.io/quazip/) for details.\n\nWant to report a bug or ask for a feature? Open an [issue](https://github.com/stachenov/quazip/issues).\n\nWant to fix a bug or implement a new feature? See [CONTRIBUTING.md](CONTRIBUTING.md).\n\nYou're a package maintainer and want to update to QuaZip 1.0? Read [the migration guide](https://github.com/stachenov/quazip/blob/master/QuaZip-1.x-migration.md).\n\nCopyright notice:\n\nCopyright (C) 2005-2020 Sergey A. Tachenov and contributors\n\nDistributed under LGPL, full details in the COPYING file.\n\nOriginal ZIP package is copyrighted by Gilles Vollant, see\nquazip/(un)zip.h files for details, but basically it's the zlib license."
 }

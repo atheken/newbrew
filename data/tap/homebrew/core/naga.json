@@ -133,5 +133,5 @@
     "sha256": "07a3ff5c0c7021f8268baec3848760bc6ffb01d544104c31ae7ff65d6e8a862c"
   },
   "date_added": "2017-02-08T10:08:56+00:00",
-  "readme": "��"
+  "readme": "![Logo](/docs/img/naga-logo.png?raw=true \"Logo\")\n\nNaga is the Sanskrit word for cobra; and here is a terminal implementation of the single most important game ever created by mankind!\n\n## Install\n\nI have tested naga on **ubuntu** and **OS X**, but it should work elsewhere as well. Naga depends on **ncurses** and **pthread**. \n\n```\n$ git clone http://github.com/anayjoshi/naga\n$ cd naga\n$ make install\n```\n\nYou can alternatively use *scons* to do the same.\n\nIf you are on **OS X**, you may use the [Homebrew](http://brew.sh)\n\n```\nbrew tap homebrew/games\nbrew install naga\n```\n \n## How to Play\n\n- `w-a-s-d` to move the snake around\n- `q` to quit the game\n- the symbol `$` indicates food\n- score is mentioned in the bottom right corner of the screen\n- the naga's head is represented by `#` and the rest of its body is represented by `*`\n\n## Snapshot\n\n![Naga](/docs/img/naga-screenshot.png?raw=true \"Naga Screenshot\")"
 }

@@ -102,5 +102,5 @@
     "sha256": "efe9dc2b00dd27b38a8aab4f4317da0da36a355b480039924ecdba33e4ba8ad3"
   },
   "date_added": "2012-06-30T08:39:01-07:00",
-  "readme": "��"
+  "readme": "NAME\n  txt2man\n\nDESCRIPTION\n  Txt2man converts flat ASCII text to man page format. It is a shell\n  script using gnu awk, that should run on any Unix like system.\n\n  help: txt2man -h\n\nINSTALL\n      make install\t(to install under /usr/local)\n  or\n      make install prefix=path\n\nIssues and pull requests should be opened at https://github.com/mvertes/txt2man.\n\n-- Marc Vertes"
 }
