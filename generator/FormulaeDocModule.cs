@@ -50,8 +50,18 @@ public class FormulaeDocModule : IModule
                 return doc;
             }));
 
-            // this would be a good opportunity to produce a feed that has randomly selected formulae.
-            var randomDocs = json.OrderBy(k => Guid.NewGuid()).Where(k => !String.IsNullOrWhiteSpace(k.readme)).Take(20);
+            // We want to randomize the
+            // If the year is divisible by 4, it's a leap year (at least until 2100, 
+            // so I'm willing to accept this as a good approximation of days in the year)
+            var days = DateTime.UtcNow.Year % 4 == 0 ? 366 : 365;
+            var selector = DateTime.UtcNow.DayOfYear;
+            var count = 0;
+
+            // we are selecting documents "randomly", but we want them to be semi-deterministic by day/run.
+            var randomDocs = json.OrderBy(k => k.name).Where(k => count++ % days == selector)
+                //randomize so that we churn through items over a few runs during the day.
+                .OrderBy(k => Guid.NewGuid())
+                .Where(k => !string.IsNullOrWhiteSpace(k.readme)).Take(5);
             var pageData = new PageData<Formula>(1, 0, true, randomDocs);
             var doc = new Document($"feeds/{tap}/random.xml", new Statiq.Common.StringContent(RenderPage(pageData)));
             results.Add(doc);
