@@ -112,7 +112,7 @@ public class FormulaeDocModule : IModule
         return Encoding.UTF8.GetString(ms.GetBuffer());
     }
 
-    private static readonly Regex markdownLinkMatcher = new Regex(@"\[[^\]]+]\(\s*(?![a-z]+://)(?<path>[^)]+)\)", RegexOptions.ExplicitCapture);
+    private static readonly Regex markdownLinkMatcher = new Regex(@"(?<prefix>\[[^\]]+]\(\s*(?!([a-z]+://)|#))([.]/)?(?<path>[^)]+)(?<suffix>\))", RegexOptions.ExplicitCapture);
 
     private TextSyndicationContent GetReadmeOrDescriptionContent(Formula k)
     {
@@ -122,7 +122,7 @@ public class FormulaeDocModule : IModule
         }
         else
         {
-            var content = markdownLinkMatcher.Replace(k.readme, k.homepage + "/${path}");
+            var content = markdownLinkMatcher.Replace(k.readme, "${prefix}" + k.homepage + "${path}${suffix}");
             using var tw = new StringWriter();
             Markdig.Markdown.Convert(content, new HtmlRenderer(tw));
             tw.Flush();
