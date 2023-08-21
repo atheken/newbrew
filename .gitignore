@@ -8,3 +8,4 @@ site/
 generator/input/public/main.css
 generator/nohup.out
 *.enhanced
+*.cleaned
