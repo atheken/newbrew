@@ -17,8 +17,8 @@ for i in `find ./data/tap -name *.json | sort`; do
     if [[ $homepage =~ 'github.com' ]]; then
         (
         if ! (jq -e '.readme' $i > /dev/null ) ; then
-            echo 'Getting readme for ' $i
-            readme=$(echo -n $homepage | sed -E 's#github.com/(.+)#api.github.com/repos/\1/readme#g')
+            echo -e "\nGetting readme for $i"
+            readme=$(echo -n $homepage | sed -E 's#github.com/(.+)#api.github.com/repos/\1readme#g')
             
             content=$((curl -H "Authorization: token $GITHUB_TOKEN" -fsq $readme | jq -r .content | base64 -d) || echo -n '')
             if [[ -n "$content" ]]; then
@@ -27,11 +27,11 @@ for i in `find ./data/tap -name *.json | sort`; do
             else
                 jq 'del(.readme)' $i > $i.cleaned
                 mv $i.cleaned $i
-                echo 'Requested readme content is empty, this could be due to rate-limiting. TBD.'
+                echo -e "\nRequested readme content is empty for $readme"
             fi
             
         else
-            echo $i already has a readme set, skipping.
+            echo -n '.' # show some progress.
         fi
         ) &
     fi
