@@ -58,18 +58,20 @@ public class FormulaeDocModule : IModule
             var count = 0;
 
             // we are selecting documents "randomly", but we want them to be semi-deterministic by day/run.
-            var randomDocs = json.OrderBy(k => k.name).Where(k => !string.IsNullOrWhiteSpace(k.readme) && count++ % days == selector)
+            var randomDocs = json.OrderBy(k => k.name)
+                .Where(k => !string.IsNullOrWhiteSpace(k.readme) && count++ % days == selector)
                 //randomize so that we churn through items over a few runs during the day.
                 .OrderBy(k => Guid.NewGuid()).Take(5);
             var pageData = new PageData<Formula>(1, 0, true, randomDocs);
-            var doc = new Document($"feeds/{tap}/random.xml", new Statiq.Common.StringContent(RenderPage(pageData)));
+            var doc = new Document($"feeds/{tap}/random.xml",
+                new Statiq.Common.StringContent(RenderPage(pageData, $"Random brews for `{tap}`")));
             results.Add(doc);
 
         }
         return results;
     }
 
-    private string RenderPage(PageData<Formula> pageData)
+    private string RenderPage(PageData<Formula> pageData, string? title = null)
     {
         var ms = new MemoryStream();
         var xm = XmlWriter.Create(ms, new XmlWriterSettings
@@ -77,9 +79,11 @@ public class FormulaeDocModule : IModule
             Indent = true
         });
 
+        title ??= $"New Brew for `{pageData.items.First().tap}`";
+
         var feed = new SyndicationFeed
         {
-            Title = new TextSyndicationContent($"New Brew for `{pageData.items.First().tap}`"),
+            Title = new TextSyndicationContent(title),
             Description = new TextSyndicationContent($"New formulae added to the homebrew tap: `{pageData.items.First().tap}`."),
             Items = pageData.items.Select(k =>
             {
@@ -94,7 +98,7 @@ public class FormulaeDocModule : IModule
                 item.Links.Add(link);
                 return item;
             }),
-            LastUpdatedTime = pageData.items.Max(k => k.date_added),
+            LastUpdatedTime = DateTime.UtcNow,
             TimeToLive = TimeSpan.FromMinutes(15)
         };
 
@@ -131,7 +135,7 @@ public class FormulaeDocModule : IModule
         }
         else
         {
-            var content = markdownLinkMatcher.Replace(k.readme, "${prefix}" + k.homepage + "${path}${suffix}");
+            var content = markdownLinkMatcher.Replace(k.readme.Trim(), "${prefix}" + k.homepage + "${path}${suffix}");
             using var tw = new StringWriter();
             Markdig.Markdown.Convert(content, new HtmlRenderer(tw));
             tw.Flush();
