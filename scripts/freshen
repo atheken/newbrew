@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
 
+pushd workdir
+
 date > .freshen
 git add .freshen
 git commit -am 'Freshen the repo so that github workflows continue to execute.'
