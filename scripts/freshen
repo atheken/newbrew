@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 workdir=$(dirname $(readlink -f $BASH_SOURCE))/../
 
-pushd workdir
+pushd $workdir
 
 date > .freshen
 git add .freshen
